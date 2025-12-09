@@ -1,214 +1,84 @@
 @page
 @model Showheel.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Yingrong Lin | Portfolio";
 }
 
-<section class="hero">
-    <!-- TODO: Replace the tagline, name, subtitle, and hero background image with your details. -->
-    <div class="hero-content">
-        <p class="tagline">TODO: Add your tagline here.</p>
-        <h1 class="name">TODO: Add your name here.</h1>
-        <p class="subtitle">TODO: Add a short mission statement or intro sentence.</p>
+<section id="hero" class="full-section hero-section">
+    <div class="section-inner hero-inner">
+        <div class="eyebrow">Cinematic sci-fi universes</div>
+        <h1>Yingrong Lin</h1>
+        <p class="subtitle">Sci-Fi Writer · 3D Environment Artist · Minecraft Mod Developer</p>
+        <p class="contact-line">email: <a href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a></p>
+        <p class="intro">I create long-form sci-fi stories and 3D worlds, focusing on worldbuilding, game mod development, and immersive environment design.</p>
+        <div class="cta-row">
+            <a class="primary-button" href="https://space.bilibili.com/3546770577558337/lists/6508504?type=season" target="_blank" rel="noopener noreferrer">View curated works and videos</a>
+        </div>
+        <p class="footnote">Let’s explore works ranked by awesomeness.</p>
     </div>
 </section>
 
-<section class="about section">
-    <div class="content">
-        <h2>About</h2>
-        <!-- TODO: Replace the bio text with your own background and interests. -->
-        <p>TODO: Replace this bio text with your own story, background, and interests.</p>
-    </div>
-</section>
+<section id="feature" class="full-section feature-section">
+    <div class="section-inner">
+        <div class="section-header">
+            <p class="eyebrow">Flagship Experience</p>
+            <h2>Skies Beyond the Star – Music Reading Experience</h2>
+            <p class="lede">Explore Archeon as both a story world and an animated concept reel. This flagship project blends long-form sci-fi narrative with cinematic visuals and music.</p>
+        </div>
 
-<section class="projects section">
-    <div class="content">
-        <h2>Projects</h2>
-        <!-- TODO: Update project titles, descriptions, and links with real projects. -->
-        <div class="projects-grid">
-            <article class="project-card">
-                <h3>TODO: Project Title 1</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
-            <article class="project-card">
-                <h3>TODO: Project Title 2</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
-            <article class="project-card">
-                <h3>TODO: Project Title 3</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
-            <article class="project-card">
-                <h3>TODO: Project Title 4</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
-            <article class="project-card">
-                <h3>TODO: Project Title 5</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
-            <article class="project-card">
-                <h3>TODO: Project Title 6</h3>
-                <p>TODO: Brief description of the project, tools used, and your role.</p>
-                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
-            </article>
+        <div class="feature-grid">
+            <div class="feature-main">
+                <a class="media-frame" href="https://youtu.be/wSmDndEwXzY" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/hero-anna-cliff.png" alt="Concept art of Anna standing on a cliff above a sci-fi city" />
+                </a>
+                <p class="caption">Watch the concept reel on YouTube</p>
+            </div>
+            <div class="feature-stack">
+                <div class="stack-card">
+                    <div class="card-heading">Click image to read the novel</div>
+                    <a class="media-frame" href="https://www.wattpad.com/story/404103703-skies-beyond-the-star" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/anna-freedman.png" alt="Portrait of protagonist Anna Freedman" />
+                    </a>
+                    <p class="caption">Anna Freedman — the protagonist of Skies Beyond the Star.</p>
+                </div>
+                <div class="stack-card">
+                    <div class="card-heading">Archeon vistas</div>
+                    <div class="media-frame">
+                        <img src="/images/gallery-05.png" alt="Sci-fi airship landscape from Archeon" />
+                    </div>
+                    <p class="caption">An airship crossing the frontier skies of Archeon.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="gallery section">
-    <div class="content">
-        <h2>Gallery</h2>
+<section id="gallery" class="full-section gallery-section">
+    <div class="section-inner">
+        <div class="section-header">
+            <p class="eyebrow">Worldbuilding</p>
+            <h2>Archeon Environment Gallery</h2>
+            <p class="lede">A selection of key locations, airships, and towns from the Skies Beyond the Star universe.</p>
+        </div>
         <div class="gallery-grid">
-            <img src="/images/placeholder1.jpg" alt="Gallery placeholder 1">
-            <img src="/images/placeholder2.jpg" alt="Gallery placeholder 2">
-            <img src="/images/placeholder3.jpg" alt="Gallery placeholder 3">
-            <img src="/images/placeholder4.jpg" alt="Gallery placeholder 4">
-            <img src="/images/placeholder5.jpg" alt="Gallery placeholder 5">
-            <img src="/images/placeholder6.jpg" alt="Gallery placeholder 6">
+            <div class="gallery-card"><img src="/images/avatar-01.png" alt="Archeon town square at night" /></div>
+            <div class="gallery-card"><img src="/images/gallery-02.png" alt="Airship hovering above glowing city" /></div>
+            <div class="gallery-card"><img src="/images/gallery-03.png" alt="Bridge and lanterns over futuristic canal" /></div>
+            <div class="gallery-card"><img src="/images/gallery-04.png" alt="Skyline of Archeon with neon clouds" /></div>
+            <div class="gallery-card"><img src="/images/gallery-05.png" alt="Vast plateau with sci-fi ruins" /></div>
+            <div class="gallery-card"><img src="/images/gallery-06.png" alt="Floating island and ships at dusk" /></div>
+            <div class="gallery-card"><img src="/images/gallery-07.png" alt="Mountain range with futuristic structures" /></div>
+            <div class="gallery-card"><img src="/images/gallery-08.png" alt="Frontier city skyline" /></div>
+            <div class="gallery-card"><img src="/images/gallery-09.png" alt="Airship departing from a stone tower" /></div>
         </div>
-        <!-- TODO: Replace placeholder image filenames with your own images stored in /images/. -->
+        <div id="contact" class="contact-footer">
+            <h3>Yingrong Lin</h3>
+            <p>Email: <a href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a></p>
+            <div class="contact-links">
+                <a href="https://github.com/yl2811-cmd" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span aria-hidden="true">•</span>
+                <a href="https://space.bilibili.com/3546770577558337" target="_blank" rel="noopener noreferrer">Bilibili</a>
+            </div>
+        </div>
     </div>
 </section>
-
-<section class="contact section">
-    <div class="content">
-        <h2>Contact</h2>
-        <!-- TODO: Update the email address and profile links below. -->
-        <p>Email: <a href="mailto:TODO:your.email@example.com">TODO: your.email@example.com</a></p>
-        <p>GitHub: <a href="TODO:https://github.com/yourusername" target="_blank" rel="noopener">TODO: github.com/yourusername</a></p>
-        <p>ArtStation: <a href="TODO:https://www.artstation.com/yourprofile" target="_blank" rel="noopener">TODO: artstation.com/yourprofile</a></p>
-    </div>
-</section>
-
-<style>
-    :root {
-        --bg-dark: #0f172a;
-        --bg-light: #f8fafc;
-        --accent: #38bdf8;
-        --text-main: #0b1727;
-        --text-muted: #475569;
-    }
-
-    body {
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: var(--text-main);
-        background: var(--bg-light);
-        line-height: 1.6;
-    }
-
-    .hero {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 60vh;
-        padding: 4rem 2rem;
-        color: white;
-        /* TODO: Replace the background image URL with your own hero image. */
-        background: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)),
-            url('TODO: /images/your-hero-background.jpg') center/cover no-repeat;
-        text-align: center;
-    }
-
-    .hero-content {
-        max-width: 720px;
-    }
-
-    .tagline {
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        font-weight: 600;
-        color: var(--accent);
-        margin-bottom: 0.75rem;
-    }
-
-    .name {
-        font-size: clamp(2.5rem, 6vw, 3.75rem);
-        margin: 0 0 1rem;
-    }
-
-    .subtitle {
-        font-size: 1.1rem;
-        color: #e2e8f0;
-        margin: 0;
-    }
-
-    .section {
-        padding: 4rem 2rem;
-    }
-
-    .content {
-        max-width: 1100px;
-        margin: 0 auto;
-    }
-
-    h2 {
-        margin-top: 0;
-        font-size: 2rem;
-        color: var(--bg-dark);
-    }
-
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        gap: 1.5rem;
-        margin-top: 1.5rem;
-    }
-
-    .project-card {
-        background: white;
-        border-radius: 12px;
-        padding: 1.25rem;
-        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-        border: 1px solid #e2e8f0;
-    }
-
-    .project-card h3 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        color: var(--bg-dark);
-    }
-
-    .project-card p {
-        margin: 0 0 1rem;
-        color: var(--text-muted);
-    }
-
-    .project-link {
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 600;
-    }
-
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    .gallery-grid img {
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-        border: 1px solid #e2e8f0;
-    }
-
-    .contact a {
-        color: var(--accent);
-        text-decoration: none;
-        font-weight: 600;
-    }
-
-    .contact p {
-        margin: 0.35rem 0;
-    }
-</style>

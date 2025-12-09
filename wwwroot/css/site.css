@@ -144,6 +144,39 @@ main {
     overflow: hidden;
 }
 
+.wave-divider {
+    position: relative;
+    height: 140px;
+    margin-top: -2px;
+    background: linear-gradient(180deg, rgba(5, 9, 21, 0.15) 0%, rgba(5, 9, 21, 0.28) 100%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+.wave-divider::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-repeat: repeat-x;
+    background-size: 1200px 140px;
+    background-position: center;
+    animation: waveDrift 18s linear infinite;
+    opacity: 0.8;
+}
+
+.wave-hero::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 56c120 32 240 48 360 48s240-16 360-32 240-32 360-32 240 16 360 32v68H0Z' fill='%23050f22'/%3E%3C/svg%3E");
+}
+
+.wave-feature::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 76c120-22 240-34 360-34s240 12 360 26 240 28 360 28 240-12 360-24v68H0Z' fill='%23080f1e'/%3E%3C/svg%3E");
+}
+
+@keyframes waveDrift {
+    0% { background-position: 0 0; }
+    100% { background-position: -1200px 0; }
+}
+
 .section-inner {
     width: min(1200px, 100%);
     margin: 0 auto;
@@ -175,28 +208,29 @@ main {
     z-index: 1;
 }
 
+
 .hero-section::after {
     content: "";
     position: absolute;
     inset: -6%;
     background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
     z-index: 0;
-    opacity: 0.58;
-    filter: saturate(1.12) blur(0.75px);
+    opacity: 0.5;
+    filter: saturate(1.05) blur(0.35px);
     transform: scale(1);
-    mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.85) 40%, rgba(255, 255, 255, 0.3) 75%, rgba(255, 255, 255, 0) 100%);
+    mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 40%, rgba(255, 255, 255, 0.28) 75%, rgba(255, 255, 255, 0) 100%);
     animation: heroPulse 18s ease-in-out infinite alternate;
 }
 
 @keyframes heroPulse {
     0% { transform: scale(1) translateY(0); }
-    100% { transform: scale(1.02) translateY(-6px); }
+    100% { transform: scale(1.012) translateY(-4px); }
 }
 
 @keyframes heroLensWarp {
-    0% { transform: scale(1.01) translateY(-2px); filter: saturate(1.1) blur(1px) brightness(1.02); opacity: 0.34; }
-    50% { transform: scale(1.025) translateY(-4px); filter: saturate(1.2) blur(1.35px) brightness(1.05); opacity: 0.4; }
-    100% { transform: scale(1.01) translateY(-2px); filter: saturate(1.12) blur(1px) brightness(1.02); opacity: 0.34; }
+    0% { transform: scale(1.006) translateY(-2px); filter: saturate(1.05) blur(0.6px) brightness(1.02); opacity: 0.3; }
+    50% { transform: scale(1.012) translateY(-3px); filter: saturate(1.1) blur(0.75px) brightness(1.04); opacity: 0.34; }
+    100% { transform: scale(1.006) translateY(-2px); filter: saturate(1.05) blur(0.6px) brightness(1.02); opacity: 0.3; }
 }
 
 .hero-section.hero-lens-active::after {
@@ -348,6 +382,12 @@ h1 {
     height: 100%;
     display: block;
     object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.wander-image {
+    will-change: transform;
+    transform-origin: center;
 }
 
 .media-frame:hover,

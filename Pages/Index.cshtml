@@ -6,15 +6,18 @@
 
 <section id="hero" class="full-section hero-section">
     <div class="section-inner hero-inner">
-        <div class="eyebrow">Cinematic sci-fi universes</div>
-        <h1>Yingrong Lin</h1>
-        <p class="subtitle">Sci-Fi Writer · 3D Environment Artist · Minecraft Mod Developer</p>
-        <p class="contact-line">email: <a href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a></p>
-        <p class="intro">I create long-form sci-fi stories and 3D worlds, focusing on worldbuilding, game mod development, and immersive environment design.</p>
-        <div class="cta-row">
-            <a class="primary-button" href="https://space.bilibili.com/3546770577558337/lists/6508504?type=season" target="_blank" rel="noopener noreferrer">View curated works and videos</a>
+        <div class="hero-content-frame">
+            <div class="hero-frame-overlay"></div>
+            <div class="eyebrow">Cinematic sci-fi universes</div>
+            <h1>Yingrong Lin</h1>
+            <p class="subtitle">Sci-Fi Writer · 3D Environment Artist · Minecraft Mod Developer</p>
+            <p class="contact-line">email: <a href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a></p>
+            <p class="intro">I create long-form sci-fi stories and 3D worlds, focusing on worldbuilding, game mod development, and immersive environment design.</p>
+            <div class="cta-row">
+                <a class="primary-button" href="https://space.bilibili.com/3546770577558337/lists/6508504?type=season" target="_blank" rel="noopener noreferrer">View curated works and videos</a>
+            </div>
+            <p class="footnote">Let’s explore works ranked by awesomeness.</p>
         </div>
-        <p class="footnote">Let’s explore works ranked by awesomeness.</p>
     </div>
 </section>
 
@@ -52,6 +55,53 @@
         </div>
     </div>
 </section>
+
+@section Scripts {
+    <script>
+        (() => {
+            const hero = document.getElementById('hero');
+            if (!hero) {
+                return;
+            }
+
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const offsetFactor = window.innerWidth < 640 ? 0.04 : 0.12;
+            let ticking = false;
+            let lensTimer;
+
+            const applyOffset = () => {
+                if (prefersReducedMotion) return;
+                const offset = Math.max(-30, Math.min(window.scrollY * offsetFactor, 120));
+                hero.style.setProperty('--hero-bg-offset', `${offset * -0.12}px`);
+            };
+
+            const triggerLens = () => {
+                if (prefersReducedMotion) return;
+                hero.classList.add('hero-lens-active');
+                setTimeout(() => hero.classList.remove('hero-lens-active'), 1100);
+            };
+
+            const onScroll = () => {
+                if (!ticking) {
+                    window.requestAnimationFrame(() => {
+                        applyOffset();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+
+                if (lensTimer) {
+                    clearTimeout(lensTimer);
+                }
+                hero.classList.remove('hero-lens-active');
+                lensTimer = window.setTimeout(triggerLens, 340);
+            };
+
+            applyOffset();
+            window.addEventListener('scroll', onScroll, { passive: true });
+        })();
+    </script>
+}
 
 <section id="gallery" class="full-section gallery-section">
     <div class="section-inner">

@@ -33,10 +33,18 @@
 
         <div class="feature-grid">
             <div class="feature-main">
-                <a class="media-frame" href="https://youtu.be/wSmDndEwXzY" target="_blank" rel="noopener noreferrer">
-                    <img class="wander-image" data-wander data-wander-scroll="12" src="/images/hero-anna-cliff.png" alt="Concept art of Anna standing on a cliff above a sci-fi city" />
-                </a>
-                <p class="caption">Watch the concept reel on YouTube</p>
+                <div class="media-frame video-frame">
+                    <iframe
+                        title="Skies Beyond the Star concept reel"
+                        data-autoplay-video
+                        data-video-id="sZlfea5VRAs"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowfullscreen
+                        loading="lazy"
+                        src=""
+                    ></iframe>
+                </div>
+                <p class="caption">The concept reel auto-plays as soon as you land here.</p>
             </div>
             <div class="feature-stack">
                 <div class="stack-card">
@@ -303,6 +311,40 @@
                 pointerY = 0;
                 recalcTargets();
             });
+        })();
+
+        (() => {
+            const frame = document.querySelector('[data-autoplay-video]');
+            if (!frame) return;
+
+            const videoId = frame.dataset.videoId;
+            if (!videoId) return;
+
+            const buildSrc = () =>
+                `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&controls=1&rel=0&playsinline=1&modestbranding=1`;
+
+            let activated = false;
+
+            const startVideo = () => {
+                if (activated) return;
+                frame.src = buildSrc();
+                activated = true;
+            };
+
+            if ('IntersectionObserver' in window) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting && entry.intersectionRatio >= 0.35) {
+                            startVideo();
+                            observer.disconnect();
+                        }
+                    });
+                }, { threshold: [0.35] });
+
+                observer.observe(frame);
+            } else {
+                startVideo();
+            }
         })();
     </script>
 }

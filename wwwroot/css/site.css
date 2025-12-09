@@ -186,7 +186,12 @@ main {
 
 .hero-section {
     --hero-bg-offset: 0px;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
+    --hero-bg-parallax-x: 0px;
+    --hero-bg-parallax-y: 0px;
+    background-image: url('/images/hero-city.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% + var(--hero-bg-parallax-x)) calc(50% + var(--hero-bg-offset) + var(--hero-bg-parallax-y));
 }
 
 .hero-section::before {
@@ -194,8 +199,8 @@ main {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.45) 0%, rgba(6, 16, 34, 0.4) 42%, rgba(6, 16, 34, 0.22) 70%, rgba(6, 16, 34, 0.1) 100%),
-        linear-gradient(180deg, rgba(7, 15, 32, 0.12) 0%, rgba(7, 15, 32, 0.5) 50%, rgba(7, 12, 26, 0.14) 100%);
+        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.35) 0%, rgba(6, 16, 34, 0.3) 42%, rgba(6, 16, 34, 0.18) 70%, rgba(6, 16, 34, 0.08) 100%),
+        linear-gradient(180deg, rgba(7, 15, 32, 0.08) 0%, rgba(7, 15, 32, 0.38) 50%, rgba(7, 12, 26, 0.12) 100%);
     z-index: 1;
 }
 
@@ -213,10 +218,13 @@ main {
     content: "";
     position: absolute;
     inset: -6%;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
+    background-image: url('/images/hero-city.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% + var(--hero-bg-parallax-x)) calc(50% + var(--hero-bg-offset) + var(--hero-bg-parallax-y));
     z-index: 0;
-    opacity: 0.5;
-    filter: saturate(1.05) blur(0.35px);
+    opacity: 0.65;
+    filter: saturate(1.1) blur(0.25px) brightness(1.08);
     transform: scale(1);
     mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 40%, rgba(255, 255, 255, 0.28) 75%, rgba(255, 255, 255, 0) 100%);
     animation: heroPulse 18s ease-in-out infinite alternate;

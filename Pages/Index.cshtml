@@ -72,11 +72,42 @@
             const offsetFactor = window.innerWidth < 640 ? 0.04 : 0.12;
             let ticking = false;
             let lensTimer;
+            const parallaxState = {
+                targetX: 0,
+                targetY: 0,
+                currentX: 0,
+                currentY: 0,
+            };
+            let parallaxMaxX = window.innerWidth < 640 ? 10 : 18;
+            let parallaxMaxY = window.innerWidth < 640 ? 6 : 12;
 
             const applyOffset = () => {
                 if (prefersReducedMotion) return;
                 const offset = Math.max(-30, Math.min(window.scrollY * offsetFactor, 120));
                 hero.style.setProperty('--hero-bg-offset', `${offset * -0.12}px`);
+            };
+
+            const applyParallax = () => {
+                if (prefersReducedMotion) return;
+                parallaxState.currentX += (parallaxState.targetX - parallaxState.currentX) * 0.08;
+                parallaxState.currentY += (parallaxState.targetY - parallaxState.currentY) * 0.08;
+                hero.style.setProperty('--hero-bg-parallax-x', `${parallaxState.currentX}px`);
+                hero.style.setProperty('--hero-bg-parallax-y', `${parallaxState.currentY}px`);
+                window.requestAnimationFrame(applyParallax);
+            };
+
+            const handlePointerMove = (event) => {
+                if (prefersReducedMotion) return;
+                const rect = hero.getBoundingClientRect();
+                const normX = ((event.clientX - rect.left) / rect.width - 0.5) * 2;
+                const normY = ((event.clientY - rect.top) / rect.height - 0.5) * 2;
+                parallaxState.targetX = normX * -parallaxMaxX;
+                parallaxState.targetY = normY * -parallaxMaxY;
+            };
+
+            const resetParallax = () => {
+                parallaxState.targetX = 0;
+                parallaxState.targetY = 0;
             };
 
             const triggerLens = () => {
@@ -102,7 +133,14 @@
             };
 
             applyOffset();
+            applyParallax();
             window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', () => {
+                parallaxMaxX = window.innerWidth < 640 ? 10 : 18;
+                parallaxMaxY = window.innerWidth < 640 ? 6 : 12;
+            });
+            hero.addEventListener('pointermove', handlePointerMove);
+            hero.addEventListener('pointerleave', resetParallax);
         })();
 
         (() => {

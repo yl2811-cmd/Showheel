@@ -23,7 +23,7 @@
 
 <div class="wave-divider wave-hero" aria-hidden="true"></div>
 
-<section id="feature" class="full-section feature-section">
+<section id="feature" class="full-section feature-section" data-bg-parallax="11">
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Flagship Experience</p>
@@ -222,10 +222,92 @@
                 jitterTimers.forEach(timer => window.clearInterval(timer));
             });
         })();
+
+        (() => {
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            if (prefersReducedMotion) return;
+
+            const parallaxSections = Array.from(document.querySelectorAll('[data-bg-parallax]'));
+            if (!parallaxSections.length) return;
+
+            const states = new Map();
+            let pointerX = 0;
+            let pointerY = 0;
+
+            const clamp = (value, max) => Math.max(-max, Math.min(max, value));
+
+            const recalcTargets = () => {
+                parallaxSections.forEach(section => {
+                    const rect = section.getBoundingClientRect();
+                    const intensity = parseFloat(section.dataset.bgParallax || '10');
+                    const centerOffsetY = (rect.top + rect.height / 2) - (window.innerHeight / 2);
+                    const scrollInfluence = clamp(-centerOffsetY * 0.05, intensity);
+                    const pointerInfluenceX = pointerX * intensity * 0.55;
+                    const pointerInfluenceY = pointerY * intensity * 0.45;
+
+                    const targetX = clamp(pointerInfluenceX, intensity);
+                    const targetY = clamp(scrollInfluence + pointerInfluenceY, intensity);
+
+                    const existing = states.get(section) || { currentX: 0, currentY: 0 };
+                    states.set(section, {
+                        ...existing,
+                        targetX,
+                        targetY,
+                        max: intensity,
+                    });
+                });
+            };
+
+            const update = () => {
+                parallaxSections.forEach(section => {
+                    const state = states.get(section);
+                    if (!state) return;
+
+                    state.currentX += (state.targetX - state.currentX) * 0.08;
+                    state.currentY += (state.targetY - state.currentY) * 0.08;
+
+                    section.style.setProperty('--section-parallax-x', `${state.currentX}px`);
+                    section.style.setProperty('--section-parallax-y', `${state.currentY}px`);
+                });
+
+                window.requestAnimationFrame(update);
+            };
+
+            const handlePointer = (event) => {
+                const normX = (event.clientX / window.innerWidth - 0.5) * 2;
+                const normY = (event.clientY / window.innerHeight - 0.5) * 2;
+                pointerX = -normX;
+                pointerY = -normY;
+                recalcTargets();
+            };
+
+            parallaxSections.forEach(section => {
+                const intensity = parseFloat(section.dataset.bgParallax || '10');
+                states.set(section, {
+                    currentX: 0,
+                    currentY: 0,
+                    targetX: 0,
+                    targetY: 0,
+                    max: intensity,
+                });
+            });
+
+            recalcTargets();
+            update();
+
+            window.addEventListener('scroll', recalcTargets, { passive: true });
+            window.addEventListener('resize', recalcTargets);
+            window.addEventListener('pointermove', handlePointer);
+            window.addEventListener('pointerleave', () => {
+                pointerX = 0;
+                pointerY = 0;
+                recalcTargets();
+            });
+        })();
     </script>
 }
 
-<section id="gallery" class="full-section gallery-section">
+<section id="gallery" class="full-section gallery-section" data-bg-parallax="14">
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Worldbuilding</p>

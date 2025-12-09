@@ -199,8 +199,8 @@ main {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.35) 0%, rgba(6, 16, 34, 0.3) 42%, rgba(6, 16, 34, 0.18) 70%, rgba(6, 16, 34, 0.08) 100%),
-        linear-gradient(180deg, rgba(7, 15, 32, 0.08) 0%, rgba(7, 15, 32, 0.38) 50%, rgba(7, 12, 26, 0.12) 100%);
+        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.18) 0%, rgba(6, 16, 34, 0.16) 42%, rgba(6, 16, 34, 0.12) 70%, rgba(6, 16, 34, 0.04) 100%),
+        linear-gradient(180deg, rgba(7, 15, 32, 0.05) 0%, rgba(7, 15, 32, 0.26) 50%, rgba(7, 12, 26, 0.08) 100%);
     z-index: 1;
 }
 
@@ -223,8 +223,8 @@ main {
     background-repeat: no-repeat;
     background-position: calc(50% + var(--hero-bg-parallax-x)) calc(50% + var(--hero-bg-offset) + var(--hero-bg-parallax-y));
     z-index: 0;
-    opacity: 0.65;
-    filter: saturate(1.1) blur(0.25px) brightness(1.08);
+    opacity: 0.82;
+    filter: saturate(1.12) blur(0.25px) brightness(1.16);
     transform: scale(1);
     mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 40%, rgba(255, 255, 255, 0.28) 75%, rgba(255, 255, 255, 0) 100%);
     animation: heroPulse 18s ease-in-out infinite alternate;
@@ -356,7 +356,10 @@ h1 {
 }
 
 .feature-section {
-    background: linear-gradient(140deg, rgba(6, 14, 32, 0.6), rgba(10, 18, 34, 0.52)), url('/images/feature-bg.png') center/cover no-repeat;
+    --section-parallax-x: 0px;
+    --section-parallax-y: 0px;
+    background: linear-gradient(140deg, rgba(6, 14, 32, 0.34), rgba(10, 18, 34, 0.28)), url('/images/feature-bg.png')
+        calc(50% + var(--section-parallax-x)) calc(50% + var(--section-parallax-y))/cover no-repeat;
 }
 
 .section-header {
@@ -431,7 +434,10 @@ h1 {
 }
 
 .gallery-section {
-    background: linear-gradient(160deg, rgba(5, 12, 26, 0.62), rgba(4, 10, 22, 0.56)), url('/images/gallery-bg.png') center/cover no-repeat;
+    --section-parallax-x: 0px;
+    --section-parallax-y: 0px;
+    background: linear-gradient(160deg, rgba(5, 12, 26, 0.36), rgba(4, 10, 22, 0.32)), url('/images/gallery-bg.png')
+        calc(50% + var(--section-parallax-x)) calc(50% + var(--section-parallax-y))/cover no-repeat;
     padding-bottom: 5rem;
 }
 

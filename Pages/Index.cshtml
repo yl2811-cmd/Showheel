@@ -1,0 +1,214 @@
+@page
+@model Showheel.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+    <!-- TODO: Replace the tagline, name, subtitle, and hero background image with your details. -->
+    <div class="hero-content">
+        <p class="tagline">TODO: Add your tagline here.</p>
+        <h1 class="name">TODO: Add your name here.</h1>
+        <p class="subtitle">TODO: Add a short mission statement or intro sentence.</p>
+    </div>
+</section>
+
+<section class="about section">
+    <div class="content">
+        <h2>About</h2>
+        <!-- TODO: Replace the bio text with your own background and interests. -->
+        <p>TODO: Replace this bio text with your own story, background, and interests.</p>
+    </div>
+</section>
+
+<section class="projects section">
+    <div class="content">
+        <h2>Projects</h2>
+        <!-- TODO: Update project titles, descriptions, and links with real projects. -->
+        <div class="projects-grid">
+            <article class="project-card">
+                <h3>TODO: Project Title 1</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+            <article class="project-card">
+                <h3>TODO: Project Title 2</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+            <article class="project-card">
+                <h3>TODO: Project Title 3</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+            <article class="project-card">
+                <h3>TODO: Project Title 4</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+            <article class="project-card">
+                <h3>TODO: Project Title 5</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+            <article class="project-card">
+                <h3>TODO: Project Title 6</h3>
+                <p>TODO: Brief description of the project, tools used, and your role.</p>
+                <a href="TODO: Link to project or repo" class="project-link">View Project</a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="gallery section">
+    <div class="content">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="/images/placeholder1.jpg" alt="Gallery placeholder 1">
+            <img src="/images/placeholder2.jpg" alt="Gallery placeholder 2">
+            <img src="/images/placeholder3.jpg" alt="Gallery placeholder 3">
+            <img src="/images/placeholder4.jpg" alt="Gallery placeholder 4">
+            <img src="/images/placeholder5.jpg" alt="Gallery placeholder 5">
+            <img src="/images/placeholder6.jpg" alt="Gallery placeholder 6">
+        </div>
+        <!-- TODO: Replace placeholder image filenames with your own images stored in /images/. -->
+    </div>
+</section>
+
+<section class="contact section">
+    <div class="content">
+        <h2>Contact</h2>
+        <!-- TODO: Update the email address and profile links below. -->
+        <p>Email: <a href="mailto:TODO:your.email@example.com">TODO: your.email@example.com</a></p>
+        <p>GitHub: <a href="TODO:https://github.com/yourusername" target="_blank" rel="noopener">TODO: github.com/yourusername</a></p>
+        <p>ArtStation: <a href="TODO:https://www.artstation.com/yourprofile" target="_blank" rel="noopener">TODO: artstation.com/yourprofile</a></p>
+    </div>
+</section>
+
+<style>
+    :root {
+        --bg-dark: #0f172a;
+        --bg-light: #f8fafc;
+        --accent: #38bdf8;
+        --text-main: #0b1727;
+        --text-muted: #475569;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--text-main);
+        background: var(--bg-light);
+        line-height: 1.6;
+    }
+
+    .hero {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        padding: 4rem 2rem;
+        color: white;
+        /* TODO: Replace the background image URL with your own hero image. */
+        background: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)),
+            url('TODO: /images/your-hero-background.jpg') center/cover no-repeat;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 720px;
+    }
+
+    .tagline {
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+    }
+
+    .name {
+        font-size: clamp(2.5rem, 6vw, 3.75rem);
+        margin: 0 0 1rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        color: #e2e8f0;
+        margin: 0;
+    }
+
+    .section {
+        padding: 4rem 2rem;
+    }
+
+    .content {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 2rem;
+        color: var(--bg-dark);
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .project-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1.25rem;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        border: 1px solid #e2e8f0;
+    }
+
+    .project-card h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: var(--bg-dark);
+    }
+
+    .project-card p {
+        margin: 0 0 1rem;
+        color: var(--text-muted);
+    }
+
+    .project-link {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .gallery-grid img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        border: 1px solid #e2e8f0;
+    }
+
+    .contact a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .contact p {
+        margin: 0.35rem 0;
+    }
+</style>

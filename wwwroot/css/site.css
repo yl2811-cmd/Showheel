@@ -161,8 +161,8 @@ main {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.75) 0%, rgba(6, 16, 34, 0.7) 42%, rgba(6, 16, 34, 0.4) 70%, rgba(6, 16, 34, 0.18) 100%),
-        linear-gradient(180deg, rgba(7, 15, 32, 0.24) 0%, rgba(7, 15, 32, 0.78) 50%, rgba(7, 12, 26, 0.22) 100%);
+        radial-gradient(circle at 45% 52%, rgba(6, 16, 34, 0.45) 0%, rgba(6, 16, 34, 0.4) 42%, rgba(6, 16, 34, 0.22) 70%, rgba(6, 16, 34, 0.1) 100%),
+        linear-gradient(180deg, rgba(7, 15, 32, 0.12) 0%, rgba(7, 15, 32, 0.5) 50%, rgba(7, 12, 26, 0.14) 100%);
     z-index: 1;
 }
 
@@ -171,7 +171,7 @@ main {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(7, 15, 32, 0.28) 0%, rgba(6, 14, 28, 0.72) 48%, rgba(7, 12, 26, 0.26) 100%);
+    background: linear-gradient(180deg, rgba(7, 15, 32, 0.16) 0%, rgba(6, 14, 28, 0.48) 48%, rgba(7, 12, 26, 0.18) 100%);
     z-index: 1;
 }
 
@@ -181,8 +181,8 @@ main {
     inset: -6%;
     background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
     z-index: 0;
-    opacity: 0.32;
-    filter: saturate(1.18) blur(1.25px);
+    opacity: 0.58;
+    filter: saturate(1.12) blur(0.75px);
     transform: scale(1);
     mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.85) 40%, rgba(255, 255, 255, 0.3) 75%, rgba(255, 255, 255, 0) 100%);
     animation: heroPulse 18s ease-in-out infinite alternate;
@@ -203,12 +203,17 @@ main {
     animation: heroPulse 18s ease-in-out infinite alternate, heroLensWarp 1s ease;
 }
 
+.hero-section {
+    align-items: flex-start;
+}
+
 .hero-inner {
-    max-width: 740px;
-    padding-top: 2rem;
+    max-width: 560px;
+    padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    align-items: flex-start;
 }
 
 .eyebrow {
@@ -274,10 +279,10 @@ h1 {
 .hero-content-frame {
     position: relative;
     padding: 1.75rem 1.75rem 1.5rem;
-    background: linear-gradient(160deg, rgba(8, 18, 38, 0.58), rgba(10, 24, 48, 0.46));
+    background: linear-gradient(160deg, rgba(8, 18, 38, 0.42), rgba(10, 24, 48, 0.32));
     border-radius: 18px;
     border: 1px solid rgba(77, 226, 255, 0.45);
-    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.42), 0 0 32px rgba(77, 226, 255, 0.3);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34), 0 0 32px rgba(77, 226, 255, 0.22);
     overflow: hidden;
     backdrop-filter: blur(6px) brightness(1.05);
 }
@@ -309,7 +314,7 @@ h1 {
 }
 
 .feature-section {
-    background: linear-gradient(140deg, rgba(6, 14, 32, 0.92), rgba(10, 18, 34, 0.86)), url('/images/feature-bg.png') center/cover no-repeat;
+    background: linear-gradient(140deg, rgba(6, 14, 32, 0.6), rgba(10, 18, 34, 0.52)), url('/images/feature-bg.png') center/cover no-repeat;
 }
 
 .section-header {
@@ -378,7 +383,7 @@ h1 {
 }
 
 .gallery-section {
-    background: linear-gradient(160deg, rgba(5, 12, 26, 0.9), rgba(4, 10, 22, 0.85)), url('/images/gallery-bg.png') center/cover no-repeat;
+    background: linear-gradient(160deg, rgba(5, 12, 26, 0.62), rgba(4, 10, 22, 0.56)), url('/images/gallery-bg.png') center/cover no-repeat;
     padding-bottom: 5rem;
 }
 

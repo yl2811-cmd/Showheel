@@ -272,8 +272,8 @@ main {
 }
 
 .hero-inner {
-    max-width: 640px;
-    padding-top: 12vh;
+    max-width: 680px;
+    padding-top: 6vh;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -371,8 +371,8 @@ h1 {
 
 .hero-content-frame {
     position: relative;
-    max-width: 620px;
-    padding: 2.5rem 3rem;
+    max-width: 700px;
+    padding: 3rem 3.5rem;
     background: linear-gradient(160deg, rgba(8, 18, 38, 0.6), rgba(10, 24, 48, 0.5));
     border-radius: 18px;
     border: 1px solid rgba(77, 226, 255, 0.3);

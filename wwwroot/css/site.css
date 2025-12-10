@@ -272,7 +272,7 @@ main {
 }
 
 .hero-inner {
-    max-width: 620px;
+    max-width: 700px;
     padding-top: 4vh;
     display: flex;
     flex-direction: column;

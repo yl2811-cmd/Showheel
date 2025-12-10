@@ -24,7 +24,7 @@
 <div class="wave-divider wave-hero" aria-hidden="true"></div>
 
 <section id="feature" class="full-section feature-section">
-    <div class="background-image section-bg feature-bg-image" aria-hidden="true" data-motion-depth="1.2"></div>
+    <div class="background-image section-bg feature-bg-image" aria-hidden="true" data-motion-depth="1.2" data-motion-scale="1.1"></div>
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Flagship Experience</p>
@@ -70,7 +70,7 @@
 <div class="wave-divider wave-feature" aria-hidden="true"></div>
 
 <section id="gallery" class="full-section gallery-section">
-    <div class="background-image section-bg gallery-bg-image" aria-hidden="true" data-motion-depth="1.05"></div>
+    <div class="background-image section-bg gallery-bg-image" aria-hidden="true" data-motion-depth="1.05" data-motion-scale="1.1"></div>
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Worldbuilding</p>
@@ -105,7 +105,7 @@
             <div class="showwheel" aria-label="Render showwheel">
                 <div class="wheel-center">
                     <div class="wheel-track">
-                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
+                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" data-motion-scale="1.06" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
                         <div class="wheel-item" style="--i:1"><img src="/images/render2.png" alt="Render of a luminous ice canyon" /></div>
                         <div class="wheel-item" style="--i:2"><img src="/images/render3.png" alt="Render of a neon-lit desert shrine" /></div>
                         <div class="wheel-item" style="--i:3"><img src="/images/render4.jpg" alt="Render of a glowing arc in a rocky valley" /></div>
@@ -158,13 +158,23 @@
             const targets = Array.from(document.querySelectorAll('.background-image'));
             if (!targets.length) return;
 
-            document.addEventListener('mousemove', (e) => {
-                const x = (window.innerWidth - e.pageX * 2) / 100;
-                const y = (window.innerHeight - e.pageY * 2) / 100;
+            const moveStrength = 50;
+            const signedSquare = (value) => value * Math.abs(value);
 
-                targets.forEach(bg => {
+            document.addEventListener('mousemove', (e) => {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                const normX = (e.clientX - width / 2) / (width / 2);
+                const normY = (e.clientY - height / 2) / (height / 2);
+
+                const moveX = signedSquare(normX) * moveStrength;
+                const moveY = signedSquare(normY) * moveStrength;
+
+                targets.forEach((bg) => {
                     const depth = parseFloat(bg.dataset.motionDepth || '1');
-                    bg.style.transform = `translateX(${x * depth}px) translateY(${y * depth}px) scale(1.1)`;
+                    const scale = parseFloat(bg.dataset.motionScale || '1.08');
+                    bg.style.transform = `translate3d(${-moveX * depth}px, ${-moveY * depth}px, 0) scale(${scale})`;
                 });
             });
         })();

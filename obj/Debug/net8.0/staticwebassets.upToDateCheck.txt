@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\images\anna-freedman.png
 wwwroot\images\avatar-01.png
 wwwroot\images\feature-bg.png
@@ -13,6 +12,7 @@ wwwroot\images\gallery-09.png
 wwwroot\images\gallery-bg.png
 wwwroot\images\hero-anna-cliff.png
 wwwroot\images\hero-city.png
+wwwroot\images\mc.png
 wwwroot\images\rendeer7.jpg
 wwwroot\images\render1.png
 wwwroot\images\render2.png
@@ -21,3 +21,4 @@ wwwroot\images\render4.jpg
 wwwroot\images\render5.jpg
 wwwroot\images\render6.jpg
 wwwroot\js\site.js
+wwwroot\css\site.css

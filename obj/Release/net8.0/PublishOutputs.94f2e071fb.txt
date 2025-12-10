@@ -1,0 +1,7 @@
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\Showheel.exe
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\Showheel.dll
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\Showheel.deps.json
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\Showheel.runtimeconfig.json
+C:\Users\yl281\source\repos\Showheel\obj\Release\net8.0\PubTmp\Out\Showheel.pdb

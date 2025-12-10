@@ -561,22 +561,33 @@ h1 {
 
 .wheel-center {
     position: absolute;
-    inset: 12%;
+    inset: 24%;
     border-radius: 50%;
-    background:
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.08), rgba(5, 9, 21, 0.7)),
-        var(--wheel-center-image, url('/images/render1.png')) center center / cover no-repeat;
-    box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1), rgba(6, 12, 26, 0.4));
+    box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.28), 0 0 28px rgba(77, 226, 255, 0.16);
     overflow: hidden;
     animation: wheelSpin 36s linear infinite;
+    z-index: 2;
+}
+
+.wheel-center::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.08)),
+        var(--wheel-center-image, url('/images/render1.png')) center center / cover no-repeat;
+    filter: brightness(1.18) saturate(1.08);
 }
 
 .wheel-track {
     position: absolute;
-    inset: -16%;
+    inset: 6%;
     border-radius: 50%;
     animation: wheelSpin 36s linear infinite;
     transform-origin: center;
+    z-index: 1;
 }
 
 .wheel-item {

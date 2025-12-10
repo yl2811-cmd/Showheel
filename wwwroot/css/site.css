@@ -396,7 +396,7 @@ h1 {
     content: "";
     position: absolute;
     inset: 10% 8%;
-    border-radius: 14px;
+    border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: 0 0 36px rgba(77, 226, 255, 0.22);
     pointer-events: none;

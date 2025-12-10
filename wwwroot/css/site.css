@@ -372,14 +372,14 @@ h1 {
 .hero-content-frame {
     position: relative;
     max-width: 900px; /* 原来是 700px，改大让文字不拥挤 */
-    padding: 1.5rem 2rem; /* 稍微增加内部边距 */
+    padding: 3.5rem 4rem; /* 稍微增加内部边距 */
     background: linear-gradient(160deg, rgba(8, 18, 38, 0.6), rgba(10, 24, 48, 0.5));
     border-radius: 18px;
     border: 1px solid rgba(77, 226, 255, 0.3);
     box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4), 0 0 32px rgba(77, 226, 255, 0.15);
     overflow: visible; /* 改为 visible，防止阴影或子元素被切掉 */
     backdrop-filter: blur(12px) brightness(1.05);
-    margin-bottom: 80px; /* 【新增】增加底部外边距，防止和下面的按钮撞车 */
+    margin-bottom: 90px; /* 【新增】增加底部外边距，防止和下面的按钮撞车 */
 }
 
 .hero-content-frame .hero-frame-overlay {
@@ -412,26 +412,24 @@ h1 {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2rem; /* 原来是 3rem，稍微放低一点 */
+    bottom: 3rem;
     display: flex;
-    justify-content: space-between; /* 关键：把两个方块推到两边 */
-    gap: 2rem; /* 增加中间间隙 */
-    width: 100%; /* 占满全屏宽度 */
-    max-width: 100%; /* 移除限制 */
-    padding: 0 3rem; /* 给左右留一点边距，原来是 4rem */
-    z-index: 10; /* 提高层级，确保能点到 */
-    pointer-events: none; /* 容器不挡鼠标，里面的 .portal-link 开启点击 */
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 0 4rem;
+    z-index: 3;
+    pointer-events: none;
 }
 
 .portal-link {
-    flex: 0 1 300px; /* 修改：不让它无限伸展，固定在一个舒适的宽度 (比如300px) */
+    flex: 1 1 260px;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    padding: 1rem 1.25rem;
+    padding: 0.9rem 1.1rem;
     border-radius: 14px;
-    background: linear-gradient(140deg, rgba(255, 95, 162, 0.2), rgba(77, 226, 255, 0.18)); /* 保持你的颜色 */
-    /* ...其他属性保持不变... */
+    background: linear-gradient(140deg, rgba(255, 95, 162, 0.2), rgba(77, 226, 255, 0.18));
     border: 1px solid rgba(255, 255, 255, 0.18);
     color: var(--text-main);
     font-weight: 700;
@@ -439,8 +437,7 @@ h1 {
     box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32), 0 0 32px rgba(77, 226, 255, 0.25);
     transform: translateY(0);
     transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-    pointer-events: auto; /* 必须保留，否则点不了 */
-    backdrop-filter: blur(5px); /* 【建议新增】增加一点磨砂感，防止和背景混在一起 */
+    pointer-events: auto;
 }
 
 .portal-link:hover,

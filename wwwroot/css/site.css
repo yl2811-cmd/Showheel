@@ -272,12 +272,14 @@ main {
 }
 
 .hero-inner {
-    max-width: 580px;
-    padding-top: 1.5rem;
+    max-width: 640px;
+    padding-top: 12vh;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .eyebrow {
@@ -289,8 +291,11 @@ main {
 }
 
 h1 {
-    font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+    font-size: clamp(2.5rem, 4.5vw, 3.5rem);
     text-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
 }
 
 .subtitle {
@@ -367,13 +372,13 @@ h1 {
 .hero-content-frame {
     position: relative;
     max-width: 620px;
-    padding: 1.5rem 1.5rem 1.25rem;
-    background: linear-gradient(160deg, rgba(8, 18, 38, 0.42), rgba(10, 24, 48, 0.32));
+    padding: 2.5rem 3rem;
+    background: linear-gradient(160deg, rgba(8, 18, 38, 0.6), rgba(10, 24, 48, 0.5));
     border-radius: 18px;
-    border: 1px solid rgba(77, 226, 255, 0.45);
-    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34), 0 0 32px rgba(77, 226, 255, 0.22);
+    border: 1px solid rgba(77, 226, 255, 0.3);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4), 0 0 32px rgba(77, 226, 255, 0.15);
     overflow: hidden;
-    backdrop-filter: blur(6px) brightness(1.05);
+    backdrop-filter: blur(12px) brightness(1.05);
 }
 
 .hero-content-frame .hero-frame-overlay {
@@ -404,14 +409,14 @@ h1 {
 
 .portal-links {
     position: absolute;
-    left: 2rem;
-    right: 2rem;
-    bottom: 2.75rem;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 4rem;
     z-index: 3;
     pointer-events: none;
 }

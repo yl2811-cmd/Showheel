@@ -1,4 +1,11 @@
 wwwroot\js\site.js
+wwwroot\images\render6.jpg
+wwwroot\images\render5.jpg
+wwwroot\images\render4.jpg
+wwwroot\images\render3.png
+wwwroot\images\render2.png
+wwwroot\images\render1.png
+wwwroot\images\rendeer7.jpg
 wwwroot\images\hero-city.png
 wwwroot\images\hero-anna-cliff.png
 wwwroot\images\gallery-bg.png

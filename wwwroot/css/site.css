@@ -294,9 +294,9 @@ main {
     display: block;
     text-align: center;
     margin: 0 auto 0.5rem;
-    font-size: clamp(1.15rem, 2.6vw, 1.5rem);
+    font-size: clamp(1.15rem, 1vw, 1.5rem);
     letter-spacing: 0.22em;
-    text-shadow: 0 10px 38px rgba(0, 0, 0, 0.45), 0 0 12px rgba(77, 226, 255, 0.25);
+    text-shadow: 0 10px 38px rgba(0, 0, 0, 0.45), 0 0 24px rgba(77, 226, 255, 0.25);
 }
 
 h1 {

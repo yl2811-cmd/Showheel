@@ -187,18 +187,18 @@ main {
 .background-image {
     will-change: transform;
     transform-origin: center;
-    transition: transform 0.2s ease-out;
+    transition: transform 0.1s linear;
 }
 
 .section-bg {
     position: absolute;
-    inset: -6%;
+    inset: -8%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.78;
     filter: brightness(1.12) saturate(1.07) contrast(1.02);
-    transform: scale(1.02);
+    transform: scale(1.08);
     z-index: 0;
     pointer-events: none;
 }

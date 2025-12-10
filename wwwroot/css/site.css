@@ -184,6 +184,25 @@ main {
     z-index: 2;
 }
 
+.background-image {
+    will-change: transform;
+    transform-origin: center;
+    transition: transform 0.1s linear;
+}
+
+.section-bg {
+    position: absolute;
+    inset: -8%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.78;
+    filter: brightness(1.12) saturate(1.07) contrast(1.02);
+    transform: scale(1.08);
+    z-index: 0;
+    pointer-events: none;
+}
+
 .hero-section {
     --hero-bg-offset: 0px;
     background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
@@ -371,19 +390,11 @@ h1 {
 }
 
 .feature-section {
-    --feature-bg-offset: 0px;
     background: linear-gradient(140deg, rgba(6, 14, 32, 0.28), rgba(10, 18, 34, 0.22));
 }
 
-.feature-section::after {
-    content: "";
-    position: absolute;
-    inset: -6%;
-    background: url('/images/feature-bg.png') center calc(50% + var(--feature-bg-offset)) / cover no-repeat;
-    opacity: 0.78;
-    filter: brightness(1.12) saturate(1.07) contrast(1.02);
-    transform: scale(1.02);
-    z-index: 0;
+.feature-bg-image {
+    background-image: url('/images/feature-bg.png');
 }
 
 .section-header {
@@ -473,20 +484,12 @@ h1 {
 }
 
 .gallery-section {
-    --gallery-bg-offset: 0px;
     background: linear-gradient(160deg, rgba(5, 12, 26, 0.32), rgba(4, 10, 22, 0.26));
     padding-bottom: 5rem;
 }
 
-.gallery-section::after {
-    content: "";
-    position: absolute;
-    inset: -6%;
-    background: url('/images/gallery-bg.png') center calc(50% + var(--gallery-bg-offset)) / cover no-repeat;
-    opacity: 0.78;
-    filter: brightness(1.12) saturate(1.06) contrast(1.02);
-    transform: scale(1.02);
-    z-index: 0;
+.gallery-bg-image {
+    background-image: url('/images/gallery-bg.png');
 }
 
 .gallery-grid {

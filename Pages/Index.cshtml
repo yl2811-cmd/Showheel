@@ -211,6 +211,59 @@
             });
         })();
     </script>
+
+    <script>
+        (() => {
+            const wheelCenter = document.querySelector('.wheel-center');
+            if (!wheelCenter) return;
+
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const renderSources = [
+                '/images/render1.png',
+                '/images/render2.png',
+                '/images/render3.png',
+                '/images/render4.jpg',
+                '/images/render5.jpg',
+                '/images/render6.jpg',
+            ];
+
+            const updateCenterImage = (src) => {
+                wheelCenter.style.setProperty('--wheel-center-image', `url('${src}')`);
+            };
+
+            let currentImage = renderSources[Math.floor(Math.random() * renderSources.length)];
+            updateCenterImage(currentImage);
+
+            if (prefersReducedMotion) return;
+
+            const getNextImage = () => {
+                const options = renderSources.filter((item) => item !== currentImage);
+                return options[Math.floor(Math.random() * options.length)];
+            };
+
+            let swapTimer = window.setInterval(() => {
+                currentImage = getNextImage();
+                updateCenterImage(currentImage);
+            }, 4000);
+
+            const handleVisibility = () => {
+                if (document.hidden && swapTimer) {
+                    clearInterval(swapTimer);
+                    swapTimer = null;
+                } else if (!document.hidden && !swapTimer) {
+                    swapTimer = window.setInterval(() => {
+                        currentImage = getNextImage();
+                        updateCenterImage(currentImage);
+                    }, 4000);
+                }
+            };
+
+            document.addEventListener('visibilitychange', handleVisibility);
+            window.addEventListener('beforeunload', () => {
+                if (swapTimer) clearInterval(swapTimer);
+            });
+        })();
+    </script>
 }
 
 <div class="wave-divider wave-gallery" aria-hidden="true"></div>

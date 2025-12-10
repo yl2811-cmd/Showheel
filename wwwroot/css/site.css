@@ -541,33 +541,10 @@ h1 {
 
 .image-wave-divider {
     position: relative;
-    height: 260px;
-    background: url('/images/render1.png') center center / cover no-repeat;
-    overflow: hidden;
-    isolation: isolate;
-}
-
-.image-wave-divider::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(5, 9, 21, 0.12) 0%, rgba(5, 9, 21, 0.28) 100%);
-    backdrop-filter: blur(0.5px);
-    z-index: 1;
-}
-
-.image-wave-divider::after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    height: 140px;
-    background-repeat: repeat-x;
-    background-size: 1200px 140px;
-    background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 46c120 34 240 52 360 52s240-18 360-30 240-22 360-14 240 32 360 44v42H0Z' fill='%23050b18'/%3E%3C/svg%3E");
-    opacity: 0.92;
-    z-index: 2;
+    height: 220px;
+    background: linear-gradient(180deg, #050915 0%, #060d1f 100%);
+    border-top: 2px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.04);
 }
 
 .university-section {

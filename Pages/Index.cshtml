@@ -24,6 +24,7 @@
 <div class="wave-divider wave-hero" aria-hidden="true"></div>
 
 <section id="feature" class="full-section feature-section">
+    <div class="background-image section-bg feature-bg-image" aria-hidden="true" data-motion-depth="1.2"></div>
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Flagship Experience</p>
@@ -69,6 +70,7 @@
 <div class="wave-divider wave-feature" aria-hidden="true"></div>
 
 <section id="gallery" class="full-section gallery-section">
+    <div class="background-image section-bg gallery-bg-image" aria-hidden="true" data-motion-depth="1.05"></div>
     <div class="section-inner">
         <div class="section-header">
             <p class="eyebrow">Worldbuilding</p>
@@ -103,7 +105,7 @@
             <div class="showwheel" aria-label="Render showwheel">
                 <div class="wheel-center">
                     <div class="wheel-track">
-                        <div class="wheel-item" style="--i:0"><img src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
+                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
                         <div class="wheel-item" style="--i:1"><img src="/images/render2.png" alt="Render of a luminous ice canyon" /></div>
                         <div class="wheel-item" style="--i:2"><img src="/images/render3.png" alt="Render of a neon-lit desert shrine" /></div>
                         <div class="wheel-item" style="--i:3"><img src="/images/render4.jpg" alt="Render of a glowing arc in a rocky valley" /></div>
@@ -151,144 +153,19 @@
     <script>
         (() => {
             const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            const hero = document.getElementById('hero');
-            const parallaxConfigs = [
-                { id: 'hero', varName: '--hero-bg-offset', clamp: 120, mobileFactor: 0.04, desktopFactor: 0.12, multiplier: -0.12 },
-                { id: 'feature', varName: '--feature-bg-offset', clamp: 90, mobileFactor: 0.03, desktopFactor: 0.09, multiplier: -0.1 },
-                { id: 'gallery', varName: '--gallery-bg-offset', clamp: 80, mobileFactor: 0.025, desktopFactor: 0.07, multiplier: -0.08 },
-            ];
-
-            const sections = parallaxConfigs
-                .map(cfg => {
-                    const el = document.getElementById(cfg.id);
-                    return el ? { ...cfg, el } : null;
-                })
-                .filter(Boolean);
-
-            if (!sections.length) {
-                return;
-            }
-
-            const getFactor = (cfg) => window.innerWidth < 640 ? cfg.mobileFactor : cfg.desktopFactor;
-            let ticking = false;
-            let lensTimer;
-
-            const applyOffsets = () => {
-                if (prefersReducedMotion) return;
-
-                sections.forEach(cfg => {
-                    const factor = getFactor(cfg);
-                    const offset = Math.max(-cfg.clamp, Math.min(window.scrollY * factor, cfg.clamp));
-                    cfg.el.style.setProperty(cfg.varName, `${offset * cfg.multiplier}px`);
-                });
-            };
-
-            const triggerLens = () => {
-                if (!hero || prefersReducedMotion) return;
-                hero.classList.add('hero-lens-active');
-                setTimeout(() => hero.classList.remove('hero-lens-active'), 1100);
-            };
-
-            const onScroll = () => {
-                if (!ticking) {
-                    window.requestAnimationFrame(() => {
-                        applyOffsets();
-                        ticking = false;
-                    });
-                    ticking = true;
-                }
-
-                if (hero) {
-                    if (lensTimer) {
-                        clearTimeout(lensTimer);
-                    }
-                    hero.classList.remove('hero-lens-active');
-                    lensTimer = window.setTimeout(triggerLens, 340);
-                }
-            };
-
-            applyOffsets();
-            window.addEventListener('scroll', onScroll, { passive: true });
-            window.addEventListener('resize', applyOffsets);
-        })();
-
-        (() => {
-            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             if (prefersReducedMotion) return;
 
-            const wanderers = Array.from(document.querySelectorAll('[data-wander]'));
-            if (!wanderers.length) return;
+            const targets = Array.from(document.querySelectorAll('.background-image'));
+            if (!targets.length) return;
 
-            const state = new WeakMap();
+            document.addEventListener('mousemove', (e) => {
+                const x = (window.innerWidth - e.pageX * 2) / 100;
+                const y = (window.innerHeight - e.pageY * 2) / 100;
 
-            const recalcBase = () => {
-                wanderers.forEach(el => {
-                    const rect = el.getBoundingClientRect();
-                    const base = rect.top + window.scrollY;
-                    const existing = state.get(el) || {};
-                    state.set(el, {
-                        ...existing,
-                        base,
-                        idleX: existing.idleX || 0,
-                        idleY: existing.idleY || 0,
-                    });
+                targets.forEach(bg => {
+                    const depth = parseFloat(bg.dataset.motionDepth || '1');
+                    bg.style.transform = `translateX(${x * depth}px) translateY(${y * depth}px) scale(1.1)`;
                 });
-            };
-
-            const jitterTimers = [];
-
-            const createJitter = (el) => {
-                const timer = window.setInterval(() => {
-                    const current = state.get(el);
-                    if (!current) return;
-                    current.targetIdleX = (Math.random() - 0.5) * 6;
-                    current.targetIdleY = (Math.random() - 0.5) * 6;
-                }, 3200 + Math.random() * 1200);
-
-                jitterTimers.push(timer);
-            };
-
-            wanderers.forEach(el => {
-                state.set(el, {
-                    base: 0,
-                    idleX: 0,
-                    idleY: 0,
-                    targetIdleX: 0,
-                    targetIdleY: 0,
-                });
-                createJitter(el);
-            });
-
-            recalcBase();
-
-            const update = () => {
-                wanderers.forEach(el => {
-                    const data = state.get(el);
-                    if (!data) return;
-
-                    const scrollDistance = (window.scrollY - data.base) * 0.012;
-                    const clamped = Math.max(-1.2, Math.min(1.2, scrollDistance));
-                    const intensity = parseFloat(el.dataset.wanderScroll || '10');
-
-                    data.idleX += (data.targetIdleX - data.idleX) * 0.025;
-                    data.idleY += (data.targetIdleY - data.idleY) * 0.025;
-
-                    const offsetX = clamped * intensity + data.idleX;
-                    const offsetY = clamped * -intensity * 0.4 + data.idleY;
-
-                    el.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0)`;
-                });
-
-                window.requestAnimationFrame(update);
-            };
-
-            window.addEventListener('resize', recalcBase);
-            window.addEventListener('scroll', recalcBase, { passive: true });
-
-            update();
-
-            window.addEventListener('beforeunload', () => {
-                jitterTimers.forEach(timer => window.clearInterval(timer));
             });
         })();
     </script>

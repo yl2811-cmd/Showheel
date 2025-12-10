@@ -227,6 +227,7 @@ main {
 
 .hero-section {
     align-items: flex-start;
+    padding-bottom: 6.5rem;
 }
 
 .hero-info-grid {
@@ -271,7 +272,7 @@ main {
 }
 
 .hero-inner {
-    max-width: 560px;
+    max-width: 580px;
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -288,12 +289,12 @@ main {
 }
 
 h1 {
-    font-size: clamp(2.75rem, 5vw, 4.25rem);
+    font-size: clamp(2.4rem, 4.5vw, 3.8rem);
     text-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     color: var(--text-main);
     text-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
@@ -305,6 +306,7 @@ h1 {
 
 .intro {
     max-width: 640px;
+    font-size: 1.02rem;
 }
 
 .cta-row {
@@ -364,7 +366,8 @@ h1 {
 
 .hero-content-frame {
     position: relative;
-    padding: 1.75rem 1.75rem 1.5rem;
+    max-width: 620px;
+    padding: 1.5rem 1.5rem 1.25rem;
     background: linear-gradient(160deg, rgba(8, 18, 38, 0.42), rgba(10, 24, 48, 0.32));
     border-radius: 18px;
     border: 1px solid rgba(77, 226, 255, 0.45);
@@ -401,12 +404,14 @@ h1 {
 
 .portal-links {
     position: absolute;
-    left: 1.5rem;
-    right: 1.5rem;
-    bottom: 3.5rem;
+    left: 2rem;
+    right: 2rem;
+    bottom: 2.75rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
     z-index: 3;
     pointer-events: none;
 }

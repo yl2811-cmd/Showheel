@@ -371,7 +371,7 @@ h1 {
 
 .hero-content-frame {
     position: relative;
-    max-width: 900px; /* 原来是 700px，改大让文字不拥挤 */
+    max-width: 1000px; /* 原来是 700px，改大让文字不拥挤 */
     padding: 3.5rem 4rem; /* 稍微增加内部边距 */
     background: linear-gradient(160deg, rgba(8, 18, 38, 0.6), rgba(10, 24, 48, 0.5));
     border-radius: 18px;

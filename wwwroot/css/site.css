@@ -524,14 +524,6 @@ h1 {
     opacity: 1;
 }
 
-.image-wave-divider {
-    position: relative;
-    height: 220px;
-    background: linear-gradient(180deg, #050915 0%, #060d1f 100%);
-    border-top: 2px solid rgba(255, 255, 255, 0.04);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.04);
-}
-
 .university-section {
     background:
         linear-gradient(160deg, rgba(7, 13, 28, 0.18), rgba(5, 11, 23, 0.18)),

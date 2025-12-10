@@ -132,14 +132,7 @@
         <div class="university-wrap">
             <div class="showwheel" aria-label="Render showwheel">
                 <div class="wheel-center">
-                    <div class="wheel-track">
-                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" data-motion-scale="1.06" data-preserve-transform="true" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
-                        <div class="wheel-item" style="--i:1"><img src="/images/render2.png" alt="Render of a luminous ice canyon" /></div>
-                        <div class="wheel-item" style="--i:2"><img src="/images/render3.png" alt="Render of a neon-lit desert shrine" /></div>
-                        <div class="wheel-item" style="--i:3"><img src="/images/render4.jpg" alt="Render of a glowing arc in a rocky valley" /></div>
-                        <div class="wheel-item" style="--i:4"><img src="/images/render5.jpg" alt="Render of a serene alien coast" /></div>
-                        <div class="wheel-item" style="--i:5"><img src="/images/render6.jpg" alt="Render of a crystalline forest" /></div>
-                    </div>
+                    <img class="wheel-image" src="/images/render1.png" alt="Cinematic render preview" loading="lazy" />
                 </div>
             </div>
 
@@ -227,6 +220,33 @@
                     config.bg.style.transform = `${config.baseTransform ? `${config.baseTransform} ` : ''}${transformValue}`;
                 });
             });
+        })();
+
+        (() => {
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            if (prefersReducedMotion) return;
+
+            const wheelImage = document.querySelector('.wheel-image');
+            if (!wheelImage) return;
+
+            const renderFrames = [
+                '/images/render1.png',
+                '/images/render2.png',
+                '/images/render3.png',
+                '/images/render4.jpg',
+                '/images/render5.jpg',
+                '/images/render6.jpg',
+                '/images/rendeer7.jpg',
+            ];
+
+            let currentIndex = 0;
+
+            const rotateFrame = () => {
+                currentIndex = (currentIndex + 1) % renderFrames.length;
+                wheelImage.src = renderFrames[currentIndex];
+            };
+
+            setInterval(rotateFrame, 4000);
         })();
     </script>
 }

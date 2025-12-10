@@ -71,24 +71,41 @@
 @section Scripts {
     <script>
         (() => {
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             const hero = document.getElementById('hero');
-            if (!hero) {
+            const parallaxConfigs = [
+                { id: 'hero', varName: '--hero-bg-offset', clamp: 120, mobileFactor: 0.04, desktopFactor: 0.12, multiplier: -0.12 },
+                { id: 'feature', varName: '--feature-bg-offset', clamp: 90, mobileFactor: 0.03, desktopFactor: 0.09, multiplier: -0.1 },
+                { id: 'gallery', varName: '--gallery-bg-offset', clamp: 80, mobileFactor: 0.025, desktopFactor: 0.07, multiplier: -0.08 },
+            ];
+
+            const sections = parallaxConfigs
+                .map(cfg => {
+                    const el = document.getElementById(cfg.id);
+                    return el ? { ...cfg, el } : null;
+                })
+                .filter(Boolean);
+
+            if (!sections.length) {
                 return;
             }
 
-            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            const offsetFactor = window.innerWidth < 640 ? 0.04 : 0.12;
+            const getFactor = (cfg) => window.innerWidth < 640 ? cfg.mobileFactor : cfg.desktopFactor;
             let ticking = false;
             let lensTimer;
 
-            const applyOffset = () => {
+            const applyOffsets = () => {
                 if (prefersReducedMotion) return;
-                const offset = Math.max(-30, Math.min(window.scrollY * offsetFactor, 120));
-                hero.style.setProperty('--hero-bg-offset', `${offset * -0.12}px`);
+
+                sections.forEach(cfg => {
+                    const factor = getFactor(cfg);
+                    const offset = Math.max(-cfg.clamp, Math.min(window.scrollY * factor, cfg.clamp));
+                    cfg.el.style.setProperty(cfg.varName, `${offset * cfg.multiplier}px`);
+                });
             };
 
             const triggerLens = () => {
-                if (prefersReducedMotion) return;
+                if (!hero || prefersReducedMotion) return;
                 hero.classList.add('hero-lens-active');
                 setTimeout(() => hero.classList.remove('hero-lens-active'), 1100);
             };
@@ -96,21 +113,24 @@
             const onScroll = () => {
                 if (!ticking) {
                     window.requestAnimationFrame(() => {
-                        applyOffset();
+                        applyOffsets();
                         ticking = false;
                     });
                     ticking = true;
                 }
 
-                if (lensTimer) {
-                    clearTimeout(lensTimer);
+                if (hero) {
+                    if (lensTimer) {
+                        clearTimeout(lensTimer);
+                    }
+                    hero.classList.remove('hero-lens-active');
+                    lensTimer = window.setTimeout(triggerLens, 340);
                 }
-                hero.classList.remove('hero-lens-active');
-                lensTimer = window.setTimeout(triggerLens, 340);
             };
 
-            applyOffset();
+            applyOffsets();
             window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', applyOffsets);
         })();
 
         (() => {

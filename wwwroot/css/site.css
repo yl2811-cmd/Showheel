@@ -290,6 +290,15 @@ main {
     font-size: 0.9rem;
 }
 
+.hero-tagline {
+    display: block;
+    text-align: center;
+    margin: 0 auto 0.5rem;
+    font-size: clamp(1.15rem, 2.6vw, 1.5rem);
+    letter-spacing: 0.22em;
+    text-shadow: 0 10px 38px rgba(0, 0, 0, 0.45), 0 0 24px rgba(77, 226, 255, 0.25);
+}
+
 h1 {
     font-size: clamp(2.5rem, 4.5vw, 3.5rem);
     text-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);

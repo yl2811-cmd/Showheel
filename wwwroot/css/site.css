@@ -187,7 +187,7 @@ main {
 .background-image {
     will-change: transform;
     transform-origin: center;
-    transition: transform 0.1s linear;
+    transition: transform 0.12s linear;
 }
 
 .section-bg {
@@ -201,11 +201,6 @@ main {
     transform: scale(1.08);
     z-index: 0;
     pointer-events: none;
-}
-
-.hero-section {
-    --hero-bg-offset: 0px;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
 }
 
 .hero-section::before {
@@ -228,36 +223,23 @@ main {
 }
 
 
-.hero-section::after {
-    content: "";
-    position: absolute;
-    inset: -6%;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
-    z-index: 0;
-    opacity: 0.62;
-    filter: brightness(1.1) saturate(1.06) blur(0.35px);
-    transform: scale(1);
-    mask-image: radial-gradient(circle at 42% 55%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 40%, rgba(255, 255, 255, 0.28) 75%, rgba(255, 255, 255, 0) 100%);
-    animation: heroPulse 18s ease-in-out infinite alternate;
-}
-
-@keyframes heroPulse {
-    0% { transform: scale(1) translateY(0); }
-    100% { transform: scale(1.012) translateY(-4px); }
-}
-
-@keyframes heroLensWarp {
-    0% { transform: scale(1.006) translateY(-2px); filter: saturate(1.05) blur(0.6px) brightness(1.02); opacity: 0.3; }
-    50% { transform: scale(1.012) translateY(-3px); filter: saturate(1.1) blur(0.75px) brightness(1.04); opacity: 0.34; }
-    100% { transform: scale(1.006) translateY(-2px); filter: saturate(1.05) blur(0.6px) brightness(1.02); opacity: 0.3; }
-}
-
-.hero-section.hero-lens-active::after {
-    animation: heroPulse 18s ease-in-out infinite alternate, heroLensWarp 1s ease;
-}
+.hero-section::after { content: none; }
 
 .hero-section {
     align-items: flex-start;
+}
+
+.hero-parallax {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    pointer-events: none;
+    filter: brightness(1.1) saturate(1.06) contrast(1.02);
 }
 
 .hero-inner {
@@ -605,6 +587,7 @@ h1 {
     transform: rotate(calc(var(--i) * 60deg)) translateX(58%) translateY(-50%);
     filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
     transition: transform 0.35s ease, filter 0.35s ease;
+    overflow: hidden;
 }
 
 .wheel-item img {

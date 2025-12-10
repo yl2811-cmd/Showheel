@@ -5,6 +5,13 @@
 }
 
 <section id="hero" class="full-section hero-section">
+    <div
+        class="hero-parallax background-image"
+        data-motion-depth="1.1"
+        data-motion-scale="1.12"
+        style="background-image: url('/images/hero-city.png');"
+        aria-hidden="true"
+    ></div>
     <div class="section-inner hero-inner">
         <div class="hero-content-frame">
             <div class="hero-frame-overlay"></div>
@@ -105,7 +112,7 @@
             <div class="showwheel" aria-label="Render showwheel">
                 <div class="wheel-center">
                     <div class="wheel-track">
-                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" data-motion-scale="1.06" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
+                        <div class="wheel-item" style="--i:0"><img class="background-image" data-motion-depth="0.65" data-motion-scale="1.06" data-preserve-transform="true" src="/images/render1.png" alt="Render of a moonlit sci-fi gateway" /></div>
                         <div class="wheel-item" style="--i:1"><img src="/images/render2.png" alt="Render of a luminous ice canyon" /></div>
                         <div class="wheel-item" style="--i:2"><img src="/images/render3.png" alt="Render of a neon-lit desert shrine" /></div>
                         <div class="wheel-item" style="--i:3"><img src="/images/render4.jpg" alt="Render of a glowing arc in a rocky valley" /></div>
@@ -160,6 +167,27 @@
 
             const moveStrength = 50;
             const signedSquare = (value) => value * Math.abs(value);
+            const randomVector = () => {
+                const angle = Math.random() * Math.PI * 2;
+                return { x: Math.cos(angle), y: Math.sin(angle) };
+            };
+
+            const targetConfigs = targets.map((bg) => {
+                const depth = parseFloat(bg.dataset.motionDepth || '1');
+                const scale = parseFloat(bg.dataset.motionScale || '1.08');
+                const preserveTransform = bg.dataset.preserveTransform === 'true';
+                const baseTransform = preserveTransform ? window.getComputedStyle(bg).transform : '';
+                const { x: dirX, y: dirY } = randomVector();
+
+                return {
+                    bg,
+                    depth,
+                    scale,
+                    dirX,
+                    dirY,
+                    baseTransform: baseTransform === 'none' ? '' : baseTransform,
+                };
+            });
 
             document.addEventListener('mousemove', (e) => {
                 const width = window.innerWidth;
@@ -171,10 +199,11 @@
                 const moveX = signedSquare(normX) * moveStrength;
                 const moveY = signedSquare(normY) * moveStrength;
 
-                targets.forEach((bg) => {
-                    const depth = parseFloat(bg.dataset.motionDepth || '1');
-                    const scale = parseFloat(bg.dataset.motionScale || '1.08');
-                    bg.style.transform = `translate3d(${-moveX * depth}px, ${-moveY * depth}px, 0) scale(${scale})`;
+                targetConfigs.forEach((config) => {
+                    const offsetX = moveX * config.dirX;
+                    const offsetY = moveY * config.dirY;
+                    const transformValue = `translate3d(${-offsetX * config.depth}px, ${-offsetY * config.depth}px, 0) scale(${config.scale})`;
+                    config.bg.style.transform = `${config.baseTransform ? `${config.baseTransform} ` : ''}${transformValue}`;
                 });
             });
         })();

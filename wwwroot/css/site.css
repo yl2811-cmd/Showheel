@@ -23,6 +23,41 @@ body {
     line-height: 1.7;
     scroll-behavior: smooth;
     min-height: 100vh;
+    position: relative;
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(2px 2px at 10% 20%, rgba(255, 255, 255, 0.6), transparent 55%),
+        radial-gradient(2px 2px at 30% 40%, rgba(255, 255, 255, 0.55), transparent 60%),
+        radial-gradient(3px 3px at 70% 10%, rgba(255, 255, 255, 0.7), transparent 58%),
+        radial-gradient(1.5px 1.5px at 50% 80%, rgba(255, 255, 255, 0.65), transparent 60%),
+        radial-gradient(2.5px 2.5px at 85% 60%, rgba(255, 255, 255, 0.6), transparent 60%);
+    background-size: 320px 420px, 380px 460px, 440px 520px, 360px 420px, 420px 500px;
+    animation: snowfall 26s linear infinite;
+    mix-blend-mode: screen;
+    opacity: 0.32;
+    z-index: 0;
+}
+
+body::after {
+    filter: blur(0.4px);
+    animation-duration: 36s;
+    opacity: 0.25;
+}
+
+@keyframes snowfall {
+    from {
+        background-position: 0 -220px, 80px -320px, -140px -260px, 120px -200px, -60px -240px;
+    }
+    to {
+        background-position: 0 calc(100vh + 220px), 80px calc(100vh + 320px), -140px calc(100vh + 260px), 120px calc(100vh + 200px), -60px calc(100vh + 240px);
+    }
 }
 
 a {
@@ -186,7 +221,7 @@ main {
 
 .hero-section {
     --hero-bg-offset: 0px;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
+    background: url('/images/render1.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
 }
 
 .hero-section::before {
@@ -213,7 +248,7 @@ main {
     content: "";
     position: absolute;
     inset: -6%;
-    background: url('/images/hero-city.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
+    background: url('/images/render1.png') center calc(50% + var(--hero-bg-offset)) / cover no-repeat;
     z-index: 0;
     opacity: 0.62;
     filter: brightness(1.1) saturate(1.06) blur(0.35px);
@@ -379,7 +414,7 @@ h1 {
     content: "";
     position: absolute;
     inset: -6%;
-    background: url('/images/feature-bg.png') center calc(50% + var(--feature-bg-offset)) / cover no-repeat;
+    background: url('/images/render3.png') center calc(50% + var(--feature-bg-offset)) / cover no-repeat;
     opacity: 0.78;
     filter: brightness(1.12) saturate(1.07) contrast(1.02);
     transform: scale(1.02);
@@ -482,7 +517,7 @@ h1 {
     content: "";
     position: absolute;
     inset: -6%;
-    background: url('/images/gallery-bg.png') center calc(50% + var(--gallery-bg-offset)) / cover no-repeat;
+    background: url('/images/render4.jpg') center calc(50% + var(--gallery-bg-offset)) / cover no-repeat;
     opacity: 0.78;
     filter: brightness(1.12) saturate(1.06) contrast(1.02);
     transform: scale(1.02);
@@ -542,7 +577,7 @@ h1 {
 .image-wave-divider {
     position: relative;
     height: 260px;
-    background: url('/images/render1.png') center center / cover no-repeat;
+    background: url('/images/render5.jpg') center center / cover no-repeat;
     overflow: hidden;
     isolation: isolate;
 }

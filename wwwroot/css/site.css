@@ -380,10 +380,10 @@ h1 {
 
 .hero-content-frame {
     position: relative;
-    max-width: 600px; /* 原来是 700px，改大让文字不拥挤 */
+    max-width: 500px; /* 原来是 700px，改大让文字不拥挤 */
     padding: 2rem 1.5rem; /* 稍微增加内部边距 */
     background: linear-gradient(160deg, rgba(8, 18, 38, 0.6), rgba(10, 24, 48, 0.5));
-    border-radius: 14px;
+    border-radius: 25px;
     border: 1px solid rgba(77, 226, 255, 0.3);
     box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4), 0 0 32px rgba(77, 226, 255, 0.15);
     overflow: visible; /* 改为 visible，防止阴影或子元素被切掉 */

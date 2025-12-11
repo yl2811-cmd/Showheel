@@ -23,3 +23,4 @@ wwwroot\images\avatar-01.png
 wwwroot\images\anna-freedman.png
 wwwroot\images\gallery-07.png
 wwwroot\css\site.css
+wwwroot\images\re1.png

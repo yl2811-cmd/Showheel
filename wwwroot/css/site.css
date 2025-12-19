@@ -766,6 +766,82 @@ h1 {
     background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 82c120-24 240-36 360-36s240 12 360 28 240 32 360 32 240-12 360-20v54H0Z' fill='%23070f20'/%3E%3C/svg%3E");
 }
 
+.portfolio-section {
+    background: radial-gradient(circle at 20% 30%, rgba(77, 226, 255, 0.18), transparent 32%),
+        radial-gradient(circle at 80% 20%, rgba(255, 95, 162, 0.16), transparent 34%),
+        linear-gradient(135deg, rgba(5, 9, 21, 0.95), rgba(5, 12, 26, 0.95));
+}
+
+.portfolio-bg {
+    background-image: linear-gradient(180deg, rgba(5, 9, 21, 0.4), rgba(5, 9, 21, 0.7)),
+        url('/images/gallery-bg.png');
+    background-size: cover;
+    background-position: center;
+    filter: saturate(0.9) brightness(0.82);
+    opacity: 0.45;
+}
+
+.portfolio-feature {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    background: rgba(8, 12, 26, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.38);
+}
+
+.portfolio-feature .media-frame {
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.38);
+}
+
+.portfolio-feature-body {
+    background: linear-gradient(180deg, rgba(77, 226, 255, 0.08), rgba(255, 95, 162, 0.08));
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    padding: 1.1rem 1.25rem;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.portfolio-feature-body h3 {
+    margin: 0.2rem 0 0.35rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.1rem;
+}
+
+.portfolio-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(8, 12, 26, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.32);
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-card-caption {
+    padding: 0.8rem 0.95rem;
+    font-weight: 600;
+    background: linear-gradient(180deg, rgba(5, 9, 21, 0) 0%, rgba(5, 9, 21, 0.9) 100%);
+}
+
+.wave-portfolio::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 70c120-18 240-28 360-28s240 10 360 24 240 30 360 30 240-12 360-22v66H0Z' fill='%23060f1d'/%3E%3C/svg%3E");
+}
+
 .mod-section {
     background: radial-gradient(circle at 15% 20%, rgba(77, 226, 255, 0.16), transparent 32%),
         radial-gradient(circle at 85% 10%, rgba(255, 95, 162, 0.14), transparent 34%),
@@ -846,6 +922,7 @@ h1 {
     }
 
     .university-wrap,
+    .portfolio-feature,
     .mod-grid {
         grid-template-columns: 1fr;
     }

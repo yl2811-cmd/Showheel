@@ -144,8 +144,12 @@ p {
 }
 
 .top-links .icon-link svg {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+}
+
+.top-links .icon-link svg path {
+    fill: #0a66c2;
 }
 
 .top-links a:hover,

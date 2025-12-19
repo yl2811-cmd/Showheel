@@ -254,55 +254,100 @@
 <div class="wave-divider wave-gallery" aria-hidden="true"></div>
 
 <section id="interlude" class="full-section interlude-section">
-    <div class="section-inner">
-        <div class="section-header">
-            <p class="eyebrow">Interlude</p>
-            <h2>Cinematic environment vignettes</h2>
-            <p class="lede">
-                Additional renders that bridge the pastoral calm of the showwheel with the systems thinking of the
-                Minecraft mod. Each frame studies light, atmosphere, and architectural rhythm.
-            </p>
+    <div
+        class="background-image section-bg interlude-bg"
+        aria-hidden="true"
+        data-motion-depth="1.08"
+        data-motion-scale="1.12"
+        style="background-image: url('/images/Garden_in_the_wild1-revised.jpg');"
+    ></div>
+    <div class="section-inner interlude-surface">
+        <div class="section-header interlude-header">
+            <h2>showwheel</h2>
         </div>
 
-        <div class="mod-grid interlude-grid">
-            <div class="mod-card">
-                <h3>Studies between worlds</h3>
-                <p>
-                    These scenes sit between narrative milestones—quiet plazas, reflective courtyards, and bioluminescent
-                    valleys. They extend the cinematic language of the showwheel while hinting at gameplay-ready spaces.
-                </p>
-                <ul class="mod-highlights">
-                    <li>Layered foliage and masonry to guide the eye through depth.</li>
-                    <li>Warm, reflective pools paired with cool skylight for contrast.</li>
-                    <li>Composition framed for both still renders and potential level layouts.</li>
-                </ul>
+        <div class="interlude-gallery" role="list">
+            <div class="interlude-frame" role="listitem">
+                <img src="/images/1718465537262.jpg" alt="Sunlit courtyard" />
             </div>
-
-            <div class="uni-gallery-grid" role="list">
-                <div class="uni-gallery-card" role="listitem">
-                    <img src="/images/1718465537262.jpg" alt="Sunlit courtyard with reflective water and arches" />
-                    <div class="uni-card-caption">Sunlit arches mirrored in a tranquil courtyard pool.</div>
-                </div>
-                <div class="uni-gallery-card" role="listitem">
-                    <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Wide stone bridge leading to futuristic hall" />
-                    <div class="uni-card-caption">A monumental bridge channeling light toward a vaulted hall.</div>
-                </div>
-                <div class="uni-gallery-card" role="listitem">
-                    <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Dense green garden with mist and stone path" />
-                    <div class="uni-card-caption">Mist-laced greenery softens the carved stone paths.</div>
-                </div>
-                <div class="uni-gallery-card" role="listitem">
-                    <img src="/images/Image_1714248859708.jpg" alt="Mountain vista with warm sunlight and ruins" />
-                    <div class="uni-card-caption">Warm ridgelines cradle ruins beneath a sweeping sky.</div>
-                </div>
-                <div class="uni-gallery-card" role="listitem">
-                    <img src="/images/QQ20251107-035209.png" alt="Futuristic cityscape with glowing horizon" />
-                    <div class="uni-card-caption">A city skyline humming with luminous horizon lines.</div>
-                </div>
+            <div class="interlude-frame" role="listitem">
+                <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Stone bridge and vaulted hall" />
+            </div>
+            <div class="interlude-frame" role="listitem">
+                <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Misty garden pathway" />
+            </div>
+            <div class="interlude-frame" role="listitem">
+                <img src="/images/Image_1714248859708.jpg" alt="Warm mountain vista" />
+            </div>
+            <div class="interlude-frame" role="listitem">
+                <img src="/images/QQ20251107-035209.png" alt="Futuristic cityscape" />
             </div>
         </div>
     </div>
 </section>
+
+<style>
+    .interlude-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .interlude-section .section-inner {
+        position: relative;
+        z-index: 1;
+    }
+
+    .interlude-bg {
+        opacity: 0.55;
+        background-size: cover;
+        background-position: center;
+        filter: saturate(1.05);
+    }
+
+    .interlude-surface {
+        backdrop-filter: blur(4px);
+    }
+
+    .interlude-header {
+        text-align: center;
+        color: #ffffff;
+        text-transform: lowercase;
+    }
+
+    .interlude-header h2 {
+        font-size: clamp(28px, 4vw, 52px);
+        letter-spacing: 0.08em;
+        margin-bottom: 12px;
+    }
+
+    .interlude-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: clamp(16px, 2vw, 28px);
+        margin-top: clamp(12px, 2vw, 24px);
+    }
+
+    .interlude-frame {
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+        background: rgba(0, 0, 0, 0.3);
+        aspect-ratio: 16 / 10;
+    }
+
+    .interlude-frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.6s ease;
+    }
+
+    .interlude-frame:hover img,
+    .interlude-frame:focus-within img {
+        transform: scale(1.04);
+    }
+</style>
 
 <div class="wave-divider wave-gallery" aria-hidden="true"></div>
 

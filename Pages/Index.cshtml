@@ -268,19 +268,34 @@
 
         <div class="interlude-gallery" role="list">
             <div class="interlude-frame" role="listitem">
-                <img src="/images/1718465537262.jpg" alt="Sunlit courtyard" />
+                <a class="interlude-link" href="/images/1718465537262.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/1718465537262.jpg" alt="Sunlit courtyard" />
+                </a>
             </div>
             <div class="interlude-frame" role="listitem">
-                <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Stone bridge and vaulted hall" />
+                <a
+                    class="interlude-link"
+                    href="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Stone bridge and vaulted hall" />
+                </a>
             </div>
             <div class="interlude-frame" role="listitem">
-                <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Misty garden pathway" />
+                <a class="interlude-link" href="/images/Garden_in_the_wild1-revised.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Misty garden pathway" />
+                </a>
             </div>
             <div class="interlude-frame" role="listitem">
-                <img src="/images/Image_1714248859708.jpg" alt="Warm mountain vista" />
+                <a class="interlude-link" href="/images/Image_1714248859708.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/Image_1714248859708.jpg" alt="Warm mountain vista" />
+                </a>
             </div>
             <div class="interlude-frame" role="listitem">
-                <img src="/images/QQ20251107-035209.png" alt="Futuristic cityscape" />
+                <a class="interlude-link" href="/images/QQ20251107-035209.png" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/QQ20251107-035209.png" alt="Futuristic cityscape" />
+                </a>
             </div>
         </div>
     </div>
@@ -321,10 +336,11 @@
     }
 
     .interlude-gallery {
+        --interlude-scale: 1.6;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: clamp(16px, 2vw, 28px);
-        margin-top: clamp(12px, 2vw, 24px);
+        grid-template-columns: repeat(auto-fit, minmax(calc(260px * var(--interlude-scale)), 1fr));
+        gap: clamp(18px, 2vw, 32px);
+        margin-top: clamp(14px, 2vw, 28px);
     }
 
     .interlude-frame {
@@ -333,6 +349,12 @@
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
         background: rgba(0, 0, 0, 0.3);
         aspect-ratio: 16 / 10;
+    }
+
+    .interlude-link {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .interlude-frame img {

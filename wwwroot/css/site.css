@@ -793,6 +793,20 @@ h1 {
     pointer-events: none;
 }
 
+.mod-top {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: clamp(1.5rem, 3vw, 3rem);
+    margin-bottom: 2rem;
+}
+
+.mod-top .section-header {
+    margin-bottom: 0;
+}
+
 .mod-grid {
     position: relative;
     z-index: 1;
@@ -803,15 +817,15 @@ h1 {
 }
 
 .mod-portal {
-    position: relative;
-    z-index: 1;
-    margin-top: clamp(22px, 3vw, 36px);
     display: flex;
     justify-content: flex-end;
 }
 
 .mod-portal-link {
-    padding: 1rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.65rem;
     border-radius: 16px;
     background: linear-gradient(140deg, rgba(255, 95, 162, 0.22), rgba(77, 226, 255, 0.2));
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -819,6 +833,13 @@ h1 {
     font-weight: 600;
     box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32), 0 0 32px rgba(77, 226, 255, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mod-portal-link img {
+    width: clamp(220px, 18vw, 320px);
+    height: auto;
+    display: block;
+    border-radius: 12px;
 }
 
 .mod-portal-link:hover,
@@ -883,6 +904,17 @@ h1 {
     .university-wrap,
     .mod-grid {
         grid-template-columns: 1fr;
+    }
+
+    .mod-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mod-portal {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 1.5rem;
     }
 
     .showwheel {

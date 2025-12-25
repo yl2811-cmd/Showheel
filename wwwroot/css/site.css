@@ -171,6 +171,12 @@ p {
     box-shadow: var(--glow);
 }
 
+.buy-pill {
+    border: 1px solid rgba(77, 226, 255, 0.35);
+    background: rgba(77, 226, 255, 0.12);
+    box-shadow: var(--glow);
+}
+
 main {
     position: relative;
 }
@@ -794,6 +800,31 @@ h1 {
     grid-template-columns: 1.2fr 0.9fr;
     gap: 1.5rem;
     align-items: center;
+}
+
+.mod-portal {
+    position: relative;
+    z-index: 1;
+    margin-top: clamp(22px, 3vw, 36px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mod-portal-link {
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    background: linear-gradient(140deg, rgba(255, 95, 162, 0.22), rgba(77, 226, 255, 0.2));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: var(--text-main);
+    font-weight: 600;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32), 0 0 32px rgba(77, 226, 255, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mod-portal-link:hover,
+.mod-portal-link:focus-visible {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.38), 0 0 40px rgba(255, 95, 162, 0.2);
 }
 
 .mod-card {

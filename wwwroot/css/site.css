@@ -776,6 +776,117 @@ h1 {
     background-image: url("data:image/svg+xml,%3Csvg width='1200' height='140' viewBox='0 0 1200 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 82c120-24 240-36 360-36s240 12 360 28 240 32 360 32 240-12 360-20v54H0Z' fill='%23070f20'/%3E%3C/svg%3E");
 }
 
+.feature-learn-more {
+    margin-top: 1rem;
+}
+
+.novel-showcase-page {
+    min-height: 100vh;
+    padding: 6.5rem 1.5rem 4rem;
+    background: radial-gradient(circle at 15% 15%, rgba(196, 165, 90, 0.18), transparent 34%),
+        radial-gradient(circle at 85% 5%, rgba(255, 95, 162, 0.14), transparent 36%),
+        linear-gradient(170deg, #12100c 0%, #18140f 45%, #0d0a07 100%);
+}
+
+.novel-showcase-page .novel-hero {
+    text-align: center;
+    padding: 1rem 1rem 2.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(196, 165, 90, 0.28);
+}
+
+.novel-showcase-page .novel-title {
+    font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #d2b06a;
+}
+
+.novel-showcase-page .novel-title-cn {
+    margin-top: 0.35rem;
+    font-size: 1rem;
+    color: #9f8a60;
+    letter-spacing: 0.22em;
+}
+
+.novel-showcase-page .novel-subtitle,
+.novel-showcase-page .novel-tagline {
+    max-width: 700px;
+    margin: 0.9rem auto 0;
+    line-height: 1.75;
+    color: #b9aa8b;
+}
+
+.novel-showcase-page .novel-tagline {
+    color: #8f7d5d;
+    font-style: italic;
+}
+
+.novel-showcase-page .novel-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgba(196, 165, 90, 0.2);
+}
+
+.novel-showcase-page .novel-section h2 {
+    color: #d2b06a;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.06em;
+}
+
+.novel-showcase-page .novel-section p {
+    color: #b9aa8b;
+    line-height: 1.75;
+    margin-bottom: 0.9rem;
+}
+
+.novel-showcase-page .novel-section-intro {
+    color: #95815f;
+    font-size: 0.9rem;
+}
+
+.novel-showcase-page .art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.novel-showcase-page .art-card {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(196, 165, 90, 0.24);
+    background: rgba(10, 8, 5, 0.68);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+}
+
+.novel-showcase-page .art-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+.novel-showcase-page .art-caption {
+    padding: 0.9rem 1rem 1rem;
+}
+
+.novel-showcase-page .art-label {
+    color: #d2b06a;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.45rem;
+}
+
+.novel-showcase-page .art-caption p {
+    margin: 0;
+    color: #a89574;
+    font-size: 0.92rem;
+}
+
 .mod-section {
     background: radial-gradient(circle at 15% 20%, rgba(77, 226, 255, 0.16), transparent 32%),
         radial-gradient(circle at 85% 10%, rgba(255, 95, 162, 0.14), transparent 34%),

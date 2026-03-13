@@ -657,6 +657,88 @@ h1 {
     transform: translateX(4px);
 }
 
+/* Story boxes — side-by-side links below atlas card */
+.story-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.story-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid var(--border);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.32);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.story-box-cn {
+    background-image: url('/images/feature-bg.png');
+}
+
+.story-box-en {
+    background-image: url('/images/gallery-bg.png');
+}
+
+.story-box-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 14, 32, 0.6);
+    backdrop-filter: blur(2px);
+    transition: background 0.3s ease;
+}
+
+.story-box:hover .story-box-overlay {
+    background: rgba(6, 14, 32, 0.4);
+}
+
+.story-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+    border-color: var(--accent, #5ba0d0);
+}
+
+.story-box-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.story-box-icon {
+    font-size: 2rem;
+}
+
+.story-box-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.story-box-sub {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .story-boxes {
+        grid-template-columns: 1fr;
+    }
+}
+
 .gallery-section {
     background: linear-gradient(160deg, rgba(5, 12, 26, 0.32), rgba(4, 10, 22, 0.26));
     padding-bottom: 5rem;

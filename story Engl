@@ -1,7 +1,6 @@
+Note auto translation might be rough in language flowing.
 
-Note: This translation from chinese might be inaccurate, suggested to use Gemini or other tools for original text translation 
-
-----
+--------------------------
 
 A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to repair it—not because it's broken, but because it's still growing.
 
@@ -33,13 +32,13 @@ This topography is a core shaping force of civilization. The rugged terrain made
 
 All human civilizations are concentrated on the only habitable continent, **Aethelgard**.
 
-### 1.3 Sensory snapshots of the five settlements
+### 1.3 Sensory Snapshots of the Six Settlements
 
 After reading this section, you should be able to "enter" each place.
 
 ---
 
-**Frontier City** — The largest settlement, with approximately 300,000 inhabitants, a trade hub.
+**Frontier City** — The largest settlement, with approximately 350,000 residents, and an Apex Hub/trade hub.
 
 What you see first is the skyline—giant CI-era domes and towers (100-300 meters) enveloped by layers of 500-year-old human growth. Vines climb the ancient nano-concrete surfaces. Orange tents stretch above the market. Grass sprouts from the cracks in the cobblestone streets. Airships are moored at different altitudes on multi-level airport platforms—the slender black lines of carbon fiber trusses alternate with the emerald green of riveted copper plates.
 
@@ -71,13 +70,33 @@ Atmosphere: **Horizontal lifestyle + vertical industry + infrastructure under co
 
 ---
 
-**Iris Hollow (Rainbow Valley)** — Approximately 100,000 people, one of the Apex Hubs
+**Iris Hollow** — Approximately 120,000 people, one of the Apex Hubs
 
 Coastal hill settlement. With no cliffs to cling to, the airport utilizes the hillsides as a terrace, creating a more horizontal and spread-out feel. Small airships are anchored directly to ground-level stakes on the grassy slopes, like a herd of giant buffalo grazing in the meadow. The sea breeze carries a salty scent. The surrounding woodlands are abundant, and the buildings use more wood, giving it a more pastoral and open feel than Frontier. It also houses a fusion reactor—another industrial hub. The wheat fields are golden and full at the end of the warm season; harvest season is the busiest time of the year.
 
 ---
 
-**Riverbend** — Approximately 5,000-10,000 people
+**Amber Reach** — Approximately 50,000 people, granary of the southeastern highlands.
+
+Aethelgard is a highland region on the southeastern coast of the continent. The central plain extends southeastward, rising to a gently sloping hilly plateau—200-400 meters above sea level—before reaching the coastline, large enough to accommodate the largest continuous farmland on the continent. Open to the ocean to the southeast, the sea breezes, having lost most of their salt content but retaining moisture, sweep over the hills: precipitation here is 30-40% higher than in the central plain, making it Aethelgard's most reliable rainfall area. The flight from Frontier City takes about one and a half to two days, and its direction does not overlap with flights to Atheria (northeast) or Riverbend (south)—it's a separate southeastern route.
+
+**Visual Identity:** Horizontal, golden, and constantly whistling with the wind. There's no verticality like a canyon, no massive skyline like Frontier City's CI. Buildings spread along gentle hillsides—three- or four-story timber and stone structures with copper-colored roofs climb from the lower levels to the distant ridges. Wind turbines line the highest ridges, their blades spinning at a near-constant speed in the steady sea breeze—unlike the turbines on the cliffs of Atheria, tormented by canyon turbulence, the wind here is "clean," and the turbines turn quietly and evenly. In the town center stands a CI-era seed vault/grain processing facility, its copper dome gleaming a dark green in the sunlight. Now converted into a mill and granary complex, the low-frequency vibrations of the stone mills inside provide the daytime backdrop. Golden wheat fields and green pastures interweave among the buildings, and the fog line above the coast can be faintly seen to the southeast.
+
+**Energy: CFU (Tier 1).** A small catalytic fusion unit, equivalent to Atheria. Provides baseload electricity, industrial steam, and heat for large-scale grain drying—it would be impossible to process thousands of tons of wet grain within weeks during the harvest season without a stable heat source. Field irrigation and wind towers use Tier 2 distributed energy.
+
+**Economic Identity:** Archeon's breadbasket. Reliable rainfall + vast tracts of gently sloping arable land + CFU-driven food processing capacity—these three factors combined allow it to produce a food surplus far exceeding its own needs each year. Core exports: flour and compressed cereal (the primary source of hauler standard rations), dried straw (building materials and fuel), and high-quality seeds (the seed screening system from the CI food processing facility's heritage, the only one still operational in Archeon). Its negotiating position within Loom isn't as "hard" as a fusion reactor, but it's more widespread than Skyleaf—every settlement eats bread. A year without food would cause famine throughout Loom.
+
+**Local Specialty: Wind Bread.** This sourdough bread is naturally fermented using trace amounts of salt carried by the southeastern sea breeze. It has an extremely hard and crisp crust, and a soft, slightly salty interior. The taste differs between bakeries facing the sea and those facing away from the sea—they use different yeast cultures. At the Thread Festival, boxes of wind bread brought by Amber Reach's delegation sold out within three days.
+
+**Population Distribution: Scattered + Core Area.** The town center has approximately 15,000-20,000 people (around the CI granary/CFU/square/skyport), while the remaining 30,000-35,000 are distributed across a dozen or so farm settlements within a 20-30 km radius, each with 200-2,000 people, each with its own small wind tower and granary, connected to the town center by dirt roads and short skiffs.
+
+**Soundscape: Wind + Grain + Birds.** The constant sea breeze creates multiple layers of white noise in your ears, in the grass, and on the turbine blades. During harvest season, the sounds of reaping, threshing, and milling add to the noise. In the evenings outside of harvest season, during the few seconds the wind pauses, you can hear the calls of grey-necked finches in the stubble fields—that silence itself is a sound.
+
+**Atmosphere:** Abundant, open, and the quietude of a farmer. The people here are more reserved, more attuned to the weather, and more attentive to the changing colors of the soil than those in Frontier City. The town center is the venue for markets and festivals; daily life unfolds in the fields.
+
+---
+
+**Riverbend** — Approximately 8,000 people
 
 Located inside the Grand Canyon on the Orun Plateau, the main stream of the Ishkar River forms a large bend here. The Grand Canyon is about 5 kilometers wide and 3 kilometers deep. The Riverbend is built on the alluvial terraces on the inside of the river bend.
 
@@ -93,13 +112,16 @@ Temperament: **Practical, serene, and with its own rhythm.** Riverbend's version
 
 ---
 
-**Skyleaf Basin** — Approximately 3,000-5,000 people
+**Skyleaf Basin** — Approximately 5,000 people
 
 A high-altitude basin with active geothermal activity. This settlement was built on the site of a climate monitoring/medicinal herb cultivation experimental station from the CI era. Its core product is **Ember Crown**—a deep red medicinal plant that thrives under the basin's unique geothermal, altitude, and sunlight conditions. Its deep red petals make the entire hillside appear ablaze when it blooms in the warmer season.
 
 Ember Crown extract is Archeon's closest thing to a "panacea"—not really a panacea, but rather something else entirely. Its irreplaceability is highest in The Loom—food can be grown in many places, iron can be smelted in many places, but pharmaceutical-grade Ember Crown can only be produced in Skyleaf.
 
 Temperament: **Remote, quiet, and feeling needed.**
+
+---
+
 
 ---
 
@@ -160,7 +182,7 @@ Archeon's city distribution is determined by its energy hierarchy. Four-tier sys
 
 **Tier 0: D-D Fusion Reactor** — A CI legacy, irreplaceable, repairable only. Only two or three are operational across Archeon. The settlements with fusion reactors are the Apex Hub—Frontier City and Iris Hollow. The fusion reactor is the heart of this civilization: 24/7 baseload electricity + heavy industry + hydrogen production (airship fuel) + waste heat driving a steam thermal chain. The design is a masterpiece of the CI era's "ultra-durable" philosophy—simple, over-engineered, and capable of being disassembled and repaired with hand tools.
 
-**Tier 1: Steam Thermal Chain + Small Catalytic Fusion Unit (CFU)** — The steam thermal chain is not a crude 19th-century boiler—it's an optimized steam system guided by 25th-century knowledge. Organic Rankine cycle (low-boiling-point working fluid, driving turbines at lower temperature differences). Everyday thermal drives—cranes, lifting cages, hydraulic systems, factory machinery—use steam directly. Steam pipes are sealed with CI-formulated alloy gaskets, so the network can operate for 500 years. Visually: It looks like steampunk—exposed copper pipes, exhaust ports, pressure gauges—but its performance is an order of magnitude better than any steam system in history. The CFU is a smaller catalytic fusion unit, giving medium-sized settlements like Atheria industrial capabilities beyond purely renewable energy.
+**Tier 1: Steam Thermal Chain + Small Catalytic Fusion Unit (CFU)** — The steam thermal chain is not a crude 19th-century boiler—it's an optimized steam system guided by 25th-century knowledge. Organic Rankine cycle (low-boiling-point working fluid, driving turbines at lower temperature differentials). Everyday thermal drives—cranes, lifting cages, hydraulic systems, factory machinery—use steam directly. Steam pipes are sealed with CI-formulated alloy gaskets, so the network can operate for 500 years. Visually: It looks like steampunk—exposed copper pipes, exhaust ports, pressure gauges—but its performance is an order of magnitude better than any steam system in history. CFUs are smaller catalytic fusion units, enabling medium-sized settlements like Atheria and Amber Reach to achieve industrial capabilities beyond purely renewable energy.
 
 **Tier 2: Distributed Intermediate Technology** — 25th-century knowledge + Archeon replicability. Perovskite solar panels (locally coated and produced), wind turbines (natural wind tunnels in canyons), gravity-fed hydroelectric storage (natural energy storage systems based on canyon elevation differences), and hydroelectric power (Riverbend's stepped canals are a prime example).
 
@@ -246,6 +268,8 @@ Vegetables—primarily modified cruciferous and legume plants. A dark leafy gree
 **Riverbend:** Located near the fast-flowing section of the Ishkar South tributary, it produces some of the best smoked fish. Riverbend's **"smoked river fish"** is recognized as the finest ingredient in Archeon—after marinating, it's slowly smoked for three days with Sentinel Pine sawdust, resulting in a deep amber color, a slightly glossy exterior, and a translucent orange-red color when cut open. It has a salty and savory flavor with a hint of pine resinous sweetness. It's very expensive; in upscale restaurants in Frontier City, one fish can cost the equivalent of two days' wages for an average person.
 
 **Skyleaf:** The cool climate of the high-altitude basin is ideal for a special high-protein grain (similar to quinoa). The people of Skyleaf use it to make a fermented porridge with a slightly sour taste. Outsiders often frown upon first bite, but once they get used to it, they become addicted. Skyleaf's flower field honey is another major export—light-colored and almost transparent, with a strong floral aroma, it's widely recognized as the best honey in Archeon.
+
+**Amber Reach:** **"Wind Bread"**—a sourdough bread that ferments naturally using trace amounts of salt carried by the southeast sea breeze. It has an extremely hard and crisp crust, and a soft, slightly salty interior. The taste differs between bakeries facing the sea and those facing away—the yeast community changes with the wind direction. At the Thread Festival, boxes of wind bread brought by the Amber Reach delegation sold out within three days. Furthermore, Amber Reach's seed selection system (a legacy of the CI food processing facility) makes it the sole source of high-quality seeds for all of Archeon—each settlement awaits its seed ships every planting season.
 
 **The social function of dining:**
 
@@ -3455,33 +3479,33 @@ Total population: ~1,000,000
 
 Approximately 47% are concentrated in the two Apex Hubs (Frontier City + Iris Hollow), 13% in other named settlements, and 40% scattered in unnamed outposts, farms, and transit stations.
 
-### §1.1 Named Settlements
 
-| Settlement | Population | Type | Map Location | Economic Role | One-Sentence Perception |
-|---|---|---|---|---|---|
-| **Frontier City** | ~350k | Apex Hub | Right in the center of the Basin | Fusion Reactor, Deuterium Refining, Trading Center | Density, Layered Sounds, Steam Organ |
-| **Iris Hollow** | ~120k | Apex Hub | West side of Basin, coastline | Fusion reactor, grain depot, orchard | Sea breeze, flat wheat fields, open space |
-| **Atheria** | ~30k | Canyon City | Northeast of Basin, within the canyon | Canyon Brewing, Mining, Precision Workshop | Vertical, Cliff Echo, Elevator Cage |
-| **Coppergate** | ~12k | Trade Gate | Southern Basin, Northern Edge of Orun | North-South Trade Hub & Transit Station | Dry Air, High Freight Density |
-| **Riverbend** | ~8k | Canyon Town | Orun Plateau, Grand Canyon | River Smokers, Water System | Acoustic Capillary Net, Pine Resin Smoke |
-| **Verdance** | ~8k | Cultural Hub | North-East Basin | Apprenticeship Training & Festival Culture | Green, Apprenticeship Workshop Cluster |
-| **Crestline** | ~7k | Basin Edge | Between Frontier and Atheria | Leather Atheria Portal | Transition Zone, Edge |
-| **Thornfield** | ~6k | Agricultural | East side of Basin | Thorny sheep, tubers | Pasture, muttony smell |
-| **Millhaven** | ~5.5k | Agricultural | Between Frontier and Iris Hollow | Flour Processing | Mill Sounds, Flour Dust |
-| **Skyleaf** | ~5k | Enclosed Basin | Kestrel Basin (East of Serpent's Tooth) | Gene Bank · Ember Crown Herbs | Geothermal Sulfur, Safflower Fields, High-Altitude Tranquility |
-| **Ironvein** | ~4.5k | Mining | Southeast Basin | Iron & Copper Mine | Slag heap, dark rock walls |
-| **Canopy** | ~4k | Forestry | Northernmost Basin | Timber & Charcoal | Resin, Sawmill Sounds, Canopy |
-**Hearthstone** | ~4k | Agricultural | Basin (Southwest) | Bread cereals | Golden wheat fields, plains breeze |
-| **Tidemark** | ~3.5k | Coastal | Southwest Basin | Fish & Kelp | Tidal Line, Salty Seaweed |
-| **Windbreak** | ~3.5k | Relay | Top of Orun Plateau | Weather Station/Refuge Transit Point | Highland Wind Gap |
-| **Cliffwatch** | ~3k | Cliff Town | South rim of Basin, north face of Orun | Terraced fields, waterfalls | Vertical farmland, water curtains |
-| **Driftmoor** | ~2.8k | Coastal | Northwest Basin | Seaweed, mist netting | Dense fog, humid |
-Gearstead | ~2.5k | Workshop | Northwest Inland Basin | RTG Repair & Precision Workshop | Quiet, High-Technology-Dense |
-| **Shellharbor** | ~2.2k | Coastal | Southwest of Basin, south of Tidemark | Fishing boats, harbor | Wooden boats, fishing nets |
-| **Stormperch** | ~2k | Outpost | West entrance to Serpent's Tooth | Pilot Guide & Weather Outpost | Pass Outpost, Storm Stories |
-| **Saltmarch** | ~1.5k | Resource | Northern edge of the Great Ochre Desert | Salt-rich Axiom wreck salvage | Dry, hot, ochre-red sand |
+| Settlement | Population | Type | Region | Core Roles |
+|---|---|---|---|---|
+| **Frontier City** | 350k | Apex Hub | Central Basin | Fusion reactor, deuterium refining, trade |
+| **Iris Hollow** | 120k | Apex Hub | W Coast | Fusion reactor, food, orchard |
+Amber Reach | 50k | Agricultural Hub | SE Coast Highland | Grain storage, seed screening, wind-dried bread |
+| **Atheria** | 30k | Canyon City | NE Canyon | Canyon Brewing, Minerals, Elevator |
+| Coppergate | 12k | Trade Gate | S Basin | North-South Trade Hub |
+| Verdance | 8k | Cultural | N Basin | Festivals, Apprenticeship Training |
+| Riverbend | 8k | Canyon Town | Orun Canyon | River Smoked Fish, Waterway System |
+| Crestline | 7k | Basin Edge | NE Basin | Leather, Atheria Portal |
+| Thornfield | 6k | Agricultural | E Basin | Thorny sheep, tubers |
+Millhaven | 5.5k | Agricultural | W Basin | Mill, Flour Processing |
+| Skyleaf | 5k | Enclosed Basin | Kestrel Basin (within Serpent's Tooth) | Gene Bank, Ember Crown |
+| Ironvein | 4.5k | Mining | SE Basin | Iron ore, copper ore |
+| Canopy | 4k | Forestry | N Forest | Wood, Charcoal |
+Hearthstone | 4k | Agricultural | Central | Bread and cereal |
+| Tidemark | 3.5k | Coastal | SW Coast | Fish, Seaweed, Storm Warning |
+| Windbreak | 3.5k | Relay | Orun Top | Weather, Shelter |
+Cliffwatch | 3k | Cliff Town | Orun N Face | Rice Terraces, Waterfalls |
+| Driftmoor | 2.8k | Coastal | NW Coast | Algae, mist netting water collection |
+| Gearstead | 2.5k | Workshop | NW Basin | RTG Repair |
+| Shellharbor | 2.2k | Coastal | SW Coast | Fisheries, Shipbuilding |
+| Stormperch | 2k | Outpost | Serpent's Tooth W | Guide, Weather |
+| Saltmarch | 1.5k | Resource | Desert Edge | Salt, Debris Salvage |
 
----
+**Energy Tiers:** Frontier City and Iris Hollow each possess D-D fusion reactors (Tier 0, non-replicable). Amber Reach and Atheria each possess CFU catalytic fusion devices (Tier 1). The remaining settlements rely on Tier 2-3 distributed energy resources (wind, solar, and hydropower).
 
 ## §1.2 Regional Geography—Map-Based Spatial Models
 
@@ -4705,7 +4729,7 @@ The two sat on the platform for a while. The sounds of the festival below were l
 Lia's breathing became audible in the cool evening air—a little heavier than at ground level. There was less oxygen up there. Anna noticed. Her body reacted before her brain—she took half a step closer to Lia. Not a protective gesture. It was a gesture of proximity.
 
 Lia (looking at the lights below): "From here, each light looks like a separate one. But actually, they're all in a line."
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "You can't tell when you're walking underneath."
 
 Lia braced her hands on the metal surface of the platform. Her fingers were less than a hand's width apart from Anna's. There was no contact. But that distance was Lia's choice—not an accident.
@@ -4723,7 +4747,7 @@ Anna looked at her. In the afterglow of the bronze fireworks, Lia's profile. Thi
 The fireworks have ended. Darkness has fallen. Below, a crowd gathers in the square for the lights-out ceremony.
 
 Lia stands up (slowly, knees first, one hand supporting her on the platform). "It's time to get down."
-Anna: "Mm."
+Anna: "Mmm."
 Lia took two steps. Then she turned around.
 What time do we depart tomorrow?
 "After the third morning bugle call."
@@ -6087,7 +6111,7 @@ Lia mentioned something about Skyleaf—not "thank you for taking me there."
 
 (Using Lia's way of understanding—the texture and connection of the world. Not diagnosis, but observation. Within the same cognitive group as Frontier vaporwave and the dialogue of light sticks.)
 
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "Have you been there before?"
 Anna thought for a moment. "I didn't notice. I'll listen for you next time."
 
@@ -6401,7 +6425,7 @@ Lia adjusted it. The bolt went in. Not perfect—but tight.
 Lia looked at the bolt she had just tightened. A very small achievement. A loose bolt.
 
 Lia: "It was shaking just now."
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "It's not shaking anymore."
 
 **"It's not shaking anymore"—the first diagnostic statement in mechanics.** It's not frequency analysis, not vibrational modes. It's the most basic: It was shaking → I did something → It stopped shaking. From "observer" to "the one who changed a detail of the physical world."
@@ -7124,4 +7148,3 @@ Lia's hands had metallic dust on them (traces of the method Anna had just taught
 **Kassia**: 8 out of 14 episodes ★★ or ★★★ · 3 independent interiority core beats (Flats at night/a fleeting glimpse in the corridor/projection touching the wall) · Projection afterglow (Episode 66) serves as the transition between the second and third phases
 **Milo**: Always ★-★★ · **Mirror: Anna's control mode changes** · Playful↔Control switching · "Her hands are lighter than you think" · Ep68 Lights out = First override · Ep66 Quiet recognition of Anna's teaching
 **Lia**: Departure (56) + Return (63-69) · Absence period exists through echo · **New line: Ep64 friction beat (tried → blocked → flip shell solution = lever thinking on-screen) + fragment questioner (65) + connector "Is that person also listening?" (66) + independently making window latch with "listening" shadow (67) + "Your hands will not hurt me again" (67)** · Friction distribution: Ep37 lantern stagnation (passive control) + Ep64 transmission chain (active steering) clamping positive progression · mechanic to mechanic foundation integrity
-

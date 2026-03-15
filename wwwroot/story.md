@@ -28,13 +28,13 @@ Archeon地质年龄比地球年轻得多。板块运动更剧烈。结果：地�
 
 所有人类文明集中在唯一的宜居大陆**Aethelgard**上。
 
-### 1.3 五个settlement的感官快照
+### 1.3 六个settlement的感官快照
 
 **读完这一节，你应该能"走进"每一个地方。**
 
 ---
 
-**Frontier City（前沿城）** — 最大的settlement，约300,000人，贸易枢纽
+**Frontier City（前沿城）** — 最大的settlement，约350,000人，Apex Hub / 贸易枢纽
 
 你先看到的是天际线——CI时代的巨型穹顶和高塔（100-300米）被500年的人类生长层包裹。藤蔓爬满了古老的纳米混凝土面。橙色帐篷在市集上方舒展。石板路缝里冒出青草。飞艇在不同高度停泊于多层空港平台上——碳纤维桁架的黑色纤细线条和铆接铜板的翠绿色交替出现。
 
@@ -66,13 +66,33 @@ Anna的家——**鹰巢工坊（The Eyrie）**——贴着峡谷外缘上层岩
 
 ---
 
-**Iris Hollow（虹谷）** — 约100,000人，Apex Hub之一
+**Iris Hollow（虹谷）** — 约120,000人，Apex Hub之一
 
 沿海丘陵settlement。没有崖壁可附着——空港利用丘陵坡面做terrace，更水平、更spread out。小型飞艇直接系在草坡的地面锚桩上，像一群在草地上吃草的巨大水牛。海风带着盐味。周围林地资源丰富，建筑用更多木材，气质比Frontier更pastoral、更开阔。同样拥有聚变堆——是另一个工业核心。暖季末尾的麦田金色饱满，收割季是全年最忙碌的时候。
 
 ---
 
-**Riverbend（河弯镇）** — 约5,000-10,000人
+**Amber Reach（琥珀原）** — 约50,000人，东南高地粮仓
+
+Aethelgard大陆东南沿海高地。中央平原向东南延伸，地形在接近海岸线前抬升为一片缓坡丘陵台地——海拔200-400米，面积足以容纳大陆上最大规模的连续农田。东南面敞向大洋，海风翻过丘陵时已卸掉大部分盐分但保留了水汽：这里的降水比中央平原多30-40%，是Aethelgard最可靠的降雨区。从Frontier City飞过来约一天半到两天，方向和去Atheria（东北）、Riverbend（南）都不重叠——一条独立的东南航线。
+
+**视觉身份：水平的、金色的、风声不断的。** 没有峡谷的垂直感，没有Frontier City的CI巨构天际线。建筑沿缓坡丘陵散开——红铜色屋顶的三四层木石结构从低处一直爬到远处山脊。风力涡轮沿最高的几道脊线排列，叶片在稳定海风中以近乎恒定的速度旋转——不像Atheria崖壁上的涡轮被峡谷乱流折磨，这里的风"干净"，涡轮转得安静均匀。镇中心有一座CI时代遗留的种子库/粮食处理设施，铜穹顶在阳光下发暗绿光泽，现已改造为磨坊和粮仓联合体，内部石磨的低频震动是日间的底色。金色麦田和绿色牧场在建筑群之间交错铺展，东南方向能隐约看到海岸上方的雾线。
+
+**能源：CFU（Tier 1）。** 一台小型催化聚变装置，与Atheria同级。提供基载电力、工业蒸汽和大规模粮食干燥的热源——没有稳定热源就没法在收获季把几千吨湿谷物在几周内处理完。田间灌溉和风塔用Tier 2分布式能源。
+
+**经济身份：Archeon的粮仓。** 可靠降雨 + 大面积缓坡可耕地 + CFU驱动的粮食处理产能——三个条件重叠，使它每年产出的粮食盈余远超自身需求。核心出口：面粉和压缩谷饼（hauler标准口粮的主要来源）、风干麦秆（建材和燃料）、高品质种子（CI粮食处理设施遗产中的种子筛选系统，全Archeon仅此一套仍在运转）。在Loom中的谈判地位不如聚变堆那么"硬"，但比Skyleaf更广泛——每个settlement都吃面包。粮食断一年，整个Loom打饥荒。
+
+**地方特色：风面包（Wind Bread）。** 利用东南海风中携带的微量盐分进行自然发酵的酸面包，外壳极硬极脆，内里松软带微咸。朝海的面包坊和背海的面包坊做出来味道不同——酵母菌群不一样。Thread Festival上，Amber Reach代表团带的成箱风面包三天内被抢光。
+
+**人口分布：散居+核心。** 镇中心约15,000-20,000人（围绕CI粮仓/CFU/广场/skyport），其余30,000-35,000分布在方圆20-30公里内的十几个农庄聚落，每个200-2,000人不等，有自己的小风塔和谷仓，通过土路和短途skiff与镇中心连接。
+
+**声景：风+谷物+鸟。** 持续的海风在耳边、草丛、涡轮叶片上形成多层白噪音。收获季加上收割声、打谷声、磨坊隆隆。非收获季的傍晚，风暂停的几秒钟里能听到灰颈雀在麦茬地里的叫声——那种安静本身是一种声音。
+
+**气质：富足、开阔、farmer的安静。** 这里的人比Frontier City的人更沉默、更看天气、更在意土壤颜色的变化。镇中心是集市和节日的地方，日常生活在田里。
+
+---
+
+**Riverbend（河弯镇）** — 约8,000人
 
 位于Orun高原Grand Canyon内部，Ishkar河主流在此形成一个大弯道。Grand Canyon宽约5公里、深约3公里。Riverbend建在河弯内侧的冲积阶地上。
 
@@ -88,13 +108,16 @@ Anna的家——**鹰巢工坊（The Eyrie）**——贴着峡谷外缘上层岩
 
 ---
 
-**Skyleaf Basin（天叶盆地）** — 约3,000-5,000人
+**Skyleaf Basin（天叶盆地）** — 约5,000人
 
 高山盆地，地热活跃。CI时代的气候监测/药材种植试验站遗址上建起的settlement。核心产出是**Ember Crown（余烬冠）**——一种深红色的药用植物，能在盆地独特的地热/海拔/日照条件下生长。花瓣是深红色，暖季盛开时整个山坡像在燃烧。
 
 Ember Crown提取物是Archeon最接近"万能药"的东西——不是真的万能，而是没什么别的了。它在The Loom中的不可替代性最高——粮食可以在多处种，铁可以在多处炼，但药用级Ember Crown只有Skyleaf能产。
 
 气质：**偏远、安静、被需要。**
+
+---
+
 
 ---
 
@@ -155,7 +178,7 @@ Archeon的城市分布由能源层级决定。四层体系：
 
 **Tier 0：D-D聚变反应堆** — CI遗产，不可复制，只能维修。全Archeon只有两到三座在运行。拥有聚变堆的settlement就是Apex Hub——Frontier City和Iris Hollow。聚变堆是这个文明的心脏：24/7基载电力 + 重工业 + 制氢（飞艇燃料）+ 废热驱动蒸汽热力链。设计是CI时代"超耐久"理念的杰作——简约、过度工程、可以用手工工具拆开维修。
 
-**Tier 1：蒸汽热力链 + 小型催化聚变装置（CFU）** — 蒸汽热力链不是19世纪的粗糙锅炉——是25世纪知识指导下的优化蒸汽系统。有机朗肯循环（低沸点工质，更低温差下驱动涡轮）。日常热力驱动——起重机、升降笼、液压系统、工厂机械——直接用水蒸汽。蒸汽管道密封用CI配方合金垫片，所以管网能运行500年。视觉效果：看起来像蒸汽朋克——外露铜管、排汽口、压力表——但性能比历史上任何蒸汽系统好一个数量级。CFU是体积更小的催化聚变装置，让Atheria等中型settlement拥有超越纯可再生的工业能力。
+**Tier 1：蒸汽热力链 + 小型催化聚变装置（CFU）** — 蒸汽热力链不是19世纪的粗糙锅炉——是25世纪知识指导下的优化蒸汽系统。有机朗肯循环（低沸点工质，更低温差下驱动涡轮）。日常热力驱动——起重机、升降笼、液压系统、工厂机械——直接用水蒸汽。蒸汽管道密封用CI配方合金垫片，所以管网能运行500年。视觉效果：看起来像蒸汽朋克——外露铜管、排汽口、压力表——但性能比历史上任何蒸汽系统好一个数量级。CFU是体积更小的催化聚变装置，让Atheria和Amber Reach等中型settlement拥有超越纯可再生的工业能力。
 
 **Tier 2：分布式中间技术** — 25世纪知识 + Archeon可复制。钙钛矿太阳能板（本地涂覆生产）、风力涡轮（峡谷天然风道）、重力蓄水储能（峡谷落差天然储能系统）、水力发电（Riverbend的阶梯式水渠是典范）。
 
@@ -241,6 +264,8 @@ Archeon的一天从声音开始。
 **Riverbend：** 靠近Ishkar南支流的急水段，出产最好的烟熏鱼。Riverbend的**"河烟鱼"**是整个Archeon公认的顶级食材——腌制后用Sentinel Pine木屑慢熏三天，成品是深琥珀色、外表微微发亮、切开后是半透明的橙红色。吃起来咸鲜中带着一丝松脂的回甘。很贵，在Frontier City的高档餐馆里能卖到普通人两天工资一条。
 
 **Skyleaf：** 高山盆地的冷凉气候适合一种特殊的高蛋白谷物（类似藜麦），Skyleaf人用它做一种发酵粥，口感偏酸，外人第一次吃通常皱眉，吃习惯了会上瘾。花田蜂蜜是Skyleaf的另一大出口品——颜色浅近透明，花香重，是全Archeon公认最好的蜜。
+
+**Amber Reach：** **"风面包"（Wind Bread）**——利用东南海风中携带的微量盐分进行自然发酵的酸面包，外壳极硬极脆，内里松软带微咸。朝海的面包坊和背海的面包坊做出来味道不同——酵母菌群随风向变化。Thread Festival上Amber Reach代表团带的成箱风面包三天内被抢光。此外，Amber Reach的种子筛选系统（CI粮食处理设施遗产）使它成为全Archeon高品质种粮的唯一来源——各settlement每年的播种季都等着它的种子船。
 
 **吃饭的社交功能：**
 
@@ -3450,33 +3475,33 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
 
 约47%集中在两个Apex Hub（Frontier City + Iris Hollow），13%在其他named settlements，40%散布在未命名的outposts、农庄、中转站。
 
-### §1.1 Named Settlements
 
-| Settlement | 人口 | 类型 | 地图位置 | 经济角色 | 一句话感官 |
-|---|---|---|---|---|---|
-| **Frontier City** | ~350k | Apex Hub | Basin正中央 | 聚变堆·氘精炼·贸易中心 | 密度、层叠声、蒸汽风琴 |
-| **Iris Hollow** | ~120k | Apex Hub | Basin西侧·海岸 | 聚变堆·粮仓·果园 | 海风、平坦麦田、开阔 |
-| **Atheria** | ~30k | Canyon City | Basin东北·峡谷内 | canyon酿·矿物·精密工坊 | 垂直、崖壁回声、升降笼 |
-| **Coppergate** | ~12k | Trade Gate | Basin南部·Orun北缘 | 南北贸易枢纽·中转站 | 干燥空气、货运密度 |
-| **Riverbend** | ~8k | Canyon Town | Orun Plateau·Grand Canyon内 | 河烟鱼·水系统 | 水声毛细网、松脂烟 |
-| **Verdance** | ~8k | Cultural Hub | Basin北部偏东 | 学徒培训·节庆文化 | 绿色、学徒工坊群 |
-| **Crestline** | ~7k | Basin Edge | Frontier与Atheria之间 | 皮革·Atheria门户 | 过渡地带、边缘感 |
-| **Thornfield** | ~6k | Agricultural | Basin东侧 | 刺角羊·块茎 | 牧场、羊膻味 |
-| **Millhaven** | ~5.5k | Agricultural | Frontier与Iris Hollow之间 | 面粉加工 | 磨坊声、面粉尘 |
-| **Skyleaf** | ~5k | Enclosed Basin | Kestrel Basin（Serpent's Tooth以东） | 基因库·Ember Crown药材 | 地热硫磺、红花田、高山寂静 |
-| **Ironvein** | ~4.5k | Mining | Basin东南 | 铁·铜矿 | 矿渣、暗色岩壁 |
-| **Canopy** | ~4k | Forestry | Basin最北 | 木材·木炭 | 松脂、锯木声、林冠 |
-| **Hearthstone** | ~4k | Agricultural | Basin中南偏西 | 面包谷物 | 金色麦田、平原风 |
-| **Tidemark** | ~3.5k | Coastal | Basin西南·海岸 | 鱼·海带 | 潮汐线、海藻咸腥 |
-| **Windbreak** | ~3.5k | Relay | Orun Plateau顶部 | 气象站·避难中转 | 高原风口 |
-| **Cliffwatch** | ~3k | Cliff Town | Basin南缘·Orun北崖面 | 阶梯田·瀑布 | 垂直农田、水帘 |
-| **Driftmoor** | ~2.8k | Coastal | Basin西北·海岸 | 海藻·雾网收水 | 浓雾、潮湿 |
-| **Gearstead** | ~2.5k | Workshop | Basin西北内陆 | RTG维修·精密工坊 | 安静、技术密度高 |
-| **Shellharbor** | ~2.2k | Coastal | Basin西南·Tidemark以南 | 渔船·港湾 | 木船、渔网 |
-| **Stormperch** | ~2k | Outpost | Serpent's Tooth西侧入口 | 飞行员向导·气象前哨 | 山口前哨、风暴故事 |
-| **Saltmarch** | ~1.5k | Resource | Great Ochre Desert北缘 | 盐·Axiom残骸打捞 | 干热、赭红沙 |
+| Settlement | 人口 | 类型 | 区域 | 核心角色 |
+|---|---|---|---|---|
+| **Frontier City** | 350k | Apex Hub | Central Basin | 聚变堆、氘提炼、贸易 |
+| **Iris Hollow** | 120k | Apex Hub | W Coast | 聚变堆、粮食、果园 |
+| **Amber Reach** | 50k | Agricultural Hub | SE Coast Highland | 粮仓、种子筛选、风面包 |
+| **Atheria** | 30k | Canyon City | NE Canyon | Canyon酿、矿物、升降笼 |
+| Coppergate | 12k | Trade Gate | S Basin | 南北贸易枢纽 |
+| Verdance | 8k | Cultural | N Basin | 节庆、学徒训练 |
+| Riverbend | 8k | Canyon Town | Orun Canyon | 河烟鱼、水渠系统 |
+| Crestline | 7k | Basin Edge | NE Basin | 皮革、Atheria门户 |
+| Thornfield | 6k | Agricultural | E Basin | 刺角羊、块茎 |
+| Millhaven | 5.5k | Agricultural | W Basin | 磨坊、面粉加工 |
+| Skyleaf | 5k | Enclosed Basin | Kestrel Basin (Serpent's Tooth内) | 基因库、Ember Crown |
+| Ironvein | 4.5k | Mining | SE Basin | 铁矿、铜矿 |
+| Canopy | 4k | Forestry | N Forest | 木材、木炭 |
+| Hearthstone | 4k | Agricultural | Central | 面包谷物 |
+| Tidemark | 3.5k | Coastal | SW Coast | 鱼、海藻、风暴预警 |
+| Windbreak | 3.5k | Relay | Orun Top | 气象、庇护所 |
+| Cliffwatch | 3k | Cliff Town | Orun N Face | 梯田、瀑布 |
+| Driftmoor | 2.8k | Coastal | NW Coast | 海藻、雾网集水 |
+| Gearstead | 2.5k | Workshop | NW Basin | RTG维修 |
+| Shellharbor | 2.2k | Coastal | SW Coast | 渔业、造船 |
+| Stormperch | 2k | Outpost | Serpent's Tooth W | 向导、气象 |
+| Saltmarch | 1.5k | Resource | Desert Edge | 盐、残骸打捞 |
 
----
+**能源分级：** Frontier City和Iris Hollow各拥有D-D聚变堆（Tier 0，不可复制）。Amber Reach和Atheria各拥有CFU催化聚变装置（Tier 1）。其余settlement依赖Tier 2-3分布式能源（风电、太阳能、水力）。
 
 ## §1.2 区域地理——基于地图的空间模型
 

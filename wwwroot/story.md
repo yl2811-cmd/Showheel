@@ -1,4 +1,8 @@
-一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去修复它——不是因为它坏了，而是因为它还在长。
+大纲
+
+0
+
+一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去照看它——因为它还在长。
 
 ---
 
@@ -27,6 +31,34 @@ Archeon地质年龄比地球年轻得多。板块运动更剧烈。结果：地�
 **这个地貌是文明的核心塑造力量。** 崎岖地形使地面交通极其困难——没法铺铁路或修公路。这就是为什么**飞艇是这个世界的生命线**。同时，峡谷和台地创造了天然的微气候区：每隔几十公里就是一个不同的生态环境，每个社区都有自己独特的性格。
 
 所有人类文明集中在唯一的宜居大陆**Aethelgard**上。
+
+#### Aethelgard大陆概览（参考project内worldmap图像）
+
+大陆形状偏东西方向拉长，像一个不规则的厚楔子。
+
+**北部和西部：Azure Main大洋。** 海风从西北方向送入湿气。大陆的西北海岸线温润，Iris Hollow、Driftmoor、Tidemark、Shellharbor沿海分布。
+
+**中北部：Main Basin（主盆地）。** 低地温带平原，被Orun高原（南）和Serpent's Tooth山脉（东）半包围。绝大多数人口和农田集中在这里。Frontier City居中，Atheria在盆地东北缘的峡谷中。
+
+**南部：Orun Plateau。** 横跨大陆东西方向的巨型basalt台地（详见下方地质说明）。它把大陆切成两个世界——北面是湿润宜居的Basin，南面是干旱的Great Ochre Desert。Orun西端在海岸处终止，形成壮观的海蚀角。东端逐渐和Serpent's Tooth的地形交汇。
+
+**东南部：Serpent's Tooth + Undeveloped Badland。** 独立山脉系统，3000-6100m。Kestrel Basin藏在其中（Skyleaf所在地）。山脉以东以南是未开发的破碎荒地——地形太极端、离Basin太远，521年来没人有余力去经营。
+
+**Orun以南：Great Ochre Desert + 南海岸。** Orun雨影效应造成的赭红沙漠。Axiom Scar在这里。Saltmarch在沙漠北缘。沙漠延伸数百公里后抵达南海岸——南海岸的具体情况不详。
+
+#### Orun Plateau——地质构成
+
+Orun不是山脉——是一块被逆冲断层整体抬升的大陆板块。
+
+**形成机制：** 数亿年前的板块汇聚中，南侧板块沿一个低角度逆冲面（~35°）骑跨到北侧板块之上。结果是一个极度不对称的地形：北面（迎风面/Basin侧）是一道35°倾斜、3km垂直落差的escarpment——从Basin平原仰望像一堵从地平线切到天顶的墙。南面（背风侧）则是一个真正的高原面——从3km缓降到2km，坡度极其平缓，延伸数百公里。**它看起来不像山，因为它不是山——是一块被顶起来的大地。**
+
+**岩层结构（Titan's Staircase）：** Escarpment面由basalt（深黑色，坚硬）和shale（灰褐/红褐色，较软）交替层叠构成。Basalt层抗侵蚀，形成台阶的"踏面"；shale层风化退缩，形成台阶的"踢面"。层层叠叠的黑色basalt阶梯上长满翡翠色苔藓——黑+绿是Orun迎风面的视觉签名。地下水从basalt/shale交界面涌出，形成无数瀑布（Weeping Stone）。
+
+**地质运动状态：不活跃。** 逆冲断层已停止滑动（可能数千万年）。结构稳定，无显著地震风险。当前的地貌变化来自风化和河流侵蚀——Ishkar河花了几千万年从高原面上切出Grand Canyon（5km宽、3km深），是上盘板块全厚度的切割。
+
+**东西两端：** Orun东西延伸约800km。**西端在海岸线处终止**——逆冲板块前缘在这里变薄，escarpment高度从3km递减到800m-1.2km。海蚀作用切出了阶梯状海蚀台地、拱门和海蚀柱。Azure Main的海风正面撞上这道矮壁，形成强劲且稳定的orographic uplift——飞行员称这段为"光滑电梯"。但常年海雾笼罩，能见度极差。东端逐渐和Serpent's Tooth的碎裂地形交汇，被侵蚀打穿形成多个低矮残断山口。
+
+**气候分割效应：** Orun是Aethelgard的气候分水岭。Basin侧（北面）接收Azure Main的湿气，温润宜居。Desert侧（南面）完全干燥——所有水汽在爬升Orun迎风面时已凝结降落。雨影效应造成了Great Ochre Desert。
 
 ### 1.3 六个settlement的感官快照
 
@@ -118,6 +150,9 @@ Ember Crown提取物是Archeon最接近"万能药"的东西——不是真的万
 
 ---
 
+
+
+**能源分级：** Frontier City和Iris Hollow各拥有D-D聚变堆（Tier 0，不可复制）。Amber Reach和Atheria各拥有CFU催化聚变装置（Tier 1）。其余settlement依赖Tier 2-3分布式能源（风电、太阳能、水力）。
 
 ---
 
@@ -454,7 +489,7 @@ FSS Axiom（900米长的补给船，搭载50-80人含Eleanor Atwood）约2501年
 
 ### 3.3b Sky Fire的遗传印记——灰肺（Grey Lung）
 
-Archeon距参宿四约7光年。超新星爆发的高能辐射——gamma射线、宇宙射线——穿过大气层时被部分屏蔽，但掩体外的剂量是致命级的。掩体内survival expected，但辐射仍穿透了部分屏蔽层——不致死，足以造成DNA损伤。
+Archeon距参宿四约10光年。超新星爆发的高能辐射——gamma射线、宇宙射线——穿过大气层时被部分屏蔽，但掩体外的剂量是致命级的。掩体内survival expected，但辐射仍穿透了部分屏蔽层——不致死，足以造成DNA损伤。
 
 CI准备了genetic repair kits。但那是25世纪技术，需要CI级医疗设施支持。Sky Fire同时摧毁了Axiom和大部分CI基础设施。基因修复工具在最需要的时候失去了维护它们的基础。
 
@@ -489,7 +524,7 @@ CI医疗系统退化（零件耗尽、知识断层）→ 修复越来越不完�
 ; ——Skyleaf的不可替代性和Lia的生存直接焊在一起。
 
 ; [硬科幻校验]
-; ✓ 参宿四距离7光年 → 辐射剂量：掩体外致命，掩体内亚致死但造成DNA损伤
+; ✓ 参宿四距离10光年 → 辐射剂量：掩体外致命，掩体内亚致死但造成DNA损伤
 ; ✓ CI genetic repair kits是25世纪技术 → 需要CI级设施维护
 ; ✓ Sky Fire摧毁基础设施 → 修复工具在最需要时失去支撑
 ; ✓ 500年小种群 → 基因瓶颈放大低外显率突变
@@ -847,8 +882,8 @@ Anna不是"勇敢的"——她是那种在风暴里手还稳的人，不是因�
 ;              我们只看到"严格的师傅"。真实层：Lia事件那天Anna没做到的事。
 ;
 ; ── 作为competence的一部分（Arc 2）──
-; Ep25：Anna用"感知系统、三秒钟停顿、红夹克"在空中飞。停顿此时= competence，我们不知道创伤底层。
-; Ep26：老人观察到Anna注意力从地面转向天空。停顿从"手"扩展到整个感知方向——
+; Ep25：Anna用"感知系统、三秒钟停顿、红夹克"在Founder Day Race中飞。停顿此时= competence，我们不知道创伤底层。Milo Origin：Anna注意到Milo的"等"的本能。Race后Milo离队去Thornfield。
+; Ep26：航线巡回（Anna solo）。老人（Ep27 Iris Hollow）观察到Anna注意力从地面转向天空。停顿从"手"扩展到整个感知方向——
 ;       她不只是手犹豫，是整个人从近距离退向远距离。
 ;
 ; ── 停顿遇到Lia时的激活（Arc 2-3）──
@@ -1028,7 +1063,7 @@ Anna的控制模式有一个specific trigger：**"如果这步做错了，conseq
 |------|------|------------|-----------|-----------|
 | M-1a | Ep12-15 | 甲板上开玩笑/脚尖踢工具箱 | 好玩的师傅 | Baseline：Anna能放松 |
 | M-1b | Ep12-15 | "这个我来"（挡住Milo的手） | 有些事她不让碰 | Baseline：控制模式存在 |
-| M-覆盖 | **Ep25-26**（Atheria→Iris航段） | 气流突变时手直接覆盖Milo的手带他做正确动作 | "……你可以直接说'往左'。" | Anna的手比mind快。body在24/7算"如果他做错了会怎样" |
+| M-覆盖 | **Ep25**（Founder Day Race前后航段） | 气流突变时手直接覆盖Milo的手带他做正确动作 | "……你可以直接说'往左'。" | Anna的手比mind快。body在24/7算"如果他做错了会怎样" |
 | M-缩手 | **Ep33-34**（Frontier到达后） | Milo做有risk的task，Anna手伸出三寸→停→缩回。Milo没注意到。**Kassia在场，注意到了。** | （没看到） | Anna的body想接管但something让她停了。Kassia看到了——为Ep37"在数债"提供behavioral证据 |
 | M-3a | **Ep42** Skyleaf日常 | playful互动（Kassia在背景） | 正常的师傅 | 安全context = 放松 |
 | M-3b | **Ep44** Skyleaf→高山段 in-flight | 想接过来→停→让Milo做完→**exhale** | 她犹豫了但让我做了 | Let go的成本是一口呼出来的气 |
@@ -1038,8 +1073,8 @@ Anna的控制模式有一个specific trigger：**"如果这步做错了，conseq
 
 **递进方向：** 从完全控制→事中接管→几乎接管但停了→完整let go→被override。
 
-**M-覆盖beat detail（锚定Ep25-26 Atheria→Iris航段）：**
-飞行中。Atheria出发后的航段，气流突变。Milo在调某个系统。Anna判断如果Milo做慢了/做错了，cargo会移位。Anna的手直接覆盖了Milo的手——不是推开，是**盖上去，带着他的手做了正确的动作**。一秒。做完。松开。比"这个我来"重——不是事前拦截，是事中接管。Milo已经在做了，Anna直接覆盖。
+**M-覆盖beat detail（锚定Ep25 Founder Day Race）：**
+Race前的试飞/热身段或Race后的return飞行。Milo和Anna各驾一架skiff。气流突变。Milo在调某个系统。Anna判断如果Milo做慢了/做错了会翻。Anna的skiff靠过去，手直接覆盖了Milo的手——不是推开，是**盖上去，带着他的手做了正确的动作**。一秒。做完。松开。比"这个我来"重——不是事前拦截，是事中接管。Milo已经在做了，Anna直接覆盖。
 
 > Milo："……你可以直接说'往左'的。"
 > Anna："下次。"
@@ -1217,7 +1252,7 @@ M-06开始的卡片格式是后来标准化的结果。两者在6-7岁有overlap
 
 ### 1.1 第一方言：不是机械，是风
 
-在工坊的嗡鸣成为她世界的主旋律之前，安娜的第一种方言是感官的。她对生命的理解不是在图纸的冷逻辑中建立的，而是在被太阳烤热的岩石上，在一颗罕见浆果出乎意料的甜味中，在父亲手臂里那种不需要任何理由就存在的安全感中。
+在工坊的嗡鸣成为她世界的一部分之前，安娜的第一种方言是感官的。她对生命的理解不是在图纸的冷逻辑中建立的，而是在被太阳烤热的岩石上，在一颗罕见浆果出乎意料的甜味中，在父亲手臂里那种不需要任何理由就存在的安全感中。
 
 阿瑟利亚峡谷的孩子大多在盆地底部长大——脚下是压实的泥土路，耳边是公社广场的嘈杂声，鼻子里是谷底炊烟和青草的混合气味。安娜·弗里德曼的童年比他们高出四百米。
 
@@ -1260,8 +1295,6 @@ M-06开始的卡片格式是后来标准化的结果。两者在6-7岁有overlap
 最后是安娜解决了问题。她让埃德蒙把她举到最高的那根枝杈能够到的位置，她像一只蜥蜴一样爬上去——比两个大人轻得多，树枝完全承受得住——然后把帆从松针里一点一点解开，叼在嘴里，再爬下来。
 
 Joren看着这个满头松针、嘴里叼着银色风筝的六岁女孩，对埃德蒙说："你这个学徒比你强。"
-
-这不是空气动力学的研究。这是一个孩子和风一起玩耍的纯粹的、未经分析的快乐，是一种本能的起点，这种本能有一天会救她的命。但更重要的是——这是她第一次完整经历"坏了→想办法→修好了"这个循环，而整个过程充满了笑声。在安娜记忆最深处，**修复不是沉重的责任，是好玩的**。
 
 ### 1.3 阳光的味道与母亲的手
 
@@ -1353,7 +1386,7 @@ Joren看着这个满头松针、嘴里叼着银色风筝的六岁女孩，对埃
 
 在恐惧来得及扎根之前，埃德蒙已经把她一把捞起来，塞进了他那件厚重的、磨损的皮夹克里面。
 
-那个记忆是一部感官的交响乐：冷雨溅在脸上的冲击，暴雨击打在皮革上的响亮鼓声——就在耳边几寸的地方——然后，压过一切的，是被完全包裹在父亲的力量里的感觉。她被那个气味包围了——那个意味着"家"的气味：机油的辛辣、旧皮革的醇厚、还有一种只属于埃德蒙的温暖体温。他的心跳在她耳边，稳定得像一台运转良好的引擎。
+那个记忆是一部感官的交响乐：冷雨溅在脸上的冲击，暴雨击打在皮革上的响亮鼓声——就在耳边几寸的地方——然后，压过一切的，是被完全包裹在父亲的力量里的感觉。她被那个气味包围了——那个意味着"家"的气味：机油的辛辣、旧皮革的醇厚、还有一种只属于埃德蒙的温暖体温。他的心跳在她耳边，稳定得像河石底下那个永远不停的低音。
 
 在那个时刻，被抱在他的胸口，外面肆虐的暴风雨只是一首歌。
 
@@ -1727,11 +1760,11 @@ Anna的手臂上起了一层小疙瘩。
 
 Anna跑过去了。
 
-她在泊位旁边蹲了很久。不是蹲在正前面——是蹲在引擎罩侧面，那个别的孩子不会去的位置。别的孩子往货舱里看：有没有带糖来？有没有带新的故事卷来？Anna不看货。她把耳朵凑近引擎怠速的地方，听了一会儿。一个飞行员走过来说小心烫。Anna说："左边那个声音和右边不一样。"飞行员看了她一眼。没说什么。但他蹲下来，自己也听了一下。
+她在泊位旁边蹲了很久。不是蹲在正前面——是蹲在引擎罩侧面，那个别的孩子不会去的位置。别的孩子往货舱里看：有没有带糖来？有没有带新的故事卷来？Anna不看货。她被引擎那个方向吸过去了——那里有一种温热的空气在推，有一种低沉的声音在持续。她靠近了两步，一个飞行员走过来说小心烫。Anna退后了。但那个声音留在了身体里。
 
 后来Anna缠了几个愿意说话的飞行员问东西。不是连珠炮——她问一个，听完，想一会儿，再问一个。问的东西奇怪的地方不在于难，在于角度：别人问"飞到Frontier要多久"，她问"风从哪个方向来的时候你飞得最舒服"。
 
-回到鹰巢后Anna把市场日的一切倒给Edmund。哪条航线的风在这个季节最漂亮。Iris Hollow的麦田今年收成翻倍了因为灌溉管终于通到了南坡。有个飞行员说他的左引擎声音和右引擎不一样，Anna说他也听出来了但他说"就那样，飞了三年了"。Edmund一边听一边在logbook上写。有时候他停下笔，问："灌溉管通到南坡——你觉得他们是沿等高线走的还是直接走坡面？"Anna想了想："不知道。但他说铺管的时候最怕的是接缝处冬天冻裂。"Edmund又写了几笔。
+回到鹰巢后Anna把市场日的一切倒给Edmund。哪条航线的风在这个季节最漂亮。Iris Hollow的麦田今年收成翻倍了因为灌溉管终于通到了南坡。有个飞行员跟她聊的时候提了一句他的左引擎和右引擎声音不一样，"就那样，飞了三年了"。Edmund一边听一边在logbook上写。有时候他停下笔，问："灌溉管通到南坡——你觉得他们是沿等高线走的还是直接走坡面？"Anna想了想："不知道。但他说铺管的时候最怕的是接缝处冬天冻裂。"Edmund又写了几笔。
 
 两个人就这么说下去——一个不知道自己在做情报收集的九岁女孩，一个不知道自己在训练女儿观察世界的mechanic——说到Miriam在门口敲了两下门框。
 
@@ -3144,6 +3177,10 @@ Anna在航线上做什么？
 
 她把这些observations带到下一站。不是以report的形式——是在长桌午饭上随口提一句。"Coppergate今年中转的盐多了，他们想换一批你们的canyon酿，有兴趣吗？""东边那个小outpost的灌溉好像不太顺，下次有人去的话帮忙看看。"这种casual的信息流动是The Loom的血液循环。
 
+她读的不只是水和风。有一次在Coppergate靠港，Anna注意到码头市集上一个卖陶器的摊主把摊位从上次来时的位置往内墙方向挪了三步。她没有停。但往前走的时候身体在归拢：卸货的搬运工今天穿得比上次来时厚了一层；广场对面帐篷绳比平时绷得更紧；一个在港口修渔网的老人今天没坐在他惯常的位置上——他搬到了背风的墙根。三个人，三种行为的微调，都指向同一件事。Anna回到阵风号之后调整了第二天的出发时间。没有跟任何人解释为什么。第二天凌晨变天了。
+
+; [设计备注] 这个beat是M-08"鸟知道得比天早"的活体延伸。Miriam教的"读活物"和Edmund教的"读死物"是两条平行线。飞行年代里Edmund线的延伸充分（舵轮传感、气囊压力、声音地图），Miriam线在这里补上了prose层的展示——Anna不只是读鸟群行为来预判天气，她读人的行为模式。九岁市场日M-12里那个陶碗老人的"眼角快照"是无意识的，十七岁的同一套感知已经内化成了工作习惯。Joren后来说"你看水看风看人看脸色"——这段prose是那句话的evidence。
+
 Anna不修东西吗？她修。但修东西从来不是她到一个地方的理由——它是她在一个地方的时候偶然碰到的事。就像你走在路上帮一个摔倒的人扶了一下——扶人不是你出门的目的，但你确实做了。
 
 ; [设计约束] 16-18岁Anna在settlements里的mechanic工作 = ≤10%的screen time。如果一段prose花了超过3句话写她蹲下来修什么，太多了。修理是transit中的一个节点，不是destination。她的叙事节奏是：飞—落—走—看—说话—飞。不是：飞—落—蹲—修—修—修—飞。
@@ -3228,6 +3265,10 @@ Anna蹲下来敲了敲龙骨。声音沉稳，没有空洞。摸了主结构梁�
 
 Anna赔了两个红薯的钱。
 
+修船的那四个月里，Anna几乎每天都能听到空港区的汽笛风琴。傍晚蒸汽上来的时候，乐师开始操作那面墙大小的管阵——低频雾号先出来，然后中音和高音一层一层叠上去。她现在知道每根管的管径和音高的关系了，知道哪些阀门组合出哪些和弦。但某些傍晚，风向刚好对的时候，那个声音从港区的方向送过来，她在甲板上拧螺栓的手会停一秒——不长——八岁时的那句话冒出来，不是以词语的形式，是以一种胸口发轻的感觉。有人想让风唱歌。风答应了。
+
+; [设计备注] M-09 callback。一句话的重量差：八岁时"有人想让风唱歌"是纯wonder——她不知道那是什么乐器；十七岁她完全理解了物理原理，但那个最初的wonderment以body感觉的形式还在。知道"怎么做到的"没有杀死"这件事很美"。
+
 ### 回家
 
 Anna不是每趟之间都回Atheria。大约每三四周有一个窗口——三到五天。
@@ -3274,7 +3315,13 @@ Joren又说了一件事——一个真实的limitation。
 
 Anna想了很久。后来她确实在调整。但这比学三秒停顿更难——因为离开一个地方的时候她总觉得有什么没做完。不只是什么东西没修完。是一种更深的不安：如果穿红色的那个人离开了而没有人顶上来怎么办？
 
+还有一个更深的东西。不是念头——是一个位置。工坊门口。每天早上穿红夹克出门时经过的那个门框。如果没有人站在那里——
+
+她把那个闪回推回去了。它不属于这里。
+
 Joren说的是工作习惯。他不知道自己同时说中了别的什么。
+
+; [设计备注] "不会走"是M-25同一个pattern在不同尺度上的表达。M-25里Anna在Edmund死后六个月"不停止工作、不离开工坊"——她也"不会走"，不是从settlement不走，是从Edmund的路线不走、从mechanic的角色不走。离开=连续性断裂=Edmund的世界断线。Joren说的表层含义是工作效率问题，但他不知道这个pattern的根系扎在哪里。prose里用半秒的body-level flash（工坊门口）把这两层同时激活，然后被理性覆盖回去——Anna十七岁还没有能力parse这个连接，但读者拿到M-25之后能回来connect。
 
 这成了一个真实的、持续的日常拉扯——不是宏大心理创伤，是一个穿着红夹克的年轻人在"我不能走"和"我必须走"之间的oscillation。十九岁的她比十七岁好了一些。但她知道这仍然是她最容易犯的错。
 
@@ -3303,6 +3350,8 @@ Milo第一天上船的时候带了一个偏大的深棕色短夹克——不知�
 ; 这个echo在Arc 1-3里是background texture，不是plot point。
 
 Arc 1开始时（Anna 19岁），Milo已经跟她飞了大半年到一年。过了磨合期。两人的dynamic是：playful但有清晰等级。Anna在安全context里放松——会开玩笑、会故意让Milo犯错看他怎么处理、会用脚尖踢工具箱过去而不是递过去。Stakes升高时切换——hand覆盖、verbal override、"这个我来"。Milo不完全理解这个切换。我们也不。
+
+; [设计备注·1.5暴雨翻转] Anna在stakes升高时对Milo的保护动作——一只手稳住对方、身体朝向威胁来源、脚步不加快也不慌乱——和Edmund在暴雨中把她塞进皮夹克的动作同构。这不是她从Edmund那里"学到"的，是身体记忆的transmission。如果episode prose里部署这个beat（比如甲板上的突发状况），Anna的意识不应该出现"像爸爸"的念头——只有读过1.5的读者会认出这个姿势。Backstory里不种完整scene，留给episode写手去找那个specific moment。但这条标注确保episode写手知道这个connection存在，不会漏掉。
 
 ; [Kassia接入点仍TBD] 
 ; Kassia的出现也大约在17-18岁窗口。具体接触方式待定。
@@ -3442,7 +3491,11 @@ timelapse的§1.3已经写了五个settlement的详细感官快照。背景文�
 |---|---|---|---|
 | Ep12-15 | **Riverbend**（Orun Grand Canyon） | 盐运+Thread Festival+水渠descent | 峡谷地貌、水声网、河烟鱼不可替代 |
 | Ep20-24 | **Atheria** | Anna回乡、Edmund记忆三部曲 | 鹰巢工坊、崖壁、升降笼——她的childhood geography |
-| Ep26-28 | **Iris Hollow** | 老人scene、Sky Weaving | 海岸平原声学、面粉姑姑、6年关系 |
+| Ep25 | **Atheria** | Founder Day Race、Milo Origin | 峡谷skiff竞赛地形、Milo离队 |
+| Ep26a | **航线：Millhaven→Basin outpost→海岸** | 走梭人完整工作日（Anna solo） | 感官签名不可替代：磨坊/平原/海岸过渡 |
+| Ep26b | **Iris Hollow**（空中→到达） | Sky Weaving编队+Iris worldbuilding入口 | 海岸平原声学、面粉消息链到达 |
+| Ep27 | **Iris Hollow** | 老人scene、声学失灵、故事夜 | 6年关系、感知方向shift、面粉姑姑 |
+| Ep28 | **Iris→Frontier途中** | 信号中继站vignette、Frontier trigger | Loom的literal visualization |
 | Ep33-37 | **Frontier City** | Thread Festival、Kassia招募、Anna-Lia独处 | 唯一有Festival规模的城市；蒸汽风琴、高处观测平台 |
 | Ep38-50 | **Skyleaf**（经Serpent's Tooth） | Lia的Ember Crown、Edmund管道、花田 | Kestrel Basin唯一药材产地，Anna从未去过 |
 | Ep56-66 | **Axiom Scar**（Great Ochre Desert） | Arc 4 主线 | CI残骸带，不可移动 |
@@ -3475,6 +3528,9 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
 
 约47%集中在两个Apex Hub（Frontier City + Iris Hollow），13%在其他named settlements，40%散布在未命名的outposts、农庄、中转站。
 
+人口普查概览 — Year 521 After Sky Fire
+
+总人口：**约1,000,000人**。约47%集中在两个Apex Hub，约15%在其他named settlement，约38%散居于小型聚落、农庄、中继站和流动人口。
 
 | Settlement | 人口 | 类型 | 区域 | 核心角色 |
 |---|---|---|---|---|
@@ -3501,9 +3557,9 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
 | Stormperch | 2k | Outpost | Serpent's Tooth W | 向导、气象 |
 | Saltmarch | 1.5k | Resource | Desert Edge | 盐、残骸打捞 |
 
-**能源分级：** Frontier City和Iris Hollow各拥有D-D聚变堆（Tier 0，不可复制）。Amber Reach和Atheria各拥有CFU催化聚变装置（Tier 1）。其余settlement依赖Tier 2-3分布式能源（风电、太阳能、水力）。
-
 ## §1.2 区域地理——基于地图的空间模型
+
+> **参考：project内worldmap球面图和手绘标注图。** 以下ASCII图为简化投影，实际大陆形状和比例请参考worldmap。
 
 ### 整体结构（从北到南）
 
@@ -3522,11 +3578,12 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
     │   │          Hearthstone              ·            │ ▲ Kestrel's
     │   │                 ·         Ironvein             │ ▲  Gate
     │   │  Tidemark   Coppergate ●    ·                  │ ▲    ▲
-    │   │    ·  Shellharbor  ·                           │ ▲SKYLEAF●
-    │   │         ·    Cliffwatch                        │ ▲    ▲
+    │   │    ·  Shellharbor  ·    AMBER REACH ●          │ ▲SKYLEAF●
+    │   │         ·    Cliffwatch   (SE highland)        │ ▲    ▲
     │   │                 ·                              │ ▲▲▲▲▲
     │   ╰───── coast ─────╯                              │
-    │                                                    │
+    │  ☆ The Cape                                        │
+    │  (sea-cape, 800m)                                  │
     ├═══════════ ORUN PLATEAU ═══════════════════════════╡
     │            Windbreak · ─── Riverbend ●             │
     │            (plateau top)   (Grand Canyon)          │
@@ -3548,13 +3605,14 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
 |---|---|---|
 | **Main Basin** | 温带宜居区，大部分人口和agriculture | ~200+ km E-W，略椭圆 |
 | **Sea** | 大陆西侧和西北侧的海洋 | Iris Hollow面海，Driftmoor/Tidemark/Shellharbor沿海 |
-| **Orun Plateau** | Basin南缘的巨型basalt台地，3 km elevation | 东西延伸~800 km，南崖面垂直 |
+| **Orun Plateau** | 逆冲断层抬升的basalt台地。北面35° escarpment 3km落差（Titan's Staircase），南面缓降高原2-3km。西端在海岸处降至800m-1.2km（海蚀角），东端与Serpent's Tooth交汇。地质不活跃。 | 东西延伸~800 km |
 | **Grand Canyon** | Orun Plateau被Ishkar河切穿形成的峡谷 | Riverbend在峡谷内 |
 | **Serpent's Tooth** | Basin东侧的危险山脉，3000-6100 m | 雪线>4000 m，隔绝Skyleaf |
 | **Kestrel's Gate** | Serpent's Tooth中唯一的通道 | ~1 km宽，两侧6000 m山壁 |
 | **Kestrel Basin** | Serpent's Tooth以东的封闭盆地 | Skyleaf所在地，独立生态 |
 | **Great Ochre Desert** | Orun以南的赭红色沙漠 | ~400 km到南海岸 |
 | **Axiom Scar** | Axiom号坠毁残骸带，在Desert内 | ~100 km debris field |
+| **The Cape（海角）** | Orun西端海岸终止点。Escarpment降至800-1.2km，海蚀台地+拱门+海蚀柱。常年海雾。稳定updraft。Orun最低翻越点。 | Arc 4南行路线关键节点 |
 
 ### 空间距离感（飞艇旅行时间估算）
 
@@ -3562,12 +3620,14 @@ Ep36发生在 **Frontier City**，Thread Festival期间。三个beat的物理位
 |---|---|---|---|
 | Frontier ↔ Atheria | ~100 km | 2-3 hr | 经Crestline，Basin内平飞 |
 | Frontier ↔ Iris Hollow | ~150 km | 3-4 hr | 横穿Basin西向 |
+| Frontier ↔ Amber Reach | ~200 km | 5-6 hr | 东南向，经Ironvein区域 |
 | Frontier ↔ Coppergate | ~80 km | 2 hr | 南向 |
 | Coppergate ↔ Riverbend | 需翻Orun | 3-4 hr | 需从Orun北缘或经Windbreak绕行下到峡谷 |
 | Atheria ↔ Iris Hollow | ~200 km | 4-5 hr | 经Basin中段对角线 |
 | Frontier ↔ Skyleaf | ~300+ km | 一整天+ | 经Thornfield→Stormperch→Kestrel's Gate，hazard charter |
 | Basin → Riverbend | 沿Orun北缘 | 4-5 hr | Ep13的Orun视觉高潮航线 |
 | Basin沿海线 | 各段不等 | 1-3 hr | Iris Hollow↔Tidemark↔Shellharbor |
+| **Basin → Axiom Scar（经The Cape）** | ~500+ km | **一整天+** | **Arc 4路线：Basin→西南海岸→海角翻越→高原面→沙漠** |
 
 ---
 
@@ -3790,13 +3850,7 @@ Anna 14岁开始随Hagen飞行，15岁+1月认证，16-18岁作为co-pilot覆盖
 >
 > **东部丘陵小outpost** = 安静辽阔 + 平原声散射（和Iris Hollow类似但更干，没有海洋低频baseline）+ 所有人出来看飞艇 + 孩子追影子 + 老太太塞一罐自酿的什么
 
----
 
-## §4 Backstory地名随机化指南
-
-### 问题
-
-Backstory（§6 Flight & Blank Years）目前重复使用Riverbend和Iris Hollow作为Anna外出的destination。这使得Anna的世界显得小。
 ]
 
 
@@ -4023,11 +4077,11 @@ Common house晚饭——Lia的名字通过自然对话进入文本。学徒桌�
 
 ---
 
-# Ep23-24 重构思路：红夹克不能像设计图
+# Ep23-24 
 
 * 紫罗兰的devastating来自于那些东西在发生的时候看起来完全不是什么，是日常的边缘的不被注意的，然后突然有一天你回头看，所有那些不是什么的东西变成了一切。
 
-## Ep23 重构：不是"Edmund的遗产清单"，是"Anna在Atheria的一天"
+## Ep23 
 
 ### 新结构原则
 
@@ -4073,9 +4127,7 @@ Ep23需要Atheria的日常作为present-time前景。Anna在做什么？她在�
 
 ---
 
-## Ep24 重构：不是"Edmund的死亡倒计时"，是"Atheria的一个冬天"
-
-### 核心修改：取消Scene编号，取消countdown结构
+## Ep24 
 
 **Ep24不应该读起来像一个人在dying。它应该读起来像一个季节在过去。**
 
@@ -4155,27 +4207,61 @@ Anna不知道Edmund在评估什么。她只知道"爸爸今天好一点，出来
 Ep61翻转后这个画面的weight变化： Edmund在好日子去看Anna修的东西——他不只是好奇。他在确认网的local部分（Anna的mechanical competence）是否够用。他在做quality check——不是对机器，是对他最后的safety net的核心节点。他看到Anna的修法不完美但functional——这让他知道她"能活"。然后他回去继续走访settlement——因为只有mechanical competence不够，她还需要social safety net。
 但在Ep24里，这只是一个父亲在冬天的好日子里出门看了看女儿干的活。他走路慢了一点。他的影子在谷底的午后阳光里比以前短了。]
 
-### Ep25：Race·天空回来了·重新满
+### ★★ Arc 2 篇幅标准（Ep20-28全适用）
 
-**★ Milo origin hint + M-覆盖（锚定）：**
+**每一集（无论是否细分为a/b）都按4,000-10,000字的独立episode标准处理。** Ep26a（航线巡回）和Ep26b（Sky Weaving到达）不是"一集拆成两半"——它们各自是完整的4-10K episode。日常/过渡集偏短（4-6K），高密度感官/情感集偏长（8-10K）。这意味着Ep26a+26b合计可能达到8-16K。其他集同理。
 
-Ep25飞行段（Atheria附近或出发去Iris前），阵风号上。一个routine moment里Milo说了一句暗示他和Anna怎么认识的话——也许是Anna让他做某个in-flight adjustment，他做的时候手法还带着一点没完全磨掉的生涩：
+---
 
-> "你第一次让我上船的时候我连绞盘往哪边转都不知道。"
-> Anna没抬头："现在也好不到哪去。"
+### ★ Milo离队窗口（Ep25结束 → Ep33 Frontier合流）
 
-30个字。我们从此知道Milo不是从小跟Anna的——是被带上来的。这把他的存在从"一直在那里的背景板"变成"有一个加入的moment的人"。
+**Ep25 Founder Day Race结束后，Milo离开Anna。** 原因自然：Thornfield（他的家乡）在Basin平原东部，离Atheria不远，同样的landscape。Milo提出回Thornfield看看/办事/带消息——走梭人世界里这种分合是日常。Anna说好。不dramatic，不是分离——"你去办你的事，Frontier见。"
 
-**M-覆盖 in situ：** 同一航段。气流突变。Milo在调trim。Anna的手直接覆盖了他的手——盖上去，带着他做了正确的动作。一秒。松开。
+**Milo不在的集：Ep26a（航线巡回）、Ep26b（Sky Weaving到达）、Ep27（Iris Hollow）、Ep28（出谷→Frontier）。** Anna solo四集。
+
+**叙事功能：**
+- 航线集里Anna和每一站的人的互动变成**纯走梭人和settlement的关系**，没有学徒buffer。磨坊主直接跟Anna说面粉消息，Basin outpost的老人直接拉住Anna问女儿——这些moment的intimacy在Anna solo时更强。
+- Ep27老人scene："你以前不看天的"——旁边没有学徒在听，private quality更强。
+- Ep27故事夜，Anna被要求"用味道和温度讲故事"——solo时vulnerability更高。她一个人在Iris人中间，被迫用不同方式组织Edmund的记忆。
+- Anna和阵风号（公共飞艇，非私人资产）的关系变成安静的独奏。引擎冷却时金属收缩的"叮"在Basin outpost的安静里可闻——如果Milo在旁边，这个声音会被对话盖掉。
+
+**Ep33 Frontier合流：** Milo回来时可能带着Thornfield的消息和Basin平原的texture。他那几天做了什么不需要on-screen，但回来后的状态（更settled，或者带回一个小故事）可以是一两句话的beat。
+
+---
+
+### Ep25：Founder Day Race · 天空回来了 · Milo Origin
+
+**场景：Atheria Founder Day。** 峡谷竞赛——skiff在两座skyport之间穿过标记点序列。不是直线冲刺，路线蜿蜒穿过风道、崖壁凸角、Skybridge桥洞、在建Skyport塔楼脚手架。所有obstacle都是Atheria本地地形——reader在Ep20-24刚花四集住在这个峡谷里，每一个obstacle都是他们认识的地方。
+
+**Anna借skiff飞。** 阵风号是Loom公共资源（走梭人使用的中型hauler，不是Anna私人资产）。Founder Day竞赛大家都借skiff。Anna借的那架不是旧稿里的破壳子——Archeon的skiff是成熟的、被well-maintained的公共工具，碳纤维骨架+蒙皮+辅助涡轮，open cockpit，两三米宽。但每架skiff都有自己的性格——重心、响应延迟、涡轮kick-in timing——Anna在起飞前花三十秒用手摸控制杆和机身接缝"听"这架skiff的personality。这是Edmund教的方法在present-time的active deployment。
+
+**★ Milo Origin（方向A：Milo也在Race里飞）：**
+
+Milo是Thornfield来的平原孩子。Basin平原的skiff飞法和Atheria峡谷skiff飞法不一样——平原是长直线、稳定风、看得远；峡谷是短急弯、崖壁乱流、反应窗口以秒计。Milo在Atheria的峡谷竞赛里飞得歪歪扭扭——不是技术差，是landscape不对。他的身体在做平原反应（提前大角度修正），峡谷要的是小幅快速微调。
+
+但他没放弃。Anna从空中注意到他的某个moment——不是技术好，是**attitude**。也许是他在崖壁凸角处被乱流推偏后的recovery方式——不慌，不硬拉，而是等了半秒让skiff自己找到平衡再修正。这个"等"的本能和Anna/Edmund的方法是同一个认知族群的。
+
+Race结束后。Anna落地。年轻飞行员围过来问技术问题。Anna的回答是技术的、精确的、没有triumph。然后她问Joren——或者问在场的某个人——"那个平原来的是谁。"
+
+30个字。我们从此知道Anna选择了Milo。不是Milo找到Anna——是Anna看到了什么。
+
+; [Milo origin的retroactive layers]
+; 第一遍：Anna从Race中看到一个有潜力的年轻飞行员。
+; Post-Lia reparse：Anna在一个年轻人身上看到了"等"的本能——
+; 和她13岁之后给自己装的三秒钟停顿是同一种东西，
+; 但Milo的是天然的，不是创伤产物。
+; Anna选择Milo不是因为他像Edmund——是因为他的手做了一件
+; Anna自己的手必须被规训才能做到的事。
+
+**M-覆盖 in situ：** Race前的热身段或Race后的return flight。两人各驾skiff。气流突变。Anna的手直接覆盖了Milo的手——盖上去，带着他做了正确的动作。一秒。松开。
 
 > Milo："……你可以直接说'往左'的。"
 > Anna："下次。"
 
-; [M-覆盖锚定在Ep25-26而非更早的理由]
-; Arc 1里Anna-Milo的dynamic是fresh的——M-1a/M-1b刚建立baseline。
-; M-覆盖需要一个"已经飞了一段时间但Anna的body还在24/7 threat assess"的阶段。
+; [M-覆盖锚定在Ep25的理由]
 ; memory trilogy（Ep22-24）刚结束——Anna的内部noise水平在高位。
 ; 这让M-覆盖的trigger logic更合理：不是Anna不信任Milo，是她自己太不安静了。
+; Milo在Ep25结束后离队去Thornfield，M-覆盖必须在离队前完成。
 
 **v5.0 飞行线coupling（Ep22→23→24→25）：** 我们的body memory timeline到达Ep25时：
 * **Ep22**：飞行是日常（M-09，一家人坐飞艇去过节——Edmund的手在Anna肩上，Miriam在旁边，世界在下面变小）
@@ -4184,41 +4270,130 @@ Ep25飞行段（Atheria附近或出发去Iris前），阵风号上。一个routi
 * **Ep24后半**：Edmund消失，天空消失。Scene 4-7的空间全在地面——这个事实不需要叙事声音说出来，reader的body已经在下沉。Ep24最后一帧是地面的、静止的、春天的风。Ep25第一帧是天空的、高速的、现在的Anna。从记忆到现实的跳跃不通过transition实现，通过空间和速度的断裂——reader的身体自己感受到"出水了"。
 * **Ep25**：**天空回来了。但这次上面只有Anna一个人。**
 
-Anna在Atheria附近飞了一场。不是竞速——是童年和现在的合并点。Anna用Edmund给她的一切——感知系统、三秒钟停顿、红夹克——在空中做了一件需要所有这些东西的事。Present-time的身体动作和记忆三部曲的每一颗种子同时bloom。我们第一次看到"过去的training"和"现在的action"在同一个场景里重叠。
+Anna在Atheria的峡谷里飞了一场。不是竞速——是童年和现在的合并点。Anna用Edmund给她的一切——感知系统、三秒钟停顿、红夹克——在空中做了一件需要所有这些东西的事。Present-time的身体动作和记忆三部曲的每一颗种子同时bloom。我们第一次看到"过去的training"和"现在的action"在同一个场景里重叠。
 
 **飞行回归的情感层次：** Ep24结束在春天——一个穿着红夹克的孩子站在没有父亲的世界里。没有收束。没有transition。Ep25直接在天上开场。这个断裂本身就是一个statement——reader的body在Ep24的地面沉重中待了整整一集，突然被拉到天上。relief和pain同时到。relief因为天空回来了，Anna还能飞，世界还在。pain因为Ep22里Edmund肩上的手、M-20里Edmund舷窗边的表情、这些都在天空里消失了。现在天空是Anna一个人的。这是她继承的最大的东西，也是最空的东西。
 
-### Ep26-28：离开Atheria·Iris Hollow
+**Ep25结尾：Milo离队。** Race结束后的日常moment。Milo提到回Thornfield。Anna说好。轻的。走梭人世界里的正常分合。
 
-### Ep26 — 离开Atheria · 种子#3 · Sky Weaving
+---
 
-出发动机：Iris Hollow需要x/return cargo。The Loom的routine task。
+### Ep26-28：航线 · Iris Hollow · 出谷
 
-**种子 #3 — 年轻学徒注视**：（位置可在Ep26出发前或Ep27 Iris到达后，根据pacing调整）
+### Ep26a — 航线巡回（Anna solo · 4,000-10,000字）
 
-Anna看到一群学徒训练。一个十三四岁的孩子犯了小错，师傅纠正，孩子笑着重来。Anna的视线在那个孩子身上多停了三秒。然后转身继续走。
+**一句话：** Archeon文明的多面展示。走梭人的完整工作日。Federation Arc的Archeon版。
+
+**设计原则：** 每一站的感官重点必须和Arc中其他settlement完全不重叠。
+
+已展示感官签名不可重复：
+- Atheria：垂直/回声/锤击/河水/峡谷声学
+- Riverbend（Arc 1）：水渠网/鱼烟/阶梯建筑/水声包裹
+- Frontier City：密度/蒸汽风琴/选择丰富度/城市嘈杂
+
+**航线：** Atheria → Millhaven → Basin平原outpost → 海岸接近 → Iris Hollow外围
+
+闪回：零或极少（1-2句body echo）。
+
+---
+
+**站1：Millhaven（~1,500-2,000字）**
+
+一句话：磨坊小镇。面粉味。
+
+感官签名：
+- 先听到——不是锤击，不是水声——是磨碾声。水力石磨的低沉、持续、无间断的研磨。不像Atheria的声音有节奏（锤击有间歇），磨坊的声音没有起止。一种地质级的pulse——像行星本身在缓慢地嚼什么东西。
+- 先闻到——面粉尘。弥散的、干的、微甜的粉末气。和Atheria的机油味、Riverbend的鱼烟完全不同频。Millhaven的每个人——衣服上、头发里、指甲缝——都有面粉的ghost。
+- 先看到——水渠驱动的磨坊群沿河分布。每座磨坊的石磨大小不同——有的磨粗粉（动物饲料），有的磨细粉（面包），有的磨超细粉（给Iris Hollow的面粉姑姑）。水渠分叉系统比Riverbend简单但更有purpose——这里的水不是为了鱼和人的生活，纯粹是为了转动石磨。
+
+Anna的走梭人moment：
+- 卸下一个磨盘轴承的replacement part（从Atheria/Frontier带来）
+- 装上Millhaven给Iris Hollow的三袋细磨面粉
+- 磨坊主告诉她："今年的麦子比去年硬，磨出来的粉粗了半号。你到Iris Hollow跟面粉姑姑说一声，发面时间要多给一刻。"—— 一句话，连接了三个settlement
+
+独特角度（不重复）：机器作为慢的、耐心的、重复的存在。Atheria的机器是精密的、需要诊断的。Riverbend的水渠是分配的、灌溉的。Millhaven的石磨只做一件事——转。日复一日地转。500年前CI选址建了第一座磨坊，现在石磨换了七代，位置没变过。
+
+**Warmth beat候选位：** 磨坊主已经把轴承安装位清出来了。"他知道我大概这周到。"——同Ep14 Riverbend热饮、Ep27 Iris老人摆出工具的pattern。分布式warmth。
+
+---
+
+**站2：Basin平原outpost（~1,500-2,000字）**
+
+一句话：200人的草原。飞艇到来是一个事件。
+
+不用named settlement。用"平原上的一个小outpost"——Hearthstone方向。Concept art里那张草地+风车+层叠建筑+人走在小路上的画面。
+
+感官签名：
+- 先感到——水平。Atheria是垂直的世界（崖壁向上叠），Frontier是密度世界（东西挤在一起），这里是水平的世界——天际线在任何方向都退到极远处。麦田的金色波浪向四面铺展。声音不bounce——出去就散了。Anna的耳朵在这里要重新校准（和14岁第一次到Iris Hollow的体验平行，但更轻——她现在熟悉这个切换了）。
+- 先听到——风。只有风。穿过麦穗的"沙沙"声是这个地方的baseline。偶尔一声铁锤、一声孩子的笑、一声风车轴承的吱嘎——但每个声音都是孤立的，不混合、不回弹。安静到能听见阵风号的引擎在远处冷却时金属收缩的"叮"。
+- 先看到——一座层叠的CI时代建筑被后来的草顶和木结构包裹，像一棵树上长满了寄生植物。风车高塔。太阳能板（旧声遗产）的蓝色在金色田野里格外醒目。
+
+Anna的走梭人moment：
+- 200人的outpost。Anna的船靠港的时候所有人出来了。孩子追着飞艇的影子跑。这不是Frontier那种"又一艘飞艇"的平淡——这是"走梭人来了"的事件。
+- Anna带来的不是大批货物——是三个settlement的消息。Thread Festival的结果。Frontier市集新出了一种织物。Millhaven今年面粉粗了半号。这些消息在长桌晚饭上被传开，明天整个outpost的人都会知道。
+- 一个老人拉住Anna问南边的事——他的女儿嫁到了Coppergate，半年没消息了。Anna上次经过Coppergate见过她。"她很好。生了个儿子。长得像你。"老人的表情变化——这就是走梭人的真正价值。
+
+独特角度（不重复）：规模感。一百万人散布在一颗星球上是什么样子。大城市是一种感觉，200人的outpost是另一种——在这里，Anna的到来本身就是"织机上的线被绷紧"。Archeon文明不是只有峡谷城市和贸易枢纽——它的毛细血管是这些草原上的小聚落，靠走梭人连在一起。
+
+**种子#3候选位——年轻学徒注视：** 200人的settlement，每个人都visible。Anna看到一个十三四岁的孩子在帮忙搬东西或做什么小活计。她的视线多停了三秒。然后转身继续走。小outpost里这种moment比Atheria或Iris更intimate，因为没有人群可以消失进去。
 
 | 层 | 我们理解 |
 |---|---|
-| 表层 | mechanic观察年轻人训练 |
+| 表层 | mechanic观察年轻人干活 |
 | 误读层 | 想起自己当年跟Edmund学艺的nostalgia |
 | 真实层 | 那个孩子13岁——Anna犯下Lia事故时的年龄。她在看曾经的自己 |
 
-旅程 = Atheria垂直世界进入Iris水平世界。地貌变化：峡谷→丘陵→平原。
+---
 
-**Sky Weaving编队**（概念图Image 8）：穿过云层后几架Iris的skiff飞到Anna运输艇旁。尾部拖染色长布带，在田野上空编织交叉彩色轨迹。不是比赛，是协作。
+**段3：海岸接近（~800-1,000字，飞行中，不靠港）**
 
-Sky Weaving的physical sensation：Anna习惯了独自飞行或双人配合（和Milo），编队要求她感知五六架skiff的相对位置和速度——不是用仪表而是用周边视觉和气流扰动。旁边的skiff经过时产生尾流，她要学着"读"这些尾流来维持编队间距。从独奏变成合奏——和她"听"机器的能力是同一个认知族群的不同分支。
+不是一个settlement stop——是一段飞行中的感官过渡。
 
-帆的echo线：六岁独自放风筝 → Ep25独自竞速 → Ep26协作编队。三种"和风一起玩"的方式，progressively更social。
+离开平原outpost后继续西飞。地形开始变——平原的金色渐渐掺入灰绿，草变短了，灌木多了。
 
-**★ 老人的感知方向观察（六年关系 + Edmund网hidden node）**（位置：Ep26出发后至Ep27之间的中转outpost，或Ep27-28 Iris Hollow本地）
+湿度上升。Anna的皮肤先感觉到——空气里多了一层她说不出名字的东西。盐。不是咸——是一种矿物质的存在感。
+
+光线变了。内陆的光是硬的、干的、有棱角的。接近海岸时光变柔了——海雾把阳光过滤成灰白和珍珠色。
+
+声音开始变。引擎声在这种空气里传播的方式不同——更闷、更短。远方隐约有一种低频的存在——不是风，是海。
+
+Anna的body在做recalibration——同一个过程，她14岁第一次来时做了半天，现在三分钟完成。不以闪回形式出现，但读者在Ep27看到backstory·二"海岸三天"时会认出这个过程。
+
+---
+
+**段4：Iris Hollow外围（~300-500字，过渡到Ep26b）**
+
+远方的天际线上出现了Iris Hollow的轮廓——CI时代穹顶被藤蔓包裹的巨大建筑群，在海雾中像一座浮在珍珠光里的岛。不是Frontier的嘈杂天际线——这个更安静、更宽、更低。
+
+---
+
+### Ep26b — Sky Weaving · 到达Iris Hollow（4,000-10,000字）
+
+**穿过云层。** Anna从海雾/低云层中穿出来。视野打开。
+
+**Sky Weaving编队**（概念图Image 8）：几架Iris的skiff飞到Anna的阵风号旁。尾部拖染色长布带，在田野上空编织交叉彩色轨迹。不是比赛，是协作。
+
+Sky Weaving的physical sensation：Anna习惯了独自飞行（这几天solo更强化了这个习惯），编队要求她感知五六架skiff的相对位置和速度——不是用仪表而是用周边视觉和气流扰动。旁边的skiff经过时产生尾流，她要学着"读"这些尾流来维持编队间距。从独奏变成合奏——和她"听"机器的能力是同一个认知族群的不同分支。
+
+帆的echo线：六岁独自放风筝 → Ep25独自竞速 → Ep26b协作编队。三种"和风一起玩"的方式，progressively更social。
+
+**Iris Hollow展开worldbuilding。** 到达后的地面体验——这是reader第一次进入Iris Hollow。沿海丘陵settlement。没有崖壁可附着——空港利用丘陵坡面做terrace，更水平、更spread out。小型飞艇直接系在草坡的地面锚桩上，像一群在草地上吃草的巨大水牛。海风带着盐味。周围林地资源丰富，建筑用更多木材，气质比Frontier更pastoral、更开阔。
+
+**到达后的走梭人moment：** Anna把Millhaven面粉消息带到面粉姑姑——"今年粉粗了半号，发面时间多给一刻。"一条信息链从磨坊主嘴里→Anna→面粉姑姑的手里完成了全程。The Loom的活体神经。
+
+---
+
+### Ep27 — Iris Hollow日常 · 老人 · 声学失灵 · 故事夜（4,000-10,000字）
+
+**★ 老人的感知方向观察（六年关系 + Edmund网hidden node）**
+
+老人锚定在Iris Hollow本地。
 
 ; [P-10 ★★ OVERRIDE P-08.1 §C]
 ; 从"手生了"/mechanic identity poke改为感知方向变化观察。
 ; Anna从来不是mechanic——她是listener。老人看到的变化是注意力方向的shift。
 
-**六年context——保留：** Anna从14岁开始独自飞行后，一年经过这个settlement约2-3次。有时专程来修东西，有时是路过时"顺便"停一下。老人每次都有"不急但可以修"的活给她——不是制造问题，是把一些settlement总有的非紧急维护攒着留给她。
+**六年context——保留：** Anna从14岁开始独自飞行后，一年经过Iris Hollow约2-3次。有时专程来修东西，有时是路过时"顺便"停一下。老人每次都有"不急但可以修"的活给她——不是制造问题，是把一些settlement总有的非紧急维护攒着留给她。
 
 Anna在mental map里给这个人的slot是："Iris Hollow那个总有东西需要看看的老头"。不是"爸爸托付的人"。六年下来，这是一个comfortable professional relationship。
 
@@ -4227,7 +4402,7 @@ Anna在mental map里给这个人的slot是："Iris Hollow那个总有东西需�
 ; 她不是在"被照顾"。她在工作。尊严完好。但同时也在被人的温度包着。
 ; Care被藏在commission里。网的节点不知道自己是网的节点。
 
-**Scene context：** Anna到Iris Hollow（或中转outpost），是以**pilot身份**来的——接了个飞行任务。不是来修东西的。
+**Scene context：** Anna到Iris Hollow，是以**pilot身份**来的——接了个飞行任务。不是来修东西的。
 
 老人认出她。六年的regular。"刚好有个东西想让你看看。"
 
@@ -4282,14 +4457,62 @@ Anna在收工具。"他带我去过很多地方。"
 
 Anna的反应：轻描淡写。可能在收工具——hands busy。
 
-**这颗子弹已移除。Ep26只做一件事：感知方向shift + 六年关系texture。** Edmund网的accumulated warmth在Arc 1-4通过distributed warmth beats实现，不在此scene集中。
+**这颗子弹已移除。Ep27老人scene只做一件事：感知方向shift + 六年关系texture。** Edmund网的accumulated warmth在Arc 1-4通过distributed warmth beats实现，不在此scene集中。
 
 **设计约束**：
 - 老人关于注意力方向的观察必须是casual tone——不是诊断，不是感慨。
 - Anna的反应要快、要平。不是压抑——是真的没觉得这有什么特别。
 - 不在这个moment给任何identity shift的内省。子弹打进去了但没炸。
 - **老人和Anna的relationship必须有六年的texture。** Prose需要conveying familiarity。
-- 老人最小viable characterization：也许他话多。也许他做饭很好。名字、年龄、具体身份待Ep26 scene writing时确定。建议不是authority figure——越普通越好。
+- 老人最小viable characterization：也许他话多。也许他做饭很好。名字、年龄、具体身份待scene writing时确定。建议不是authority figure——越普通越好。
+
+**★ Iris Hollow声学失灵 + 新诊断方式**
+
+**声学特征（Anna的"听"第一次失灵的核心原因）**：
+
+Atheria峡谷是天然的声学放大器——两面崖壁之间的回声让Anna通过sound location定位故障。Iris的平原没有反射面。声音发出去就散了，没有回弹。Anna习惯的"从回声角度判断声源距离"的方法，在这里等于盲了一只耳朵。
+
+风是另一个问题。Atheria的峡谷风是层流的、有方向的（沿峡谷轴线），Anna可以把风声当成背景滤掉。Iris的平原风是湍流的、无方向的，它把所有机械声揉成一团模糊的白噪音。
+
+Anna第一次站在Iris的风力设施群旁边的disorientation moment——闭眼听，听到的不是独立声部，是一锅糊。
+
+**Iris的替代感知方式**：
+- 看管壁外侧的凝水pattern（凝水均匀=正常；偏移=堵塞或摩擦）
+- 看田间植物叶尖的卷曲方向（灌溉水压不够的地方植物先萎，方向指向故障源）
+- 摸土壤的湿度梯度
+
+Iris人不需要"听"——他们的世界是视觉的和触觉的，因为平原上看得远、风太大听不清。
+
+**Anna的认知突破**：Edmund教她的方法不是唯一的方法。不是错的，但是local的。为后面Frontier和Skyleaf的adaptability做铺垫。
+
+**故事夜（收获季传统）**：
+
+和Atheria的"黄昏灯火"形成对比。Atheria的美是垂直的、碎宝石式的（崖壁上点点灯火）。Iris的美是水平的、篝火式的——一张长桌铺在打谷场上，两端各一堆篝火。桌上不是精密工具，是面包、奶酪、谷酒。
+
+讲故事的方式不同：Atheria人讲故事像写logbook（事实、数据、因果链）。Iris人讲故事像唱歌（夸张、重复、有节奏的call-and-response，台下在固定的地方齐声接话）。
+
+Anna被邀请讲Atheria故事。她用Atheria式的方式讲——精确、干燥——台下安静了一会儿，然后一个老人说"你讲的是事情，不是故事。再来一遍，这次讲给我们听你闻到了什么。" Anna被迫用不同的方式组织记忆——不是因果链，是感官。这个过程是一次emotional processing——她第一次不得不用"味道、温度、光线"来重述Edmund教她的那些时刻。
+
+**阳光莓echo**：Anna在故事夜被要求"用味道和温度讲故事"时，阳光莓的记忆被主动调用——她第一次试着把这个记忆讲给陌生人听。
+
+; [Anna solo的故事夜vulnerability]
+; 如果Milo在，Anna可能把"讲故事"这个任务dodge掉（让Milo说两句，自己补充技术细节）。
+; Solo时她没有buffer。被要求"讲你闻到了什么"时，她只能自己面对Edmund的记忆。
+; 这是Milo离队的叙事功能之一——让Anna在Iris Hollow的emotional exposure无遮挡。
+
+---
+
+### Ep28 — 出谷 · Frontier Trigger（4,000-10,000字）
+
+从Iris出发原因：Festival物资运输、Iris大批农产品运往Frontier。Anna顺路。The Loom的日常血液循环。
+
+**信号中继站vignette**（半集）：
+- 二三十人的tiny outpost，高山顶部
+- Anna帮修小故障，吃晚饭
+- 老信号员带她爬天线塔顶：晴夜里同时看到Iris和Frontier方向的灯火，两个光点分别在地平线两端，她站在中间
+- The Loom的literal visualization：最不起眼但最不能断的线
+
+Ep28末：Frontier City的灯火在远方地平线上出现——比Atheria和Iris加起来都亮。
 
 ---
 
@@ -4330,7 +4553,7 @@ Beat的形式：**一句话到一个paragraph。** 不是scene，不是subplot�
 
 ---
 
-**Beat #2 — Ep26 Iris Hollow老人（Arc 2，已有场景，微调）**
+**Beat #2 — Ep27 Iris Hollow老人（Arc 2，已有场景，微调）**
 
 **位置**：老人scene开头，Anna到达时。
 
@@ -4462,64 +4685,7 @@ Ep61之后 = Edmund让他记住的不只是Anna，是整个家庭。网比Anna�
 
 ---
 
-### Ep27 — Iris Hollow日常 · 声学失灵 · 新诊断方式 · 故事夜
-
-**★ Iris Hollow扩展Worldbuilding**
-
-**声学特征（Anna的"听"第一次失灵的核心原因）**：
-
-Atheria峡谷是天然的声学放大器——两面崖壁之间的回声让Anna通过sound location定位故障。Iris的平原没有反射面。声音发出去就散了，没有回弹。Anna习惯的"从回声角度判断声源距离"的方法，在这里等于盲了一只耳朵。
-
-风是另一个问题。Atheria的峡谷风是层流的、有方向的（沿峡谷轴线），Anna可以把风声当成背景滤掉。Iris的平原风是湍流的、无方向的，它把所有机械声揉成一团模糊的白噪音。
-
-Anna第一次站在Iris的风力设施群旁边的disorientation moment——闭眼听，听到的不是独立声部，是一锅糊。
-
-**Iris的替代感知方式**：
-
-老农的诊断方法不是"用耳朵听"，而是用眼睛看和用手摸：
-- 看管壁外侧的凝水pattern（凝水均匀=内部温度均匀=正常；凝水偏移=内部有热点=堵塞或摩擦）
-- 看田间植物叶尖的卷曲方向（灌溉水压不够的地方植物先萎，方向指向故障源）
-- 摸土壤的湿度梯度
-
-Iris人不需要"听"——他们的世界是视觉的和触觉的，因为平原上看得远、风太大听不清。
-
-**Anna的认知突破**：Edmund教她的方法不是唯一的方法。不是错的，但是local的。为后面Frontier和Skyleaf的adaptability做铺垫。也呼应Ep25 Crest Run的困难——她当时还没有"平原模式"。
-
-**Iris感官特征**：
-- 空气：泥土+烤面包+咸风+晒干的草（对比Atheria的机油+岩石）
-- 视觉：低矮但宽敞建筑，旧声遗留结构改成巨大粮仓和发酵窖，水平轴风力设施+太阳能收集器在平原上散布
-- 声景：风把一切揉在一起的白噪音底色 + 远处海浪 + 麦田在风中的沙沙声像集体呼吸
-- 田野的时间感：不像Atheria的垂直节奏（晨雾/午风/傍晚水位），Iris的节奏是光线在平面上的移动——影子从西到东缓慢扫过田野，像一只巨大的时针
-
-**故事夜（收获季传统）**：
-
-和Atheria的"黄昏灯火"形成对比。Atheria的美是垂直的、碎宝石式的（崖壁上点点灯火）。Iris的美是水平的、篝火式的——一张长桌铺在打谷场上，两端各一堆篝火。桌上不是精密工具，是面包、奶酪、谷酒。
-
-讲故事的方式不同：Atheria人讲故事像写logbook（事实、数据、因果链）。Iris人讲故事像唱歌（夸张、重复、有节奏的call-and-response，台下在固定的地方齐声接话）。
-
-Anna被邀请讲Atheria故事。她用x式的方式讲——精确、干燥——台下安静了一会儿，然后一个老人说"你讲的是事情，不是故事。再来一遍，这次讲给我们听你闻到了什么。" Anna被迫用不同的方式组织记忆——不是因果链，是感官。这个过程是一次emotional processing——她第一次不得不用"味道、温度、光线"来重述Edmund教她的那些时刻。
-
-**阳光莓echo**：Anna在故事夜被要求"用味道和温度讲故事"时，阳光莓的记忆被主动调用——她第一次试着把这个记忆讲给陌生人听。
-
-**Iris日常timelapse**：
-- 早晨：Anna在农田帮忙（学习Iris的生态系统）
-- 下午：学徒教学场、和本地mechanic交流不同技术传统
-- 傍晚：故事夜
-
----
-
-### Ep28 — 出谷 · Frontier Trigger
-
-从Iris出发原因：Festival物资运输、Iris大批农产品运往Frontier。Anna顺路。The Loom的日常血液循环。
-
-**信号中继站vignette**（半集）：
-- 二三十人的tiny outpost，高山顶部
-- Anna帮修小故障，吃晚饭
-- 老信号员带她爬天线塔顶：晴夜里同时看到Iris和Frontier方向的灯火，两个光点分别在地平线两端，她站在中间
-- The Loom的literal visualization：最不起眼但最不能断的线
-
-Ep28末：Frontier City的灯火在远方地平线上出现——比Atheria和Iris加起来都亮。
-
+; [旧版Ep27/Ep28内容已合并到上方Ep26b-Ep28 revised section中。]
 
 ---
 
@@ -5722,21 +5888,21 @@ Curiosity不是hope。但真正什么都不在乎的人不会想去"看看"。Ni
 
 ### Ep 57 — 南行·风中摩擦
 
-**地点**：Atheria Basin → 绿带河谷 → 侵蚀过渡带 → Grit-Wind Pass
+**地点**：Atheria Basin → 绿带河谷 → 西南海岸 → Orun海角翻越 → Great Ochre Desert边缘
 
-Grit-Wind Pass穿越Orun东端——高原的东部terminus，被千万年侵蚀打穿的残断结构，高度只有几百米。Wind从gap中加速通过。
+从Basin出发向西南飞，不走Arc 1的内陆Orun北缘路线。目的地在Orun背后的沙漠——需要翻越高原。选择Orun西端海角（The Cape）：逆冲板块前缘在海岸处变薄，escarpment高度从3km降至800m-1.2km，是整个Orun最低的翻越点。海风形成的orographic uplift稳定且宽阔——但常年海雾笼罩，能见度极差。
 
 **地貌转换三段**：
 
 **绿带**：Ishkar支流灌溉的温带林地。Quiver-Leaf颤叶林银色闪烁，Sentinel Pine在山脊站成深色剪影。湿润空气，草和泥味。飞行平稳。Archeon最"地球"的风景。
 
-**过渡带**：地形抬升，植被稀疏。河流变间歇性干河床。土壤从深褐变赭红。风变干带砂。飞艇金属表面开始发出不同的声音——干燥空气让vibration pattern更清脆，Anna的ears自动recalibrate。
+**海角接近（The Wash）**：海岸线附近空气变咸变湿。Orun的escarpment在这里已不是3km的黑墙——而是一道800m的海蚀崖，底部被浪花打出拱门和海蚀柱。整面崖壁被浓重海雾包裹——从远处看不是黑色，是白色。海蚀台地层层叠叠从海面爬到崖顶，上面长满被海风修剪成匍匐姿态的矮树和厚苔藓。海风updraft强劲且稳定——"光滑电梯"——但需要盲飞。
 
-**Grit-Wind Pass**：风侵蚀低矮山口，两侧岩壁被千年风沙打磨成流线型。绿带与大赭沙漠之间的门。Venturi effect加速风力。沙粒打壳体连续沙沙声。能见度下降。
+**翻越脊线 → Desert边缘**：利用海风updraft爬升到800-1200m翻过崖顶。穿出雾层的那一刻——阳光。回头看北面是白色雾海，前方是Orun高原面的赭红延伸。继续向东南飞越高原缓降面，高原逐渐下沉、颜色从basalt黑变成沙石赭红、植被消失——Great Ochre Desert出现。
 
 **Anna-Kassia飞行摩擦（核心beat）**：
 
-编队通过Grit-Wind Pass时Kassia回运输艇副驾驶位。横风把运输艇推偏。Anna减速稳住等风间隙。Kassia做了一个micro-correction——比Anna快半秒，角度更aggressive。
+海雾段中Kassia失去视觉参照。她的精确度依赖视觉——失去视觉本能想加速脱离。Anna减速，让海风updraft替她们做功。
 
 > Anna："你的修正角够漂亮。但这艘船不是Razor。三度侧倾，货舱固定栓会被拉到极限。"
 
@@ -5744,7 +5910,7 @@ Kassia沉默，把手从操纵杆收回——不是被说服，是Anna在物理�
 
 **★ Kassia micro-experiment（不correction beat）：**
 
-一分钟后。另一阵横风。Kassia的手**没动**。这次她等了——让Anna handle。Anna handle了。飞艇稳了。不需要Kassia的提前correction。风自己回来了。
+穿出雾层后。高原面上的dry air turbulence。Kassia的手**没动**。这次她等了——让Anna handle。Anna handle了。飞艇稳了。不需要Kassia的提前correction。风自己回来了。
 
 Kassia什么都没说。
 
@@ -5762,7 +5928,7 @@ Kassia什么都没说。
 
 **地点**：Great Ochre Desert → Whispering Flats结晶平原（夜间）
 
-穿过Grit-Wind Pass进入大赭沙漠。赤红荒原。编队决定在Whispering Flats夜间通过。
+穿过Orun海角进入大赭沙漠。高原缓降面过渡到赤红荒原。编队决定在Whispering Flats夜间通过。
 
 **★ Whispering Flats夜间**：
 

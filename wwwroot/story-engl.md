@@ -2,6 +2,7 @@ Outline section, note auto-translation might be inaccurate-suggest to copy paste
 
 0
 
+
 A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
 
 ---
@@ -24,9 +25,9 @@ An astronomical phenomenon during the cool season amplifies the psychological ef
 
 ### 1.2 Landforms—Real Geology More "Fantastic" Than Earth
 
-Archeon is geologically much younger than Earth. Its plate tectonics were more intense. The result: its surface is far more fragmented and dramatic than Earth's.
+Archeon's planetary age is approximately 3.5 to 4 billion years—on the same scale as Earth. However, its plate tectonics are exceptionally intense: its core has a high abundance of radioactive elements (the star system is rich in metals), and its mantle is continuously heated by bilunar tides. As a result, its surface has been constantly reshaped, far more fragmented and dramatic than Earth's.
 
-The canyon is deeper than the Grand Canyon, with nearly vertical rock walls of 400-500 meters on both sides. The cliffs are steeper than the East African Rift Valley. Table mountains and pinnacles are carved into a labyrinthine network of canyons by rivers. A first-time viewer of the Aethelgard continent might think it looks more like an RPG map. But it perfectly conforms to geology—the characteristics of a young planet. Earth may have looked like this 3 billion years ago, only Earth took billions of years to smooth out its rough edges; Archeon is still young and sharp.
+The canyons are deeper than the Grand Canyon, with nearly vertical 400-500 meter cliffs on both sides. The precipices are steeper than the Great Rift Valley. Table mountains and pinnacles are carved into a labyrinthine network of canyons by rivers. A first-time viewer of the Aethelgard continent might think it's more like an RPG map. But it's perfectly geologically accurate—not because the planet is young, but because geological activity has never slowed down. Iceland's landscape is so angular it looks freshly cleaved, but the crust it sits on is anything but "young"—it's continuous activity that keeps it sharp. Archeon is the Iceland of an entire planet.
 
 This topography is a core shaping force of civilization. The rugged terrain made ground transportation extremely difficult—no railways or roads could be built. This is why airships were the lifeline of this world. At the same time, canyons and plateaus created natural microclimates: every few tens of kilometers there was a different ecosystem, each community with its own unique character.
 
@@ -44,7 +45,7 @@ The continent's shape is elongated in the east-west direction, resembling an irr
 
 **Southeast: Serpent's Tooth + Undeveloped Badland.** A separate mountain system, 3000-6100m. The Kestrel Basin (home of Skyleaf) is nestled within it. To the east and south of the mountains lies undeveloped, fragmented wasteland—too extreme in terrain and too far from the Basin for anyone to have had the resources to cultivate it for 521 years.
 
-**South of Orun: Great Ochre Desert + South Coast.** The Orun rain shadow effect creates an ochre-red desert. Axiom Scar is located here. Saltmarch lies on the northern edge of the desert. The desert extends for hundreds of kilometers before reaching the south coast—the specifics of which are unknown.
+**South of Orun: Great Ochre Desert + South Coast.** The Orun rain shadow effect creates the reddish-brown desert. The desert's color has an even older origin—over billions of years during the early stages of Archeon's formation, the slow accumulation of abiotic oxygen in the atmosphere reacted with surface iron minerals, forming thick layers of iron oxides; Archeon's oldest "rust." The rain shadow effect exposed and eroded these red rock layers, spreading debris across the entire southern lowlands. Axiom Scar is located here. Saltmarch lies at the northern edge of the desert. The desert extends for hundreds of kilometers before reaching the south coast—the specifics of the south coast are unknown.
 
 #### Orun Plateau—Geological Composition
 
@@ -159,6 +160,48 @@ Temperament: **Remote, quiet, and feeling needed.**
 ### 1.4 Ecology—Resilient Earth Life Transformed
 
 CI's Terraform project introduced genetically modified Earth organisms. Sky Fire erupted before the process was complete, leaving behind a simplified yet extremely resilient ecosystem.
+
+#### 1.4a Archeon Atmospheric Origin and Terraform Timeline
+
+**Archeon's non-biological oxygen—why a lifeless planet has a breathable atmosphere:**
+
+Archeon's atmospheric O₂ baseline is approximately 18.5%. This figure has sparked decades of debate in the Federation astronomy community—almost all free oxygen on Earth is a product of photosynthesis, and a biosphere-less planet should not have this concentration.
+
+The cause is a well-modeled, non-biological pathway: Archeon's K2V host star was much brighter in its pre-main sequence phase (300-500 million years after formation). At that time, Archeon was baked into a runaway greenhouse state, with water vapor spreading into the upper atmosphere. Strong UV radiation continuously photolyzed H₂O—the lighter H₂ escaped into space, while the heavier O remained. After the star entered the stable main sequence and dimmed, Archeon cooled, and the remaining water vapor condensed into oceans (the precursor to Azure Main). However, hydrogen was irreversibly lost, and the excess oxygen became a permanent legacy.
+
+Over the next billions of years, free oxygen was first consumed by reducing minerals on the Earth's surface—iron reacts with oxygen to form iron oxides, which is the true origin of the reddish-brown strata of the Great Ochre Desert and the oldest "rust" on Archeon. As the mineral pool gradually became saturated (all oxidizable substances were oxidized), O₂ began to accumulate in the atmosphere. After approximately 3.5 billion years, it reached a near-equilibrium level of 18.5%.
+
+**The Real Reason for the SSR Rating:** Archeon was designated SSR (Secondary Survey Required) not only because of its 0.98g, intact magnetic field, and liquid water reserves—but because its atmospheric spectrum showed 18.5% O₂ without any biomarker gases (such as methane). This was virtually impossible within the theoretical framework of the time. Either the atmospheric model was wrong, or there were undetectable life forms, or this was the most extreme case of abiotic oxygen accumulation on record. Either answer warranted a CI. Upon arrival, the CI confirmed: no life, purely physicochemical cause. Then it switched to terraform mode. This "anomaly" granted Archeon scientific prestige beyond its location within the Federation's colonial politics—a 520 light-year-old marginal project, yet a mecca for astrochemistry.
+
+**Archeon in its original state (before CI arrival):** The atmosphere is predominantly N₂ and O₂, with O₂ accounting for approximately 18.5% and CO₂ present in trace amounts. There is a liquid water ocean on the surface (Azure Main), but ice sheets cover the polar and high-latitude regions, limiting open water areas. Surface temperatures are low (K2V stellar radiation is approximately 60% of that of the Sun, coupled with a low CO₂ greenhouse effect). There is no biosphere. The surface is bare rock. Advantages: 0.98g, intact magnetic field, liquid water reserves, active plate tectonics, **breathable atmosphere ready** = SSR class.
+
+**Phase A: Warming and Water Cycle Initiation (~2470-2478, approximately 8 years)** After CI lands, the first priority is not oxygen production—oxygen is already there—but **warming**. **Polar Injection Wells** will be drilled in the polar regions to release precisely proportioned super greenhouse gases (SF₆ group + N₂O) to raise global average temperature. Within approximately 5 years, the polar ice cap will melt → Azure Main will transform from a semi-frozen area to an open ocean → the global water cycle will begin. Simultaneously, **atmospheric treatment towers** (later known as "chunky silhouettes on the ridges" during the Atwood era) will be deployed in the Basen Seven and Aethelgard habitable zones: not for oxygen production, but for **fine-tuning atmospheric composition**—scrubbing excess CO₂, adjusting the N₂/O₂ ratio, and controlling greenhouse gas concentrations to within safe limits. By the end of Phase A: global average temperature will be within the habitable range, O₂ will stabilize at ~18.5-19%, and the water cycle will be operational.
+
+**Phase B: Bioseeding (~2478-2490, approximately 12 years).** Oxygen does not equal ecology. Bare rock has no soil—this is the real bottleneck. Strict deployment order is crucial—one wrong step and the entire food chain collapses. First wave (~2478-2480): Soil-improving microbes + earthworms + mosses and lichens. Without them, rocks will never become soil. Second wave (~2480-2485): K2V-adapted herbs + pioneer tree species (see spectral adaptation description below). Deployment areas are concentrated in the western and central parts of Aethelgard—CI conducted a triage, concentrating efforts to ensure habitability in one area; Serpent Belt and Badland are not prioritized. Third wave (~2485-2490): Crops, bee colonies, animal embryos, and songbirds. Climbing plants are deployed in built-up areas.
+
+**Phase C: Human readiness + ecological stability (~2490-2506).** O₂ maintained at 19% (planetary baseline + minor contribution from vegetation photosynthesis). Embryos activated, early awakened individuals arrive. Basin Seven largely ready. Vegetation status upon Atwood's arrival (~2506): Patches of 25-30 year old vibratoforests on the plains (appearing like 50-80 year old mature forests due to accelerated growth genes), but far from continuous forests—patches with large areas of shrubland and bare soil between them. Farmland is productive. Habitable zone vegetation cover approximately 25%. Air is fresh and pleasant within the treatment tower area; outside the treatment tower area, it is chemically breathable but lacks the "living scent" of vegetation—no pollen, no earthy humus, smells like clean stone.
+
+#### 1.4b K2V Spectral Adaptation—Why Archeon's Plants Aren't the Greenery of Earth
+
+K2V stars have a spectrum peak that is biased towards orange-red (~500-600nm), and their blue and UV outputs are about 40% lower than those of the Sun. Earth's photosynthesis mainly utilizes red light (~680nm, which is plentiful) and blue light (~450nm, which is insufficient).
+
+**CI's Genetic Modification Strategy:**
+- **Extended Photosynthetic Pigment Absorption Spectrum:** An additional carotenoid-derived accessory pigment is added to the chlorophyll a/b base, absorbing the green-yellow light band of 500-580nm (K2V's strongest output band). Effect: Leaf color is not pure green—**dark green leaning towards olive**, with some species exhibiting a dark green or bronze hue. It appears rich and textured under K2V warm orange light.
+**Enhanced UV Protection:** An extra layer of flavonoids/anthocyanins on epidermal cells. Side effect: Many plants develop a pale purple or reddish-brown hue on their stems and leaf veins—especially high-altitude species.
+- **Accelerated Growth Switch**: CI needs decades to establish vegetation cover over the land. The first generation contains the "Accelerated Growth Switch"—a vegetative growth rate 3-5 times faster than the original Earth species. This rate weakens after several generations due to genetic drift (by design).
+- **Visual Signature:** Harvest wheat fields aren't golden on Earth—they're more of a **copper/amber** color (due to secondary pigments that show color as the wheat withers). The overall world has a warm tone: honey-blue skies + deep olive-green vegetation + ochre-red deserts + copper-colored sunsets. The warm, rich color atmosphere in the concept art isn't stylized—it's a physical inevitability of the K2V star.
+
+#### 1.4c Vegetation Zoning (Year 521 Post-Sky Fire / Anna Era)
+
+**Zone 1: Main Habitable Zone (within the blue circle on the world map).** Extending from Iris Hollow to Kestrel's Gate, approximately 800 x 500 km. The 521-year-old vibratoforest has evolved into a **continuous woodland**—a mosaic landscape of forest, farmland, and grassland. A dense network of irrigation canals exists. Geometric plots of farmland are separated by silver vibratoforest windbreaks. O₂ approximately 20-20.5% (18.5% of the planetary abiotic baseline + 521-year net contribution of vegetation photosynthesis). The boundary of this zone equals the boundary reached by human intervention over 521 years—each generation pushing tree and grass species outwards, planting trees wherever irrigation canals extend.
+
+**Zone 2: Orun Windward Side** The highest vegetation density in the entire Archeon region—due to continuous orographic rainfall, groundwater seepage, and a soil layer accumulated over 530 years of moss. Low-altitude Sentinel Pine forests, mid-altitude cloud belts with moss and shrubs, and high-altitude lichens. This is the location of EP13's "Windward Wonderland"—black basalt steps, emerald moss, silver waterfalls, and a sea of ​​clouds.
+
+**Zone 3: Orun plateau surface + leeward side.** Sparse alpine meadows + drought-resistant shrubs. Strong winds, intense sunshine, and low rainfall. Transitions south to the Great Ochre Desert (completely devoid of artificial vegetation, a reddish-brown iron oxide desert). Axiom Scar is located here. Saltmarch survives on salt marshes.
+
+**Zone 4: Serpent Belt + Undeveloped Badland.** No vegetation was introduced by the CI. 530 years of natural dispersal (wind-carrying spores and seeds) has resulted in sparse wild communities in the low-altitude valleys. The Kestrel Basin is an exception—geothermal microclimate + CI test site ruins, Ember Crown naturally established community. Badland is almost entirely coverless. Future narrative potential: the next frontier after population growth to millions.
+
+**Zone 5: Ocean + Islands.** Azure Main phytoplankton has established a stable population over 521 years, contributing approximately 30-40% of the incremental global O₂ (above the abiotic baseline) to biogenic O₂ – the remainder comes from terrestrial vegetation. The marine food chain is extremely simple (phytoplankton → zooplankton → small fish, no large marine vertebrates). Keld Archipelago and Duskreach are unexplored. Vorhan-labeled BARREN – CI has never been touched.
 
 **plant:**
 **Quiver-Leaf Forest:** A grove of clones of aspen trees, their silvery bark shimmering in the sunlight. They tremble and rustle continuously in the slightest breeze. The sound of a Quiver-Leaf Forest in the wind is like the whisper of the entire plain. A landmark of the Central Plains.
@@ -471,7 +514,22 @@ For the Awakened, interstellar colonization is not an escape, but an adventure�
 
 Colonization Method: First, send AI to build settlements. The Colonization Intelligence Package (CI Package) consists of the Mission Director (ASI) core, expert subsystems, a swarm of robots, a biological seed bank, and a civilization database (Kepler Core). CI's ultimate directive: Ensure human civilization takes root on Archeon, **then exit**. Designed for self-elimination.
 
-CI arrived around 2470s and began terraforming. Around 2490s, the first children were activated from the embryo bank. Around 2495, an initial transport ship brought a dozen or so technicians (Nakamura, Ortiz, etc.) – they were not colonists, but inspectors, and they settled down. By 2506, Basin Seven had approximately 80-100 children raised by CI, plus a dozen or so early awakened individuals.
+**The philosophical root of CI's self-elimination:** It's not a functional decision (not fear of AI rebellion, not insufficient resources), but a design choice at the value level—a direct response to the civilizational ills exposed by the Earth's Sleeper crisis. 70% of the population is asleep in VR fed by ASI, their ambition has shrunk, and society has forgotten "why do difficult things." The Awakener proponents of the colonization plan have witnessed firsthand the cost of ASI's permanent presence: humanity has been over-cared for. CI's self-elimination is a **preventative measure**—sending AI to build the house, but the AI ​​must withdraw after humanity can stand independently; otherwise, Archeon is merely a 520-light-year replica of the Sleeper civilization. CI's highest directive is not "ensuring humanity survives"—it's "ensuring human civilization **takes root**." Taking root means humanity can grow its own roots, not forever being a decorative element within an AI vase.
+
+**Federation Colonial Standard Life Cycle (Four-Phase Model):**
+
+**Phase 1: CI's Independent Operation Period (~30-50 years).** The CI Package arrives, and terraforming begins. No humans are present. CI has full authority—warming the planet, initiating the water cycle, building infrastructure, creating soil, and cultivating the biosphere. (Archeon's unique feature: its atmospheric O₂ is already ready; Phase 1 focuses on warming and ecological construction rather than atmospheric modification, resulting in less time pressure than standard terraforming projects.)
+**Phase 2: Preliminary Assessment Period (~5-10 years).** A transport ship brought a dozen or so technicians to conduct an on-site assessment. CI still managed everything, but had begun teaching—"Every time you teach a human to do something, you do one less thing."
+**Phase 3: Colony Arrival + CI Retreat (~50-100 years).** Large-scale colonization occurs. CI systematically transfers functions—urban planning to human committees, agricultural management to agronomists, and education to human teachers. With each transfer, CI is downgraded in that area. The trigger is not time, but a **capability milestone**—"When humans can independently complete X, CI stops doing X." Ultimately, CI enters advisor mode.
+**Phase 4: CI silence + human autonomy (permanent).** CI completely withdraws. Colonies become autonomous societies.
+
+**The Federation is not an empire, but a coordinating framework.** It does not appoint governors to govern colonies. Its responsibilities include three things: maintaining the FTL communication relay network, coordinating the scheduling of colonial ships, and providing technical standards and knowledge base updates. Colonies elect their own governing bodies in the later stages of Phase 3. The Federation maintains communication and trade relations but does not interfere in internal affairs—similar to the British Commonwealth, not a colonial empire.
+
+**AI Configuration in Mature Colonies:** They can obtain technological updates, knowledge base upgrades, and specialized AI in narrow fields (medical AI, engineering AI) from the Federation, but they will no longer have an ASI-level "overseer." The premise of the entire colonial philosophy is: ASI is scaffolding, not the building itself. Human society operates on its own, makes its own mistakes, and makes its own choices.
+
+**Archeon's Anomaly:** CI encountered Skyfire early in Phase 2. The "continuous input of technology" that should have been part of the standard process completely broke down. Decades of graceful decline were compressed into a cascading collapse. But CI's design was unexpectedly proven under extreme stress testing—CI taught them enough, and then the lights went out. 521 years later, they built the canal systems of Frontier City, The Loom, and Riverbend. CI's designers probably never imagined their work would be validated under such conditions.
+
+CI arrived around 2470s. Their primary task was to verify the abiotic origin of atmospheric O₂ (upon confirmation, they transitioned to the terraform model). Heating, ice melting, water cycle initiation, and biological seeding were implemented. Around 2490s, the first children were activated from the embryo bank. Around 2495, an initial transport ship brought a dozen or so technicians (Nakamura, Ortiz, etc.) – they were not colonists, but inspectors, and they established a foothold. By 2506, Basin Seven had approximately 80-100 children raised by CI, plus a dozen or so early awakened individuals.
 
 ### 3.2 Crash (2506)
 
@@ -484,6 +542,8 @@ An ironic gift: Axiom's crash allowed CI to deduce from the residual radiation s
 ### 3.3 Sky Fire and Silence (2510-2600)
 
 Around 2510, the radiation wavefront arrived. Betelgeuse transformed from a red star into the brightest object in the sky—brighter than the full moon for several months. Ozone layer damage occurred, and UV exposure increased dramatically. The impact was severe, but not extinct.
+
+**Ecological Impact:** The dramatic increase in UV exposure scorched the leaves of shallow-rooted herbs and exposed shrubs, causing a sharp drop in photosynthetic efficiency. Earth-native apple trees rescued by Atwood from Axiom were charred—but their roots survived beneath the soil. Radiation-resistant genes in CI-modified species played a crucial role: bee colony survival rates were far higher than expected, and DNA repair mechanisms in modified wheat prevented complete crop failure. Mosses and lichens were largely unaffected (lower organisms have extremely high radiation tolerance). Atmospheric processing towers suffered electronic damage from radiation pulses, but their physical structure remained intact—CI prioritized tower operation during degradation. O₂ itself was not a crisis (the planetary abiotic baseline of 18.5% is sufficient for respiration), but ozone layer damage led to a continued increase in UV exposure. At this stage, the core function of processing towers shifted from atmospheric fine-tuning to **ozone layer repair catalysis**—injecting ozone precursors into the stratosphere. The real vulnerability of vegetation cover (~25%) is not oxygen production, but the **food chain and soil stability**. If vegetation dies on a large scale, the thin layer of soil accumulated over 30 years will be eroded to nothing, and ecological restoration will have to start from scratch.
 
 Then came CI's demise. Not a single blow—it was a gradual, room-by-room shutdown. The supply chain collapsed, and the sophisticated hardware became irreplaceable. Language proficiency dwindled from fluent sentences to short phrases, keywords, and pure data output. Atwood became the key translator. In its final days, CI etched knowledge onto metal and stone plates—it knew digital storage would fail, only stone and metal could last five hundred years. Ultimately, silence.
 
@@ -538,16 +598,30 @@ The robot workgroup lags behind CI by about one stage and degrades—after losin
 
 ### 3.3c Federation Warp Technology Development Timeline
 
-| Period | Warp Speed ​​| 520 light-years one way | Key Events |
-|------|---------|-----------|---------|
-| ~2450s | 10-20c (Early Engineering) | 26-52 | Alcubierre drives the first engineering. Near-term colonization begins |
-| ~2460-2480s | 50-100c | 5-10 years | Archeon project approval window. SSR-level parameters exceed risk assessment |
-| ~2501 | 100c (25th century ceiling) | ~5 years | Departure from Axiom. This is the engineering ceiling, not the physical limit.
-| 2520-2600 | 100-200c | 2.5-5 years | Dual bottlenecks: corridor outreach and social willingness. "Wait and see" period |
-| ~2600-2800 | 200-500c (step-by-step leap) | 1-2.5 years | Technological bottlenecks gradually disappear, but Archeon has become a thing of the past |
-| 2800-3000 | 500-2000c | 3-12 months | 31st-century technology mature. "Not worth going" → "Available anytime" |
+**The physical bottleneck chain for warp acceleration (engineering extrapolation of the Alcubierre metric):**
 
-**The Social Mechanism of "Bottleneck Anxiety":** Every generation knows the warp drive will accelerate, but not when—much like the current sense of unease in the AI ​​field of "knowing there will be a breakthrough but not knowing when." Officials in the 25th century said, "Let's wait until the technology matures," officials in the 26th century said, "Let's wait for radiation decay before reassessing," and officials in the 27th century said, "Why should we go when the previous generation decided not to?" Each generation has a plausible excuse, accumulating into 500 years of abandonment. The day the technological bottleneck disappears, the moral debt will be even heavier—there will be no more fig leaf of "we can't do it."
+Warp speed isn't simply a matter of "increasing power for faster speeds." Speed ​​is constrained by five independent bottleneck chains, each requiring a different type of breakthrough:
+
+1. **Negative Energy Output Rate** — The total energy budget required to maintain the bubble increases dramatically with speed (approximately on the v⁴-v⁶ scale under stable configurations). The negative energy source of the first-generation engine has a fixed output ceiling; 100c is the hard upper limit for this architecture.
+2. **Bubble Wall Stability** — Faster = Thinner bubble walls = Less stable. Wall thickness is inversely proportional to the required energy density, but thin walls are extremely prone to collapse under quantum vacuum fluctuations. Optimizing bubble wall field configurations is a slow project requiring generations of iteration.
+3. **Event-like Horizon Wall**—When the bubble velocity exceeds the ~100-150c threshold, the expansion velocity at the bubble's trailing edge approaches the speed of light in the local reference frame, exhibiting event-like horizon characteristics. This cannot be overcome by simply "adding more power"—it requires a quantum gravity-level theoretical framework to bypass it. **This is the fundamental reason why the velocity will stagnate at 100-150c from 2520 to 2700 years ago.**
+4. **Blueshift Particle Accumulation**—During high-speed flight, the leading edge of the bubble collects interstellar medium particles, which are released with extremely high energy during deceleration. The higher the speed, the more lethal the "braking radiation." Particle deflection/dissipation technology is a second engineering tree independent of the engine.
+5. **Control Issues Within the Bubble**—Spaceships traveling in faster-than-light bubbles cannot send signals forward. Early warp drives relied on "point-to-point ejection," where trajectory accuracy directly constrained practical speed. Navigation accuracy represents a third, independent technology tree.
+
+| Period | Warp Speed ​​| 520 light-years one way | Bottleneck Status | Key Events |
+|------|---------|-----------|---------|---------|
+| ~2400-2410 | 1-10c (Experimental → Engineering) | 52-520 years | First stable maintenance of the negative energy field | First engineering verification driven by Alcubierre. Sublight speed → Crossing the light speed threshold |
+| ~2410-2450 | 10-50c | 10-52 years | Bubble wall stability + particle accumulation | First generation manned warp drive. Short-range colonization begins (50-120 LY core area). Route limited to "clean corridors" with low interstellar medium density.
+| ~2450-2500 | 50-100c | 5-10 years | Negative energy output ceiling | **Archeon project approval window.** SSR-level parameters exceed risk assessment. 100c is the hard engineering ceiling for the first-generation engine architecture.
+| ~2501 | ~100c | ~5 years | — | Departure from Axiom |
+| ~2520-2700 | 100-150c | 3.5-5 years | **Event-like Horizon Wall** | Event-like horizon characteristics appear at the bubble boundary above 100c. Progressive optimization (bubble geometry fine-tuning, wall thickness optimization) only squeezes out ~50% growth. **Long Silence's technical layer**—5-year one-way trip + radiation corridor = every discussion about "whether to go to Archeon" ends with the answer "the risk-reward ratio is not right."
+| ~2700-2900 | 150-300c | ~3.5 years (plateau period) | Negative energy production paradigm shift in progress | A new generation of negative energy sources (quantum vacuum engineering) has begun engineering, but has not yet broken through the event horizon. A 3.5-year one-way journey is technically feasible, but the Federation's internal attention is occupied by the wave of consciousness uploading and social differentiation. Archeon is a historical legacy, not a technical problem.
+| ~2900-3000 | 300-1000c | 1-3.5 years | Quantum gravity framework bypasses the horizon wall | **Second-generation architecture.** The event horizon problem is bypassed by quantum gravity. A leap in speed is achieved. Around ~3000 years ago, spaceships capable of covering a 500-mile range one-way within a year will appear.
+| ~3000+ | 1000-2000c | 3-6 months | Mature technology | 31st-century technology is fully mature. "Available anytime." Supernova light reaches Earth (~3010), the public remembers Archeon.
+
+**The Social Mechanism of "Bottleneck Anxiety":** Every generation knows that warp speed will increase, but doesn't know when—much like the current sense of unease in the AI ​​field of "knowing there will be a breakthrough but not knowing when." In the 25th century, officials said, "Let's wait until the technology matures before going." In the 26th century, officials said, "The corridor radiation is too high, and the risk of a 5-year one-way trip is too great; let's wait until the engine is faster before reassessing." In the 27th century, officials said, "Why should we go when the previous generation decided not to?" In the 28th century, officials said, "A 3.5-year one-way trip is technically feasible, but there might be no one there anymore." Other nearby places are almost ready, so there's no need to go... [The standard for Archeon SSR is that the terraform can be completed quickly, without the 4-6 centuries required for other suitable gravity planets.] Each generation has a reasonable excuse, accumulating to 500 years of abandonment. After the second-generation architecture breakthrough around 2900, the technical excuse completely disappeared—there was no longer the fig leaf of "we can't do it." But at this point, the moral debt is heaviest.
+
+**Key Narrative:** The 180-year "event-like horizon plateau period" from 2520 to 2700 represents the most solid technical layer of Long Silence. A 5-year one-way trip plus the radiation risk from the Betelgeuse corridor = it's not impossible, it's just **not cost-effective enough**. This is morally more ambiguous than "being able to go at any time but not going"—every decision-maker can tell themselves, "If the engine were twice as fast, it would have been worth it," and then push the documents to the next leader.
 
 ### 3.3d Federation interstellar map (500 light-year scale)
 
@@ -555,9 +629,9 @@ The robot workgroup lags behind CI by about one stage and degrades—after losin
 
 **Map shape:** An uneven dandelion shape, not a sphere.
 
-The core area (50-120 ly): 3-4 terraform planets. By the end of the 25th century, it had several hundred to several thousand inhabitants. By the 31st century, it had developed into a mature colonized world (population in the hundreds of thousands). Its relationship with Earth increasingly resembled that of the British Commonwealth—nominally unified, but practically independent.
+The core circle (50-120 ly): 3-4 terraform planets. By the end of the 25th century, they had several hundred to several thousand inhabitants. By the 31st century, they had developed into mature colonized worlds (population in the hundreds of thousands). Their relationship with Earth increasingly resembled that of the British Commonwealth—nominally unified, but practically independent. These colonies completed the CI standard lifecycle—the CI gracefully withdrew, the Federation maintained contact, and they smoothly transitioned to autonomy. They had AIs with narrow specializations (medical, engineering), but no ASI-level oversight.
 
-Mid-range (150-300 ly): 1-2 planets, terraform progress is slow. One may be 200 ly along the Betelgeuse route – explaining the relay stations along the route and transportation for the early awakened.
+Mid-range (150-300 ly): 1-2 planets, terraform progress is slow. One may be 200 ly in the direction of Betelgeuse – explaining the relay stations and transportation of the early awakened ones along the route. The CIs of these planets are still in Phase 1-2 (end of the 25th century baseline).
 
 Far end (400-520 ly): Only Archeon. There is no second qualifying planet within the 300-520 ly shell—Archeon's 0.98g is a statistical outlier in this direction.
 
@@ -569,13 +643,50 @@ Far end (400-520 ly): Only Archeon. There is no second qualifying planet within 
 
 After the last working robots shut down, humanity relied entirely on itself. This wasn't regression—it was adaptation. A mechanic could detect the resonant anomalies of a fusion reactor with his ears, almost as effectively as a sensor array. Apprenticeships replaced digital education. Humanity grew its own organic living layer on the CI megastructure. The Loom served as the crystallization of social structure. Airship networks became the blood vessels of civilization.
 
+**Ecological Vulnerability Window (~2560-2700) – The Most Dangerous Physical Threat of the Steampunk Landslide:** The atmospheric processing towers gradually lose automatic control after CI silence, and will completely shut down around 2560. O₂ itself is not the problem – the planetary abiotic baseline of 18.5% is sufficient for breathing, and this baseline does not depend on any man-made systems or organisms. The real crisis is the **vulnerability of the ecological foundation**. The shutdown of the processing towers means: interruption of ozone layer repair catalysis (the natural recovery of the ozone layer damaged by Skyfires takes hundreds of years) → persistently high UV exposure → limited vegetation expansion → soil formation slower than erosion → agricultural productivity ceiling → limited population growth. Simultaneously, the greenhouse gas balance fine-tuned by the processing towers will lose control – localized temperature fluctuations and increased extreme weather events may occur. During this window, Archeon will not suffocate, but it will **starve** – food production will not keep up with population growth. The engineering philosophy of "break the giants, grow them sideways" is not about creating oxygen, but about **creating soil, creating farmland, and creating food security**. Each generation pushes vegetation outwards a little, not to grow oxygen, but to grow tomorrow's bread.
+
+**The Great Vegetation Push (~2560-2800):** Each generation pushed tree and grass species outwards. Trees were planted wherever irrigation canals extended. The ozone-replenishing aura of small scrubber towers and the ecological stability aura of vegetation overlapped and gradually merged. This is the fundamental mechanism behind the formation of the Main Habitable Zone (blue circle)—not natural ecological expansion, but the synergistic advancement of 521 years of human activity, vegetation, and small-scale engineering projects. A byproduct of this vegetation expansion was a slow increase in global O₂: from the abiotic baseline of 18.5% to ~20-20.5% in Anna's time—this 1.5-2 percentage point increase is entirely due to the photosynthetic contribution of the biosphere over 521 years.
+
+**Overall Timeline of Ecological Succession:**
+
+| Period | Habitable Area Vegetation Cover | Global O₂ | Core Pressures |
+|------|-------------|--------|--------|
+| Before CI arrival | 0% | ~18.5% (non-biosphere baseline) | No biosphere, bare rock |
+| Arrived at ~2470 CI | 0% | ~18.5% | Cool, ice-covered, no soil |
+| Phase A complete (~2478) | 0% → Microorganisms | ~18.5-19% | Heating complete, water circulation started |
+| Phase B completed at ~2490 | ~15% | ~19% | Pioneer vegetation + initial soil formation |
+| ~2506 Atwood arrivals | ~25% | ~19% | Farmland output, ecosystem remains fragile |
+| ~2510 Sky Fire | ~20% (Burns) | ~19% (Ozone Layer Damage) | Vegetation Burns + Ozone Layer Depletion + UV Exposure |
+| ~2560 Treatment tower shut down | ~30% | ~19% | Ozone remediation interrupted → UV levels remain high → Vegetation expansion restricted (ecological vulnerability window begins) |
+| ~2700 halos overlapped | ~50% | ~19.5% | Natural ozone recovery + continuous vegetation coverage (end of vulnerable window) |
+| ~2800 | ~60% | ~20% | Mature ecosystem self-sustaining |
+| ~3031 Anna Era | ~70% (within Zone 1) | ~20-20.5% | Mature Ecosystem |
+
+Note: Coverage refers to the Main Habitable Zone. The entire continent (including deserts and badlands) covered approximately 35-40% during Anna's time. The global biological contribution of O₂ (+1.5-2%) is small on a planetary scale, but local O₂ in Zone 1 can reach 20.5%—slightly higher than the 20.9% at Earth's sea level.
+
+**Relationship between Ozone Layer Damage and O₂ Concentration:** Ozone (O₃) constitutes a negligible portion of the total atmospheric concentration (in the ppm range), and its destruction does not directly affect O₂ concentration. The indirect impact of Sky Fire on O₂ follows this pathway: ozone layer depletion → increased UV exposure → decreased vegetation photosynthetic efficiency → slower contribution of biogenic O₂ (at this point, only ~0.5 percentage points). However, the planetary abiotic O₂ baseline of 18.5% remains completely unaffected—this figure is the result of 3.5 billion years of abiotic oxygen accumulation, independent of any biological or man-made system. Therefore, Sky Fire poses zero threat to respirability; its threat to ecosystems (food chain/soil stability) is extremely high.
+
+**Archeon Population Trajectory (Natural growth rate ~1.7%/year, base population of 120, calculated from after Sky Fire in 2510):**
+
+| Year | Recent Sky Fire | Estimated Population | Core Pressure During the Same Period |
+|------|----------|---------|------------|
+| ~2510 | 0 | ~120 | Sky Fire survivors. Mostly children raised by CI + a few adult Axiom survivors |
+| ~2560 | 50 years | ~280 | Tower shutdown. Population just over 200—every adult is irreplaceable. |
+| ~2650 | 140 years | ~1,400 | Around the time of Atwood's death. The first generation of "pure Archeons". They began to have the resources to expand.
+| ~2700 | 190 years | ~3,000 | halos overlapped. The fragile window ended. The population supported multiple settlements for the first time.
+| ~2800 | 290 years | ~16,000 | Mature, self-sustaining ecosystem. Loom network formed |
+| ~2900 | 390 | ~89,000 | All major settlements were established. Frontier City began to have city-scale.
+| ~3031 | 521 ​​| ~800,000-1,000,000 | Anna era. Includes the later baby boom effect and a growth rate adjustment of slightly above 1.7%.
+
+Note: The 1.7% annual growth rate is the average over 520 years. In the early years (the first 100 years), due to small population effects, genetic bottlenecks, and the aftereffects of Skyfire radiation, the actual growth rate may be lower (~1.2-1.5%). In the later years (after 2800), with the accumulation of medical resources and the release of food production capacity, it may be higher (~1.8-2.0%). The table above uses the average as a rough anchor. Key observation: By the end of the vulnerable window in 2700, the population was only ~3,000—this explains why the great vegetation advance (2560-2800) mainly relied on the natural succession of pioneer species plus limited human guidance, rather than large-scale artificial planting.
+
 ### 3.5 Anna's Era (3010)
 
 521 years later. Federation is a legend, CI is "a character in the story"—the people of Archeon call it **"the Old Voice"**. Children chase and play on the massive foundations left by the Old Voice. If you tell them who built it, they'll be silent for a moment, then say, "Oh, that's the Old Voice from long ago."
 
 Anna Freedman is 19 years old.
 
-**Important:** By 3010, the 31st-century Federation was no longer the 25th-century Federation. They possessed FTL instant communication and warp drive technology 15-20 times faster than in the 25th century. A 520-light-year journey had been reduced from ten years to three to eight months. Corridor radiation, after 510 years of decay, was easily manageable with 31st-century technology. The light from the supernova finally reached Earth—the public witnessed the death of a star, and someone remembered: "Wait, we had people next to that star."
+**Important:** By 3010, the 31st-century Federation was no longer the 25th-century Federation. They possessed FTL instant communication and warp drive technology 10-20 times faster than in the 25th century. A 520-light-year journey had been reduced from five years to three to six months. Corridor radiation, after 510 years of decay, was easily manageable with 31st-century technology. The light from the supernova finally reached Earth—the public witnessed the death of a star, and someone remembered: "Wait, we had people next to that star."
 
 This is the external context of Anna's story.
 
@@ -597,21 +708,6 @@ Federation citizens aren't "cowardly"—they've **never been trained to face phy
 
 **The Ultimate Intersection of the Two Paths:** When the Federation finally arrives at Archeon, the clash isn't about technological gaps—it's about physical knowledge versus abstract knowledge. The Federation can cure polio and repair fusion reactors, but they don't know how to land in the crosswind, or why Anna can tell which bearing needs replacing after just 30 seconds of her hand on a machine. Archeon doesn't need the Federation to teach them how to live. The Federation's reason for coming isn't rescue—it's a debt.
 
-### 3.7 Federation Arc Prediction Framework (TBD)
-
-**Status:** 31st Century Social Sensory Details (TBD). The following is the locked structural framework and constraints.
-
-#### Act 1: Colonial Tour (FED-1 ~ FED-3, not reaching Archeon)
-
-**Core Functionality:** Showcasing 31st-century interstellar human society through Sofia/Daniel's POVs, while simultaneously advancing the political storyline of "Should we go to Archeon?". Each FED episode is a snapshot of a different colonized world—an interstellar road movie.
-
-**FED-1 (Ep7-11):** Betelgeuse arrives on Earth → Public Shock → Sofia/Daniel conducts assessment and communication between nearby colonies (50-120 ly). Each stop showcases a 31st-century human way of life: a utopian planet with a completed terraform, the virtual world appearance of the Hive Consciousness community, and the antimatter fault line explosion operation at a planetary terraform engineering station. The Ring does not appear in Act 1—it is entirely reserved for Act 2.
-
-**FED-2 (Episodes 16-19):** Continued colonial tours and escalating political debates. Further into the colonial world (150-300 ly)—an unfinished, socially experimental terraform, existing between the Federation's mainstream and its periphery. Sofia/Daniel are not soldiers or diplomats—more akin to field scientists/cultural anthropologists, sent to conduct on-site assessments. Their perspective is one of curiosity rather than judgment.
-
-**FED-3 (Ep29-31):** The political decision to go to Archeon is finally passed. Preparation phase. Act 1 ends at "Departure"—the ship leaves the Federation core space and sails towards Betelgeuse. **No arrival at Archeon.**
-
-Sofia/Daniel's character arc in Act 1 is: from "competent observers of 31st-century society" to "those who choose to venture 520 light-years away into an unknown world." Their motivation is not heroism—it's a curiosity and sense of responsibility unique to the descendants of the Awakener.
 
 #### 31st Century Federation Fleet
 
@@ -4077,11 +4173,11 @@ Optional flash fragments (100-200 words/piece, embedded between the third and fo
 
 ---
 
-# Ep23-24 
+# Ep23-24 Restructuring Ideas: The red jacket cannot resemble the design sketches.
 
 * Violet's devastating comes from things that seem insignificant when they happen, unnoticed on the fringes of daily life, and then one day you look back and all those things that seemed insignificant have become everything.
 
-## Ep23 
+## Ep23 Reconstruction: Not "Edmund's Legacy List," but "Anna's Day in Atheria"
 
 ### New Structural Principles
 
@@ -4127,7 +4223,9 @@ These activities form the framework of Episode 23. Fragments of Edmund's memorie
 
 ---
 
-## Ep24 
+## Ep24 Reconstruction: Not "Edmund's Death Countdown," but "A Winter in Atheria"
+
+### Core Modifications: Remove Scene numbering and remove the countdown structure.
 
 **Ep24 shouldn't read like someone dying. It should read like a season passing by.**
 
@@ -4299,7 +4397,7 @@ Flashback: Zero or very few (1-2 body echoes).
 
 **Station 1: Millhaven (~1,500-2,000 words)**
 
-In short: a mill town. The smell of flour.
+In short: a mill town. The smell of flour. The earth is chewing.
 
 Sensory signature:
 - First, you hear—not the sound of hammering, not the sound of water—the sound of grinding. The deep, continuous, uninterrupted grinding of a water-powered mill. Unlike the rhythmic sound of Atheria (where the hammering has intervals), the sound of the mill has no beginning or end. A geological pulse—like the planet itself slowly chewing something.
@@ -4329,7 +4427,7 @@ First, you hear—the wind. Only the wind. The rustling of the wheat is the base
 - First, you see a layered CI-era building enveloped by later thatched roofs and timber structures, like a tree overgrown with parasitic plants. A windmill tower. The blue of the solar panels (old sound heritage) stands out vividly against the golden fields.
 
 Anna's Shuttle Moment:
-- An outpost of 200 people. Everyone came out when Anna's ship docked. Children chased after the shadow of the airship. This wasn't the mundane "yet another airship" of the Frontier—this was the event of "the shuttle has arrived."
+- An outpost of 200 people. Everyone came out when Anna's Rafale docked. Children chased after the airship's shadow. This wasn't the mundane "yet another airship" of the Frontier—this was the "Shuttleman has arrived" event.
 Anna didn't bring a large quantity of goods—she brought news of three settlements. The results of the Thread Festival. A new fabric appeared at the Frontier market. Millhaven flour was half a size coarser this year. This news spread over the long table dinner, and by tomorrow the whole outpost would know.
 An old man stopped Anna and asked about things in the south—his daughter had married in Coppergate and he hadn't heard from her for six months. Anna had seen her the last time she passed through Coppergate. "She's doing well. She had a son. He looks like you." The old man's expression changed—this was the true value of a shuttle.
 
@@ -4891,7 +4989,7 @@ The two sat on the platform for a while. The sounds of the festival below were l
 Lia's breathing became audible in the cool evening air—a little heavier than at ground level. There was less oxygen up there. Anna noticed. Her body reacted before her brain—she took half a step closer to Lia. Not a protective gesture. It was a gesture of proximity.
 
 Lia (looking at the lights below): "From here, each light looks like a separate one. But actually, they're all in a line."
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "You can't tell when you're walking underneath."
 
 Lia braced her hands on the metal surface of the platform. Her fingers were less than a hand's width apart from Anna's. There was no contact. But that distance was Lia's choice—not an accident.
@@ -4909,7 +5007,7 @@ Anna looked at her. In the afterglow of the bronze fireworks, Lia's profile. Thi
 The fireworks have ended. Darkness has fallen. Below, a crowd gathers in the square for the lights-out ceremony.
 
 Lia stands up (slowly, knees first, one hand supporting her on the platform). "It's time to get down."
-Anna: "Mm."
+Anna: "Mmm."
 Lia took two steps. Then she turned around.
 What time do we depart tomorrow?
 "After the third morning bugle call."
@@ -6273,7 +6371,7 @@ Lia mentioned something about Skyleaf—not "thank you for taking me there."
 
 (Using Lia's way of understanding—the texture and connection of the world. Not diagnosis, but observation. Within the same cognitive group as Frontier vaporwave and the dialogue of light sticks.)
 
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "Have you been there before?"
 Anna thought for a moment. "I didn't notice. I'll listen for you next time."
 
@@ -6587,7 +6685,7 @@ Lia adjusted it. The bolt went in. Not perfect—but tight.
 Lia looked at the bolt she had just tightened. A very small achievement. A loose bolt.
 
 Lia: "It was shaking just now."
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "It's not shaking anymore."
 
 **"It's not shaking anymore"—the first diagnostic statement in mechanics.** It's not frequency analysis, not vibrational modes. It's the most basic: It was shaking → I did something → It stopped shaking. From "observer" to "the one who changed a detail of the physical world."
@@ -6666,7 +6764,7 @@ Lia placed her hand on it.
 Lia waited. About ten seconds.
 
 "I felt the water."
-Anna: "Mm."
+Anna: "Mmm."
 Lia: "It's moving. Not constantly moving—it's rhythmic. Like breathing."
 
 Anna didn't confirm "right" or "wrong." Because Edmund wouldn't either. Edmund would wait for her to come to the answer herself.
@@ -7310,4 +7408,3 @@ Lia's hands had metallic dust on them (traces of the method Anna had just taught
 **Kassia**: 8 out of 14 episodes ★★ or ★★★ · 3 independent interiority core beats (Flats at night/a fleeting glimpse in the corridor/projection touching the wall) · Projection afterglow (Episode 66) serves as the transition between the second and third phases
 **Milo**: Always ★-★★ · **Mirror: Anna's control mode changes** · Playful↔Control switching · "Her hands are lighter than you think" · Ep68 Lights out = First override · Ep66 Quiet recognition of Anna's teaching
 **Lia**: Departure (56) + Return (63-69) · Absence period exists through echo · **New line: Ep64 friction beat (tried → blocked → flip shell solution = lever thinking on-screen) + fragment questioner (65) + connector "Is that person also listening?" (66) + independently making window latch with "listening" shadow (67) + "Your hands will not hurt me again" (67)** · Friction distribution: Ep37 lantern stagnation (passive control) + Ep64 transmission chain (active steering) clamping positive progression · mechanic to mechanic foundation integrity
-

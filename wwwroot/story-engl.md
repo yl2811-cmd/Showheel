@@ -1,6 +1,7 @@
-Outline section, note auto-translation might be inaccurate-suggest to copy paste chinese version for AI translating.
+English version, note auto-translation might be inaccurate-suggest to copy paste chinese version for AI translating.
 
-0
+
+---
 
 
 A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.

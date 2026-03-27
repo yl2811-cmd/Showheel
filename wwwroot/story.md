@@ -1,4 +1,3 @@
-
 一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去照看它——因为它还在长。
 
 ---
@@ -1316,7 +1315,27 @@ exhale不是"松了口气"——是身体放掉了一个它已经build up的over
 
 Kassia是那种走进房间不看任何人但知道房间里所有人在什么位置的人。她飞Razor的方式和Anna飞阵风号完全不同——Anna是"听风然后和它合作"，Kassia是"读风然后比它快"。两种方式都能活着落地，但代表着完全不同的和世界相处的哲学。
 
-她的审视感不是敌意——是一种永远在评估的习惯。她评估风险、评估距离、评估人。她很少先开口说话，但说话的时候每个字都是称过重量的。
+她的审视感不是敌意——是一种永远绷着的习惯。她掂量风险、掂量距离、掂量人。她很少先开口说话，但说话的时候每个字都是称过重量的。
+
+**【伤口→症状：因果机制简述】**
+
+Kassia的父母在一次**正常航线**上消失了。不是风暴、不是高难度航段、不是判断失误。正常。系统运转正常、天气在可飞范围、航线是routine——所有变量都在"可接受"范围内，结果仍然是死。
+
+**普通飞行事故的创伤教人怕危险。Kassia的创伤教她怕"正常"。**
+
+从这个特定的伤口出发的心理推论链：
+
+**Tolerance range = 死亡的藏身处。** 如果"在公差内"的偏差在某个不可预见的moment和某个未知变量叠加，就变成致命偏差。所以不接受任何tolerance range——因为tolerance range的意思是"我们赌这个不重要"，而她的父母死在了所有人赌"不重要"的地方。
+
+**风不是盟友，是物理定律的执行者。** Anna"听风合作"的前提是风会给信息、你和它是同一个系统。Kassia的经验否定了这个前提——风给了她父母完全正常的信息，人就没了。风没有背叛她父母——风只是执行物理定律。你不能和物理定律"合作"，你只能比它快。信任风 = 信任一个不知道你存在的东西。
+
+**Over-correct只浪费能量，under-correct可能死。** 这不是效率优化——是生存赌注的asymmetry。过度修正的代价是多烧点燃料；修正不足的代价可能是一切。一个经历过"正常范围内的under-correction杀了人"的人，会永远选择over-correct。能量是可再生的，人不是。
+
+**"大部分时间正常运转"是骗局。** 她父母的航线在"大部分时间"里运行了无数次。那一次不是大部分时间。你事先不知道哪次不是。
+
+**关键设计选择：** Kassia没有变成不飞的人。她的创伤反应不是回避——是控制。飞行是她和父母之间最深的connection，放弃飞行等于放弃最后一条线。但飞行的方式变了——从"和风在一起"变成"比风快"。她在用父母教她的技能对抗杀了父母的东西。精确度不是创伤创造的——她在失去父母之前可能已经是一个precision-oriented的孩子（pilot家庭）。创伤把precision从美德变成了armor：之前精确是因为"做得好很开心"，之后精确是因为"不够精确会失去一切"。
+
+**【这条因果链必须全程通过Anna的strict 3rd POV + reader推理来reveal。见下方comment block的撒播设计。】**
 
 ; [★ 飞行方式 / 精确度 / 虚无主义：同一棵树的不同枝]
 ; Kassia的世界观核心：宇宙不会接住你。父母消失了，世界继续转。Federation沉默500年。
@@ -1341,13 +1360,13 @@ Kassia是那种走进房间不看任何人但知道房间里所有人在什么�
 ;   父母消失（世界不接住人）→ 宇宙不在乎（CI蚀刻板cosmic isolation）→ 不信任世界自我修正
 ;     ├→ 飞行：比风快。预判。抢先correction。永远不放松
 ;     ├→ 精确度：0.3mm不接受。不把结果交给概率
-;     ├→ 人际：永远在评估。不先开口。说话称重量
+;     ├→ 人际：永远绷着。不先开口。说话称重量
 ;     └→ solo flight：没有destination。above it all。回避density
 ;   全部是同一个root的不同枝——"如果宇宙不接你，你就永远不能松手。"
 ;
 ; Anna/Lia的erosion路径（通过飞行precision渗透）：
 ;   Ep38 slot — Kassia第一次看到"听风"有效（不控制也能活）
-;   Ep57 — 测试"不correction"→没死→data point存档
+;   Ep57 — 试了一次"不修正"→没死→记住了
 ;   Ep60 — precision保护了Anna→技能从armor变成care
 ;   Ep62 — correction angle缩小→多等了一拍→trust +0.01
 ;   Ep69 — 手放在墙上。不是在读什么、不是在预判什么。什么都没做。只是放在那里。
@@ -4050,6 +4069,21 @@ Anna 14岁开始随Hagen飞行，15岁+1月认证，16-18岁作为co-pilot覆盖
 
 
 
+## ★ ARCHEON ARC POV强制规则（写任何Archeon主线episode前必读）
+
+**Archeon主线（Ep12-69）全程采用Anna Freedman的strict 3rd person limited POV。没有例外。**
+
+这意味着：
+- Reader看到的**只有**Anna看到的、听到的、触摸到的、闻到的。Anna的internal state只通过physical tell和行为暗示传达——不进入她的explicit思维流。
+- **其他角色的interiority永远不可直接进入。** Kassia的虚无主义、Lia的创伤、Milo的成长——全部只能通过Anna观察到的behavior让reader自行推理。Anna不替reader做心理分析。
+- **Kassia的伤口→症状因果链**是strict 3rd POV设计的核心考验：reader必须从Anna看到的behavioral碎片（0.3mm不接受、correction太频繁、空航线、频率check-in）自行拼出"这个人不信任'正常'"。Anna能感觉到pattern，但不会formulate。Reader的推理永远比Anna的articulation先到一步——这就是dramatic irony和reader engagement的来源。
+- **碎片（Edmund记忆、Lia事件、Kassia loss history）** 进入文本的唯一合法途径是：Anna的involuntary sensory trigger（物理刺激→记忆闪回）、或第三方角色随口提及（如Savona说Kassia父母的事）。不存在omniscient narrator的信息投放。
+- **回顾性重读价值（retroactive weight）** 是整个POV设计的核心产出。第一遍读到Kassia检查通讯频道是"quirk"；Savona碎片之后回想，变成"scar"。第一遍读到Anna的三秒停顿是"习惯"；Edmund层peel之后，变成control mechanism。这种reader自行完成的recontextualization比任何narrator说明都更有力。
+
+**如果一个scene需要narrator站出来解释某个角色的心理状态才能成立，这个scene的设计是失败的。重写它，让行为自己说话。**
+
+---
+
 ## Arc 1 重写计划（Ep12-15）——零层：我们只认识19岁的Anna
 
 ### 叙事功能
@@ -5070,6 +5104,27 @@ Kassia仍然没说yes。但她停下了south run的prep。
 
 Anna走了。没等answer。
 
+**★ Kassia验证（当晚，无人见证）：**
+
+Anna走后。Kassia继续south run的pre-flight check——或者看起来像在继续。手在做routine，但她的注意力在那块翼面上。
+
+她走过去。蹲下来。手指放在Anna刚才碰过的位置。按了一下。滑了一下。什么都没摸出来。
+
+她站起来，回到驾驶舱，调出校准工具——高精度水平仪，Kassia自己的装备，比标准仪表精确三倍。架上。读数。0.18度。Anna用手指说0.2，实际0.18。误差0.02度。手指。
+
+Kassia把工具收了。坐在驾驶舱里看着那块翼面。Festival的远处鼓声和蒸汽风琴声从空港那边传过来。
+
+她的south run prep没有继续。
+
+; [验证beat设计功能]
+; Kassia试图用自己的方式复现Anna的结果。她的方式能做到——高精度仪器确认了0.18度。
+; 但Anna的手指比她的仪器先到了。而且精度在同一量级（0.2 vs 0.18）。
+; 这不是"Anna赢了Kassia输了"。是"有一种Kassia不具备的感知方式，
+; 在速度上打败了Kassia最好的仪器"。
+; Kassia的世界观里，仪器>人。这个case反过来了。
+; 第二天出现在东停泊位的动机："我的方法在这个case里不是最快的。我要搞清楚为什么。"
+; 不是被打动。是professional curiosity + 对自身方法论的gap不能容忍。
+
 **★ Kassia的yes：** 不是台词。是第二天早上（Ep38出发）她出现在东停泊位。
 
 ; [Ep36招募设计原则]
@@ -5077,7 +5132,7 @@ Anna走了。没等answer。
 ; Kassia不explain nihilism。行为show：solo south run没有payload、"不飞"两个字不解释。
 ; Kassia的答应来自internal logic：Anna的competence在她evaluation框架里制造了gap——
 ; 手指摸出0.2度偏差不在Kassia的perception model里。
-; 一个永远在evaluate的人遇到evaluate不了的data point不会放着不管。
+; 一个什么都要看透的人遇到看不透的东西不会放着不管。
 ; 为Ep38 slot canyon飞行friction做foundation：touch-based vs data-based的clash已经种了。
 
 **★ Kassia红夹克micro-beat：** Kassia在对话中看了Anna的红夹克一眼——那种weary recognition。不comment。但这个视线为Ep42花田（Kassia看到红色的来源）做预埋。
@@ -5085,15 +5140,15 @@ Anna走了。没等answer。
 **★ Kassia物理细节（nihilism origin暗示）：** Kassia的Razor座舱副驾位上有磨损痕迹——扶手和座椅边缘的磨损分布暗示**曾经有人坐过那个位置**，而且坐了很长时间。现在那个位置空着。Kassia不让别人碰那个位置——Anna如果注意到了也不会在这个moment追问。我们会自己fill in：Kassia可能失去过一个co-pilot或搭档。到Arc 4 Axiom走廊（Ep59 Kassia把灯移开船员笔迹）时，我们会把这两个moment连在一起。
 
 ; [Kassia nihilism的reader认知递进设计——严格Anna 3rd POV]
-; 不需要Kassia做philosophical speech。Nihilism通过Anna观察到的behavioral evidence递进build up：
-; Layer 1 Ep20：0.3mm不接受。"标准高、嘴硬。" Surface reading。
+; 不需要Kassia做philosophical speech。她的虚无主义通过Anna观察到的行为一层层叠上去：
+; Layer 1 Ep20：0.3mm不接受。"标准高、嘴硬。" 表面印象。
 ; Layer 2 Ep36：solo south run没有payload + "不飞"不解释 + 空co-pilot seat磨损 + 红夹克视线。
 ;   Reader升级："有过什么事的、不愿解释的、独自飞行的人。"
-; Layer 3 Ep37："你看那个孩子的方式不对。" → Kassia的evaluation system是always-on的。
-;   Reader calibration：这个人看人的方式和她飞行的方式同构——永远在读、永远比你先一步。
+; Layer 3 Ep37："你看那个孩子的方式不对。" → Kassia那根弦是永远绷着的。
+;   Reader校准：这个人看人的方式和她飞行的方式同构——永远在读、永远比你先一步。
 ; Layer 4 Ep38 slot canyon：两种飞行方式的physical clash。Anna听风合作，Kassia比风快。
 ;   Reader在飞行friction的物理层面感受到"不信任世界会接住你"的人vs"信任风会给信息"的人。
-;   到此处nihilism作为behavioral portrait已经足够readable。不需要label。
+;   到此处虚无主义作为行为肖像已经足够清晰。不需要贴标签。
 
 **★ Anna-Lia bond building（无碎片集）：**
 
@@ -5241,7 +5296,7 @@ Kassia抬头。看了Anna一秒。
 Anna不回答。
 
 ; [设计功能]
-; Kassia的"你从上面下来的"不是casual——是always-on evaluation系统的data collection。
+; Kassia的"你从上面下来的"不是随口一说——是她那根永远绷着的弦又记下了一笔。
 ; 她问的不是"你去了哪里"，是"你刚才和那个孩子在一起"。
 ; Anna的回答是evasion（"确认时间"），Kassia的眼睛不接受evasion。
 ; "方式不对"——不说"是在数债"。原版Kassia替reader做了conclusion。
@@ -5250,7 +5305,7 @@ Anna不回答。
 ; Reader的conclusion取决于积累了多少信息——有人想到guilt，有人只觉Kassia刻薄。
 ; 两种都是valid reading at this stage。
 ;
-; Kassia behavioral evidence chain（严格Anna 3rd POV可见）：
+; Kassia的观察叠加（严格Anna 3rd POV可见）：
 ; 三步停（Ep33）+ urgency/weight不匹配（Ep36招募时的时间压力）
 ; + calibrated distance（Ep36后半高处平台旁观） + excessive softness（Ep37此处）
 ; → "方式不对"。四个data points。不需要M-缩手。
@@ -5327,19 +5382,17 @@ Anna（主驾）、Kassia（second pilot）、Savona（navigator）、Lia（乘�
 ; 船上机械师职能由Anna自己承担（她本来就是mechanic出身）。
 ; Kassia可以分担部分飞行任务。
 
-**★ Lia离开Atheria（micro-beat）：** 飞艇升空。Lia在舱窗旁。这是她第一次不在地面。Atheria的峡谷在下面缩小——她的整个世界正在变成一条裂缝。Sara在旁边握着她的手。Lia的另一只手在衣兜里——手指碰到了那把扳手。金属面的温度比身体低。
+**★ Lia离开Frontier（micro-beat）：** 飞艇升空。Lia在舱窗旁。Sara在旁边握着她的手——她留在Frontier等他们回来，但送到登船口。Lia的另一只手在衣兜里——手指碰到了那把扳手。金属面的温度比身体低。
 
-她没有做"最后回望家乡"的姿态。她在看升空过程中Atheria变小的方式——不是感伤地看，是在quantify。崖壁工坊的灯从这个高度变成橙色小点。在建的skyport塔楼从下面看是最大的东西，从上面看只是一个灰色的竖条。
+Frontier从上面展开。她没有做"最后回望"的姿态。她在看升空过程中城市变化的方式——不是感伤地看，是在辨认。蒸汽管道网络从地面走的时候是一股股单独冒的白柱，从这个高度变成了一道缓慢的波——两天前她在观测平台上第一次看到过这个。现在从飞艇上看，那道波更小了，像地面在呼吸。CI穹顶和旧塔在下面变成灰色的几何块，被五百年的藤蔓和帐篷覆盖成了不规则的有机形状。
 
-> Lia对Sara说了一句："从下面看的时候，塔楼像是在往天上长。从上面看——它在往地里扎。"
-
-Sara没答。可能在忍晕。但Lia说的是Frontier独处（Ep36）蒸汽波beat的延续——同一个东西从不同高度看是不同的东西。她的视角敏感度不需要flight experience也能work——只需要一次真正的altitude change。
+Lia没有对Sara说话。Sara的手松开了——Lia已经在看前方了。手指在衣兜里转了一下扳手。
 
 ; [Lia Ep38出发beat的triple function]
 ; ① 保持Lia在reader意识中的presence——Ep37灭灯之后如果到Ep42才再给Lia focal scene，
 ;    reader对Lia的investment会衰减。这个beat用很短的篇幅remind reader："她在这里。"
-; ② 延续视角/连接认知指纹——"从下面看往天上长，从上面看往地里扎"和蒸汽波(Ep36)、
-;    灯线(Ep36)、骨架赛铆钉(Ep34)在同一认知族群里。Lia不需要dialogue partner就能有这种观察。
+; ② 延续视角/连接认知指纹——蒸汽波pattern从观测平台（站着看）到飞艇（飞着看）的altitude验证，
+;    和Ep36蒸汽波、灯线、骨架赛铆钉(Ep34)在同一认知族群里。Lia不需要dialogue partner就能有这种观察。
 ; ③ 扳手presence——手指在衣兜里碰到扳手的触觉beat。扳手从Ep34到此处是第二次on-screen出现。
 ;    到Skyleaf(Ep42)手里转是第三次。三个点的间距匀称。
 
@@ -5358,15 +5411,26 @@ Kassia在briefing中：professional attention。不管她对mission motivation�
 Route A：直线穿越中央平原→更快（省约4小时）→经过已知instability zone。
 Route B：向南绕行Orun高原北缘→更远→避开instability zone→更可预测。
 
-结构和codex §3.2（16岁Riverbend线分叉口）完全镜像。上次也是紧急运输任务（Stone Bridge药剂），上次也有人在等。Anna选Route B。
+完全镜像。上次也是紧急运输任务（Stone Bridge药剂），上次也有人在等。Anna选Route B。
 
 > Kassia："四个小时。你知道窗口每天都在缩短。"
 > Anna："四个小时。"不解释。
 > Savona：两毫米的点头。
 
-种子#5的nature和#1-#4不同。不需要被"激活"。功能是展示Anna的consistent decision pattern：在不确定的时候，选那个留了余量的。
-
 **Anna的internal state：** 不是"被guilt压垮"。是"把guilt塞进了一个functional container（mission）"。表面competent、focused、ready。底下我们知道有什么。= dramatic irony。
+
+**★ Kassia pre-flight频率测试种子（Ep39 Savona碎片的前置seed）：**
+
+出发前pre-flight check。Anna在做标准流程。Kassia也在做自己的parallel check——她的check-list比standard长。Anna注意到Kassia多做了一项：**通讯频道测试。** 不是标准流程要求的那种"确认频道能用"——是在几个频率之间切换，每个停两秒，听，切下一个。像在确认每一个频率都能收到回应。
+
+Anna的归因："thorough。" 第一遍读的reader："细致的pilot。"
+
+; [★ Ep39 Savona碎片的前置种子]
+; 到Ep39 Savona说"固定频率check-in，有一天频率断了"——reader回忆起这个频率测试，
+; 那个行为从"细致"变成了仪式。她不是在测试通讯系统是否工作——
+; 她在确认"如果有人在某个频率上呼叫，我能听到"。
+; 她在维护一个永远不会被使用的接收通道。
+; 三拍reveal结构：Ep38种子（quirk）→ Ep39钥匙（Savona碎片）→ Ep39确认（定期check + 平静气流中不松手）。
 
 ### Ep 39 — 东行 + Anna-Lia飞行互动 + Slot Canyon Passage
 
@@ -5379,6 +5443,57 @@ Route B：向南绕行Orun高原北缘→更远→避开instability zone→更�
 **飞行中character dynamics：**
 
 **Anna和Savona：** 大部分时间沉默。Savona在听slot canyon远距离前兆——低频嗡鸣在20公里外就能捕捉。倾听姿态（头歪一侧、闭眼）和Anna的"听"是同一种能力的不同generation。
+
+**★ Savona碎片（Kassia loss history的reader入口）：**
+
+长航段。Kassia在驾驶舱做primary。Anna注意到Kassia每隔固定时间检查一次通讯频道——手伸过去拨一下，听两秒，拨回来。没有人在呼叫。频率很规律，像呼吸一样自动。
+
+Anna和Savona在后舱。Anna的视线跟了一次Kassia的手。
+
+> Savona（不抬头，手指在地图上）："她父母跑Ochre南线。固定频率check-in。有一天频率断了。搜了三个月。什么都没找到。"
+
+Anna没说话。
+
+> Savona："她那时候十三四岁吧。"
+
+Savona说完翻了一页地图。语气和说"明天有侧风"一样——一个老pilot说另一个pilot家里的事。不加评论。不说"所以她才这样"。
+
+Anna没有追问。下一次Kassia检查频道的时候，Anna的视线跟过去了一秒。然后移开。
+
+; [Savona碎片设计功能]
+; 1. 时间位置：在Ep37"方式不对"之后、Ep42花田之前。读者拿到这个碎片时，
+;    retroactively重新理解Ep36三个暗示（solo flight、空座位、红夹克视线）。
+;    同时为Ep42"红衣服是锁链"提供sympathy地基——Kassia的cynicism从personality defect
+;    变成wound。
+; 2. 信息来源：不是Kassia自己说的（她永远不会说），不是Anna挖出来的（她不挖），
+;    是Savona随口提的。老pilot说事实，不做心理分析。
+; 3. 信息量精确控制：只给"父母、航线、频率断了、什么都没找到、十三四岁"。
+;    不给细节。Reader自己fill in。
+; 4. Physical link：Kassia检查频道的行为在reveal之前是quirk，reveal之后变成scar。
+;    读者自己完成"她在等一个永远不会回来的check-in"这个推断。不需要任何人说出来。
+; 5. Anna的反应是strict 3rd POV下的最小表达：视线跟了一秒。移开。
+;    读者读到的是"她听到了。她记住了。她不会提。"
+; 6. 后续echo链：空座位磨损(Ep36) → Savona碎片(Ep39) → 移开灯(Ep59) → 触墙(Ep69)。
+;    全是同一种动作的变体：回避/面对曾经有人存在过的证据。
+
+**★ Savona碎片后的behavioral confirmation beat（同一航段，不到100字）：**
+
+Savona碎片说完不久。长航段继续。气流进入一段异常stable的区间——没有turbulence，没有shear，仪表全绿。Anna的手从操纵杆上松了一点。
+
+**Kassia的手没有松。**
+
+不是freeze。不是drama。就是：所有仪表说"安全"的时候，她的correction frequency没有降低。她仍然在修正不需要修正的东西。
+
+Anna之前会把这读成"aggressive pilot style"。Savona的话刚说完不到十分钟。Anna这次看Kassia的手时，视线停了多半秒。然后移开。
+
+; [★ confirmation beat设计功能]
+; 把Savona的verbal revelation变成一个你能在飞艇上看到的、手在操纵杆上的truth。
+; Reader的brain自动完成因果链：
+;   正常航线+父母失踪 → "正常"不等于"安全" → 气流平静时仍然over-correct
+;   → 她在防一个仪表看不到的敌人。
+; Anna不说话，不change expression。视线停多半秒就是strict 3rd POV下的最大反应。
+; 这是Ep38频率测试（seed）→ Ep39 Savona碎片（key）→ 这个beat（confirmation）的三拍收束。
+; 三拍之后，reader对Kassia的归因从"标准高/style激进"永久升级为"这个人不相信安全这个词"。
 
 **Anna和Kassia：** professional tension。Kassia想快，Anna要稳。Kassia的每个adjustment偏aggressive，Anna每次接手要re-trim。但这种friction也是calibration——到slot canyon她们需要无缝配合。
 
@@ -5400,12 +5515,12 @@ Route B：向南绕行Orun高原北缘→更远→避开instability zone→更�
 ; 如果你相信世界不会自我修正，你就必须修正一切。
 ; 如果我们足够细心会发现：Kassia的飞行在technical上没有错，
 ; 但她在用能量买保险——对抗一个也许不存在的威胁。
-; 这和0.3mm偏心、和"永远在评估"、和solo flight above it all是同一根枝——
+; 这和0.3mm偏心、和那根永远绷着的弦、和solo flight above it all是同一根枝——
 ; "如果宇宙不接你，你就永远不能松手。"
 ;
 ; 两人在长航段里形成一种rhythm：Anna做20分钟primary、Kassia做20分钟primary、
-; 交接时那2秒的trim差异是physical的——Kassia接手时觉得"松"（Anna的trim留了余量），
-; Anna接手时觉得"紧"（Kassia的trim把余量吃掉了）。
+; 交接时那2秒的trim差异是physical的——Kassia接手时觉得"松"，
+; Anna接手时觉得"紧"）。
 ; 这种friction在slot canyon passage里变成优势——Kassia的速度配Anna的hearing。
 ; 但friction本身没有resolve。它带进了Arc 4 Ep57南行（friction升级：Axiom航段更长更紧张）
 ; 和Ep62北归（friction消失 = 操控同步 = 两人在Axiom经历之后无声地对齐了rhythm）。
@@ -5424,12 +5539,12 @@ Route B：向南绕行Orun高原北缘→更远→避开instability zone→更�
 
 **★ Anna和Lia（private moment）：** Kassia轮休、Savona注意力elsewhere时。
 
-Lia第一次离开Atheria。第一次从空中看地形变化。她的反应不是关于飞艇——是关于**世界比她以为的大**。
+东行已经半天了。Lia第一次飞这么远——Atheria到Frontier是她之前唯一的航程，而那条线是沿Basin边缘走的，地形单一。现在地面在变。她的反应不是关于飞艇——是关于**世界比她以为的大**。
 
-> Lia站在舷窗旁。Atheria的峡谷从上面看是一条黑线。她看了很久。
-> "从上面看不到我家。"
-> Anna："太小了。"
-> Lia没回答。她在处理一个信息：她住的地方，从这个高度，**不存在**。
+> Lia站在舷窗旁。Basin平原在下面展到地平线。Atheria的方向已经看不到任何峡谷的痕迹了。
+> "从这里看不到家。"
+> Anna："太远了。"
+> Lia没回答。她在处理一个信息：她住的地方，从这个距离，**不存在**。
 
 地形转换——峡谷→丘陵→Serpent's Tooth天际线：
 
@@ -6217,6 +6332,24 @@ Kassia什么都没说。
 
 穿过Orun海角进入大赭沙漠。高原缓降面过渡到赤红荒原。编队决定在Whispering Flats夜间通过。
 
+**★ Kassia中间环（日间沙漠段，Ep57 not-correction的回声）：**
+
+沙漠热气流颠簸。Kassia做primary。一股crosswind——不大，Anna如果在primary会等它过。Kassia的手抬了——要做correction——**停了半秒**。Ep57的记忆在手里：上次不修正，世界自己回来了。
+
+然后旧习惯赢了。她还是做了correction。比平时轻一点——但她做了。风自己也在回来。Kassia的correction和风的自然修正叠在一起——over-correct了一点点，飞艇抖了一下。
+
+Anna感觉到了那个抖。什么都没说。
+
+; [中间环设计功能]
+; Kassia的身体在Ep57试过"不修正"→世界没塌。现在她的手想重复——
+; 抬起来了、停了——但旧习惯赢了。结果反而不如不修正：over-correct。
+; 现在她的身体有两个对照点：Ep57不修正→好的。Ep58修正→反而worse。
+; 这让Ep60绞盘的graduated tension有更厚的地基：
+; 不是"一次试验→直接本能保护"，
+; 而是"试了→退回去→退回去的结果更差→在极端情境下身体选了更轻的方式"。
+; Anna感觉到了抖但不说——strict 3rd POV下，
+; 读者通过Anna的silence读到的是"她知道Kassia在和自己的手较劲"。
+
 **★ Whispering Flats夜间**：
 
 地表是结晶盐壳——Orun高原雨影区古代内陆盐湖干涸遗产。夜间风摩擦结晶面时，晶体微破裂释放电荷，产生triboluminescence——**蓝绿色光波随风移动**。光随风变——南风起，南边先亮，光波北扩；风转光也转。像大地在呼吸，呼吸的痕迹是光。
@@ -6487,7 +6620,7 @@ Kassia在黑暗里站了很久。
 ; 不再提前0.5秒。也许0.3秒。差别极小。
 ; 但对一个永远"比风快"的人来说，愿意多等0.2秒，
 ; 意味着对"世界不会在那0.2秒里杀你"的信任增加了一点点。
-; Ep57她测试过一次"不correction"→世界自己修正了→data point存档。
+; Ep57她试过一次不修正→世界自己修正了→她记住了。
 ; Ep60竖井graduated tension→precision从armor变成care→身体记住了。
 ; Ep62是accumulation的结果：不是decision，是身体比mind先调了参数。
 ; correction angle缩小 = nihilism的手松了一点。不是放手——是松了一点。
@@ -7582,4 +7715,3 @@ Kassia触墙 = nihilist version of the cave painting。
 ```
 
 ---
-

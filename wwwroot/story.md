@@ -1,3 +1,4 @@
+
 一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去照看它——因为它还在长。
 
 ---
@@ -38,7 +39,7 @@ Archeon的行星年龄约35-40亿年——和地球同一量级。但它的板�
 
 **南部：Orun Plateau。** 横跨大陆东西方向的巨型basalt台地（详见下方地质说明）。它把大陆切成两个世界——北面是湿润宜居的Basin，南面是干旱的Great Ochre Desert。Orun西端在海岸处终止，形成壮观的海蚀角。东端逐渐和Serpent's Tooth的地形交汇。
 
-**东南部：Serpent's Tooth + Undeveloped Badland。** 独立山脉系统，3000-6100m。Kestrel Basin藏在其中（Skyleaf所在地）。山脉以东以南是未开发的破碎荒地——地形太极端、离Basin太远，521年来没人有余力去经营。
+**东南部：Serpent's Tooth + CI缓冲带。** 独立山脉系统，3000-6100m。Kestrel Basin藏在其中（Skyleaf所在地）。山脉以东以南是CI terraform阶段作为生态缓冲带处理的区域——播了草种树种、建了监测站，但从未有人口聚集。521年后形成无人管理的野化草原和疏林，散布着CI旧设施残骸。地形破碎但不荒芜——和Basin的区别是没有人的痕迹，只有CI的痕迹。
 
 **Orun以南：Great Ochre Desert + 南海岸。** Orun雨影效应造成的赭红沙漠。沙漠的颜色有更古老的来源——Archeon形成初期数十亿年间，大气中缓慢积累的非生物氧与地表铁矿物反应，形成了深厚的铁氧化物地层；Archeon最古老的"锈"。雨影效应暴露并侵蚀了这些红色岩层，碎屑铺满整个南部低地。Axiom Scar在这里。Saltmarch在沙漠北缘。沙漠延伸数百公里后抵达南海岸——南海岸的具体情况不详。
 
@@ -172,7 +173,7 @@ Archeon的大气O₂基线约18.5%。这个数字在Federation天文学界引发
 
 **Phase A：加温与水循环启动（~2470-2478，约8年）。** CI着陆后第一优先级不是造氧——氧气已经在那里了——而是**加温**。在极地区域钻设**极地温室气体注入井（Polar Injection Wells）**，释放精确配比的超级温室气体（SF₆族+N₂O）提升全球均温。约5年内极地冰盖消融→Azure Main从半冰封变为开放海洋→全球水循环启动。同时在Basin Seven区域和Aethelgard适居区部署**大气处理塔**（后来Atwood时代的"chunky silhouettes on the ridges"）：不是造氧，而是**大气成分精调**——scrub多余CO₂、调节N₂/O₂比例、控制温室气体浓度不超标。Phase A结束时：全球均温进入宜居范围，O₂稳定在~18.5-19%，水循环运转。
 
-**Phase B：生物播种（~2478-2490，约12年）。** 氧气不等于生态。裸岩上没有土壤——这才是真正的瓶颈。投放顺序严格——错一步生态链条崩塌。第一波（~2478-2480）：土壤改良微生物群+蚯蚓+苔藓地衣。没有它们岩石永远不会变成土壤。第二波（~2480-2485）：K2V适应草本+先锋树种（详见下方光谱适应说明）。投放区域集中在Aethelgard西半部和中部——CI做了triage，集中力量确保一个区域适居，Serpent Belt和Badland不在优先范围。第三波（~2485-2490）：农作物、蜂群、动物胚胎、鸣雀类。攀缘植物部署在建筑区。
+**Phase B：生物播种（~2478-2490，约12年）。** 氧气不等于生态。裸岩上没有土壤——这才是真正的瓶颈。投放顺序严格——错一步生态链条崩塌。第一波（~2478-2480）：土壤改良微生物群+蚯蚓+苔藓地衣。没有它们岩石永远不会变成土壤。第二波（~2480-2485）：K2V适应草本+先锋树种（详见下方光谱适应说明）。投放区域集中在Aethelgard西半部和中部——CI做了triage，集中力量确保核心区域优先适居。Serpent Belt以东作为生态缓冲带以较低优先级接受基础terraform（耐旱草种+先锋树种+土壤改良微生物），但不在农作物和动物胚胎投放范围内。第三波（~2485-2490）：农作物、蜂群、动物胚胎、鸣雀类。攀缘植物部署在建筑区。
 
 **Phase C：人类准备+生态稳定（~2490-2506）。** O₂维持19%（行星自带基线+植被光合开始有少量贡献）。胚胎激活，先期苏醒者到达。Basin Seven基本就绪。Atwood到达时（~2506）的植被状态：平原上有25-30年树龄的颤叶林斑块（因加速生长基因看起来像50-80年成熟林），但远非连续森林——斑块状，林间有大片灌木草地和裸土。农田已产出。宜居区植被覆盖约25%。空气在处理塔范围内清新宜人，离开处理塔范围后化学上可呼吸但缺少植被带来的"活的气味"——没有花粉、没有腐殖土的泥土香，闻起来像干净的石头。
 
@@ -194,7 +195,17 @@ K2V恒星输出光谱峰值偏向橙红（~500-600nm），蓝光和UV输出比�
 
 **Zone 3：Orun高原面+背风侧。** 稀疏高山草甸+耐旱灌木。风大日照强降水少。向南过渡到Great Ochre Desert（完全无人工植被，赭红氧化铁沙漠）。Axiom Scar在此。Saltmarch靠盐沼资源存活。
 
-**Zone 4：Serpent Belt + Undeveloped Badland。** CI未投放任何植被。530年自然扩散（风携带孢子种子）使低海拔山谷有稀疏野生群落。Kestrel Basin例外——地热微气候+CI试验站遗址，Ember Crown自然建群。Badland几乎无覆盖。未来叙事潜力：人口增长到数百万级后的下一个frontier。
+**Zone 4：Serpent Belt + CI缓冲带（旧称Undeveloped Badland）。** CI在terraform阶段将这片区域作为**生态缓冲带**处理——播撒耐旱草种和先锋树种、做土壤改良、建设自动化气象监测站和小型中继设施。目的不是给人住，是防止主居住区的脆弱生态系统从东面被极端气候侵蚀。521年后这些草和树自我维持了下来，形成一片**无人管理但有植被覆盖**的广阔区域——不是荒漠，是野化的草原和疏林。与Basin内被耕作、命名、记忆的土地完全不同：这里的绿不需要人。CI的自动化设施早已停机，但结构残骸还在——锈蚀的气象塔骨架、半埋在土里的太阳能面板阵列框架（面板碎裂但金属框架存留，草从缝隙长出但无法覆盖直线和直角）、塌了半截的监测站小屋。有价值的金属零件可能几百年前就被Basin的人拆走过，剩下的是CI的指纹留在泥土里。Kestrel Basin例外——地热微气候+CI试验站遗址，Ember Crown自然建群。
+
+; [人口不向东扩张的逻辑]
+; CI时代（~2470-2560）交通不是问题，CI有飞行器和自主车辆。但起始人口仅~130人，Basin都住不满，无理由东扩。
+; CI退化→停机（~2530-2650）后交通能力断崖下跌：Serpent's Tooth 3000-6100m山脉，Kestrel's Gate是唯一通道。
+; CI在时穿越routine，CI走后变成要命的事。Skyleaf因Ember Crown药用价值维持航线，东面无等价pull factor。
+; 521年后人口约百万级，800×500km Basin不拥挤（比冰岛还空旷），无人口压力push expansion。
+; terraform技术从ASI级退化到手工级——能维护已建设施，无力在东面新建水渠/skyport/settlement。
+; 结论：不是不能去，是没有理由去。东面是CI留下的绿色空地，漂亮但无用。
+; 叙事潜力：①Ep-CHIP东行航线flyover提供scene variation（"山后面"的好奇心满足）；
+;           ②人口增长到数百万级后的下一个frontier；③Federation从东面接近Archeon的缓冲空间。
 
 **Zone 5：海洋+岛屿。** Azure Main浮游植物在521年间已建立稳定种群，对全球O₂的**增量贡献**（在非生物基线之上）约占生物源O₂的30-40%——剩下的来自陆地植被。海洋食物链极简（浮游植物→浮游动物→小型鱼类，无大型海洋脊椎动物）。Keld Archipelago、Duskreach未开发。Vorhan标注BARREN——CI从未触碰。
 
@@ -963,57 +974,6 @@ Sofia的思绪："我们在那颗星旁边还有人。"
 
 
 
-#### 感官对比速查
-
-| 维度 | Federation飞船 | Archeon飞艇 |
-|------|---------------|-------------|
-| 表面 | 无缝Mag-Bond装甲，微温，触觉振动 | 铆接铜板帆布蒙皮，温度看天气 |
-| 声音 | 近无声，偶尔磁场低频嗡鸣 | 蒸汽突突、帆布拍打、绳索嘎吱 |
-| 气味 | 无——完全过滤循环空气 | 蒸汽、润滑油、木头、汗味 |
-| 操控 | AI辅助/全自动，人类输入是高层决策 | Anna双手在操纵杆上，风通过杆传到掌心 |
-| 维修 | 纳米修复自动处理 | Anna趴引擎舱里用扳手拧螺栓 |
-
----
-
-### 3.8 Arc 2 文化支线模块（Atheria/Iris Hollow回乡日常扩充）
-
-Arc 2（Ep20-28）主线是Anna的identity和归属，9集空间需要文化肌理。以下支线每个500-1500字，不打断主线，同时推动角色发展。
-
-**A. 故事夜（Story Night）——Archeon对地球的理解**
-
-嵌入Atheria某个傍晚。半专职故事人给孩子和年轻人讲"旧声的故事"——关于CI、"天上来的人"（Atwood一代）、"更远的地方"（地球）。521年的传播距离让故事变形："一个所有人都在睡觉的星球"、"那里的房子会自己长出来"、"他们的天上没有星云"。有些细节惊人准确（Atwood ledger被抄了很多遍），有些完全偏离（以讹传讹）。
-
-孩子问"旧声是好的还是坏的"。故事人："它做了它该做的事，然后走了。这是最体面的告别。"
-
-角色功能：Lia如果在场，可能问"那他们为什么不回来"——在521年后的Archeon几乎没人问的问题。为Anna-Lia关于"不可能的事"的后续对话种下远程种子。
-
-**B. 学徒考核日（Proving Day）——教育体系展示**
-
-Atheria或Iris Hollow日间段落。铁匠学徒在师父和同行面前完成标准件锻造；飞行学徒做系泊操作。判定标准不只是"做得对"——还有"过程中注意力放在哪里"。师父可能故意制造干扰看学徒是否分心。
-
-Archeon没有"学校"——13岁进工坊，跟师父。知识三层：CI蚀刻板（"圣典"）→ 手抄本（简化+实践注记）→ 师徒口传（"听到这个音就说明温度到了"）。
-
-角色功能：直接映射Lia困境。13岁，别的孩子进工坊了，Lia没有。Anna在看考核时余光瞥到Lia站在人群外——不是被排挤，是自己站着，带着安静的注意力在看。"手是空的"困境的视觉化，不需要任何人说出来。
-
-**C. 灰雀迁飞（Grey-Throat Migration）——季节性自然事件**
-
-Atheria换季。崖壁灰雀群起飞，几千只在峡谷里形成流动云团，声音叠加成有节律的嗡鸣。Atheria人的换季信号——"灰雀走了，凉季快来。"飞行员看鸟群的方式不同：看流体动力学，看它们怎么利用上升气流、在崖壁转角变换队形。
-
-角色功能：Anna指给Milo看鸟群在凸角处的分流汇合——"它们不穿过乱流，它们绕开。和我们做的一样。"如果Lia在场，她可能注意到一只掉队的灰雀用不同路线追上群体。不说话。但我们知道她看到了什么。
-
-**D. 修渠日（Channel Day）——公共劳动传统**
-
-Atheria水渠系统定期集体维护——清淤、换垫片、检查水轮。全谷参与，是社区活动不是punishment。各层居民沿水渠从上到下排成接力线，一边干活一边传八卦。有人唱工作歌配合铲子节奏。修渠日是信息交换的窗口——飞艇带来的消息被二次传播。
-
-角色功能：Anna的角色从"本地居民"变成"走梭人带消息的人"——被各种人拉住问南边怎么样。Milo第一次参与，结果被一个八岁本地小孩两秒演示了正确铲淤姿势，还翻了白眼。尊严和幽默同时被激活。
-
-**E. 蚀刻板阅读（Fragment Reading）——知识传承**
-
-Frontier City或Iris Hollow档案馆。CI遗嘱期的金属蚀刻板是Archeon最接近"圣物"的东西——但不是被供奉，是活的参考资料。专职"读板人"能翻译CI时代的技术标注。某些板子的内容超出当前理解能力（量子力学等），但被完整保存："也许有一天后代能读懂。"
-
-角色功能：Anna带Lia查某个合金配方规格。Lia对蚀刻板上看不懂的符号的反应——手指摸过刻痕，和Anna摸机器"听"的方式一样。如果她能读懂某一行字，它解释了她的肺为什么不好。她读不懂。但那个触碰的姿势连接了Ep69的Core投影——手放上去，等。
-
----
 
 ## §4 角色参数
 
@@ -1106,6 +1066,39 @@ Anna不是"勇敢的"——她是那种在风暴里手还稳的人，不是因�
 ;       辐射时间线对齐后，停顿底层从"我的手伤了人"被改写为"爸爸用沉默保护了我的童年"。
 ;
 ; [穿透表结束]
+
+**★ Arc 3手的physical texture追踪——body-as-narrator设计（补充穿透表的tactile维度）：**
+
+穿透表追踪的是三秒钟停顿的temporal维度（停了/没停/停多久）。但旧设计里Milo作为mirror提供的**手的tactile变化**（grip pressure、手指tension、指关节发白）在Arc 3没有等价物——Kassia的evidence是behavioral的（距离、语调），Lia的观察是temporal/procedural的（"每一步之间会停"）。
+
+**补缺机制：body-as-narrator。** 严格Anna 3rd POV的camera贴在Anna的感知面上，可以报告hand的动作和tactile input，哪怕Anna本人没有conscious registration。Body会泄露consciousness不承认的东西。
+
+**写法纪律——dual legibility：**
+- ✓ "她的手在缆绳上。指尖找到一个磨损点——纤维起毛了，该换。手指沿着磨损面走了两寸。停在那里的时间比需要的长。"
+- ✓ "螺栓锈了。手指比平时用力。松开之后，下一个螺栓的第一下拧动有一个micro-hesitation。"
+- ❌ "Anna意识到自己的手在发抖。"（self-analysis，Anna不这么做）
+- ❌ "她的手紧了，因为看到Lia让她想起了六年前。"（author在解释因果，破POV）
+- **每一个physical detail都必须同时有一个functional alibi。** Surface永远是professional competence。Reader如果不知道backstory只看到competent mechanic在做她的工作。Reader如果知道，看到的是另一层。
+
+**可用physical vocabulary：**
+- **grip pressure**：抓东西的力度比task需要的大或小（calibration失准 = 内部状态干扰motor control）
+- **停留时间**：手在一个surface上待的时间比functional需求长（body在读取不属于这个task的信息——记忆）
+- **切换速度**：从一个动作到下一个动作之间的gap。正常Anna手快、连贯。Gap出现 = 某个internal process插队了
+- **mode切换latency**：和三秒钟停顿不同——停顿是conscious刹车，latency是body在两种mode之间切换时的involuntary delay。Anna碰完Edmund遗物后回到normal task，手回到normal state的速度就是一个可读data point
+
+**Arc 1 baseline的重要性：** Arc 1花十几集让reader习惯Anna手的normal state——快、准、连贯、seamlessly进入下一件事。到Arc 3当手在Lia附近出现tactile层面deviation时，reader不需要任何人说"注意看"。Deviation本身就是signal。比Milo的mirror更安静，但更深——没有中间人替你interpret。
+
+**Ep40管道场景的body-as-narrator部署：**
+Anna碰Edmund修过的管道时，指尖走到焊缝凸起→pressure自动调轻了。不是conscious的"认出Edmund的手法"——是指尖记得这种texture应该被轻轻对待。Body memory在motor level的involuntary response。手从管道离开之后做下一个task时的**mode切换speed**是可读data point——回得快=compartmentalize高效，回得慢=Edmund的touch残留了。
+注意：Ep40以Edmund为焦点的写法不变（P-08.1约束仍有效），tactile detail不能太多以免reader过早parse identity shift。一两个physical micro-detail足够——种子，不是结论。
+
+; [body-as-narrator设计和穿透表是互补系统]
+; 穿透表 = Anna手的temporal tracking（停顿的when/how long/quality变化）
+; body-as-narrator = Anna手的tactile tracking（grip/pressure/speed/mode-switch）
+; 两者在Arc 3并行：三秒钟停顿通过Lia的语言被命名（Ep42-43），
+; tactile变化通过Anna的body在functional context中involuntarily泄露。
+; Arc 4 Milo回归后，他的旧baseline可以detect tactile层deviation——
+; 但他只能感觉到"不一样了"，不能parse为什么。这是断层检测器功能的tactile层入口。
 
 她和母亲Miriam的关系是温暖但保持距离的。不是冷——是两个都很独立的人各自消化了Edmund的离开，方式不同。Miriam用忙碌填满空间，Anna用工作填满空间。她们偶尔在厨房同时出现时，会安静地一起吃饭，不说太多话，但那个安静是舒服的。
 
@@ -1252,14 +1245,13 @@ Anna的控制模式有一个specific trigger：**"如果这步做错了，conseq
 | M-1a | Ep12-15 | 甲板上开玩笑/脚尖踢工具箱 | 好玩的师傅 | Baseline：Anna能放松 |
 | M-1b | Ep12-15 | "这个我来"（挡住Milo的手） | 有些事她不让碰 | Baseline：控制模式存在 |
 | M-覆盖 | **Ep25**（Founder Day Race前后航段） | 气流突变时手直接覆盖Milo的手带他做正确动作 | "……你可以直接说'往左'。" | Anna的手比mind快。body在24/7算"如果他做错了会怎样" |
-| M-缩手 | **Ep33-34**（Frontier到达后） | Milo做有risk的task，Anna手伸出三寸→停→缩回。Milo没注意到。**Kassia在场，注意到了。** | （没看到） | Anna的body想接管但something让她停了。Kassia看到了——为Ep37"在数债"提供behavioral证据 |
-| M-3a | **Ep42** Skyleaf日常 | playful互动（Kassia在背景） | 正常的师傅 | 安全context = 放松 |
-| M-3b | **Ep44** Skyleaf→高山段 in-flight | 想接过来→停→让Milo做完→**exhale** | 她犹豫了但让我做了 | Let go的成本是一口呼出来的气 |
-| M-4 | **Ep56前**（Kassia-Milo对话） | "手比你想的轻" | Milo defend Anna | Milo理解了技术层。还不理解why |
+| M-缩手 | **Ep57**（Arc 4·Axiom航行初期） | Milo做有risk的in-flight adjustment，Anna手伸出三寸→停→缩回。Milo没注意到。 | — | Milo经历Thornfield独立工作后回归，Anna的控制冲动仍在。缩手=进步（不再覆盖），但impulse未消失 |
+| M-exhale | **Ep58**（Arc 4·沙漠段飞行） | Milo在高stakes context做fast decision，Anna想接→停→让他做→做对了→**exhale** | "他什么时候学会的" | Thornfield给了Milo自己的经验，Anna的exhale=第一次physical acknowledge他不再需要她的手 |
+| M-4 | **Ep64**（Core入坊·Kassia-Milo对话） | "手比你想的轻" | Milo用Arc 1 body memory + Ep57-58 fresh data说了一个narrow truth | 信息不对等beat：Milo在技术层是对的，Kassia知道这远不是全貌但不说 |
 | M-5a | **Ep68**早晨（原Ep65） | Milo灭灯："走。" Anna跟着走了 | 我第一次override她 | Milo的agency和Anna的control互相咬合 |
 | M-5b | **Ep68**（原Ep65） | 笑到滑倒在草地上 | 从没见过这个Anna | 控制模式完全absent的一天 |
 
-**递进方向：** 从完全控制→事中接管→几乎接管但停了→完整let go→被override。
+**递进方向：** 从完全控制→事中接管→几乎接管但停了→完整let go→被override。Arc 1建立baseline（M-1a/1b），Arc 2中段escalate（M-覆盖），Arc 4回归后完成递进（M-缩手→M-exhale→M-5a/5b）。Arc 3 Milo不在场，递进暂停——Anna的控制模式在这段时间转移到对Lia的distance management上（Kassia观察到的behavioral tell）。
 
 **M-覆盖beat detail（锚定Ep25 Founder Day Race）：**
 Race前的试飞/热身段或Race后的return飞行。Milo和Anna各驾一架skiff。气流突变。Milo在调某个系统。Anna判断如果Milo做慢了/做错了会翻。Anna的skiff靠过去，手直接覆盖了Milo的手——不是推开，是**盖上去，带着他的手做了正确的动作**。一秒。做完。松开。比"这个我来"重——不是事前拦截，是事中接管。Milo已经在做了，Anna直接覆盖。
@@ -1269,21 +1261,33 @@ Race前的试飞/热身段或Race后的return飞行。Milo和Anna各驾一架ski
 
 我们第一遍：strict但有能力的pilot。retroactive reparse：Anna的threat assessment在24/7运转。
 
-**M-缩手beat detail（锚定Ep33-34 Frontier）：**
-地面task。Frontier City到达后，Milo在做有一点risk的维护（docking platform附近系统检修）。Anna站旁边。关键步骤——Anna的手**动了**。伸出去三寸。然后停了。缩回来。Milo在专注，没注意到。**Kassia在场——从Ep33-34 background presence的位置上看到了这个动作。** 不comment。但这个视觉信息和她之后三天的观察（Anna看Lia的方式、Anna在Lia旁边的那种excessive softness）合在一起，构成了Ep37"在数债"判断的behavioral证据链。Kassia不是凭空判断——她看过Anna的手在Milo面前做了什么。
+; ★★ M-缩手 / M-exhale — 确认锚定Arc 4（清理完毕）
+; 原Arc 3三个beats合并为Arc 4两个：M-缩手（Ep57）+ M-exhale（Ep58）。M-3a删除。
+; Kassia观察入口已从M-缩手转移至Anna-Lia behavioral tell（Ep33/36/37四个data points）。
+; M-4（"手比你想的轻"）锚定Ep64 Core入坊，不再标Ep56前。
 
-我们看到：Anna的body还想接管，但something让她停了。可能是"他该学了"。可能是记忆trilogy里Edmund的方式——Edmund从来不接管Anna的手。
+**★ Milo Arc 4功能重定位（从"连续镜子"到"带旧刻度回来的尺子"）：**
 
-; [M-缩手 + Kassia观察力建立]
-; 这个beat同时做两件事：mirror递进 + Kassia作为观察者的能力建立。
-; Kassia能看到Anna自己看不到的行为pattern——这个能力在Arc 4里
-; 是Kassia-Anna dynamic的底层基础。Ep37"在数债"、Ep42花田判断、
-; Ep58 Flats夜的"宇宙不需要目击者"——都建立在"Kassia看得比别人准"上。
+旧设计Milo是连续mirror——Arc 1-3在场，reader通过他看Anna的变化。新设计Milo在Arc 3全程缺席（25集），回来时Anna已经历creed震动+Skyleaf+Kassia的"方式不对"。连续镜子碎了。Arc 4的Milo有三个新功能：
 
-**M-3b（exhale）beat detail（锚定Ep44 Skyleaf→高山段）：**
-Skyleaf出发后in-flight，高山段攀升。Milo需要做一个fast decision。Anna想接过来——停了——让Milo做——Milo做对了——Anna**呼出一口气**。这口气是前面所有accumulated tension终于在一次完整的trust里释放。我们到这里有了三个数据点（M-1b拦截 → 覆盖接管 → 缩手 → exhale），递进方向清晰。
+**功能一：断层检测器。** 反射的不是Anna在变，是Milo不知道的gap有多大。M-缩手（Ep57）Anna手伸出三寸又缩回——Milo没注意到。变化发生在Milo看不到的地方。Reader知道缩手的weight（经历了Arc 3），Milo不知道。Dramatic irony的载体。
 
-**M-5a（Ep68灭灯）的weight：** Milo第一次override Anna。"今天不准碰那个东西"——apprentice对master说不。这之所以能成立，是因为前面所有mirror beats积累的关系质地。Anna的反应是跟着走了——这是control模式第一次被someone else完全override，且Anna没有resist。不是因为Milo说得对。是因为信任到了这个程度。
+需要在Ep57-58之间部署一个micro-beat：Milo在日常协作中注意到Anna的某个反应方式和他记忆里的不一样——不是更好或更差，是texture变了。他没有context来理解这个变化，只能file it away。这给Ep64"手比你想的轻"一个near-term经验基础，不完全依赖Arc 1旧记忆。
+
+**功能三：M-5a的必要前提。** Ep68 Milo override Anna——必须是这个人。Kassia是平行关系（override不构成递进），Lia的power dynamic太复杂。只有Milo——从M-1b"被拦住手"走到M-5a"拦她"——能完成这条递进线的closure。他不需要完全理解Anna才能override她——他只需要在那一刻确定自己是对的。Mirror功能降级，agency功能升级。
+
+**M-4 Ep64 credibility修正：** "手比你想的轻"——Milo的valid经验基础是M-覆盖那一秒的tactile memory（手盖上来时精确、轻、做完就松了）+ Ep57-58 fresh data（重新感受到Anna的手在high-stakes context的表现）。他在用一个narrow truth defend一个他不完全理解的人。Kassia带着整个Arc 3的evidence chain——她对Anna的理解深度比回归的Milo高不止一个量级。所以这个beat的reader功能不是"Milo知道Anna"，是"Milo以为自己知道Anna，Kassia知道他不知道什么但不说"——信息不对等beat。
+
+**M-缩手beat detail（确认锚定Arc 4 Ep57·Axiom航行初期）：**
+Anna/Milo/Kassia三人编队飞向Axiom Scar。沙漠段飞行，热气流不稳定。Milo在做一个有risk的引擎冷却系统调整——Thornfield几个月的独立工作让他的手法比Arc 1更自信、更快。Anna的手伸出三寸——要去覆盖Milo的手——然后停了。缩回来。Milo没注意到。Anna注意到了自己的手。
+比M-覆盖（Ep25）进了一步：覆盖是impulse executed，缩手是impulse caught。但impulse本身没消失——Anna的身体仍然在24/7算"如果他做错了会怎样"。
+Context变化的weight：这个Milo不是Ep25那个Milo。他在Thornfield独立工作了几个月。Anna的threat assessment系统还在用旧数据——"他可能做错"的概率已经比她身体记住的低了。缩手是第一次身体数据和现实数据的gap被Anna自己感觉到。
+
+**M-exhale beat detail（确认锚定Arc 4 Ep58·沙漠段飞行）：**
+高stakes context。沙漠热柱造成sudden altitude drop。Milo在Anna来不及反应的窗口里做了一个fast decision——正确的。Anna的手已经在动了（要接管），但Milo做完了，做对了。Anna exhale。
+exhale不是"松了口气"——是身体放掉了一个它已经build up的override impulse。like cocking a gun and then uncocking it。比缩手更深一层：缩手是"没做"，exhale是"准备做了→不需要做了→身体放下"。
+
+**M-5a（Ep68灭灯）的weight确认：** Milo第一次override Anna。递进完整：M-1b拦截（Arc 1）→ M-覆盖（Ep25）→ M-缩手（Ep57）→ M-exhale（Ep58）→ M-5a override（Ep68）。五个beat，四个arc，递进从完全控制到被override。
 
 **Playful Anna写作规则：**
 - Anna和Milo的日常互动有warmth和humor。她不是24/7严格。
@@ -4189,6 +4193,11 @@ Anna走在压实的泥土路上。红夹克在午后的光里很亮。身体在�
 
 **这是Lia。我们第一遍不会注意到。** 盆地的sensory density把这段对话稀释到接近invisible。"腿悬着，没在跑"的原因不reveal。Lia看叶子的方式是：这个东西从哪里来的？她的curiosity从第一次出现就不只是mechanical。
 
+**★ 灰雀迁飞（Anna到达Atheria的第一个感官事件）：** Atheria换季。崖壁灰雀群起飞，几千只在峡谷里形成流动云团，声音叠加成有节律的嗡鸣。Atheria人的换季信号——"灰雀走了，凉季快来。"飞行员看鸟群的方式不同：看流体动力学，看它们怎么利用上升气流、在崖壁转角变换队形。Anna指给Milo看鸟群在凸角处的分流汇合——"它们不穿过乱流，它们绕开。和我们做的一样。"灰雀迁飞给reader对Atheria的第一印象是"活的、有呼吸的、会换季的地方"。
+
+; Lia可能注意到一只掉队的灰雀用不同路线追上群体。不说话。但我们知道她看到了什么。
+; 这个beat能否放在Lia Stage 0之后取决于物理位置——如果Lia还在石墙上坐着，鸟群从头顶过。
+
 过河——穿过温室区域（玻璃棚内绿色植物在午后光里发亮，空气里有泥土和水的味道）——到达对岸崖壁底部——往上——Common house。Miriam抬头看一眼："饿了吧。锅里有。"Anna吃了两口，Miriam从另一个房间走出来，在Anna身后站了一秒，手放在Anna肩上，然后拿走空碗去洗。不说话。
 
 ### Ep21：日常·Guardian身份·种子·Lia named·记忆门槛
@@ -4197,6 +4206,8 @@ Anna的guardian日常——检查水力系统、评估学徒进度。Atheria日�
 
 **种子播种：** Anna和Milo检修压力系统，Milo步骤顺序不对（先释压再检查），Anna的手直接按住Milo手腕："先检查，再释压。永远是这个顺序。"我们只看到"严格的师傅"。真实层：这正是Lia事故那天13岁的Anna没有做到的事。Anna的guardian工作覆盖valley大部分区域，但有一条路线始终没走。Milo提到"那边的水泵也该检查了"，Anna只说"那个在别人的轮次里"。我们只看到"正常的工作分区"。真实层：那是Lia事故现场。
 
+**修渠日（白天·公共劳动传统）：** Atheria水渠系统定期集体维护——清淤、换垫片、检查水轮。全谷参与，是社区活动不是punishment。各层居民沿水渠从上到下排成接力线，一边干活一边传八卦。有人唱工作歌配合铲子节奏。修渠日是信息交换的窗口——飞艇带来的消息被二次传播。Anna的角色从"本地居民"变成"走梭人带消息的人"——被各种人拉住问南边怎么样。Milo第一次参与，结果被一个八岁本地小孩两秒演示了正确铲淤姿势，还翻了白眼。尊严和幽默同时被激活。
+
 ; [Milo mirror M-1b] "按住手腕"是control模式的baseline建立。
 ; 同一集里应该有playful面的M-1a——Anna在安全context里对Milo开玩笑、
 ; 脚尖踢工具箱、甲板上喊带笑意的技术指令。
@@ -4204,6 +4215,15 @@ Anna的guardian日常——检查水力系统、评估学徒进度。Atheria日�
 ; 这个对比是后续所有mirror beats的foundation。见Milo角色section的mirror设计。
 
 Common house晚饭——Lia的名字通过自然对话进入文本。学徒桌那边传来合金配方的争论和某个师父纠正锤击角度的声音。Lia不在学徒桌。她在家庭桌——和Sara、Kaelan一起。朝学徒桌的方向看了一眼。回来吃饭。比其他孩子安静一点。Anna和Lia隔几张桌子。有一个moment——Lia隔着距离朝Anna方向说了句什么（"安娜姐姐昨天从Frontier回来了，她说那边挺吵的"——在分享她下午路边听到的信息）。Anna从余光里看到了。点了一下头。没有更多。**Zero-weight named introduction。**
+
+**故事夜上半（傍晚·谷底公共火堆区）：** 修渠日白天结束后，傍晚。故事人开始讲"旧声的故事"——不是正式场合，是日常社区活动。故事上半讲的是**CI的到来和它做的事**——terraform，种树，建风塔。521年的传播距离让CI变成半神话存在："旧声在我们之前就到了"、"它把石头变成了土"、"它教最早的人怎么呼吸这里的空气"。有些细节惊人准确（CI蚀刻板有原文记录），有些完全偏离（以讹传讹）。孩子问"旧声是好的还是坏的"。故事人："它做了它该做的事，然后走了。这是最体面的告别。"故事在一个自然中断点停下——"剩下的另一个地方有另一半"。口述传统的一部分：同一个故事在不同settlement被不同人接着讲，版本有差异。
+
+; Lia在火堆边。故事讲到"旧声在土里种了什么"的时候，
+; 轻声问了一个小的、近的问题——关于种子、关于泥土。Anna听到了但没回应，或只是侧头看了一眼。
+; Lia已在common house dinner被named，此处是同一天傍晚的第二次peripheral出现。
+; [故事内容待定] 具体故事内容取决于Intro Arc的最终develop方向——
+; CI的哪些细节被521年传播保留/变形，需要和Ep1-6的CI形象对齐。
+; 但frame已锁定：上半=CI做了什么（技术/建设），下半=天上来的人（动机/选择，Ep27 Iris Hollow）。
 
 **末尾（记忆门槛）：** Anna走进鹰巢工坊。关门。独处。Edmund的空位。光线从崖壁开口射入，照在空的高凳上。她在工坊高凳上坐下——记忆要升起的空间。
 
@@ -4309,7 +4329,9 @@ Ep23需要Atheria的日常作为present-time前景。Anna在做什么？她在�
 - Anna不在的时候谁在维护鹰巢？也许是Joren，也许是另一个mechanic。Anna回来时工坊里有些东西的位置变了——别人的习惯。她无意识地把一些工具挪回原来的位置。这不是"保护Edmund的遗产"——是body memory在自动校准。手知道扳手应该挂在哪里，即使脑子没想这个问题。
 
 **在建的skyport塔楼：**
-- 谷底的大工程。每次回来都高了一截。施工声是Atheria新的声景element。塔楼代表Atheria的未来——正在生长。Anna可能要去塔楼工地看看某个结构问题（pilot需要知道skyport的进度），在脚手架上的视角和她小时候在崖壁上爬的body memory有一个physical echo。
+- 谷底的大工程。每次回来都高了一截。施工声是Atheria新的声景element。塔楼代表Atheria的未来——正在生长。Anna可能要去塔楼工地看看某个结构问，在脚手架上的视角和她小时候在崖壁上爬的body memory有一个physical echo。
+
+**★ 学徒考核日（Edmund记忆触发的外部事件框架）：** 铁匠学徒在师父和同行面前完成标准件锻造；飞行学徒做系泊操作。判定标准不只是"做得对"——还有"过程中注意力放在哪里"。师父可能故意制造干扰看学徒是否分心。Archeon没有"学校"——13岁进工坊，跟师父。知识三层：CI蚀刻板（"圣典"）→ 手抄本（简化+实践注记）→ 师徒口传（"听到这个音就说明温度到了"）。**角色功能：** 考核日作为Edmund记忆触发碎片的外部事件框架——锤击声触发body flash。三层同时在场：①学徒被考核（present external），②Edmund教Anna（past internal），③Lia站在人群外面，手是空的（present peripheral）。13岁，别的孩子进工坊了，Lia没有。不是被排挤，是自己站着，带着安静的注意力在看。"手是空的"困境的视觉化，不需要任何人说出来。
 
 **这些活动是Ep23的骨架。Edmund的记忆碎片嵌在里面——被踩到、闪过、消失——就像你走在一条你小时候走过的路上，不是在"回忆"，是身体自动在响应。**
 
@@ -4403,19 +4425,35 @@ Ep61翻转后这个画面的weight变化： Edmund在好日子去看Anna修的�
 
 ---
 
-### ★ Milo离队窗口（Ep25结束 → Ep33 Frontier合流）
+### ★ Milo轨迹（Ep25离队 → Arc 3全程不在场 → Arc 4 Ep56回归）
 
 **Ep25 Founder Day Race结束后，Milo离开Anna。** 原因自然：Thornfield（他的家乡）在Basin平原东部，离Atheria不远，同样的landscape。Milo提出回Thornfield看看/办事/带消息——走梭人世界里这种分合是日常。Anna说好。不dramatic，不是分离——"你去办你的事，Frontier见。"
 
-**Milo不在的集：Ep26a（航线巡回）、Ep26b（Sky Weaving到达）、Ep27（Iris Hollow）、Ep28（出谷→Frontier）。** Anna solo四集。
+**Milo不在的集：Ep26起至Arc 3结束（Ep50），共25集。** Anna在Arc 2后半solo四集（Ep26-28），Arc 3全程19集Milo不出现。
 
-**叙事功能：**
+**Arc 2后半（Ep26-28）叙事功能：**
 - 航线集里Anna和每一站的人的互动变成**纯走梭人和settlement的关系**，没有学徒buffer。磨坊主直接跟Anna说面粉消息，Basin outpost的老人直接拉住Anna问女儿——这些moment的intimacy在Anna solo时更强。
 - Ep27老人scene："你以前不看天的"——旁边没有学徒在听，private quality更强。
 - Ep27故事夜，Anna被要求"用味道和温度讲故事"——solo时vulnerability更高。她一个人在Iris人中间，被迫用不同方式组织Edmund的记忆。
 - Anna和阵风号（公共飞艇，非私人资产）的关系变成安静的独奏。引擎冷却时金属收缩的"叮"在Basin outpost的安静里可闻——如果Milo在旁边，这个声音会被对话盖掉。
 
-**Ep33 Frontier合流：** Milo回来时可能带着Thornfield的消息和Basin平原的texture。他那几天做了什么不需要on-screen，但回来后的状态（更settled，或者带回一个小故事）可以是一两句话的beat。
+**Arc 3全程不在场的叙事功能：**
+- **Kassia填补"在Anna身边的年轻人"生态位**，但Kassia不是学徒——是同行、对照、摩擦。两种感知方式的碰撞产生的worldbuilding delivery比师徒问答更有张力。
+- **Lia同时在发展。** 画面里不需要第三个年轻人抢注意力。Anna-Lia的关系需要space。
+- **Milo的三层功能在Arc 3被拆散替代：** ①Wonder proxy → Anna自己（她去了从没去过的地方，不需要teenager说"哇"）；②Technical complement → Kassia（平行关系的technical lens差异）；③Teaching target → Lia（变形——Anna不教Lia飞，但对Lia的attention模式和对Milo完全不同：收回输出而非主动输出，负空间本身reveal Anna的内部状态）。
+- **Milo的缺席 = Arc 3的tone转变标记。** Arc 1-2是"Anna在熟悉世界里带着一个年轻人看世界"。Arc 3是"Anna在不熟悉的世界里独自面对自己的过去"。
+
+**Ep-CHIP（Arc 3-4之间interlude）：Anna solo。** 芯片调查航线独自飞行。Solo flying的好处：interiority更多、节奏更慢、warmth beats更quiet。
+
+**Arc 4 Ep56回归：** Anna要去Axiom Scar——沙漠里几百公里的废墟带，Class II运输艇需要副手。Kassia不跟（Kassia有自己的叙事去向，作为独立pilot驾Razor护航）。Anna需要一个她信任的、能操作船的机械师。Milo回来。回来的Milo会变——Thornfield的独立工作让他从"学徒"变成了"带着自己经验的技术人"。Anna会注意到这个变化——但Milo也会注意到Anna变了，说不清怎么变的。两个人同时发现对方和记忆里的那个人之间有了一个无法命名的距离。
+
+; [★ M-mirror beats结构——已确认·功能重定位清理完毕]
+; 原Arc 3三个beats合并为Arc 4两个：M-缩手（Ep57）+ M-exhale（Ep58）。M-3a删除。
+; Kassia观察功能已从M-缩手转移至Anna-Lia behavioral tell（Ep33/36/37）。
+; M-4锚定Ep64 Core入坊（非Ep56前），功能从"Milo defend Anna"改为信息不对等beat。
+; Milo Arc 4功能从"连续镜子"重定位为：断层检测器+旧版本physical reminder+M-5a前提。
+; 详见M-mirror beats主表后的★功能重定位block。
+; 完整M递进：M-1b（Arc 1）→ M-覆盖（Ep25）→ M-缩手（Ep57）→ M-exhale（Ep58）→ M-5a（Ep68）。
 
 ---
 
@@ -4681,6 +4719,8 @@ Iris人不需要"听"——他们的世界是视觉的和触觉的，因为平�
 
 讲故事的方式不同：Atheria人讲故事像写logbook（事实、数据、因果链）。Iris人讲故事像唱歌（夸张、重复、有节奏的call-and-response，台下在固定的地方齐声接话）。
 
+**故事夜下半——"天上来的人"（与Ep21 Atheria上半形成文化差异折射）：** 不同的火堆、不同的光线（海岸渔村的咸湿空气 vs Atheria峡谷的干燥矿物气）。不同的故事人。**Lia不在场——Lia留在Atheria。** Iris Hollow故事人讲的是Atwood一代从地球来、被困住的故事。521年的以讹传讹更严重："一个所有人都在睡觉的星球"、"那里的房子会自己长出来"、"他们的天上没有星云"。Atwood ledger被抄了很多遍，有些细节保留了（数字、日期），有些变成了隐喻。Iris Hollow故事人更pragmatic（渔村性格）："我不知道那边是不是真有人在等我们，但我知道明天风向变了之后鱼会往北走。"同一个故事的两种折射：Atheria关注"旧声做了什么"（技术和建设），Iris Hollow关注"天上来的人为什么来"（动机和选择）。两个settlement的identity通过同一个故事浮出来，不需要exposition。
+
 Anna被邀请讲Atheria故事。她用Atheria式的方式讲——精确、干燥——台下安静了一会儿，然后一个老人说"你讲的是事情，不是故事。再来一遍，这次讲给我们听你闻到了什么。" Anna被迫用不同的方式组织记忆——不是因果链，是感官。这个过程是一次emotional processing——她第一次不得不用"味道、温度、光线"来重述Edmund教她的那些时刻。
 
 **阳光莓echo**：Anna在故事夜被要求"用味道和温度讲故事"时，阳光莓的记忆被主动调用——她第一次试着把这个记忆讲给陌生人听。
@@ -4860,23 +4900,6 @@ Ep61之后 = Edmund让他记住的不只是Anna，是整个家庭。网比Anna�
 | 7 | **[待填]** | **Atheria本地** | **Arc 2 Ep20-24** | **[需要：Anna回乡时谷底某个人的warmth——可能是送汤的人、可能是升降笼操作员、可能是common house里自然留位子的邻居]** | **Atheria本地节点。Edmund的网不只在远方——家门口也有。** | **未写。建议Ep20-21部署** |
 | 8 | **[待填]** | **南线某中转outpost** | **Arc 1 Ep12-13 或 Arc 2某集** | **[需要：Anna路过时一个完全不起眼的hospitable moment——比如有人在她修完东西之后递了一杯什么/帮她搬了货不收工时]** | **南线节点。Edmund走过这条线。** | **未写。可在Arc 1补入** |
 
-; [使用指南]
-; 1. 写Arc 1-3任何新episode时，检查这张表——是否有机会自然地加入一个新节点？
-; 2. 新节点的标准：
-;    - 必须在100字以内完成（texture，不是scene）
-;    - Anna必须能合理归因为"正常的Archeon hospitality"
-;    - 不能有任何人说出"你爸"以外的explicit连接（"你爸"只允许Beat #6用一次）
-;    - Somatic micro-signal最多再加1个（总数不超过3个）
-; 3. Ep61不需要recall每一个节点。3-4个representative画面 + "还有更多"的模糊sense就够了。
-; 4. Bram是唯一有名字的节点——命名第二个人需要非常谨慎，会分散Bram在Ep61的punch。
-; 5. 节点#7（Atheria本地）很重要——如果Edmund的网只在远方，
-;    Ep61的第一击会缺少一个"等等，连家门口都是"的冲击波。
-;    建议部署在Ep20-21 Anna回乡段落，用一个极轻的beat（一句话就够）。
-
----
-
-; [旧版Ep27/Ep28内容已合并到上方Ep26b-Ep28 revised section中。]
-
 ---
 
 ## Arc 3 部署图（Ep32-50）——Lia层 + Frontier + Skyleaf
@@ -4902,7 +4925,7 @@ Peel的gear在这个arc里换了：Arc 2 peel的是Edmund层（快乐 → 失去
 
 **蒸汽印刷坊：** CI遗留纳米增强合金活字（500年不磨损）+ 人类手刻木活字。Archeon唯一大型印刷坊。印的不是报纸——是技术手册更新页。mechanic发现新维修方法 → 飞行员口头传到Frontier → 印刷坊排版印刷 → 分发所有settlement。Anna在此提交一份技术改进更新。印刷坊师傅做editorial judgment——什么信息对网络最有价值——这是一种Anna从未想过的权力：知识的filtration。
 
-**沉船打捞拍卖：** 坠毁飞艇残骸的可回收零件公开拍卖。不用copper token竞价——用你的craft来竞价：说明你拿它做什么、为什么你比别人更需要、能为网络创造什么价值。Council elder根据"对The Loom的贡献"裁定。
+**船打捞拍卖：** 飞艇的可回收零件公开拍卖。不用copper token竞价——用你的craft来竞价：说明你拿它做什么、为什么你比别人更需要、能为网络创造什么价值。Council elder根据"对The Loom的贡献"裁定。
 
 **日常层：** 公共蒸汽澡堂（gossip中心）、铁匠街（一整条街的金属工坊声音墙——Anna试图分辨每个工坊的声音特征）、悬挂花园（CI废弃楼层改造的垂直水培农业）、飞行员酒馆（Black Iron + 各地酿造品 = pilot社交枢纽）。
 
@@ -5003,37 +5026,74 @@ Lia听到时——watchful的curious。她看着Anna的脸，好像在读一个�
 
 ### Ep 36 — ★ Kassia招募 + Anna-Lia bond building + Frontier独处
 
-**设计原则：** Ep35建立了任务necessity（Lia需要去Skyleaf，Anna承诺飞）。Ep36解决operational necessity（Anna需要second pilot）。同时这是Kassia作为角色的真正introduction——从Ep20的30秒professional friction和Ep33-34的background presence升格为full scene。
+**设计原则：** Ep35建立了任务necessity（Lia需要去Skyleaf，Anna承诺飞）。Ep36解决operational necessity（Anna需要second pilot）。同时这是Kassia作为角色的真正introduction——从Ep20的和Ep33-34的background presence升格为full scene。
 
 **★ Kassia招募（核心beat）：**
 
-Anna找到Kassia。我们从Ep33-34已知Kassia是谁（background presence），不需要同时做introduction + recruitment。直接进入philosophical clash。
+Anna找到Kassia。我们从Ep33-34已知Kassia是谁（background presence），不需要同时做introduction + recruitment。
 
-Kassia在docking platform上——不是在tuning engine，而是在准备一趟solo南线。She's about to leave.
+Kassia在docking platform上——不是在tuning engine，是在做一趟solo南线的pre-flight check。随时可以离开。Solo south run的设计功能：这条航线没有delivery需求——Anna作为走梭人会知道。一个pilot飞没有payload的航线。Anna的brain会note this但不parse。Reader也note：这个人不需要理由就飞。
 
-> Anna: "我需要一个second pilot飞Skyleaf。穿Serpent's Tooth。"
-> Kassia: "Skyleaf？让我猜——运什么'关键'种子去救什么'关键'outpost？不感兴趣，Freedman。我不做慈善。"
-> Anna: "不是慈善。是救一个孩子的命。"
-> Kassia（终于转过来，表情不残忍但疲惫）: "然后呢？今天救一个孩子，二十年后她死在一台坏掉的水泵旁？或者看着自己的孩子死在最后一颗fusion core报废的时候？你只是在一座正在塌的坝上补一条裂缝，Anna。浪费燃料，浪费talent。"
+Anna的opening是纯operational的。不解释why，不卖情感：
 
-我们知道这个"孩子"是Lia。刚在上一集看到Lia跌倒、看到Anna当面承诺。Kassia的冷酷因proximity格外刺痛——我们已经care about Lia了。
+> Anna: "Skyleaf。穿Serpent's Tooth。我需要second pilot。"
 
-; [Kassia说这段话时的voice quality——nihilism作为经验而非理论]
-; "今天救一个孩子，二十年后她死在一台坏掉的水泵旁"——
-; 她的声音里没有愤怒。声调是平的。像在陈述一个已经被验证过的结论。
-; 我们会感觉到：这不是theory。这是经验。但不需要解释是什么经验。
-; 到Arc 4的interiority beats，或更远的线索（父母走梭人失踪、CI蚀刻板宇宙信息）
-; 会回来填充这个声调为什么是平的。
+Kassia不看她。继续check。
 
-> Anna（停顿）: "你说得对。也许确实没意义。也许我们确实被困住了。也许这一切只是慢慢滑向寂静。"
-> Kassia（被agreement surprised）: "那你来找我干什么？"
-> Anna: "因为我不是在请你拯救世界。不是在请你相信未来。我是在告诉你，Serpent's Tooth有一趟没人有技术和胆量飞的航线。死亡陷阱。飞行员的噩梦。一个完美的、漂亮的、不可能的问题，需要今天被解决。忘掉明天。我的问题不是'你愿不愿意帮我'——是'你飞不飞得了这条线'。"
+> Kassia: "找Hagen。"
+> Anna: "Hagen在Basin跑北线。要两周回来。我等不了两周。"
 
-**★ Dramatic irony核心层：** Anna说服Kassia的方式是appeal to pilot pride和present-moment challenge，**不是**appeal to Lia。Anna deliberately不用自己的guilt作为leverage。Kassia答应的reason和Anna需要她的reason完全不同。我们能看到这个asymmetry。Anna不能。
+Kassia这时候才看Anna——不是被打动。是professional assessment。穿Serpent's Tooth这个天气窗口？载荷？她在读Anna的脸：认真的。知道难度。不卖这个难度。
 
-**★ Kassia红夹克micro-beat：** Kassia在对话中看了Anna的红夹克一眼——那种"又一个穿着自己相信的东西的人"的weary recognition。不comment。但这个视线为Ep42花田（Kassia看到红色的来源）做预埋。
+> Kassia: "不飞。"
 
-**★ Kassia物理细节（nihilism origin暗示）：** Kassia的Razor座舱副驾位上有磨损痕迹——扶手和座椅边缘的磨损分布暗示**曾经有人坐过那个位置**，而且坐了很长时间。现在那个位置空着。Kassia不让别人碰那个位置——Anna如果注意到了也不会在这个moment追问。我们会自己fill in：Kassia可能失去过一个co-pilot或搭档。"what's the point of saving one child"从abstract philosophy变成personal scar。不需要说出来。一个physical detail就够。到Arc 4 Axiom走廊（Ep59 Kassia把灯移开船员笔迹）时，我们会把这两个moment连在一起。
+继续check。Anna不走。几秒silence。
+
+**★ 翼面touch beat（Anna competence demonstration）：**
+
+Anna注意到Kassia的Razor右翼有微小的pitch bias——她的mechanic眼睛看到了。身体先于大脑，走过去看了一眼，手指放在翼面上——那种Edmund教的"听"的触碰方式。不是在帮忙，是habit。
+
+Kassia看到了这个。一个pilot走到别人的船上，不是检查系统读数，而是**用手指摸翼面**。这个姿势和Kassia的flying philosophy相反——Kassia读数据、读仪表、读气压梯度，她不"摸"。Anna的手指在做的事在Kassia的框架里没有名字。
+
+> Kassia: "你在干什么？"
+> Anna（手指离开，退一步）: "你的右翼有0.2度pitch bias。可能是最后一次着陆时碰到了什么。"
+> Kassia（看数据板）: "仪表上没有。"
+> Anna: "仪表的分辨率不到0.2。"
+
+Kassia去检查。Anna是对的。
+
+这个moment做的事：Anna用body demonstration了"听"——不经意地、不是show off。Kassia被catch的不是Anna的charm，不是Anna的logic，是Anna的competence在一个Kassia不理解的维度上的准确性。一个用手指摸出仪表测不到的0.2度偏差的人——至少不会死在Serpent's Tooth第一个风口。
+
+Kassia仍然没说yes。但她停下了south run的prep。
+
+> Anna: "明早第三声晨号。Gust Runner东停泊位。"
+
+Anna走了。没等answer。
+
+**★ Kassia的yes：** 不是台词。是第二天早上（Ep38出发）她出现在东停泊位。
+
+; [Ep36招募设计原则]
+; Anna不manipulate。State facts + 展示competence + 走掉不等answer。
+; Kassia不explain nihilism。行为show：solo south run没有payload、"不飞"两个字不解释。
+; Kassia的答应来自internal logic：Anna的competence在她evaluation框架里制造了gap——
+; 手指摸出0.2度偏差不在Kassia的perception model里。
+; 一个永远在evaluate的人遇到evaluate不了的data point不会放着不管。
+; 为Ep38 slot canyon飞行friction做foundation：touch-based vs data-based的clash已经种了。
+
+**★ Kassia红夹克micro-beat：** Kassia在对话中看了Anna的红夹克一眼——那种weary recognition。不comment。但这个视线为Ep42花田（Kassia看到红色的来源）做预埋。
+
+**★ Kassia物理细节（nihilism origin暗示）：** Kassia的Razor座舱副驾位上有磨损痕迹——扶手和座椅边缘的磨损分布暗示**曾经有人坐过那个位置**，而且坐了很长时间。现在那个位置空着。Kassia不让别人碰那个位置——Anna如果注意到了也不会在这个moment追问。我们会自己fill in：Kassia可能失去过一个co-pilot或搭档。到Arc 4 Axiom走廊（Ep59 Kassia把灯移开船员笔迹）时，我们会把这两个moment连在一起。
+
+; [Kassia nihilism的reader认知递进设计——严格Anna 3rd POV]
+; 不需要Kassia做philosophical speech。Nihilism通过Anna观察到的behavioral evidence递进build up：
+; Layer 1 Ep20：0.3mm不接受。"标准高、嘴硬。" Surface reading。
+; Layer 2 Ep36：solo south run没有payload + "不飞"不解释 + 空co-pilot seat磨损 + 红夹克视线。
+;   Reader升级："有过什么事的、不愿解释的、独自飞行的人。"
+; Layer 3 Ep37："你看那个孩子的方式不对。" → Kassia的evaluation system是always-on的。
+;   Reader calibration：这个人看人的方式和她飞行的方式同构——永远在读、永远比你先一步。
+; Layer 4 Ep38 slot canyon：两种飞行方式的physical clash。Anna听风合作，Kassia比风快。
+;   Reader在飞行friction的物理层面感受到"不信任世界会接住你"的人vs"信任风会给信息"的人。
+;   到此处nihilism作为behavioral portrait已经足够readable。不需要label。
 
 **★ Anna-Lia bond building（无碎片集）：**
 
@@ -5043,10 +5103,6 @@ Lia主动来找Anna——不是因为感激，是因为curiosity。她想知道�
 
 **★ Anna-Lia Frontier独处（Ep68蛋糕+牵手的前置锚点）：**
 
-; [v6.1 新增] 位置：Sky Fire's Eve灭灯前的傍晚。Festival最后一天的白天活动
-; 散场后、灭灯仪式开始前的gap。Frontier的人群在向广场集中，
-; 高处平台安静下来。这是Anna和Lia第一次在没有任何框架（技术话题/集体活动/
-; 工作任务）的情况下单独相处。
 ;
 ; 核心功能（三件事）：
 ; ① Lia作为一个独立的人被Anna看到——不是guilt对象，不是care对象，是一个
@@ -5116,8 +5172,8 @@ Anna看着她。在铜色烟火的余光里，Lia的侧脸。十三岁。七年�
 ;
 ; [对Ep37 Kassia判断的影响]
 ; Reader刚在这个scene里看到Anna和Lia有一个genuine的moment——
-; 不是"数债"，是两个在同一个认知频率上的人的安静proximity。
-; 然后Kassia在Ep37灭灯后说"Freedman看那个孩子的方式不对。不是关心。是在数债。"
+; 不是guilt distortion，是两个在同一个认知频率上的人的安静proximity。
+; 然后Kassia在Ep37灭灯前对Anna说"你看那个孩子的方式不对，Freedman。"
 ; 我们知道Kassia看到了一半真相——guilt确实在那里，但不是全部。
 ; Kassia的cynical clarity从"准确"变成"准确但不完整"。更有层次。
 
@@ -5129,7 +5185,7 @@ Anna看着她。在铜色烟火的余光里，Lia的侧脸。十三岁。七年�
 
 **厨师大战：** Atheria Canyon酿 vs Iris发酵粥 vs Riverbend河烟鱼 vs Frontier织工面。一年中唯一正式美食竞赛。Lia尝遍各地食物——一个从小在峡谷里长大的孩子第一次品尝Archeon的多样性，反应是genuine的delight。
 
-**★ Lia厨师大战micro-beat（独立agency）：** Lia不只是吃——她在看厨师。一个Riverbend来的烟鱼师傅在现场切鱼：刀不大，但下刀的位置每次都在同一条线上，鱼肉翻开的角度均匀得像有人量过。Lia看了完整的三条鱼。Sara递给她一块河烟鱼尝。Lia嚼了，然后说了一句和味道无关的话：
+**★ Lia厨师大战micro-beat（独立agency）：** Lia不只是吃——她在看厨师。一个Riverbend来的烟鱼师傅在现场切鱼：刀不大，但下刀的位置每次都在同一条线上，鱼肉翻开的角度均匀得像有人量过。Lia看了完整的三条鱼。Sara递给她一块鱼尝。Lia嚼了，然后说了一句和味道无关的话：
 
 > "他切的时候不看刀。看鱼。"
 
@@ -5166,15 +5222,38 @@ Sara没当回事。但这句话做了两件事：①和Ep34骨架赛"看人不�
 
 **★ Kassia-Lia交叉moment：**
 
-灭灯前的间隙。Kassia路过Anna和Lia所在的区域。她看到Anna的那种excessive小心——一种和Anna平时professional confidence不match的softness。
+灭灯前间隙。Pilot们在做明天出发的最后coordination。Anna刚从高处平台下来（和Lia的独处刚结束）。Kassia在检查航线图。Anna走近。
 
-Kassia对旁边的Milo说了一句：
+Kassia不抬头：
 
-> "Freedman看那个孩子的方式不对。不是关心。是在数债。"
+> "你从上面下来的？"
 
-Milo沉默。他可能比Kassia更了解Anna，但他不会对Kassia解释。Kassia也不追问。Observe了，继续走。
+Operational question表面下的observation——Kassia知道Anna去了高处平台，知道Lia在那上面。Anna身体里还carry着独处moment的residual quality。
 
-**功能：** 给我们一个Anna自己看不到的角度。Kassia的cynical clarity能看到Anna的emotional distortion——正确的观察，但结论在她自己的框架内。
+> Anna: "嗯。确认明天出发时间。"
+
+Kassia抬头。看了Anna一秒。
+
+> "你看那个孩子的方式不对，Freedman。"
+
+不追加解释。低头回去看航线图。
+
+Anna不回答。
+
+; [设计功能]
+; Kassia的"你从上面下来的"不是casual——是always-on evaluation系统的data collection。
+; 她问的不是"你去了哪里"，是"你刚才和那个孩子在一起"。
+; Anna的回答是evasion（"确认时间"），Kassia的眼睛不接受evasion。
+; "方式不对"——不说"是在数债"。原版Kassia替reader做了conclusion。
+; 新版Kassia只给data，conclusion留给Anna和reader各自做。
+; Anna的conclusion是defensive silence（她知道Kassia看到了什么）。
+; Reader的conclusion取决于积累了多少信息——有人想到guilt，有人只觉Kassia刻薄。
+; 两种都是valid reading at this stage。
+;
+; Kassia behavioral evidence chain（严格Anna 3rd POV可见）：
+; 三步停（Ep33）+ urgency/weight不匹配（Ep36招募时的时间压力）
+; + calibrated distance（Ep36后半高处平台旁观） + excessive softness（Ep37此处）
+; → "方式不对"。四个data points。不需要M-缩手。
 
 **全城灭灯一小时：**
 
@@ -5230,11 +5309,11 @@ Anna考核时换手——可能和Lia事故后dominant hand在压力下出现的
 
 **Ep33-37 六集设计意图：**
 
-从"something's wrong but don't know what"到"Anna和这个孩子之间有一个长时间的、精确的、单向的tracking关系"。六集的递进：远距离注意到体型变化（Ep33）→ Lia作为独立角色stand on her own + Edmund名字交叉（Ep34）→ "妈说是小时候的事"的信息不对称 + Anna承诺（Ep35）→ Kassia招募philosophical clash + Anna-Lia无碎片bond building + Frontier独处锚点（Ep36）→ Kassia外部视角"在数债" + Savona physical detail + 碎片escalation（Ep37）。
+从"something's wrong but don't know what"到"Anna和这个孩子之间有一个长时间的、精确的、单向的tracking关系"。六集的递进：远距离注意到体型变化（Ep33）→ Lia作为独立角色stand on her own + Edmund名字交叉（Ep34）→ "妈说是小时候的事"的信息不对称 + Anna承诺（Ep35）→ Kassia招募competence demonstration + Anna-Lia无碎片bond building + Frontier独处锚点（Ep36）→ Kassia对Anna直接说"方式不对" + Savona physical detail + 碎片escalation（Ep37）。
 
-Ep36的展开让Ep35→Ep37之间有了呼吸空间和一个critical的Lia人格锚点。Ep35的reveal+承诺是emotional spike。Ep36的recruitment是operational，而Ep36后半的Anna-Lia bond building分两级：先是技术话题的轻松（Lia问飞行，不需要三秒停顿），然后是Frontier独处的个人轻松（高处平台，蒸汽烟火，两个人听同一个pattern）。这个二级递进让Ep37灭灯碎片的入侵更painful——Anna刚和Lia有过一个guilt-free的genuine moment，然后silence把六年前的crack声送回来。不是"看到受害者→内疚"，是"刚看到一个完整的人→然后被提醒你曾经伤害过她"。
+Ep36的展开让Ep35→Ep37之间有了呼吸空间和一个critical的Lia人格锚点。Ep35的reveal+承诺是emotional spike。Ep36的recruitment是operational——Anna不卖情感、Kassia不讲哲学、翼面0.2度touch beat展示两种perception的差异——而Ep36后半的Anna-Lia bond building分两级：先是技术话题的轻松（Lia问飞行，不需要三秒停顿），然后是Frontier独处的个人轻松（高处平台，蒸汽烟火，两个人听同一个pattern）。这个二级递进让Ep37灭灯碎片的入侵更painful——Anna刚和Lia有过一个guilt-free的genuine moment，然后silence把六年前的crack声送回来。不是"看到受害者→内疚"，是"刚看到一个完整的人→然后被提醒你曾经伤害过她"。
 
-关键设计：Lia先作为独立角色赢得我们投资（Ep34骨架赛的hunger和precision），**然后**才reveal身体问题（Ep35跌倒），**然后**给一集呼吸+独处锚点（Ep36 bond building → Frontier平台），**然后**才让我们感到Anna和这个问题有关（Ep37碎片）。投资顺序是刻意设计的——我们先爱上Lia这个人，再知道她"有问题"，最后才知道Anna和问题有关。独处锚点的additional功能：让Kassia Ep37的"数债"判断从"准确"变成"准确但不完整"，因为我们刚看过不是数债的那一面。
+关键设计：Lia先作为独立角色赢得我们投资（Ep34骨架赛的hunger和precision），**然后**才reveal身体问题（Ep35跌倒），**然后**给一集呼吸+独处锚点（Ep36 bond building → Frontier平台），**然后**才让我们感到Anna和这个问题有关（Ep37碎片）。投资顺序是刻意设计的——我们先爱上Lia这个人，再知道她"有问题"，最后才知道Anna和问题有关。独处锚点的additional功能：让Kassia Ep37的"方式不对"判断从"准确"变成"准确但不完整"，因为我们刚看过不是distortion的那一面。
 
 **★ Ep37新增friction seed的节奏位置：** 灯笼beat（手改变物理世界·胜利）→ 灯笼滞留（看同龄学徒的手·friction seed #1）→ Kassia-Lia moment → 灭灯。灯笼胜利和灯笼friction紧贴在一起——读者先和Lia一起感受"亮了"，立刻看到"但不够"。这个up-down在几行内完成，不打断Festival节奏。friction seed在Ep64 Basin传动链条beat中得到完整回应——从"看完走了"到"试了被拦然后给了方案走了"。
 
@@ -5242,7 +5321,11 @@ Ep36的展开让Ep35→Ep37之间有了呼吸空间和一个critical的Lia人格
 
 **乘员与配置：**
 
-Anna（主驾）、Kassia（second pilot）、Savona（navigator）、Milo（机械师/学徒）、Lia（乘客/治疗目的）、Sara（Lia陪同）。中型运输艇，载重容纳六人+物资+治疗设备。载货：Frontier贸易品、Lia药物和设备、基本维修工具备件、食物和水按最少七天计算。
+Anna（主驾）、Kassia（second pilot）、Savona（navigator）、Lia（乘客/治疗目的）、Sara（Lia陪同）。中型运输艇，载重容纳五人+物资+治疗设备。载货：Frontier贸易品、Lia药物和设备、基本维修工具备件、食物和水按最少七天计算。
+
+; [Milo不在Skyleaf航行] Milo Ep25后离队去Thornfield，Arc 3全程不在场。
+; 船上机械师职能由Anna自己承担（她本来就是mechanic出身）。
+; Kassia可以分担部分飞行任务。
 
 **★ Lia离开Atheria（micro-beat）：** 飞艇升空。Lia在舱窗旁。这是她第一次不在地面。Atheria的峡谷在下面缩小——她的整个世界正在变成一条裂缝。Sara在旁边握着她的手。Lia的另一只手在衣兜里——手指碰到了那把扳手。金属面的温度比身体低。
 
@@ -5315,7 +5398,7 @@ Route B：向南绕行Orun高原北缘→更远→避开instability zone→更�
 ; Kassia的respond偶尔是多余的——气流自己会回来，Anna如果在primary就不会做那个correction。
 ; Kassia在修正不需要修正的东西。
 ; 如果你相信世界不会自我修正，你就必须修正一切。
-; Milo（或我们）如果足够细心会发现：Kassia的飞行在technical上没有错，
+; 如果我们足够细心会发现：Kassia的飞行在technical上没有错，
 ; 但她在用能量买保险——对抗一个也许不存在的威胁。
 ; 这和0.3mm偏心、和"永远在评估"、和solo flight above it all是同一根枝——
 ; "如果宇宙不接你，你就永远不能松手。"
@@ -5354,7 +5437,6 @@ Lia第一次离开Atheria。第一次从空中看地形变化。她的反应不�
 > Anna："雪。冰。"
 > Lia安静了一会儿。"我读过五千米是什么数字。现在我知道五千米是什么。"
 
-她引用的是**距离和高度**。手册对Lia是地图，不是工程图纸。
 
 Anna-Lia的Edmund关系确认（自然方式）：
 
@@ -5491,12 +5573,25 @@ Anna低头看自己的衣服。白。红。灰。少了一种颜色。蓝色在�
 
 Anna不哭。可能只是站了一会儿，手指摸了一下水轮支架上褪色的标记。Torben不追问。他已经等了二十年了。再等一会儿不是问题。
 
-; [P-08.1 §B identity shift layer] Anna在Skyleaf碰管道、摸水轮——不只是"认识年轻Edmund的手法"。
+; [P-08.1 §B identity shift layer + body-as-narrator tactile deployment]
+; Anna在Skyleaf碰管道、摸水轮——不只是"认识年轻Edmund的手法"。
 ; 也是Anna自己的手在一个safe context里重新做mechanic的工作。
 ; Torben没有委托她修——她是自己蹲下来"读"的。这是voluntary return to touch。
 ; Reader在此时已有Ep26的感知方向shift信息。Anna碰金属时的somatic detail不能太多——
 ; 太多reader会在这里就parse identity shift，过早。保持P-08原有的以Edmund为焦点的写法，
 ; 让reader的attention被Edmund的故事带走。Identity shift的parse推迟到Lia事件展开/Ep46。
+;
+; ★ body-as-narrator tactile seed（参见穿透表后的★手physical texture追踪block）：
+; Phase 1 prose里已有两个natural tactile data points：
+;   ① "灌溉渠道的接口加固方式——手指停了一秒"（停留时间 > functional需求）
+;   ② "Anna的手放在水轮支架上。铆钉排列。每一颗在同一个力度。她认出这双手。"
+;     （grip pressure自动调轻——指尖记得这种texture应该被轻轻对待）
+; 可追加的micro-detail（一个即可，不超过一句）：
+;   手从水轮支架离开后做下一个动作时的mode切换speed。
+;   如果Anna接下来需要做normal task（检查下一段管道、拧接头），
+;   她第一个动作的micro-hesitation = Edmund touch残留，body还在那个mode里。
+;   这个hesitation不需要被任何人comment——camera报告它，reader自己量。
+; 约束：一两个micro-detail足够。种子，不是结论。Edmund焦点写法不变。
 
 **★ Ep61 delayed reading（P-10 Layer 6）：** "要把最珍贵的东西留给最珍贵的东西"在Ep61第二击被重新拆开。"最珍贵的东西"不只是红色——是**整条因果链**。Edmund不是在说"给你美的东西"——是在说"**这条链子是最珍贵的，你是要扛着它往前走的那个人**"。爱和burden是同一个动作。他没有办法把它们分开。而他做这件事的时候，已经知道自己时间在倒数——这让"最珍贵"carry了一个Anna当时不可能看到的紧迫性。Ep41笔记碎片里那个二十岁年轻人的信念——settlement之间的依赖、因果链、一双手能延伸多远——在辐射时间线下变成了织网的操作系统。他用建水轮的思维建了一张safety net。
 
@@ -5636,7 +5731,7 @@ Lia看Anna工作。不说话。观察。从casual变成focused——她在看Ann
 > Lia："确认什么？"
 > Anna（长beat）："确认上一步没有出错。"
 
-Lia的精确观察仍然在——但看到的是**行为**（停）和**情绪**（等），不是技术程序和手册的差异。我们仍然能感受到三秒钟停顿的weight，但通过Lia自己视角的"等什么"传达——让Lia做观察者，Anna不再label它。
+Lia的精确观察仍然在——但看到的是**行为**（停）和**情绪**（等）。我们仍然能感受到三秒钟停顿的weight，但通过Lia自己视角的"等什么"传达——让Lia做观察者，Anna不再label它。
 
 然后Anna教Lia做了一个简单的valve check。手把手——Anna把一个tool交给Lia，Lia的手不够有力握紧，用两只手。做完第一步。
 
@@ -5696,38 +5791,23 @@ solo flight的quality：高度放得很高——rim上方。从Kassia的视角�
 ; 3. 从rim上方看盆地 = 物理上的"above it all"姿态 = nihilism的空间表达。
 ;    Arc 4 Ep69触墙是这种距离第一次被完全collapse——近到手贴在墙上。
 
-**★ Milo：Edmund反弹beat（Ep42-43）：**
+**★ Edmund反弹beat（确认方案B——Anna solo自言自语）：**
 
-Anna在花田水轮旁教Milo做一个maintenance步骤——可能是检查irrigation valve的某个sequence。教到中间，Anna停了。嘴里刚才说的那句话——"听到它的声音变了再动手，不要看着表面状态就判断"——是Edmund的话。原封不动地从她嘴里出来了。
+Anna在Skyleaf独自做Edmund旧系统水轮维护。body memory让她嘴里自言自语了一句Edmund的话——她停了。四周没人听到。比教学context更孤独，但也更内在。核心功能"Anna的嘴巴说出Edmund的话"保留，不需要recipient。
 
-Milo不知道这句话是谁的。他只是照做了。
+; 原设计的dual layering（Anna→Milo教学传递 + Edmund→Anna痕迹被Lia识别）
+; 变成单层——Anna自言自语时Lia可能在附近（不直接在场，但可能听到边缘）。
+; 如果Lia没听到，这个beat是纯Anna interiority。如果Lia听到了边缘，
+; 她会存档那个声调的质地而不是词义——"Anna说了什么但不是对我说的"。
+; 单层可能比dual layer更concentrated。
 
-Anna知道。她停了大约两秒。然后继续教。
+**★ Milo micro-discovery（确认迁移至Arc 4）：**
 
-; [Edmund反弹 TBD落地]
-; timelapse §十八岁·Milo："她从来没有意识到这句话存在于她身体里，直到她需要教另一个人的那个moment。"
-; 这个beat在Skyleaf落地——因为Anna在做Edmund做过的水轮，教Milo的动作和Edmund教她的
-; 是同一条传承链。反弹的trigger不只是"教学行为"——是context（同一个水轮）+ 行为（同一个步骤）
-; + body memory（手在阀门上的位置）叠加到让她嘴巴比大脑先动。
-; Milo不知道这意味着什么。但Ep43 Lia的"铆钉每一颗都在同一个力度"——
-; 当我们在同一集里先后看到Anna说出Edmund的话、Lia看到Edmund的手——
-; 两层传承（Anna→Milo教学传递 + Edmund→Anna痕迹被Lia识别）在同一时空交叠。
-
-**★ Milo：Skyleaf micro-discovery（Ep42-43）：**
-
-盆地里的地热驱动系统。某个moment——也许是Anna在做水轮维护、Milo被留在settlement里无事可做的时候——他看到了一个东西。盆地边缘有一个小型地热蒸汽循环装置，和他在旧工程书上看过的多回路热交换原理完全match。
-
-Milo的眼睛亮了。他蹲下来看了很久——是在**认识**。他以前只在纸上见过这种东西。现在它真的在运行，蒸汽按他读过的原理在走。
-
-Anna从水轮那边走过来的时候看到了Milo蹲在那里的样子。没说什么。
-
-; [Milo作为独立角色的intellectual hunger]
-; Arc 1种子：买小铜线圈、看旧工程书上的多滑轮设计。
-; 这个beat做follow-up：他的curiosity不只在书本上——在wild里碰到match时他会停下来。
-; Anna看到但不说 = 一个师傅看到徒弟第一次在野外和知识碰头的quiet satisfaction。
-; 不是mirror beat。是Milo作为一个人存在的beat。
-; 后续echo：Arc 4 Ep66-67，Milo在Basin做自己的工坊工作时同样的专注质量——
-; 他不只是Anna的mirror，是一个正在成长为独立craftsman的15岁男孩。
+; 原设计（Ep42-43 Skyleaf）：Milo看到地热蒸汽循环装置，和书上原理match，蹲下来认识了很久。
+; 确认方案：移至Arc 4。Milo回归后在Axiom航行路线上碰到CI时代遗留技术设施——
+; Thornfield几个月的独立工作给了他更多实践经验，
+; 书本原理+实践经验的double recognition比Arc 1时更有depth。
+; Arc 1种子（小铜线圈、旧工程书）的follow-up仍然有效，delayed但更重。
 
 **Anna-Lia在Skyleaf的proximity dynamics：**
 
@@ -5742,8 +5822,6 @@ Healer对Sara的一段话（Anna可能听到也可能没有）：花能缓解但
 
 ; [PATCH-09] 加了半句话："她得一直吃这个" + "Skyleaf以外没有稳定来源"。
 ; 这把Ember Crown从"治疗手段"焊死为"生存依赖"——
-; Lia的未来和Skyleaf航线的可持续性绑定了。
-; 同时为后续arc（如果有）中Skyleaf航线中断的stakes预埋。
 
 **Ep43 membrane poke ★★：** Lia在Skyleaf观察了Anna工作几天之后，她说出了那句"你碰东西的时候很轻，水轮上的铆钉每一颗都在同一个力度"。两个独立的观察，我们自己连在一起。Anna知道Lia说的另一个人是Edmund。差的那三秒钟就是面前这个孩子。
 
@@ -5751,7 +5829,7 @@ Healer对Sara的一段话（Anna可能听到也可能没有）：花能缓解但
 
 ### Ep 44-47：Serpent's Tooth高空 + 冰川上方的完整记忆 ★★★ + 物理镜像事件
 
-**Lia留在Skyleaf。** 高海拔对她的肺不好——5000米+的稀薄空气不是她的身体能承受的。这不需要dramatic scene来决定：Lia知道自己的边界，Anna知道Lia知道。Lia留下来继续疗程和盆地生活。Anna带Savona（和Milo做crew）上高山。飞艇上没有需要Anna"管理"的关系——cascade发生在纯私密空间。
+**Lia留在Skyleaf。** 高海拔对她的肺不好——5000米+的稀薄空气不是她的身体能承受的。这不需要dramatic scene来决定：Lia知道自己的边界，Anna知道Lia知道。Lia留下来继续疗程和盆地生活。Anna带Savona（和Kassia做crew）上高山。飞艇上没有需要Anna"管理"的关系——cascade发生在纯私密空间。
 
 **Cascade的trigger不只是altitude + silence。** 是Ep40-43在Skyleaf和Lia密集接触后accumulated的emotional weight到了临界：Lia的"你碰东西的时候很轻"、Lia给Anna看叶子和光线的inversion、healer关于旧伤痕迹的话——这些都在Anna体内堆积。高空的silence不是cause，是permission——把平时用工作和noise压住的东西释放出来。
 
@@ -5886,21 +5964,21 @@ Anna和Lia的"墙被看到"不是dramatic scene——是一系列micro-shifts。
 
 **Ep50 — Creed结晶 + 返程**
 
-Anna在Skyleaf最后几天把Edmund教她的行为模式合成为Creed——不是写在纸上的宣言，是internal crystallization。不展开为explicit text——通过Anna做routine maintenance时的**变化了的quality**让我们感觉到。
+
 
 变化：不再每一步都停那么久。不是"放下了guilt"——是"停"不再是恐惧驱动。停是为了确认。确认不是为了防止灾难——是为了尊重正在做的事。三秒钟停顿从M-27创伤版开始向M-06 origin版回归。还没到——但方向变了。
 
 返程——slot canyon回程（盛夏窗口，safe period）。轻松。
 
-**Kassia beat**：出发前对Milo：
+**Kassia beat**：出发前。Kassia经过Anna身边，头不转：
 
 > "这个地方挺安静。"
 
-Milo等着下文。没有下文。Kassia走了。一个nihilist说一个地方"安静"——不是compliment，也不是dismissal。在两者之间。
+Anna等着下文。没有下文。Kassia走了。一个nihilist说一个地方"安静"——不是compliment，也不是dismissal。在两者之间。
 
 **★ Kassia micro-shift（不可见层）：**
 
-Kassia在Skyleaf最后几天看到了Anna post-creed的变化。不是因为Anna说了什么——是Anna做routine maintenance时的rhythm变了。三秒钟停顿还在，但quality不同了：不再像一个人在恐惧的边缘站着，更像一个人在认真确认。Kassia Ep37说的"在数债"——如果她现在重新看，"数债"可能不完全准确了。
+Kassia在Skyleaf最后几天看到了Anna post-creed的变化。不是因为Anna说了什么——是Anna做routine maintenance时的rhythm变了。三秒钟停顿还在，但quality不同了：不再像一个人在恐惧的边缘站着，更像一个人在认真确认。Kassia Ep37说的"方式不对"——如果她现在重新看，"不对"可能不完全准确了。
 
 **不给Kassia内省narration。** 变化的sign是physical的：Kassia和Anna的physical distance从Skyleaf全程的always-3-meters，在出发准备时有一个moment变成了2.5米。也许是帮Anna递了个工具。也许是在同一张地图上看route。一个micro-data-point。不足以让Kassia自己notice。但对我们来说——如果注意到了的话——这是Kassia在Ep42花田种子之后的第一个behavioral change的hint。
 
@@ -5915,6 +5993,32 @@ Kassia在Skyleaf最后几天看到了Anna post-creed的变化。不是因为Anna
 ; 但她already在不完全certain的状态下出发了。这就是为什么Axiom能刺到她。
 
 ---
+
+EP 51-54 federation Arc, TBD
+
+federation arc占集数，不做讨论。
+
+
+EP55 A and B.甚至C，小说的每一篇节点都是4K-10K的字数，细分的的话每一个细分的篇章也是4k-10K的scope。
+
+继续做类似episode26那样子到处飞的scene development，探索更多archeon的世界，与此同时把芯片的支线串在episode里面，在这三篇里面安娜会去各种outpost，或者更好的一点是去serpent tooth以东一些没有人口聚集的，但是之前CI改造过的一些旧地方找线索，目的：加大scene variation。
+
+**★ Serpent's Tooth东行flyover设计（Ep-CHIP scene variation）：**
+
+Skyleaf arc之后观众对"山后面"有好奇心。把Ep-CHIP航线的一段推到Serpent's Tooth以东可以满足这个好奇心。Constraint：芯片调查需要人（识别CI芯片的技术人员、cross-reference Axiom部件），只有在有居民的outpost才能做。东面CI遗迹里没有人、没有活的设备。
+
+解法：Ep-CHIP.a在Basin内outpost之间飞（有人的地方，技术调查+warmth beats）。Ep-CHIP.b的目标outpost在Serpent's Tooth西麓（有Axiom散落部件的小settlement），但Anna的航线**从Kestrel's Gate东口出发、沿山脉外侧飞一段再从另一个低矮山口切回西面**——东行exploration不是目的，是路上经过的东西。
+
+**东侧飞行段（500-800字，纯flying scene，不落地）：**
+- 视觉beat：Serpent's Tooth东面一眼看出去——绿色的。不是Basin那种被耕作过的绿（几何形田块+防风林带），是**野化的、不均匀的、没有人修剪过的绿**。草原在起伏地形上铺展，中间夹着深色疏林带，河流没有堤坝自由蜿蜒。Anna可能一辈子没见过这种landscape——Basin所有的绿都是有人管理的。这里的绿不需要人。
+- CI遗迹beat：从空中看一个规整几何形状嵌在草原里——太阳能面板阵列残骸，面板碎了但金属框架还在，草从缝隙长出但无法覆盖直线和直角。也许一个监测站——塌了半截的小屋，天线杆还竖着但顶部设备不见了。
+- 情感register：不是废墟感，是安静的"这里有人做过事，事做完了，人走了"。和故事夜那句"它做了它该做的事，然后走了"的呼应是内在的，不需要说出来。
+- Anna solo飞行——没人说话。引擎声+风声+偶尔一群不认识的鸟从下方草原起飞。给观众一个"世界比我们知道的大"的感官窗口。
+
+; [Anna solo飞行 — Milo不在CHIP航线]
+; Ep-CHIP是Arc 3结束后、Arc 4之前的interlude。Milo仍在Thornfield。
+; Solo flying：Anna的interiority更多、节奏更慢、warmth beats更quiet。
+; 不需要对话推动场景——和一个人说两句话就走。
 
 ### Ep-CHIP.a — 芯片追踪·路线上的人（P-11拆分上集）
 
@@ -6017,21 +6121,14 @@ Kassia在Skyleaf最后几天看到了Anna post-creed的变化。不是因为Anna
 
 ; [v7.0 扩展重写] 基于v6.0部署图，新增Ep64-67 Anna-Lia地基补建四集（原Ep65-66→Ep68-69）。
 ; 应用补丁P-03(红夹克触发修复)、P-05(同步机制具象化)、P-06(两次revelation递进)、P-07(压缩)。
-; Lia行为已按P-02全线修正。Milo mirror beats已全部锚定（M-覆盖Ep25, M-缩手Ep33, M-3a/3b Ep42/44）。
+; Lia行为已按P-02全线修正。Milo mirror beats已确认：M-覆盖Ep25锚定；M-缩手→Ep57，M-exhale→Ep58（原Arc 3三beats合并为Arc 4两beats，M-3a删除）。Kassia观察功能已从M-缩手转移至Anna-Lia behavioral tell（Ep33三步停+Ep36 calibrated distance+Ep37 excessive softness）。
+; M-4锚定Ep64 Core入坊（非Ep56前），功能从"Milo defend"改为信息不对等beat。
+; Milo Arc 4功能从"连续镜子"重定位为：断层检测器+旧版本physical reminder+M-5a前提。
 
 ### 叙事功能
 
 Act 1的终章。做五件事：1）Anna进入Federation物理遗产（Axiom死船）并带回Kepler Core；2）红夹克框架在Axiom内部引爆——从"被穿上"到"选择穿上"；3）Kassia的nihilism通过三个无人见证的interiority beat被progressively刺穿；4）Anna-Lia关系从Ep63重逢出发，通过四集日常地基补建（Ep64-67），让Lia的感知能力和Anna的transmission行为在proximity中完成从"观察者→参与者"的质变；5）Kepler Core与Crystal同步，投影唤醒人类文明碎片——"听"的能力抵达终极边界。
 
-; [v7.0结构变更] 原11集（Ep56-66）→ 14集（Ep56-69）。
-; 净增3集（原Ep64拆分+新增3集 = +4集，原Ep65/66后移 = 净增3集编号位）。
-; 新增Ep64-67：Anna-Lia地基补建。
-; 功能：补建Arc 3里Anna-Lia在proximity中缺失的"日常一起做事"的texture——
-; Ep63绞盘是重逢beat，但从重逢直接跳到Ep68生日（原Ep65）太快。
-; 我们需要看到这两个人在Basin日常里重新学会共处。
-; 四集的设计参照Frontier City arc的Lia认知模式——
-; 蒸汽波（时间秩序）、灯线（空间连接）、骨架赛（结构与态度）。
-; Lia在新四集里的观察方式是同一个认知族群的继续，不是mechanic training。
 
 ---
 
@@ -6068,7 +6165,7 @@ Anna确认Axiom科学舱大概率有Kepler Core。芯片在工坊里，微光仍
 
 **Kassia departure beat**：
 
-Kassia在旁边Razor上做起飞检查。她看到了Anna-Lia exchange——不评论。我们记得Arc 3里"在数债"那句话。现在Anna看Lia的方式**变了**——不再是数债，是把Lia当有能力的人对待。
+Kassia在旁边Razor上做起飞检查。她看到了Anna-Lia exchange——不评论。我们记得Arc 3里"你看那个孩子的方式不对"。现在Anna看Lia的方式**变了**——不再是"不对"的那种，是把Lia当有能力的人对待。
 
 > "Axiom。Federation最大的尸体。我一直想亲眼看看。"
 
@@ -6504,16 +6601,26 @@ Anna后来瞥到那本册子——Lia在画Skyleaf盆地地形。不是工程图
 
 旁边放Archeon本地Crystal设备。三个来自不同时代的技术物件——芯片（CI遗产，EMP幸存者）、Core（Federation出厂，Axiom坠毁幸存者）、Crystal（Archeon 521年自主发展）。三个时代面对面摆着。
 
-**Kassia轻beat**：
+**Kassia轻beat（M-4·信息不对等beat）**：
 
 > （门口对Milo）"她要是用蛮力把那东西烧了，整趟白跑。"
 > Milo："她不会。"
 > Kassia："怎么知道？"
 > Milo："因为她手比你想的轻。"
 
-**Core初碰**：Anna手放Core表面。什么也没听到。一句话。搁下。
+Kassia看了Milo一眼。没说话。回头看工坊里。
 
-**"听"能力边界一致性**：Anna在Skyleaf风塔能"听到"CI系统——但那是CI的**最外层机械执行层**（阀门、管道、压力容器），和Archeon 521年维护的技术本质上同类。Core是Federation的**纯数据处理层**——没有活动部件、没有流体、没有机械应力。她的手能和金属对话，但Core的"声音"不在任何Archeon mechanic的训练范畴内。
+; [M-4 信息不对等设计]
+; Milo的经验基础：M-覆盖那一秒的tactile memory（手盖上来，精确，做完松开）
+; + Ep57-58沙漠飞行中重新感受到的Anna的hand quality。他说的在技术层是对的。
+; 但他不知道的：Arc 3整个Lia弧线、Kassia的"方式不对"、
+; Skyleaf的identity shift。他在用narrow truth defend一个他不完全理解的人。
+; Kassia沉默的reader功能：她知道Milo不知道什么。"手轻"是对的——
+; 但手为什么轻、轻的背后是什么、那只手在Lia面前的停顿里藏了多少——
+; Milo的一句话覆盖不了。Kassia的不说 = "你说的对，但你不知道自己不知道什么。"
+; Reader如果track了Arc 3，在Kassia的沉默里听到的比Milo说的多。
+
+**Core初碰**：Anna手放Core表面。什么也没听到。一句话。搁下。
 
 ; [Ep64 mood设计] Core初碰什么都没听到——但这个beat不展开为"A轴低谷"。
 ; 不做failure scene。Anna碰了，没声音，搁下——然后走出工坊。
@@ -6529,7 +6636,7 @@ Anna走出工坊。不是巡检——是走路。
 
 **★ Lia在Basin的落脚状态：**
 
-Lia从Skyleaf回到Basin之后不是"待着"——她在融入。不是融入工坊、不是融入mechanic行当——是融入**一个地方的日常运转**。
+Lia从Skyleaf回到atheria之后不是"待着"——她在融入。不是融入工坊、不是融入mechanic行当——是融入**一个地方的日常运转**。
 
 Anna在散步时看到的：Lia在水渠边帮一个老人搬什么东西。不是被安排的。是路过，看到，停下来。Lia搬东西的方式——不是使蛮力，是先看了一下重心在哪边，然后从那边抬。
 
@@ -6540,7 +6647,7 @@ Anna在散步时看到的：Lia在水渠边帮一个老人搬什么东西。不�
 
 **★ Lia的friction beat——被身体拦回来（新增核心段落）：**
 
-同一天稍晚。Anna还没回来。Lia在Basin某个工坊门口附近。
+同一天稍晚。Anna还没回来。Lia在某个工坊门口附近。
 
 一个修理任务正在进行——不是什么大事。两个Basin本地mechanic在检修一段升降笼的传动链条。链条需要被从卡槽里拉出来检查磨损。但传动壳体的螺栓锈死了。一个mechanic用长杆扳手加力矩，另一个固定壳体。螺栓松了。两个人把链条拉出来，搁在地上，开始检查每一节。
 
@@ -6759,11 +6866,9 @@ Anna的手——reflexive地——伸出去三寸。
 
 缩回来。
 
-; **M-缩手beat的structural echo。** 和Milo的mirror beat M-缩手同构——
-; Anna的body想接管但something让她停了。
-; 但这次的"something"和上次不一样。
-; 上次（对Milo）是"他该学了"。
-; 这次（对Lia）更重——是"我的手上次接管了一个属于她的空间，结果伤了她"。
+; **缩手beat的structural echo。** Anna的body想接管但something让她停了。
+; 对Milo时（Arc 1-2）"这个我来"是控制的baseline，后续递进为"他该学了"→缩回来。
+; 对Lia时更重——"我的手上次接管了一个属于她的空间，结果伤了她"。
 ; 缩手的成本更高。但缩回来了。
 
 Lia拧了几下。没拧好。但她没停。换了个角度。力的方向对了一点。螺栓进去了一点。
@@ -7477,3 +7582,4 @@ Kassia触墙 = nihilist version of the cave painting。
 ```
 
 ---
+

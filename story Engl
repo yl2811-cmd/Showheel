@@ -1,11 +1,13 @@
-Note auto-translation might be inaccurate-suggest to copy paste chinese version for AI translating.
+Note auto-translation might be inaccurate/inconherent. -suggest to copy paste chinese version for AI translating.
+
+
 
 --------------------------------
 
 
 
 
-A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
+A 19-year-old  pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
 
 ---
 
@@ -121,7 +123,7 @@ Aethelgard is a highland region on the southeastern coast of the continent. The 
 
 **Population Distribution: Scattered + Core Area.** The town center has approximately 15,000-20,000 people (around the CI granary/CFU/square/skyport), while the remaining 30,000-35,000 are distributed across a dozen or so farm settlements within a 20-30 km radius, each with 200-2,000 people, each with its own small wind tower and granary, connected to the town center by dirt roads and short skiffs.
 
-**Soundscape: Wind + Grain + Birds.** The constant sea breeze creates multiple layers of white noise in your ears, in the grass, and on the turbine blades. During harvest season, this is compounded by the sounds of reaping, threshing, and the rumble of the mill. In the evenings outside of harvest season, during the few seconds the wind pauses, you can hear the calls of grey-necked finches in the stubble fields—that silence itself is a sound.
+**Soundscape: Wind + Grain + Birds.** The constant sea breeze creates multiple layers of white noise in your ears, in the grass, and on the turbine blades. During harvest season, the sounds of reaping, threshing, and milling add to the noise. In the evenings outside of harvest season, during the few seconds the wind pauses, you can hear the calls of grey-necked finches in the stubble fields—that silence itself is a sound.
 
 **Atmosphere:** Abundant, open, and the quietude of a farmer. The people here are more reserved, more attuned to the weather, and more attentive to the changing colors of the soil than those in Frontier City. The town center is the venue for markets and festivals; daily life unfolds in the fields.
 
@@ -208,7 +210,7 @@ During the CI era (~2470-2560), transportation was not a problem, as CI possesse
 CI degradation → shutdown (~2530-2650) followed by a precipitous drop in traffic capacity: Serpent's Tooth 3000-6100m mountain range, Kestrel's Gate is the only passage.
 CI (Cycles of Influence) traverses the routine while it's active; its absence becomes a critical issue. Skyleaf maintains its flight path due to the medicinal value of the Ember Crown; there's no equivalent pull factor to the east.
 ; After 521 years, the population will be around one million. The 800×500km basin will not be crowded (it will be more spacious than Iceland), and there will be no population pressure to push for expansion.
-Terraform technology has degraded from ASI level to manual level—it can maintain existing facilities but is unable to build new canals/skyports/settlements on the east side.
+Terraform technology has degraded from ASI level to manual level—capable of maintaining existing facilities but unable to construct new canals/skyports/settlements on the east side.
 Conclusion: It's not that you can't go, it's that there's no reason to go. To the east is a green vacant lot left by CI, beautiful but useless.
 Narrative potential: ①Ep-CHIP eastbound flightover provides scene variation (satisfying curiosity about "behind the mountain");
 ② The next frontier after the population grows to millions; ③ The buffer zone of the Federation approaching Archeon from the east.
@@ -304,7 +306,7 @@ Maintaining order: Daily disputes are resolved through social pressure (if you d
 
 Archeon's day begins with sound.
 
-The large settlement (Frontier City, Atheria) has a tradition called the **"morning horn"**—not a horn, but steam. At 5:30 a.m., the atmospheric processor's routine exhaust valves open, emitting a deep, long whine that can be heard throughout the city. This is the signal that "a new day has begun." It wasn't designed—it was originally just a byproduct of engineering maintenance—but over the centuries it has become a tradition, so much so that if the exhaust is even five minutes late one day, half the city will anxiously look up at the sky.
+The large settlement (Frontier City, Atheria) has a tradition called the **"morning horn"**—not a horn, but steam. At 5:30 a.m., the atmospheric processor's routine exhaust valves open, emitting a deep, drawn-out whine that can be heard throughout the city. This is the signal that "a new day has begun." It wasn't designed—it was originally just a byproduct of engineering maintenance—but over the centuries it has become a tradition, so much so that if the exhaust is even five minutes late one day, half the city will anxiously look up at the sky.
 
 The hour following the morning call is the quietest time of day for the people of Archeon. The workshops haven't started their furnaces yet, market stalls are being set up, and airport ground staff are checking the airships departing that day. The teahouse (Archeon's version of a café/pub) is the first to open—a dark brown hot drink made with locally roasted chicory root and some modified grain, which the people of Archeon call **"Black Iron**, so bitter it will send shivers down your spine, is the ritual to start the day.
 
@@ -375,7 +377,7 @@ Archeon people's daily clothing consists of three layers: a close-fitting cotton
 
 Mechanic/Guardian (like Anna): White shirt (oil stains are easily visible, reminding you to wash/check that the work is finished), dark red or dark brown work jacket (lots of pockets and tool loops), leather arm guards and gloves (burn and cut protection), tool belt. Anna's Guardian's Colors—white + dark red + gray—are the traditional color scheme of the Atheria Valley Guardian.
 
-Pilots: The iconic **patched-up jacket**. Each time a new route was completed, a piece of local fabric was taken from the settlement tailor and sewn onto the jacket. Young pilots' jackets had only two or three patches, while older pilots' jackets resembled a patchwork quilt. A jacket that had flown all the routes on the network was essentially a map of Archeon, worn on the body. Add to that flight goggles (usually brass frames with polished natural mineral lenses) and a scarf (to shield against the cold winds and dust at high altitudes).
+Pilots: The iconic **patched-upline jacket**. Each time a new route was completed, a piece of local fabric was taken from the settlement tailor and sewn onto the jacket. Young pilots' jackets had only two or three patches, while older pilots' jackets resembled a patchwork quilt. A jacket that had flown all the routes on the network was essentially a map of Archeon, worn on the body. Add to that flight goggles (usually brass frames with polished natural mineral lenses) and a scarf (to shield against the cold winds and dust at high altitudes).
 
 Blacksmiths/metallurgists: Thick leather aprons, thick gloves from forearms to elbows, headscarves or hair ties. Because they are constantly exposed to firelight, their clothes quickly fade to a uniform smoky gray tone, so "gray-clad men" is a nickname for blacksmiths in some settlements.
 
@@ -553,7 +555,7 @@ Archeon is only 10 light-years away from Betelgeuse. Betelgeuse will explode as 
 
 Betelgeuse has a low-mass companion star (~0.5-0.8 M☉, fainter and less massive than Siwarha, confirmed in 2025). In the active 21st century of human astronomy, the companion star's orbital radius is approximately 10 AU—far beyond Betelgeuse's photosphere (~3.5 AU), with no atmospheric interaction and no detectable wake or spectral anomalies. It is 8-9 magnitudes fainter than Betelgeuse (only 1/1500-1/4000 of Betelgeuse's luminosity)—completely invisible to human telescopes. Betelgeuse's own convective noise (surface velocity variations of 5-20 km/s) completely drowns out the sub-km/s radial velocity wobble caused by the companion star.
 
-In the 22nd and 23rd centuries, tidal decay pulled Betelgeuse's orbit closer to around 7 AU, and the companion star began to scrape into the edge of Betelgeuse's expanding outer atmosphere. However, at this time, human society was in a transitional period of ASI management and Sleeper culture—basic astronomical monitoring was given far lower priority than colonial projects and social governance. Even if automated sky survey systems noticed a new long-period brightness pattern on Betelgeuse, it was simply classified as "normal evolutionary parameters of a red supergiant" and no one investigated it further.
+In the 22nd and 23rd centuries, tidal decay pulled Betelgeuse's orbit closer to around 7 AU, and the companion star began to scrape into the edge of Betelgeuse's expanding outer atmosphere. However, at this time, human society was in a transitional period of ASI management and Sleeper culture—basic astronomical monitoring was given far lower priority than colonial projects and social governance. Even if automated sky survey systems noticed a new long-period brightness pattern on Betelgeuse, it was categorized as "normal evolutionary parameters of a red supergiant" and no one investigated it further.
 
 In the 24th and 25th centuries, gas drag accelerated orbital decay, creating a positive feedback loop—the deeper into the atmosphere, the greater the drag and the faster the decay. In the hundreds to thousands of years before its collapse, the companion star ejected a large amount of dense hydrogen gas (circumstellar shell), providing "fuel" for the supernova—a process not foreseen in the Standard Model.
 
@@ -788,7 +790,7 @@ The wind shapes people. The Archeon pilots' "courage" wasn't an ideological prod
 
 Death was woven into the daily rhythm. Every flight was a gamble about "coming back alive." When the pilot didn't return, Atheria's reaction wasn't panic—"His apprentice picked up his charter and flew as scheduled tomorrow. His jacket hung on the skyport rail for three days. Someone took it on the third day." Bonfire Night threw worries into the fire, Sky Fire's Eve shouted "Look how resilient we are"—the ritual wasn't about fighting death, but about acknowledging death as a part of life and then continuing to live.
 
-**The dark side of this system is Lia's predicament.** In a world where "who you are" equals "what you can do," a 13-year-old girl with gray lung disease can "do nothing." Society's courage and its cruelty stem from the same root.
+The dark side of this system is Lia's predicament. In a world where "who you are" equals "what you can do," a 13-year-old girl with gray lung disease can "do nothing." Society's courage and its cruelty stem from the same root.
 
 **Federation: A Desert of Attention.** Post-scarcity society + ASI automation + 150-year lifespan = human attention has lost its anchor to external needs. 70% of people answer "Why live?" with sleep—not despair, but a comfortable withdrawal. VR provides clear goals and feedback loops; the real world gives you nothing to pay attention to.
 
@@ -1287,7 +1289,7 @@ A micro-beat needs to be deployed between Ep57 and Ep58: Milo notices in daily c
 **M-Retracting Hand Beat Detail (Confirming Anchorage Arc 4 Ep57·Early Stages of Axiom Voyage):**
 Anna, Milo, and Kassia flew in formation towards Axiom Scar. The desert leg of the flight was turbulent with thermals. Milo was making a risky adjustment to the engine cooling system—Thornfield's months of independent work had given him a more confident and faster touch than Arc 1. Anna's hand reached out three inches—to cover Milo's—and then stopped. She pulled it back. Milo didn't notice. Anna noticed her hand.
 This is a step up from M-Cover (Ep25): Covering is an impulse executed, and withdrawing is an impulse caught. But the impulse itself doesn't disappear—Anna's body is still calculating "what would happen if he made a mistake" 24/7.
-The weight of contextual change: This Milo is not the Milo from Episode 25. He has been working independently in Thornfield for several months. Anna's threat assessment system is still using old data—the probability that "he might make a mistake" is lower than what her body remembers. The withdrawal is the first time Anna herself has felt the gap between her physical data and reality.
+The weight of contextual change: This Milo is not the Milo from Episode 25. He has been working independently in Thornfield for several months. Anna's threat assessment system is still using old data—the probability that "he might make a mistake" is lower than what her body remembers. The withdrawal is the first time Anna herself has felt the gap between physical data and reality data.
 
 **M-exhale beat detail (confirmed anchoring Arc 4 Ep58 desert segment flight):**
 High stakes context. The desert heat plume caused a sudden altitude drop. Milo made a fast decision in the window before Anna could react—the right one. Anna's hand was already moving (to take over), but Milo did it, and did it right. Anna exhales.
@@ -1322,7 +1324,27 @@ Skin tone | Light to fair, doesn't sunbathe often |
 
 Kassia is the kind of person who walks into a room without looking at anyone, yet knows exactly where everyone is. Her way of flying the Razor is completely different from Anna's way of flying the Razor—Anna "listens to the wind and works with it," while Kassia "reads the wind and is faster than it." Both methods result in a surviving landing, but they represent entirely different philosophies of interacting with the world.
 
-Her scrutiny wasn't hostility—it was a habit of constant assessment. She assessed the risks, the distance, the people. She rarely spoke first, but every word she uttered was carefully weighed.
+Her scrutiny wasn't hostile—it was a habit of being constantly on edge. She weighed the risks, the distance, and the people. She rarely spoke first, but every word she uttered was carefully chosen.
+
+**[Wound → Symptoms: A Brief Explanation of the Causal Mechanism]**
+
+Kassia's parents disappeared on a **normal flight path**. Not a storm, not a challenging leg of flight, not a misjudgment. Normal. The system was functioning correctly, the weather was within flyable limits, the flight path was routine—all variables were within "acceptable" limits, yet they still died.
+
+The trauma of a typical flight accident teaches people to fear danger. Kassia's trauma taught her to fear "normality."
+
+The psychological chain of reasoning starting from this specific wound:
+
+**Tolerance range = the hiding place of death.** If a deviation "within tolerance" is compounded by an unknown variable at an unpredictable moment, it becomes a fatal deviation. Therefore, no tolerance range is accepted—because a tolerance range means "we bet this is unimportant," and her parents died in a place where everyone bet "unimportant."
+
+**The wind is not an ally; it is an enforcer of the laws of physics.** Anna's "cooperation with the wind" presupposes that the wind provides information and that you and the wind are part of the same system. Kassia's experience refutes this premise—the wind gave her parents perfectly normal information, and they died. The wind did not betray her parents—it simply enforced the laws of physics. You cannot "cooperate" with the laws of physics; you can only be faster than them. Trusting the wind = trusting something that doesn't know you exist.
+
+**Overcorrection only wastes energy; undercorrection can lead to death.** This isn't efficiency optimization—it's an asymmetry of survival. The cost of overcorrection is burning more fuel; the cost of undercorrection can be everything. Someone who has experienced "undercorrection within the normal range killing people" will always choose overcorrection. Energy is renewable; people are not.
+
+**"Operating normally most of the time" is a lie.** Her parents' flight route operated countless times during the "most of the time" period. That one time wasn't "most of the time." You don't know in advance which time it wasn't.
+
+**Key Design Choice:** Kassia didn't become someone who couldn't fly. Her traumatic response wasn't avoidance—it was control. Flying was the deepest connection between her and her parents; giving up flying meant giving up the last thread of connection. But the way she flew changed—from "being with the wind" to "being faster than the wind." She was using the skills her parents taught her to fight against what killed them. Precision wasn't created by trauma—she may have been a precision-oriented child (in a pilot family) before losing her parents. Trauma transformed precision from a virtue into armor: before, precision was because "doing well is fun," now it's because "not being precise enough will lose everything."
+
+**This causal chain must be revealed entirely through Anna's strict 3rd POV and reader reasoning. See the dissemination design of the comment block below.**
 
 [★ Flight Method / Precision / Nihilism: Different Branches of the Same Tree]
 The core of Kassia's worldview: The universe won't catch you. Parents disappear, but the world keeps turning. The Federation remains silent for 500 years.
@@ -1347,13 +1369,13 @@ Causal chain overview:
 Parents disappear (the world doesn't accept people) → The universe doesn't care (CI etching plate cosmic isolation) → Distrust of the world leads to self-correction.
 ; ├→ Flight: Faster than the wind. Anticipation. Preemptive correction. Never let your guard down.
 Accuracy: 0.3mm is unacceptable. The result is not left to probability.
-Interpersonal relationships: Always evaluating. Don't speak first. Weigh your words carefully.
+Interpersonal relationships: Always tense. Never speak first. Speak only when necessary.
 Solo flight: No destination. Above it all. Avoiding density.
 They are all different branches of the same root—"If the universe doesn't accept you, you can never let go."
 ;
 Anna/Lia's erosion path (through flight precision penetration):
 ; Ep38 slot — Kassia sees "listening to the wind" working for the first time (survival without control)
-Ep57 — Testing "No Correction" → Not Dead → Data Point Archive
+Ep57 — Tried "no fix" once → didn't die → remembered.
 Ep60 — Precision protected Anna → Skill changed from armor to care
 Ep62 — correction angle reduced → waited one more beat → trust +0.01
 Ep69 — Hand on the wall. Not reading anything, not predicting anything. Doing nothing. Just sitting there.
@@ -1696,7 +1718,7 @@ It wasn't an ordinary stone. It was the one in the middle of the riverbed—flat
 
 Now she can come over without even thinking.
 
-She lay down, mimicking Edmund—pressing her entire body against the stone surface, her chin resting on the clasped backs of her hands. Her forehead almost touched his. The stone, warmed by the afternoon sun, had a cool surface, but after a while, she could feel the coolness beneath. Two layers of temperature coexisted.
+She lay down, mimicking Edmund—pressing her entire body against the stone surface, her chin resting on the clasped backs of her hands. Her forehead almost touched his. The stone, warmed by the afternoon sun, had a cool surface, but after a while, she could feel the coolness beneath. Two temperatures coexisted.
 
 "Listen."
 
@@ -2174,7 +2196,7 @@ A line, darker green than the surrounding green. Very straight. Not a river—ri
 
 Anna stared at the line for a long time. On either side of the line, the shrubs were yellowish-green and dry. Above the line, the shrubs were dark green and lush. The same shrubs. The same sunlight. Different colors.
 
-There's only one possibility for the different places: water.
+There's only one possibility in different places: water.
 
 There is water underneath the line. It's a pipeline. It's an underground irrigation pipeline.
 
@@ -2839,7 +2861,7 @@ What he said | What we thought | Actual function |
 Anna didn't only perceive the world when she was next to Edmund. Much of her sensory experience occurred independently:
 
 She sat alone on the platform watching the lizard—for the entire afternoon, without any adults around. The water in the bottle cap, the meter-long distance, the silence like a small stone statue. **No one saw** when Chip stepped on her hand. She held her breath, waited for the lizard to jump away, and **then** ran inside to call Edmund. This "then" is important—the perception occurred in solitude, the sharing followed.
-She lay alone on the rock face, looking at the hyacinths—"Mommy, why do these flowers grow in such difficult places?" She only asked this question after observing them for several hours. Observation comes first, adulthood second.
+She lay alone on the rock face, looking at the hyacinths—"Mommy, why do these flowers grow in such difficult places?" She asked this question only after observing them for several hours. Observation comes first, adulthood second.
 She stood alone by the Eagle's Nest railing, learning to guess the time from the color of the sky—no one taught her "honey color = afternoon tea." She discovered it herself. Because she stood there watching every day.
 She and her mother are picking sunberries—not a scene from Edmund. This is Miriam's axis: taste, touch, sustainability rules, and the intimacy between mother and daughter.
 
@@ -3030,7 +3052,7 @@ Autumn 12 ★ Turning Point: Edmund begins to decline.
 The world progresses from the sky to the ground, then to the workshop, and finally to the bedside. [Collapse begins]
 Anna was forced to take over Edmund's mechanical work—not because she wanted to be a mechanic.
 It's because those things need to be done by someone, and Edmund can't do them anymore.
-—The world is starting to shut down.
+—The world begins to shut down.
 
 At the age of 12, Anna became a de facto apprentice mechanic.
 She used the perception Edmund taught her to take over his machine—the same kind of hearing.
@@ -3463,7 +3485,7 @@ She named it "Gust." During its first test flight, a sudden gust of wind blew a 
 
 Anna lost the money for two sweet potatoes.
 
-During the four months of ship repairs, Anna heard the port's steam whistles and organ almost every day. As the steam rose in the evening, the musicians would begin operating the wall-sized array of pipes—the low-frequency foghorns would come first, followed by layers of mid-range and high-pitched notes. She now knew the relationship between the diameter and pitch of each pipe, and which valves combined to create which chords. But on some evenings, when the wind was just right, the sound would travel from the direction of the port, and her hand, tightening bolts on the deck, would pause for a second—not long—and the phrase from when she was eight would surface, not in words, but as a feeling of lightness in her chest. Someone wanted the wind to sing. The wind agreed.
+During the four months of ship repairs, Anna heard the port's steam whistles and organ almost every day. As the steam rose in the evening, the musicians would begin operating the wall-sized array of pipes—the low-frequency foghorns would come first, followed by layers of mid-range and high-range notes. She now knew the relationship between the diameter and pitch of each pipe, and which valves combined to create which chords. But on some evenings, when the wind was just right, the sound would travel from the direction of the port, and her hand, tightening bolts on the deck, would pause for a second—not long—and the phrase from when she was eight would surface, not in words, but as a feeling of lightness in her chest. Someone wanted the wind to sing. The wind agreed.
 
 [Design Notes] M-09 callback. The weight difference in a single sentence: At eight, "someone wanted the wind to sing" was pure wonder—she didn't know what instrument it was; at seventeen, she fully understood the principles of physics, but that initial wonderment remained in the form of a bodily sensation. Knowing "how it was done" without killing "that's beautiful."
 
@@ -3552,7 +3574,7 @@ When Arc 1 started (Anna was 19), Milo had already been flying with her for six 
 [Design Note 1.5 Downpour Twist] Anna's protective action towards Milo as the stakes rise—one hand steadying her, body facing the source of the threat, steps neither quickening nor panicking—is structurally similar to Edmund's action of tucking her into his leather jacket in the downpour. This isn't something she "learned" from Edmund; it's a transmission of bodily memory. If this beat were incorporated into the episode prose (e.g., the sudden situation on deck), Anna's consciousness shouldn't conjure up the thought of "like her father"—only readers familiar with 1.5 would recognize this posture. The backstory doesn't plant the complete scene, leaving it to the episode writer to find that specific moment. But this note ensures the episode writer knows this connection exists and won't miss it.
 
 [Kassia access point still TBD]
-Kassia is also expected to appear around the 17-18 age window. Specific contact methods are yet to be determined.
+Kassia is also likely to appear around the 17-18 age window. Specific contact methods are yet to be determined.
 Most likely, it was a routine encounter on the flight. Kassia's way of looking at Anna was different from the very first glance.
 — That kind of weary recognition, like "yet another person wearing what they believe in."
 Kassia's full access can be completed when writing Arc 2. Arc 1 does not need its origin.
@@ -3613,7 +3635,7 @@ This is the Anna Freedman we know.
 Image 2 (rolling hills of a coastal settlement) – People are walking, not fixing things. Windmills are in the distance. Wheat fields. The sky is vast. The feeling this image evokes is of a place that breathes, not a place that needs repair.
 Image 4 (Arch Bridge Market) – People walk by the water, there are boats. The buildings are massive, but the people are small. This is not a picture of "infrastructure needing maintenance." This is a picture of "people living in a constructed world."
 Images 5, 6, 7, 8, and 9 (various city street scenes) – market tents, pedestrians, vines, and sunlight. The most striking element in each image is not the machines, but the density of human activity and the symbiosis between plants and buildings.
-Image 10 (outpost on the grassland) – wildflowers, a windmill, a person walking on the road. The emotional register of this image is tranquility and vastness, not "that windmill needs maintenance."
+Image 10 (Grassland Outpost) – Wildflowers, windmills, a person walking on the road. The emotional register of this image is tranquility and vastness, not "that windmill needs maintenance."
 Image 12 (Airship over the canyon) – This is a scene from the movement. It's not the destination, it's the passage.
 These images are saying that Archeon's settlements are living, flavorful, and socially textured places. Anna flies to each place, and her experience should be the smells, people, light, and sounds of those places—not their list of problems.
 
@@ -3627,7 +3649,7 @@ Trade coordination. There's no formal trade system in The Loom. The shuttles are
 Route reconnaissance and weather reading. Anna's flying ability wasn't just about piloting a boat—it was about reading the terrain, air currents, and weather patterns from the air. She might notice a change in the color of vegetation in a certain area during a flight (like the M-18's ability), and then mention to the relevant settlement, "It seems like there's a problem with the irrigation on your north slope; that patch of grass is yellower than last time." This wasn't mechanic work—it was aerial observation.
 The social connection itself. Anna goes to a settlement, eats, chats, and drinks black iron with the people there. This isn't "casual"—this is the work of the shuttleman. If a settlement hasn't had a shuttleman for six months, it starts to slack on the loom. Anna's arrival itself is taut that thread.
 
-The framework of Part 1 (Her first flight at age 14) is excellent. Hagen's character, the body language of her first flight, the distinct atmosphere of the coastal settlement—all of these are accurate. She wasn't there to fix things, but to help move them. Or perhaps it was arranged by Miriam—"Aunt Flour over there needs a batch of our canyon brewing starter; could you take it with you?" Anna's three days on the coast weren't about fixing wind towers—she "lived" in a completely different place for three days. Her sensory recalibration (the shift from canyon acoustics to plains acoustics) is the core of the entire experience; it doesn't need "fixing something" to justify her existence. Aunt Flour's soup and bread don't need the causal chain of "because you fixed the wind tower, my oven has electricity"—in Archeon's Loom culture, serving a bowl of soup to a young person from afar is normal social behavior.
+The framework of Part 1 (Her first flight at age 14) is excellent. Hagen's character, the body language of her first flight, the distinct atmosphere of the coastal settlement—all of these are accurate. —She wasn't there to fix things, she was there to help move things. Or perhaps it was arranged by Miriam—"Aunt Flour over there needs a batch of our canyon brewing starter; could you take it with you?" Anna's three days on the coast weren't about fixing wind towers—she "lived" in a completely different place for three days. Her sensory recalibration (the shift from canyon acoustics to plains acoustics) is the core of the entire experience; it doesn't need "fixing something" to justify her existence. Aunt Flour's soup and bread don't need the causal chain of "because you fixed the wind tower, my oven has electricity"—in Archeon's Loom culture, serving a bowl of soup to a young person from afar is normal social behavior.
 The deck work in section 2.2 can be retained. Checking cables, sails, and airbags—these are basic pilot skills, not mechanic work. However, the part about "Anna detecting airbag spring deformation by sound" needs to be significantly toned down. She can still detect anomalies in the airship—but don't write it as "her mechanic skills made her unparalleled on the airship." A better way: her perception allowed her to adapt to the deck faster than others—not because she detected technical malfunctions, but because she had better balance in the wind (from climbing canyon cliffs as a child) and reacted faster to changes in wind direction (Edmund's environmental awareness).
 3.1 "Leaving the Canyon" needs a complete rewrite. Currently, every paragraph is "Anna arrived at settlement X and fixed equipment Y." It should be changed to: "Anna arrived at settlement X and experienced the place's Z (smell, light, people, social dynamics)." Fixing things can happen, but it doesn't happen every time. Sometimes she goes to a settlement to deliver goods, stay for two days, and leave. Sometimes she's asked to look at a problem in a place—but "looking" doesn't necessarily mean "fixing." Perhaps after looking, she'll say, "I can't fix this, but I'll ask so-and-so there next time I'm in Frontier." The value of a shuttle is in connection, not in personally fixing something at every stop.
 3.2 The Riverbend fork scene is good. Its core isn't repairing things—it's the "go around or go through" flight decision. Hagen's story is good. Keep it. But the preceding "Stone Bridge waterborne diarrhea + medication delivery" could be replaced with another urgency—not necessarily a medical emergency. Perhaps it's Riverbend's salting season, but they're short of salt, and salt shipments need to arrive before the fish spoil; the stakes are "three thousand fish on the rack waiting for salt" (timelapse Arc 1 already used this setting). This is more Archeon—not a survival crisis, but a livelihood.
@@ -3920,7 +3942,7 @@ Refer here when writing about a particular settlement. Each signature = Anna's s
 
 **Key Locations** — Eagle's Nest Workshop (Edmund→Anna), Skyport, Elevator Cage, Valley Market, Skyport Tower (under construction).
 
-**Anna's Connections** — The place where she was born and raised. She returns every 3-4 weeks. Her physical memory is the deepest — she knows the changes in the rhythm of the waterwheel, the intervals of steam venting from the steam pipes, and the temperature changes of the stone bridge even with her eyes closed.
+**Anna's Connections** — The place where she was born and raised. She returns every 3-4 weeks. Her physical memory is the deepest — she knows the changes in the waterwheel's rhythm, the intervals of steam venting from the steam pipes, and the temperature changes on the stone bridge even with her eyes closed.
 
 ---
 
@@ -4056,13 +4078,28 @@ These are the sensory locations that have already been written into Anna's body 
 
 
 
+## ★ ARCHEON ARC POV Mandatory Rules (Must read before writing any Archeon mainline episode)
+
+**The Archeon main storyline (Episodes 12-69) is entirely conducted using Anna Freedman's strict 3rd person limited POV. There are no exceptions.**
+
+This means:
+The Reader only sees what Anna sees, hears, touches, and smells. Anna's internal state is conveyed only through physical tell and behavioral cues—it doesn't enter her explicit thought process.
+- **The interiors of other characters can never be directly accessed.** Kassia's nihilism, Lia's trauma, Milo's growth—all can only be deduced by the reader through Anna's observations of behavior. Anna does not perform psychological analysis for the reader.
+The **Kassia's wound → symptom causal chain** is the core challenge of the strict 3rd POV design: the reader must piece together "this person doesn't trust 'normal'" from the behavioral fragments Anna sees (0.3mm rejection, too frequent corrections, empty paths, frequency check-ins). Anna can sense the pattern, but cannot formulate it. The reader's reasoning always precedes Anna's articulation—this is the source of dramatic irony and reader engagement.
+- **Fragments (Edmund's memories, the Lia incident, Kassia's loss history)** The only legitimate way to access the text is through Anna's involuntary sensory trigger (physical stimulus → memory flashback) or casual mentions by a third party (such as Savona talking about Kassia's parents). There is no information delivery by an omniscient narrator.
+The **retroactive weight** is the core output of the entire POV design. The first reading of Kassia checking the communication channel is "quirk"; recalling Savona's fragments, it becomes "scar". The first reading of Anna's three-second pause is "habit"; after Edmund's layer peel, it becomes a control mechanism. This reader-driven recontextualization is more powerful than any narrator's explanation.
+
+**If a scene requires a narrator to step in and explain a character's mental state to be valid, then the scene design is flawed. Rewrite it, let the actions speak for themselves.**
+
+---
+
 ## Arc 1 Rewrite Project (Ep12-15) - Level Zero: We Only Know 19-Year-Old Anna
 
 ### Narrative Function
 
 Level zero. No backstory. We see only one thing in these four episodes: **a competitive, humorous, red-jacketed blimp pilot doing her job.** The world is vast and beautiful, and Anna is like a fish in water within it. We fall in love with this person and this world, and carry that fondness into Arc 2.
 
-The core of Arc 1's rewrite is to replace the old Riverbend's water crisis survival tone with a **salt economy + Thread Festival cultural showcase**. Riverbend is no longer a settlement on the verge of collapse—it's a proud salt-fish town with 5,000 years of history, living off the river. Anna isn't delivering life-saving water filters; she's delivering the salt needed for this year's salting season. Stakes has changed from "water outage tomorrow" to "three thousand fish on racks waiting for salt, three more days and they'll have to be thrown into the river"—not survival, but livelihood.
+The core of Arc 1's rewrite is to replace the old Riverbend's water crisis survival tone with a **salt economy + Thread Festival cultural showcase**. Riverbend is no longer a settlement on the verge of collapse—it's a proud salt-fish town with 5,000 years of history, living off the river. Anna isn't delivering life-saving water filters; she's delivering the salt needed for this year's salting season. Stakes has gone from "water outage tomorrow" to "three thousand fish on racks waiting for salt, three more days and they'll have to be thrown into the river"—not survival, but livelihood.
 
 ### Ep12: Departure & Flight Preparation
 
@@ -4419,7 +4456,7 @@ Then perhaps one day Joren (or another senior mechanic) will pass by, see the in
 This scene is doing two things at the same time: 1) Anna's mechanical limitation is real (firewall: she is not prodigy); 2) Joren's appearance begins to establish the community's takeover (Ep61 prelude: these people later become part of the "just have work to do" network).
 
 Regarding the specific texture of Edmund's decline—how it manifests in the container during winter:
-On good days, Edmund would do one thing: he would go and see what Anna had repaired. Not to inspect—but out of curiosity. He wanted to see how she had done it. He might discover that she had used a method he hadn't considered (because her hands weren't as good as his, but her senses were different), and then he would make a small sound—unsure whether it was approval or surprise.
+On good days, Edmund would do one thing: he would go and see what Anna had repaired. Not to inspect—but out of curiosity. He wanted to see how she had done it. He might discover that she had used a method he hadn't considered (because her hands weren't as good as his, but her senses were different), and then he would let out a small sound—unsure whether it was approval or surprise.
 This behavior seemed perfectly normal in the Atheria winter—an old mechanic taking a stroll on a good day, checking on the workshop and his apprentices. But Edmund wasn't checking on his apprentices. He was checking on how his daughter had managed all this while he was away.
 Anna didn't know what Edmund was assessing. All she knew was that "Dad is feeling a bit better today and went out for a walk."
 The weight of this scene shifts after the flip in Episode 61: Edmund visits Anna's repairs on a good day—and he's not just curious. He's confirming the local portion of the network (Anna's mechanical competence) is sufficient. He's doing a quality check—not on the machines, but on the core nodes of his final safety net. He sees that Anna's repairs are imperfect but functional—which tells him she "can survive." Then he goes back to continue visiting the settlement—because mechanical competence alone isn't enough; she also needs a social safety net.
@@ -4541,7 +4578,7 @@ Sensory signature:
 - First, you'll see a cluster of water-driven mills distributed along the river. Each mill has a different size stone mill—some grind coarse flour (animal feed), some grind fine flour (bread), and some grind ultrafine flour (for Aunt Flour in Iris Hollow). The water-branching system is simpler but more purposeful than Riverbend—the water here isn't for the fish and people, but purely for turning the stone mills.
 
 Anna's Shuttle Moment:
-- Remove a replacement part of a grinding disc bearing (brought from Atheria/Frontier).
+- Remove a replacement part from a grinding disc bearing (brought from Atheria/Frontier).
 - Fill up the three bags of finely ground flour Millhaven gave to Iris Hollow
 The miller told her, "This year's wheat is harder than last year's, so the flour is half a size coarser. Go to Iris Hollow and tell Aunt Flour that you need an extra quarter of an hour for the dough to rise." — One sentence connected three settlements.
 
@@ -4564,7 +4601,7 @@ First, you hear—the wind. Only the wind. The rustling of the wheat is the base
 
 Anna's Shuttle Moment:
 - An outpost of 200 people. Everyone came out when Anna's Rafale docked. Children chased after the airship's shadow. This wasn't the mundane "yet another airship" of the Frontier—this was the "Shuttleman has arrived" event.
-Anna didn't bring a large quantity of goods—she brought news of three settlements. The results of the Thread Festival. A new fabric appeared at the Frontier market. Millhaven flour was half a size coarser this year. This news spread over the long table dinner, and tomorrow the whole outpost would know.
+Anna didn't bring a large quantity of goods—she brought news of three settlements. The results of the Thread Festival. A new fabric appeared at the Frontier market. Millhaven flour was half a size coarser this year. This news spread over the long table dinner, and by tomorrow the whole outpost would know.
 An old man stopped Anna and asked about things in the south—his daughter had married and moved to Coppergate, and he hadn't heard from her for six months. Anna had seen her the last time she passed through Coppergate. "She's doing well. She had a son. He looks like you." The old man's expression changed—this was the true value of a shuttle.
 
 A unique perspective (not repeated): Scale. What does it look like to have a million people scattered across a planet? Big cities are one thing, outposts of 200 people are another—here, Anna's arrival itself is "the thread on the loom being stretched taut." The Archeon civilization wasn't just about canyon cities and trading hubs—its capillaries were these small settlements on the grasslands, connected by shuttle people.
@@ -5076,6 +5113,27 @@ Anna: "Third morning call tomorrow. Gust Runner East berth."
 
 Anna left. Without waiting for an answer.
 
+**★ Kassia Verification (No witnesses that night):**
+
+After Anna left, Kassia continued the pre-flight check for the South Run—or at least it looked like she was continuing. Her hands were on the routine, but her attention was on the wing surface.
+
+She walked over. She crouched down. She placed her finger where Anna had just touched. She pressed it. She slid it. She felt nothing.
+
+She stood up, returned to the cockpit, and retrieved the calibration tool—a high-precision level, Kassia's own equipment, three times more accurate than the standard instrument. On the rack. Reading. 0.18 degrees. Anna pointed to 0.2; actually 0.18. Error 0.02 degrees. Her finger.
+
+Kassia put away his tools. He sat in the cockpit, looking at the wing surface. The distant sounds of drums and a steam organ from Festival drifted over from the airport.
+
+Her South Run Prep did not continue.
+
+[Validate beat design functionality]
+Kassia attempted to replicate Anna's results in her own way. Her method succeeded—high-precision instruments confirmed a degree of 0.18.
+But Anna's finger arrived before her instrument. And the accuracy was on the same order of magnitude (0.2 vs 0.18).
+This isn't about "Anna winning and Kassia losing." It's about "Anna having a way of perceiving that Kassia doesn't possess."
+"It beats Kassia's best instruments in terms of speed."
+In Kassia's worldview, instruments are more important than people. This case is the opposite.
+The motivation for appearing at the east parking spot the next day: "My method wasn't the fastest in this case. I needed to figure out why."
+It wasn't that I was moved. It was a combination of professional curiosity and an intolerance for gaps in my own methodology.
+
 **★ Kassia's yes:** This isn't a line from the script. It's when she appears at the east berth the next morning (departure from Episode 38).
 
 [Ep36 Recruitment Design Principles]
@@ -5083,7 +5141,7 @@ Anna doesn't manipulate. State facts + demonstrating competence + walking away w
 Kassia does not explain nihilism. Behavioral show: solo south run with no payload; the phrase "not flying" is left unexplained.
 Kassia's agreement stemmed from internal logic: Anna's competitiveness created a gap within her evaluation framework—
 A 0.2-degree deviation detected by touch is not included in Kassia's perception model.
-A person who is always evaluating will not ignore a data point that cannot be evaluated.
+A person who wants to see through everything will not ignore things they cannot see through.
 Foundations for the Ep38 slot canyon flight friction: touch-based vs data-based clashes have been planted.
 
 **★ Kassia's Red Jacket Micro-Beat:** Kassia glances at Anna's red jacket during the conversation—a weary recognition. No comment. But this glance foreshadows the flower field in Episode 42 (the source of the red that Kassia sees).
@@ -5091,15 +5149,15 @@ Foundations for the Ep38 slot canyon flight friction: touch-based vs data-based 
 **★ Kassia Physical Details (Nihilism Origin Hint):** There are wear marks on the co-pilot's seat in Kassia's Razor cockpit—the wear distribution on the armrest and seat edges suggests that **someone used that seat**, and for a considerable period. The seat is now empty. Kassia doesn't allow anyone to touch that seat—Anna wouldn't question it at this moment if she noticed. We'll fill in the gaps ourselves: Kassia may have lost a co-pilot or partner. We'll connect these two moments when we reach the Arc 4 Axiom corridor (Ep59, where Kassia moves the light away from the crew's handwriting).
 
 [Kassia Nihilism's Reader Cognitive Progression Design - Strict Anna 3rd POV]
-Kassia doesn't need to give a philosophical speech. Nihilism builds up progressively through the behavioral evidence observed by Anna:
-Layer 1 Ep20: 0.3mm is unacceptable. "High standards, stubborn." (Surface reading)
+Kassia doesn't need to give a philosophical speech. Her nihilism builds layer upon layer through the behaviors Anna observes:
+Layer 1 Ep20: 0.3mm is unacceptable. "High standards, stubborn." Surface impression.
 Layer 2 Ep36: Solo south run with no payload + "not flying" no explanation + empty co-pilot seat wear + red jacket view.
 Reader upgrade: "A person who has experienced something, who is unwilling to explain, and who flies alone."
-Layer 3 Ep37: "You're looking at that child the wrong way." → Kassia's evaluation system is always-on.
+Layer 3 Ep37: "You're looking at that kid the wrong way." → Kassia is always on edge.
 Reader calibration: This person's way of seeing people is isomorphic to her way of flying—always reading, always one step ahead of you.
 Layer 4, Ep38, Slot Canyon: A physical clash of two flight modes. Anna listens to the wind and collaborates, while Kassia is faster than the wind.
 The reader experiences the physical sensations of "distrusting the world will catch you" versus "trusting the wind will provide information" in the context of flight friction.
-At this point, nihilism as a behavioral portrait is readable enough. No label is needed.
+At this point, nihilism as a behavioral portrait is clear enough. No labeling is needed.
 
 **★ Anna-Lia bond building (without fragments):**
 
@@ -5247,7 +5305,7 @@ No further explanation. He looked down and went back to look at the flight path 
 Anna did not answer.
 
 [Design Features]
-Kassia's "you came down from above" is not casual—it refers to the data collection of an always-on evaluation system.
+Kassia's "You came down from up there" wasn't just a casual remark—it was another note from her ever-present tension.
 She didn't ask "Where did you go?", but rather "You were with that child just now."
 Anna's answer was evasion ("confirmation time"), but Kassia's eyes did not accept evasion.
 "The method is wrong"—it doesn't say "it's counting debts." The original Kassia provided the conclusion for the reader.
@@ -5256,7 +5314,7 @@ Anna's conclusion was defensive silence (she knew what Kassia had seen).
 The reader's conclusion depends on how much information they have accumulated—some think of guilt, while others only feel that Kassia is mean.
 Both are valid readings at this stage.
 ;
-Kassia behavioral evidence chain (strictly visible in Anna's 3rd POV):
+Kassia's observational overlay (strictly visible at Anna 3rd POV):
 Three-step stop (Ep33) + urgency/weight mismatch (time pressure during recruitment in Ep36)
 + calibrated distance (view from the high platform in the latter half of Ep36) + excessive softness (here in Ep37)
 → "Incorrect method". Four data points. No need for M-retreat.
@@ -5333,19 +5391,17 @@ Anna (primary pilot), Kassia (second pilot), Savona (navigator), Lia (passenger/
 Anna herself took on the role of ship's mechanic (she was originally a mechanic).
 Kassia can share some of the flight missions.
 
-**★ Lia Leaves Atheria (micro-beat):** The airship ascends. Lia is by the cabin window. This is the first time she's not on the ground. The canyons of Atheria below are shrinking—her whole world is turning into a crack. Sara is beside her, holding her hand. Lia's other hand is in her pocket—her fingers touch the wrench. The metal surface is cooler than her body.
+**★ Lia Leaves Frontier (micro-beat):** The airship takes off. Lia is by the cabin window. Sara is beside her, holding her hand—she's stayed in Frontier to wait for their return, but to see them off at the boarding gate. Lia's other hand is in her pocket—her fingers touch the wrench. The metal surface is cooler than her body.
 
-She didn't make a "final look back at her hometown" gesture. She watched Atheria shrink as it ascended—not with sadness, but with quantification. The lights in the cliffside workshops turned into tiny orange dots from this height. The Skyport tower under construction, seen from below, was the largest thing, but from above, it was just a gray vertical strip.
+Frontier unfolded from above. She didn't make a "final look back" gesture. She was watching how the city changed during ascent—not sentimentally, but discerningly. The network of steam pipes, which rose as individual white columns from the ground, became a slow wave at this height—something she had first seen from the observation platform two days earlier. Now, from the airship, that wave was smaller, like the ground breathing. Below, the CI Dome and the old tower became gray geometric blocks, covered by five-hundred-year-old vines and tents in irregular organic shapes.
 
-Lia said to Sara, "From below, the tower looks like it's growing into the sky. From above—it looks like it's sinking into the ground."
-
-Sara didn't answer. She was probably trying to hold back her dizziness. But Lia was referring to the continuation of the vaporwave beat from Frontier Solitude (Ep36)—the same thing looks different from different altitudes. Her perspective sensitivity doesn't require flight experience to work—it only needs a real change of altitude.
+Lia didn't speak to Sara. Sara loosened her grip—Lia was already looking ahead. She twirled a wrench in her pocket.
 
 [Lia Ep38 starting beat triple function]
 ; ① Maintain Lia's presence in the reader's consciousness—if Lia's focal scene isn't given again until Episode 42 after the lights go out in Episode 37,
 The reader's investment in Lia will diminish. This beat briefly reminds the reader: "She's here."
-② Continuing the perspective/connecting cognitive fingerprints—"Looking up from below, it grows towards the sky; looking down from above, it grows into the ground" and vaporwaves (Ep36)
-The light wires (Ep36) and the rivets in the skeleton (Ep34) belong to the same cognitive group. Lia can make this observation without a dialogue partner.
+② Continuing the Perspective/Connecting Cognitive Fingerprints—Altitude Verification of the Vapor Wave Pattern from Observation Platform (Standing and Viewing) to Airship (Flying and Viewing)
+Lia shares the same cognitive group as Ep36 vaporwaves, light wires, and skeleton rivets (Ep34). Lia doesn't need a dialogue partner to make this observation.
 ③ Wrench presence – the tactile beat of fingers touching a wrench in a pocket. The wrench appears on screen for the second time from Ep34 to this point.
 It was the third time Skyleaf (Ep42) turned it. The distance between the three points was even.
 
@@ -5364,15 +5420,26 @@ Kassia's briefing emphasized professional attention. Regardless of how cynical h
 Route A: Straight across the central plains → Faster (saves approximately 4 hours) → Passes through the known instability zone.
 Route B: Southward around the northern edge of the Orun Plateau → further away → avoids the instability zone → more predictable.
 
-The structure is a complete mirror image of Codex §3.2 (the fork in the Riverbend line at age 16). Last time it was also an emergency transport mission (Stone Bridge potion), and someone was waiting there too. Anna chose Route B.
+Completely mirrored. Last time it was also an emergency transport mission (Stone Bridge potion), and someone was waiting too. Anna chooses Route B.
 
 Kassia: "Four hours. You know the window is getting shorter every day."
 Anna: "Four hours." No explanation needed.
 Savona: A two-millimeter nod.
 
-Seed #5's nature differs from #1-#4. It does not need to be "activated". Its function is to demonstrate Anna's consistent decision pattern: when uncertain, choose the option with a margin of error.
-
 **Anna's internal state:** It's not "overwhelmed by the guilt." It's "stuffing the guilt into a functional container (mission)." On the surface, it's competent, focused, and ready. What lies beneath is dramatic irony.
+
+**★ Kassia pre-flight frequency test seed (pre-seed for Ep39 Savona fragment):**
+
+Pre-flight check. Anna was going through the standard procedure. Kassia was doing her own parallel check—her checklist was longer than the standard one. Anna noticed that Kassia had added an extra step: **communication channel testing.** Not the standard "confirm channel availability"—but switching between several frequencies, pausing for two seconds at each, listening, then switching to the next. It was like confirming that every frequency would receive a response.
+
+Anna's attribution: "thorough." The first reader's comment: "A meticulous pilot."
+
+[★ Seed for the pre-requisite of Savona Fragments in Ep39]
+In episode 39, Savona says, "There was a fixed frequency check-in, and one day the frequency dropped"—the reader recalls this frequency test.
+The act had transformed from "meticulousness" into a ritual. She wasn't testing whether the communication system was working—
+She was confirming that "if someone calls on a certain frequency, I can hear them."
+She is maintaining a receiving channel that will never be used.
+The three-step reveal structure is as follows: Ep38 Seed (quirk) → Ep39 Key (Savona Fragment) → Ep39 Confirmation (regular check + do not let go in calm airflow).
 
 ### Ep 39 — Eastbound + Anna-Lia Flight Interaction + Slot Canyon Passage
 
@@ -5385,6 +5452,57 @@ Central Plains → The terrain gradually rises → The Serpent's Tooth mountain 
 **Character dynamics during flight:**
 
 **Anna and Savona:** Mostly silent. Savona listens for the long-range precursors of the slot canyon—a low-frequency hum that can be detected from 20 kilometers away. Their listening postures (head tilted to one side, eyes closed) and Anna's "hearing" represent different generations of the same ability.
+
+**★ Savona Fragments (Entry point for readers of Kassia's loss history):**
+
+Long leg of the flight. Kassia was in the cockpit as a primary pilot. Anna noticed that Kassia checked the communications channel at regular intervals—reaching out to dial, listening for two seconds, and dialing back. No one was calling. The frequency was regular, as automatic as breathing.
+
+Anna and Savona were in the rear cabin. Anna's gaze followed Kassia's hand once.
+
+Savona (without looking up, pointing at the map): "Her parents were on the Ochre South Line. They checked in regularly. One day the frequency dropped. They searched for three months. They found nothing."
+
+Anna didn't say anything.
+
+Savona: "She was about thirteen or fourteen years old then."
+
+Savona finished speaking and turned a page of the map. Her tone was the same as when she said, "There's a crosswind tomorrow"—an old pilot talking about another pilot's family affairs. No comment. No "That's why she did that."
+
+Anna didn't press the matter. The next time Kassia checked the channel, Anna's gaze followed her for a second before looking away.
+
+[Savona Fragment Design Features]
+1. Time and Place: After Ep37 "Wrong Method" and before Ep42 Flower Field. When the reader receives this fragment,
+Re-interpret the three hints in Ep36 (solo flight, empty seat, red jacket view).
+; at the same time, it provides a sympathetic foundation for Ep42 "The Red Dress is the Chain"—Kassia's cynicism stemming from personality defects.
+; becomes wound.
+2. Source of information: It wasn't said by Kassia herself (she would never say that), nor was it dug up by Anna (she doesn't dig).
+Savona mentioned it casually. The old pilot stated the facts without offering any psychological analysis.
+3. Precise control of information content: Only provide "parents, flight route, frequency interrupted, nothing found, thirteen or fourteen years old".
+No details provided. The reader must fill in the details themselves.
+4. Physical link: Kassia's channel checking behavior is quirk before reveal and scar after reveal.
+The reader is left to infer that "she's waiting for a check-in that will never return." No one needs to say it aloud.
+5. Anna's reaction is the minimal expression under strict 3rd POV: her gaze followed for a second. Then she looked away.
+What the reader reads is, "She heard it. She remembered it. She won't mention it."
+6. Subsequent echo chain: Empty seat wear (Ep36) → Savona fragment (Ep39) → Remove the light (Ep59) → Touch the wall (Ep69).
+They are all variations of the same action: avoiding/facing evidence that someone once existed.
+
+**★ Behavioral confirmation beat after Savona debris (same flight segment, less than 100 words):**
+
+Shortly after Savona finished speaking, the long leg continued. The airflow entered an unusually stable section—no turbulence, no shear, and all the instruments were green. Anna loosened her grip on the control stick slightly.
+
+Kassia did not loosen her grip.
+
+It's not a freeze. It's not a drama. It's just that when all the instruments say "safe," her correction frequency doesn't decrease. She's still correcting things that don't need correction.
+
+Anna used to pronounce it as "aggressive pilot style." Less than ten minutes after Savona finished speaking, Anna looked at Kassia's hand, her gaze lingering for about half a second before shifting away.
+
+[★ Confirmation beat design feature]
+Turn Savona's verbal revelation into a truth you can see on an airship, with your hands on the joystick.
+The Reader's brain automatically completes the causal chain:
+Normal flight path + parents missing → "Normal" does not equal "safe" → Over-correct even when air currents are calm.
+→ She was guarding against an enemy that was not visible to the instrument panel.
+Anna remained silent and did not change her expression. A mere half-second of eye contact was the maximum reaction possible under strict third-degree POV.
+This is the three-beat convergence of Ep38 frequency test (seed) → Ep39 Savona fragment (key) → this beat (confirmation).
+Three beats later, the reader's attribution of Kassia was permanently upgraded from "high standards/radical style" to "this person doesn't believe in the word security".
 
 **Anna and Kassia:** Professional tension. Kassia wants speed, Anna wants stability. Kassia's adjustments tend to be aggressive, and Anna needs to re-trim each time she takes over. But this friction is also a form of calibration—they need to work seamlessly together at the slot canyon.
 
@@ -5406,12 +5524,12 @@ Kassia is fixing things that don't need fixing.
 If you believe the world won't correct itself, then you have to correct everything.
 If we look closely enough, we'll find that Kassia's flights are technically correct.
 But she's using energy to buy insurance—to fight a threat that may not even exist.
-This is all the same thing as 0.3mm eccentricity, "always being evaluated," and solo flight above it all—
+This is all connected to the 0.3mm eccentricity, the ever-taut string, and the solo flight above it all—
 "If the universe doesn't accept you, you can never let go."
 ;
 The two developed a rhythm during long flights: Anna would be the primary for 20 minutes, and Kassia would be the primary for 20 minutes.
-The 2-second difference in trim during the handover was physical—Kassia felt it was "loose" when she took over (Anna's trim had some leeway).
-When Anna took over, she felt it was "tight" (Kassia's trim had taken up the extra space).
+The 2-second difference in the touch during the handover was physical—Kassia felt it was "loose" when she took over.
+Anna felt "tight" when she took over.
 This friction becomes an advantage in the slot canyon passage—Kassia's speed paired with Anna's hearing.
 However, the friction itself did not resolve. It was carried over to Arc 4 Ep57 southbound (friction upgrade: longer and more demanding Axiom leg).
 ; and Ep62 Northward Return (friction disappears = control synchronization = the two silently align their rhythms after their Axiom experience).
@@ -5430,12 +5548,12 @@ This directly negates the very foundation of all Kassia's controlling behaviors.
 
 **★ Anna and Lia (private moment):** When Kassia is on leave and Savona is focused elsewhere.
 
-Lia was leaving Atheria for the first time. It was the first time she'd seen the changing landscape from the air. Her reaction wasn't about the airship—it was about the fact that the world was bigger than she'd imagined.
+Half a day had passed eastward. This was the first time Lia had flown this far—Atheria to Frontier was her only previous journey, and that route followed the edge of the Basin, with monotonous terrain. Now the ground was changing. Her reaction wasn't about the airship—it was about the fact that the world was bigger than she had imagined.
 
-Lia stood by the porthole. From above, the Atheria Valley appeared as a black line. She gazed at it for a long time.
-"You can't see my house from up there."
-Anna: "Too small."
-Lia didn't answer. She was processing a piece of information: the place where she lived, at this altitude, **did not exist**.
+Lia stood by the porthole. The Basin plain stretched to the horizon below. No trace of the canyons could be seen in the direction of Atheria.
+"You can't see home from here."
+Anna: "It's too far."
+Lia didn't answer. She was processing a piece of information: the place where she lived, at this distance, **did not exist**.
 
 Terrain transition—canyon → hills → Serpent's Tooth skyline:
 
@@ -5621,7 +5739,7 @@ The Edmund in Torben's memory wasn't "Dad." He was a young mechanic who had just
 
 [Edmund's Subtext: Method A Physical Evidence] These markings, when detonated in Ep61, would intersect with M-17's line of sight, anomaly,
 ; Observations on perceived orientation during six years of recurrence in the elderly in Ep26, Torben's retelling, and radiation-labeled memory in Ep-CHIP.b
-Simultaneously connected—Edmund wasn't just fixing things in Skyleaf; he was recording the network status wherever he went.
+Simultaneously connected—Edmund wasn't just fixing things on Skyleaf; he was recording the network status wherever he went.
 Key nodes and the locations of people. The names of people on the topographic map are the paper traces of that network.
 
 **★ Edmund's Repair Log Fragment (New Material Added in Ep41 Core):**
@@ -5775,7 +5893,7 @@ But the message got in. Kassia now knows: the red jacket isn't clothing. A man h
 
 **Kassia's Interpretation—Correct Observation, Wrong Conclusion:** Anna was trapped, but she didn't know it. "A dead man tied his daughter to a machine that could never be fixed with a red dress, and she thought it was love." Kassia's philosophical answer: "Wear nothing. Everything you wear is a chain. Acknowledge the entropy, and enjoy the flight while falling."
 
-Her math was correct, but she missed a variable in the equation—she saw "wear" and "not wear," but not a third possibility: "Take it off, see it clearly, and then choose to put it back on." A free person's choice after knowing the weight.
+Her math was correct, but she missed a variable in the equation—she saw "wear" and "not wear," but not a third possibility: "Take it off, look at it carefully, and then choose to put it back on." A free person's choice after knowing the weight.
 
 **Do not give Kassia any external behavioral change.** This seed was planted in Arc 4 and germinated.
 
@@ -5986,7 +6104,7 @@ Anna waited for what would happen next. Nothing happened. Kassia was gone. A nih
 
 Kassia noticed a change in Anna's post-creed behavior during the final days of Skyleaf. It wasn't because of anything Anna said—it was because Anna's rhythm during routine maintenance had changed. The three-second pauses were still there, but the quality was different: she no longer seemed to be standing on the edge of fear, but rather earnestly confirming something. Kassia's comment in Ep37 that "the approach was wrong"—if she looked back now, "wrong" might not be entirely accurate.
 
-**No introspection narration for Kassia.** The sign of the change is physical: the physical distance between Kassia and Anna, which was always 3 meters throughout Skyleaf, momentarily became 2.5 meters during preparations. Perhaps it was handing Anna a tool. Perhaps it was looking at the route on the same map. A micro-data point. Not enough for Kassia to notice on her own. But for us—if we noticed—this was a hint of Kassia's first behavioral change after the flower field seeds in Ep42.
+**No introspection narration for Kassia.** The sign of change is physical: the physical distance between Kassia and Anna, which was always 3 meters throughout Skyleaf, momentarily changed to 2.5 meters during preparations. Perhaps it was handing Anna a tool. Perhaps it was looking at the route on the same map. A micro-data point. Not enough for Kassia to notice on her own. But for us—if we noticed—this was a hint of Kassia's first behavioral change after the flower field seeds in Ep42.
 
 [Kassia Ep50 micro-shift design]
 This resolves the question of Kassia's motivation for agreeing to go to Axiom.
@@ -6167,7 +6285,7 @@ Early morning before departure. Anna is doing final checks on the airship at the
 
 "This cable is thicker than I thought. It's a number in the manual. Now I know how much it can hold." (Then) "When you come back, could you check the ratchet for me? The spacing seems off."
 
-A promise, not a farewell. Subtext: I'll be back, you're here, we'll do things together.
+A promise, not a farewell. Subtext: I'll be back. You're here. We'll do things together.
 
 **Kassia departure beat**：
 
@@ -6222,6 +6340,24 @@ It was planted in this one-minute gap.
 **Location:** Great Ochre Desert → Whispering Flats (Nighttime)
 
 We crossed Cape Orun and entered the Great Ochre Desert. The plateau gently sloped down to a crimson wasteland. The formation decided to pass through Whispering Flats at night.
+
+**★ Kassia Middle Loop (Daytime Desert Section, Echo of Ep57 Not-Correction):**
+
+The desert's thermal air currents churned. Kassia was on primary care. A crosswind—not strong; Anna would have waited for it to pass if she were on primary care. Kassia raised her hand—to make corrections—**pausing for half a second**. The memory of Ep57 was in her hand: last time, without corrections, the world returned on its own.
+
+Then the old habit won. She still made the correction. A little lighter than usual—but she did. The wind itself was coming back. Kassia's correction and the wind's natural correction overlapped—a slight over-correction, and the airship shuddered.
+
+Anna felt the tremor. She didn't say anything.
+
+[Intermediate ring design function]
+Kassia's body tried "no correction" in Ep57 → the world didn't collapse. Now her hands want to repeat—
+It was lifted up, it stopped—but the old habit won. The result was worse than not correcting it at all: over-corrected.
+Now her body has two control points: Ep57 no correction → good. Ep58 correction → worse instead.
+This provides a thicker foundation for the graduated tension of the Ep60 winch.
+It's not "one test → direct instinctive protection".
+Instead, it was "tried → retreated → the result of retreating was worse → in extreme situations, the body chose a lighter approach".
+Anna felt the trembling but didn't say anything—at strict 3rd POV,
+The reader gleans from Anna's silence that "she knows Kassia is struggling with her own hand."
 
 **★ Whispering Flats at Night**:
 
@@ -6338,7 +6474,7 @@ The person who smiled at the sight of red from afar. The person who handed her a
 
 Anna stopped. Not a three-second pause—it was deeper.
 
-**The First Blow—Six Years of Temperatures Now Have a Countdown**:
+**The First Strike—Six Years of Temperatures Now Have a Countdown**:
 
 Those hazy memories of being 10 years old flooded back. The warm blur of going out with her father. The blurry image of Edmund crouching down at the edge of her focal distance to talk to someone. The expressions on other people's faces when they saw red. What Edmund said where she couldn't see him—she went to look at the bugs, and she didn't know what he said. Those things she was proud of when she was 11.
 
@@ -6387,7 +6523,7 @@ He first saw these when he was twenty at Skyleaf, and then ran the operating sys
 Once he knew his time was running out, the same mindset drove him to visit every settlement:
 Find the node, establish the connection, and ensure the system continues to function even after you are gone.
 
-Fragments from Ep41 surfaced. Not Torben's words—but Edmund's own. Sentences in the repair log that had strayed from the technical notes. A twenty-year-old mechanic seeing for the first time in Skyleaf the flower field on the other side of the pipe come to life, seeing for the first time how far his hand could reach.
+Fragments of Ep41 surfaced. Not Torben's words—but Edmund's own. Sentences in the repair log that had strayed from the technical records. A twenty-year-old mechanic seeing for the first time in Skyleaf the flower field on the other side of the pipe come to life, seeing for the first time how far his hand could reach.
 
 When Anna read these passages in Ep41, her understanding was heartwarming: she realized that her father was this kind of person even before she was born. His beliefs weren't something he developed after becoming a father; they were instilled in him by the flower fields of Skyleaf.
 
@@ -6437,7 +6573,7 @@ But—and most importantly—that happiness wasn't fake.
 
 Edmund chose to remain silent. Not because he distrusted Anna, but because he didn't want the shadow of death to taint every moment he spent with his daughter. He chose to keep those days clean—to prevent Anna's childhood from being devoured by his countdown. He succeeded. The happiness in Anna's memories in Ep22-23 is real, complete, and untainted.
 
-He protected those days with silence. The price he paid was that he had to bear it all alone.
+He protected those days with silence. The price he paid was that he bore it all alone.
 
 Anna's realization wasn't "He lied to me." It was, "He chose to bear it alone so that I could have those days."
 
@@ -6493,7 +6629,7 @@ Deeper meaning: Kassia's correction angle shrinking means she's waiting a longer
 No longer 0.5 seconds earlier. Maybe 0.3 seconds. The difference is minimal.
 But for someone who is always "faster than the wind," being willing to wait an extra 0.2 seconds...
 This means that there is a slight increase in trust that "the world won't kill you in those 0.2 seconds."
-In Ep57, she tested "no correction" once → the world corrected itself → data point archive.
+; Ep57 She tried not to fix it once → the world fixed itself → she remembered it.
 ; Ep60 Shaft graduated tension→precision changed from armor to care→the body remembered.
 Ep62 is the result of accumulation: not decision, but the body adjusting parameters before the mind.
 The correction angle narrowed, meaning the nihilism loosened its grip slightly. It wasn't letting go—it loosened it a little.
@@ -6893,7 +7029,7 @@ Lia: "It's not shaking anymore."
 
 **"It's not shaking anymore"—the first diagnostic statement in mechanics.** It's not frequency analysis, not vibrational modes. It's the most basic: It was shaking → I did something → It stopped shaking. From "observer" to "the one who changed a detail of the physical world."
 
-Anna stood up. She didn't say "Well done." She didn't offer any evaluation.
+Anna stood up. She didn't say "well done." She didn't offer any evaluation.
 
 He left. But he walked a little slower than usual. He wasn't waiting for Lia. He was letting himself experience something she hadn't prepared for—**someone she had hurt was learning to do what Lia had done.**
 
@@ -7149,7 +7285,7 @@ Frontier platform selection distance (Ep36) = informed trust, not ignore trust.
 "Help me check the ratchet" (Ep63) = Knowing that these hands had hurt her, she proactively invited them to come closer.
 ;
 Lia doesn't say "I know." She's stating a fact about the future. A forward-looking statement.
-It's not about fixing the guitar. It's about building something else – "Your hands can do something else now."
+It's not about fixing the guitar. It's about building something else—"your hands can do something else now."
 ;
 Why didn't she say anything? Leverage thinking: Speaking out = Anna's breakdown = distance from returning = negative returns.
 Now, let's say that Anna's hands had already done enough other things in front of her—teach her how to hold tools,
@@ -7588,5 +7724,6 @@ Lia's hands had metallic dust on them (traces of the method Anna had just taught
 ```
 
 ---
+
 
 

@@ -1,5 +1,9 @@
 一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去照看它——因为它还在长。
 
+一个在超新星摧毁了与地球联系521年后的蒸汽朋克硬科幻文明中长大的19岁女飞行员，学会用身体感知一整个世界的心跳，然后飞出去照看它——因为它还在长。
+
+---
+
 ## §1 世界的感官——你站在Archeon上会经历什么
 
 ### 1.1 天空
@@ -1814,6 +1818,9 @@ M-19两双手、M-20 voice-only、M-18b天空收窄作为texture层。前景是A
 约6-10万字，10-16个episode。
 
 **★ 听觉断裂beat（Part V必须包含）：** 至少一个beat：Anna独自在某个outpost检修，手放在管壁上听到了什么，停了，继续工作，不跟任何人说。reader知道她听到了。Edmund不在了。那个"全世界突然多了一个人"的笑不会来了。整合还在，共享消失了。这个moment的absence是Ep42 Lia翻译三秒停顿时情感能量的来源之一——Lia是六年来第一个从外部接住Anna感知的人。
+; [部署交叉引用] 主线present-time版本部署在Ep26a站2（Basin平原outpost）。
+; 童年sub-novel Part V应在14-19岁之间独立部署至少一个类似beat（不同outpost、不同年龄），
+; 让reader在读主线Ep26a时已经知道Anna做这件事做了好几年。两个系统独立工作但互相增强。
 
 **★ 红夹克密度补充：** 14-19岁之间至少补一个casual红色beat。某个outpost有人远远看到她来了叫她"红鸟"或类似的nickname。Anna不在意。reader的红色计数器又响了一下。确保到主线Arc 2开始时背景层累积基底够厚。
 
@@ -4090,6 +4097,15 @@ Race结束后Anna问Joren"那个平原来的是谁"。30个字。我们从此知
 **M-覆盖 in situ（热身段或return flight）：** 两人各驾skiff。气流突变。Anna的手直接覆盖Milo的手——盖上去，带着他做了正确动作。一秒。松开。
 > Milo："……你可以直接说'往左'的。"
 > Anna："下次。"
+; [感知演化锚点·蓝色风信花#2·童年1.4 echo]
+; Race前热身段或skiff横渡——Anna从空中经过鹰巢下方崖壁。
+; 一句话landscape描写：那丛蓝色风信花还在。
+; 六岁趴在岩壁上看的时候鼻子贴着花瓣，现在从空中经过只看到一个蓝色的点。
+; 同一丛花，视角从贴近→俯瞰。感知和世界的距离变了——这是Ep22-24记忆三部曲之后
+; Anna第一次以19岁的身体在同一个谷地飞行的physical evidence。
+; 不需要独立段落。嵌在skiff飞行landscape描写里。Reader第一遍：风景。回看：感知演化可视化。
+; 呼应：童年1.4（蓝色风信花origin）→ 此处（视角变化）→ Ep62（payoff）
+
 **Ep25结尾：Milo离队。** Race结束后日常moment。Milo提到回Thornfield。Anna说好。轻的。走梭人世界正常分合。
 
 ## Ep26-28：航线 · Iris Hollow · 出谷
@@ -4150,6 +4166,18 @@ Anna的走梭人moment：
 独特角度（不重复）：规模感。一百万人散布在一颗星球上是什么样子。大城市是一种感觉，200人的outpost是另一种——在这里，Anna的到来本身就是"织机上的线被绷紧"。Archeon文明不是只有峡谷城市和贸易枢纽——它的毛细血管是这些草原上的小聚落，靠走梭人连在一起。
 
 **种子#3候选位——年轻学徒注视：** 200人的settlement，每个人都visible。Anna看到一个十三四岁的孩子在帮忙搬东西或做什么小活计。她的视线多停了三秒。然后转身继续走。小outpost里这种moment比Atheria或Iris更intimate，因为没有人群可以消失进去。
+
+; [感知演化锚点·"整合还在共享消失了"空beat·部署自timelapse Part V指示]
+; ★ 站2的outpost是此beat的最佳部署位置。Anna在这个小outpost检修某个水力设备或管道。
+; 手放上去。听到了什么——也许是一个即将松脱的轴承频率变化，也许是管道内部水流分层。
+; 她停了。那个停的质感和童年M-06河石一模一样——身体做了Edmund教过的事。
+; 但Edmund不在了。"全世界突然多了一个人"的笑不会来了。
+; 她继续工作。做完。走了。不跟任何人说。
+; Reader知道她听到了。那个"全世界多了一个人"的笑在Ep22-23里刚刚完整呈现过。
+; ★ 功能：为Ep42-43 Lia翻译三秒停顿的情感能量做前置铺垫。
+; 如果没有这个"没人接住"的空beat，Lia"接住了"的weight不够——
+; Lia是六年来第一个从外部接住Anna感知的人。
+; 呼应：M-06（Edmund共享delight）→ 此处（共享消失）→ Ep42-43（Lia接住）
 
 | 层 | 我们理解 |
 |---|---|
@@ -4311,6 +4339,21 @@ Anna被邀请讲Atheria故事。她用Atheria式的方式讲——精确、干�
 
 **阳光莓echo**：Anna在故事夜被要求"用味道和温度讲故事"时，阳光莓的记忆被主动调用——她第一次试着把这个记忆讲给陌生人听。
 
+; [感知演化锚点·蓝色风信花#3·故事夜dialogue嵌入]
+; Anna讲阳光莓时提到鹰巢附近的风景——"阳光莓长在朝阳的岩壁高处，旁边裂缝里有一丛蓝色的小花"。
+; 这是Anna在讲给陌生人听的时候无意识地把风信花带了出来。她自己不觉得这有什么特别——
+; 那就是她家门口的东西。但reader在Ep62回看时会记起来。
+; ★ 蓝色在Anna的记忆里是"背景"——不是被注意到的东西，是一直在那里的东西。
+; 这恰好就是P-10的定义。半句dialogue。不emphasis。
+; 呼应：童年1.4（origin）→ Ep25（空中俯瞰）→ 此处（记忆中的背景色）
+
+; [感知演化锚点·感知表达方式节点]
+; 故事夜"用味道和温度讲故事"的moment本身是一个感知演化节点——
+; Anna被迫从因果链组织切换到感官组织来重述记忆。感知的表达方式变了，不只是感知本身。
+; 这是Edmund轴（因果链/逻辑）和Miriam轴（感官/活物）在表达层面的第一次交叉：
+; Anna用Miriam的方式重新组织了Edmund教她的内容。
+; 不需要新scene——故事夜本身承载。Writing时标注这层即可。
+
 ; [Anna solo的故事夜vulnerability]
 ; 如果Milo在，Anna可能把"讲故事"这个任务dodge掉（让Milo说两句，自己补充技术细节）。
 ; Solo时她没有buffer。被要求"讲你闻到了什么"时，她只能自己面对Edmund的记忆。
@@ -4365,6 +4408,22 @@ Frontier City完整展示（起伏山脉剖面·pylon矩阵·索道网络·蒸�
 ### Ep32-33：Frontier City到达 + behavioral tell Stage 1
 
 **Frontier City的landscape：** Archeon最大的settlement，三十万人。从空中看是**一片起伏的山脉剖面**——几座100-200米的pylon（CI时代megastructure骨架被五百年人类生长层包裹，哑绿铜色外壳上爬满藤蔓）从一片厚实的、密集的terrace矩阵里冒出来。每座pylon自己分层、有sky pier从中段和顶段悬挑出去；pylon底部nested在广场、低层建筑、skybridge交错的mass中，从不孤立。密度是梯度的——核心500米最密，外围1-2公里消散进basin农田，没有清晰城墙。Pylon之间的空中织满basalt fiber索道网，gondola像串在蛛丝上的萤火沿斜线移动；两三条Float Rail的墨绿色大蚕蛹车厢穿过pylon之间；低空散布着sky-lighter像蒲公英。内部是高密度的——石板路、skybridge在头顶交错、蒸汽管道从terrace边缘垂下、阳光从pier底面的缝隙透下来在下层街道投出移动光斑。声景：和Atheria、Iris Hollow都不同——不是峡谷回声也不是平原散射，是密度。人声、锤声、蒸汽声、货物搬运声、飞艇引擎声、gondola滚轮"挞挞"、气动管胶囊穿过墙体的远处"嗖"——所有声音被建筑群挤压在一起，形成一种持续的、中高频为主的urban noise floor。Anna在这里的感知系统需要第三次重建baseline。
+
+; [感知演化锚点·声学recalibration#3·P-23首次on-screen]
+; Frontier是Anna的第三种声学环境（Atheria混响→Iris无回声→Frontier密度压缩）。
+; 她的耳朵做第三次recalibration——这次不是"声音散了"（Iris），是"声音太多太密太近"。
+; 一句话标记Anna的listening在这个环境里做的事不一样：
+; 不是在分离单个声源，是在读一个整体的rhythm。
+; ★ 这是P-23"Anna到settlement不是去修东西——是去读rhythm"的第一次on-screen呈现。
+; 注意：此beat嵌在Frontier到达的landscape prose里，不独立成段。
+; 不和同集Kassia intro + Bram beat + Lia Stage 1抢注意力。
+;
+; [感知演化锚点·Miriam轴成年延伸种子]
+; Frontier市集里Anna看到某个人的步态/行为pattern，读出一个不需要对方开口就知道的信息
+; （比如"那个商人今天生意不好"或"那个mechanic手伤了在假装没事"）。
+; 半句话。不emphasis。Miriam教她的"读活物"在成年后的延伸：
+; 从鸟的行为（童年·Miriam直接教）→人的节奏（此处）→settlement的rhythm（P-23方向）。
+; 呼应：Miriam轴童年seeds → 此处 → Ep48-50（用Edmund的listening方式读Lia的呼吸=两轴合流）
 
 **Ep33 Stage 1（~300字）：** Anna在Frontier人群中注意到Lia。一句casual观察："比上次瘦了。"——这句话泄露了一个信息：Anna在tracking这个孩子，而且tracking时间跨度足够长以至于能比较体型变化。Kaelan在Lia身边，他朝Anna方向点了一下头——那种有重量的点头，不是打招呼，是acknowledge。Anna朝Lia走了三步。然后停了。三秒钟停顿——**这是present-tense的第一次三秒钟停顿用在Lia身上不解释为什么。Anna走过去，正常打招呼，语调精确到"刚好够用"。
 ）
@@ -4556,6 +4615,14 @@ Anna从后舱看了一眼仪表板——Kassia拨的不是现役航线频率。�
 **Skyleaf settlement：** Serpent's Tooth东麓山国。Settlement沿冰川融水河建造——从高山峡谷口向东延伸至高原湖畔。和Frontier megalith风格不同——更"嵌入地形"：上游段依山而建，部分挖入河谷岩壁（利用岩壁thermal mass保温），部分架在CI terraform平台上（500年泥土和根系覆盖，看似natural台地）；下游段沿湖岸展开，更低矮更水平。掠食城市山国式的气质——依着山生长、面向平原。人口几千。偏远但不封闭。
 **★ Skyleaf声景baseline（M-14 echo）：** Anna第一次在Skyleaf"听"。声景是**不对称的**——和她经历过的所有环境都不同。Atheria峡谷是声学放大器（两面墙bounce），Iris平原是声学吸收器（无回声），Frontier是声学压缩器（密度）。Skyleaf是**半开半闭**：转向山/西面——河谷壁面把声音导向、延长、叠加，锤击声从上游某个工坊传来时会carry一段回声尾巴；转向湖/东面——声音直接飘散进平原和湖面上方的open air，消失了，不回来。Anna站在settlement中段转一个身，世界的声学从围合变成敞开。花田在上游地热带——植物的集体rustling从山谷方向顺风送下来，是持续的低频沙沙声。河水声是唯一贯穿两面的常量。
 Anna的recalibration moment：这里的声景和M-17里Edmund用感官碎片描述的那个"他去过的地方"有overlap——"管道通了之后风里的味道变了"。**我们先于Anna认出：这就是Edmund说的那个地方。**
+; [感知演化锚点·声学recalibration#4·Skyleaf半开半闭]
+; Skyleaf声景是Anna经历的最复杂声学环境——不是单一特征（Atheria=围合，Iris=开阔，Frontier=密度），
+; 是围合和开阔同时存在。Anna的耳朵第一次被要求同时处理两种声学。
+; ★ 和童年M-09b第一次飞出峡谷的声学震动是同一种体验——但反过来。
+; M-09b是从围合到开阔（崖壁消失，回声没了）。Skyleaf是围合和开阔同时存在。
+; 不是碰壁（Iris那种"方法失灵"），是容量扩展——Anna的感知半径在这里被要求变成双向的。
+; 呼应：M-09b（围合→开阔·单向震动）→ Ep27 Iris（方法失灵·认知突破）→ 此处（双向·容量扩展）
+; 此beat嵌在Ep40到达的声景描写里，不单独成段。已有prose coverage，不需要加新scene。
 **★ Skyleaf的vista（Lia的scale shock载体）：** 从settlement东端向湖方向看——高原湖面在几公里外展开，蓝得安静。平原延伸到地平线。回头看——5000-6000m雪峰从河谷上方压下来，冰川在高处发蓝光。两个world在一个frame里。和Ep13 Grand Canyon的"two worlds in one body"是同一种planetary-scale的视觉结构，但register完全不同——Grand Canyon是vertical的裂开，Skyleaf是horizontal的展开。
 **Lia treatment：** Ember Crown蒸汽吸入疗程需要连续7-10天，每天一次。疗程结束后healer评估效果。Ep40-43的internal clock。
 **Edmund在Skyleaf的前史：** 约20年前，Edmund与Miriam结婚不久。作为Atheria高阶mechanic通过Loom走梭机制接受支援任务。飞slot canyon（盛夏窗口周期稳定）入河谷驻留。
@@ -4594,6 +4661,19 @@ Anna没有formulate "Edmund设计了我的颜色"。她感到的是更模糊的�
 ; 红 = Edmund给的 = 因果链 = 穿上的 = 选择的。灰白蓝 = 世界给的 = 本来就是的。
 ; 和P-10完全吻合。不做"少了一种颜色"的缺口叙事——四种颜色同时在三个register里。
 ; reader自己决定多少是design多少是rhyme。答案是both。
+; [感知演化锚点·蓝色风信花#4·"蓝色=Anna的眼睛"种子·此处是最佳部署位]
+; 在颜色共振beat的间隙（Torben和Anna说话/讲Edmund笔记碎片的某个间隙），
+; 加一个micro-beat：Torben看着Anna的脸停了一秒。
+; ★ 画面：Anna站在花田里，Torben回头叫她——
+; 红色花田背景上一个穿红夹克的人，白衬衫，风把头发吹开——
+; 蓝眼睛在K2V暖光里特别明显。
+; Torben看到的是：一个红色世界里的蓝色眼睛。
+; Torben不formulate。prose不formulate。画面在那里。reader的眼睛自己看到了。
+; 到Ep62风信花——"蓝色不是因果链。蓝色只是在那里"——
+; reader的身体已经知道：Anna身上那个"只是在那里"的蓝色，是她的眼睛。
+; 红夹克是Edmund设计的。蓝眼睛不是。红色是选择穿上的。蓝色是遗传的——
+; 甚至不一定是Edmund给的（如果蓝眼睛来自Miriam或更远的遗传），是世界给的。
+; 呼应：此处（种子）→ Ep62（蓝色风信花payoff——reader自动complete circuit）
 ★ Edmund网节点#4部署（common house女人——递饭多看一眼）。
 Healer对Sara的一段话（Anna可能听到也可能没有）：花能缓解但不能治好。旧伤痕迹在肺组织里，和先天的很难分开。她register是"这是她的身体，我们管理它"——不做治愈承诺，**也不暗示"更强的配方"存在**。不提北面设施。不提future improvement的路径。Healer是一个没有future-tense hope挂在句尾的人。
 
@@ -4665,6 +4745,12 @@ Lia看Anna工作。不说话。观察。从casual变成focused——她在看Ann
 > Lia："确认什么？"
 > Anna（长beat）："确认上一步没有出错。"
 Lia的精确观察仍然在——但看到的是**行为**（停）和**情绪**（等）。我们仍然能感受到三秒钟停顿的weight，但通过Lia自己视角的"等什么"传达。让Lia做观察者，Anna不再label它。
+; [感知演化锚点·方向反转·被另一个人的感知读取]
+; ★ Anna第一次被另一个人的感知"读取"了。之前所有感知都是Anna向外读世界。
+; Lia label三秒停顿是方向反转——世界（通过Lia）在读Anna。
+; 前置：Ep26a空beat（没人接住）。此处：Lia接住了。Ep26a的"没人"到此处的"有人"=六年空白的closure。
+; 后置：Ep67修痕beat（Anna读Lia的停顿）——Anna和Lia互相读取的mirror完成。
+; 呼应：Ep26a（没人接住）→ 此处（Lia接住）→ Ep67（Anna读Lia的停顿=mirror）
 然后Anna教Lia做了一个简单的valve check。手把手——Anna把一个tool交给Lia，Lia的手不够有力握紧，用两只手。做完第一步。
 **Lia没有抬头等Anna评价。** 直接看下一步应该做什么。一个一直被told to sit and watch的人，第一次体验到"做完一步之后还有下一步"的节奏。对学徒来说这是routine。对Lia来说是新的。
 > 看着自己的手。然后看Anna的手。
@@ -4794,6 +4880,16 @@ Anna告诉Lia她要去北面。
 ; 不做wonder。不是Ep13的awe。感官是cold的、thin的、stripped的。
 ; Kassia在thin air里反而比Anna稳——她的仪器方法不依赖hearing。
 ; Anna的body-first方法partially降级了。两种方法论差异在极端环境下physical显现。
+; [感知演化锚点·Anna-Kassia感知交叉点·方法论failure mode对比]
+; 一句prose-level对比种子：Kassia检查仪表，Anna闭眼试着听风。
+; Kassia的数据板给了清晰气压梯度。Anna的耳朵给了模糊的、被稀薄空气削弱的信号。
+; 两个人在做同一件事——读环境。得到的信息量在这个altitude出现了交叉：
+; Kassia的方法第一次比Anna的方法给出更多信息。
+; Anna闭眼皱眉 vs Kassia看数据板点头——在同一个frame里。不需要narrator解释。
+; ★ 功能：方法论不是who is better——是在不同条件下各有failure mode。
+; 童年飞行连续体的感知到了极端altitude的边界。为Ep57海雾段做铺垫：
+; Ep57 Anna失去所有外部通道但退到proprioception——比Kassia更stable。此处相反。
+; 呼应：M-30（高空听觉降级）→ 此处（交叉点）→ Ep57（proprioception极端·Anna更stable）
 
 **Ep45 — Lia事件完整记忆展开 ★★★（~8-10K字）**
 方向：**insulation全部剥掉**。Anna在这里不做analysis。她的身体在重新经历。
@@ -4858,6 +4954,17 @@ Lia能感知到before/after差异。上山前的Anna-Lia距离是X，回来后�
 **★ Lia的improvement发生在scene之外：** Days later healer做了新配方。Lia做了treatment。发炎区域开始控制住。但Anna不在那里看。Anna从**Sara眼神的变化**间接知道treatment在work——某天Sara在common house看了Anna一眼，不是冷的，也不是温的，是——稍微少了一点什么。reward从未到达。
 
 **Lia恶化的aftermath：** Lia的肺没有好转到比来Skyleaf之前更好——大致回到了来的时候的水平，也许稍微稳一点点。"可以管理"="没有明显更差"。没有cured moment。
+
+; [感知演化锚点·Edmund轴+Miriam轴合流·Ep63绞盘scene前置]
+; ★ 在Ep48-50期间（treatment结果uncertain的moment），加半句话background behavior：
+; Anna在Skyleaf common house某个角落，Lia在几米外做什么。
+; Anna的耳朵在背景里tracking Lia的呼吸节奏。她自己不知道她在做这件事。
+; 这不是诊断（Edmund轴的"听死物"方式）。是更Miriam轴的东西——读一个活着的人的节奏。
+; ★ Edmund轴（读死物）和Miriam轴（读活物）在这个moment产生了交叉：
+; Anna开始用Edmund教她的listening的精确度去做Miriam教她的事——读一个活人。
+; 两条轴线合流的第一个on-screen evidence。
+; 后续：Ep63绞盘scene"在沉默里听到了Lia的呼吸"——habit的origin在此处。
+; 呼应：P-01两条感知轴线 → 此处（合流origin）→ Ep63（合流on-screen payoff）
 
 **★ 芯片发现（Ep48-50期间，具体位置待定）**：
 
@@ -5007,6 +5114,20 @@ Anna可能注意到了——一个只飞Basin主干线的pilot不会有Ochre高�
 ; Reader到这里有了两个data point：她在听一个消失的频段 + 她来过这片沙漠。
 ; 不需要说出来。Ep58她在这片沙漠上空看着光河睡不着的时候，reader自己会连。
 **Anna-Kassia飞行摩擦（核心beat）：** 海雾段中Kassia失去视觉参照。她的精确度依赖视觉——失去视觉本能想加速脱离。Anna减速，让海风updraft替她们做功。
+; [感知演化锚点·proprioception·感知连续体极端·Ep44交叉点的mirror]
+; ★ Anna在海雾里闭上眼。听不到崖壁（雾把回声吃了）。看不到地面。
+; 但她能感觉到updraft——不是通过耳朵，是通过控制杆的微震和自己身体的重力变化。
+; 这是比"听"更底层的感知——本体感觉（proprioception）。
+; 风筝→滑翔架→skiff→飞艇的连续体在这里走到极端：
+; 所有外部感知通道都被环境条件削弱，只剩身体本身作为最后的仪器。
+; 不是新能力——风筝线在手里的张力就是proprioception的第一个教室（童年§2①）。
+; 但在海雾里，所有后来学会的东西（听、看、闻）都退场了，最原始的那一层重新浮上来。
+; ★ 和Kassia的对比跟Ep44高空完全相反：
+; Ep44 thin air——Anna失去听觉→降级，Kassia靠仪器→stable。
+; Ep57 sea fog——Kassia失去视觉→panic→想加速，Anna失去所有外部通道→退到body→calm。
+; 不是"Anna更厉害"——是两种方法论在不同extreme condition下的不同failure mode。
+; Kassia依赖external instrument（包括眼睛）。Anna最底层是body itself。
+; 呼应：童年§2①风筝（proprioception origin）→ Ep44（Anna降级/Kassia stable）→ 此处（Kassia降级/Anna stable）
 > Anna："你的修正角够漂亮。但这艘船不是Razor。三度侧倾，货舱固定栓会被拉到极限。"
 Kassia沉默，把手从操纵杆收回——不是被说服，是Anna在物理层面是对的。
 **★ Kassia micro-experiment（不correction beat）：** 穿出雾层后。高原面上dry air turbulence。Kassia的手**没动**。这次她等了——让Anna handle。Anna handle了。飞艇稳了。不需要Kassia的提前correction。风自己回来了。Kassia什么都没说。
@@ -5019,6 +5140,13 @@ Anna感觉到了那个抖。什么都没说。
 ; 中间环设计：Kassia试过不修正→好的。现在修正→反而worse。
 ; Ep60绞盘graduated tension有更厚的地基。
 **★ Whispering Flats夜间：** 地表是结晶盐壳。夜间风摩擦结晶面时晶体微破裂释放电荷，产生triboluminescence——**蓝绿色光波随风移动**。光随风变——南风起，南边先亮，光波北扩；风转光也转。像大地在呼吸，呼吸的痕迹是光。
+; [感知演化锚点·蓝色风信花#5·蓝绿色在赭红里]
+; 蓝绿色光波在沙漠夜里扩散开。Anna从飞艇上看到地面上的蓝色ripple。
+; 这个蓝和风信花的蓝不一样——是物理的、冷的、无机的。
+; 但它在沙漠的赭红里出现蓝色——和风信花在basalt灰壁上出现蓝色——
+; 是同一种"不该在那里但在那里"的存在方式。
+; 一句话landscape描写。不需要Anna parse。reader的蓝色计数器又响了一下。
+; 呼应：童年1.4→Ep25→Ep27→Ep41（蓝眼睛）→此处→Ep62（payoff）
 头顶紫色和玫瑰色星云光带。脚下蓝绿摩擦荧光。上下两片冷光之间，飞艇灯火和营火是唯一暖色。风磨结晶面发出持续极低频嗡鸣——"Whispering Flats"是literal description。
 **★ Kassia的夜（Anna可见部分）：** 夜间。营地。Anna在某个moment醒了——风或冷。出去。Razor驾驶舱的灯还亮着。Kassia在里面——Anna能看到轮廓，看不到表情。头顶星云光带、脚下Whispering Flats的蓝绿摩擦荧光——上下两片冷光之间，Razor驾驶舱的暖色灯是唯一的人造光。
 Anna没走过去。回去睡了。
@@ -5095,6 +5223,17 @@ Anna注意到了。没comment。副驾驶操纵杆上轻轻搭了一下手——
 Anna没有停船。只是在经过的几秒钟里看着它们。
 她在Skyleaf看过红色的花——Ember Crown，深红花冠像凝固火焰。Edmund维护的管道让那些花活着。红色是因果链。
 蓝色不是因果链。蓝色只是在那里。在最不可能的地方，扎着看不到的根，也不为任何人开。
+; [感知演化锚点·蓝色风信花#6·PAYOFF·颜色circuit completion]
+; Anna看风信花的几秒钟。prose不给任何explicit连接。
+; 但如果Ep41的蓝色种子种得好（Torben的视线+Anna的蓝眼睛在红色花田里），
+; reader到这里自动complete这个circuit：
+; 风信花的蓝 = Anna眼睛的蓝 = 不需要任何人就在那里的东西 = 她一直就是的那部分。
+; 红夹克是Edmund设计的。蓝眼睛不是。红色是选择穿上的。蓝色是遗传的。
+; ★ 红夹克六次累积在Ep61引爆。蓝色风信花六次累积在此处payoff。
+; 两条颜色线在同一个Arc 4归途段里前后脚完成收拢。
+; 累积总表：童年1.4（origin）→Ep25（空中俯瞰）→Ep27（故事夜半句话）
+; →Ep41（Torben视线·蓝眼睛）→Ep58（蓝绿光波）→此处（payoff）
+; →Ep67（修痕后抬头·最后echo）
 
 **Ep63 — 回家·Lia重逢·绞盘（~6-8K字）**
 方向：绿带回来了——Quiver-Leaf银色叶片闪烁。空气从干燥变回湿润。味道是草和泥。味道是家。
@@ -5176,6 +5315,14 @@ Anna的三秒钟停顿在这里有了新的质地——不是guilt的停，不�
 ; 递进明示：从观察另一个人→到自己的手做测量→到从Anna的方法论里长出Anna没长出的枝。
 ; Lia不是在模仿Anna，是在branching。传承第二次branch——
 ; Edmund→Anna是第一次，Anna→Lia是第二次，Lia自己加一步是branch内部的延伸。
+; [感知演化锚点·传承的physical形态·Edmund-Anna河石echo]
+; ★ Anna在教的时候，她自己的手也放在旁边另一段管道上。不是示范——是habit。
+; 两个人的手在同一个系统的不同段落上同时"听"。
+; Lia听到的和Anna听到的不一样——因为管道两段的状态不同。但她们在用同一种方式听。
+; 传承不是"老师教学生"——是两个人同时在做同一件事，各自得到了各自的信息。
+; ★ Edmund和Anna在河石上就是这样——"不是教学指令，是他自己在听顺便叫她一起"（M-06）。
+; Anna现在在做Edmund做过的事。她不知道。
+; 呼应：M-06（Edmund+Anna河石·共享listening）→ Ep26a（共享消失）→ 此处（传承重现）
 ; 这让Ep67"你的手不会再弄伤我了"的forward-looking有足够的cognitive capital——
 ; 一个能自己加下一步的人说出"你可以松手了"，weight是实的。
 ; Anna的停顿质地从M-26/M-27的防御性演化成"看到别人超过自己"的recognition——
@@ -5252,6 +5399,22 @@ Anna不知道Lia是故意模仿还是自己摸到了这个方法。但修痕说�
 ; mechanic认识mechanic的方式——通过修痕。现在修痕里有了"听"的影子。
 ; 传承visible而不explicit。不需要任何台词。修痕就是证据。
 Anna什么都没说。走了。
+; [感知演化锚点·蓝色风信花#7·最后echo]
+; Anna触摸完修痕抬头——如果这个窗闩在鹰巢附近（或Basin某个建筑），
+; 窗框外面可能看得到远处崖壁。Anna的视线自然经过了那个方向——
+; 远处崖壁上那丛蓝色风信花的位置。不是有意看的。
+; 不需要任何内心描写。prose只给画面：
+; 一只刚读完另一个人的停顿的手，一扇窗，窗外远处岩壁上很小的一丛蓝色。
+; Reader第一遍不会留意。第二遍：蓝色从Ep25开始就一直在那里，Anna从来没有特别注意过它。
+; 和P-10的定义完美匹配——"自己长的，一直在那里的，不需要任何人的。"
+; 呼应：Ep62（payoff）→ 此处（余韵·蓝色最后一次在背景层出现）
+;
+; [感知演化锚点·修痕=感知mirror completion]
+; Ep42-43：Lia读Anna的停顿（方向：世界→Anna）。
+; 此处Ep67：Anna读Lia的停顿（方向：Anna→Lia的痕迹）。
+; Mirror完成。两个人通过各自的感知互相"看到"了对方。
+; 不是对称——Lia用语言label（"你的手在每一步之间会停"），Anna用触觉读取（修痕的起点力度）。
+; 两种不同的感知方式看到了同一件事：对方在动手之前先停了。
 **★ Lia知道（micro-beat）：** 同一天晚些时候。Anna和Lia在栈道上做一个小事情——检查昨天那颗螺栓。Anna蹲下来。手伸向Lia附近的金属面——reflexive地停了一下。那个熟悉的缩手前兆。
 Lia没抬头。继续做手上的事。
 > "你的手不会再弄伤我了。"
@@ -5291,6 +5454,19 @@ Lia继续拧她手里的东西。
 ; Ep64 Anna碰Core什么都没听到——被困在"我必须做什么"里。
 ; Ep69脱下方法论——不是不用了，是让它退到后台——站在两端之间。
 ; 脱下来才能做bridge。自由的人连接两个世界。被锁住的人只能被绑在一端。
+; [感知演化锚点·Ep69=感知演化顶点·M-21结构mirror]
+; ★ Anna让自己安静到能同时听到两种语言——从"做"到"不做"，从技能到silence。
+; 这和M-21温度消失（12-13岁）是一对结构mirror：
+; M-21是被动的——Edmund衰退导致Anna的感知空间被动收缩，温度消失是她没有选择的事。
+; Ep69是主动的——Anna选择让自己安静，让方法论退到后台。
+; 被动收缩 vs 主动打开。同一种"减法"，方向完全相反。
+; M-21减掉的是世界。Ep69减掉的是自己。
+; ★ 从童年到此刻的感知演化全弧线：
+; 纯感官（3-6岁）→ Edmund引导的listening（6-12岁）→ 被动收缩（12-13岁·M-21）
+; → 独自重新打开（14-19岁）→ 声学recalibration链（Ep27-40·方法适应不同环境）
+; → 两轴合流（Ep48-50·用Edmund方式读活人）→ proprioception极端（Ep57·最底层浮出）
+; → 此处：主动减法——脱下所有方法论，让身体成为纯粹的bridge。
+; 感知演化的终点不是"更强的感知"——是"安静到能让两个世界通过她说话"。
 Core发出低频hum。**500年来的第一声。** Crystal响应——不同频率，但harmonic compatible。两个声音叠在一起。
 **★ 投影：人类文明数据库碎片**
 屏幕出现画面。**无声。** 画面质量不好——像隔着水看另一个世界。色彩偏移，丢帧。但可辨认。
@@ -5327,3 +5503,70 @@ Anna不明白。她的世界里，东西要被造出来就需要手。
 ; Ep61 Axiom走廊（远·500年前·私密）→ Ep66 Basin走廊投影余光（近·同栋建筑）→ Ep69触墙（面前·手贴墙）。
 ; 触墙不翻转——她的数学还是对的，只是less certain。
 ; Act 1的最后画面：一个nihilist的手贴在墙上，墙上是500年前一个人的笑。
+
+### Arc级禁令
+
+- Axiom内部不让Anna dramatize三层信息collision（她不解释，reader自己拼）
+- Ep61后Anna不做explicit grief scene（P-24—Edmund不是诗人，Anna也不是）
+- Lia不modularly mourn Anna的revelation（她已经知道了，她forward-looking）
+- Kassia触墙不翻转——她的数学还是对的，只是less certain
+- Kepler Core不做"解开谜题"式的expositio
+
+---
+
+## 附录 · 成年感知演化锚点速查表 + 蓝色风信花累积部署表
+
+> **用法：** 写episode时查这里确认当集是否有感知演化或蓝色线beat需要部署。所有锚点以 `; [感知演化锚点]` 标记嵌在对应episode段落的writing guide comment里。
+
+### A. 成年感知演化链（Arc 2-4·与童年篇Ep22-24的呼应系统）
+
+| Ep | 感知beat | 呼应童年/原则 | 形式 |
+|---|---------|-------------|------|
+| Ep25 | 蓝色风信花从空中俯瞰·视角从贴近→俯瞰 | 童年1.4（趴在岩壁上看花） | 一句话landscape |
+| Ep26a | "没人接住"空beat·手放管壁上听到了什么·继续·没人说 | M-06（Edmund共享delight） | 半段background scene |
+| Ep27 | 感知表达方式节点·从因果链→感官组织 | Edmund轴+Miriam轴表达层交叉 | 故事夜本身承载 |
+| Ep33 | Frontier rhythm-reading·读整体节奏不是分离单个声源 | P-23首次on-screen | 一句话嵌入landscape |
+| Ep33 | Miriam轴成年延伸·读人的行为pattern | Miriam童年seeds | 半句话 |
+| Ep40 | Skyleaf半开半闭声学·围合和开阔同时存在 | M-09b（围合→开阔·单向震动） | 已有prose coverage |
+| Ep42-43 | Lia label三秒停顿·感知方向反转（世界读Anna） | Ep26a（没人接住→此处接住） | 已有dialogue |
+| Ep44 | Anna-Kassia感知交叉·thin air Anna降级Kassia stable | M-30高空听觉降级 | 一句话同frame |
+| Ep48-50 | Anna听Lia呼吸·Edmund轴+Miriam轴合流 | P-01两条感知轴线 | 半句话background |
+| Ep57 | Proprioception极端·所有外部通道退场身体最底层浮出 | 童年§2①风筝（proprioception origin） | 嵌入海雾飞行段 |
+| Ep62 | 蓝色风信花payoff | P-10颜色结构对位 | 完整scene（已有） |
+| Ep64 | 两人同时在同一系统上听·传承physical形态 | M-06（Edmund+Anna河石） | 半句话行为 |
+| Ep67 | 修痕读取·感知mirror completion（Anna读Lia的停顿） | Ep42-43（Lia读Anna的停顿） | 已有scene |
+| Ep69 | 主动减法·脱下方法论·M-21结构mirror | M-21温度消失（被动收缩） | 已有scene |
+
+**递进方向：** 纯感官→引导listening→被动收缩→独自重开→环境适应→两轴合流→proprioception极端→主动减法。终点不是"更强的感知"——是安静到能让两个世界通过她说话。
+
+### B. 蓝色风信花累积部署表
+
+| # | Episode | 形式 | Reader注意到？ |
+|---|---------|------|-------------|
+| 1 | 童年1.4（6岁） | Anna趴在岩壁上看，问Miriam为什么长在这么难的地方 | 会——完整scene |
+| 2 | Ep25（skiff横渡） | 从空中看到鹰巢下方崖壁上一个蓝色的点 | 不会——一句话landscape |
+| 3 | Ep27（故事夜） | Anna讲阳光莓时提到"旁边裂缝里有蓝色的小花" | 不会——dialogue里半句 |
+| 4 | Ep41（Skyleaf花田） | Torben看Anna→蓝眼睛在红色花田里；颜色共振beat的一层 | 可能——颜色共振beat |
+| 5 | Ep58（Whispering Flats） | 结晶平原蓝绿色光波在赭红沙漠里 | 可能——但归类为landscape |
+| 6 | **Ep62**（★ payoff） | 风信花完整回归——"蓝色不是因果链。蓝色只是在那里" | **会——设计如此** |
+| 7 | Ep67（修痕后） | Anna抬头，远处崖壁上很小的一丛蓝色 | 不会——一句话background |
+
+**第一遍读：** reader只记住#1和#6，中间全是noise。
+**第二遍读：** 蓝色从Ep25开始就一直在那里，Anna从来没有特别注意过它。和P-10的定义完美匹配——"自己长的，一直在那里的，不需要任何人的。"
+
+**与红夹克线的结构对称：** 红夹克六次累积在Ep61引爆。蓝色风信花五次累积（#2-#5+#7）在Ep62 payoff。两条颜色线在同一个Arc 4归途段里前后脚完成收拢。红=Edmund给的=穿上的=因果链的。蓝=自己长的=一直在那里的=根的。
+
+### C. 声学recalibration链速查
+
+| # | 环境 | 声学特征 | Anna的recalibration | Ep |
+|---|------|---------|--------------------|----|
+| 1 | Atheria峡谷 | 半开放amphitheater·缓坡散射混响 | baseline（不需要recalibrate） | 童年 |
+| 2 | Iris Hollow平原 | 无回声·声音散了不回来·湍流风噪 | "听"第一次失灵·认知突破：方法是local的 | Ep27 |
+| 3 | Frontier City | 密度压缩·所有声音挤在一起 | 从分离单个声源→读整体rhythm | Ep33 |
+| 4 | Skyleaf河谷 | 半开半闭·转身即两种声学 | 容量扩展·同时处理围合和开阔 | Ep40 |
+| 5 | Serpent's Tooth高空 | 稀薄·高频先死·低频走更远 | hearing降级·defense mechanism被物理削弱 | Ep44 |
+| 6 | The Wash海雾 | 雾把回声吃了·所有外部通道削弱 | proprioception浮出·身体本身是最后仪器 | Ep57 |
+
+**递进方向：** 从"方法失灵"（Iris）到"方法适应"（Frontier/Skyleaf）到"方法降级"（高空）到"方法退场身体浮出"（海雾）。
+
+

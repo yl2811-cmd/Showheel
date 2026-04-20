@@ -1,15 +1,9 @@
 Note auto-translation might be inaccurate-suggest to copy paste chinese version for AI translating.
 
 --------------------------------
-
-
-
-
 A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
 
 ---
-
-A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
 
 ## §1 The Senses of the World—What You Experience Standing on the Archeon
 
@@ -1825,6 +1819,9 @@ The M-26 Lia incident could occur in a certain episode of Part IV. Thirteen-year
 Approximately 60,000 to 100,000 words, 10 to 16 episodes.
 
 **★ Hearing Break Beat (Must be included in Part V):** At least one beat: Anna is alone in an outpost, inspecting pipes. She places her hand on the pipe wall, hears something, stops, continues working, and doesn't tell anyone. The reader knows she heard it. Edmund is gone. That laugh of "suddenly, there's one more person in the world" will never come again. Integration remains, but sharing is gone. This moment of absence is one of the sources of emotional energy during Lia's three-second pause in Ep42—Lia is the first person in six years to receive Anna's perception from the outside.
+[Deployment Cross-Reference] The mainline present-time version is deployed on Ep26a Station 2 (Basin Plains outpost).
+Childhood sub-novel Part V should be deployed independently between the ages of 14 and 19, with at least one similar beat (different outpost, different age).
+The reader already knows Anna has been doing this for years when reading the main story Ep26a. The two systems work independently but reinforce each other.
 
 **★ Red Jacket Density Supplement:** Add at least one casual red beat for ages 14-19. Someone in an outpost saw her coming from afar and called her "Red Bird" or a similar nickname. Anna didn't care. The reader's red counter chimed again. Ensure the background layer has a sufficiently thick base by the start of the main Arc 2 storyline.
 
@@ -2035,7 +2032,7 @@ Now her ears are filled with echoes again.
 Eagle's Nest Workshop sits atop a short, vertical cliff face on the upper part of the slope—sound scatters from the opposite slope, not simply bouncing back and forth, but spreading and layering along the gentle slope, becoming a warm reverberation. The hammering sounds from the valley floor, the winch sounds of the elevator, the low-frequency breathing of the windmills—they all rise up the slope, becoming weaker and more indistinct with each level, until at Eagle's Nest's height, they become a unified texture where individual sound sources are indistinguishable—"the valley floor is at work." Anna's ears remember that this phenomenon doesn't exist in the sky—sounds only speak once, and then they're gone.
 She didn't realize that this difference itself was a signal. She just felt that things she was hearing lately were getting noisier.
 
-The last time
+Last time
 Edmund said one day that he wanted to go up and take a look.
 It was a good day. He had spent the entire previous day in bed, and Miriam had brought him water three times. But this morning he sat up, dressed himself, and went to the door. The morning mist in Atheria had not yet completely dissipated—the sun was just peeking over the eastern cliffs, its light a pale, slanting yellow, like that of late winter or early spring.
 "Let's go?" he said.
@@ -4101,6 +4098,15 @@ After the race, Anna asked Joren, "Who is that from the plains?" Thirty words. F
 **M-Cover in Situ (Warm-up or Return Flight):** Both pilots are in their skiffs. A sudden change in airflow. Anna's hand covers Milo's—covering it and guiding him to the correct position. One second. Release.
 Milo: "...You could just say 'left'."
 Anna: "Next time."
+[Perceptual Evolution Anchor Point · Blue Hyacinth #2 · Childhood 1.4 echo]
+; Warm-up before the race or skiff crossing—Anna flies over the cliff below Eagle's Nest from the air.
+A landscape description in one sentence: The clump of blue hyacinths is still there.
+When I was six years old, I could see the petals with my nose pressed against the rock face as I peered at them; now, as I fly overhead, all I see is a blue dot.
+The same cluster of flowers, the perspective shifts from close up to looking down. The distance between perception and the world changes—this is after the memory trilogy in Ep22-24.
+Physical evidence of Anna's first flight in the same valley at the age of 19.
+No separate paragraph needed. Embedded within the skiff's description of the flight landscape. First read: Scenery. Review: Visualization of perceptual evolution.
+Echoing: Childhood 1.4 (Blue Hyacinth Origin) → Here (Change of Perspective) → Ep62 (Payoff)
+
 **Ep25 Ending: Milo leaves the group.** A typical moment after the Race. Milo mentions returning to Thornfield. Anna agrees. It's a gentle matter. The normal coming together and parting of people in the Shuttle world.
 
 ## Ep26-28: Flight Route · Iris Hollow · Leaving the Valley
@@ -4161,6 +4167,18 @@ An old man stopped Anna and asked about things in the south—his daughter had m
 A unique perspective (not repeated): Scale. What does it look like to have a million people scattered across a planet? Big cities are one thing, outposts of 200 people are another—here, Anna's arrival itself is "the thread on the loom being stretched taut." The Archeon civilization wasn't just about canyon cities and trading hubs—its capillaries were these small settlements on the grasslands, connected by shuttle people.
 
 **Seed #3 Candidate – Young Apprentice's Gaze:** A settlement of 200 people, everyone visible. Anna sees a thirteen or fourteen-year-old helping to move things or doing some small chores. Her gaze lingers for three seconds longer. Then she turns and continues walking. This moment in the small outpost is more intimate than in Atheria or Iris because no crowd can disappear into it.
+
+; [Perception Evolution Anchor Point - "Integration is still ongoing, sharing has disappeared" empty beat - Deployed from timelapse Part V instruction]
+★ Station 2's outpost is the best deployment location for this beat. Anna is using this small outpost to inspect a hydraulic system or pipe.
+Place your hand on it. What do you hear—perhaps a change in the frequency of a bearing about to come loose, or perhaps the stratification of water flow inside a pipe.
+She stopped. The feeling of that stop was exactly the same as that of M-06 River Stone from her childhood—her body did what Edmund had taught her.
+But Edmund is gone. The laughter of "the world suddenly has one more person" will never return.
+She continued working. When she finished, she left. Without telling anyone.
+Reader knew she heard it. That laugh, "There's one more person in the world," had just been fully shown in episodes 22 and 23.
+★ Function: To prepare for the emotional energy of the three-second pause in Lia's translation in Ep42-43.
+Without this empty beat where "no one caught it," Lia's "catch" weight wasn't enough.
+Lia is the first person in six years to receive Anna's perceptions from the outside.
+Echo: M-06 (Edmund shares highlight) → Here (share disappears) → Ep42-43 (Lia catches)
 
 | Layer | Our Understanding |
 |---|---|
@@ -4322,6 +4340,21 @@ Anna was invited to tell Atheria stories. She told them in the Atheria way—pre
 
 **Sunberry Echo**: When Anna was asked to "tell a story using taste and temperature" during Story Night, Sunberry's memory was actively recalled—she tried to tell this memory to a stranger for the first time.
 
+[Perceptual Evolution Anchor Point · Blue Hyacinth #3 · Story Night Dialogue Embedded]
+When Anna talked about sunberries, she mentioned the scenery near Eagle's Nest: "Sunberries grow high on the sunlit rock face, with a cluster of small blue flowers in a crevice next to them."
+Anna unconsciously brought up the hyacinth when she was telling a stranger about it. She herself didn't think there was anything special about it—
+That's what's in front of her house. But the reader will remember it when rewatching Episode 62.
+★ In Anna's memory, blue is the "background"—not something that is noticed, but something that is always there.
+This is exactly the definition of P-10. Half a dialogue. No emphasis.
+Echoing: Childhood 1.4 (origin) → Ep25 (aerial view) → Here (background color in memory)
+
+[Perceptual Evolution Anchor Point · Perceptual Expression Mode Node]
+The moment of "telling stories with taste and temperature" during Story Night is itself a node in the evolution of perception.
+Anna was forced to switch from a causal chain organization to a sensory organization to retell her memories. The way perception was expressed changed, and it wasn't just perception itself.
+This marks the first intersection of the Edmund axis (causal chain/logic) and the Miriam axis (sensory/living things) at the expressive level:
+Anna reorganized what Edmund had taught her in Miriam's way.
+No new scene is needed—the story itself carries the weight. Simply mark this layer when writing.
+
 [Anna solo's story night vulnerability]
 If Milo were there, Anna might dodge the "storytelling" task (let Milo say a few words and add technical details herself).
 When she was solo, she had no buffer. When asked to "tell me what you smelled," she had to confront Edmund's memories alone.
@@ -4376,6 +4409,22 @@ Sara/Kaelan | Skyleaf Coordinator | Sara knows things Anna doesn't |
 ### Ep32-33: Frontier City Arrival + Behavioral Tell Stage 1
 
 **Frontier City Landscape:** Archeon's largest settlement, housing 300,000 people. From the air, it appears as a **cross-section of an undulating mountain range**—several 100-200 meter pylons (CI-era megastructures encased in 500 years of human growth layers, their matte green-copper shells covered in vines) emerge from a thick, dense matrix of terraces. Each pylon is layered, with sky piers cantilevered from its middle and top sections; the base of the pylons is nestled within a mass of plazas, low-rise buildings, and skybridges, never isolated. The density is gradient—the densest at the core of 500 meters, dissipating into the bass farmland 1-2 kilometers outwards, without clearly defined city walls. The air between the pylons is woven with a network of basalt fiber cableways, gondolas moving diagonally like fireflies strung on spider silk; two or three large, dark green, cocoon-like float rail carriages weave through the pylons; and skylights, like dandelions, are scattered in the low sky. The interior is high-density—cobblestone streets, skybridges crisscrossing overhead, steam pipes hanging from the edge of the terrace, sunlight filtering through gaps in the pier's floor and casting moving patches of light on the lower streets. The soundscape: unlike Atheria or Iris Hollow—not canyon echoes or plain scattering, but density. Human voices, hammering, steam, the sounds of moving goods, airship engines, the clatter of gondola wheels, the whooshing of pneumatic capsules through the walls in the distance—all these sounds are compressed together by the buildings, forming a continuous, predominantly mid-to-high frequency urban noise floor. Anna's perception system here required a third baseline reconstruction.
+
+[Perceptual Evolution Anchor Point - Acoustic Recalibration #3 - P-23 First On-Screen Test]
+Frontier is Anna's third acoustic environment (Atheria reverberation → Iris anechoic → Frontier density compression).
+Her ears underwent a third recalibration—this time not because the sound was "dispersed" (Iris), but because there was "too much sound, too dense, too close together."
+In short, Anna's listening behavior behaves differently in this environment:
+It's not about separating individual sound sources, but about reading the whole rhythm.
+★ This is the first on-screen presentation of "Anna went to the settlement not to fix things—but to read rhythms" on page 23.
+Note: This beat is embedded in the landscape prose that the Frontier arrives at, and is not a separate paragraph.
+It doesn't steal the spotlight from the Kassia intro + Bram beat + Lia Stage 1 in the same episode.
+;
+[Perceptual Evolution Anchor Point - Miriam Axis Adult Extended Seed]
+At the Frontier market, Anna observed someone's gait/behavioral pattern and gleaned information without the person needing to speak.
+(For example, "That businessman's business is not good today" or "That mechanic is pretending to be fine with a hand injury").
+Half a sentence. Not an emphasis. The extension of Miriam's "reading living things" into adulthood:
+From bird behavior (childhood, directly taught by Miriam) → human rhythm (here) → settlement rhythm (P-23 direction).
+Echo: Miriam's childhood seeds → here → Ep48-50 (read Lia's breathing in Edmund's listening style = the confluence of the two axes)
 
 **Ep33 Stage 1 (~300 words):** Anna notices Lia in the Frontier crowd. A casual observation: "She's thinner than last time."—This reveals that Anna is tracking this child, and for a long enough period to compare changes in body shape. Kaelan is next to Lia, and he nods in Anna's direction—a weighty nod, not a greeting, but an acknowledgment. Anna takes three steps toward Lia. Then she stops. A three-second pause—**This is the first time a present-tense three-second pause has been used on Lia, without explanation.** Anna walks over, greets her normally, her tone precise enough to be "just right."
 ）
@@ -4567,6 +4616,14 @@ If you believe the world won't correct itself, then you have to correct everythi
 **Skyleaf settlement:** A mountain village on the eastern slopes of Serpent's Tooth. The settlement is built along a glacial meltwater river—extending eastward from the mouth of a high mountain valley to the shores of a high-altitude lake. Unlike the Frontier megalith style, it is more "embedded in the terrain": the upper section is built into the mountainside, partly excavated into the valley walls (utilizing the thermal mass of the rock for insulation), and partly built on a CI terraform platform (covered with 500 years of soil and root systems, resembling a natural terrace); the lower section unfolds along the lakeshore, lower and more level. It possesses a predatory urban mountain village character—growing along the mountains and facing the plains. The population is in the thousands. Remote but not isolated.
 **★ Skyleaf Soundscape Baseline (M-14 Echo):** Anna's first "hearing" in Skyleaf. The soundscape is **asymmetrical**—unlike any environment she's ever experienced. The Atheria Valley is an acoustic amplifier (bouncing from both walls), the Iris Plain is an acoustic absorber (no echo), and the Frontier is an acoustic compressor (density). Skyleaf is **semi-open**: turning towards the mountains/west—the valley walls direct, prolong, and superimpose sound, with hammering sounds carrying an echo tail when they come from a workshop upstream; turning towards the lake/east—the sound dissipates directly into the open air above the plain and lake, disappearing and never returning. Anna stands in the middle of the settlement and turns around; the world's acoustics shifts from enclosed to open. The flower fields are in the upstream geothermal zone—the collective rustling of the plants is carried down the valley by the wind, a continuous low-frequency rustling sound. The sound of the river is the only constant that runs through both sides.
 Anna's recalibration moment: The soundscape here overlaps with the "place he'd been" described by Edmund in M-17 using sensory fragments—"the smell of the wind changed after the pipes were opened." We recognize this place before Anna does: this is the place Edmund was talking about.
+[Perceptual Evolution Anchor Point - Acoustic Recalibration #4 - Skyleaf Half-Open, Half-Closed]
+The Skyleaf soundscape is the most complex acoustic environment Anna has ever experienced—not a single feature (Atheria = enclosure, Iris = openness, Frontier = density).
+It is a coexistence of enclosure and openness. Anna's ears were asked to process two acoustic systems simultaneously for the first time.
+; ★ It's the same acoustic vibration I felt when the M-09b first flew out of the canyon as a child—but in reverse.
+M-09b transitions from enclosed to open (the cliff disappears, the echo is gone). Skyleaf is a combination of enclosed and open spaces.
+It's not a case of hitting a wall (like Iris's "method failure"), but rather an expansion of capacity—Anna's perceptual radius is required to become bidirectional here.
+Echoing: M-09b (enclosed → open, unidirectional vibration) → Ep27 Iris (method failure, cognitive breakthrough) → Here (bidirectional, capacity expansion)
+This beat is embedded within the soundscape description arriving in Ep40, and is not a standalone segment. Prose coverage is already available, so no new scene needs to be added.
 **★ Skyleaf's Vista (Lia's Scale-Shocking Vehicle):** Looking towards the lake from the eastern end of the settlement—the high-altitude lake unfolds several kilometers away, a serene blue. The plains stretch to the horizon. Looking back—5000-6000m snow-capped peaks press down from above the valleys, glaciers glowing blue high above. Two worlds within one frame. It shares the same planetary-scale visual structure as the "two worlds in one body" of the Grand Canyon in Episode 13, but the register is completely different—the Grand Canyon is a vertical split, while Skyleaf is a horizontal unfolding.
 **Lia treatment:** Ember Crown steam inhalation therapy requires 7-10 consecutive days, once daily. The healer will assess the effectiveness after the course of treatment. Internal clock ep40-43.
 **Edmund's Background in Skyleaf:** Approximately 20 years ago, Edmund had recently married Miriam. As a high-ranking Atheria mechanic, he accepted support missions via the Loom shuttle system. He flew to the slot canyon (with a stable summer window) and stayed there.
@@ -4605,6 +4662,19 @@ Edmund only designed red. Anna doesn't just belong to Edmund's designs—she bel
 Red = given by Edmund = causal chain = worn = chosen. Gray, white, and blue = given by the world = inherently so.
 It matches P-10 perfectly. It avoids the "missing color" narrative gap—all four colors are present in three registers simultaneously.
 The reader decides how much is design and how much is rhyme. The answer is both.
+[Perception Evolution Anchor Point - Blue Hyacinth #4 - "Blue = Anna's Eyes" Seed - This is the optimal deployment location]
+; In the intervals of the color resonance beat (a certain interval between Torben and Anna speaking/talking about fragments of Edmund's notes).
+Add a micro-beat: Torben paused for a second, staring at Anna's face.
+★ Scene: Anna stands in a flower field, Torben turns around and calls to her—
+A person in a red jacket and white shirt stands against a backdrop of red flower fields, the wind blowing their hair.
+Blue eyes are particularly noticeable in K2V warm light.
+What Torben saw was: blue eyes in a red world.
+Torben doesn't formulate. Prose doesn't formulate. The picture is there. The reader's eyes see it for themselves.
+; To Ep62 Hyacinth—"Blue is not a causal chain. Blue is just there"—
+The reader's body already knew: the blue that was "just there" on Anna's body was her eyes.
+The red jacket was designed by Edmund. The blue eyes weren't. The red was a choice to wear. The blue was genetic.
+It wasn't even necessarily Edmund who gave them the blue eyes (if the blue eyes came from Miriam or a more distant genetic lineage), but rather the world.
+Echoing: Here (seed) → Ep62 (Blue Hyacinth Payoff - Reader Automatically Completes Circuit)
 ★ Edmund network node #4 deployment (common house woman - take a second look when handing over food).
 Healer's words to Sara (Anna may or may not have heard): Flowers can soothe, but not cure. Old wounds are in the lung tissue, difficult to separate from congenital ones. Her register is "This is her body, we manage it"—no promise of a cure, **no implication of a "stronger formula"**. No mention of the North Side facility. No mention of a path to future improvement. Healer is someone who doesn't leave future-tense hope hanging at the end of his sentences.
 
@@ -4676,6 +4746,12 @@ Anna's finger hovered over the valve. "...Waiting for confirmation."
 Lia: "Confirm what?"
 Anna (long beat): "I've confirmed that there were no errors in the previous step."
 Lia's precise observation remains—but what she sees is **behavior** (pausing) and **emotion** (waiting). We can still feel the weight of the three-second pause, but it's conveyed through Lia's own perspective of "waiting for what." Let Lia be the observer; Anna no longer labels it.
+[Perceptual evolution anchor point · Direction reversal · Read by another person's perception]
+★ This was the first time Anna's perception had been "read" by another person. Before that, all of Anna's perceptions were of her reading the world outwards.
+Lia's label: A three-second pause is a reversal of direction—the world (via Lia) is reading Anna.
+; Previous: Ep26a empty beat (no one caught it). Here: Lia caught it. The "no one" in Ep26a to the "someone" here = a six-year closure.
+Post-episode 67: Repair beat (Anna reads Lia's pause) – the mirror of Anna and Lia reading each other is complete.
+Echo: Ep26a (no one responds) → here (Lia responds) → Ep67 (Anna's pause when reading Lia = mirror)
 Then Anna taught Lia how to do a simple valve check. Hand in hand—Anna handed Lia a tool, but Lia's hands weren't strong enough to grip it tightly, so she used both hands. After completing the first step...
 **Lia didn't look up to wait for Anna's evaluation.** She immediately focused on what to do next. For someone who had always been told to sit and watch, this was the first time she was experiencing the rhythm of "there's always a next step after completing one." For an apprentice, this was a routine. For Lia, it was new.
 Look at your own hands. Then look at Anna's hands.
@@ -4805,6 +4881,16 @@ This allows the three nesting layers of Ep45 cascade (Edmund's unfinished journe
 Not Wonder. Not the Awe of Ep13. The senses are cold, thin, and stripped.
 Kassia was actually more stable than Anna in thin air—her instrumentation method did not rely on hearing.
 Anna's body-first approach has been partially downgraded. The differences between the two methodologies become physically apparent in extreme environments.
+[Perceptual Evolution Anchor Point, Anna-Kassia Perceptual Intersection, Methodological Failure Mode Comparison]
+A prose-level comparison seed: Kassia checks the instruments, Anna closes her eyes and tries to listen to the wind.
+Kassia's data panel provided a clear pressure gradient. Anna's ears gave a vague signal, weakened by the thin air.
+The two people are doing the same thing—reading the environment. The amount of information they obtain overlaps at this altitude:
+Kassia's method provides more information than Anna's method for the first time.
+Anna closing her eyes and frowning vs. Kassia looking at the data panel and nodding—both are in the same frame. No narrator explanation needed.
+★ Function: The methodology is not about who is better—it's about having different failure modes under different conditions.
+The child flight continuum perceived the boundaries of extreme altitudes. This foreshadows the fog section of Ep57.
+; Ep57 Anna loses all external access but retreats to proprioception—more stable than Kassia. Here, the opposite is true.
+Echo: M-30 (high-altitude hearing degradation) → Here (intersection) → Ep57 (proprioception extreme, Anna more stable)
 
 **Ep45 — Lia's Complete Memories Unfold ★★★ (~8-10K words)**
 Direction: **Strip away all insulation**. Anna isn't doing analysis here. Her body is reliving the experience.
@@ -4869,6 +4955,17 @@ It says, "Anna has been with my daughter for six years. I know I will never forg
 **★ Lia's improvement occurred outside the scene:** Days later, the healer prepared a new formula. Lia performed the treatment. The inflamed area began to be controlled. But Anna wasn't there to observe. Anna indirectly knew the treatment was working from **a change in Sara's eyes**—one day, Sara glanced at Anna in the common house; it wasn't cold, nor warm, but rather—something was missing. The reward never arrived.
 
 **Lia's worsening aftermath:** Lia's lungs haven't improved to the level they were in before coming to Skyleaf—they've roughly returned to their initial condition, perhaps slightly more stable. "Manageable" = "No significant worsening." No cured moments.
+
+[Perception Evolution Anchor Point - Edmund Axis + Miriam Axis Confluence - Ep63 Winch Scene Pre-positioning]
+★ During Ep48-50 (the moment when treatment results are uncertain), add half a sentence about background behavior:
+Anna is in a corner of the Skyleaf common house, and Lia is doing something a few meters away.
+Anna's ears were tracking Lia's breathing rhythm in the background. She herself was unaware that she was doing it.
+This isn't diagnosis (the Edmund-axis "listening to the dead" approach). It's more of a Miriam-axis thing—reading the rhythm of a living person.
+★ The Edmund axis (reading inanimate objects) and the Miriam axis (reading living objects) intersected at this moment:
+Anna began to do what Miriam had taught her—read a living person—with the precision of listening that Edmund had taught her.
+The first on-screen evidence of the confluence of the two axes.
+Follow-up: Episode 63, the winch scene, "I heard Lia's breathing in the silence"—the origin of habit is here.
+Echoing: P-01 two sensory axes → here (merging origin) → Ep63 (merging on-screen payoff)
 
 **★ Chip discovery (Ep48-50, exact location to be determined)**:
 
@@ -5018,6 +5115,20 @@ Anna may have noticed that a pilot who only flies the Basin mainline won't have 
 The reader now has two data points: she is listening to a disappearing frequency band + she has been to this desert.
 No need to say it. In Ep58, when she couldn't sleep while looking at the river of light above the desert, the reader would connect on its own.
 **Anna-Kassia Flight Friction (Core Beat):** During the foggy section, Kassia loses visual reference. Her accuracy depends on vision—losing sight instinctively drives her to accelerate and escape. Anna slows down, letting the sea breeze updraft do the work for them.
+[Perceptual evolution anchor point, proprioception, extremes of the perceptual continuum, mirror at the Ep44 intersection]
+Anna closed her eyes in the sea fog. She couldn't hear the cliff face (the fog swallowed the echoes). She couldn't see the ground.
+But she could feel the updraft—not through her ears, but through the slight vibrations of the control lever and the changes in her own body's gravity.
+This is a more fundamental level of perception than "hearing"—proprioception.
+The continuum of kite → glider → skiff → airship reaches its extreme here:
+All external sensory channels are weakened by environmental conditions, leaving only the body itself as the last instrument.
+It's not a new ability—the tension of the kite string in your hand is the first classroom of proprioception (Childhood §2①).
+But in the sea fog, everything that was learned later (hearing, seeing, smelling) faded away, and the most primitive layer resurfaced.
+★ The contrast with Kassia is completely opposite to that of Ep44 at high altitude:
+; Ep44 Thin Air — Anna loses her hearing → downgrades, Kassia relies on instruments → stable.
+; Ep57 Sea Fog — Kassia loses her sight → panic → wants to speed up, Anna loses all external channels → retreats to her body → calm.
+It's not that "Anna is better"—it's that the two methodologies have different failure modes under different extreme conditions.
+Kassia relies on external instruments (including the eyes). Anna's most fundamental element is the body itself.
+Echoing: Childhood §2 ① Kite (proprioception origin) → Ep44 (Anna demoted/Kassia stable) → Here (Kassia demoted/Anna stable)
 Anna: "Your correction angle is nice enough. But this isn't a Razor. A three-degree list will pull the cargo hold anchors to their limit."
 Kassia remained silent, withdrawing her hand from the joystick—not because she was convinced, but because Anna was right on a physical level.
 **★ Kassia micro-experiment (no correction beat):** After emerging from the fog. Dry air turbulence on the plateau. Kassia's hand **didn't move**. This time she waited—let Anna handle it. Anna handled it. The airship stabilized. No need for Kassia's pre-emptive correction. The wind returned on its own. Kassia said nothing.
@@ -5030,6 +5141,13 @@ Anna felt the tremor. She didn't say anything.
 Intermediate ring design: Kassia tried not fixing it → good. Now fixing it → worse.
 The Ep60 winch with graduated tension has a thicker foundation.
 **★ Whispering Flats (Nighttime):** The Earth's surface is a crystalline salt crust. At night, when the wind rubs against the crystalline surface, the crystals break into tiny fragments, releasing electrical charges and producing triboluminescence—**blue-green light waves that move with the wind**. The light changes with the wind—when the south wind blows, the south lights up first, and the light waves expand northward; as the wind changes, so does the light. It's like the Earth is breathing, and the trace of that breathing is light.
+[Perceptual Evolution Anchor Point - Blue Hyacinth #5 - Blue-green in Ochre]
+Blue-green light waves spread across the desert night. Anna saw the blue ripples on the ground from the airship.
+This blue is different from the blue of hyacinths—it's physical, cold, and inorganic.
+But it appears blue in the ochre of the desert—just as the hyacinth appears blue on the basalt's grey walls—
+It is the same kind of existence that "shouldn't be there but is there".
+A landscape description in one sentence. No Anna parse needed. The reader's blue counter beeped again.
+Echoing: Childhood 1.4 → Ep25 → Ep27 → ​​Ep41 (Blue Eyes) → Here → Ep62 (Payoff)
 Atop their heads, bands of purple and rose-colored nebula light. Beneath their feet, blue-green frictional fluorescence. Between the two bands of cool light above and below, the airship lights and campfire are the only warm colors. The wind-milled crystalline surfaces emit a continuous, extremely low-frequency hum—"Whispering Flats" is a literal description.
 **★ Kassia's Night (Anna's Visible Part):** Night. Camp. Anna wakes up at some moment—by the wind or the cold. She goes outside. The Razor cockpit lights are still on. Kassia is inside—Anna can see her silhouette, but not her expression. Nebula-like bands of light overhead, the blue-green frictional fluorescence of the Whispering Flats beneath her feet—between the two cool lights above and below, the warm-colored lights of the Razor cockpit are the only artificial light.
 Anna didn't go over. She went back to sleep.
@@ -5106,6 +5224,17 @@ Anna noticed. No comment. She lightly touched the passenger-side control stick�
 Anna didn't stop the boat. She just watched them for a few seconds as they passed by.
 She had seen red flowers at Skyleaf—Ember Crowns, their deep red corollas like solidified flames. Edmund's pipes kept those flowers alive. Red was the cause and effect chain.
 Blue is not a causal chain. Blue is simply there. In the most unlikely place, it takes root in the unseen, and it blooms for no one.
+[Perceptual Evolution Anchor Point - Blue Hyacinth #6 - PAYOFF - Color Circuit Completion]
+Anna looked at the hyacinth for a few seconds. The prose doesn't give any explicit links.
+But if the blue seeds in Ep41 are planted well (Torben's vision + Anna's blue eyes in the red flower field).
+The reader will automatically complete this circuit here:
+The blue of the hyacinth = the blue of Anna's eyes = something that doesn't need anyone to be there = that part of her that she has always been.
+The red jacket was designed by Edmund. The blue eyes weren't. The red was a choice to wear. The blue was genetic.
+★ The Red Jacket accumulates six times and explodes in Ep61. The Blue Hyacinth accumulates six times and pays off here.
+The two colored lines converge one after the other in the same Arc 4 return segment.
+Cumulative Summary: Childhood 1.4 (origin) → Ep25 (Aerial View) → Ep27 (Story in the Night)
+→Ep41 (Torben's Vision - Blue Eyes) →Ep58 (Blue-Green Light Waves) →Here (payoff)
+→Ep67 (Looking up after repairing the marks - final echo)
 
 **Ep63 — Homecoming, Reunion with Lia, Winch (~6-8K words)**
 Direction: The green belt is back—Quiver-Leaf silver leaves shimmer. The air has turned from dry to humid. The taste is grass and earth. The taste is home.
@@ -5187,6 +5316,14 @@ Anna's three-second pause here takes on a new quality—not a pause of guilt, no
 The progression is explicit: from observing another person → to taking measurements with one's own hands → to growing branches from Anna's methodology that Anna didn't grow.
 Lia isn't imitating Anna; she's branching. She's carrying on the legacy of the second branch—
 Edmund→Anna is the first step, Anna→Lia is the second step, and Lia herself adds a step, which is an extension within the branch.
+[Perceptual Evolution Anchor Point · Inherited Physical Forms · Edmund-Anna River Stone Echo]
+★ When Anna was teaching, she also placed her own hand on another section of pipe next to her. It wasn't a demonstration—it was a habit.
+Two people's hands are simultaneously "listening" on different parts of the same system.
+What Lia heard was different from what Anna heard—because the two ends of the pipe were in different states. But they were listening in the same way.
+Inheritance is not "teacher teaching student"—it is two people doing the same thing at the same time, each receiving their own information.
+; ★ Edmund and Anna were like this on the river stones—"not a teaching instruction, but he was listening to it himself and casually called her to join in" (M-06).
+Anna is now doing what Edmund did. She doesn't know it.
+Echo: M-06 (Edmund + Anna Riverstone - Shared Listening) → Ep26a (Shared Disappearance) → Here (Rebirth)
 This gives the forward-looking line in Ep67, "Your hands won't hurt me anymore," enough cognitive capital.
 When someone who can take the next step says, "You can let go now," the weight is real.
 Anna's pause-based quality evolved from the defensive nature of the M-26/M-27 to a recognition of "seeing others surpass oneself"—
@@ -5263,6 +5400,22 @@ Anna first "sees" Lia by touching things Lia has done.
 The way to understand mechanics is through tracing. Now, tracing incorporates elements of "listening".
 It inherits the essence of "visible" without being explicit. No dialogue is needed. The repaired marks speak for themselves.
 Anna didn't say anything. She left.
+[Perception Evolution Anchor Point · Blue Hyacinth #7 · Final Echo]
+Anna looked up after touching the repair mark—if this window latch were near the Eagle's Nest (or some building in Basin).
+The distant cliff face could be seen through the window frame. Anna's gaze naturally drifted in that direction—
+The location of that cluster of blue hyacinths on the distant cliff. I didn't look at it intentionally.
+No internal monologue is needed. Prose only provides visuals:
+A hand that has just finished reading another person's pause; a window; a small patch of blue on a distant rock face outside the window.
+The reader won't notice it on the first read. On the second read: the blue color has been there since Ep25, and Anna never really paid attention to it.
+This perfectly matches the definition of P-10—"It grew on its own, it's always been there, and it doesn't need anyone else's."
+Echoing: Ep62 (payoff) → Here (the lingering effect of blue appearing for the last time in the background layer)
+;
+[Perception Evolution Anchor Point·Traces Repair = Perception Mirror Completion]
+; Ep42-43: Lia's pauses when reading Anna (direction: world → Anna).
+; Here in Ep67: Anna pauses when reading Lia (direction: trace of Anna → Lia).
+The mirror is complete. The two people "see" each other through their own senses.
+It's not symmetrical—Lia uses language to label ("Your hand will stop between each step"), while Anna uses tactile reading (the starting force of the repair mark).
+Two different ways of perceiving saw the same thing: the other party stopped before taking action.
 **★ Lia Knows (micro-beat):** Later that same day, Anna and Lia were doing something small on the boardwalk—checking the bolt from yesterday. Anna crouched down. Her hand reached towards the metal surface near Lia—and paused reflexively. That familiar prelude to withdrawing.
 Lia didn't look up. She continued doing what she was doing.
 "Your hands won't hurt me anymore."
@@ -5302,6 +5455,19 @@ Her job wasn't to make the two systems speak the same language—it was to quiet
 In episode 64, Anna touches Core but hears nothing—she's trapped in "what I have to do."
 ; Ep69 Take off the methodology - not that it is no longer needed, but that it is moved to the background - standing between the two ends.
 Only by taking things off can one become a bridge. Free people connect two worlds. Those who are locked up can only be bound to one end.
+[Perceptual Evolution Anchor Point · Ep69 = Perceptual Evolution Vertex · M-21 Structure Mirror]
+★ Anna quieted herself down to the point where she could hear two languages ​​at the same time—from "doing" to "not doing," from skills to silence.
+This and the M-21 temperature disappearance (12-13 years old) are a pair of structural mirrors:
+M-21 was passive—Edmund's decline caused Anna's sensory space to shrink passively, and the disappearance of temperature was something she had no choice but to accept.
+; Ep69 is proactive—Anna chooses to quiet herself down and let the methodology take a backseat.
+Passive contraction vs. active expansion. The same kind of "subtraction," but in completely opposite directions.
+M-21 subtracted the world. Ep69 subtracted itself.
+★ The complete arc of perceptual evolution from childhood to the present:
+Pure sensory development (3-6 years old) → Edmund-guided listening (6-12 years old) → Passive contraction (12-13 years old, M-21)
+→ Reopen independently (ages 14-19) → Acoustic recalibration chain (Ep27-40: Methods adapted to different environments)
+→ Two-axis convergence (Ep48-50 • Reading live people using Edmund's method) → Proprioception extreme (Ep57 • Emerging from the lowest level)
+→ Here: Active subtraction—shed all methodologies and let the body become a pure bridge.
+The endpoint of the evolution of perception is not "stronger perception"—it is "quiet enough to allow two worlds to speak through her".
 The core emits a low-frequency hum. **The first sound in 500 years.** Crystal responds—different frequencies, but harmonic compatible. The two sounds overlap.
 **★ Projection: Fragments of the Human Civilization Database**
 An image appears on the screen. **Silence.** The image quality is poor—like looking at another world through water. Color shifts and dropped frames. But it's still recognizable.
@@ -5338,6 +5504,73 @@ From "far" to "near" to "in front of"—the process of being surrounded is compl
 ; Ep61 Axiom Corridor (distant, 500 years ago, private) → Ep66 Basin Corridor Projection (close, same building) → Ep69 Touching the Wall (in front, hand touching the wall).
 The wall doesn't flip over—her math is still correct, just less certain.
 The final scene of Act 1: A nihilist's hand is pressed against the wall, on which is a smile from 500 years ago.
+
+### Arc-level ban
+
+- Axiom internally prevents Anna from dramatizing the three-layer information collision (she doesn't explain, readers have to spell it out themselves).
+- After Ep61, Anna no longer performs explicit grief scenes (P-24—Edmund is not a poet, nor is Anna).
+Lia doesn't modularly mourn Anna's revelation (she already knows, she's forward-looking).
+Kassia's math is still correct, just less certain, even when it touches the wall.
+Kepler Core does not perform "puzzle-solving" type of positivity.
+
+---
+
+## Appendix: Quick Reference Table of Adult Perceptual Evolution Anchor Points + Blue Hyacinth Cumulative Deployment Table
+
+**Usage:** When writing an episode, check here to confirm if the episode has any perceptual evolution or blue line beats that need to be deployed. All anchors are marked with `; [Perceptual Evolution Anchor]` and embedded in the writing guide comment for the corresponding episode paragraph.
+
+### A. The Evolutionary Chain of Adult Perception (Arc 2-4: Echoing System with Childhood Episodes 22-24)
+
+| Ep | Perceiving Beat | Echoing Childhood/Principles | Form |
+|---|---------|-------------|------|
+| Ep25 | Blue Hyacinths from the Air: A Perspective Changing from Close-up to Overhead | Childhood 1.4 (Looking at Flowers from the Rocky Wall) | A One-Sentence Landscape |
+| Ep26a | "Nobody catches" empty beat · What did you hear when you put your hand on the pipe wall · Continue · Nobody says | M-06 (Edmund shared highlight) | Half of the background scene |
+| Ep27 | Perceptual Expression Nodes: From Causal Chains to Sensory Organization | Intersection of Edmund Axis + Miriam Axis Expression Layers | The Story Night Itself Carries |
+| Ep33 | Frontier rhythm-reading: Reading the overall rhythm, not separating individual sound sources | First on-screen appearance on page 23 | A sentence embedded in the landscape |
+| Ep33 | Miriam's Axis: Adult Extension - Reading People's Behavioral Patterns | Miriam's Childhood Seeds | Half a Sentence |
+| Ep40 | Skyleaf Semi-Open Acoustics: Enclosed and Open Spaces Coexist | M-09b (Enclosed → Open Space, Unidirectional Vibration) | Prose Coverage Available |
+| Ep42-43 | Lia label: three-second pause, perception of direction reversal (the world reads Anna) | Ep26a (No one catches it → catch it here) | Dialogue already available |
+| Ep44 | Anna-Kassia Perceptual Crossover · Thin Air Anna Degradation Kassia Stable | M-30 High-Altitude Hearing Degradation | One-line summary in the same frame |
+| Ep48-50 | Anna Listens to Lia's Breathing - Edmund Axis + Miriam Axis Convergence | P-01 Two Perception Axis Lines | Half a Sentence Background |
+| Ep57 | Proprioception Extreme - All external channels exit, the lowest level of the body emerges | Childhood §2 ① Kite (Proprioception Origin) | Embedded in sea fog flight segment |
+| Ep62 | Blue Hyacinth Payoff | P-10 Color Structure Alignment | Complete Scene (Already Available) |
+| Ep64 | Two people listening simultaneously on the same system - passing on physical forms | M-06 (Edmund + Anna Riverstone) | Half-sentence behavior |
+| Ep67 | Revision Reading - Perceiving Mirror Completion (Anna's pause when reading Lia's name) | Ep42-43 (Lia's pause when reading Anna's name) | Existing Scene |
+| Ep69 | Active Subtraction · Detachment Methodology · M-21 Structural Mirror | M-21 Temperature Disappearance (Passive Contraction) | Existing Scene |
+
+**Progression Path:** Pure sensory perception → Guided listening → Passive contraction → Independent reopening → Environmental adaptation → Convergence of two axes → Properception extreme → Active subtraction. The endpoint is not "stronger perception"—it is a quietness that allows two worlds to speak through her.
+
+### B. Blue Hyacinth Cumulative Deployment Table
+
+| # | Episode | Format | Reader noticed? |
+|---|---------|------|-------------|
+| 1 | Childhood 1.4 (Age 6) | Anna lies on the rock face, looking down, and asks Miriam why it grew in such a difficult place | Will—Complete scene |
+| 2 | Ep25 (Skiff Crossing) | A blue dot seen from the air on the cliff below Eagle's Nest | No—a landscape in a word |
+| 3 | Ep27 (Story Night) | Anna mentioned "small blue flowers in the crack next to the sunberry" when talking about sunberries | No—half a sentence in the dialogue |
+| 4 | Ep41 (Skyleaf Flower Field) | Torben sees Anna → Blue eyes in a red flower field; a layer of color resonance beat | Possibly—color resonance beat |
+| 5 | Ep58 (Whispering Flats) | Blue-green light waves in the crystalline plains amidst the ochre-red desert | Possibly—but categorized as landscape |
+| 6 | **Ep62** (★ Payoff) | Hyacinth Returns in Full—"Blue is not a causal chain. Blue is just there" | **Will—Designed this way** |
+| 7 | Ep67 (After Repairing the Scars) | Anna looks up, at a small patch of blue on the distant cliff face | No—a single sentence background |
+
+**First reading:** The reader only remembers #1 and #6; everything in between is noise.
+**Second Reading:** The blue color has been there since Ep25, and Anna never really paid attention to it. This perfectly matches the definition in P-10—"It grows on its own, it's always been there, it doesn't need anyone else's."
+
+**Structural Symmetry with the Red Jacket Line:** The red jacket accumulates six times before exploding in Ep61. The blue hyacinth accumulates five times (#2-#5+#7) before payoff in Ep62. The two colored lines converge one after the other in the same Arc 4 return segment. Red = given by Edmund = worn = causal chain. Blue = grew by itself = always there = rooted.
+
+### C. Quick Reference for Acoustic Recalibration Chain
+
+| # | Environment | Acoustic Characteristics | Anna's Recalibration | Ep |
+|---|------|---------|--------------------|----|
+| 1 | Atheria Canyon | Semi-open amphitheater with gentle slope scattering reverberation | Baseline (no recalibration required) | Childhood |
+| 2 | Iris Hollow Plain | Echoes, Sounds Dispersed and Never Returning, Turbulent Wind Noise | First Failure of "Hearing" | Cognitive Breakthrough: The Method is Local | Ep27 |
+| 3 | Frontier City | Density Compression: All Sounds Squeezed Together | From Separating Individual Sound Sources to Reading the Overall Rhythm | Ep33 |
+| 4 | Skyleaf Valley | Semi-open, semi-closed – two acoustic systems in one turn | Expanded capacity – handling both enclosed and open spaces | Ep40 |
+| 5 | Serpent's Tooth | Thinning out, high frequencies die first, low frequencies go further | Hearing degradation, defense mechanism physically weakened | Ep44 |
+| 6 | The Wash | The fog swallows the echo; all external channels are weakened | Proprioception emerges; the body itself is the final instrument | Ep57 |
+
+**Progression Direction:** From "Method Failure" (Iris) to "Method Adaptation" (Frontier/Skyleaf) to "Method Degradation" (High Altitude) to "Method Exit and Body Emergence" (Sea Fog).
+
+
 
 
 

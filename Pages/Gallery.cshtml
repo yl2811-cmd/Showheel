@@ -1,0 +1,37 @@
+@page
+@model Showheel.Pages.GalleryModel
+@{
+    ViewData["Title"] = "Gallery — All Works";
+}
+
+<section class="kd-detail-hero kd-gallery-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/hero-city.png');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">Gallery</p>
+        <h1 class="kd-detail-title">Every Frame</h1>
+        <p class="kd-detail-sub">A complete index of images on the site — concept art, environments, characters, renders.</p>
+    </div>
+</section>
+
+<section class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="kd-mason kd-mason-large">
+            @foreach (var img in Model.Images)
+            {
+                var src = "/images/" + Uri.EscapeDataString(img);
+                <a class="kd-mason-item" href="@src" target="_blank" rel="noopener noreferrer">
+                    <img src="@src" alt="@img" loading="lazy" />
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

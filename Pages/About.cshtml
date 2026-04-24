@@ -1,0 +1,58 @@
+@page
+@model Showheel.Pages.AboutModel
+@{
+    ViewData["Title"] = "About — Yingrong Lin";
+}
+
+<section class="kd-detail-hero kd-about-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/hero-city.png');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">About</p>
+        <h1 class="kd-detail-title">Cinematic Sci-Fi Universes</h1>
+        <p class="kd-detail-sub">Sci-Fi Writer · 3D Environment Artist · Minecraft Mod Developer</p>
+    </div>
+</section>
+
+<section class="kd-detail-body">
+    <div class="kd-detail-inner kd-about-grid">
+        <div class="kd-about-text">
+            <p class="kd-lead">I create long-form sci-fi stories and 3D worlds, focusing on worldbuilding, game mod development, and immersive environment design.</p>
+            <p>Currently an undergraduate student at the Rochester Institute of Technology (RIT). I work across writing, environment art, and independent game development — moving freely between concept, narrative, and real-time scene design.</p>
+            <p>My pipeline favours 3D design and PBR workflows, environmental building, and real-time scene composition. Tools: 3ds Max, ZBrush, Unreal Engine, Blender, Maya, SpeedTree, Terragen.</p>
+
+            <div class="kd-link-row">
+                <a class="kd-pill kd-pill-primary" href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a>
+                <a class="kd-pill" href="https://space.bilibili.com/3546770577558337/lists/6508504?type=season" target="_blank" rel="noopener noreferrer">Curated works on Bilibili</a>
+            </div>
+        </div>
+
+        <aside class="kd-about-side">
+            <div class="kd-side-card">
+                <p class="kd-eyebrow">Academic</p>
+                <p>Undergraduate student at Rochester Institute of Technology (RIT).</p>
+            </div>
+            <div class="kd-side-card">
+                <p class="kd-eyebrow">3D &amp; realtime</p>
+                <p>3D design and PBR workflows, environmental building, and real-time scene design.</p>
+                <p class="kd-side-tags">3ds Max · ZBrush · Unreal Engine · Blender · Maya · SpeedTree · Terragen</p>
+            </div>
+            <div class="kd-side-card">
+                <p class="kd-eyebrow">Find me</p>
+                <p>
+                    <a href="https://github.com/yl2811-cmd" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+                    <a href="https://linkedin.com/in/yingrong-lin-74524539b" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+                    <a href="https://space.bilibili.com/3546770577558337" target="_blank" rel="noopener noreferrer">Bilibili</a>
+                </p>
+            </div>
+        </aside>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,47 @@
+@page
+@model Showheel.Pages.EnvironmentModel
+@{
+    ViewData["Title"] = "Environmental Renders";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/Garden_in_the_wild1-revised.jpg');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">03 · Environments</p>
+        <h1 class="kd-detail-title">Environmental Renders</h1>
+        <p class="kd-detail-sub">Landscape, lighting, and atmosphere studies — built in Unreal, Blender, and SpeedTree.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#environment-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="environment-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="kd-pair-grid">
+            <figure class="kd-pair">
+                <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Garden in the wild" loading="lazy" />
+                <figcaption>Garden in the Wild — overgrown ruin, soft daylight bounce.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Stone bridge interior" loading="lazy" />
+                <figcaption>Stone Bridge — vaulted hall, rim-lit volumetrics.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/Image_1714248859708.jpg" alt="Mountain vista" loading="lazy" />
+                <figcaption>Warm Vista — copper sun across an open valley.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/cc043eaa809506a039685cec59eb4bb53546770577558337.jpg" alt="Architectural render" loading="lazy" />
+                <figcaption>Architectural Study — light, geometry, silhouette.</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

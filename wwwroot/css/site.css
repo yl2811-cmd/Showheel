@@ -664,6 +664,19 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 16px;
 }
+.kd-mason-3col {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.kd-mason-3col img {
+    aspect-ratio: 16 / 10;
+}
+@media (max-width: 900px) {
+    .kd-mason-3col { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+    .kd-mason-3col { grid-template-columns: 1fr; }
+}
 .kd-mason-item {
     display: block;
     border-radius: 10px;

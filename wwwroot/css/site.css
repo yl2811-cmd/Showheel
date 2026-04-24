@@ -233,7 +233,7 @@ main {
     position: relative;
     background-color: var(--bg-primary);
     background-image:
-        linear-gradient(180deg, rgba(5, 5, 7, 0.88) 0%, rgba(5, 5, 7, 0.72) 35%, rgba(5, 5, 7, 0.82) 70%, rgba(5, 5, 7, 0.95) 100%),
+        linear-gradient(180deg, rgba(5, 5, 7, 0.28) 0%, rgba(5, 5, 7, 0.12) 35%, rgba(5, 5, 7, 0.22) 70%, rgba(5, 5, 7, 0.35) 100%),
         url('/images/feature-bg.png');
     background-repeat: no-repeat;
     background-size: cover;

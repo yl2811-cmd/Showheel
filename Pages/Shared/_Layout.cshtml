@@ -1,5 +1,5 @@
 @{
-    var pageTitle = ViewData["Title"] as string ?? "Portfolio";
+    var pageTitle = ViewData["Title"] as string ?? "Yingrong Lin";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -9,33 +9,23 @@
     <title>@pageTitle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;600&family=Archivo+Black&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    <a class="skip-link" href="#hero">Skip to content</a>
-    <header class="top-bar">
-        <div class="brand">
-            <img src="/images/avatar-01.png" alt="Portfolio avatar" class="brand-avatar" />
-            <span class="brand-name">Portfolio</span>
-        </div>
-        <nav class="top-links" aria-label="Primary">
-            <a href="#hero">Home</a>
-            <a href="#feature">Projects</a>
-            <a href="#gallery">Gallery</a>
-            <a class="icon-link" href="https://linkedin.com/in/yingrong-lin-74524539b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
-                <span aria-hidden="true">
-                    <svg viewBox="0 0 24 24" role="img" focusable="false">
-                        <path d="M19.75 2H4.25A2.25 2.25 0 0 0 2 4.25v15.5A2.25 2.25 0 0 0 4.25 22h15.5A2.25 2.25 0 0 0 22 19.75V4.25A2.25 2.25 0 0 0 19.75 2ZM8.17 18H5.64V9.76h2.53Zm-1.27-9.39h-.02a1.32 1.32 0 1 1 .02 0Zm11.1 9.39h-2.53v-4.33c0-1.09-.39-1.84-1.36-1.84a1.47 1.47 0 0 0-1.38.98 1.83 1.83 0 0 0-.09.66V18H9.1s.03-7.33 0-8.24h2.54v1.23a2.52 2.52 0 0 1 2.27-1.25c1.66 0 2.91 1.08 2.91 3.4Z" />
-                    </svg>
-                </span>
-                <span class="visually-hidden">LinkedIn</span>
-            </a>
-            <a href="#contact" class="contact-pill">Contact Me</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="kd-topbar">
+        <a class="kd-brand" href="/" aria-label="Home">
+            <span class="kd-brand-mark">YL</span>
+        </a>
+        <nav class="kd-nav" aria-label="Primary">
+            <a href="/#work">WORK</a>
+            <a href="/Gallery">GALLERY</a>
+            <a href="/About">ABOUT</a>
         </nav>
     </header>
 
-    <main role="main">
+    <main id="main" role="main" tabindex="-1">
         @RenderBody()
     </main>
 

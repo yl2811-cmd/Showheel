@@ -1,0 +1,66 @@
+@page
+@model Showheel.Pages.MinecraftModel
+@{
+    ViewData["Title"] = "Minecraft — Frieren Mod";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/mc.png');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">04 · Game Dev</p>
+        <h1 class="kd-detail-title">Frieren · Beyond Journey&rsquo;s End</h1>
+        <p class="kd-detail-sub">A solo-built Minecraft mod blending narrative design with math-driven combat systems.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#mc-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="mc-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="kd-feature-grid">
+            <div class="kd-feature-main">
+                <div class="kd-media-frame kd-video-frame">
+                    <iframe
+                        src="https://www.youtube.com/embed/4KCHSfv_Tgw?autoplay=1&mute=1&loop=1&controls=1&rel=0&playlist=4KCHSfv_Tgw"
+                        title="Frieren mod showcase"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        playsinline></iframe>
+                </div>
+                <p class="kd-caption">Mod gameplay reel — combat systems &amp; trigonometric easing.</p>
+            </div>
+            <aside class="kd-feature-side">
+                <div class="kd-side-card kd-side-card-text">
+                    <p class="kd-eyebrow">Independent Build</p>
+                    <h3>Math-driven combat</h3>
+                    <p>Custom spell trajectories, AI motion curves, and encounter pacing built on top of trigonometric easing functions and a game-design-first mindset.</p>
+                    <ul class="kd-list">
+                        <li>Custom combat motion using trigonometric easing.</li>
+                        <li>Hand-crafted quest flow and worldbuilding beats.</li>
+                        <li>Cinematic camera paths for storytelling moments.</li>
+                    </ul>
+                    <div class="kd-link-row">
+                        <a class="kd-pill" href="https://www.curseforge.com/minecraft/mc-mods/frieren-beyond-journeys-end" target="_blank" rel="noopener noreferrer">CurseForge</a>
+                        <a class="kd-pill" href="https://xfreedman01.itch.io/mcreator-sword-slash-demo" target="_blank" rel="noopener noreferrer">itch.io tutorial</a>
+                    </div>
+                </div>
+                <div class="kd-side-card">
+                    <a class="kd-side-media" href="https://xfreedman01.itch.io/mcreator-sword-slash-demo" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/sa.png" alt="itch.io tutorial cover" loading="lazy" />
+                    </a>
+                    <p class="kd-side-caption">Sword slash tutorial on itch.io.</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,93 @@
+@page
+@model Showheel.Pages.ArcheonModel
+@{
+    ViewData["Title"] = "Archeon — Skies Beyond the Star";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/re1.png');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">01 · Flagship</p>
+        <h1 class="kd-detail-title">Skies Beyond the Star</h1>
+        <p class="kd-detail-sub">Archeon — a long-form cinematic sci-fi universe blending narrative, music, and 3D worldbuilding.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#archeon-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="archeon-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="kd-feature-grid">
+            <div class="kd-feature-main">
+                <div class="kd-media-frame kd-video-frame">
+                    <iframe
+                        src="https://www.youtube.com/embed/7CK7ndPUiDQ?autoplay=1&mute=1&rel=0&controls=1&loop=1&playlist=7CK7ndPUiDQ"
+                        title="Archeon concept reel"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        playsinline></iframe>
+                </div>
+                <p class="kd-caption">Concept reel — click anywhere to play with sound.</p>
+
+                <a class="kd-atlas-card" href="/world-atlas.html" target="_blank" rel="noopener noreferrer">
+                    <span class="kd-atlas-icon">&#x1F30D;</span>
+                    <span class="kd-atlas-text">
+                        <span class="kd-atlas-title">Archeon World Atlas</span>
+                        <span class="kd-atlas-sub">Interactive map &amp; lore — Year 521 Post-Sky Fire</span>
+                    </span>
+                    <span class="kd-atlas-arrow">&#x2192;</span>
+                </a>
+
+                <div class="kd-story-row">
+                    <a class="kd-story-box" href="/story-viewer.html" target="_blank" rel="noopener noreferrer">
+                        <span class="kd-story-icon">&#x1F4D6;</span>
+                        <span class="kd-story-title">Story (中文)</span>
+                        <span class="kd-story-sub">阅读中文故事文档</span>
+                    </a>
+                    <a class="kd-story-box" href="/story-engl-viewer.html" target="_blank" rel="noopener noreferrer">
+                        <span class="kd-story-icon">&#x1F4D6;</span>
+                        <span class="kd-story-title">Story (English)</span>
+                        <span class="kd-story-sub">Read the English story document</span>
+                    </a>
+                </div>
+            </div>
+
+            <aside class="kd-feature-side">
+                <div class="kd-side-card">
+                    <p class="kd-eyebrow">Protagonist</p>
+                    <a class="kd-side-media" href="https://www.wattpad.com/story/404103703-skies-beyond-the-star" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/anna-freedman.png" alt="Anna Freedman portrait" loading="lazy" />
+                    </a>
+                    <p class="kd-side-caption">Anna Freedman — protagonist of Skies Beyond the Star. Click to read on Wattpad.</p>
+                </div>
+                <div class="kd-side-card">
+                    <p class="kd-eyebrow">Vistas</p>
+                    <a class="kd-side-media" href="https://www.bilibili.com/video/BV1tNFhznEvd/" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/re1.png" alt="Archeon vista" loading="lazy" />
+                    </a>
+                    <p class="kd-side-caption">Reading &amp; music experience on Bilibili.</p>
+                </div>
+            </aside>
+        </div>
+
+        <h3 class="kd-section-sub">Concept selections</h3>
+        <div class="kd-mason">
+            <img src="/images/concept-archeon%20%28basinoutpost%29.png" alt="Basin outpost" loading="lazy" />
+            <img src="/images/concept-archeon%20%28irishollow%29%20%283%29.png" alt="Iris Hollow" loading="lazy" />
+            <img src="/images/concept-archeon%20%28canyon%29.png" alt="Canyon" loading="lazy" />
+            <img src="/images/concept-archeon%20outpost6.png" alt="Outpost 6" loading="lazy" />
+            <img src="/images/concept-archeon%20%28frontier%29.png" alt="Frontier" loading="lazy" />
+            <img src="/images/concept-archeon%20%28frontier%29%20%282%29.png" alt="Frontier 2" loading="lazy" />
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,47 @@
+@page
+@model Showheel.Pages.ProjectsModel
+@{
+    ViewData["Title"] = "Projects — Hard Surface";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/hardsurface1.png');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">02 · Projects</p>
+        <h1 class="kd-detail-title">Hard Surface</h1>
+        <p class="kd-detail-sub">Mech, vehicle, and prop studies — focused on silhouette, paneling, and PBR detailing.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#projects-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="projects-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="kd-pair-grid">
+            <figure class="kd-pair">
+                <img src="/images/hardsurface1.png" alt="Hard surface render 1" loading="lazy" />
+                <figcaption>Hard Surface · 01 — sculpt &amp; bake study.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/hardsurface2.png" alt="Hard surface render 2" loading="lazy" />
+                <figcaption>Hard Surface · 02 — paneling &amp; lighting pass.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/0242e596527d8b4d7b30d33266194e933546770577558337.jpg" alt="Project render A" loading="lazy" />
+                <figcaption>Project A — material exploration.</figcaption>
+            </figure>
+            <figure class="kd-pair">
+                <img src="/images/3b01db58f5af0b5693d4f661a40328033546770577558337.jpg" alt="Project render B" loading="lazy" />
+                <figcaption>Project B — composition &amp; presentation.</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

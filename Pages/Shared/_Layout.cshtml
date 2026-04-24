@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    <a class="skip-link" href="#hero">Skip to content</a>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="kd-topbar">
         <a class="kd-brand" href="/" aria-label="Home">
             <span class="kd-brand-mark">YL</span>
@@ -25,7 +25,7 @@
         </nav>
     </header>
 
-    <main role="main">
+    <main id="main" role="main" tabindex="-1">
         @RenderBody()
     </main>
 

@@ -36,21 +36,20 @@
     });
 })();
 
-/* Subtle scroll-reveal for cards (opacity only — preserves hover transforms) */
+/* Subtle scroll-reveal for cards — uses a CSS animation so it does not
+   touch inline `transition` and therefore does not override the hover
+   transitions on transform/box-shadow defined in site.css. */
 (() => {
     if (!('IntersectionObserver' in window)) return;
     const items = document.querySelectorAll('.kd-card, .kd-pair, .kd-side-card, .kd-mason-item');
     if (!items.length) return;
 
-    items.forEach((el) => {
-        el.style.opacity = '0';
-        el.style.transition = 'opacity 0.6s ease';
-    });
+    items.forEach((el) => el.classList.add('kd-reveal-init'));
 
     const io = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
+                entry.target.classList.add('kd-reveal-in');
                 io.unobserve(entry.target);
             }
         });

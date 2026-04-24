@@ -718,3 +718,16 @@ main {
     .kd-nav a { font-size: 0.72rem; letter-spacing: 0.18em; }
     .kd-hero { min-height: 540px; }
 }
+
+/* ─── Scroll-reveal (JS-driven; leaves CSS hover transitions intact) ─── */
+
+.kd-reveal-init { opacity: 0; }
+.kd-reveal-in   { animation: kdReveal 0.6s ease forwards; }
+@keyframes kdReveal {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .kd-reveal-init { opacity: 1; }
+    .kd-reveal-in   { animation: none; }
+}

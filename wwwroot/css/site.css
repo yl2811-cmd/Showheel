@@ -438,6 +438,16 @@ main {
     background: var(--bg-primary);
     padding: clamp(48px, 6vw, 96px) clamp(20px, 4vw, 56px) clamp(80px, 8vw, 140px);
 }
+.kd-detail-body--archeon {
+    background-color: var(--bg-primary);
+    background-image:
+        linear-gradient(rgba(5, 5, 7, 0.75), rgba(5, 5, 7, 0.78)),
+        url('/images/hero-city.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .kd-detail-inner {
     max-width: 1400px;
     margin: 0 auto;

@@ -1,9 +1,4 @@
-Note auto-translation might be inaccurate-suggest to copy paste chinese version for AI translating.
-
---------------------------------
 A 19-year-old female pilot, raised in a steampunk hard science fiction civilization 521 years after a supernova destroyed its connection with Earth, learns to feel the heartbeat of an entire world with her body, and then flies out to take care of it—because it is still growing.
-
----
 
 ## §1 The Senses of the World—What You Experience Standing on the Archeon
 
@@ -17,7 +12,7 @@ A day in Archeon lasts 27 hours, 3 hours longer than on Earth. Daily routines ar
 
 **Two Moons.** The larger moon is ochre and slow-moving, its surface covered with a dirty, icy sheen; the smaller moon is silvery-gray, tracing a rapid arc. The nights with both moons and nebulae hanging in the sky simultaneously are the most beautiful images in the memories of the Archeon children.
 
-**Seasons.** Archeon's orbital period is approximately 250 Earth days (about 222 Archeon days), and its rotational tilt is only 13 degrees (half the Earth's). This means that seasonal temperature differences on a global scale are mild—there are no harsh winters or scorching summers. Seasons are more like a slow breath of "warm/cool/transitional seasons" rather than distinct four seasons. What truly drives climate differences is **topographic microclimates**—young plate movements have created fractured canyons, plateaus, and basins, each creating its own microcosm. On the same day, the bottom of Atheria Valley is warm and humid, while the top of the cliffs is dry and cold. Anna, flying from one settlement to another, experiences climate changes far greater than the temperature difference between the warm and cool seasons at the same location.
+**Seasons.** Archeon's orbital period is approximately 250 Earth days (about 222 Archeon days), and its rotational tilt is only 13 degrees (half the Earth's). This means that seasonal temperature variations on a global scale are mild—there are no harsh winters or scorching summers. Seasons are more like a slow breath of "warm/cool/transitional seasons" rather than distinct four seasons. What truly drives climate differences is **topographic microclimates**—young plate movements have created fractured canyons, plateaus, and basins, each creating its own microcosm. On the same day, the bottom of Atheria Valley is warm and humid, while the top of the cliffs is dry and cold. Anna, flying from one settlement to another, experiences climate changes far greater than the temperature difference between the warm and cool seasons at the same location.
 
 An astronomical phenomenon during the cool season amplifies the psychological effect—**Winter Veil**: interstellar dust periodically obscures part of the nebula's brilliance, making the sky appear grayer and more empty. It is only when Winter Veil arrives that the "cool season" truly gains the weight of "winter."
 
@@ -31,11 +26,29 @@ This topography is a core shaping force of civilization. The rugged terrain made
 
 All human civilizations are concentrated on the only habitable continent, **Aethelgard**.
 
-#### Overview of the Aethelgard Continent
+#### Overview of Aethelgard Continent
 
-For detailed geographical references (ASCII map + distance table + flight route), see §1.2-§1.3. The following only reflects the general feeling.
+For detailed geographical references (ASCII map + distance table + flight route), see §1.2-§1.3. The following only reflects our physical experience.
 
-The continent stretches east to west. The Azure Main to the north/west delivers moisture, and the Main Basin is a temperate, habitable lowland (home to the majority of the population). The southern edge of the basin is bisected by the **Orun Plateau**—a basalt plateau uplifted by a thrust fault. To the north, a 3km vertical escarpment forms a wall (35° slope, alternating basalt/shale layers = Titan's Staircase, black steps + green moss + silver waterfalls), while to the south lies a gently sloping plateau. Orun splits the continent into two worlds: a humid green to the north and the ochre-red Great Ochre Desert (iron oxide strata, the oldest rust in the Archeon) to the south. To the east of the basin lies the **Serpent's Tooth** mountain range (3000-6100m). The valley on the eastern slopes of the mountain range is where Skyleaf is located—a settlement built along a glacial meltwater river, facing the vast plains and high-altitude lakes to the east, backed by snow-capped mountains. Access to Skyleaf requires crossing Kestrel's Gate (the slot canyon passage of Serpent's Tooth). Axiom Scar is deep in the desert.
+The continent stretches east to west. The Azure Main to the north/west delivers moisture, and the Main Basin is a temperate, habitable lowland (home to the majority of the population). The southern edge of the basin is bisected by the **Orun Plateau**—a basalt plateau uplifted by a thrust fault. To the north, a 3km vertical escarpment forms a wall (35° slope, alternating basalt/shale layers = Titan's Staircase, black steps + green moss + silver waterfalls), while to the south lies a gently sloping plateau. Orun splits the continent into two worlds: a humid green to the north and the ochre-red Great Ochre Desert (iron oxide strata, the oldest rust in the Archeon) to the south. To the east of the basin lies the **Serpent's Tooth** mountain range (3000-6100m). The valley on the eastern slope of the mountain range is where Skyleaf is located—the settlement is built along a glacial meltwater river, facing east towards vast grasslands and high-altitude lakes, backed by snow-capped mountains. Access to Skyleaf requires crossing Kestrel's Gate (the slot canyon passage of Serpent's Tooth). Axiom Scar is deep in the desert.
+
+#### Internal Topographic Differentiation of the Main Basin
+
+**Important:** The Basin is not a mirror image, measuring 800 x 500 km. The young and active plate tectonics of Archeon did not allow for such uniformity. With the Orun so dramatic and Serpent's Tooth so sharp, the basin's interior could not possibly be without undulations—it's just that the scale within the basin is one to two orders of magnitude smaller compared to the Orun and the mountains. From inside the basin, the view remains open and horizon-dominated—but the terrain subtly changes every few tens of kilometers. The basin's interior is divided into five landforms:
+
+**① True Plains Zone (~40%)**—Core Agricultural Area. Surrounding Hearthstone, the outer edge of Frontier, the western extension of Millhaven, and inland towards Iris Hollow. Topographic relief < 30m/km. Geometric fields of wheat, yellow-headed cabbage, and copperleaf cabbage are separated by silver tremella windbreaks, and irrigation canals extend to the horizon. This is the true location of the "Golden Plains"—but it is not the entirety of the basin.
+
+**② Gentle Hills (~25%)**—The transitional zone on the eastern side of the basin (towards Thornfield) and northeast before it enters the Atheria Valley. Low hills, 50-150m high, with tuber and wheat fields between them, and grassy slopes for thorn-goat grazing on the hilltops. Thornfield and Crestline are located in this area. From the airship, it appears as a continuous series of low waves; from the ground, one can see windmills on the top of one hill from the top of another.
+
+**③ River-cut valleys (~15%)**—Shallow valleys carved by the northern and southern branches of the Ishkar River and their tributaries. The Atheria Valley is the deepest extreme version of this system (400m) at the northeastern edge of the basin. Shallower versions exist within the basin: 30-100m incision, with riverbank farmland at the bottom and gentle grasslands on the valley walls. The area south of Hearthstone and the location of Verdance are examples of such shallowly incised valleys.
+
+**④ Paleo-lava plateaus (~10%)**—Small basalt outcrops radiating northward from the north wall of Orun, isolated plateaus 10-50m high, scattered throughout the central and southern parts of the basin. The CI pylon group at Frontier City was likely built on such plateaus—which explains why pylons appear to "grow" from a raised base rather than floating on flat ground from a distance. Coppergate and Ironvein were also built on these plateaus (the "dark walls" of Ironvein are basalt outcrops).
+
+**⑤ Wetlands/Lake Basins (~10%)** — Wetland systems extending inland from Azure Main, on the western and northwestern sides of the basin. Surrounding Iris Hollow and inland towards Driftmoor. A continuous system of paddy fields, ponds, and irrigation canals. Habitat for canal-ducks.
+
+**These five types of uneven distribution.** The eastern side of the basin is predominantly hilly and plateau (more rugged), the western side is predominantly plains and wetlands (softer), the northern side transitions into forest (Canopy), and the southern side connects to the plateau system of the northern wall of Orun. This distribution explains why the settlements have such different character—Frontier is a transition from plateau to plain, Atheria is an extreme version of a river-cut valley, Coppergate is a plateau transit hub, Thornfield is hilly pasture, Hearthstone is the center of a true plain, and Iris Hollow is a combination of hills, wetlands, and coastline. **No settlement is built on "completely flat" terrain**—the people of Archeon instinctively choose to settle in undulating locations (better views, wind protection, natural drainage, visible layers between neighbors).
+
+**Meaning of the writing:** When Anna flew over the Basin, what she saw below was not a uniform golden blanket—but a mosaic of **fields—hills—valleys—plateaus—corridors—and vibratoforests**, with a different topographical grammar every few tens of kilometers. Her flight altitude allowed her to see this mosaic (the layers of topographical undulations are clearest at 500m). When she landed on an outpost within the Basin, the distant horizon was not a straight line—but a rhythmic outline interrupted by the silhouette of a plateau or a ridgeline of a hill.
 
 ### 1.3 Sensory Snapshots of the Six Settlements
 
@@ -43,15 +56,21 @@ After reading this section, you should be able to "enter" each place.
 
 ---
 
-**Frontier City** — The largest settlement, with approximately 350,000 inhabitants, and an Apex Hub/trade hub.
+**Frontier City** — The largest settlement, with approximately 350,000 residents, and an Apex Hub/trade hub.
 
-What you see first is the skyline—**a cross-section of undulating mountains, not a few isolated needles**. At the base is a thick, dense matrix of terraces—rising in five to seven tiers, each edge of which cantilevered outwards to form a **lotus-leaf shaped sky pier** (the bottom tier large, carrying Class V freight; the middle tier medium; the top tier small, just enough for skiffing). From this matrix of terraces **grow** several 100-200 meter pylons—a CI-era megastructure skeleton enveloped by 500 years of human growth: vines climb the matte green-bronze self-healing alloy surface, and the pylons themselves are layered, with piers cantilevered out from the middle. The pylons are not isolated—each base is nested within a dense network of low-rise buildings, plazas, and skybridges, the silhouettes resembling peaks emerging from a lush low mass.
+What you see first is the skyline—**a cross-section of undulating mountains, not a few isolated needles**. The pylons are not symmetrical cones—each one is like an irregular hill, one side perhaps only 10 degrees, the other up to 25 degrees, depending on the location of the original CI supporting structure, wind direction, and port orientation. **The overall slope is 15-20 degrees**—this number determines everything: you can walk, push carts, hold markets, and build plazas on the slope; the city doesn't "climb," it "walks." From the terrace matrix **grows** several 100-200 meter pylons—the megastructure skeleton of the CI era is enveloped by 500 years of human growth layers: vines climb the matte green copper-colored self-healing alloy surface; the pylons themselves are layered, with piers and large platforms cantilevered from the middle. The pylons are not isolated—the base of each is nested within a dense ring of low-rise buildings, plazas, and skybridges, the silhouettes like peaks emerging from a lush low mass.
+
+**The Broad Terraces are the most important public spaces in Frontier City—not the Skybridge, not the Skypier, but plaza-like connectors.** They cantilever from the mid-slope of one pylon, cross the valley, and connect to the lower slope of another pylon or the adjacent terrace. Their width varies from 30 meters to over 100 meters (depending on the span limit of the basalt fiber truss and the spacing of the supporting columns); their length varies with the pylon spacing, ranging from 50 meters to over 200 meters. These terraces are not empty spaces—they feature permanent market stalls (semi-fixed wooden frames with canvas roofs), food stalls (grilled skewers, noodle stalls, tea stands), small skiff landing points (square recesses at the edge of the platform, large enough to lower a skiff, with mooring bollards and simple booms), public wells, benches, and even a few tremolo trees planted in stone flowerbeds. The platform has a sandwich-like structure: the top level is a public space paved with heartwood planks and stone slabs; the middle level contains corridors, shops, small workshops, and storage; and the bottom level is a basalt fiber truss framework with pipes and load-bearing columns. Standing on the large platform and looking down, you can glimpse the lights and shadows of people on the lower level through the gaps in the planks; looking up from below, the platform's base is an array of dark green basalt fiber ribs, with ropes and pipes hanging from the gaps, occasionally dripping with condensation, and light filtering through the gaps between the platforms, casting moving patches of light on the street.
+
+**Class V Large Airship Mooring Area:** 100-meter-class Class V aircraft don't use ordinary sky piers—they require a dedicated **Heavy Berth**. This is one of the largest single structures in Frontier City: a heavy-duty platform approximately 150 x 80 meters, cantilevered from the low-lying terrace on the city's outer edge, or resting on a reinforced foundation between two low pylons. The platform surface is paved with thickened slate and basalt fiber grating (for load-bearing), with four to six giant mooring bollards (each two meters high, CI alloy core + human-cast copper outer cladding), two steam-powered jib towers (for cargo loading and unloading), fuel line connections (for hydrogen refueling), and ground support sheds. When a Class V is moored, it occupies most of the platform, its hull almost touching the paving, with ramps lowered on its sides, and porters and trolleys moving under the vessel. Class Vs may only come a few times a year—on the day they arrive, half the city comes out to watch, and the market's rhythm is rearranged by the unloading flow. There are no more than three such heavy berths in the entire Frontier City area.
 
 The density is gradient: the core pylon and the main skyport are crowded with people and stalls; 500 meters out, there is a residential and industrial belt; another 1-2 kilometers out, the terrace becomes lower and sparser, the vegetation increases, and eventually it dissipates into the basin farmland—**without clear city walls, the city is like a drop of ink slowly spreading into the paper**.
 
+The ratio of industrial to residential feel varies by area: The port area and the vicinity of Heavy Berth lean towards industrial (5:5 or even 6:4 – exposed pipes, steam vents, cranes, winches, and freight rails dominate the visual landscape); the large platforms and market areas are 3:7 (three parts functional industrial elements, seven parts whitewashed walls, wooden window frames, awning stalls, courtyard trees, vines, and clotheslines); the purely residential areas are 2:8 (occasionally a steam pipe curves around a corner, the rest are all traces of human habitation). The average visual ratio for the entire city is approximately 4:6, leaning towards residential – from a distance, it appears as a breathing, somewhat irregular, low mountain range, neither industrial nor a palace complex.
+
 The air between Pylon and Pylon isn't empty—a network of basalt fiber cables winds its way through, with gondolas moving diagonally like fireflies strung on spiderwebs. Orange tents stretch above the market. Grass sprouts from the cracks in the cobblestones. Airships are moored at varying heights on the sky pier platform—the slender, dark green lines of the basalt fiber trusses alternate with the vibrant green of the riveted copper plates. Flags (basalt fiber fabric, durable for decades) hang from the pier's edge.
 
-The sound layers are: the bottom layer is the low-frequency hum of the fusion reactor and atmospheric processor (you get used to it and can't hear it anymore; it's unsettling when it stops); the middle layer is the sound of hammers, market shouts, and crowds; the top layer is the sound of wind and airship engines.
+The sound layers are: the bottom layer is the low-frequency hum of the fusion reactor and atmospheric processor (you get used to it and can't hear it anymore; it's unsettling when it stops); the middle layer is the sound of hammers, market vendors' shouts, and crowds; the top layer is the sound of wind and airship engines.
 
 Smell: The damp, metallic smell of steam pipe exhaust, the charcoal fire and hammering sparks from Blacksmith Street, and the spicy aroma of grilled yellow skewers and weaver's noodles topping mixed together in the market.
 
@@ -89,7 +108,7 @@ Coastal hill settlement. With no cliffs to cling to, the airport utilizes the hi
 
 **Amber Reach** — Approximately 50,000 people, granary of the southeastern highlands.
 
-Located on the southeastern coastal highlands, Archeon boasts its largest continuous farmland. With 30-40% more sea breeze and rainfall than the Basin, CFU (Chemical Fusion Fusion) drives grain processing. Core exports include flour, cereal cakes, and high-quality seeds (using the CI seed screening system, the only one of its kind in Archeon). Local specialty: Wind Bread – sourdough bread naturally fermented with sea breeze salt, sold out in three days at the Thread Festival. Soundscape: Continuous sea breeze + the sounds of threshing during harvest season + grey-necked finches. Atmosphere: Abundant, open, and the tranquility of a farmer.
+Located on the southeastern coastal highlands, Archeon boasts its largest continuous farmland. Sea breezes bring 30-40% more rainfall than the inland plains, with CFU (Chemical Fusion Fusion) driving grain processing. Core export products include flour, cereal cakes, and high-quality seeds (using the CI seed screening system, the only one of its kind in Archeon). Local specialty: Wind Bread – sourdough bread naturally fermented with sea breeze salt, sold out in three days at the Thread Festival. Soundscape: Continuous sea breeze + the sounds of threshing during harvest season + grey-necked finches. Atmosphere: Abundant, open, and the tranquility of a farmer.
 
 ---
 
@@ -111,11 +130,25 @@ Temperament: **Practical, serene, and with its own rhythm.** Riverbend's version
 
 **Skyleaf (天叶)** — Approximately 5,000 people
 
-Serpent's Tooth, a mountain kingdom on the eastern slopes. Settlement is built along a glacial meltwater river—extending eastward from the mouth of a high mountain valley to the shores of a high-altitude lake. Backed by 5000-6000m snow-capped peaks, it faces an open plain and a large lake. Topographical inspiration: the Shan Guo, a predatory city-state—not hidden in the mountains, but growing along the mountains and facing the plains. The settlement was built on the site of a climate monitoring/medicinal herb cultivation experimental station from the CI era.
+Serpent's Tooth, a mountain kingdom on the eastern slopes. Settlement is built along a glacial meltwater river—extending eastward from the mouth of a high mountain valley to the shores of a high-altitude lake. Its topographical signature is "Two worlds in a turn." Backed by 5000-6000m snow-capped peaks, it faces the open eastern grasslands. Topographical inspiration: the predatory city-mountain kingdom (Shan Guo)—not hidden in the mountains, but growing along the mountains, facing the plains. This settlement was built on the site of a climate monitoring/medicinal herb cultivation experimental station from the CI era.
+
+**Looking west** — The valley narrows, the slope rises steeply, and snow-capped peaks loom down from the sky. Sounds echo between the rock walls, creating a dense reverberation. The Ember Crown flower fields stretch along the geothermally active zone of the upper valley — the petals are deep red, and when in full bloom during the warm season, the entire slope seems to be ablaze. The climate is high-altitude: cold, thin, with the smell of sulfur (from geothermal vents) and the mineral scent of meltwater below the snowline. This side belongs to the longitudinal structure of the Archeon.
+
+**Looking East** — This is a unique vista unlike any other settlement in Archeon. The valley opens into a vast grassland at the eastern end of the settlement—the CI ecological buffer zone of Zone 4, uninhabited for 521 years. **Skyleaf is the only place in all of Archeon where one lives facing a completely uninhabited landscape every day.** Not raw wilderness—it's a wildland sown in CI and then forgotten for 500 years.
+
+Close-up (0-5km): Downstream from the settlement, there are terraced fields and thorn-goat pastures. After cooling from the geothermal zone, the river flows slowly eastward along the valley, eventually joining a **highland lake** (unnamed, locally called "East Lake") about 20km away. The lake is approximately 8-10km wide, and the K2V primary star illuminates its surface in different colors at different times of day—honey gold in the morning, cyan at noon, and ochre-red with a purplish hue at dusk.
+
+Mid-range (5-30km): Wild grassland – not a single shade of green, but a patchwork of seasonally changing colors. Small communities of Sentinel Pine, self-seeding across the grassland, resemble deep green islands scattered across a sea of ​​pale yellow-green grass. A river meanders eastward into a lake, appearing from the Skyleaf like a silver line stretched across a canvas.
+
+**CI Ruins as Visual Anchors of the Landscape:** Scattered across the grassland are the remains of automated facilities left by the CI ecological buffer zone. About 15km away stands a rusted weather tower (approximately 30 meters high, resembling a finger emerging from the sea of ​​grass), the only vertical element in the entire Eastern Vista—visible from higher levels of the settlement on a clear day. Further away, scattered solar panel array frames shimmer in the sunlight (the metal panels are long since shattered, leaving only the skeleton and ground forming strange geometric shadows). On the far shore of East Lake stands a half-collapsed monitoring station hut. These ruins were not demolished—the metal to the east was too far and not worthwhile for Skyleaf. They are the fingerprints left by CI on this land, slowly being swallowed by the grass.
+
+Distant view (80-120km): The grasslands gently rise eastward into a series of low-lying plateaus—**East Mesas**. The terraform expansion zone originally planned by CI has, after 521, become merely slowly weathered geological features. They form layered silhouettes on the horizon, and at dawn, the primary star K2V rises behind the Mesas, turning the entire ridge into a dark band outlined with copper light. Further east, the sky and land merge into atmospheric haze—the actual east coast of Aethelgard is still over 300 kilometers away, far beyond what is visible to the naked eye.
+
+**Night Sky:** Skyleaf is Archeon's best settlement for viewing the night sky—there are no light sources to the east, and the entire eastern half of the sky is pure black. Sky Fire's Remnant Nebula rises from the east and spans the entire dome, with purple, orange, and rose-colored rays of light spreading across the silhouette of East Mesas. Locals say, "Our stars are closer here than elsewhere"—actually, there are no competing light sources.
 
 The core product is **Ember Crown**—a deep red medicinal plant that grows in the geothermally active zone of the upper river valley. Its deep red petals bloom in the warm season, appearing to burn along the valley slopes. Ember Crown extract is Archeon's closest thing to a "panacea"—not really a panacea, but practically nothing else. It has the highest irreplaceability in The Loom.
 
-Temperament: **Remote, quiet, and needed.** On one side lies the end of the mountains, on the other, the world opens up.
+Temperament: **Remote, quiet, and needed.** On one side lies the end of the mountain, on the other, the world opens up—and that opened world is empty.
 
 ---
 
@@ -167,7 +200,7 @@ K2V stars have a spectrum peak that is biased towards orange-red (~500-600nm), a
 
 **Zone 3: Orun plateau surface + leeward side.** Sparse alpine meadows + drought-resistant shrubs. Strong winds, intense sunshine, and low rainfall. Transitions south to the Great Ochre Desert (completely devoid of artificial vegetation, a reddish-brown iron oxide desert). Axiom Scar is located here. Saltmarch survives on salt marshes.
 
-**Zone 4: Serpent Belt + CI Buffer Zone (formerly known as Undeveloped Badland).** During its terraforming phase, CI treated this area as an **ecological buffer zone**—sowing drought-resistant grasses and pioneer tree species, improving the soil, and constructing automated weather monitoring stations and small relay facilities. The purpose was not for human habitation, but to prevent the fragile ecosystem of the main residential area from being eroded by extreme weather from the east. 521 years later, these grasses and trees have self-sustaining, forming a vast area **unmanaged but covered by vegetation**—not a desert, but a wild grassland and sparse woodland. Completely different from the cultivated, named, and remembered lands within the Basin: the green here doesn't need people. CI's automated facilities have long since ceased operation, but structural remains remain—the rusted weather tower skeleton, the solar panel array frame half-buried in the soil (the panels are broken but the metal frame remains; grass grows from the gaps but cannot cover straight lines and right angles), and the half-collapsed monitoring station hut. Valuable metal parts may have been taken by the people of the Basin hundreds of years ago; what remains are CI's fingerprints left in the soil. Kestrel Basin is an exception—the site of the Serpent's Tooth eastern foot valley geothermal microclimate + CI experimental station, and the Ember Crown natural cluster.
+**Zone 4: Serpent Belt + CI Buffer Zone (formerly known as Undeveloped Badland).** During its terraforming phase, CI treated this area as an **ecological buffer zone**—sowing drought-resistant grasses and pioneer tree species, improving the soil, and constructing automated weather monitoring stations and small relay facilities. The purpose was not for human habitation, but to prevent the fragile ecosystem of the main residential area from being eroded by extreme weather from the east. 521 years later, these grasses and trees have self-sustaining, forming a vast, **unmanaged but vegetated** area—not a desert, but a wild grassland and sparse woodland. Completely different from the land cultivated, named, and remembered by people: the green here doesn't need humans. CI's automated facilities have long since ceased operation, but structural remains remain—the rusted weather tower skeleton, the solar panel array frame half-buried in the soil (the panels are broken but the metal frame remains, grass grows from the gaps but cannot cover straight lines and right angles), and the half-collapsed monitoring station hut. Valuable metal parts may have been taken by people from the west hundreds of years ago; what remains are CI's fingerprints left in the soil. The Serpent's Tooth valley, where Skyleaf is located, is an exception—a geothermal microclimate and the site of the CI experimental station, the Ember Crown natural complex, which is the only inhabited location in Zone 4.
 
 [The logic behind the population not expanding eastward]
 During the CI era (~2470-2560), transportation was not a problem, as CI possessed flying machines and autonomous vehicles. However, the initial population was only ~130 people, not even enough to fill the entire Basin, so there was no reason for eastward expansion.
@@ -208,9 +241,9 @@ The result: Archeon's biosphere is extremely "clean"—no mosquitoes, no flies (
 
 **Geographically Specialized Species:**
 
-**Canal-duck:** Native to Iris Hollow and plains settlements with paddy fields. Smaller than Earth ducks, greyish-brown, and quiet (not as noisy as Earth ducks). They feed on insect eggs and aquatic plants in irrigation canals and rice paddies, a natural form of biological control. Pickled duck eggs are a local specialty of Iris Hollow. They are rarely seen in the Atheria—the canyons lack sufficient open water.
+**Canal-duck:** Native to Iris Hollow and paddy field settlements. Smaller than Earth ducks, greyish-brown, and quiet (not as noisy as Earth ducks). They feed on insect eggs and aquatic plants in irrigation canals and rice paddies, a natural form of biological control. Pickled duck eggs are a local specialty of Iris Hollow. They are rarely seen in the Atheria—the canyons lack sufficient open water.
 
-- **Songbirds (2-3 species):** A few species introduced by CI with "non-direct production functions." The reason for their inclusion may be that CI calculated in its model that mental health indicators in long-term isolated small human communities are positively correlated with environmental soundscape richness. The Grey-necked Finch is the most common—ubiquitous on the Atheria cliffs, its call is high-pitched but melodious; the sights and sounds of its flocks during seasonal changes are core material for M-08. The Rock Swallow nests along the cliff face, its flight path resembling a miniature skiff. A long-legged wading bird walks in the shallow water of the valley. These three species cover most of the bird calls heard daily by the people of Archeon.
+- **Songbirds (2-3 species):** A few species introduced by CI with "non-direct production functions." The reason for their inclusion may be that CI calculated in its model that mental health indicators in long-term isolated small human communities are positively correlated with environmental soundscape richness. The Grey-necked Finch is the most common—ubiquitous on the Atheria cliffs, its call is high-pitched but melodious; the sights and sounds of its flocks during seasonal changes are core material for M-08. The Rock Swallow nests along the cliff face, its flight path resembling a miniature skiff. A long-legged wading bird walks in the shallow water of the valley. These three species cover most of the bird calls heard daily by the Archeon people.
 
 **Earth animals not in Archeon (narrative implied):**
 
@@ -222,7 +255,7 @@ There are no cows. The feed conversion rate is too low; the feed from one cow is
 
 **Direct Consequences of the Diet:** The Archeon diet was predominantly plant-based—modified wheat bread, various preparations of yellow heads, copper leaves and beans, and a variety of roots and vegetables. Animal protein accounted for about 15-20% of daily calories (eggs > cheese > dried fish > meat), far lower than the proportion on Earth during the industrial age. Killing a thorn-goat was a big deal—usually reserved for festivals or large gatherings. Daily protein came from eggs, cheese, and dried fish. This wasn't poverty—it was normalcy shaped by 500 years of resource realities.
 
-**Extremely low genetic diversity.** Any large-scale disease outbreak is not a minor problem, but an existential crisis. Isolated mountain ranges with their own ecosystems (such as the Kestrel Basin) are invaluable genetic vaults.
+**Extremely low genetic diversity.** Any large-scale disease outbreak is not a minor problem, but an existential crisis. Regions isolated by mountains and possessing independent ecosystems (such as the Serpent's Tooth valley where Skyleaf is located) are invaluable genetic vaults.
 
 ---
 
@@ -246,13 +279,13 @@ Archeon's city distribution is determined by its energy hierarchy. Four-tier sys
 
 There is no central government. There are no police. There are no courts. There are no prisons.
 
-One million people are scattered across dozens of settlements on a continent. They call the social network connecting all the settlements "The Loom." Each settlement is a thread. The airship routes are the weave of warp and weft. "We're all on the same cloth" is a common saying. If a settlement has a problem, it's called "a thread has come loose." Helping to repair it is called "mending."
+One million people are scattered across dozens of settlements on a continent. They call the social network connecting all the settlements "The Loom." Each settlement is a thread. The airship routes are the weave of warp and weft. "We're all on the same cloth" is a common saying. If a settlement has a problem, it's called "a thread has gone slack." Helping to repair it is called "mending the weave."
 
 The loom operates on three things:
 
 **Craftsmanship is the passport.** The answer to "Who are you?" is always "What can you do?". Can you fix fusion reactor cooling circuits? Both Apex Hubs welcome you. Can you keep a ship afloat in the turbulence of Serpent's Tooth? Every shipping route wants to hire you. Your bread is fluffy and fragrant? There's always a line in front of your stall.
 
-Credit is money. It operates like a small-town word-of-mouth network. Pilots, caravan leaders, itinerant doctors, shuttles—these people moving between settlements—are living information networks. A person's name is their credit card, their good or bad record lasting a lifetime.
+**Credit is money.** It operates like a small-town word-of-mouth network. Pilots, caravan leaders, itinerant doctors, shuttles—these people moving between settlements—are living information networks. A person's name is their credit card, their good or bad record lasting a lifetime.
 
 **Airships bring gossip.** There are no newspapers, no radio. All "news" is brought by people. Each airship that docks carries two things: cargo and news. This makes the arrival of each airship a small event.
 
@@ -284,17 +317,39 @@ Nighttime belongs to stories, music, and starlight. On clear nights, Sky Fire's 
 
 ### 3.2 Architecture and City
 
+#### 3.2.0 Why is it like this? (aesthetic coherence note)
+
+Archeon's visual style—vines climbing a copper-green alloy frame, hand-forged riveted timber structures, and several pylons sprawling from the lower levels—is not an aesthetic choice, but a downstream product of physical constraints. Readers encountering this world for the first time will naturally ask: why didn't they inherit the streamlined utopian skyscrapers of the 25th century Federation? Why this Miyazaki-esque steampunk pastoral setting? The answer lies in a six-layered, interlocking chain of cause and effect.
+
+**First Layer: What Remains After the Death of the Industrial Foundation.** The 25th-century Federation aesthetic—smooth curved surfaces, massive continuous sections, mirrored glass curtain walls, streamlined, one-piece molded shells—all relied on a forgotten premise: a planet-wide industrial infrastructure. Injection molding machines, vacuum forming, CNC machining, continuous concrete pouring, float glass factories, chemical vapor deposition, industrial-grade robotic welding. These things didn't require "high technology"—they required a "supply chain of tens of millions of tons." After CI went offline and robots gradually ceased operation between 2560 and 2650, Archeon lost not "technology," but the ability to produce those smooth surfaces. What remained were: hand-forged metal (with visible rivets and hammer marks), heartwood (with visible wood grain), basalt fiber fabric (with visible weave), fired clay, recycled metal splicing (with visible patches and mismatches), and small glass panes inlaid in wooden/metal frames (because large glass panes required float glass factories). **This material vocabulary is Studio Ghibli's material vocabulary—not an aesthetic choice, but a downstream product of constraints.**
+
+**Level Two:** The scale collapses to what's achievable by hand. A startup community of 100-130 people, having lost its robotic workforce, must rebuild everything themselves. The largest building you can construct is the one you can climb and maintain. The longest bridge you can build is the one whose basalt fiber truss won't collapse under its own weight. The entire city's scale grammar has been redefined by "hands + simple tools." 2-5 story houses are the default. The 100-200 meter pylons left over from CI still exist, but no one has the ability to rebuild them. **"Skyscrapers" are relics, not paradigms, in this world.**
+
+**The Third Layer: 500 Years of Accumulation – Not Planning, but Growth.** Federation aesthetics are centralized planning – a city planning bureau draws the plans, a contractor builds, five years to complete, and the exterior conforms to current style guidelines. No settlement in Archeon was "planned" – they grew layer by layer. One generation cantilevered a pier in the middle of the pylon, the next added a row of workshops on the pier, and the generation after that built a skybridge between the workshops. Each addition used the cheapest materials available at the time, addressing the most pressing problems. The result is organic, asymmetrical, patched, and layered – **this is the shared aesthetic root of medieval European old towns and Miyazaki's cities. Both are products of "millennial growth," not "five-year planning."**
+
+**The Fourth Layer:** There is no fashion industry, no class display, and no narrative pressure of "modernization." Behind the 25th-century aesthetic of "streamlined utopian skyscrapers" lies a complete cultural machinery: advertising, real estate development, class symbols, the binary narrative of "outdated vs. advanced," and the social pressure of "looking backward is shameful." This layer of Archeon lacks all of these. There is no Vogue, no corporate HQ's pursuit of representativeness, and no political structure where mayors want to leave behind "modern achievements." Architects are called "layer builders"—this very term tells you that aesthetics grow from craftsmanship, not from style guides. Aesthetic evolution follows the authentic standard of "what works, what is beautiful, and what makes people want to pass by it every day."
+
+**Fifth Layer: Finally, plants are not seen as enemies.** The other half of Miyazaki's aesthetic is the symbiosis of organic and inorganic elements. Archeon has strong physical reasons for this (the roots of terraform plants actually protect the CI alloy rather than corrode it; the acidic substances secreted by the roots react with the alloy surface to form a hardened layer) + cultural reasons (the absence of the industrial modern prejudice that "weeds are a disgrace") + resource reasons (clearing vegetation is a labor-intensive luxury that 500 years of civilization could not afford). Therefore, vines climb the building, moss grows on the roof, and copper rust and moss coexist on the same surface—**not a "discarded appearance," but an active acceptance.**
+
+**Sixth Layer:** There's no reference to "what it should look like" in cultural memory. Anna's generation hasn't seen any images of Federation cities. They don't have the nostalgia of "Ah, we should have lived in those shiny glass towers," because such places don't exist in their visual memory. The "city as it looked" when they grew up = what Frontier City looks like now. Therefore, there's no aesthetic tension or "retro" consciousness—they don't feel like they're making steampunk pastiche; they feel this is just a house. **This is especially important because it explains why this aesthetic is authentic rather than kitsch—they're not referencing a "more advanced" past; this is how they grew up.**
+
+It resembles Miyazaki's world because it represents the same stage of civilization: a civilization that has lost its industrial base but not its human element, growing on a scale of 500-1000 years. It's not steampunk pastiche—it's a hard science fiction version of the world Miyazaki depicts.
+
+**Future Narrative Usage (Aesthetic Gap During Federation Contact):** Anna's generation had no idea what Federation's city looked like. When Federation came to contact them, the first sight of streamlined curved surfaces, mirrored glass, and seamless architecture must have been a physiological shock for Anna—not "Wow, so high-tech," but "How did this thing grow? Has no one touched it?" Federation visitors to Frontier City had the opposite reaction—"How do these people maintain a 100-meter tower for 500 years? Our city has to rebuild its facade every 50 years." The aesthetic gap between the two civilizations is itself a scene from the future. People from Archeon would feel that Federation's architecture lacked time—smooth as if it had just come off the production line, without patina, without handprints, looking like something that hadn't even begun to live. People from Federation would feel that Archeon's city had too much time—every surface had been touched, repaired, and reinterpreted by plants over 500 years.
+
+---
+
 **Core Visual Principle:** The skeleton of the CI era + the skin of 500 years of human growth—growing several peaks from a dense, low mass.
 
-Frontier City is the most complete example of this principle: from a distance, it's not a few isolated towers, but **a cross-section of an undulating mountain range**—several 100-200 meter pylons (megastructure skeletons from the CI era, enveloped by 500 years of human growth layers) emerging from a thick, undulating matrix of terraces. Each pylon is also layered, with sky piers cantilevered from the middle and top sections; the base of the pylon is nestled among a dense ring of low-rise buildings, plazas, and skybridges, never standing alone on open ground. The load-bearing columns of the pylons are the self-healing alloy skeleton left over from the CI (unreplicable), while the outer layer is the heartwood structure, basalt fiber trusses, recycled alloy tiles, and vines accumulated over 500 years—**the skeleton is borrowed, the skin grows naturally**.
+Frontier City is the most complete example of this principle: from a distance, it is not a few isolated towers, but a **cross-section of an undulating mountain range**—several 100-200 meter pylons (the megastructure skeleton of the CI era, enveloped by 500 years of human growth layers) emerging from a thick, undulating matrix of terraces. **The pylons are not symmetrical cones**—the slope angle of each pylon varies depending on the original CI structure, wind direction, and port orientation (10 degrees on one side, 25 degrees on the other), with an overall slope of approximately 15-20 degrees. Each pylon is also layered, with sky piers and large platforms cantilevered from the middle; the base of the pylon is nestled among a dense ring of low-rise buildings, plazas, and skybridges, never standing in isolation on open ground. The two pylons are connected by a **Broad Terrace**—a multi-level public space ranging from 30 to over 100 meters wide and 50 to 200 meters long, supported by basalt fiber trusses. The top floor houses a market plaza and skiff take-off and landing points, the middle floor contains corridors and shops, and the ground floor contains the structural framework and pipelines. From a distance, these large platforms make the outline of the pylon complex not "a few separate hills," but rather **a continuous, undulating, low mountain range**. The load-bearing columns of the pylons are a self-healing alloy framework left over from CI (unreplicable), and the outer layer is made of 500 years of human accumulation: heartwood timber, basalt fiber trusses, recycled alloy tiles, and vines—**the framework is borrowed, but the skin grows naturally**.
 
 Vines and plants covered every surface not actively cleaned by humans. This wasn't a sign of decay—the climbing plants introduced during the Terraform era were designed to be extremely resilient; their root systems actually helped stabilize the aging CI alloy surface (a certain acidic substance secreted by the roots reacted with the alloy surface to form a hardened layer). Therefore, the architects of Archeon (they didn't call themselves "architects," but "stacking men") didn't remove all the vegetation, only those that might damage the structural joints. The result is a copper-green interwoven appearance.
 
 **Skybridges are the primary mode of transportation.** Because there are no vehicles, railway tracks are extremely rare, and people mainly move around in their own neighborhoods, skybridges handle 90% of the city's daily short-distance travel. In high-density areas, almost every building with three or more stories is connected by a bridge. The materials range from main walkways made of basalt fiber trusses and heartwood paving to neighboring shortcuts made of basalt fiber cable suspension and wooden ropes. Skybridges are more than just transportation—they are clotheslines, signal cable supports, rainwater collection channels, and places for vendors to set up temporary stalls. On a busy skybridge, people might be walking, drying laundry, a child riding on the railing watching airships, and an old man selling roasted sweet potatoes from a small stall in the middle of the bridge.
 
-**Sky piers are the basic units of an airport—not towers.** Each sky pier is a lotus-leaf-shaped platform cantilevered from the edge of the terrace or the middle of the pylon: the bottom level is a basalt fiber truss, topped with heartwood planks and slate, with mooring bollards, cranes, and fuel lines along the edges. The piers vary in size across different levels—the bottom level is large, handling heavy cargo, where large Class V airships unload; the middle levels are medium-sized, handling Class II-III passengers and cargo; the top level is the smallest, only large enough for skiffs and messenger boats. Looking up at a sky pier from below: the base is composed of steel ribs and basalt fiber trusses, with ropes and pipes hanging from the gaps, occasionally dripping with oil or condensation. Light filters through the gaps between the piers, casting moving patches of light on the street below.
+**Sky piers are the basic units of an airport—not towers.** Each sky pier is a lotus-leaf-shaped platform cantilevered from the edge of the terrace or the middle of the pylon: the bottom layer is a basalt fiber truss, topped with heartwood planks and slate, with mooring bollards, booms, and fuel lines along the edges. The piers vary in size between levels—the middle piers handle Class II-III passenger and freight transport; the top pier is the smallest, only large enough for skiffs and messenger boats. **Large Class V airships do not stop at the piers—they require dedicated Heavy Berths on the city's outer edge, approximately 150 x 80 meters, with giant mooring bollards and steam-powered boom towers (see the settlement description section for details).** Small recesses along the edges of the large platforms serve as skiff landing points—large enough to lower a skiff, with mooring bollards and simple booms, scattered along the edges of markets and squares, allowing skiffs to arrive and depart at will. Looking up from below, one sees a sky pier or a large platform: an array of dark green ribs of basalt fiber trusses, with ropes and pipes hanging from the gaps, occasionally dripping with oil or condensation. Light filters through the gaps between the piers, casting moving patches of light on the street below.
 
-**Airports are the heart of a city, not its periphery.** Because airships are the only long-haul transportation method, airports are not pushed to the city's outskirts like airports on Earth—they are directly embedded in the city's core structure. The piers in the middle and top sections of Pylon, along with the piers at the edge of the terrace, form a three-dimensional mooring network: large cargo ships are dispersed in the lower-level large piers (not concentrated in a single main tower), medium-sized ships in the middle section, and skiffs in the top section. Ground staff move between the lifts inside Pylon, the skybridge outside, and the sloping staircases between the piers, with markets and residential areas below. Signal lights (a color-coded oil lamp system) are distributed at the ends of each pier—approaching airships first check the overall light pattern to determine which pier is available, then check the specific color code to determine if they can enter.
+**Airports are the heart of a city, not its periphery.** Because airships are the only long-haul transportation method, airports, unlike airports on Earth, are not pushed to the city's outskirts—they are directly embedded in the city's core structure. The piers in the middle of the pylon, the skiff recesses at the edge of the large platform, and the piers at the edge of the terrace together form a three-dimensional mooring network: Class II-III piers are in the middle section, skiffs are scattered across the large platform and the top section, and Class V piers are in the Heavy Berth on the city's outer edge. Ground crew run back and forth between the lifts inside the pylon, the skybridge outside, and the sloping staircases between the piers, with markets and residential areas below. Signal lights (a color-coded oil lamp system) are distributed at the ends of each pier—the approaching airship first checks the overall light pattern to determine which pier is available, and then checks the specific color code to determine if it can enter.
 
 **Density is gradient, not uniform.** The core (around 500 meters from Pylon and the main skyport) is the densest; the outer 500-1500 meters is a residential and industrial zone; further out, 1-2 kilometers, is a low-lying terrace zone, with sparser skybridges, increased vegetation, and eventually dissipating into the basin farmland—**without clear city walls, the city is like a drop of ink slowly spreading onto paper**.
 
@@ -321,7 +376,7 @@ Vegetables—primarily modified cruciferous and legume plants. A dark leafy gree
 
 **Riverbend:** Located near the fast-flowing section of the Ishkar South tributary, it produces some of the best smoked fish. Riverbend's **"smoked river fish"** is recognized as the finest ingredient in Archeon—after marinating, it's slowly smoked for three days with Sentinel Pine sawdust, resulting in a deep amber color, a slightly glossy exterior, and a translucent orange-red color when cut open. It has a salty and savory flavor with a hint of pine resinous sweetness. It's very expensive; in upscale restaurants in Frontier City, one fish can cost the equivalent of two days' wages for an average person.
 
-**Skyleaf:** The cool climate of the high-altitude valleys is ideal for a special high-protein grain (similar to quinoa). The people of Skyleaf use it to make a fermented porridge with a slightly sour taste. Outsiders often frown upon first taste, but once they get used to it, they become addicted. Skyleaf's flower field honey is another major export—light-colored and almost transparent with a strong floral aroma, it's widely recognized as the best honey in Archeon.
+**Skyleaf:** The cool climate of the high-altitude valleys is ideal for a special high-protein grain (similar to quinoa). The people of Skyleaf use it to make a fermented porridge with a slightly sour taste. Outsiders often frown upon first taste, but once they get used to it, they become addicted. Skyleaf's flower field honey is another major export—light-colored and almost transparent, with a strong floral aroma, it's widely recognized as the best honey in Archeon.
 
 **Amber Reach:** **"Wind Bread"**—a sourdough bread that ferments naturally using trace amounts of salt carried by the southeast sea breeze. It has an extremely hard and crisp crust, and a soft, slightly salty interior. The taste differs between bakeries facing the sea and those facing away—the yeast community changes with the wind direction. At the Thread Festival, boxes of wind bread brought by the Amber Reach delegation sold out within three days. Furthermore, Amber Reach's seed selection system (a legacy of the CI food processing facility) makes it the sole source of high-quality seeds for all of Archeon—each settlement awaits its seed ships every planting season.
 
@@ -405,7 +460,7 @@ The anniversary of the supernova's arrival in Archeon.
 
 "Our birthday"**.
 
-Daytime is like a normal holiday—no work, markets are open, and children are on holiday. Every household makes a special food—**"Sparkling Cakes"**, round baked cakes made with red dye (iron oxide red clay is a natural food coloring) and golden jam, representing the color of a supernova explosion.
+Daytime is like a normal holiday—no work, the market is open, and children are on holiday. Every household makes a special food—**"Sparkling Cakes"**, round baked cakes made with red dye (iron oxide red clay is a natural food coloring) and golden jam, representing the color of a supernova explosion.
 
 As evening falls, everyone goes out to look at the sky. Sky Fire's Remnant is so large and bright in the sky that you can't help but look at it—a purple and rose-colored river of light stretches from the horizon to the zenith, Archeon's eternal canopy. On this night, people deliberately turn off the lights near them (not the whole city turns off its lights, but spontaneously—letting the light from the nebula become the main light source).
 
@@ -466,7 +521,7 @@ At the nameday party, parents tie a **"first thread"** on the baby's wrist—a t
 
 **② Gondola Cable Cars** — Medium distance + vertical drop. Frontier City has 12-20 stations and 30-40 lines. Small gondolas with wooden shells, brass fittings, and terracotta roofs, seating 4-8 people. Powered by a fusion reactor-driven winch; the largest lines also use gravity circulation (paired up and down, consuming almost no energy); the main line gondolas have small hydrogen bladders inside, reducing weight by 30-40%. Speed ​​15-25 km/h, slow, leisurely, and perfect for socializing. The "thump-thump-thump" of the cable passing the station rollers is Frontier's signature sound. **Small-scale cable cars are also available in Atheria, Iris Hollow, and other major settlements.**
 
-**③ ★ Float Rail** — An Archeon version of public light rail. Basalt fiber monorails are strung between pillars, and elliptical hydrogen bladders on the roof of the carriages provide near-neutral buoyancy (slightly weighted to prevent them from drifting). **The track is non-load-bearing—it only prevents the carriages from floating upwards from below and from being blown off course by the wind from the sides.** Propulsion is achieved using small electric turbines (a few hundred watts), and braking is achieved using reverse steam jets (steam recovery for heating). Speeds range from 25-40 km/h—the fastest public transport in Frontier. Visual signature: a string of large, dark green, cocoon-shaped carriages gliding slowly along the suspended monorail. **Frontier has only 2-3 Float Rail lines** (connecting the core pylon cluster and the outer fusion reactor/residential areas); the gentle slopes of Iris Hollow and Amber Reach are also suitable. Atheria is not suitable (the terrain does not allow for straight lines).
+**③ ★ Float Rail** — An Archeon version of public light rail. Basalt fiber monorails are strung between pillars, and elliptical hydrogen bladders on the roof of the carriages provide near-neutral buoyancy (slightly weighted to prevent them from drifting). **The track is non-load-bearing—it only prevents the carriages from floating upwards from below and from being blown off course by the wind from the sides.** Propulsion is achieved using small electric turbines (a few hundred watts), and braking is achieved using reverse steam jets (steam recovery for heating). Speeds range from 25-40 km/h—the fastest public transport in Frontier. Visual signature: a string of dark green, cocoon-shaped carriages gliding slowly along the suspended monorail. **Frontier has only 2-3 Float Rail lines** (connecting the core pylon cluster and the outer fusion reactor/residential areas); the gentle slopes of Iris Hollow and Amber Reach are also suitable. Atheria is not suitable (the terrain does not allow for straight lines).
 
 **④ Pneumatic Pipeline Network** — A steam-pressure postal system historically used in both Paris and London, an enhanced version of the Archeon system. Copper pipes (a CI legacy) run through the core of the pylon and terrace, delivering capsules at steam pressure at speeds of 30-50 km/h—faster than any passenger transport. Used for: letters, small urgent parts, Guild manifests, and emergency medical supplies. **Not for large items or food.** Sound signature: Every few minutes, a distant "whoosh" sound comes from inside the walls in the background. The network is frequently backed up during festivals—knowing the network operator becomes a unique form of personal connections within Frontier.
 
@@ -482,20 +537,52 @@ At the nameday party, parents tie a **"first thread"** on the baby's wrist—a t
 
 **Frontier's Evening Sky Layers** (Looking up at dusk): Foreground: Streetlights and market → Midground: Skybridge network → Slightly further away: Skylights like drifting dandelions → Further still: A string of warm yellow gondola lights moving diagonally → Farthest: A Float Rail carriage (like a glowing silkworm cocoon) slowly passing between two pylons → Highest pylon: Signal lamps on top of the pylon + a docked airship → Sky Fire's Remnant: A rose-colored river of light. None of it is from Earth.
 
-**Other settlement transportation quick references:**
+**Other settlement traffic quick references:**
 - Atheria: Elevating cages (steam/hydraulic powered) + Gondola (hydraulic counterweight powered) + short-distance aerial bridges on the slopes (between workshop terraces on the same side, ranging from tens to hundreds of meters) + narrow-gauge flatbeds with hydrogen batteries at the bottom of the valley (along the banks of the Ishkar River, transporting goods and people) + stone arch bridges and wooden bridges across the Ishkar River at the bottom of the valley (spans of tens of meters). No skybridge across the valley (the valley is over 2km wide, exceeding the span of any steampunk technology). No Float Rail (terrain). No skylighter daily (turbulent waters in the valley). Small pneumatic tube network (a dozen or so stations). From one side of the slope to the other: descend to the valley floor → cross the bridge → climb the zigzag path on the other side. Or: a playful way is to take a glider from the middle of the slope to the other side and land on the terrace on the other side.
 - Iris Hollow: Float Rail 1-2 lines (along the hilly slopes). Skylighter is popular (stable winds and open spaces; skylighter races are popular among young people). Gondola is less common.
 - Amber Reach: Primarily Float Rail (connecting farm settlements to the town center). Pneumatic pipes transmit agricultural information. No gondola.
 Riverbend: Primarily a combination of canals, walking, and pulley-basket access. One pneumatic pipe (skyport↔smoking racks, used for fish delivery and distribution). No gondolas or float rails.
 - Skyleaf, other small settlements: walking + pulley. Occasionally a short gondola. Other systems lack sufficient energy.
 
+### 2.7c Work Vehicles – Buoyancy-Embedded Agriculture and Heavy Loads
+
+**Core Principle:** All Archeon land vehicles are "buoyancy-embedded composite structures"—not Zeppelins. The buoyancy chambers are hidden within a wooden/alloy shell, their appearance defined by function, not by the shape of the airbags. The airships in the Predator movies are a perfect expression of this aesthetic: a moving, riveted steel city, with all the airbags embedded within the structure, looking like an industrial monster, without any hint of "I'm floating"—yet they are floating. All Archeon land vehicles apply the same engineering philosophy, scaling down by two to three orders of magnitude.
+
+**Why this solution exists:** Archeon's young and active plate tectonics fragmented most of the large-scale terrain—the basin interior was relatively gentle, but perpetually undulating (see §1.2). Orun and Serpent's Tooth completely ruled out any form of rail or road system. But agriculture in the basin still required vehicles "larger than a wheelbarrow, smaller than an airship"—especially for harvesting, transport, irrigation, and maintenance. Over 500 years, this demand spurred a unique solution: **using buoyancy engineering inherited from CI to reduce the effective weight of land vehicles to 10-30%**—retaining ground interfaces (wheels, plows, skids) for guidance and friction, but entrusting weight-bearing to embedded small sacs. The result was a family of vehicles never before seen on Earth—neither cars nor airships, but something in between, "working while floating near the ground."
+
+**Visual Guidelines (Writing Anchors):**
+- Never exhibiting a Zeppelin-like bulging shape – the buoyancy chamber is concealed within a wooden/alloy shell.
+- There must be a real grounding interface (wheels, plow, skis) - the vehicle is a hybrid existence "embedded between the ground and the air".
+- The appearance is like the function itself (a low boat with a plow, a wooden box wagon with wheels, a flat board floating on a wheat field).
+- Material vocabulary: hand-forged metal + heartwood planks + basalt fiber skin, visible rivets, repair marks, patches
+- Propulsion using small steam ramming tanks or hydrogen fuel cells
+- The buoyancy gas is low-pressure hydrogen (the mainstream for airships) or low-pressure helium (expensive but safer, limited to the areas around Frontier and Iris Hollow)
+
+**Vehicle Family:**
+
+**① Skiff-Plow / Floating Plow** — A single-person operated farming unit. The chassis has actual plow blades and guide wheels (for ground contact and soil engagement), but 70-85% of the main weight is offset by embedded hydrogen bladders. A 600kg "plow" actually only pushes 100kg of weight, allowing a farmer to drive it on foot, while the plow blade pressure is sufficient to penetrate the soil. **Key Design** — The buoyancy bladder is embedded in a wooden, boat-shaped shell, giving it the appearance of a somewhat strange "small boat with a pointed bow towing a plow," without any inflatable air bladders. This is used for spring plowing in all settlements in the basin. It is also used in the Atheria Valley — a smaller size to fit the terraces.
+
+**② Field Loafer** — A medium-sized platform for the harvest season. A flat, 3-4m long vehicle, resembling a low-lying boat resting in the field—**actually, it's not resting, but floating on neutral buoyancy, 5-10cm above the ground**, steered by four ground-level guide wheels (not load-bearing, only guiding). A small steam engine drives the harvesting drum/threshing unit. **Core agricultural significance—zero soil compaction.** Archeon's terraform soil layer is thin and precious; traditional tractors would compact it into bricks. The loafer doesn't compact the soil. Standard equipment in large field areas like Hearthstone, Amber Reach, and Iris Hollow inland.
+
+**③ Cargo Drift** — The most common medium-sized freight transport method on flat terrain. It appears as a wheeled wooden crate, pulled by one person or a thorn-goat. In reality, 40% of the cargo box's internal volume is buoyancy chambers. **A load that a sheep couldn't pull without buoyancy can be easily pulled by a sheep with buoyancy.** This is why thorn-goats haven't been phased out—they provide guidance and friction, not load-bearing capacity. For short-distance freight transport (10-30km) between settlements within basins, if airships are unavailable, Cargo Drift is used along dirt roads—at speeds of 4-6 km/h, but without requiring fuel.
+
+**④ Plain Cutter** — A special piece of equipment that appears during the harvest season. It doesn't move in the field—it **floats 30-50cm above the field surface**, gliding across the wheat fields at a very low speed (1-2 km/h), harvesting crops with its suspended cutting array. From a distance, it looks like a giant flat cloth floating on the golden wheat field. This is one of the iconic visuals of Archeon agriculture—people of Anna's mother's age would sit on the edge of the Plain Cutter with their parents to watch the sunset. During the Hearthstone and Amber Reach harvest season, dozens of Plain Cutters can be seen gliding slowly across different fields simultaneously, precisely cutting the wheat ears below, while the sky above is divided into moving dark patches by the shadows cast by the Plain Cutters. **Key identifying detail** — The Plain Cutter doesn't have the bulging shape of a Zeppelin; it's a **rectangular, flat wooden platform**, with buoyancy chambers embedded in the divided compartments inside. It looks like a deck that floats on its own.
+
+**⑤ Canal Tender / Waterway Floating Maintenance Vessel** — A small vehicle used for maintaining irrigation systems. It moves within the canal (basic buoyancy relies on the water), but when it needs to cross a canal bank, it activates an embedded hydrogen capsule to "jump" across—the buoyancy temporarily rises, lifting the hull off the water, allowing it to cross the bank and land in the next section of the canal. It is standard maintenance equipment for the rice paddy-pond-irrigation canal system around Iris Hollow.
+
+**⑥ Lift-Sled** — Small cargo transport used in mountainous and terraced settlements. It appears as a rectangular wooden box with a sled-like bottom, with buoyancy chambers embedded under the chassis. Better than wheeled vehicles on rough terrain—the sled doesn't require a smooth surface; buoyancy allows it to glide stably on 30-degree slopes. It's used for transporting spare parts between workshops on the Atheria slopes, transshipping fish between Riverbend canals, and transporting Ember Crown goods from the Skyleaf flower fields to the apothecary.
+
+**A Common Identifying Feature of Archeon Land Vehicles:** When an outsider first sees an Archeon farmer pushing a Skiff-Plow through a field, there's a moment of confusion—this thing moves differently. It's too light. Pushing it feels like pushing a small boat on water, not a plow on soil. Then it becomes clear that it's floating—yet its blades are actually cutting furrows in the ground. **This is the core of Archeon vehicle aesthetics**—they are not aircraft, nor are they ground vehicles; they are **a third kind of thing**: buoyancy as a "weight management tool" rather than a "means of flight." This aesthetic permeates all scales, from Class V airships to the Skiff-Plow. One planet, one engineering philosophy.
+
 ### 2.8 Airship
 
 The airship is the lifeblood of Archeon. Buoyancy comes from hydrogen, and propulsion comes from a hybrid power system: fuel cells (hydrogen-oxygen reaction generates electricity to drive the motor, the main propulsion), steam propulsion (a small boiler directly drives the propeller, a reliable backup), and sails (auxiliary and energy-saving).
 
-Anna's Hauler has a deep hum and a slight chemical smell characteristic of fuel cells when it starts up. Kassia's Razor is a sharper whine motor—powerful for short bursts but with limited range.
+The Gust is a Class II Hauler—a Loom public boat that Anna has long managed and piloted, not privately owned. It starts with the characteristic low hum and slight chemical smell of a fuel cell. Kassia's Razor is a high-performance skiff—a sharper whine motor, open-top, with strong short-range bursts of power but limited range.
 
-Airships are classified from Class I small private boats to Class V large cargo haulers. Anna pilots a Class II—a medium-sized vessel that balances cargo carrying and maneuverability.
+Airships are classified from Class I small boats to Class V large cargo haulers. **Archeon has no private airships**—all airships are public resources of Loom, registered by Guild, allocated to qualified pilots for management and operation. Anna pilots Class II—medium-sized aircraft, balancing cargo carrying and maneuverability. Skiffs are not classified as airships—they are single-person open-top aircraft, more like tools than boats.
+
+**★ Aesthetic Anchor Point—The Airships of Predator:** The visual benchmark for all Archeon airships is the airships in the movie *Mortal Engines*—not Zeppelins, not hot air balloons, not Federation's streamlined futurism. **The exterior is a functional industrial design—riveted metal hulls, exposed engine bays, visible control surfaces and sails, patched skin—**but all buoyancy airbags are embedded inside the hard shell, completely invisible from the outside.** An Archeon Class III hauler looks like a flying ship: it has a bow, sideboards, decks, and sails—but no inflated, exposed airbags. The airbags are inside the hard shell, divided into dozens of independent compartments embedded between the frames. This aesthetic permeates all airship scales—the Class V is a floating industrial fortress, the Class II is a winged wooden and iron sailing ship, and the skiff is a skeletal wing. **None of them look like "flying balloons."** This is the core identifying feature shared by the Archeon vehicle family (including all land-based work vehicles in §2.7c)—buoyancy is the hidden engineering reality, and appearance is defined by function. A planet, an engineering philosophy.
 
 ### 2.9 Flying Culture – The Wind People
 
@@ -515,7 +602,7 @@ Two flight philosophies collide in Thread Run: Anna's "keeping pace with the win
 
 The total takeoff weight is approximately 40-50 tons, with a payload of 20-30 tons and a pure cargo capacity of 12-18 tons. The design blends Federation engineering rationality (streamlined body, Nacelle layout) with Archeon's local practical aesthetics (exposed riveting, patched skin, and traces of hand-assembly). The large adjustable sail structure at the stern serves as both a stabilizing surface and a cruising sail, saving 30-40% of fuel when downwind.
 
-A single Class V vessel can change the fate of a settlement—a single shipment can provide Riverbend with three months' worth of filters and spare parts. There are probably only a handful of Class V vessels in operation throughout Archeon.
+A single Class V vessel can change the fate of a settlement—a single shipment can provide Riverbend with three months' worth of filters and spare parts. There are probably only a handful of Class V vessels operating in the entire Archeon.
 
 ---
 
@@ -782,7 +869,7 @@ Note: Coverage refers to the Main Habitable Zone. The entire continent (includin
 | Year | Recent Sky Fire | Estimated Population | Core Pressure During the Same Period |
 |------|----------|---------|------------|
 | ~2510 | 0 | ~120 | Sky Fire survivors. Mostly children raised by CI + a few adult Axiom survivors |
-| ~2560 | 50 years | ~280 | Tower shutdown. Population just over 200—every adult is irreplaceable. |
+| ~2560 | 50 years | ~280 | Tower shutdown. Population just over 200—each adult is irreplaceable. |
 | ~2650 | 140 years | ~1,400 | Around the time of Atwood's death. The first generation of "pure Archeons". They began to have the resources to expand.
 | ~2700 | 190 years | ~3,000 | halos overlapped. The fragile window ended. The population supported multiple settlements for the first time.
 | ~2800 | 290 years | ~16,000 | Mature, self-sustaining ecosystem. Loom network formed |
@@ -790,6 +877,24 @@ Note: Coverage refers to the Main Habitable Zone. The entire continent (includin
 | ~3031 | 521 ​​| ~800,000-1,000,000 | Anna era. Includes late-stage baby boom effect and a growth rate adjustment of slightly above 1.7%.
 
 Note: The 1.7% annual growth rate is the average over 520 years. In the early years (the first 100 years), due to small population effects, genetic bottlenecks, and the aftereffects of Skyfire radiation, the actual growth rate may be lower (~1.2-1.5%). In the later years (after 2800), with the accumulation of medical resources and the release of food production capacity, it may be higher (~1.8-2.0%). The table above uses the average as a rough anchor. Key observation: By the end of the vulnerable window in 2700, the population was only ~3,000—this explains why the great vegetation advance (2560-2800) mainly relied on the natural succession of pioneer species plus limited human guidance, rather than large-scale artificial planting.
+
+#### 3.4b The Evolution of Buoyancy Embedded Engineering—Why All Archeon Vehicles Are Like This
+
+This is the most unique engineering identity of the Archeon civilization (see §2.7c and §2.8 for details). It is not an aesthetic choice, but a result of historical path dependence. Six layers of causal chain:
+
+**Layer 1:** The CI era featured truly industrial-grade vehicles. The "Harvester No. 4," documented in *The Atwood Ledger*, was a product of 25th-century Federation industrial technology—streamlined, with a mirror-finish alloy chassis, and requiring no embedded buoyancy (it possessed genuine lightweight metal alloys and high-powered batteries). These machines operated on the ground, with weight management relying on materials science, not buoyancy. Agriculture in the CI era in the Basin Seven depended entirely on these machines.
+
+**Second Layer: The Collapse of Land Mechanization After the Retreat of Robots.** Between 2560 and 2650, the harvesters, transports, and bulldozers left behind by CI gradually ceased operation. "The wheat in Sector 7B must be harvested by hand" marked the beginning of this collapse. The first generation of pure Archeon farmers discovered that hand harvesting simply couldn't keep up with population growth, nor could they rebuild those streamlined machines—there was no alloy production, no precision batteries, and no robot factories.
+
+**Third Layer:** However, the ability to manufacture airships was preserved. Airships were one of the earliest complex technologies taught to humankind during the CI era (as they were essential from the beginning on the fractured terrain of Archeon). Numerous airship maintenance and manufacturing processes are documented in the metal plate etchings from the CI's testamentary period (~2530-2550). Hydrogen production, basalt fiber skeletons, fabric skins, and the creation of embedded gasbag frames—this knowledge was passed down through apprenticeships. In the final years before Atwood's death, the first generation of Archeon workshops was already capable of independently maintaining airships.
+
+**The fourth layer: When reinventing land vehicles, all they had at hand was buoyancy technology.** Between 2700 and 2900, the Archeon workshops, having mastered basalt fiber manufacturing and hydrogen bladder embedding, began attempting to address the lack of land mechanization. They couldn't replicate CI's alloy chassis and batteries—but they could scale down the airship's internal gasbag architecture to field equipment. The first generation of floating plows may have been ugly and unstable ("My grandfather said the first one his grandfather made always veered to one side because the gasbags were asymmetrically distributed"), but it was five times faster than by hand. **The engineers of the airship skeleton were also the engineers of the floating plows**—which is why these two types of devices shared a visual language.
+
+**The Fifth Layer:** This engineering philosophy was discovered to be agriculturally superior. Generations later, Archeon farmers realized that Plain Cutter and Field Loafer were not just "faster hand-cutting"—they **didn't compact the soil**. Archeon's terraform soil layer was only 521 years deep, and compaction by traditional heavy equipment meant generations of agricultural loss. Buoyancy-embedded vehicles were the only solution that could work on fragile soil without damaging it. **By Anna's time, this had transformed from "what we can do" to "what we should do"—a proven agricultural ethic.** An Archeon farmer would instinctively feel uncomfortable seeing a Federation streamlined tractor: that thing would crush the soil.
+
+**Sixth Layer: Aesthetic Consistency Across Scales.** When an engineering philosophy permeates all the vehicles of a civilization—from 100-meter Class V airships to 1-meter floating plows—it transforms from an engineering choice into a cultural identity. The Archeons don't say, "We use buoyancy engineering"—that's how they build things, just as we don't say, "We use gravity." When an Archeon child first draws an airship, he draws the riveted industrial shape of *Mortal Engines*, not a Zeppelin—because all the airships he sees at Frontier Airport look like that. The bulging, exposed gasbags **don't exist** in his visual memory. This is why, when Federation visitors later demonstrate their streamlined anti-gravity aircraft, the Archeons' reaction isn't "Wow, that's amazing"—it's, "How can that thing be shaped like that? Where's its buoyancy?" The vehicle languages ​​of the two civilizations are completely incompatible.
+
+**Narrative Use (Reveal During Federation Contact):** When Federation visitors first see the Plain Cutter floating in the Archeon farmland, they are puzzled—why would these people create such an elaborate solution just to prevent a machine from compacting the soil? The answer is: because their soil is the culmination of 521 years of biosphere development, and they remember what losing it would mean. **Buoyancy is not just technology—it is Archeon's ethical commitment to "lightness."** This is a moment that allows the people of Archeon to explain themselves—the Federation visitors initially thought it was a sign of technological backwardness, only to discover it was an engineering ethic they themselves had forgotten how to think.
 
 ### 3.5 Anna's Era (3010)
 
@@ -828,7 +933,7 @@ Federation citizens aren't "cowardly"—they've **never been trained to face phy
 
 **Flagship Class (~5km):** Exists, but designed for planetary defense and terraform engineering—asteroid orbit deflection, atmospheric terraforming delivery, crustal structural modification, and orbital infrastructure deployment. The 5km scale is not for intimidation, but because the amount of equipment and materials required for terraform engineering is limited. The entire Federation consists of only 4-6 ships, each a mobile industrial city.
 
-**Mag-Bond Armor (Magnetic Field Reinforced Molecular Bonds):** A standard hull technology for all Federation spacecraft. It rearranges the molecular bond structure of materials at the nanoscale using a directional magnetic field, achieving a hardness 5-10 times that of diamond. Its purpose is not combat—it's to protect against the daily hazards of space travel (micrometeorites, high-energy cosmic rays, warp-shifted particles) and radiation echoes from terraform operations. Sensory characteristics: The surface temperature is 2-3 degrees Celsius higher than the ambient temperature (the magnetic field maintains waste heat); low-frequency vibrations of 40-60 Hz can be felt by the palm of the hand (the operating frequency of the magnetic field generator); under specific lighting conditions, it displays molecular rearrangement stress textures and faint interference colors.
+**Mag-Bond Armor (Magnetic Field Reinforced Molecular Bonds):** A standard hull technology for all Federation spacecraft. It rearranges the molecular bond structure of materials at the nanoscale using a directional magnetic field, achieving a hardness 5-10 times that of diamond. Its purpose is not combat—it's to protect against everyday hazards during space travel (micrometeorites, high-energy cosmic rays, warp-shifted particles) and radiation echoes from terraform operations. Sensory characteristics: The surface temperature is 2-3 degrees Celsius higher than the ambient temperature (the magnetic field maintains waste heat); low-frequency vibrations of 40-60 Hz can be felt by the palm of the hand (the operating frequency of the magnetic field generator); under specific lighting conditions, it displays molecular rearrangement stress textures and faint interference colors.
 
 **Antimatter Projectile Delivery System (Terraform Core Tool):** The flagship-class vessel carries industrial-grade antimatter production facilities, capable of producing and storing hundreds of kilograms of antimatter on-site. The standard process for artificially creating plate boundaries is: CI calculation of the fault line → deployment of deep boreholes along the line → projection of miniature antimatter projectiles (each weighing tens to hundreds of grams, with a magnetically confined shell) to the target depth via an electromagnetic accelerator → synchronous detonation. 100 kg of antimatter annihilation ≈ 1.8 × 10¹⁹ joules ≈ 86,000 Tsar Bomba equivalent, distributed along a fault line of several thousand kilometers—enough to crack the Earth's crust but not enough to shatter a planet. Recoil is negligible for engineering vessels weighing hundreds of millions of tons; the real challenge is radiation management (Mag-Bond armor shields against gamma-ray echoes).
 
@@ -874,12 +979,12 @@ The Transformation of Primitive Tribes: Isolated communities in the Amazon, Papu
 By the end of the 23rd century, the "nation" as a unit of resource allocation had become a mere shell. The Federation's predecessor—the Earth Unification Council—was not established through conquest, but rather naturally formed as all national governments gradually became superfluous under AI management. There were no wars of independence, no declarations of unity. It was simply that one day people realized all infrastructure was already managed by the same network, and it was convenient to give it a name.
 F1.2 Second Era (23rd-25th centuries): The Birth of the Sleepers and the Dawn of the Stars
 A key turning point in the 23rd century: Immersive VR + Consciousness-Matrix Interface.
-As VR evolves from "wearing a headset and looking at a screen" to "writing perception directly into the neural level," the allure of the real world begins to crumble for most people. Not because reality has gotten worse—quite the opposite, reality has never been better. It's because VR can offer things that reality cannot: infinite space, customizable physical laws, and a novelty that never gets old.
+As VR evolves from "wearing a headset and looking at a screen" to "writing perception directly into the neural layer," the allure of the real world begins to crumble for most people. Not because reality has gotten worse—quite the opposite, reality has never been better. It's because VR can offer things that reality cannot: infinite space, customizable physical laws, and a novelty that never gets old.
 The first group of sleepers were not "losers who escaped reality." They were rational optimizers—if your goal is to "maximize the quality of your subjective experience," spending each day in a virtual world that can be infinitely customized is far more efficient than searching for "meaning" in a physical world where you no longer have any material needs.
-24th Century: The proportion of sleepers climbs from 5% to 40%. Automated maintenance systems are developed—your body lies in a life support pod, muscles are maintained by electrical stimulation, nutrients are precisely delivered, and waste is removed. Your consciousness resides in a paradise you designed yourself. From the outside, 40% of the world's population has "disappeared"—their houses remain, spotlessly maintained by AI, but no one steps out the front door.
+24th Century: The proportion of sleepers climbs from 5% to 40%. Automated maintenance systems are developed—your body lies in a life support pod, muscles are maintained by electrical stimulation, nutrients are precisely infused, and waste is removed. Your consciousness resides in a paradise you designed yourself. From the outside, 40% of the world's population has "disappeared"—their houses remain, spotlessly maintained by AI, but no one steps out the front door.
 25th Century (when Atwood departed): 70% of the population were asleep. The city had become a garden—not because anyone planted flowers, but because AI, realizing humans no longer used the streets, began using vegetation to improve air quality and mitigate the heat island effect. There were no cars, no noise, and the air smelled like after rain. Occasionally, an awakened person would walk by—they went to the park to paint, or to the lab to conduct physics experiments, or simply walked, because walking itself was an experience requiring gravity and air.
 The Awakeners' Interstellar Impulse: The Awakeners of the 25th century are not anti-technological Luddites. They use AI, they use augmentation, they use all the tools. But they insist on one thing: to exist in the physical world with physical bodies. "Being satisfied does not equal being meaningful" is not a slogan, but an ontological stance. When there is nothing left for them to do on Earth, interstellar colonization becomes the only realm where there is still genuine uncertainty—you don't know what that planet smells like unless you stand on it yourself.
-Twin Pillars Completed: Around the mid-24th century, two space elevators rose from the equator—one off the coast of Ecuador, and the other on an equatorial island in Indonesia. Cables woven from carbon nanotubes stretched from sea level to geostationary orbit 36,000 kilometers above the Earth. Their name, "Twin Pillars," originally an engineering designation, later became a symbolic representation of the interstellar age—from the ground, two nearly invisible lines disappeared into the blue sky, with the geostationary station at their apex a visible highlight.
+Twin Pillars Completed: Around the mid-24th century, two space elevators rose from the equator—one off the coast of Ecuador, and the other on an equatorial island in Indonesia. Cables woven from carbon nanotubes stretched from sea level to geostationary orbit 36,000 kilometers above the Earth. Their name, "Twin Pillars," originally an engineering designation, later became a symbolic representation of the interplanetary age—from the ground, two nearly invisible lines disappeared into the blue sky, with the geostationary station at their apex a visible highlight.
 In the 25th century, each cable consisted of a single main cable and auxiliary rails, approximately 50 meters wide, with sufficient capacity to support the rail transport needs of the initial colonization program. Dozens of ascents and descents were conducted daily, with cargo and crew compartments climbing the cables at speeds of hundreds of kilometers per hour. The geostationary orbit stations were two medium-sized space stations (each approximately 2 kilometers long), also serving as transit ports and orbital docks.
 In the early 25th century, the Federation possessed: several dozen large manned warp-speed ships (ranging from hundreds of meters to kilometers in speed), with cruising speeds of ~100c (the ceiling of the first-generation architecture, reached around 2400), hundreds of automated relay stations, and several stable shipping routes covering a territory of 500 light-years. The size of the fleet was limited by the manufacturing cycle of warp engines (each ship taking ten years) and the bottleneck in the production of antimatter fuel.
 
@@ -1021,7 +1126,7 @@ The origin differences between the two red outfits are not explicitly distinguis
 | Father | Edmund Freedman, mechanic, deceased (Anna died when she was 13) |
 | Mother | Miriam Freedman, logistics coordinator, currently residing at Eagle's Nest |
 | Residence | The Eyrie, located on the upper rock face of the outer edge of Atheria Canyon, at an altitude of approximately 400 meters |
-| Occupation | Airship pilot + mechanic (shuttleman), piloting the Class II airship "Rafale" |
+| Occupation | Airship pilot + mechanic (shuttleman), managing and piloting the Class II airship "Rafale" (Loom public ship) |
 | Core Competency | Auditory Diagnosis – Determining Machine Status, Fault Location, and Inter-component Relationships Through Sound |
 | Core Weakness | A tendency to do everything personally – distrusting others' ability to do things well and preferring to shoulder all responsibility alone |
 | Core Mechanism | "Three-second pause"—Self-examination before making a decision: "Is the hand that pushed me the wind or myself?" (Established after the 13-year-old Lia incident) |
@@ -1034,7 +1139,7 @@ When she laughs, her whole face moves. She smiles when she's flying high in the 
 
 Her biggest problem was not believing that others could do what she did. It wasn't arrogance—it was fear. The thought of letting go, of things not going well, of someone getting hurt—was more terrifying than any storm. So she carried everything herself. After the Lia incident when she was 13, she installed a built-in brake in herself: a "three-second pause." Whenever she felt an impulse pushing her forward, she would stop and ask herself: Is the hand pushing me the wind or myself? If it's the wind—go with it. If it's myself—wait.
 
-[The three-second pause penetrating the arc is shown in Layer A, P-03. Episode-by-episode deployment beats are shown on the episode card.]
+[The three-second pause penetrating the arc is shown in Layer A, P-03. Episode-by-episode beat deployment is shown on the episode card.]
 [body-as-narrator coding rules: Anna's 3rd POV only reports hand actions and tactile input, without performing self-analysis.]
 Each physical detail must have a functional alibi. Surface = professional competence.
 Readers familiar with backstory will see another layer. See the writing discipline document for detailed vocabulary and examples.
@@ -1074,7 +1179,7 @@ Edmund's happiness wasn't dramatic. It wasn't a "I'm proud of you" declaration. 
 
 He was also a builder of new things—not just a repairman. The windbreak wall of the Eagle's Nest workshop, the improved waterwheel, and The Sail kite he made for Anna—were all designed and built by him. He believed that "the greater skill is to build new and better things."
 
-Shortly after his marriage, he went to Skyleaf Basin to maintain the irrigation system—that was the first time he saw a direct causal link between the pipes he repaired and the living people. The pipes were working → the waterwheels were turning → the flower fields came to life → the flowers became medicine → the patients recovered. Red was the most striking visual marker on that causal chain. Later, he dressed Anna in red, perhaps without explicitly thinking "because of the flowers of Skyleaf"—but the roots were there.
+Shortly after his marriage, he went to Skyleaf to maintain the irrigation system—that was the first time he saw a direct causal link between the pipes he repaired and the living people. The pipes were working → the waterwheels were turning → the flower fields came to life → the flowers became medicine → the patients recovered. Red was the most striking visual marker on that causal chain. Later, he dressed Anna in red, perhaps without explicitly thinking "because of the flowers at Skyleaf"—but the roots were there.
 
 He died when Anna was 13. Not an accident, but a chronic illness—related to radiation exposure. When Anna was about 9, Edmund, as a guard mechanic, transported a radioactive Axiom stray component to a settlement (the component was a civilization-level contribution to the local area). Edmund was unaware of the radiation risk during the transport—he only learned of the exposure afterward. He chose not to tell anyone (or a very few). He didn't want the shadow of death to taint the time he spent with Anna. Edmund occasionally took Anna out from when she was 8 (on her first flight with M-09b), and a little more often after she turned 10—but that seemed simply because his daughter was older and could help. The red jacket (when Anna was 10) was because the old coat was too small. Edmund making things was a daily routine. All these actions, on the surface, are a natural continuation of a father's behavior. Only after flipping through Ep61 can we see: the red was because it was visible from afar, the larger size was because she would wear it for a long time, and taking her out was to ensure that every settlement remembered her. The design made it invisible because it was nested within what he would have done anyway. Anna had gone out with him a few times, but Edmund had been to far more settlements than Anna had been present at. Anna had time to prepare, but she didn't know the real cause of the illness—until Episode 61 aligned the radiation timeline with the Red Jacket Creation timeline itself. This conclusion wasn't explicitly stated by any character; it belonged solely to Anna.
 
@@ -1146,7 +1251,7 @@ Bolts (Ep65), independent repair latches (Ep67). Each step answers the same ques
 Friction beat distribution:
 ; Ep37 Lantern Delay = First Friction (Seeing peers' hands move quickly → Seeing one's own hands → Gone) = Passive Contrast
 Ep64 drive chain = Second friction (tried → stopped → given a solution → went) = Active steering
-The two frictions clamped down on all the positive progression beats in the middle (wrench → valve check → winch → bolt).
+The two friction clamped down on all the positive progression beats in the middle (wrench → valve check → winch → bolt).
 The goal is to prevent progress from being a "straight upward" process—to achieve precision growth after "knowing where the boundaries are."
 
 ---
@@ -1181,7 +1286,7 @@ Anna's control mode has a specific trigger: **"If this step goes wrong, the cons
 
 This means that Milo saw two people in Anna:
 Anna, the "safe context," is a woman who jokes around, deliberately lets Milo make mistakes and then watches how he handles them, and kicks the toolbox with her toe instead of handing it to him. Anna is a mentor Milo knows and enjoys following.
-Anna when Stakes increased: Suddenly changed. She became faster, talked less, wouldn't let Milo touch anything critical, and did everything herself.
+Anna when Stakes increased: Suddenly changed. She became faster, talked less, wouldn't let Milo touch critical things, and did everything herself.
 
 We see this shift through Milo's perspective. Milo doesn't understand why Anna sometimes trusts him and sometimes suddenly retracts all autonomy. We didn't understand it at first either. After the Lia incident, we retroactively understand: Anna doesn't distrust Milo—she distrusts **her own judgment under pressure**. The three-second pause is a brake on herself, and "doing everything herself" is a second layer of insurance—if I don't let others do it, others won't get hurt because of my wrong judgment.
 
@@ -1191,14 +1296,14 @@ We see this shift through Milo's perspective. Milo doesn't understand why Anna s
 |------|------|------------|-----------|-----------|
 | M-1a | Ep12-15 | Jokes on deck/Kicking the toolbox with toes | Fun-loving instructor | Baseline: Anna can relax |
 | M-1b | Ep12-15 | "I'll do this" (blocks Milo's hand) | There are some things she won't let you touch | Baseline: Control mode is present |
-| M-Cover | **Ep25** (Before and after Founder Day Race) | When the airflow changes abruptly, Anna's hand directly covers Milo's hand to guide him to the correct action. | "...You can just say 'left.'" | Anna's hand is faster than her mind. The body calculates "what if he makes a mistake?" in 24/7.
+| M-Cover | **Ep25** (Before and after the Founder Day Race) | When the airflow changes abruptly, Anna's hand directly covers Milo's hand to guide him to the correct action. | "...You can just say 'left.'" | Anna's hand is faster than her mind. The body calculates "what if he makes a mistake?" in 24/7.
 | M - Retracting Hand | **Ep57** (Arc 4, Early Axiom) | Milo makes a risky in-flight adjustment; Anna extends her hand three inches → stops → retracts it. Milo doesn't notice. | — | Milo returns after working independently at Thornfield, but Anna's controlling impulse remains. Retracting the hand = progress (no longer covering), but the impulse hasn't disappeared. |
-| M-exhale | **Ep58** (Arc 4 Desert Segment Flight) | Milo makes a fast decision in a high-stakes context; Anna tries to take over → stops → lets him do it → does it correctly → **exhale** | "When did he learn that?" | Thornfield gives Milo his own experience; Anna's exhale = the first physical acknowledgment that he no longer needs her hand.
+| M-exhale | **Ep58** (Arc 4, Desert Segment Flight) | Milo makes a fast decision in a high-stakes context; Anna tries to take over → stops → lets him do it → does it correctly → **exhale** | "When did he learn that?" | Thornfield gives Milo his own experience; Anna's exhale = the first physical acknowledgment that he no longer needs her hand.
 | M-4 | **Ep64** (Core Introduction: Kassia-Milo Dialogue) | "Lighter Than You Think" | Milo uses Arc 1 body memory + fresh data from Ep57-58 to reveal a narrow truth | Information asymmetry beat: Milo is technically correct, Kassia knows this is far from the whole picture but doesn't say it |
 | M-5a | **Ep68** Morning | Milo turns off the light: "Let's go." Anna follows. | My first time overriding her | Milo's agency and Anna's control interlock. |
 | M-5b | **Ep68** | Laughed so hard I slipped and fell on the grass | Never seen Anna like this before | A day where control mode was completely absent |
 
-**Progression Path:** From complete control → in-process takeover → near takeover but stopped → complete let go → overridden. Arc 1 establishes the baseline (M-1a/1b), Arc 2 escalates midway (M-overlay), Arc 4 completes the progression after regression (M-withdrawal → M-exhale → M-5a/5b). Arc 3 Milo is absent, progression pauses—Anna's control mode shifts to distance management of Lia during this time (Kassia's observed behavioral tell).
+**Progression Path:** From complete control → in-process takeover → near takeover but stopped → complete let go → overridden. Arc 1 establishes the baseline (M-1a/1b), Arc 2 mid-stage escalation (M-overlay), Arc 4 completes the progression after regression (M-withdrawal → M-exhale → M-5a/5b). Arc 3 Milo is absent, progression pauses—Anna's control mode shifts to distance management of Lia during this time (Kassia's observed behavioral tell).
 
 **M-cover beat detail (anchored to Ep25 Founder Day Race):**
 Test flights/warm-ups before a race or return flights after a race. Milo and Anna each pilot a skiff. A sudden change in airflow. Milo is adjusting a system. Anna judges that if Milo is too slow or makes a mistake, the plane will flip. Anna's skiff moves closer, her hand directly covering Milo's hand—not pushing it away, but **covering it and guiding his hand to perform the correct action**. One second. Done. Released. More significant than "I'll do this"—not pre-emptive interception, but in-process takeover. Milo was already doing it; Anna simply covered him.
@@ -1252,11 +1357,11 @@ Skin tone | Light to fair, doesn't sunbathe often |
 | Hair | Black, medium-short length, coarse texture, requires little maintenance |
 | Eyes | Dark (almost black), sharp gaze, with a scrutinizing quality |
 | Signature Outfit | Dark brown scarf/shawl (loosely wrapped around the neck and shoulders) + cropped top + cargo pants + goggles |
-| Occupation | Airship pilot, pilot of the high-performance short-range airship "The Razor" |
+| Occupation | Skiff pilot, piloting the high-performance Skiff "The Razor" |
 
 **[Personality – Let Actions Speak for Themselves]**
 
-Kassia is the kind of person who walks into a room without looking at anyone, yet knows exactly where everyone is. Her way of flying the Razor is completely different from Anna's way of flying the Razor—Anna "listens to the wind and works with it," while Kassia "reads the wind and is faster than it." Both methods result in a surviving landing, but they represent entirely different philosophies of interacting with the world.
+Kassia is the kind of person who walks into a room without looking at anyone, yet knows exactly where everyone is. Her way of flying the Razor is completely different from Anna's way of flying the Razor—Anna "listens to the wind and works with it," while Kassia "reads the wind and is faster than it." Skiffs and haulers are inherently different aircraft, but the difference isn't in the machines—it's in the people. Both methods allow for a survivable landing, but they represent entirely different philosophies of interacting with the world.
 
 Her scrutiny wasn't hostile—it was a habit of always being on edge. She weighed the risks, the distance, and the people. She rarely spoke first, but every word she uttered was carefully chosen.
 
@@ -1315,9 +1420,9 @@ Savona | Female | Retired pilot, over sixty years old, unparalleled route knowle
 
 ---
 
-# Anna's Childhood Resource Library — Underlying Module
+# Anna's Childhood Resource Library — Bottom Module
 
-**Engine Definition:** What Anna noticed → Discovered an invisible chain → The world seemed to expand.
+**Engine Definition:** What Anna noticed → Discovered an invisible chain → The world seemed a whole new size.
 >
 **Edmund's role:** Not a teacher, but someone who **shares joy**. His most frequent action is to wait by her side—for her to discover it herself—and then the two of them rejoice together. His response isn't a mechanical confirmation, but an entry point to shared delight—sometimes followed by a question ("So why do you think so?"), sometimes a pat on the back of her head, sometimes a memory that's been evoked in him, sometimes a shared smile. **Each response takes a different form—see Edmund's mandatory rules of dialogue variety.** Anna's childhood experience of "the world getting bigger" wasn't just cognitive—it was emotional. Every discovery was a joyful moment shared with Edmund.
 >
@@ -1347,7 +1452,7 @@ In *Timelapse*, Anna's childhood material exists in two formats: **prose passage
 Each card contains:
 - **Age** / **Type of Perception** / **World Radius**
 - **Scene Seed**: A short description of what happened.
-- **Edmund's Moment**: What did Edmund do in this scene? What was his expression? What happened between the two people? In short, only describe the behavior and body language, not psychological analysis. If Edmund was not present, write "absent". This field forces the model to read Edmund's emotional presence as an independent dimension, preventing it from being overwhelmed by the perceptual training framework.
+- **Edmund's Moment**: What did Edmund do in this scene? What was his expression? What happened between the two people? In short, only describe the behavior and body language, not psychological analysis. If Edmund was not present, write "absent". **This field forces the model to read Edmund's emotional presence as an independent dimension, preventing it from being overwhelmed by the perception training framework.**
 - **Invisible Chain**: What connection did Anna discover? (This item is "None" for pure Joy modules)
 - **The role of an adult**
 - **Emotional Tone**
@@ -1389,7 +1494,7 @@ Then the sun rose higher, and the fog began to recede—first the surface of the
 
 **Animals in the Valley:** Archeon is home to CI-modified poultry—chickens (adapted to the K2V spectrum, with reddish-brown feathers and a deep, low call) and thorn-goats (with serrated, backward-curving horns, used for both transporting livestock down the slopes and producing milk and wool; their harsh calls sound like rusty hinges). Near the vegetable gardens at the bottom of the valley are modified beehives—the bees are descendants of strains brought from Earth during the CI era, genetically modified to resist radiation; they are slightly larger than Earth bees, and their wingbeats are a half-tone lower. Occasionally, a flat, freshwater crustacean walks sideways in the shallow water by the river—children call it "iron shrimp" because of its hard shell. Besides the slab-gray lizards, a small climbing bird (grey-throat) lives on the cliff face, its call sounding like two stones gently clattering together. **These animals are not decoration—they are part of Anna's sense of time.** A rooster crows = time to get up. A grey-throat flying across the cliff = it's almost noon (they only come out at noon). The buzzing of bees returning to their hive = it's evening. Spiny sheep coming down the slope = someone is unloading cargo.
 
-**Valleyland Agriculture:** Archeon's farmland isn't large-scale mechanized farming like on Earth—it's a hybrid of human labor, steam, and water power. The valleyland fields stretch along both banks of the Ishkar River, not as one continuous expanse of land, but as small to medium-sized terraces divided by a network of irrigation canals. Harvesting is done with small steam-powered harvesters (just the width of a terrace, half the height of a tractor, producing a continuous hissing steam and the rhythmic clicking of the cutters), and the harvested grains are bundled manually. Threshing is done using water-powered threshing machines along the canals—waterwheels drive a row of wooden gears, feeding the ears of grain in at one end and threshing the kernels at the other. Harvest season is a community event—the whole valley comes out, just like canal repair day. Children run around on the ridges, and people cook large meals on stoves by the fields. This method applies to all settlements—only the field shapes differ depending on the terrain (outposts in plains are large fields, hills are terraces, and woodlands are small clearings).
+**Valleyland Agriculture:** Archeon's farmland isn't large-scale mechanized farming like on Earth—it's a hybrid of human labor, steam, water power, and buoyancy-embedded vehicles (see §2.7c). The valley floor fields stretch along both banks of the Ishkar River, not as continuous large fields, but as small to medium-sized terraces divided by a network of irrigation canals. The Atheria Valley is too narrow for a plain chute—there, small skiff-plows (for spring plowing) and smaller, narrow harvesters (just the width of a terrace, half the height of a tractor, with a low, wheeled wooden box; buoyancy chambers embedded in the chassis offset most of the weight; the sound is a continuous hissing of steam combined with the rhythmic clicking of the cutters) are used. After harvesting, the grain is bundled manually. Threshing is done using water-powered threshing machines along the canals—waterwheels drive a row of wooden gears, feeding the ears of grain in at one end and threshing the grains out at the other. Harvest season is a community event—the whole valley comes out, just like canal repair day. Children ran around on the ridges of the fields, while others cooked large meals by the edge of the fields. **Vehicle configurations varied depending on the terrain:** Plain Cutter (floating above the wheat field for cutting) + Field Loafer (surface harvesting platform) was used in the open fields of the plains and outposts; narrow-body harvesters were used in the hills and terraces; manpower + Skiff-Plow was used in the woodland clearings; and Canal Tenders were used to maintain the irrigation canals in the Iris Hollow wetland rice paddies. All these vehicles shared a common engineering language—buoyancy embedded within a rigid shell, with an exterior defined by functional industrial design.
 
 When Anna was five, she could tell the time by color. A honey-colored sky meant it was about afternoon tea time. A copper-colored sky meant her father was almost done working. A deep blue sky with a touch of green—that was her mother calling her back inside, because the night wind was picking up.
 
@@ -1549,7 +1654,7 @@ The river water was cold. Anna pulled her hand back as she put it in—it was Ju
 
 Edmund was already lying on the rock.
 
-It wasn't an ordinary stone. It was the one in the middle of the riverbed—flat, grayish-green, larger than the workshop's workbench. Water flowed beneath it, parting and then meeting again on either side, creating a small patch of white foam downstream. To reach the stone, one needed to step over three stepping stones, each one wobbling. Anna first came along when she was six, pausing for a long time on the second stone. Edmund looked back at her, didn't reach out, just waited. She came over by herself.
+It wasn't an ordinary stone. It was the one in the middle of the riverbed—flat, grayish-green, larger than the workshop's workbench. Water flowed beneath it, parting and then meeting again on either side, creating a small patch of white foam downstream. To reach the stone, one needed to step over three stepping stones, each one wobbling. Anna first came along when she was six, pausing for a long time on the second stone. Edmund looked back at her, didn't reach out, just waited. She crossed over by herself.
 
 Now she can come over without even thinking.
 
@@ -1599,7 +1704,7 @@ Nature: Compass. Anchors the direction confirmed in the discussion. Does not rep
 
 ## I. Basic Architecture
 
-Anna's childhood is a standalone sub-novel, covering her from age 3 (when she first has memories) to age 19 (before the start of the main storyline in Episode 12). It is entirely told from Anna's third-person point of view (POV). The total length is approximately 250,000-400,000 words.
+Anna's childhood is a standalone sub-novel, covering her from age 3 (when she first has memories) to age 19 (before the start of the main storyline in Episode 12). It is entirely told from Anna's third-person perspective (POV). The total length is approximately 250,000-400,000 words.
 
 **Structural spine = breathing within the radius of the world.** Expansion → Contraction → Re-expansion.
 - A 3-year-old's world: 50 meters in front and behind the Eagle's Nest
@@ -1659,7 +1764,7 @@ Approximately 40,000-60,000 words, 6-10 episodes.
 **Episode 1 begins with a three-part safety signal:**
 - The persistent low frequency of wind passing through the Eagle's Nest wooden structure
 Edmund's metalworking rhythm in the workshop
-- The sound of Miriam's presence from the kitchen direction (not necessarily speaking, it could just be bowls hitting the countertop or fabric rustling).
+- The presence of Miriam from the kitchen direction (not necessarily speaking, it could just be bowls hitting the countertop or fabric rustling).
 
 Three voices simultaneously = safety. Anna doesn't know what this is, nor can she analyze it—she's only 3—but her body knows. This voice configuration is the earliest definition of "home" in her nervous system, and also the echo engine of the entire sub-novel. Every time Anna returns to the Eagle's Nest, the reader's body automatically checks: are all three voices present? The portal structure in Ep22 uses this "gap" to open the memory—the three voices surge up but are missing a beat; the workshop's metal rhythm is gone.
 
@@ -1732,7 +1837,7 @@ Each outpost visit should be 3000-5000 words, at least four to five times, and e
 
 **① Basin Plain outpost (Thornfield direction, 10 years old)**
 
-The landing felt completely different from Atheria. In Atheria, the landing was surrounded by hills—descending from the plateau at the top. Here, it was horizontal—the airship descended, slowing down more and more, the ground changing from a "map" to "grass" to "grass blades," until finally the vibrations of the wheels hitting the dirt road were transmitted up through the soles of your feet. In Atheria, you were "embraced by hills," while the plains were "spread out"—the horizon was on all sides.
+The landing felt completely different from Atheria. In Atheria, the landing was surrounded by hills—descending from the plateau at the top. Here, it was horizontal—the airship descended, getting slower and slower, the ground changing from a "map" to "grass" to "grass blades," until finally the vibrations of the wheels hitting the dirt road traveled up through your feet. In Atheria, you were "embraced by hills," while the plains were "spread out"—the horizon was on all sides.
 
 Anna's ears needed a few seconds to adjust after landing—the Atheria's reverberation was gone. Sounds travel away and never return. The wind wasn't channeled by the hillside—it was a broad, shapeless wind coming from all directions simultaneously.
 
@@ -1821,7 +1926,7 @@ Approximately 60,000 to 100,000 words, 10 to 16 episodes.
 **★ Hearing Break Beat (Must be included in Part V):** At least one beat: Anna is alone in an outpost, inspecting pipes. She places her hand on the pipe wall, hears something, stops, continues working, and doesn't tell anyone. The reader knows she heard it. Edmund is gone. That laugh of "suddenly, there's one more person in the world" will never come again. Integration remains, but sharing is gone. This moment of absence is one of the sources of emotional energy during Lia's three-second pause in Ep42—Lia is the first person in six years to receive Anna's perception from the outside.
 [Deployment Cross-Reference] The mainline present-time version is deployed on Ep26a Station 2 (Basin Plains outpost).
 Childhood sub-novel Part V should be deployed independently between the ages of 14 and 19, with at least one similar beat (different outpost, different age).
-The reader already knows Anna has been doing this for years when reading the main story Ep26a. The two systems work independently but reinforce each other.
+The reader already knows that Anna has been doing this for years when reading the main story Ep26a. The two systems work independently but reinforce each other.
 
 **★ Red Jacket Density Supplement:** Add at least one casual red beat for ages 14-19. Someone in an outpost saw her coming from afar and called her "Red Bird" or a similar nickname. Anna didn't care. The reader's red counter chimed again. Ensure the background layer has a sufficiently thick base by the start of the main Arc 2 storyline.
 
@@ -1835,11 +1940,110 @@ In every new place Anna's body did what Edmund had taught her—standing still f
 
 Anna started working on flight routes at 15-16. She entered Loom's informal network, carrying messages from one settlement to another, transporting small cargo, and helping people with water conservancy or engine problems. Joren observed her in Atheria and said those words—"What you're doing isn't what a mechanic does," "You won't go anywhere." Anna began to realize what she was doing, but didn't fully understand why.
 
-She got her hands on the Rafale at 17. Her own ship. The feeling of standing on the deck of her own ship for the first time—no need to give it back to anyone.
+At 17, she took command of the Rafale. She repaired it, and Loom officially assigned it to her to fly. Standing on the deck of this ship for the first time, she knew that tomorrow's course was in her own hands—not ownership, but trust.
 
 **18-year-old Milo appears.** The 13-year-old boy from Thornfield. When Anna first taught someone to "listen," she blurted out Edmund's words—"Put your hand on it and wait for it to tell you"—and then paused for a second. **This was the first time Edmund's voice was activated from within her.** The inheritance began branching.
 
 **Part V ends at age 19.** Anna is an independent, competitive pilot-mechanic, running routes covering half of Aethelgard. Her world radius is several times larger than when Edmund was alive—but she still pauses for that half-second every time she passes by the Eagle's Nest workshop. The final episode of Part V seamlessly connects to the main storyline.
+
+---
+
+## Part 3.b, Episode-level framework (50 episodes, approximately 350,000 words)
+
+The five parts have already been defined at the narrative level. This section is an episode-level granular breakdown—the core beat of each episode, the sensory/bond anchor, and word count estimates. All M-modules, sensory seeds, red jacket cumulative chains, flight continuums, Miriam axes, and Edmund axes seeds have a home in this map.
+>
+**How ​​to use:** When writing an episode, first check the Part-level narrative (the three sections above) to confirm the phase principle and key anchor points. Then, check the beat sequence of the specific episode here. Finally, check the relevant M-module cards to find specific deployable scenarios. The three layers work independently but reinforce each other.
+>
+> **★ This framework is a draft—episode numbering and word count are starting points, and can be broken down, adjusted, and extended during the writing process.** However, the total number of episodes, total word count, and emotional arc shape for each part should be maintained as anchor points.
+
+### Part I · Eagle's Nest (Ages 3-6) · ~50,000 words · 7 episodes
+
+| # | Core beat | Perception/bond | Word count |
+|---|---------|----------|------|
+| I-1 | Three-part safety signal establishment (M-01) · Eagle's Nest space unfolding | Visual + tactile baseline · Nervous system wired into the home | 8K |
+| I-2 | First time at the bottom of the valley (riding the elevator with Edmund) · Lost in the market for five minutes | World Radius pushed to the bottom of the valley | 6K |
+| I-3 | Miriam Daily Life · Knee Slip on the Boardwalk · Seasons Changing | Miriam Axis's First On-Screen Experience (Environmental Presence) | 6K |
+| I-4 | Sunberry · Blue Hyacinth (Looking at the flower from the rock face, asking Miriam why it grows in such a difficult place) · Lizard | Pure Joy · Hyacinth #1 Seed | 6K |
+| I-5 | Kite (§1.2) · Broken String · "I need a sail that can fly back" | The First Dialogue Between Hand and Wind · Flight Seed | 8K |
+| I-6 | Torrential Rain · Edmund's leather jacket covering him (§1.5) · All three voices present in the storm | A sensory symphony of absolute safety | 6K |
+| I-7 | An ordinary day · Nothing happened · Atheria is breathing | The world existed before Anna · Timelapse equilibrium | 5K |
+
+### Part II · Valley Bottom and Slope (Ages 6-8) · ~70,000 words · 10 episodes
+
+| # | Core beat | Perception/bond | Word count |
+|---|---------|----------|------|
+| II-1 | Anna begins venturing to the valley alone · Playmates appear (2-3 named friends) | Social circle expands · Atheria children's ecology on-screen | 6K |
+| II-2 | M-06 Riverstone ★ Edmund Axis Core Scene | Auditory Opening · Shared Delight | 8K |
+| II-3 | Miriam Axis Unfolding · Market Day (Going to the market with Miriam) · "Birds know earlier than the sky" | The first lesson in reading people | 7K |
+| II-4 | Watching blacksmiths forge iron at the bottom of the valley · First time falling into the river · Daily joy | Sparks/Water/Body | 6K |
+| II-5 | First time on the glider ★ Nausicaä moment (§2②) | Suspended in the air · Shared flight (with friends) | 8K |
+| II-6 | Glider Daily Life · Landing Spot Selection · Sensory Signatures of Different Ground Levels | Aerial Image Reading | 6K |
+| II-7 | Secretly Pressing the Lifting Cage · The World of the Workshop · An Initial Introduction to the Slope Industry | Three Scent Gradients of the Zigzag Road | 6K |
+| II-8 | Waterwheel Rhythm · Miriam Environmental Forecast Clues | Auditory Continuity | 6K |
+| II-9 | Skyport: Watching Airships Take Off and Land · "Where Do They Come From?" · An Unfamiliar Place Name | There's More to the World Above | 6K |
+| II-10 | Seasonal Transition · First Cool Season · Winter Curtain · Nebulous Night | Archeon Astronomy/Seasons · Sky Fire's Remnant on-screen | 7K |
+
+### Part III · The Sky Opens (Ages 8-11) · ~100,000 words · 14 episodes
+
+| # | Core beat | Perception/bond | Word count |
+|---|---------|----------|------|
+| III-1 | Skiff Crossing (First Time Sitting in the Back Seat) · Hand Memory from Line to Rod | Mechanical Feedback Interface | 6K |
+| III-2 | Skiff in control (Edmund in another skiff alongside) | Control + Trust | 6K |
+| III-3 | M-09b's First Flight ★★ Over the Crest of the Hill | Acoustics from Reverberation → One-Way · "Being Taken Around the World by Adults" | 10K |
+| III-4 | Flight Routine · Boring Flight · Edmund Dozing Off · Hands on the Control Stick Going from Stiff to Natural | The Sky Becomes Everyday Life | 7K |
+| III-5 | Outpost ① Basin Plain (Thornfield direction) | First time smelling "soil that isn't from Atheria" · Wood smoke | 7K |
+| III-6 | Outpost ② Hilly agricultural settlement · Threshing floor · Hot bread | Copper-colored wheat field · Collective rhythm | 7K |
+| III-7 | Outpost ③ Woodland Edge (Canopy Direction) · "Echoes Also Have Texture" | Woodland Acoustics · Soft Echoes | 7K |
+| III-8 | Outpost ④ Crestline Skyport stop · A bird's-eye view of the place we passed · Scale shock | Perspective flip | 6K |
+| III-9 | Outpost ⑤ Coastal Direction · "That's the Sea" | The World's Radius Expands Another Circle | 6K |
+| III-10 | M-18 bond peak ★★★ All-channel body memory arrives simultaneously from the air · Edmund reverses river stone smile | Direction reversed · Surpasses teacher | 10K |
+| III-11 | The Red Jacket Appears · "It would be perfect if it were a little longer" · Wrapped up in everyday outings | Red Jacket #1 Casual | 6K |
+| III-12 | Someone spotted a faint red glow at the settlement where Anna was out; Anna didn't notice | Red Jacket #2 | Edmund's website hints | 6K |
+| III-13 | Daily Equilibrium · Anna and Edmund as companions · Discussion on the equality of things | Bond quality stabilized | 6K |
+| III-14 | Sky Fire's Eve (From a Child's Perspective) · Sparkling Cookies · Lanterns · "Look How Amazing We Are" | Festival Worldbuilding · Collective Identity | 7K |
+
+### Part IV · The Sky Narrows (Ages 12-13) · ~50,000 words · 7 episodes
+
+| # | Core beat | Perception/bond | Word count |
+|---|---------|----------|------|
+| IV-1 | Drift begins · Flight frequency changes from weekly to occasional · Not apparent on the surface | Uncertain when it changed | 7K |
+| IV-2 | M-19 Two Hands · Edmund's Second Shot | Hands Taken | 8K |
+| IV-3 | Daily life of a 12-year-old: buffer, playmate interaction, being bossed around by adults, seasons changing | Part IV cannot be a grief tunnel | 6K |
+| IV-4 | M-20 voice-only · "Washer is bulging" | Tutorial Medium: From Hand to Sound | 7K |
+| IV-5 | M-18b Sky Narrows · Last Flight ★★ | Acoustic Archive · Still Watching Even with a Sore Neck | 8K |
+| IV-6 | M-26 Lia Incident · Wrench · A Seed Is Not a Tree | 13 Years Old · Accident | 5K |
+| IV-7 | After Edmund disappeared · Three voices became two voices · A red jacket hung at the door · Worn on cold mornings | The world physically shrank · Wearing the red jacket | 8K |
+
+### Part V · Reopened (Ages 14-19) · ~80,000 words · 12 episodes
+
+| # | Core beat | Perception/bond | Word count |
+|---|---------|----------|------|
+| V-1 | 14-year-old solo short-haul flight · Sky reopens · "Same crest line but no one beside me" | Relief and pain simultaneously | 7K |
+| V-2 | Fly with Hagen (Flight Instructor) · Learn Flight Routes · Not Edmund's Way | Another Kind of Legacy | 6K |
+| V-3 | First Visit to Frontier City ★ Density Impact · Second Acoustic Reconstruction | A City of 300,000 People | 8K |
+| V-4 | First time at Iris Hollow · Flat, no echo · Sea breeze | Acoustic malfunction · Local method used | 7K |
+| V-5 | Hearing break beat · Outpost alone during repair · Hand on tube wall · No one catches it | Absence is the energy source of Ep42 | 6K |
+| V-6 | Starts running routes at 15-16 years old · Shuttle Seed · Joren "You can't walk" | Shuttle Identity Awakening | 7K |
+| V-7 | Miriam at Home · An Adult Version of the Mother-Daughter Relationship · "Your dad said the same thing" | Edmund ghost echo | 6K |
+| V-8 | 17-year-old repairs the Rafale; Loom assigns the ship to her | Trust, not ownership | 7K |
+| V-9 | Red jacket casual beat · Someone on an outpost called her "Red Bird" | Red counter +1 | 5K |
+| V-10 | 18-year-old Milo appears · "Put your hand on it, wait for it to tell you" · A moment of hesitation | Edmund's voice activates from within his body · Inheriting branching | 7K |
+| V-11 | Anna cites Edmund without realizing she's quoting him · Kassia access window | legacy channel live | 6K |
+| V-12 | A Spring Afternoon at 19 · §5 "Before Nineteen" · Seamlessly Connects to the Main Story | Equilibrium · The Story Begins | 8K |
+
+### Precautions for using the skeleton
+
+**Both the number of episodes and the word count are drafts.** During the writing process, episodes can be split (if an episode isn't substantial enough, it can be split into two), combined (two adjacent beats can actually be squeezed into one episode), or extended (if a scene takes longer than expected, it can be extended). However, **the emotional arc shape of each part**—the safe baseline of Part I, the world unfolding in Part II, the sky opening up and bond peak in Part III, the drift in Part IV, and the solitary reopening in Part V—this is substantial and cannot be changed.
+
+**Balance of the Edmund-Miriam Axis.** The number of Miriam-centric episodes in the 50 episodes mentioned above is noticeably insufficient (II-3 and V-7 are her primary scenes). This is a design reality of the draft—Miriam-centric seeds exist only in the background of the main storyline. If the Miriam-centric content is to be pushed to the same density as the Edmund-centric content in the future, 2-3 more Miriam-primary episodes need to be inserted between Parts I-III (refer to the independent Miriam-centric M-MM module group).
+
+**The episode anchor of the red jacket accumulation chain:** III-11 (appearance) → III-12 (first time seen by outsiders) → IV-7 (wearing) → V-9 ("Red Bird" nickname). The red appearances in these four episodes must be casual—packed inside the gaps of everyday scenes, not independent scenes. After reading through these four episodes, by the time the red jacket appears in the background of the main storyline Arc 2-3, there have been more than six invisible cumulations. The weight needed to trigger the explosion in Episode 61 is already within the body.
+
+**Episode anchor of the flight continuum:** I-5 (kite) → II-5 (glider) → III-1/III-2 (skiff) → III-3 (first flight of M-09b) → III-10 (M-18 bond peak) → IV-5 (last flight) → V-1 (solo restart) → V-3/V-4 (first flight in the distance). These eight flight nodes constitute a complete spectrum of the "relationship between body and air, from passive to active to solitary."
+
+**Outpost Expansion (Part III Core World Construction Area):** Episodes III-5 to III-9 constitute the high-density section for the texture construction of the Archeon world. In these five episodes, the reader experiences five settlement signatures through Anna's body—Basin Plains, Hilly Agriculture, Woodland Edge, Transit Skyport, and Coastal Direction. After reading them, Archeon is no longer just "the world in the setting document" for the reader—it's a place where they once smelled bread. These five episodes represent the most crucial part of the entire childhood chapter's reader-world bond construction and could not be compressed during writing.
+
+**Edmund's prose density (refer to §6):** Parts I-II: Edmund exists in the background (environmental presence); Part III: the flight episode is the core; Part IV: retreats from "people in space" to "sound" and then to "silence"; Part V: permeates in the form of ghost echoes. The 50-episode framework already matches this density curve—check §6 to see if Edmund's presence in each episode corresponds to the current Part's stage.
 
 ---
 
@@ -1850,7 +2054,7 @@ Parts I-III require a large amount of sensory detail that is purely "Anna is ali
 **Temperature Details:**
 - Sun-baked basalt is scalding hot.
 - Shade is cool.
-- The river stones at the bottom of the valley are damp and cool.
+The river stones at the bottom of the valley are damp and cool.
 - The railings on the platform in front of the Eagle's Nest were icy in the early morning.
 - Edmund's freshly welded metal plates in the workshop were still warm.
 - The dirt road in the plains at midday was so hot that the heat could be transferred through the soles of your shoes.
@@ -1886,7 +2090,7 @@ The shallow waters of the Ishkar River flow gently.
 
 **Feel of the soles of the feet:**
 - Eagle's Nest Boardwalk (Heartwood) (Resilient)
-- Slope basalt terraces (hard)
+- Slope basalt terrace (hard)
 - Compact the soil (soft) using a zigzag path.
 - A path through the fields at the bottom of the valley (the soil is loose)
 - Plain dirt road (dry and hard)
@@ -1896,7 +2100,7 @@ The shallow waters of the Ishkar River flow gently.
 
 **The body is growing:**
 - A 3-year-old's perspective on the world is limited (to an adult's knees).
-- The top shelf of the workshop that a 5-year-old couldn't reach.
+- The top shelf of the workshop that a 5-year-old can't reach.
 - The first time he operated the lifting cage by himself at the age of 8
 - At 10 years old, he was strong enough to help Edmund move a medium-sized toolbox.
 - At age 12, he has caught up with Miriam in height.
@@ -1929,12 +2133,12 @@ Perception is not "from nothing to something"—it is the opening of channels on
 **Ages 8-9: Aerial Sensory Experience + Macroscopic Vision**
 - Glider: The body is suspended in the air
 - Skiff Crossing: Mechanical Feedback from the Hand
-M-09b's First Flight: Acoustics from Reverberation to One-Way Flight
-- M-14 chord: "The temperament of a sloping hillside"
+- M-x's First Flight: Acoustics from Reverberation to One-Way Flight
+- M-x chord progression: "The temperament of a sloping hillside"
 Miriam Environmental Forecast
 
 **Ages 9-10: Machines as "Living Creatures with Tempers" + Ecological Observation**
-- M-13 airship breathing: "It's breathing" - Anna touched Edmund many times before joining in.
+- M-x airship breathing: "It's breathing" - Anna touched Edmund many times before joining in.
 - outpost visit accumulates ground experience
 - M-18's full-channel body memory arrives simultaneously from the air: ground sensory memory is unified by the visual frame + Edmund's reverse river stone smile (bond peak)
 - The way the door opens is a natural extension, not a teaching method.
@@ -1943,10 +2147,10 @@ Miriam Environmental Forecast
 - M-20 "Relationship between things"
 - M-19 Two Hands
 - M-21 temperature disappearance
-- Narrowing is drift, not event.
+- Narrowing is a drift, not an event.
 
 **★ Penetration Constraint:**
-- Edmund axis = reading dead objects (stones, water flow, machinery, pipelines, acoustics). He waited for her to get there before adding it.
+- Edmund axis = reading dead objects (stone, water flow, machinery, pipelines, acoustics). He waited for her to get there before adding it.
 - Miriam axis = Reading living things (birds, people, social relationships). Casual/Brief/No Explanation
 - Two axes converge in Anna's body
 - There's no scene where the core idea is "Anna fixed something." She **noticed** something.
@@ -1969,13 +2173,13 @@ Edmund was not a poet. He didn't give long speeches.
 
 ## VII. The cumulative position of the red jacket
 
-See the red jacket rules in timelapse §P-06 to P-10.
+See the Red Jacket Rules in Timelapse §P-06 to P-10.
 
 **Key points accumulated in the childhood chapter:**
 1. Part III, around age 10: Edmund gave her an old coat dyed with red clay. The sleeves were too long. "They'll fit perfectly when they're a little longer." (So casual that it's imperceptible on the first read)
 2. Mid-Part III-IV: At a market/on a road in a valley, an old man's eyes light up slightly when he sees red (the first hint from Edmund's website, which Anna didn't notice).
 3. Part IV: Before and after Edmund's disappearance, the red jacket hangs at the workshop entrance, and Anna passes by it every day.
-4. Part IV finale: One cold morning, Anna put on her coat. A spring breeze. (Weight comes from all previous accumulated data, not an emphasis)
+4. Part IV finale: One cold morning, Anna put on her coat. A spring breeze. (Weight comes from all previous accumulations, not an emphasis)
 5. Part V: The red jacket became Anna's visual signature. Anna was wearing this jacket when Joren said "You won't leave."
 6. In Part V, Anna once said, "Just go to a place and make that place feel like it's the right person to come." (Quoting Edmund, she didn't realize she was quoting him.)
 
@@ -2029,12 +2233,12 @@ The world seen from three thousand meters above—a world unfolded like a map, w
 The sound was the first to change.
 Anna's ears grew accustomed to something special in the sky: vastness. At three thousand meters, sound scatters in all directions, nothing bounces it back. The wind doesn't bounce back and forth between two walls—it passes right by you and keeps going and going until you can't hear anything anymore. Anna experienced that shock when her ears first flew out of the canyon—the cliffs on both sides suddenly disappeared, the echo vanished, and her ears suddenly felt "empty." That emptiness later became a habit. Every sound she heard in the sky was one-way—it never looked back.
 Now her ears are filled with echoes again.
-Eagle's Nest Workshop sits atop a short, vertical cliff face on the upper part of the slope—sound scatters from the opposite slope, not simply bouncing back and forth, but spreading and layering along the gentle slope, becoming a warm reverberation. The hammering sounds from the valley floor, the winch sounds of the elevator, the low-frequency breathing of the windmills—they all rise up the slope, becoming weaker and more indistinct with each level, until at Eagle's Nest's height, they become a unified texture where individual sound sources are indistinguishable—"the valley floor is at work." Anna's ears remember that this phenomenon doesn't exist in the sky—sounds only speak once, and then they're gone.
+Eagle's Nest Workshop sits atop a short, vertical cliff face on the upper part of the slope—sound scatters from the opposite slope, not simply bouncing back and forth, but spreading and layering along the gentle slope, becoming a warm reverberation. The hammering sounds from the valley floor, the winch sounds of the elevator, the low-frequency breathing of the windmills—they all rise up the slope, becoming weaker and more indistinct with each level, until at Eagle's Nest's height they become a unified texture where individual sound sources are indistinguishable—"the valley floor is at work." Anna's ears remember that this phenomenon doesn't exist in the sky—sounds only speak once, and then they're gone.
 She didn't realize that this difference itself was a signal. She just felt that things she was hearing lately were getting noisier.
 
 Last time
 Edmund said one day that he wanted to go up and take a look.
-It was a good day. He had spent the entire previous day in bed, and Miriam had brought him water three times. But this morning he sat up, dressed himself, and went to the door. The morning mist in Atheria had not yet completely dissipated—the sun was just peeking over the eastern cliffs, its light a pale, slanting yellow, like that of late winter or early spring.
+It was a good day. He had spent the entire previous day in bed, and Miriam had brought him water three times. But this morning he sat up, dressed himself, and went to the door. The morning mist in Atheria had not yet completely dissipated—the sun was just peeking over the eastern cliffs, its light a pale yellow, like the slanting rays of late winter or early spring.
 "Let's go?" he said.
 Anna paused for half a second before realizing what he was saying.
 The boat Joren had borrowed. Not the No. 3 that Edmund had borrowed before—that one had been sent to the northern route. Joren's boat was an older, slower, smaller short-haul vessel. A piece of wood on the deck was warped. As Edmund walked onto the deck, he grabbed the railing—the position where he had spent his entire life finding his balance on deck—but this time he gripped it for half a second longer than before.
@@ -2046,14 +2250,14 @@ Once, Edmund's hand flicked—pointing to a distant point to the southwest—a l
 When they returned, Anna helped him down the deck. His hand was much lighter than the one she had placed on her shoulder during her first flight.
 After that day, he never said "go up and take a look" again. Anna would occasionally think of it—every time she thought of it, it was in the workshop, at a moment when Edmund's judgment was needed but he was still in bed—but she didn't bring it up. She didn't know why she didn't.
 That was the last time.
-She didn't know it was the last time. Neither of them knew. That's the nature of "the last time"—it's never recognized in the moment it happens.
+She didn't know it was the last time. Neither of them knew. That's the nature of the "last time"—it's never recognized in the moment it happens.
 Only later, much later, when looking back, did the slanting yellow light of that day, the extra half-second he spent gripping the railing, and the way he pointed southwest—all acquire their true weight.
 
 Acoustic collapse
 In the weeks following the flight, Anna's ears did something she only understood afterward: they archived the "openness of the sky."
 Archiving doesn't mean forgetting—it means putting it in a drawer that's rarely opened. Occasionally, she would wake up at night and briefly hear that "one-way sound"—the wind passing by her and never returning—and then a few seconds later, Atheria's echo wall would be back in place. Each time she woke up like this, she didn't know what she was missing.
 The echoes from the canyon aren't unpleasant. They're just different.
-As Anna was hanging laundry on the platform in front of the Eagle's Nest—on an ordinary, uneventful afternoon—she heard a sound. An airship was passing over Atheria at an altitude of three thousand meters, heading south. The sound was faint, drifting down from above, its trajectory erratic against the cliff face before reaching her ears.
+As Anna hung laundry out to dry on the platform in front of the Eagle's Nest—on an ordinary, uneventful afternoon—she heard a sound. An airship was passing over Atheria at an altitude of three thousand meters, heading south. The sound was faint, drifting down from above, its trajectory erratic against the cliff face before reaching her ears.
 She looked up.
 The airship flew overhead. A dark dot. She saw it from this angle—from the ground—the same angle she had seen countless times from the Eagle's Nest railings.
 She kept looking at it even after her neck started to ache.
@@ -2133,7 +2337,7 @@ Anna paused for a moment.
 
 "That high and low frequencies aren't two separate faults. It's a single fault in two different echo locations. Find the connection between them—the conduit, the resonant surface, the structural conduction path—and you'll find the source."
 
-After Anna returned, she squatted next to the water pump and listened for a long time. The high frequencies came from a loose fixing bolt on top of the pump casing. The low frequencies came from a pipe below the pump casing that was in contact with the bracket. The connection between them was the pump casing itself—the bolt was loose, giving the pump casing a slight degree of freedom, and when it was running, the entire casing vibrated between the two contact points, with the high and low frequencies coming from the two ends of the same oscillation.
+After Anna returned, she squatted next to the water pump and listened for a long time. The high frequencies came from a loose fixing bolt on top of the pump casing. The low frequencies came from a pipe underneath the pump casing that was in contact with the bracket. The connection between them was the pump casing itself—the bolt was loose, giving the pump casing a slight degree of freedom, and when it was running, the entire casing vibrated between the two contact points, with the high and low frequencies coming from the two ends of the same oscillation.
 
 She tightened the bolt. Both sounds disappeared simultaneously.
 
@@ -2155,11 +2359,11 @@ But every time she thought of those words, she also thought of the hand hidden u
 
 Edmund was still the same person even in his good days.
 
-He would sit on a chair by the workshop entrance for a while, basking in the sun. Winter sunlight was short, with only a two-hour window around noon. He would comment on the gait of passersby—"That person has bad knees; look, his ankle compensates for the angle when his right foot lands." He would take a sip of the black tin that Miriam offered and say, "Today's is more bitter than yesterday's; did you change the batch of beans?" He would see Anna come out of the workshop with her hands covered in oil and say something—it was different each time—sometimes it was "Is that lubricant or your lunch?", sometimes he would just look at her and smile.
+He would sit on a chair by the workshop entrance for a while, basking in the sun. Winter sunlight was short, with only a two-hour window around noon. He would comment on the gait of passersby—"That person has bad knees; look, his ankle compensates for the angle when his right foot lands." He would take a sip of the black tin that Miriam offered and say, "Today's is more bitter than yesterday's; did you change the batch of beans?" He would see Anna come out of the workshop with her hands covered in oil, and say something—it was different each time—sometimes it was "Is that lubricant or your lunch?", sometimes he would just look at her and smile.
 
 The good days made Anna think he was getting better. Then the bad days came back.
 
-One day, Anna sat by Edmund's bedside. Edmund's hand emerged from under the blanket—not to do anything, but because he sometimes put his hand out on good days. Anna placed her own hand on it.
+One day, Anna sat by Edmund's bedside. Edmund's hand emerged from under the blanket—not to do anything, but as he sometimes did on good days. Anna placed her hand on it.
 
 Edmund's hands were lighter than she remembered. Her bones were more prominent. The calluses on her fingers were still there—calluses from thousands of wrench grips wouldn't disappear after a few months of inactivity—but the muscles beneath them were thinner.
 
@@ -2250,7 +2454,7 @@ She went out. The red hue shone brightly in the gray canyon in the early morning
 
 The funeral was held in a communal open space at the bottom of the valley.
 
-Atheria's funeral was short. An elder read something—Anna didn't hear it. It was something about the Loom, about a broken thread, the loom still standing, and the missing piece being filled by another thread. Anna stood in front. Miriam stood beside her. Miriam's hand was on Anna's back. It was the same hand she used to wipe Anna's sun-dried berry juice as a child.
+Atheria's funeral was short. An elder read something—Anna didn't hear it. It was something about the Loom, about a broken thread, the loom still standing, and the missing piece being filled by another thread. Anna stood in front. Miriam stood beside her. Miriam's hand was on Anna's back. It was the same hand she used to use to wipe Anna's sun-dried berry juice when she was a child.
 
 Many people came. Some Anna knew, some she didn't. Some were from other settlements—those who had repaired things for Edmund. There was a man standing in the back row; Anna hadn't seen him before. He was tall, with old scars on his arms. He didn't come to the front. As he walked away, he nodded in Anna's direction. Anna didn't know who he was.
 
@@ -2321,9 +2525,9 @@ The stool was right next to the spare parts rack—because the spare parts box w
 Original: The wrench "flew over the workbench and over Edmund's tool rack"—implying a flight distance of several meters.
 The 13-year-old girl's explosive force while on a low stool caused the wrench to hit the support pole several meters away precisely—too low.
 New version: The stool was originally next to the spare parts rack (because the spare parts box was above the rack).
-The wrench flew only an arm's length after being released. Close-range impact + anchor bolts that had been loose for six months = reasonable cause of collapse.
+The wrench flew only an arm's length after slipping from his grasp. Close-range impact + anchor bolts that had been loose for six months = the collapse was reasonable.
 The weight of the causal chain shifts from "how far the wrench flew" to "how long the bolt was loose"—
-This reinforces the systemic factor of "the maintenance void after Edmund's departure."
+This reinforces the systemic factor of "maintenance void after Edmund's departure."
 
 The anchor bolts of this spare parts rack were last inspected when Edmund was alive. Six months after he passed away, no one took over the inspection. It wasn't Anna's responsibility—it was a gaping hole in the entire Eagle's Nest maintenance schedule. Edmund was gone, and his responsibilities wouldn't automatically be taken over. The bolts had loosened.
 
@@ -2331,7 +2535,7 @@ The wrench didn't hit the most critical spot. But for a set of anchors that had 
 
 There are people on the plank road.
 
-Lia, seven years old. She has a congenital chronic lung problem and walks slower than other children. She happened to be on the boardwalk—perhaps on her way somewhere, perhaps just walking. Her slow pace meant she didn't have time to dodge. Cast iron couplings and debris fell on her.
+Lia, seven years old. She has a congenital chronic lung problem and walks slower than other children. She happened to be on the boardwalk—perhaps on her way somewhere, perhaps just walking. Her slow pace meant she didn't have time to dodge. Cast iron couplings and fragments fell on her.
 
 Left rib fracture. Lung contusion—an acute injury compounded by a pre-existing chronic condition.
 
@@ -2339,7 +2543,7 @@ Left rib fracture. Lung contusion—an acute injury compounded by a pre-existing
 
 Anna stood at the entrance of the workshop.
 
-Her hands were empty—the wrench was gone. She saw bolts and half-rolls of sealant scattered on the walkway. She saw the skewed angle of the spare parts rack. She saw the straight line of cause and effect from her hand to Lia.
+Her hands were empty—the wrench was gone. She saw bolts and half-rolls of sealant scattered on the walkway. She saw the skewed angle of the spare parts rack. She saw the straight line of cause and effect running from her hand to Lia.
 
 She saw a seven-year-old child lying in the rubble.
 
@@ -2562,7 +2766,7 @@ Then--
 
 world.
 
-This wasn't a bird's-eye view of the basin—the one she'd seen countless times from the Eagle's Nest railing. It was a world beyond the basin. The Central Plains unfolded towards the canyon mouth, with golden-green vibratoforests spreading along the horizon, shimmering in the wind, the whole land seeming to breathe. Further away, the Frontier City skyline loomed in the morning mist—a few CI-era pylon peaks emerged from the undulating terrace matrix, enveloped by 500-year-old growth layers, appearing from this distance like a low, moss-covered mountain range, with several high points appearing and disappearing.
+This wasn't a bird's-eye view of the basin—the one she'd seen countless times from the Eagle's Nest railing. It was a world beyond the basin. The land unfolded towards the canyon mouth—golden-green vibratoforests stretched along the horizon, shimmering in the wind, but not a uniform blanket: distant low hills undulated, casting long shadows between the fields; several basalt terraces rose isolated from the plain like dark islands floating on a golden sea; further still, shallow valleys sliced ​​the land into patches of green of varying shades. The whole land seemed to breathe, but not a calm breath—it was undulating, rhythmic, layered. Further still, the Frontier City skyline loomed in the morning mist—a few CI-era pylon peaks emerged from the undulating terrace matrix, enveloped by five-hundred-year-old growth layers, appearing from this distance like a low, moss-covered mountain range, its high points indistinct, nestled on its own raised terrace base.
 
 Anna gripped the railing tightly. Not out of fear, but because it was too big.
 
@@ -2772,7 +2976,7 @@ Anna recognized the shape of the thrust.
 
 Not entirely clear—she was sixteen, not forty. But she recognized its shape. She'd seen it that day in the workshop—the thing behind the force that sent the wrench flying from her hand.
 
-She wasn't sure if it was wearing the same thing this time. Maybe wearing it before really was the right thing to do. She couldn't quite figure it out in this moment—her hands on the steering wheel, the cloud wall looming ahead.
+She wasn't sure if it was the same one this time. Maybe wearing it before really was the right thing to do. She couldn't quite figure it out in this moment—her hands on the steering wheel, the cloud wall looming ahead.
 
 But she can do one thing: when things are uncertain, she leaves room for flexibility.
 
@@ -2786,7 +2990,7 @@ That night, Anna sat on the deck with her feet dangling over the side. The dark 
 
 She didn't know if her decision was right. What if she had made it through? Maybe nothing would have happened. Maybe she would have saved an hour and a half. Maybe someone would have avoided the wait. This was another thing she was learning: most choices don't offer a "right answer." If you choose the safe route, you never know what the other path will hold. You can only keep flying with uncertainty.
 
-Hagen was also on deck that night. The two remained silent for a long time. Then he spoke—not as an evaluation, but to tell his own story.
+Hagen was also on deck that night. The two remained silent for a long time. Then he spoke—not as a comment, but to tell his own story.
 
 "When I was twenty-five, I worked at Orun's South Edge Express. Someone was urgently waiting. There was a wall of clouds in front of me. I passed through it."
 
@@ -2794,7 +2998,7 @@ Anna looked at him.
 
 "Did they go through it?"
 
-"It made it through. It's alright." His expression was obscured by the starlight. "But that night I sat there until dawn, my hands shaking the whole time. Not because of the bumps. It was because when I made that decision, I wasn't thinking about wind speed or structural stress. I was thinking about how the recipient would react if they got impatient."
+"It made it through. It's okay." His expression was obscured by the starlight. "But that night I sat there until dawn, my hands shaking the whole time. Not because of the bumps. It was because when I made that decision, I wasn't thinking about wind speed or structural stress. I was thinking about how the recipient would react if they got impatient."
 
 He poured the cold tea into the darkness below the deck.
 
@@ -2810,7 +3014,7 @@ She remembered Miriam's words from three years ago—"You've been pretending you
 
 Anna is seventeen years old. She discovers a Class II airship that has been declared scrapped in an abandoned berth in Frontier City.
 
-The airbags are leaking, the transmission is rusted, three control cables are broken, and there are more patches on the body panels than on the original parts. The previous owner parked it here and never came back.
+The airbags were leaking, the transmission was rusted, three control cables were broken, and there were more patches on the skin than on the original material. The last pilot who managed it parked it here and never returned; the airport declared it scrap and ordered it to be dismantled.
 
 Anna crouched down and tapped the keel. The sound was deep and steady, without any hollowness. She touched the main structural beam—nano-reinforced concrete from the old era, rusted on the surface but intact inside.
 
@@ -2818,7 +3022,7 @@ Anna crouched down and tapped the keel. The sound was deep and steady, without a
 
 "You're crazy."
 
-She traded three months of free repair work—maintenance of public facilities at Frontier Airport—for ownership. Then it took four months to fix. It wasn't done by one person—Joren sent parts from Atheria, Hagen's crew came to help on their days off, and several people Anna had helped in other settlements before also came to lend a hand.
+She convinced Guild to grant her permission to repair and reintegrate the decommissioned ship into the Loom fleet by offering three months of free repair work—maintenance of public facilities at Frontier Airport. It then took four months to repair. It wasn't done by one person—Joren sent parts from Atheria, Hagen's crew helped on their days off, and several people Anna had previously helped in other settlements also came to lend a hand. The day it was finished, Guild officially assigned it to her for management and operation.
 
 She named it "Gust." During its first test flight, a sudden gust of wind blew a loosely secured toolbox off the deck, sending it crashing into a sweet potato stall tent below. The stall owner poked his head out of the tent and shouted into the sky, "That gust of wind almost killed me!"
 
@@ -2830,7 +3034,7 @@ During the four months of ship repairs, Anna heard the port's steam whistles and
 New anchor: Episode 33 (first appearance on Arc 3 Frontier City on-page). 19-year-old Anna made her Thread Festival debut.
 She said this when she heard the steam whistle and organ on-page—she had heard it before when she was 8 years old during an off-page family trip, but didn't know the words.
 The name surfaced from pre-verbal body memory when I was 19.
-The difference in weight of a single sentence: at 8 years old, she was pure wonder; at 17 (Ep17 M - Gust), she fully understood the principles of physics.
+The difference in weight in a single sentence: at 8 years old, she was pure wonder; at 17 (Ep17 M - Gust), she fully understood the principles of physics.
 But the original wonderment remains in the form of a physical sensation. It's beautiful to know "how it was done" without killing "that."
 The anchor for the Ep17 rebate was changed from "Ep22 Childhood Festival" to "Off-page memories of an 8-year-old family trip".
 
@@ -3024,7 +3228,7 @@ Does this settlement's function/atmosphere match the scene's requirements?
 | Ep25 | **Atheria** | Founder Day Race, Milo Origin | Canyon Skiff Race Terrain, Milo Leaves the Team |
 | Ep26a | **Route: Millhaven → Basin Outpost → Coast** | Shuttleman's Full Workday (Anna Solo) | Irreplaceable Sensory Signature: Mill/Plains/Coastal Transition |
 | Ep26b | **Iris Hollow** (Aerial → Arrival) | Sky Weaving Formation + Iris Worldbuilding Entrance | Coastal Plain Acoustics, Flour Message Chain Arrival |
-| Ep27 | **Iris Hollow** | Elderly Scene, Acoustic Failure, Story Night | 6-Year Relationship, Perceptual Direction Shift, Aunt Flour |
+| Ep27 | **Iris Hollow** | Elderly Scene, Acoustic Failure, Story Night | 6-Year Relationship, Perceptual Direction Shift, Flour Aunt |
 | Ep28 | **Iris → Frontier En route** | Signal relay station vignette, Frontier trigger | Loom's literal visualization |
 | Ep33-37 | **Frontier City** | Thread Festival, Kassia Recruitment, Anna-Lia's Solo Time | The only city with a festival-scale event; steam organ, high-altitude observation platform |
 | Ep38-50 | **Skyleaf** (via Serpent's Tooth) | Lia's Ember Crown, Edmund Pipeline, Flower Fields | The only medicinal herb producing area on the eastern slope of Serpent's Tooth, which Anna had never visited |
@@ -3039,13 +3243,29 @@ Episode 36 takes place in **Frontier City**, during the Thread Festival. The phy
 
 **Frontier is the only settlement capable of hosting this episode**—the scale of the Thread Festival, the steam fireworks, the visual spectacle of lights spreading outward from the airport core, and Kassia's Razor parked on the docking platform—all rely on Frontier's physical infrastructure. If anyone tried to move Ep36 to another settlement, the answer is no.
 
-### Usage Guide for "a certain outpost"
+### ★ "Basin" is the map term for CI/Federation—Anna's generation didn't use this word.
 
-When a scene doesn't require a specific settlement identity, use one of the following templates. These don't need names. Anna passes through dozens of such places on her flight:
+**What does an 800×500km low-lying basin look like from inside?** It's an open expanse—but not a uniform flat surface. The horizon dominates the view, but the terrain subtly undulates: fields and vibratoforests, low hills, shallow valleys, isolated basalt terraces, wetlands, and grassy slopes, with a different landscape every few tens of kilometers (see §1.2 "Topographical Differentiation within the Main Basin"). Emerging from the Atheria Valley, one sees a horizon stretching to the sky—but that horizon isn't a straight line; it's a rhythmic outline interrupted by distant hill ridges, terrace silhouettes, and windbreaks. The northern wall of the Orun Plateau does indeed resemble a wall across the sky, but from inside the basin, it's simply "the mountains to the south"—no one standing inside the basin feels like they're in a bowl. You need to look down from orbit to see the shape of the basin. Archeon doesn't offer an orbital view.
+
+**Naming Evolution Timeline:**
+- **CI Era (~2470-2506):** "Basin Seven" was the administrative division code for CI. The language of CI was the language of measurement and classification.
+- **Atwood Generation 1 (~2506-2560):** The first generation of inhabitants inherited the CI terminology. "Basin" and "Main Basin" still existed in everyday language—like colonists continuing to use place names given by the colonists. Atwood herself probably still sensed the literal meaning of the word when she said "the Basin"—she knew she lived in a geological basin because the CI had told her.
+- **Third to Fifth Generations (~2580-2650):** "Basin" began to change from a "geographical description" to a "common name"—just as "Chang'an" changed from "eternal peace" to a city name without literal meaning.
+**521 years later (Anna's time):** No one said "Basin" anymore. The 800km-wide lowlands were the land. The Archeons used directional and regional terms—"plains," "valleys," "the other side of the mountains to the south," "the other side of the sea." They might hear the term "Basin Seven" in very formal settings (such as old maps or historical readings during Landing Day ceremonies), but they wouldn't use it in everyday conversation, just as 21st-century Chinese people wouldn't use "Central Plains" to refer to the Henan Plain in daily life.
+
+**Writing Rules:**
+- **This document (timelapse)** continues to use "Basin" and "Main Basin" as meta-level geotags as a world-building design document—writers need short tags for quick location.
+- **When writing actual prose/dialogue:** Anna and her contemporaries didn't say "Basin." They said "earth," "plain," "our side," "southern line," "that part to the north"—directional, concrete, living language. If an older person occasionally said "Basin," it felt like quoting an old word—a scholarly or ritualistic not everyday.
+- **Intro arc (Atwood era) used "Basin":** That's what that generation really said. When Atwood said "break the giants, grow them sideways," her use of "Basin" also had a literal meaning.
+**Similar generic terms:** "Settlement" is another example. The Atwood generation would explicitly say "settlement" to distinguish "the place we built" from "the wilderness." 521 years later, "settlement" simply means "town," "city," or "home"—no one cares that their place once had a CI classification name. "Colony" disappeared even earlier—the Archeon people didn't know they were colonists; they were simply the people who lived there. The same goes for "Terraform"—Anna didn't know the grass beneath her feet was designed.
+
+### User Guide for "a certain outpost"
+
+Use one of the following templates when the scene does not require a specific settlement identity. These do not need names. Anna passed through dozens of such places on her flight. (The text in parentheses is writer-level geolocation (meta), and the text in quotes is character-level description.)
 
 - **"A transit skyport"** — A supply point midway through the route, with engine maintenance facilities.
-- **"A small outpost on the plain"** — Within the Basin, a few hundred people, grassy anchor berths, quiet and vast.
-- **"A settlement in the hilly area"** — Wheat fields on the east side of Basin, near Thornfield.
+— **"A small outpost on the plain"** — (meta: inland basin), a few hundred people, grassy anchor berths, quiet and vast. Anna would say, "A small place on the other side of the plain."
+- **"A settlement in the hilly area"** — (meta: east of Basin), near Thornfield, wheat fields. Anna would say "the hilly area to the east."
 - **"A small town in a canyon"** — Somewhere within the Orun system, the sound of water, stepped architecture
 - **"A fishing village by the sea"** — South of Iris Hollow on the west coast, salty, foggy
 - **"An outpost at the foot of Serpent's Tooth"** — A pilot's shelter in the area near Stormperch.
@@ -3056,7 +3276,9 @@ When a scene doesn't require a specific settlement identity, use one of the foll
 
 **Total population: ~1,000,000.** Approximately 47% are concentrated in the two Apex Hubs (Frontier City + Iris Hollow), approximately 15% in other named settlements, and approximately 38% scattered in small settlements, farms, relay stations, and among transient populations.
 
-| Settlement | Population | Type | Region | Core Roles |
+[The "Region" column in the table uses CI map terminology for writer-level quick location. People in Anna's time didn't say "Central Basin"—they said "in the middle of the plain" or "over there in the Frontier." See the place name usage rule "Basin→Earth" section.]
+
+| Settlement | Population | Type | Region (meta) | Core Roles |
 |---|---|---|---|---|
 | **Frontier City** | 350k | Apex Hub | Central Basin | Fusion reactor, deuterium refining, trade |
 | **Iris Hollow** | 120k | Apex Hub | W Coast | Fusion reactor, food, orchard |
@@ -3068,7 +3290,7 @@ Amber Reach | 50k | Agricultural Hub | SE Coast Highland | Grain storage, seed s
 | Crestline | 7k | Basin Edge | NE Basin | Leather, Atheria Portal |
 | Thornfield | 6k | Agricultural | E Basin | Thorny sheep, tubers |
 Millhaven | 5.5k | Agricultural | W Basin | Mill, Flour Processing |
-| Skyleaf | 5k | Mountain Gate | Kestrel Basin (eastern slope of Serpent's Tooth) | Gene Bank, Ember Crown |
+| **Skyleaf** | 5k | Mountain Gate | Serpent's Tooth East Slope Valley | Gene Bank, Ember Crown |
 | Ironvein | 4.5k | Mining | SE Basin | Iron ore, copper ore |
 | Canopy | 4k | Forestry | N Forest | Timber, Charcoal |
 Hearthstone | 4k | Agricultural | Central | Bread and cereal |
@@ -3133,7 +3355,7 @@ Stormperch | 2k | Outpost | Serpent's Tooth W | Guide, Weather |
 | **Grand Canyon** | Orun Plateau is a canyon formed by the Ishkar River cutting through it | Riverbend is located within the canyon |
 **Serpent's Tooth** | A dangerous mountain range east of the basin, 3000-6100 m high | Snow line >4000 m, isolating Skyleaf |
 Kestrel's Gate | The only passage through Serpent's Tooth | ~1 km wide, with 6000 m mountain walls on both sides |
-| **Kestrel Basin** | Serpent's Tooth eastern slope valley + plateau lake plain | Location of Skyleaf, facing the eastern plains, backed by snow-capped mountains |
+| **East Mesas** | A group of low-lying terraces east of Serpent's Tooth and at the far end of Zone 4 CI's ecological buffer zone—geological features that have been slowly weathered since 521 years ago, originally planned as an extension of the terraform in CI. | A visual anchor point on the eastern horizon of Skyleaf, approximately 80-120 km from Skyleaf.
 | **Great Ochre Desert** | Ochre-red desert south of Orun | ~400 km to the southern coast |
 | **Axiom Scar** | The Axiom crash debris field, within the Desert | ~100 km debris field |
 | **The Cape** | The westernmost point of the Orun coastline. Escarpment descends to 800-1.2km, featuring sea-eroded platforms, arches, and sea stacks. Perennial sea fog. Stable updraft. The lowest point to cross on the Orun. | Key nodes on the southbound Arc 4 route |
@@ -3188,9 +3410,9 @@ Refer here when writing about a particular settlement. Each signature = Anna's s
 
 ### Iris Hollow (West side of Basin, Coast, Apex Hub, ~120k)
 
-**Sensory Priorities** — First smell (salt + hay), then see (wheat field + horizontal view without cliffs), then sense (sound map fails). See §1.3 for details. Anna-specific: Growing up in the canyon, it took her half a day to recalibrate on her first visit—the sound didn't bounce back, it just dissipated. The chord of Iris Hollow isn't an echo, but the speed difference of the wind in the wheat fields + the low-frequency baseline of the ocean.
+**Sensory Priorities** — First smell (salt + hay), then look (wheat field + horizontal view without cliffs), then sense (sound map fails). See §1.3 for details. Anna-specific: Growing up in the canyon, it took her half a day to recalibrate on her first visit—the sound didn't bounce back, it just drifted away. The chord in Iris Hollow isn't an echo, but the speed difference of the wind in the wheat fields + the low-frequency baseline of the ocean.
 
-**Key figures** — Aunt Flour (soup + bacteria), the old man (six-year relationship, P-10 perception direction shift).
+**Key figures** — Aunt Flour (soup + starter culture), the old man (six-year relationship, P-10 perception direction shift).
 
 **Anna's Connections** — She first came here independently at the age of 14. She has visited 2-3 times since then. The origin of acoustic recalibration.
 
@@ -3218,9 +3440,11 @@ Refer here when writing about a particular settlement. Each signature = Anna's s
 
 ### Skyleaf (Eastern foothills of Serpent's Tooth, mountain valley, ~5k)
 
-**Sensory Priority** — First look (snow-capped mountains + lake at the two poles of Vista), then smell (geothermal sulfur/cold high-altitude air/flower fields), then listen (asymmetrical soundscape — the mountain surface has an echo, the lake surface scatters and disappears).
+**Sensory Priority** — First look (snow-capped mountains + East Lake + East Mesas three-tiered Vista), then smell (geothermal sulfur/cold high-altitude air/flower fields), then listen (asymmetrical soundscape — echoes on the mountain surface, and sounds scatter and disappear on the lake surface).
 
-**Geographical Signature** — Turning around reveals two worlds: Facing west/towards the mountains, the valleys narrow, snow-capped peaks loom overhead, and sounds echo between the rock walls; facing east/towards the lake, the plains unfold, the lake shimmers with blue light, and sounds drift away, never to return. Settlement stands between the two.
+**Geographical Signature** — Turning around reveals two worlds: Facing west/towards the mountains, the valleys narrow, snow-capped peaks loom overhead, and sounds echo between the rock walls; facing east/towards the lake, the plains unfold, the blue light of East Lake shines, and the rusty bones of the CI meteorological tower rise from the grassland, their sounds drifting away and never returning. Settlement stands between the two.
+
+**East-facing vista (important)** — See §1.3 Skyleaf entry for details. Key elements: East Lake (20km, changes color under K2V light), CI ruins (weather tower/solar panel frame/collapse monitoring station) as visual anchors on the grassland, distant views of East Mesas (80-120km horizon silhouette), and Sky Fire's remnant night sky. **This is a vista completely unique to Archeon's other settlements—facing a 500-year-old uninhabited land every day.** Anna's initial feeling of "openness yet emptiness" upon arriving at Skyleaf is one of the core emotional beats in episodes 38-40.
 
 **Key Beat:** — Edmund came to repair the irrigation system when he was young (pipes → waterwheel → flower field → medicine → people survive = red causal chain). In Ep40, Anna encounters the pipes Edmund repaired. The flower field is in the geothermal zone of the upper valley.
 
@@ -3230,7 +3454,7 @@ Refer here when writing about a particular settlement. Each signature = Anna's s
 
 ### Coppergate (South of Basin, North Edge of Orun, ~12k)
 
-**Characteristics:** A dry and practical transit hub. A dividing line and transshipment point for north-south trade. All goods traveling south from Basin to the Orun system passed through here.
+**Characteristics:** A dry, practical transit hub. A dividing line and transit point for north-south trade. All goods traveling south from the plains to the Orun system passed through here.
 
 **Anna's Relationship** — It happened multiple times. It wasn't a destination, but a transit point.
 
@@ -3371,9 +3595,9 @@ Six invisible nodes. On the surface, it's a normal social interaction; the patte
 
 | # | Location | Ep | Surface | Ep61 The Truth |
 |---|------|----|----|---------|
-| 1 | Riverbend | Ep14 | Prepare hot drinks before landing | Edmund passed by ten years ago |
+| 1 | Riverbend | Ep14 | Hot drinks prepared before landing | Edmund passed by ten years ago |
 | 2 | Iris Hollow outpost | Ep26-27 | Six years of "saving up work for her" | Edmund Network Core Node |
-| 3 | Frontier · Bram | Ep33 | Six years of familiarity | Anna was at the port before she started flying |
+| 3 | Frontier · Bram | Ep33 | Six years of familiar face | Anna was at the port before she started flying |
 | 4 | Skyleaf Common House | Ep40 | Taking a closer look while serving food | Edmund's stay there for a few months twenty years ago |
 | 5 | Chip tracing outpost | Ep-CHIP.a | The old mechanic left the toolkit for several months | Continuous commitment = node execution care |
 | 6 | Edmund tagged outpost | Ep-CHIP.b | "You look like your dad" | After a ten-year wait |
@@ -3424,14 +3648,14 @@ Kassia's nihilism wasn't part of her personality—it was a shelter she picked u
 **The crack predates the story.** The empty frequency band itself is a crack—her framework says nothing matters, and her hands are still checking a frequency band that no one has answered for a decade at regular intervals. It wasn't the Arc 3-4 incident that cracked her; it was the exposure of Skyleaf that made the old crack harder to ignore.
 **Arc's driving force is confirmation-seeking.** Kassia isn't passively pierced by her environment. She actively moves towards the scenario she expects to confirm her; the framework is the hypothesis, and Archeon is the field. Three expeditions:
 - Skyleaf (Arc 3): Expecting entropy confirmation (Anna will break down, the child won't get better, care is meaningless) → Three partial non-confirmations
-- Axiom (first half of Arc 4): Anticipating a larger-scale confirmation (Federation dead for 500 years = the most thorough entropy victory) → residue everywhere
+- Axiom (first half of Arc 4): Anticipating a larger-scale confirmation (the Federation died 500 years ago = the most thorough entropy victory) → residue everywhere
 - Ep69 Touching the Wall: No expedition—the opposite of confirmation comes to her, the projection directly envelops her.
 Each time, it brings back incomplete results. The progression isn't "she's become softer"—it's "her confirmations are becoming increasingly difficult to obtain."
 **The Two-Sided Distribution Rule.** The Framework is the selective activation arm, not the permanent skin. In everyday life unrelated to the framework, she is relaxed, tasteful, and humorous—she laughs, has a preference for certain teas, teases Milo, and offers opinions on certain mechanical tasks. Those who truly believe in the power of entropy wins actually laugh quite a bit, because everything seems ridiculous to some extent. Once the ghost of proximity/attachment/loss appears—the framework snaps on, the conversation becomes shorter, and it precisely retreats. The patterns Anna can see are: Kassia dropping out of the banner; remaining silent after the winch comes up; suddenly looking away when Edmund's name is mentioned; and ceasing to continue what Lia was saying after a cough. These dropouts are Anna's visible behavioral data. Anna doesn't theorize—she only notices patterns.
 **Revelation Method (Pure behavioral inference, not explicit reveal):** No character narrates Kassia's loss history. The reader pieces together the outline from behavioral observations.
 - **Ep38 Empty Frequency Band Seed:** Anna notices that Kassia dials a specific frequency at fixed intervals—a frequency no one uses, not an active airline frequency. Its behavior is as automatic as breathing. The first reading is "quirk."
 - **Ep57 Terrain Familiarity Seed:** After heading south into the edge of the Ochre Desert, Kassia exhibits an unusual familiarity with the wind pattern of the plateau descent surface—she knows the period of a certain heat column in more detail than the aeronautical charts indicate. A pilot who only flies the Basin wouldn't have this kind of data. Anna may or may not have noticed it.
-- **Ep58 Whispering Flats (Anna's observation: Razor lights stayed on all night + details of fatigue the next day):** Combining the air frequency bands in Ep38 and the terrain familiarity in Ep57, the reader has enough pieces to construct "what kind of person this person lost in this desert." The accuracy of the inference varies from person to person—some readers spelled out "parents were pilots," while others only spelled out "loss," and both readings are valid.
+- **Ep58 Whispering Flats (Anna's observation: the light next to Razor stayed on all night + details of fatigue the next day):** Combining the frequency band information from Ep38 and the terrain familiarity from Ep57, the reader has enough pieces to construct "what kind of person this person lost in this desert." The accuracy of the inference varies from person to person—some readers spelled out "the parents were pilots," while others only spelled out "loss," and both readings are valid.
 - **Milo's Return Echo (Arc 4 Ep56-57):** Milo is back after 25 episodes. Kassia's parents left and didn't return. Some of Kassia's reactions to Milo are slightly off—perhaps dropping out for a minute while Milo talks about his Thornfield experience, or offering to help Milo move things. Anna notices this and realizes something is wrong. Milo's return is a combination of "a proof that has returned" and "a reminder that hasn't returned" all rolled into one person.
 Never make explicit revelations. Let Kassia's loss, like Anna's three-second pause, exist in the minds of different readers with varying degrees of completeness.
 
@@ -3444,13 +3668,13 @@ In Ep36, the 0.2-degree pitch bias beat on the wing surface was n=1. Skyleaf pro
 **P-19 · Confirmation-seeking progression + Lia as a privilege mirror**
 Kassia flies even without a destination (Ep42-43 Skyleaf solo flights are not missions, have no destination, and have irregular trajectories) – no one bothers her in the air. There's nothing in the air that needs maintenance – the framework isn't tested in solo flights.
 **Lia as a privilege mirror:** Kassia's nihilism requires the capacity to build a framework. You need sufficient agency to theorize loss. Lia didn't have that capacity. Her lungs didn't give her the energy to construct a complete philosophy about entropy—she could only leverage, conserve energy, and figure things out as they come. Lia wasn't a nihilist. She was matter-of-fact—"tough and slow are two different things." She didn't need a framework to explain why her situation was acceptable. She simply lived. Leveraged. Observed. In the way she could.
-This makes Kassia's nihilism appear as a privilege. She has a framework because she can still fly, eat, and spend a sleepless night in the Razor cockpit. Lia is also dealing with loss (loss of function, loss of choices), but her approach lacks an ideological superstructure. Kassia spent ten years maintaining a framework—that maintenance itself is an energy expenditure. Lia's budget didn't include that. So her entire budget was spent on "living and doing." This is more threatening to Kassia than "your framework is wrong"—it's "your framework is expensive." Someone more constrained than you didn't spend that money and is living no worse than you. Kassia doesn't formulate this. Physical discomfort. Anna only glanced at Kassia's direction in Lia's work for a short while.
+This makes Kassia's nihilism appear as a privilege. She has a framework because she can still fly, eat, and sleep soundly next to Razor all night. Lia also deals with loss (loss of function, loss of choices), but her approach lacks an ideological superstructure. Kassia spent ten years maintaining a framework—that maintenance itself is an energy expenditure. Lia's budget didn't include that. So her entire budget was spent on "living and doing." This is more threatening to Kassia than "your framework is wrong"—it's "your framework is expensive." Someone more constrained than you didn't spend that money and is living no worse than you. Kassia doesn't formulate this. Physical discomfort. Anna only glanced at Kassia's direction in Lia's work for a short while.
 **Confirmation-seeking involves three progressive steps:**
 **First Skyleaf (Arc 3 Ep36-50):** Kassia took on the worst possible mission. She went to collect confirmations—predicting Anna would have a breakdown, the baby wouldn't be okay, and the entropy would win. The results: Anna did indeed have a breakdown (Ep46 freeze) but it wasn't over—she flew the remaining segments despite being broken; Lia's health didn't improve (P-13) but fragments helped a little (Ep48); Edmund's twenty-year-old waterwheel was still turning. Three partial confirmations, each with a mathematically incongruous tail.
 - **Second Axiom (Arc 4 Ep56-62):** She needed a greater confirmation to repair the three partials Skyleaf had given her. The Federation had been dead for 500 years—there couldn't be a more complete entropy victory. "I've always wanted to see it with my own eyes" wasn't curiosity; she needed a framework to repair the scene. The result: 500-year-old handwriting, personal items in individual quarters, the core's physical structure intact. Residue everywhere. Move the lights away—because the existence of residue is non-confirmation.
 - **Third Time, Ep69: Touching the Wall:** There was no more expedition. The opposite of confirmation came to her. The projection enveloped her directly. She didn't go anywhere—the laughter of someone from 500 years ago came to the wall itself.
 **Distance Progression (Anna's Visible External Behavior):**
-- **Preparation ①·Ep58 Whispering Flats:** Anna sees the Razor light stay on all night. The next day, Kassia wakes up earlier than usual and drinks more tea. Anna has no idea what's going on inside. (Writing guide: Kassia's interior is "A truly indifferent person would go to sleep. Kassia can't sleep"—this isn't part of the prose, just a writing guide.)
+- **Preparation ①·Ep58 Whispering Flats:** Anna noticed the light next to Razor hadn't gone out all night. The next day, Kassia woke up earlier than usual and drank more tea. Anna had no idea what had happened that night. (Writing guide: Kassia's interior is "A truly indifferent person would go to sleep. Kassia couldn't sleep"—this isn't part of the prose, just a writing guide.)
 - **Preparation ②·Ep59 Axiom: The Light Moves Away:** Anna and Kassia walk together. The light shines on the wall—handwriting from a 500-year-old sailor. Kassia moves the light away. The action is visible, but not inside. Anna doesn't explain the action.
 - **Main Phase ①·Ep61 Axiom (Anna's Visible Part):** Kassia is not at camp at night. The oil lamp is not there. She returns a few hours later—sand on her boots, hair flattened on one side. She doesn't say where she went. Anna doesn't ask anything.
 - **Main Stage ②·Ep66 Basin Corridor:** Anna, having finished adjusting the Core, walks through the corridor and sees Kassia standing in front of the wall. The image on the wall is off. Kassia turns around: "Your machine is leaking something into the corridor." Then he leaves. Anna misses the projection but sees the person standing there.
@@ -3508,7 +3732,7 @@ The current draft EP12 is of high quality, preserving over 90% of the patient's 
 
 **L177-187 Rain Shadow Dialogue** → Delete or replace with a short flight briefing dialogue. Anna to Milo: "We hug the wall, ride the updrafts, don't get clever." This establishes the flight plan in one sentence, without explaining the meteorological principles.
 
-**L386-389 Ending** → Replace with: Anna is alone on the deck, the wind blows from the south (a subtle hint of dampness on the windward side), the engine vibrates beneath her feet. Do not look south. Do not hint at the appearance of Orun. A quiet ending—"She closed the hatch. Tomorrow's path awaits in the darkness." Or a similar low-key, closer version.
+**L386-389 Ending** → Replace with: Anna is alone on the deck, the wind blows from the south (a subtle hint of dampness on the windward side), the engine vibrates beneath her feet. Do not look south. Do not hint at the appearance of Orun. A quiet ending—"She closed the hatch. Tomorrow's path awaits in the darkness." Or a similar low-key, closer ending.
 
 ### Retain (without changing a single word)
 
@@ -3887,7 +4111,7 @@ The sound of flowing water from the canal outside the wall. A small channel runs
 The last sentence, "Fish'll keep," is a combination of literal (the fish won't spoil) and quiet satisfaction (delivery completed, Riverbend's trade identity preserved).
 
 
-## Arc 2 · Homecoming and Edmund's Memory Trilogy (Ep20-28)
+## Arc 2 · Homecoming and Edmund's Memory Trilogy (Ep 20-28)
 
 ### Narrative Function
 
@@ -3901,13 +4125,13 @@ Atheria's sense of belonging → Childhood pure joy falls in love with Edmund �
 
 **Ep22 = Time-driven.** A montage from age 3 to 9. Edmund is frozen from a feeling into a living person. Age must increase monotonously.
 
-**Ep23 = Sensory-Driven.** Anna returns to the present-time Eagle's Nest workshop. Touching a tool triggers M-06 River Stone (age 6); engine sound triggers M-14 Chord (age 9); standing on the platform and looking out triggers M-05 Layering (age 5). Sensory triggers naturally do not follow a chronological order. Age jumps are a feature, not a bug, in this mode.
+**Ep23 = Sensory-Driven.** Anna returns to the present-time Eagle's Nest workshop. Touching a tool triggers M-06 River Stone (age 6); Engine sound triggers M-14 Chord (age 9); Standing on the platform and looking outwards triggers M-05 Layering (age 5). Sensory triggers naturally do not follow a chronological order. Age jumps are a feature, not a bug, in this mode.
 
 The transition point between the two episodes: Episode 22 ends in the Rainy Day Workshop (the quietest and deepest immersion). Episode 23 begins with Anna waking up from her memories and returning to the Eagle's Nest when she was 19 years old—present-time takes over the narrative again.
 
 ### Worldbuilding territory
 
-Atheria's three-tiered structure is fully showcased (the population center at the bottom of the valley + the cliffside industry + the transportation gateway at the top of the cliff + the sky pier under construction in the middle of the cliff) → Ep22 is a montage revisiting childhood (Eagle's Nest Workshop + Canyon + River) → Ep26a is a route tour (Millhaven Mill + Basin Plain Outpost + Coastal Transition) → Ep26b-27 Iris Hollow (Coastal Plain + Flour Information Chain + 6-year relationship with Old Man).
+Atheria's three-tiered structure is fully showcased (the valley's population center + cliffside industries + clifftop transportation gateway + the sky pier under construction in the middle of the cliff) → Ep22 is a montage revisiting childhood (Eagle's Nest workshop + canyon + river) → Ep26a is a route tour (Millhaven mill + Basin plains outpost + coastal transition) → Ep26b-27 Iris Hollow (coastal plains + flour information chain + 6-year relationship with the old man).
 
 
 
@@ -3923,7 +4147,7 @@ This is the reader's first time seeing Atheria. In the previous eight episodes, 
 
 **High-altitude section (above the clouds → canyon mouth):**
 
-Hauler flew in from the direction of the central plains. Its altitude was above the clouds. The plains were a patchwork of ochre and green—fields, tremolo forests shimmering with silver ribbons, and the occasional small outpost (a few buildings, a solar panel, and a small airship anchored to a grassy stake). Then the terrain began to fracture—the plains abruptly dropped at their edges, and canyons sliced ​​through the plateau like black fissures. The northern branch of the Ishkar River appeared from above as a deep green, meandering line.
+Hauler flew in from the depths of the earth, above the clouds. The terrain below was a patchwork of ochre and green—fields, tremolo forests shimmering with silver ribbons, and the occasional small outpost (a few buildings, a solar panel, and a small blimp anchored to a grassy stake). But it wasn't a uniform blanket—the undulating hills cast alternating stripes of light and shadow, several basalt plateaus rose isolated from the green sea, shallow valleys sliced ​​the land into layers of varying heights, and a distant wetland reflected a silvery arc. Then the terrain began to fracture—the edges of the earth abruptly dropped, and canyons cut through the last plateau before sinking, like a black fissure. The northern branch of the Ishkar River appeared from above as a deep green, meandering line.
 
 As they passed through the clouds, two or three skiffs glided down from the top of the cliff—small, single-person boats, two or three meters wide, with semi-exposed open cockpits, a harness for the pilot, and a small cargo basket hanging below. They rode the downdraft created by the thermal difference between the canyon walls, without the continuous low-frequency roar of an engine, only the high-frequency whistling of the wind through the metal frame and the occasional short, sharp whine of the auxiliary turbine kicking in. Some were crooked and wobbly, clearly some middle-aged man descending from the top of the cliff to the bottom of the valley to buy something. Like large birds. Anna watched them fly by below from the height of the Hauler—these were Atheria's "bicycles." Everyday, ubiquitous. In the Ep25 race, these skiffs would appear in racing form (with the cargo basket removed and the wings optimized for speed), but for now, the reader saw their everyday version first.
 
@@ -3940,13 +4164,13 @@ Upon reaching Skyport altitude—all voices were present simultaneously. Anna ma
 Design principle: Each layer uses different sensing channels and different types of infrastructure.
 There will be absolutely no diagnosis of "wind tower frequency" or any single facility. This is a homecoming, not an inspection.
 
-**The plateau at the top of the slope**—the Skyport platform, with one or two small airships moored on the berths. A row of signal light poles runs along the edge of the platform—oil lamps hang from the top of the wooden poles, not lit during the day, but the metal lampshades shimmer in the sunlight. On the opposite slope, there's another plateau—perovskite solar panels arranged along the natural steps, the deep blue-purple rectangular panels like scales clinging to the slope; some are old with mottled surfaces, others new and clean.
+**The plateau at the top of the slope**—the Skyport platform, with one or two small airships moored on the berths. A row of signal light poles runs along the edge of the platform—oil lamps hang from the tops of wooden poles, not lit during the day, but the metal lampshades shimmer in the sunlight. On the opposite slope, there's another plateau—perovskite solar panels arranged along natural steps, the deep blue-purple rectangular panels like scales clinging to the slope; some are old with mottled surfaces, others new and clean.
 
 **Upper layer on the slope**—Wind turbine blades spinning in the distance (visual background layer, not in focus). One or two meteorological/communication observation posts—slender metal poles with wind vanes at the top.
 
 **Middle Layer of the Slope (Industrial Zone)**—Workshops and residences arranged along the basalt terraces, cascading like steps. Some windows flicker with firelight. A zigzag path winds between the buildings and the terraces, and people walk along it—from this height, they appear as points slowly moving on the slope. Occasionally, a section of the steam network's vents releases tiny white feathers that drift in the wind. Some sections are steeper than others—Anna can recognize the near-vertical short cliff face where the eagle's nest is located, a small platform jutting out, barely noticeable from above.
 
-**Aerial Bridges**—In a few narrow sections of the slope, aerial bridges constructed of basalt fiber and riveted copper plates span gaps in the cliff face on the same side (emerald green patina + dark green trusses), connecting workshop terraces at different heights. A herd of spiky sheep is crossing one of the aerial bridges—someone is herding them from behind.
+**Aerial Bridges**—In a few narrow sections of the slope, aerial bridges constructed of basalt fiber and riveted copper plates span gaps in the cliff face on the same side (emerald green patina + dark green trusses), connecting workshop terraces at different heights. A herd of spiky sheep is crossing one of the aerial bridges—driven by someone behind them.
 
 **A lifting cage**—Two or three metal boxes move along steel cables at different heights. Some carry goods (wrapped in cloth bags), while others carry people (open on the side, allowing a view of the people inside). The upward movement is slow, while the downward movement is fast.
 
@@ -4008,7 +4232,7 @@ The contrast between the two sides allows us to register Anna with two modes: lo
 This comparison forms the foundation for all subsequent mirror beats. See the mirror design in the Milo character section.
 
 **Story Night (Evening, Valley Public Fire Area)** Lia named: After the daytime canal repair work, in the evening. A campfire. The storyteller begins telling "Old Tales." Semi-professional—getting to know these children. Not a formal occasion, but a regular community activity.
-The first half of the story tells of **CI's arrival and what it did**—terraforming, planting trees, and building wind towers. The 521-year distance it traveled has made CI a semi-myth: "The old voice arrived before us," "It turned stones into earth," "It taught the earliest people how to breathe the air here." Some details are remarkably accurate (the original text is recorded on CI etchings), while others are completely off-topic (according to hearsay).
+The first half of the story tells of **CI's arrival and what it did**—terraforming, planting trees, and building wind towers. The 521-year distance it traveled has made CI a semi-myth: "The old voice arrived before us," "It turned stones into earth," "It taught the earliest people how to breathe the air here." Some details are remarkably accurate (the original text is recorded on CI etchings), while others are completely off-topic (according to misinformation).
 The child asked, "Was the old sound good or bad?" The storyteller replied, "It did what it was supposed to do, and then it left. That's the most dignified way to say goodbye."
 Then a girl's voice came from beside the fire.
 "Then why don't they come back?"
@@ -4099,9 +4323,9 @@ After the race, Anna asked Joren, "Who is that from the plains?" Thirty words. F
 Milo: "...You could just say 'left'."
 Anna: "Next time."
 [Perceptual Evolution Anchor Point · Blue Hyacinth #2 · Childhood 1.4 echo]
-; Warm-up before the race or skiff crossing—Anna flies over the cliff below Eagle's Nest from the air.
+; Warm-up before the race or skiff crossing - Anna flies over the cliff below Eagle's Nest from the air.
 A landscape description in one sentence: The clump of blue hyacinths is still there.
-When I was six years old, I could see the petals with my nose pressed against the rock face as I peered at them; now, as I fly overhead, all I see is a blue dot.
+When I was six years old, I could see the petals with my nose pressed against the rock face as I peered at them from the air; now, as I fly overhead, all I see is a blue dot.
 The same cluster of flowers, the perspective shifts from close up to looking down. The distance between perception and the world changes—this is after the memory trilogy in Ep22-24.
 Physical evidence of Anna's first flight in the same valley at the age of 19.
 No separate paragraph needed. Embedded within the skiff's description of the flight landscape. First read: Scenery. Review: Visualization of perceptual evolution.
@@ -4119,7 +4343,7 @@ Echoing: Childhood 1.4 (Blue Hyacinth Origin) → Here (Change of Perspective) �
 
 Sensory signatures shown cannot be repeated:
 - Atheria: Vertical/Echo/Hammering/River/Canyon Acoustics
-- Riverbend (Arc 1): Water network/fish smoke/stepped architecture/water acoustics
+- Riverbend (Arc 1): Water network/fish smoke/stepped architecture/water sound envelope
 - Frontier City: Density/Steam Organ/Selection Abundance/Urban Noise
 
 **Route:** Atheria → Millhaven → Basin Plain Outpost → Coastal Approach → Outskirts of Iris Hollow
@@ -4155,20 +4379,20 @@ In short: a grassland for 200 people. The arrival of the airship was an event.
 Instead of named settlement, use "a small outpost on the plains"—in the direction of Hearthstone. Like the image in the concept art of a meadow, windmills, layered buildings, and people walking along a path.
 
 Sensory signature:
-- First, you feel the horizontal. Atheria is a vertical world (cliffs stacked upwards), Frontier is a world of density (things crammed together), and here is a horizontal world—the skyline recedes into the distance in every direction. Golden waves of wheat spread out in all directions. Sound doesn't bounce—it dissipates as soon as it gets out. Anna's ears need to be recalibrated here (parallel to her first experience at Iris Hollow at age 14, but lighter—she's used to this shift now).
+The first thing you notice is the horizontal. Atheria is a vertical world (cliffs stacked upwards), Frontier is a world of density (east and west crammed together), but here it's a horizontal world—the horizon recedes into the distance in every direction. Golden waves of wheat spread out in all directions, but the horizon isn't a straight line—a low basalt plateau rises in a dark silhouette from the plain somewhere to the south, and a distant ridge of hills divides the sky and earth into a rhythmic plane. These undulations are so far away that they hardly affect the sense of openness—but they give the place "direction," it's not a directionless mirror. Sound doesn't bounce—it dissipates as soon as it gets out. Anna's ears need to be recalibrated here (parallel to her first experience at Iris Hollow at age 14, but lighter—she's used to this shift now).
 First, you hear—the wind. Only the wind. The rustling of the wheat is the baseline of this place. Occasionally, the sound of a hammer, a child's laughter, the creak of a windmill bearing—but each sound is isolated, unmixed, unresonant. It's so quiet you can hear the distant, metallic clang of the Gust-type engine cooling down.
-- First, you see a layered CI-era building enveloped by later thatched roofs and timber structures, like a tree overgrown with parasitic plants. A windmill tower. The blue of the solar panels (old sound heritage) stands out vividly against the golden fields.
+- First, you see a layered CI-era building enveloped by later thatched roofs and timber structures, like a tree covered with parasitic plants. A windmill tower. The blue of the solar panels (old sound heritage) stands out against the golden fields. The complex itself sits on a slightly raised spot—no one builds on flat ground in the basin; everyone finds a slightly higher point, even if it's only three meters higher.
 
 Anna's Shuttle Moment:
 - An outpost of 200 people. Everyone came out when Anna's Rafale docked. Children chased after the airship's shadow. This wasn't the mundane "yet another airship" of the Frontier—this was the "Shuttleman has arrived" event.
-Anna didn't bring a large quantity of goods—she brought news of three settlements. The results of the Thread Festival. A new fabric appeared at the Frontier market. Millhaven flour was half a size coarser this year. This news spread over the long table dinner, and tomorrow the whole outpost would know.
+Anna didn't bring a large quantity of goods—she brought news of three settlements. The results of the Thread Festival. A new fabric appeared at the Frontier market. Millhaven flour was half a size coarser this year. This news spread over the long table dinner, and by tomorrow the whole outpost would know.
 An old man stopped Anna and asked about things in the south—his daughter had married and moved to Coppergate, and he hadn't heard from her for six months. Anna had seen her the last time she passed through Coppergate. "She's doing well. She had a son. He looks like you." The old man's expression changed—this was the true value of a shuttle.
 
 A unique perspective (not repeated): Scale. What does it look like to have a million people scattered across a planet? Big cities are one thing, outposts of 200 people are another—here, Anna's arrival itself is "the thread on the loom being stretched taut." The Archeon civilization wasn't just about canyon cities and trading hubs—its capillaries were these small settlements on the grasslands, connected by shuttle people.
 
 **Seed #3 Candidate – Young Apprentice's Gaze:** A settlement of 200 people, everyone visible. Anna sees a thirteen or fourteen-year-old helping to move things or doing some small chores. Her gaze lingers for three seconds longer. Then she turns and continues walking. This moment in the small outpost is more intimate than in Atheria or Iris because no crowd can disappear into it.
 
-; [Perception Evolution Anchor Point - "Integration is still ongoing, sharing has disappeared" empty beat - Deployed from timelapse Part V instruction]
+[Perception Evolution Anchor Point - "Integration is still ongoing, sharing has disappeared" empty beat - Deployed from timelapse Part V instruction]
 ★ Station 2's outpost is the best deployment location for this beat. Anna is using this small outpost to inspect a hydraulic system or pipe.
 Place your hand on it. What do you hear—perhaps a change in the frequency of a bearing about to come loose, or perhaps the stratification of water flow inside a pipe.
 She stopped. The feeling of that stop was exactly the same as that of M-06 River Stone from her childhood—her body did what Edmund had taught her.
@@ -4251,7 +4475,7 @@ The old man recognized her. Six years of being a regular. "I happen to have some
 
 Anna may have had other plans. But the old man said—and in Loom's logic, if someone you've known for six years says, "Take a look at this for me," you wouldn't refuse. Anna accepted.
 
-**★ Perception Direction Shift Moment (Replaces the old "Three-Layer Overlay Identity Poke"):**
+**★ Perception Direction Shift Moment (Replaces the old "Triple-Layer Identity Poke"):**
 
 Anna knelt down to repair the things the old man had given her. She was still capable while she was repairing them. But the old man noticed a change:
 
@@ -4382,7 +4606,7 @@ The Frontier trigger appears at the end of Episode 28. The tone shift from Arc 2
 
 ### Narrative Function
 
-The longest arc (19 episodes). Three things are done: ① Lia transforms from "that quiet child" into a complete person; ② The invisible wall between Anna and Lia is peeled away layer by layer until the complete memory on the high-altitude glacier shatters it; ③ Archeon's world-building jumps from "several settlements" to "the geographical panorama of a civilization"—the hub density of Frontier City → the botanical ecology of Skyleaf Basin → the glacial boundaries of Serpent's Tooth peak.
+The longest arc (19 episodes). Three things are done: ① Lia transforms from "that quiet child" into a complete person; ② The invisible wall between Anna and Lia is peeled away layer by layer until the complete memory on the high-altitude glacier shatters it; ③ Archeon's worldbuilding jumps from "several settlements" to "the geographical panorama of a civilization"—the hub density of Frontier City → the botanical ecology of Skyleaf → the glacial boundary of the Serpent's Tooth peak.
 
 The emotional direction gradually shifted from "feeling sorry for Anna" to "feeling sorry for both of them at the same time," and finally to "understanding why Anna is like this, but also understanding what Lia has endured."
 
@@ -4413,9 +4637,9 @@ Sara/Kaelan | Skyleaf Coordinator | Sara knows things Anna doesn't |
 [Perceptual Evolution Anchor Point - Acoustic Recalibration #3 - P-23 First On-Screen Test]
 Frontier is Anna's third acoustic environment (Atheria reverberation → Iris anechoic → Frontier density compression).
 Her ears underwent a third recalibration—this time not because the sound was "dispersed" (Iris), but because there was "too much sound, too dense, too close together."
-In short, Anna's listening behavior behaves differently in this environment:
+In short, Anna's listening behavior differs in this context:
 It's not about separating individual sound sources, but about reading the whole rhythm.
-★ This is the first on-screen presentation of "Anna went to the settlement not to fix things—but to read rhythms" on page 23.
+★ This is the first on-screen presentation of "Anna went to the settlement not to fix things—but to read the rhythm" on page 23.
 Note: This beat is embedded in the landscape prose that the Frontier arrives at, and is not a separate paragraph.
 It doesn't steal the spotlight from the Kassia intro + Bram beat + Lia Stage 1 in the same episode.
 ;
@@ -4462,7 +4686,7 @@ First half: A high-rise observation deck at a festival. Lia falls while going up
 Sara left to get water. Anna and Lia had some private space.
 Anna asked if anything was needed. (Lia matter-of-fact:)
 "I don't have enough air in my lungs. Especially when I'm going up stairs. Mom says it happened when I was little."
-**"Mom said it was when I was little"—Information asymmetry structure:** Lia's side uses a biographical fact, equivalent to "My eyes are gray-green." Anna's side uses "when I was little" to refer to a specific point in time—when Anna was 13. Lia uses the softest tone to express what is most important to Anna. Anna's reaction: Her fingers make that habitual gesture of "touching a non-existent part."
+**"Mom said it was when I was little"—Information asymmetry structure:** Lia's side uses a biological fact, equivalent to "My eyes are gray-green." Anna's side uses "when I was little" to refer to a specific point in time—when Anna was 13 years old. Lia uses the softest tone to express what is most important to Anna. Anna's reaction: Her fingers make that habitual gesture of "touching a non-existent part."
 Anna: "You're tougher than I thought."
 Lia: "Tough and slow are two different things." (Pause) "What color is the sky outside of Atheria?"
 Anna hadn't considered this question. "...The same."
@@ -4586,7 +4810,7 @@ The first micro-dose of scale shock. A prelude to the full scale shock of Skylea
 Direction: Through Kestrel's Gate. The only passage. Geographical necessity.
 **Slot canyon breathing mechanics:** Temperature difference drives pressure gradient → inhale/exhale cycle. Three dangers of the chaotic phase: cycle drift, temperature inversion collapse (katabatic burst), and false starts. Sound interpretation: humming pitch and volume changes → determine the current phase. Safety standard: continuous stable inhale for at least 15 minutes = genuine cycle → passable. If the inhale reverses during passage → abort – the airship must be able to turn around midway through the slot.
 Savona: "I went through the chaotic phase once when I was 23. I went in inhales, then reversed halfway through. I spent forty minutes in the middle of the slot waiting for the next cycle. Those forty minutes were the longest forty minutes of my life."
-**★ Anna-Lia Flight Interaction:** Half a day has passed eastward. This is Lia's first time flying this far. She stands by the porthole. The Basin plain stretches to the horizon below. No trace of canyons can be seen in the direction of Atheria.
+**★ Anna-Lia Flight Interaction:** Half a day had passed eastward. This was Lia's first time flying this far. She stood by the porthole. The land below stretched to the horizon—but not a blanket, but a mosaic of fields, rolling hills, isolated plateaus, and shallow valleys, changing textures every few dozen kilometers. No trace of canyons could be seen in the direction of Atheria.
 "You can't see home from here."
 Anna: "It's too far."
 Lia didn't answer. She was processing a piece of information: the place where she lived, from this distance, **did not exist**.
@@ -4595,7 +4819,7 @@ Lia saw white on the ridge. "Is that a cloud?"
 Anna: "Ice."
 Lia: "Is the mountain that high?"
 Anna: "Very tall."
-**★ Kassia's Open Frequency Band Seed (Behavioral Inference Entry - Not Explicitly Revealed):** Long Segment. Kassia is in the cockpit primary. Anna notices that Kassia checks the communication channel at fixed intervals—reaches out, dials, listens for two seconds, and dials back. No one is calling. The frequency is regular, as automatic as breathing.
+**★ Kassia's Open Frequency Seed (Behavioral Inference Entry - Not Explicitly Revealed):** Long Segment. Kassia is in the cockpit primary. Anna notices that Kassia checks the communication channel at fixed intervals—reaches out, dials, listens for two seconds, and dials back. No one is calling. The frequency is regular, as automatic as breathing.
 Anna glanced at the instrument panel from the rear cabin—Kassia wasn't dialing the current route frequency. It was a **specific band**, always the same one. There was nothing on that band. Silence. Kassia listened for two seconds of silence, dialed back, and continued flying.
 The next time Kassia checked the channel, Anna followed her gaze for a second. Then she looked away. Savona was flipping through maps beside her. No one spoke.
 The first time you read "empty frequency band" is "quirk"—"This person has a strange habit."
@@ -4616,7 +4840,7 @@ If you believe the world won't correct itself, then you have to correct everythi
 **Skyleaf settlement:** A mountain village on the eastern slopes of Serpent's Tooth. The settlement is built along a glacial meltwater river—extending eastward from the mouth of a high mountain valley to the shores of a high-altitude lake. Unlike the Frontier megalith style, it is more "embedded in the terrain": the upper section is built into the mountainside, partly excavated into the valley walls (utilizing the thermal mass of the rock for insulation), and partly built on a CI terraform platform (covered with 500 years of soil and root systems, resembling a natural terrace); the lower section unfolds along the lakeshore, lower and more level. It possesses a predatory urban mountain village character—growing along the mountains and facing the plains. The population is in the thousands. Remote but not isolated.
 **★ Skyleaf Soundscape Baseline (M-14 Echo):** Anna's first "hearing" in Skyleaf. The soundscape is **asymmetrical**—unlike any environment she's ever experienced. The Atheria Valley is an acoustic amplifier (bouncing from both walls), the Iris Plain is an acoustic absorber (no echo), and the Frontier is an acoustic compressor (density). Skyleaf is **semi-open**: turning towards the mountains/west—the valley walls direct, prolong, and superimpose sound, with hammering sounds carrying an echo tail when they come from a workshop upstream; turning towards the lake/east—the sound dissipates directly into the open air above the plain and lake, disappearing and never returning. Anna stands in the middle of the settlement and turns around; the world's acoustics shifts from enclosed to open. The flower fields are in the upstream geothermal zone—the collective rustling of the plants is carried down the valley by the wind, a continuous low-frequency rustling sound. The sound of the river is the only constant that runs through both sides.
 Anna's recalibration moment: The soundscape here overlaps with the "place he'd been" described by Edmund in M-17 using sensory fragments—"the smell of the wind changed after the pipes were opened." We recognize this place before Anna does: this is the place Edmund was talking about.
-[Perceptual Evolution Anchor Point - Acoustic Recalibration #4 - Skyleaf Half-Open, Half-Closed]
+[Perceptual Evolution Anchor Point · Acoustic Recalibration #4 · Skyleaf Half-Open Half-Closed]
 The Skyleaf soundscape is the most complex acoustic environment Anna has ever experienced—not a single feature (Atheria = enclosure, Iris = openness, Frontier = density).
 It is a coexistence of enclosure and openness. Anna's ears were asked to process two acoustic systems simultaneously for the first time.
 ; ★ It's the same acoustic vibration I felt when the M-09b first flew out of the canyon as a child—but in reverse.
@@ -4701,7 +4925,7 @@ It's like she's been thinking about something for three days without even realiz
 **Key point: Information about the northern CI facilities comes from Edmund's notes and Torben, not Healer.**
 **Anna's reaction in Ep41:** Quieter and deeper than in Ep40. Ep40 was "So this is where the red comes from." Ep41 is "So this is what Edmund was like even before I was born." His understanding of causality, his thoughts on Loom, his questioning of "how far can a pair of hands reach"—these aren't things that only come with fatherhood. They were taught by Skyleaf, and then he brought Atheria back, and carried her for twenty years. Warm. With a touch of surprise. Without anger.
 The payload of the second blow in Ep61 relies on the episode's warm texture—the Fallout timeline turns warm beliefs into heavy ones. Reparse requires the original experience to be clean.
-**★ Lia's Parallel Presence in Ep41:** Lia was absent on the afternoon Anna and Torben went to see the fragments of the notes. She was at the other end of the settlement receiving treatment—steam inhalation. Afterwards, the healer instructed her to walk along the edge of the flower field ("Don't go fast. Don't go far. Breathe.").
+**★ Lia's Parallel Presence in Ep41:** Lia was absent on the afternoon Anna and Torben went to see the fragments of the notebook. She was at the other end of the settlement receiving treatment—steam inhalation. Afterwards, the healer instructed her to walk along the edge of the flower field ("Don't go fast. Don't go far. Breathe.").
 Lia walked alone through the flower field. The Ember Crown rose to her knees and waist, its deep red petals swaying gently in the breeze. For the first time, she was enveloped by a density of color—something absent in Atheria, where cliffs were gray, stone, and metallic. Here, it was red, alive, and fragrant.
 She crouched down to examine a flower. Not to smell it—but to observe its structure. The shape of the corolla. The way the petals radiated outward from the center. Her hand naturally reached out and touched the stem—not to pluck it, but to touch it. The stem was harder than she had expected.
 A local healer's assistant (about fifteen or sixteen years old) was arranging herbs nearby. He saw Lia touching the flower.
@@ -4739,7 +4963,7 @@ Lia: "If you fall... there's nothing to catch you."
 Anna didn't answer. She knew Lia wasn't referring to the physical act of "falling."
 Lia watches Anna work. She doesn't speak. She observes. From casual to focused—she's watching Anna's workflow.
 Lia watched Anna do a valve check. She watched for a while.
-"Your hand will pause between each step."
+"Your hand will stop between each step."
 Anna turned her head.
 "It's not that I don't know what to do next. It's that I'm waiting for something."
 Anna's finger hovered over the valve. "...Waiting for confirmation."
@@ -4910,7 +5134,7 @@ The complete sequence: The weather that day. The light in the workshop. Why did 
 **M-27 is generated in this sequence:** "Was the hand that pushed me the wind or myself?" — A three-second pause grew out of that moment.
 **Irony is operating simultaneously in the reader layer:** The hand following Edmund's path is the same hand that injured Lia years ago. Edmund already knew about the radiation when he wanted to take this path (revealed during the reparse in Ep61). Anna is unaware of this at this moment. But she is walking the path her father intended to take—the path he didn't complete—and one of the driving forces in her hand is the child caused by her father.
 Design constraints: Ep45 does not offer any explicit "insights" or "conclusions." Anna is overwhelmed by memories, not in a state of thought.
-All connections are made by the reader. Prose should be somatic—sensory, bodily, auditory, and erotic. Not introspection.
+All connections are made by the reader. Prose should be somatic—sensory, physical, auditory, and erotic. Not introspection.
 The three-layer nesting does not require Anna conscious hold—the prose gives signals to the body, and the reader spells them out.
 
 **Ep46 — Freeze · Kassia Takes Over · Savona Witnessing (~4-6K words)**
@@ -4919,7 +5143,7 @@ The three-layer nesting does not require Anna conscious hold—the prose gives s
 **Kassia's observation:** A pilot loses function in the middle of a mission of their choice. Kassia's nihilism framework can absorb freezes—care leads to failure, which is her core prediction. Anna's few seconds of freeze completely confirm her math. **What it can't absorb is that Anna continued flying the entire mission after the freeze.** It's not about recovering "like nothing happened"—Anna flew the remaining segment broken. Her hands returned to the stick, she knew there was a gap in the middle, and continued.
 This touches upon a blank page in Kassia's own history. After her parents disappeared, she didn't continue caring. She stopped. She built nihilism instead. Her framework doesn't have the category of "broken + continue caring anyway" because she herself hadn't experienced that pattern. At thirteen, she had two paths to choose from, and she chose the shelter path. Anna demonstrates the other path in Ep46—not better, not worse, but the one she opted out of.
 The reader doesn't read "she was moved"—it reads "she just saw the person she decided not to be ten years ago."
-This was also her first partial non-confirmation during her first confirmation-seeking: care is indeed failure mode, but failure is not final.
+This was also her first confirmation-seeking's first partial non-confirmation: care is indeed failure mode, but failure is not final.
 **★ The consequences of "distrusting first instincts" in a life-or-death situation.** The wind in the high mountains is not forgiving. If Anna's freeze had lasted a few more seconds, the consequences would have been real. Savona witnessing—a seasoned pilot who has seen a lot—saw Anna's most vulnerable moment.
 
 **Ep47 — Arrival at CI Old Facilities · Recovery Segment · Bring Back Fragments (~4-6K words)**
@@ -4965,7 +5189,7 @@ This isn't diagnosis (the Edmund-axis "listening to the dead" approach). It's mo
 Anna began to do what Miriam had taught her—read a living person—with the precision of listening that Edmund had taught her.
 The first on-screen evidence of the confluence of the two axes.
 Follow-up: Episode 63, the winch scene, "I heard Lia's breathing in the silence"—the origin of habit is here.
-Echoing: P-01 two sensory axes → here (merging origin) → Ep63 (merging on-screen payoff)
+Echo: P-01 two sensory axes → here (merging origin) → Ep63 (merging on-screen payoff)
 
 **★ Chip discovery (Ep48-50, exact location to be determined)**:
 
@@ -5073,7 +5297,7 @@ Edmund's cause of death | Unknown (but ammunition was loaded) | Anna knew, not d
 
 **Ep56 — Anchoring and Winch Agreement (~6-8K words)**
 Direction: Anna confirmed that the Axiom science module most likely contains the Kepler Core. The chip still glows faintly in the workshop—like a pacemaker waiting to be plugged in. She decided to personally head south to retrieve it.
-Formation: Anna (master pilot, medium-sized transport vessel) + Kassia (second pilot, independent escort for Razor) + Milo (mechanic, transport vessel).
+Formation: Anna (lead pilot, medium-sized transport boat) + Kassia (second pilot, on the same boat) + Milo (mechanic, transport boat). Razor is strapped to the transport boat deck – the desert section is not suitable for independent skiff flight, but short-range reconnaissance may be needed near Axiom.
 **★ Lia's Farewell (Core Beat):** It wasn't a heavy farewell. Lia was in Basin. The healer had adjusted the dosage. She coughed less this spring than last year. Perhaps it was because the air was better in spring. Anna didn't ask. Lia didn't mention it. Early morning before departure. Anna was doing final checks on the airship at the dock. Lia came—not to see her off, but to visit. Her fingers traced the cable.
 "This cable is thicker than I thought. It's a number in the manual. Now I know how much it can hold." (Then) "When you come back, could you check the ratchet for me? The spacing seems off."
 A promise, not a farewell. Subtext: I'll be back, you're here, we'll do things together.
@@ -5082,9 +5306,9 @@ A child whose body's precariousness will never leave is saying, "I'm still here.
 Edmund and the red jacket's structural echo during the countdown—to prevent the shadows from tainting the moment.
 Lia may not know she's doing what Edmund did. Anna doesn't know either. Reader does.
 **The fourth lie in the register:** There's never a clean signal that "she's better." The excuse that "it's probably because the spring air is good" makes improvement always uncertain.
-**Kassia's departure beat:** Kassia was doing takeoff checks on the Razor next to her. She saw the Anna-Lia exchange—no comment. We remember in Arc 3, "You're looking at that kid the way you're doing it." Now Anna's way of looking at Lia has **changed**—no longer in the "wrong" way.
+**Kassia's departure beat:** Kassia is on deck checking the lashing of the Razor—confirming the skiff's anchors and the tarpaulin covering. She sees the Anna-Lia exchange—no comment. We remember in Arc 3, "The way you look at that kid is wrong." Now Anna's way of looking at Lia **has changed**—no longer in the "wrong" way.
 
-**★ Milo-Kassia echo beat (Ep56, during departure preparations):** Milo is moving things in the cargo hold of the transport ship. Kassia is on the Razor next to him. Milo moves a heavy item—Kassia comes over and helps. She doesn't say anything. She finishes and leaves. Anna sees this—Kassia never offers to help others move things. What's this?
+**★ Milo-Kassia echo beat (Ep56, during departure preparations):** Milo is moving things in the cargo hold of the transport ship. Kassia is checking the lashing of Razor on deck. Milo moves a heavy item—Kassia comes over and helps. She doesn't say anything. She finishes and leaves. Anna sees this—Kassia never offers to help others move things. What is this?
 Later, Milo was telling Anna about Thornfield—"The wind there is completely different from Basin, there's a layer at low altitude—" Kassia was doing rope checks nearby. Milo mentioned a detail—perhaps "once communication was down for three days, later we found out it was because the antenna was icing"—Kassia's hand paused for a second. Then she continued doing the rope checks. She didn't pick up the conversation. A minute later, Milo changed the subject, and Kassia interjected with a technical comment about rope tension, as if nothing had happened.
 Anna noticed that one-second pause. The slower pace Anna displayed after Episode 43 was the same behavioral data—a certain word triggered something. "Communication lost."
 Milo left in episode 25 and returned. Kassia's parents left and did not return.
@@ -5092,7 +5316,7 @@ Milo's return is two things for Kassia at the same time: a proof that has return
 Anna saw a drop-out—Kassia exited the conversation for a second and then returned. The reader had a P-17 and pieced it together himself.
 Simultaneously addressing robotization: Kassia will help Milo move things (warm), and will also pause for a second when "communication is lost" (crack). Both sides exist within the same context.
 
-**★ Kassia Airband Maintenance Beat (Anna perceives via shared radio):** Pre-departure radio check. Both airships are operating on the same frequency. Anna, on her airship, hears Kassia's radio scanning each frequency band—standard procedure, pausing for one second at each band before moving on to the next. When it reaches a certain band—a two-second silence—it doesn't immediately switch off. The pause is half a beat longer than the standard check. Then it continues. Anna hears that half-beat silence. She doesn't know what frequency it is. She doesn't parse it. She continues with her own takeoff checks.
+**★ Kassia's frequency band maintenance beat (Anna sensed via shared radio):** Pre-flight radio check. Kassia scans frequencies near the cockpit—standard procedure, pausing for one second on each frequency before moving on to the next. When a certain frequency is scanned—a two-second silence—is not immediately dialed. This pause is half a beat longer than the standard check. Then it continues. Anna, who is nearby, hears that half-beat silence. She doesn't know what frequency it is. She doesn't parse it. She continues with her takeoff checks.
 The empty frequency band before Arc 4's first departure. This is the first time it has been shown on screen in the 19 episodes following Episode 38.
 "Half a beat too late" is a subtle leak from Kassia's body during her Pre-Axiom state.
 The upcoming southward geographical direction made this habitual movement heavier. She herself might not have consciously held onto it.
@@ -5125,7 +5349,7 @@ It's not a new ability—the tension of the kite string in your hand is the firs
 But in the sea fog, everything that was learned later (hearing, seeing, smelling) faded away, and the most primitive layer resurfaced.
 ★ The contrast with Kassia is completely opposite to that of Ep44 at high altitude:
 ; Ep44 Thin Air — Anna loses her hearing → downgrades, Kassia relies on instruments → stable.
-; Ep57 Sea Fog — Kassia loses her sight → panic → wants to speed up, Anna loses all external channels → retreats to her body → calm.
+; Ep57 Sea Fog — Kassia loses her sight → panic → wants to speed up, Anna loses all external access → retreats to her body → calm.
 It's not that "Anna is better"—it's that the two methodologies have different failure modes under different extreme conditions.
 Kassia relies on external instruments (including the eyes). Anna's most fundamental element is the body itself.
 Echoing: Childhood §2 ① Kite (proprioception origin) → Ep44 (Anna demoted/Kassia stable) → Here (Kassia demoted/Anna stable)
@@ -5136,7 +5360,7 @@ She was testing whether "no control equals death." The answer was no. This data 
 
 **Ep58 — Whispering Flats · Kassia Night (~8K words)**
 Direction: Crystalline plains, triboluminescence, nighttime light river.
-**★ Kassia's Middle Loop (Daytime Desert Section - Echo of Ep57's Not-Correction):** Kassia is on primary. A crosswind—not strong; Anna would have waited for it to pass if she were on primary. Kassia raises her hand—to make corrections—**pausing for half a second**. The memory of Ep57 is in her hand. Then old habits win. She still makes the corrections. A little lighter than usual—but she does it. The wind itself is returning. Kassia's corrections and the wind's natural corrections overlap—a slight over-correction, and the airship shakes.
+**★ Kassia's Intermediate Loop (Daytime Desert Section - Echo of Ep57's Not-Correction):** Kassia is on primary. A crosswind—not strong; Anna would have waited for it to pass if she were on primary. Kassia raises her hand—to make corrections—**pausing for half a second**. The memory of Ep57 is in her hand. Then old habits win. She still makes the corrections. A little lighter than usual—but she does it. The wind itself is returning. Kassia's corrections and the wind's natural corrections overlap—a slight over-correction, and the airship shakes.
 Anna felt the tremor. She didn't say anything.
 Intermediate ring design: Kassia tried not fixing it → good. Now fixing it → worse.
 The Ep60 winch with graduated tension has a thicker foundation.
@@ -5149,7 +5373,7 @@ It is the same kind of existence that "shouldn't be there but is there".
 A landscape description in one sentence. No Anna parse needed. The reader's blue counter beeped again.
 Echoing: Childhood 1.4 → Ep25 → Ep27 → ​​Ep41 (Blue Eyes) → Here → Ep62 (Payoff)
 Atop their heads, bands of purple and rose-colored nebula light. Beneath their feet, blue-green frictional fluorescence. Between the two bands of cool light above and below, the airship lights and campfire are the only warm colors. The wind-milled crystalline surfaces emit a continuous, extremely low-frequency hum—"Whispering Flats" is a literal description.
-**★ Kassia's Night (Anna's Visible Part):** Night. Camp. Anna wakes up at some moment—by the wind or the cold. She goes outside. The Razor cockpit lights are still on. Kassia is inside—Anna can see her silhouette, but not her expression. Nebula-like bands of light overhead, the blue-green frictional fluorescence of the Whispering Flats beneath her feet—between the two cool lights above and below, the warm-colored lights of the Razor cockpit are the only artificial light.
+**★ Kassia's Night (Anna's Visible Part):** Night. Camp. Anna wakes up at some moment—by the wind or the cold. She goes outside. An oil lamp is still lit next to Razor. Kassia leans against the skeleton of the skiff—Anna can see the outline, but not the expression. Nebula-like light bands overhead, blue-green frictional fluorescence of the Whispering Flats beneath her feet—between the two cold lights above and below, the oil lamp next to Razor is the only artificial warm light.
 Anna didn't go over. She went back to sleep.
 Kassia woke up earlier than usual the next day. There was more tea residue at the bottom of the teapot than usual—she had drunk more than one pot. She spoke at a normal pace. She said nothing.
 Writing guide (without prose): Kassia's interior is—Whispering Flats are beautiful. She doesn't deny beauty. What she denies is the meaning of beauty. The universe doesn't need witnesses to create miracles, so the existence of witnesses is irrelevant. But she didn't leave. She watched for a long time. People who truly don't care about anything go to sleep. Kassia couldn't sleep.
@@ -5208,7 +5432,7 @@ The prose doesn't say "you're just like your dad." The reader will sense it for 
 Then Anna did something Edmund never did. In a quiet corner of Axiom, she took off the red jacket—not to throw it away, but folded it just like Edmund had folded it for her years ago. She looked at it for a moment. All the seams, the wear, the repairs. Then she put it back on. The way she wore it was different. Before, it was "an extension of her body." Now, it was "something she chose to wear." Outsiders couldn't tell the difference. Anna knew.
 **★ Kassia returns to Axiom alone (Anna can see this: absence + return):**
 Night. Campsite. Anna is tidying up equipment next to Core. She looks up—Kassia isn't there. Her oil lamp isn't in its place. Razor is still there—she walked. Towards Axiom.
-Anna didn't go looking for it. She continued organizing.
+Anna didn't go looking for him. She continued organizing.
 A few hours later, Kassia returned. The sand on her boots was a new layer than when she set out—she had walked a long way. One side of her hair was flattened (she had leaned against something). The oil lamp in her hand was almost empty. She didn't say where she had been. She put the lamp down. She lay down.
 Anna didn't ask anything.
 Writing guide (without entering the prose): Kassia walks along different corridors—areas she passed by during the day but didn't look at closely. She finds a personal quarter. A narrow bed is fixed to the wall. A small table. Storage compartments. On the table is a personal item from 500 years ago. A specific person with personal belongings once lived here. A small screen in the corner flashes briefly for less than two seconds. Perhaps residual charge released during the day's dismantling of the Core. An image—perhaps a photograph. Then blackout. Kassia stands in the darkness for a long time.
@@ -5256,7 +5480,7 @@ Anna: "Mm."
 Lia: "Have you been there before?"
 Anna thought for a moment. "I didn't notice. I'll listen for you next time."
 **"Next time."** This word came out of Anna's mouth. Not a plan. It's a presume. It's the same thing as Lia's "When you come back, check the ratchet for me"—a presume that the other person is still in the future.
-The reader carries the weight of deteriorating memories—the weight of "next time" is not casual.
+The reader carries the weight of a deteriorating memory—the weight of "next time" is not casual.
 Lia's health doesn't guarantee a next time. Anna said "next time" means doing what Edmund did:
 She didn't want the shadow of the countdown to taint this moment. Perhaps she herself didn't even realize it. Reader knew Edmund had done the same.
 **★ Throughout the entire scene, no one said "thank you," no one said "sorry," and no one mentioned it.**
@@ -5277,7 +5501,7 @@ Kassia's silent reader function: She knows what Milo doesn't know.
 ; Ep64 mood: No failure scene. Anna touched it, no sound, put it down—and then walked out of the workshop.
 The focus of Ep64 is not on the Core technology challenge, but on **going home**.
 **★ Back to the everyday texture:** Anna stepped out of the workshop. Not for inspection—just walking. The sounds of the canyon contrasted with the deathly silence of Axiom—she had been in the sealed corridor for days, 500 years, and now there were sounds everywhere. Water was flowing. The sound of hammering came from one of the workshops. Someone was patting a blanket on a balcony, the fabric slapping against the cliff face. An apprentice shouted something from a hanging basket, and another replied from a three-story skybridge. People greeted her everywhere. Someone asked about Axiom ("Really in?" "Yes." "What's it like inside?" "Dark.").
-**★ Lia's Settlement in Basin:** After returning to Atheria from Skyleaf, Lia didn't simply "stay put"—she was integrating. Not integrating into the workshop, not integrating into the mechanics—she was integrating into **the daily operation of a place**. Anna saw this while walking: Lia helping an old man move something by the canal. It wasn't something she was assigned. She was just passing by, saw it, and stopped. The way Lia moved things—not by brute force, but by first assessing the center of gravity and then lifting from that side.
+**★ Lia's Settlement Back on Earth:** After returning to Atheria from Skyleaf, Lia didn't simply "stay put"—she integrated. Not into the workshops, not into the mechanics—she integrated into **the daily operation of a place**. Anna saw this while walking: Lia helping an old man move something by the canal. It wasn't something she was assigned. She was just passing by, seeing it, and stopping. The way Lia moved things—not with brute force, but by first assessing the center of gravity and then lifting from that side.
 **★ Lia's Friction Beat - Stopped by Her Body (New Core Paragraph):**
 Later that same day. Anna hadn't returned yet. Lia was near the entrance of a workshop. A repair was underway—nothing serious. Two local Basen mechanics were inspecting a section of the drive chain for a lifting cage. The chain needed to be pulled out of its slots to check for wear. But the bolts on the drive housing were rusted shut. One mechanic applied torque with a long wrench, while the other held the housing in place. The bolts loosened. The two men pulled the chain out, laid it on the ground, and began inspecting each link.
 Lia stood by and watched. She watched for a while. Then she walked over. Not rushing—she walked. She bent down and grabbed one end of the chain—probably to help push the section she'd inspected aside, making room for the two mechanics. The chain wasn't heavy, but it required her to bend over and exert force. Half-squatting. Hands on the chain. She gave it a push.
@@ -5321,11 +5545,11 @@ Edmund→Anna is the first step, Anna→Lia is the second step, and Lia herself 
 Two people's hands are simultaneously "listening" on different parts of the same system.
 What Lia heard was different from what Anna heard—because the two ends of the pipe were in different states. But they were listening in the same way.
 Inheritance is not "teacher teaching student"—it is two people doing the same thing at the same time, each receiving their own information.
-; ★ Edmund and Anna were like this on the river stones—"not a teaching instruction, but he was listening to it himself and casually called her to join in" (M-06).
+; ★ Edmund and Anna were like this on the river rocks—"not a teaching instruction, but he was listening to it himself and casually called her to join in" (M-06).
 Anna is now doing what Edmund did. She doesn't know it.
 Echo: M-06 (Edmund + Anna Riverstone - Shared Listening) → Ep26a (Shared Disappearance) → Here (Rebirth)
 This gives the forward-looking line in Ep67, "Your hands won't hurt me anymore," enough cognitive capital.
-When someone who can take the next step says, "You can let go now," the weight is real.
+When someone who can take the next step themselves says, "You can let go now," the weight is real.
 Anna's pause-based quality evolved from the defensive nature of the M-26/M-27 to a recognition of "seeing others surpass oneself"—
 It wasn't a stop born of fear, but an Edmund-style stop. For the first time, she stopped in the way Edmund had done.
 Then—with Lia's hand still on the pipe—she said something Anna hadn't expected.
@@ -5350,7 +5574,7 @@ Then another scene—a corridor. Clean. Lights on. Anna recognized it: Axiom. Sh
 **Ep65 — Walking, Cake, Holding Hands, Bolt (~8-10K words)**
 Direction: Before Basin's daily routine, Anna and Lia were walking together at the bottom of the valley. Lia is interested in Core fragments.
 Anna described the scene of moving the stones. Lia: "Were those people using a lot of force?" Anna: "It looked like they were." Lia: "If I were moving them, I'd use a lever." Anna: "Huh?" Lia: "Everything ultimately comes down to levers."
-Anna described the scene of blacksmithing. Lia was silent for a moment, then said, "Isn't that blacksmithing? The blacksmith Basin does blacksmithing every day."
+Anna described the scene of blacksmithing. Lia was silent for a moment, then said, "Isn't that blacksmithing? Basin the blacksmith does blacksmithing every day."
 Lia's first intuition that "two eras are the same thing".
 **Cake Beat:** It's someone's birthday in Basin. Lia baked a crooked little cake—she can't bake, her flour handling is amateurish. The cake is ugly by any baking standard. But she made it. She came over and handed Anna a slice. Anna took it. **Her hand didn't shake.**
 Distance control: Ep63 winch Lia initiates proximity → cake Lia walks over and hands it to Anna → Anna catches it without shaking her hand.
@@ -5400,7 +5624,7 @@ Anna first "sees" Lia by touching things Lia has done.
 The way to understand mechanics is through tracing. Now, tracing incorporates elements of "listening".
 It inherits the essence of "visible" without being explicit. No dialogue is needed. The repaired marks speak for themselves.
 Anna didn't say anything. She left.
-[Perception Evolution Anchor Point · Blue Hyacinth #7 · Final Echo]
+[Perceptual Evolution Anchor Point - Blue Hyacinth #7 - Final Echo]
 Anna looked up after touching the repair mark—if this window latch were near the Eagle's Nest (or some building in Basin).
 The distant cliff face could be seen through the window frame. Anna's gaze naturally drifted in that direction—
 The location of that cluster of blue hyacinths on the distant cliff. I didn't look at it intentionally.
@@ -5408,7 +5632,7 @@ No internal monologue is needed. Prose only provides visuals:
 A hand that has just finished reading another person's pause; a window; a small patch of blue on a distant rock face outside the window.
 The reader won't notice it on the first read. On the second read: the blue color has been there since Ep25, and Anna never really paid attention to it.
 This perfectly matches the definition of P-10—"It grew on its own, it's always been there, and it doesn't need anyone else's."
-Echoing: Ep62 (payoff) → Here (the lingering effect of blue appearing for the last time in the background layer)
+Echoing: Ep62 (payoff) → Here (the lingering blue appears for the last time in the background layer)
 ;
 [Perception Evolution Anchor Point·Traces Repair = Perception Mirror Completion]
 ; Ep42-43: Lia's pauses when reading Anna (direction: world → Anna).
@@ -5451,7 +5675,7 @@ It wasn't anxiety. It was at a certain moment on my birthday that my body rememb
 Place Core in your left hand. Place Crystal in your right hand. Close your eyes. **Do nothing.** Wait.
 Breathing subsides. Heartbeat slows. Fingers loosen—the contact patch enlarges. Larger contact area = more vibration transmission.
 In the stillness, two faint vibrations emerged. Core's, Crystal's. **They'd always been there.** She hadn't heard them before not because they were too faint—but because she herself was too noisy. Not technical noise—it was noise from her whole being. Anxiety, control, "I have to make it talk." No one had asked her to do anything on her birthday. Her body remembered that quiet. Now the quiet was back.
-Her job wasn't to make the two systems speak the same language—it was to quiet herself enough to hear two languages ​​simultaneously. Vibrations in her left hand traveled through her bones to her right hand, and back again. The two systems began to perceive each other through a quiet human body.
+Her job wasn't to make the two systems speak the same language—it was to quiet herself enough to hear two languages ​​simultaneously. Vibrations in the left hand travel through the bones to the right hand, and back again. The two systems began to perceive each other through a quiet human body.
 In episode 64, Anna touches Core but hears nothing—she's trapped in "what I have to do."
 ; Ep69 Take off the methodology - not that it is no longer needed, but that it is moved to the background - standing between the two ends.
 Only by taking things off can one become a bridge. Free people connect two worlds. Those who are locked up can only be bound to one end.
@@ -5459,8 +5683,8 @@ Only by taking things off can one become a bridge. Free people connect two world
 ★ Anna quieted herself down to the point where she could hear two languages ​​at the same time—from "doing" to "not doing," from skills to silence.
 This and the M-21 temperature disappearance (12-13 years old) are a pair of structural mirrors:
 M-21 was passive—Edmund's decline caused Anna's sensory space to shrink passively, and the disappearance of temperature was something she had no choice but to accept.
-; Ep69 is proactive—Anna chooses to quiet herself down and let the methodology take a backseat.
-Passive contraction vs. active expansion. The same kind of "subtraction," but in completely opposite directions.
+Ep69 is proactive—Anna chooses to quiet herself and let the methodology take a backseat.
+Passive contraction vs. active expansion. The same "subtraction," but in completely opposite directions.
 M-21 subtracted the world. Ep69 subtracted itself.
 ★ The complete arc of perceptual evolution from childhood to the present:
 Pure sensory development (3-6 years old) → Edmund-guided listening (6-12 years old) → Passive contraction (12-13 years old, M-21)
@@ -5519,14 +5743,14 @@ Kepler Core does not perform "puzzle-solving" type of positivity.
 
 **Usage:** When writing an episode, check here to confirm if the episode has any perceptual evolution or blue line beats that need to be deployed. All anchors are marked with `; [Perceptual Evolution Anchor]` and embedded in the writing guide comment for the corresponding episode paragraph.
 
-### A. The Evolutionary Chain of Adult Perception (Arc 2-4: Echoing System with Childhood Episodes 22-24)
+### A. The Evolutionary Chain of Adult Perception (Arc 2-4: Echoing the Childhood Episodes 22-24)
 
 | Ep | Perceiving Beat | Echoing Childhood/Principles | Form |
 |---|---------|-------------|------|
-| Ep25 | Blue Hyacinths from the Air: A Perspective Changing from Close-up to Overhead | Childhood 1.4 (Looking at Flowers from the Rocky Wall) | A One-Sentence Landscape |
+| Ep25 | Blue Hyacinths from an Aerial View - Perspective Changes from Close-up to Overhead | Childhood 1.4 (Looking at Flowers from a Rocky Cliff) | A One-Sentence Landscape |
 | Ep26a | "Nobody catches" empty beat · What did you hear when you put your hand on the pipe wall · Continue · Nobody says | M-06 (Edmund shared highlight) | Half of the background scene |
 | Ep27 | Perceptual Expression Nodes: From Causal Chains to Sensory Organization | Intersection of Edmund Axis + Miriam Axis Expression Layers | The Story Night Itself Carries |
-| Ep33 | Frontier rhythm-reading: Reading the overall rhythm, not separating individual sound sources | First on-screen appearance on page 23 | A sentence embedded in the landscape |
+| Ep33 | Frontier rhythm-reading: Reading the overall rhythm, not separating individual sound sources | First on-screen appearance on page 23 | A sentence embedded in a landscape |
 | Ep33 | Miriam's Axis: Adult Extension - Reading People's Behavioral Patterns | Miriam's Childhood Seeds | Half a Sentence |
 | Ep40 | Skyleaf Semi-Open Acoustics: Enclosed and Open Spaces Coexist | M-09b (Enclosed → Open Space, Unidirectional Vibration) | Prose Coverage Available |
 | Ep42-43 | Lia label: three-second pause, perception of direction reversal (the world reads Anna) | Ep26a (No one catches it → catch it here) | Dialogue already available |
@@ -5535,7 +5759,7 @@ Kepler Core does not perform "puzzle-solving" type of positivity.
 | Ep57 | Proprioception Extreme - All external channels exit, the lowest level of the body emerges | Childhood §2 ① Kite (Proprioception Origin) | Embedded in sea fog flight segment |
 | Ep62 | Blue Hyacinth Payoff | P-10 Color Structure Alignment | Complete Scene (Already Available) |
 | Ep64 | Two people listening simultaneously on the same system - passing on physical forms | M-06 (Edmund + Anna Riverstone) | Half-sentence behavior |
-| Ep67 | Revision Reading - Perceiving Mirror Completion (Anna's pause when reading Lia's name) | Ep42-43 (Lia's pause when reading Anna's name) | Existing Scene |
+| Ep67 | Trace Reading - Perceiving Mirror Completion (Anna's pause when reading Lia's name) | Ep42-43 (Lia's pause when reading Anna's name) | Existing Scene |
 | Ep69 | Active Subtraction · Detachment Methodology · M-21 Structural Mirror | M-21 Temperature Disappearance (Passive Contraction) | Existing Scene |
 
 **Progression Path:** Pure sensory perception → Guided listening → Passive contraction → Independent reopening → Environmental adaptation → Convergence of two axes → Properception extreme → Active subtraction. The endpoint is not "stronger perception"—it is a quietness that allows two worlds to speak through her.
@@ -5546,7 +5770,7 @@ Kepler Core does not perform "puzzle-solving" type of positivity.
 |---|---------|------|-------------|
 | 1 | Childhood 1.4 (Age 6) | Anna lies on the rock face, looking down, and asks Miriam why it grew in such a difficult place | Will—Complete scene |
 | 2 | Ep25 (Skiff Crossing) | A blue dot seen from the air on the cliff below Eagle's Nest | No—a landscape in a word |
-| 3 | Ep27 (Story Night) | Anna mentioned "small blue flowers in the crack next to the sunberry" when talking about sunberries | No—half a sentence in the dialogue |
+| 3 | Ep27 (Story Night) | Anna mentioned "small blue flowers in the cracks" when talking about sunberries | No—half a sentence in the dialogue |
 | 4 | Ep41 (Skyleaf Flower Field) | Torben sees Anna → Blue eyes in a red flower field; a layer of color resonance beat | Possibly—color resonance beat |
 | 5 | Ep58 (Whispering Flats) | Blue-green light waves in the crystalline plains amidst the ochre-red desert | Possibly—but categorized as landscape |
 | 6 | **Ep62** (★ Payoff) | Hyacinth Returns in Full—"Blue is not a causal chain. Blue is just there" | **Will—Designed this way** |
@@ -5569,10 +5793,4 @@ Kepler Core does not perform "puzzle-solving" type of positivity.
 | 6 | The Wash | The fog swallows the echo; all external channels are weakened | Proprioception emerges; the body itself is the final instrument | Ep57 |
 
 **Progression Direction:** From "Method Failure" (Iris) to "Method Adaptation" (Frontier/Skyleaf) to "Method Degradation" (High Altitude) to "Method Exit and Body Emergence" (Sea Fog).
-
-
-
-
-
-
 

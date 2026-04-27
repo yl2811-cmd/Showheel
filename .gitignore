@@ -1,0 +1,10 @@
+# Visual Studio local files
+.vs/
+
+# Build output
+obj/
+bin/
+
+# User-specific files
+*.user
+*.suo

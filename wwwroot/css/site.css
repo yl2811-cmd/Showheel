@@ -457,7 +457,14 @@ main {
 /* ─── Detail page body ─────────────────────────────────── */
 
 .kd-detail-body {
-    background: var(--bg-primary);
+    background-color: var(--bg-primary);
+    background-image:
+        linear-gradient(rgba(5, 5, 7, 0.3), rgba(5, 5, 7, 0.3)),
+        url('/images/feature-bg.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: clamp(48px, 6vw, 96px) clamp(20px, 4vw, 56px) clamp(80px, 8vw, 140px);
 }
 .kd-detail-body--archeon {
@@ -548,6 +555,10 @@ main {
 .kd-video-frame {
     position: relative;
     padding-top: 56.25%;
+}
+
+.kd-video-grid--pair-size .kd-video-frame {
+    padding-top: 62.5%;
 }
 .kd-video-frame iframe {
     position: absolute;

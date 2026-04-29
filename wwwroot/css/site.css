@@ -459,7 +459,7 @@ main {
 .kd-detail-body {
     background-color: var(--bg-primary);
     background-image:
-        linear-gradient(rgba(5, 5, 7, 0.8), rgba(5, 5, 7, 0.8)),
+        linear-gradient(rgba(5, 5, 7, 0.3), rgba(5, 5, 7, 0.3)),
         url('/images/feature-bg.png');
     background-size: cover;
     background-position: center top;

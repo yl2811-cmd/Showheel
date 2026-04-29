@@ -382,6 +382,28 @@ main {
     }
 }
 
+/* 5th card: span both columns and centre it */
+.kd-card--solo {
+    grid-column: 1 / -1;
+    max-width: calc(50% - clamp(9px, 1.2vw, 18px));
+    margin: 0 auto;
+}
+@media (max-width: 720px) {
+    .kd-card--solo {
+        max-width: 100%;
+    }
+}
+
+/* Unreal page — 2×2 video grid */
+.kd-video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(18px, 2.4vw, 36px);
+}
+@media (max-width: 720px) {
+    .kd-video-grid { grid-template-columns: 1fr; }
+}
+
 /* ─── Detail page hero ─────────────────────────────────── */
 
 .kd-detail-hero {

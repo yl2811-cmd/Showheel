@@ -55,7 +55,7 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("decompose")]
     public async Task<IActionResult> Decompose([FromBody] DecomposeRequest? req, CancellationToken ct)
     {
-        var tree = await _tree.DecomposeAsync(req?.SourceFile, ct);
+        var tree = await _tree.DecomposeAsync(req?.SourceFile, authorityBuckets: true, ct);
         return Ok(new { nodeCount = tree.Flatten().Count(), tree });
     }
 

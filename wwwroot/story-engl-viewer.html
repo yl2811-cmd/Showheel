@@ -84,21 +84,17 @@
         .back-link:hover { text-decoration: underline; }
         #loading { text-align: center; padding: 3rem; color: #6ab0f3; }
     </style>
+    <meta http-equiv="refresh" content="0; url=/StoryStudio" />
+    <link rel="canonical" href="/StoryStudio" />
 </head>
 <body>
     <div class="container">
         <a class="back-link" href="/">&#8592; Back to Portfolio</a>
-        <div id="content"><div id="loading">Loading story...</div></div>
+        <div id="content">
+            <p>The standalone story viewer has been retired. The book now lives in
+            <a href="/StoryStudio">Story Studio</a> as an editable, structured tree.</p>
+            <p>Redirecting…</p>
+        </div>
     </div>
-    <script>
-        fetch('/story-engl.md')
-            .then(r => r.text())
-            .then(md => {
-                document.getElementById('content').innerHTML = marked.parse(md);
-            })
-            .catch(() => {
-                document.getElementById('content').innerHTML = '<p>Failed to load story content.</p>';
-            });
-    </script>
 </body>
 </html>

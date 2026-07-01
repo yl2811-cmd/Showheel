@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Audit",
+    "RelativePath": "api/story/audit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BAuditRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Chat",
+    "RelativePath": "api/story/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Decompose",
+    "RelativePath": "api/story/decompose",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BDecomposeRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "AddNode",
+    "RelativePath": "api/story/node",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BAddNodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "UpdateNode",
+    "RelativePath": "api/story/node/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BUpdateNodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "DeleteNode",
+    "RelativePath": "api/story/node/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "ApplyPatch",
+    "RelativePath": "api/story/patch/apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patch",
+        "Type": "Showheel.Services.Story.StoryPatch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "ProposePatch",
+    "RelativePath": "api/story/patch/propose",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BProposePatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "RagRebuild",
+    "RelativePath": "api/story/rag/rebuild",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "RagStatus",
+    "RelativePath": "api/story/rag/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Translate",
+    "RelativePath": "api/story/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BTranslateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "GetTree",
+    "RelativePath": "api/story/tree",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Upload",
+    "RelativePath": "api/story/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

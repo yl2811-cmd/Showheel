@@ -3,6 +3,34 @@ using System.Text.Json.Serialization;
 namespace Showheel.Services.Story;
 
 /// <summary>
+/// A file attached to a story node (image, txt, or other). The raw bytes live under
+/// App_Data/story/uploads/ (server-side); only this lightweight metadata is stored in
+/// the tree. Images can be re-served to the co-author as a data URL on demand.
+/// </summary>
+public sealed class NodeAsset
+{
+    /// <summary>Upload id — matches the stored file name stem under App_Data/story/uploads/.</summary>
+    public string Id { get; set; } = Guid.NewGuid().ToString("n");
+
+    /// <summary>Original file name shown in the UI.</summary>
+    public string FileName { get; set; } = "";
+
+    /// <summary>image | text | other.</summary>
+    public string Kind { get; set; } = "other";
+
+    /// <summary>MIME type as reported at upload time.</summary>
+    public string ContentType { get; set; } = "";
+
+    /// <summary>Byte size of the stored file.</summary>
+    public long Size { get; set; }
+
+    /// <summary>Server-relative stored file name (e.g. "&lt;id&gt;.png") under the uploads dir.</summary>
+    public string StoredName { get; set; } = "";
+
+    public DateTimeOffset AddedAt { get; set; } = DateTimeOffset.UtcNow;
+}
+
+/// <summary>
 /// A single node in the story tree. The whole "Part 1 — Skies Beyond the Star"
 /// book is represented as a tree of these: worldview -> childhood arc -> later arcs,
 /// each section/subsection/entry being a node. AI co-author edits mutate this tree.
@@ -26,6 +54,19 @@ public sealed class StoryNode
 
     /// <summary>Optional English translation of <see cref="Content"/>, produced by the translator AI (separate from the co-author).</summary>
     public string? ContentEn { get; set; }
+
+    /// <summary>
+    /// Extensible per-language content, keyed by BCP-47-ish code (e.g. "en", "ja", "fr").
+    /// The AI can fill and save any number of languages here without a schema change;
+    /// the primary <see cref="Content"/> holds the source (Chinese) text.
+    /// </summary>
+    public Dictionary<string, string> Translations { get; set; } = new();
+
+    /// <summary>Which authority bucket this node lives under (only meaningful for top-level buckets), e.g. "10-canon".</summary>
+    public string? Bucket { get; set; }
+
+    /// <summary>Files attached directly to this node (images the co-author can see, reference txt, etc.).</summary>
+    public List<NodeAsset> Assets { get; set; } = new();
 
     /// <summary>Depth in the tree (0 = top level like "1. Worldview").</summary>
     public int Depth { get; set; }

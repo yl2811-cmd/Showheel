@@ -16,6 +16,7 @@ public sealed class OpenAiCompatibleClient
 {
     private readonly HttpClient _http;
     private readonly ILogger<OpenAiCompatibleClient> _logger;
+    private readonly AiResponseCache _cache;
 
     private static readonly JsonSerializerOptions JsonOpts = new()
     {
@@ -23,9 +24,10 @@ public sealed class OpenAiCompatibleClient
         DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
     };
 
-    public OpenAiCompatibleClient(HttpClient http, ILogger<OpenAiCompatibleClient> logger)
+    public OpenAiCompatibleClient(HttpClient http, AiResponseCache cache, ILogger<OpenAiCompatibleClient> logger)
     {
         _http = http;
+        _cache = cache;
         _logger = logger;
     }
 
@@ -40,19 +42,27 @@ public sealed class OpenAiCompatibleClient
         if (!provider.IsConfigured)
             throw new InvalidOperationException("AI provider is not configured.");
 
-        var payload = BuildChatPayload(
-            provider,
-            messages.Select(m => new { role = m.Role, content = (object)m.Content }),
-            temperature,
-            thinking);
+        // Cache on the full request shape: identical prompts return the cached reply,
+        // avoiding a paid round-trip. Temperature is part of the key so different
+        // sampling settings don't collide.
+        var key = AiResponseCache.Key("chat", provider.Model, temperature, thinking.ToString(),
+            messages.Select(m => new { m.Role, m.Content }));
 
-        using var req = BuildRequest(provider, "chat/completions", payload);
+        return await _cache.GetOrAddChatAsync(key, async () =>
+        {
+            var payload = BuildChatPayload(
+                provider,
+                messages.Select(m => new { role = m.Role, content = (object)m.Content }),
+                temperature,
+                thinking);
 
-        using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
-        await EnsureSuccess(res, ct);
+            using var req = BuildRequest(provider, "chat/completions", payload);
+            using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
+            await EnsureSuccess(res, ct);
 
-        var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
-        return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
+            var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
+            return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
+        });
     }
 
     /// <summary>Chat completion that accepts multimodal messages (text + images) for vision models.</summary>
@@ -66,19 +76,24 @@ public sealed class OpenAiCompatibleClient
         if (!provider.IsConfigured)
             throw new InvalidOperationException("AI provider is not configured.");
 
-        var payload = BuildChatPayload(
-            provider,
-            messages.Select(m => new { role = m.Role, content = m.ToContentParts() }),
-            temperature,
-            thinking);
+        var key = AiResponseCache.Key("chat-mm", provider.Model, temperature, thinking.ToString(),
+            messages.Select(m => new { m.Role, m.Text, m.ImageUrls }));
 
-        using var req = BuildRequest(provider, "chat/completions", payload);
+        return await _cache.GetOrAddChatAsync(key, async () =>
+        {
+            var payload = BuildChatPayload(
+                provider,
+                messages.Select(m => new { role = m.Role, content = m.ToContentParts() }),
+                temperature,
+                thinking);
 
-        using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
-        await EnsureSuccess(res, ct);
+            using var req = BuildRequest(provider, "chat/completions", payload);
+            using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
+            await EnsureSuccess(res, ct);
 
-        var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
-        return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
+            var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
+            return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
+        });
     }
 
     /// <summary>
@@ -112,20 +127,27 @@ public sealed class OpenAiCompatibleClient
             throw new InvalidOperationException("Embedding provider is not configured.");
         if (inputs.Count == 0) return new();
 
-        using var req = BuildRequest(provider, "embeddings", new
+        // Embeddings are deterministic for a given model+input, so caching the batch
+        // eliminates repeated re-embedding of the same RAG query / chunk text.
+        var key = AiResponseCache.Key("embed", provider.Model, inputs);
+
+        return await _cache.GetOrAddEmbeddingsAsync(key, async () =>
         {
-            model = provider.Model,
-            input = inputs
+            using var req = BuildRequest(provider, "embeddings", new
+            {
+                model = provider.Model,
+                input = inputs
+            });
+
+            using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
+            await EnsureSuccess(res, ct);
+
+            var body = await res.Content.ReadFromJsonAsync<EmbeddingResponse>(JsonOpts, ct);
+            return body?.Data?
+                .OrderBy(d => d.Index)
+                .Select(d => d.Embedding ?? Array.Empty<float>())
+                .ToList() ?? new();
         });
-
-        using var res = await _http.SendAsync(req, HttpCompletionOption.ResponseHeadersRead, ct);
-        await EnsureSuccess(res, ct);
-
-        var body = await res.Content.ReadFromJsonAsync<EmbeddingResponse>(JsonOpts, ct);
-        return body?.Data?
-            .OrderBy(d => d.Index)
-            .Select(d => d.Embedding ?? Array.Empty<float>())
-            .ToList() ?? new();
     }
 
     private static HttpRequestMessage BuildRequest(ProviderOptions p, string path, object payload)

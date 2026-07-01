@@ -8,72 +8,77 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Showheel
 build_property.RootNamespace = Showheel
-build_property.ProjectDir = C:\Users\yl281\source\repos\s\
+build_property.ProjectDir = D:\新建文件夹 (5)\Showheel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yl281\source\repos\s
+build_property.MSBuildProjectDirectory = D:\新建文件夹 (5)\Showheel
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/yl281/source/repos/s/Pages/About.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Archeon.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Archeon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJjaGVvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Environment.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Environment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aXJvbm1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Error.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Gallery.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Index.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Minecraft.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Minecraft.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWluZWNyYWZ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Privacy.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Projects.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Projects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Shared/_Layout.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/Unreal.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/StoryStudio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcnlTdHVkaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/新建文件夹 (5)/Showheel/Pages/Unreal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5yZWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/_ViewImports.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yl281/source/repos/s/Pages/_ViewStart.cshtml]
+[D:/新建文件夹 (5)/Showheel/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

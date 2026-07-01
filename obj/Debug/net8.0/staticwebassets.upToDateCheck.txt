@@ -1,3 +1,4 @@
+wwwroot\css\site.css
 wwwroot\images\0.jpg
 wwwroot\images\0242e596527d8b4d7b30d33266194e933546770577558337.jpg
 wwwroot\images\1718465537262.jpg
@@ -9,14 +10,14 @@ wwwroot\images\anna-freedman.png
 wwwroot\images\Arcehonoutpost(11).png
 wwwroot\images\archeon-outpost6.png
 wwwroot\images\archeon02.png
-wwwroot\images\frontier(2).png
+wwwroot\images\archeonsettlem (10).png.png
 wwwroot\images\archeonsettlem (2).png
 wwwroot\images\archeonsettlem (4).png
 wwwroot\images\archeonsettlem (5).png
 wwwroot\images\archeonsettlem (6).png
 wwwroot\images\archeonsettlem (7).png
-wwwroot\images\archeonsettlem (9).png.png
 wwwroot\images\archeonsettlem (8).png.png
+wwwroot\images\archeonsettlem (9).png.png
 wwwroot\images\cc043eaa809506a039685cec59eb4bb53546770577558337.jpg
 wwwroot\images\ChatGPT Image Apr 25, 2026, 12_02_43 AM.png
 wwwroot\images\concept-archeon (basinoutpost).png
@@ -32,7 +33,7 @@ wwwroot\images\concept-archeon (outpost2).png
 wwwroot\images\concept-archeon outpost6.png
 wwwroot\images\feature-bg.png
 wwwroot\images\frieren.png
-wwwroot\images\archeonsettlem (10).png.png
+wwwroot\images\frontier(2).png
 wwwroot\images\gallery-02.png
 wwwroot\images\gallery-03.png
 wwwroot\images\gallery-04.png
@@ -75,4 +76,4 @@ wwwroot\story-engl.md
 wwwroot\story-viewer.html
 wwwroot\story.md
 wwwroot\world-atlas.html
-wwwroot\css\site.css
+wwwroot\js\story-studio.js

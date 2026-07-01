@@ -97,4 +97,51 @@ public sealed class UploadService
         _logger.LogInformation("Stored upload {Name} ({Kind}, {Size} bytes)", safeName, record.Kind, file.Length);
         return record;
     }
+
+    /// <summary>The on-disk file name for an upload id + extension (e.g. "&lt;id&gt;.png").</summary>
+    private static string StoredName(string id, string ext) => id + ext;
+
+    /// <summary>
+    /// Builds a persistable <see cref="NodeAsset"/> from an uploaded file and returns the
+    /// stored file name so it can be re-read later (e.g. to re-serve an image to the AI).
+    /// </summary>
+    public NodeAsset ToNodeAsset(UploadedFile upload)
+    {
+        // The stored name is "&lt;id&gt;&lt;ext&gt;"; recover the extension from the original name.
+        var ext = Path.GetExtension(upload.FileName);
+        return new NodeAsset
+        {
+            Id = upload.Id,
+            FileName = upload.FileName,
+            Kind = upload.Kind,
+            ContentType = upload.ContentType,
+            Size = upload.Size,
+            StoredName = StoredName(upload.Id, ext),
+        };
+    }
+
+    /// <summary>Resolves the absolute path of a stored asset, guarding against path traversal.</summary>
+    public string? ResolvePath(string storedName)
+    {
+        var safe = Path.GetFileName(storedName ?? "");
+        if (string.IsNullOrEmpty(safe)) return null;
+        var full = Path.Combine(_uploadDir, safe);
+        // Ensure the resolved path stays inside the uploads directory.
+        var root = Path.GetFullPath(_uploadDir);
+        var target = Path.GetFullPath(full);
+        if (!target.StartsWith(root, StringComparison.Ordinal)) return null;
+        return File.Exists(target) ? target : null;
+    }
+
+    /// <summary>Reads an image asset back as a base64 data URL so a vision model can see it.</summary>
+    public async Task<string?> ReadImageDataUrlAsync(NodeAsset asset, CancellationToken ct = default)
+    {
+        if (asset.Kind != "image") return null;
+        var path = ResolvePath(asset.StoredName);
+        if (path is null) return null;
+        var ext = Path.GetExtension(path);
+        if (!ImageExtensions.TryGetValue(ext, out var mime)) return null;
+        var bytes = await File.ReadAllBytesAsync(path, ct);
+        return $"data:{mime};base64,{Convert.ToBase64String(bytes)}";
+    }
 }

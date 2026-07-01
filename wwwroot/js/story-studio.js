@@ -283,18 +283,19 @@
   // ---- Password gate ----
 
   function showGate(message) {
+    if (!el.gate) { state.authed = true; return; }
     el.gate.hidden = false;
-    el.shell.classList.add("is-locked");
+    if (el.shell) el.shell.classList.add("is-locked");
     state.authed = false;
     updateComposerLock();
-    if (message) { el.gateError.hidden = false; el.gateError.textContent = message; }
+    if (message && el.gateError) { el.gateError.hidden = false; el.gateError.textContent = message; }
     if (el.gateInput) setTimeout(() => el.gateInput.focus(), 50);
   }
 
   function hideGate() {
-    el.gate.hidden = true;
-    el.shell.classList.remove("is-locked");
-    el.gateError.hidden = true;
+    if (el.gate) el.gate.hidden = true;
+    if (el.shell) el.shell.classList.remove("is-locked");
+    if (el.gateError) el.gateError.hidden = true;
     state.authed = true;
   }
 
@@ -1160,7 +1161,7 @@
   }
 
   function bind() {
-    el.gateForm.addEventListener("submit", doLogin);
+    if (el.gateForm) el.gateForm.addEventListener("submit", doLogin);
     el.decompose.addEventListener("click", decompose);
     el.exportTree.addEventListener("click", exportTree);
     el.rebuild.addEventListener("click", rebuildIndex);

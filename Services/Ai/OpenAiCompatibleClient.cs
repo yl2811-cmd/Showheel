@@ -38,6 +38,19 @@ public sealed class OpenAiCompatibleClient
         double temperature = 0.4,
         ThinkingLevel thinking = ThinkingLevel.Normal,
         CancellationToken ct = default)
+        => (await ChatWithUsageAsync(provider, messages, temperature, thinking, ct)).Content;
+
+    /// <summary>
+    /// Runs a chat completion and also returns provider token usage. On a cache hit no
+    /// provider round-trip happens, so <see cref="ChatResult.Usage"/> is null and
+    /// <see cref="ChatResult.FromCache"/> is true (0 tokens actually spent).
+    /// </summary>
+    public async Task<ChatResult> ChatWithUsageAsync(
+        ProviderOptions provider,
+        IReadOnlyList<ChatMessage> messages,
+        double temperature = 0.4,
+        ThinkingLevel thinking = ThinkingLevel.Normal,
+        CancellationToken ct = default)
     {
         if (!provider.IsConfigured)
             throw new InvalidOperationException("AI provider is not configured.");
@@ -48,7 +61,8 @@ public sealed class OpenAiCompatibleClient
         var key = AiResponseCache.Key("chat", provider.Model, temperature, thinking.ToString(),
             messages.Select(m => new { m.Role, m.Content }));
 
-        return await _cache.GetOrAddChatAsync(key, async () =>
+        TokenUsage? usage = null;
+        var (content, hit) = await _cache.GetOrAddChatWithHitAsync(key, async () =>
         {
             var payload = BuildChatPayload(
                 provider,
@@ -61,12 +75,23 @@ public sealed class OpenAiCompatibleClient
             await EnsureSuccess(res, ct);
 
             var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
+            usage = MapUsage(body?.Usage);
             return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
         });
+        return new ChatResult(content, hit ? null : usage, hit);
     }
 
     /// <summary>Chat completion that accepts multimodal messages (text + images) for vision models.</summary>
     public async Task<string> ChatMultimodalAsync(
+        ProviderOptions provider,
+        IReadOnlyList<MultimodalMessage> messages,
+        double temperature = 0.4,
+        ThinkingLevel thinking = ThinkingLevel.Normal,
+        CancellationToken ct = default)
+        => (await ChatMultimodalWithUsageAsync(provider, messages, temperature, thinking, ct)).Content;
+
+    /// <summary>Multimodal chat completion that also returns provider token usage (null on cache hit).</summary>
+    public async Task<ChatResult> ChatMultimodalWithUsageAsync(
         ProviderOptions provider,
         IReadOnlyList<MultimodalMessage> messages,
         double temperature = 0.4,
@@ -79,7 +104,8 @@ public sealed class OpenAiCompatibleClient
         var key = AiResponseCache.Key("chat-mm", provider.Model, temperature, thinking.ToString(),
             messages.Select(m => new { m.Role, m.Text, m.ImageUrls }));
 
-        return await _cache.GetOrAddChatAsync(key, async () =>
+        TokenUsage? usage = null;
+        var (content, hit) = await _cache.GetOrAddChatWithHitAsync(key, async () =>
         {
             var payload = BuildChatPayload(
                 provider,
@@ -92,8 +118,10 @@ public sealed class OpenAiCompatibleClient
             await EnsureSuccess(res, ct);
 
             var body = await res.Content.ReadFromJsonAsync<ChatResponse>(JsonOpts, ct);
+            usage = MapUsage(body?.Usage);
             return body?.Choices?.FirstOrDefault()?.Message?.Content?.Trim() ?? "";
         });
+        return new ChatResult(content, hit ? null : usage, hit);
     }
 
     /// <summary>
@@ -116,6 +144,10 @@ public sealed class OpenAiCompatibleClient
             payload["max_tokens"] = maxTokens.Value;
         return payload;
     }
+
+    /// <summary>Maps the provider's wire usage block to the public <see cref="TokenUsage"/>.</summary>
+    private static TokenUsage? MapUsage(UsagePayload? u)
+        => u is null ? null : new TokenUsage(u.PromptTokens, u.CompletionTokens, u.TotalTokens, u.PromptTokensDetails?.CachedTokens ?? 0);
 
     /// <summary>Embeds a batch of texts. Returns one vector per input, in order.</summary>
     public async Task<List<float[]>> EmbedAsync(
@@ -175,10 +207,22 @@ public sealed class OpenAiCompatibleClient
     private sealed class ChatResponse
     {
         [JsonPropertyName("choices")] public List<Choice>? Choices { get; set; }
+        [JsonPropertyName("usage")] public UsagePayload? Usage { get; set; }
     }
     private sealed class Choice
     {
         [JsonPropertyName("message")] public ChatMessage? Message { get; set; }
+    }
+    private sealed class UsagePayload
+    {
+        [JsonPropertyName("prompt_tokens")] public int PromptTokens { get; set; }
+        [JsonPropertyName("completion_tokens")] public int CompletionTokens { get; set; }
+        [JsonPropertyName("total_tokens")] public int TotalTokens { get; set; }
+        [JsonPropertyName("prompt_tokens_details")] public PromptTokensDetails? PromptTokensDetails { get; set; }
+    }
+    private sealed class PromptTokensDetails
+    {
+        [JsonPropertyName("cached_tokens")] public int CachedTokens { get; set; }
     }
     private sealed class EmbeddingResponse
     {
@@ -200,6 +244,16 @@ public sealed class ChatMessage
     public static ChatMessage User(string c) => new() { Role = "user", Content = c };
     public static ChatMessage Assistant(string c) => new() { Role = "assistant", Content = c };
 }
+
+/// <summary>Provider token usage for a single chat completion.</summary>
+public sealed record TokenUsage(int PromptTokens, int CompletionTokens, int TotalTokens, int CachedTokens);
+
+/// <summary>
+/// A chat completion result: the reply text plus optional provider token usage.
+/// On a cache hit no provider call was made, so <see cref="Usage"/> is null and
+/// <see cref="FromCache"/> is true.
+/// </summary>
+public sealed record ChatResult(string Content, TokenUsage? Usage, bool FromCache);
 
 public sealed class AiProviderException : Exception
 {

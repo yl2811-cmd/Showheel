@@ -18,6 +18,13 @@ public sealed class AiOptions
     public ProviderOptions CoAuthor { get; set; } = new();
     public ProviderOptions Embeddings { get; set; } = new();
     public ProviderOptions Translator { get; set; } = new();
+
+    /// <summary>
+    /// Optional model-name → max context window (tokens) overrides. Matched
+    /// case-insensitively as a substring of the model name, so "gpt-4o" covers
+    /// "gpt-4o-mini" etc. Overrides the built-in defaults in <see cref="ModelContextLimits"/>.
+    /// </summary>
+    public Dictionary<string, int> ModelContextLimits { get; set; } = new();
 }
 
 public sealed class ProviderOptions
@@ -30,6 +37,13 @@ public sealed class ProviderOptions
 
     /// <summary>Model name, e.g. gpt-4o-mini, deepseek-chat, text-embedding-3-small.</summary>
     public string Model { get; set; } = "";
+
+    /// <summary>
+    /// Optional explicit max context window (tokens) for this provider's model. When set,
+    /// it wins over the name-based lookup — useful when a provider serves a large-context
+    /// variant the built-in map can't infer from the name alone.
+    /// </summary>
+    public int? MaxContextTokens { get; set; }
 
     public bool IsConfigured =>
         !string.IsNullOrWhiteSpace(BaseUrl) &&

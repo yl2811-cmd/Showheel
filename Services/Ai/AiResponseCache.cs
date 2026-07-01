@@ -50,16 +50,24 @@ public sealed class AiResponseCache
 
     /// <summary>Gets a cached chat reply, or runs <paramref name="factory"/> and caches it.</summary>
     public async Task<string> GetOrAddChatAsync(string key, Func<Task<string>> factory)
+        => (await GetOrAddChatWithHitAsync(key, factory)).value;
+
+    /// <summary>
+    /// Like <see cref="GetOrAddChatAsync"/>, but also reports whether the reply came from
+    /// the cache (<c>hit == true</c>). Callers that want per-turn token usage use this so
+    /// they can report 0 provider tokens on a cache hit (no round-trip happened).
+    /// </summary>
+    public async Task<(string value, bool hit)> GetOrAddChatWithHitAsync(string key, Func<Task<string>> factory)
     {
         if (TryGet(key, out string? cached) && cached is not null)
         {
             Interlocked.Increment(ref _chatHits);
-            return cached;
+            return (cached, true);
         }
         Interlocked.Increment(ref _chatMisses);
         var value = await factory();
         Set(key, "chat", value);
-        return value;
+        return (value, false);
     }
 
     /// <summary>Gets a cached embedding batch, or runs <paramref name="factory"/> and caches it.</summary>

@@ -10,6 +10,10 @@ builder.Services.AddControllers();
 // Put real keys in user-secrets or environment variables, never in committed appsettings.
 builder.Services.Configure<AiOptions>(builder.Configuration.GetSection(AiOptions.SectionName));
 
+// In-memory cache for AI calls (chat + embeddings), keyed by request hash. Cuts paid
+// round-trips for identical prompts / repeated embeddings and reports hit/miss stats.
+builder.Services.AddSingleton<AiResponseCache>();
+
 // Single HttpClient for all OpenAI-compatible provider calls.
 builder.Services.AddHttpClient<OpenAiCompatibleClient>(c =>
 {

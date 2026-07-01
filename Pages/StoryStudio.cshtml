@@ -4,34 +4,53 @@
     ViewData["Title"] = "Story Studio — Skies Beyond the Star";
 }
 
+<div class="ss-bg" aria-hidden="true">
+    <div class="ss-bg-image"></div>
+    <div class="ss-bg-scan"></div>
+    <div class="ss-bg-vignette"></div>
+</div>
+
 <section class="ss-shell" id="ss-app">
     <header class="ss-header">
-        <div>
-            <p class="kd-eyebrow">01 · Skies Beyond the Star</p>
+        <div class="ss-header-title">
+            <p class="ss-eyebrow">Skies Beyond the Star · Canon Console</p>
             <h1 class="ss-title">Story Studio</h1>
-            <p class="ss-sub">AI-managed story tree · RAG whole-book awareness · custom provider</p>
+            <p class="ss-sub">Authority tree · whole-book RAG co-author · multilingual · asset-aware</p>
         </div>
         <div class="ss-header-actions">
-            <div class="ss-rag" id="ss-rag" data-state="unknown" title="RAG status">
+            <div class="ss-stat" id="ss-cache" title="AI call cache utilization">
+                <span class="ss-stat-label">Cache</span>
+                <span class="ss-stat-value" id="ss-cache-value">—</span>
+            </div>
+            <div class="ss-rag" id="ss-rag" data-state="unknown" title="RAG index status">
                 <span class="ss-rag-dot"></span>
                 <span class="ss-rag-text" id="ss-rag-text">Checking RAG…</span>
             </div>
-            <button class="ss-btn" id="ss-rebuild" type="button">Rebuild index</button>
+            <button class="ss-btn ss-btn-ghost" id="ss-rebuild" type="button">Rebuild index</button>
         </div>
     </header>
 
-    <!-- Notifications -->
     <div class="ss-toasts" id="ss-toasts" aria-live="polite"></div>
 
     <div class="ss-grid">
-        <!-- Tree -->
+        <!-- Tree / structure map -->
         <aside class="ss-panel ss-tree-panel">
             <div class="ss-panel-head">
-                <h2>Book tree</h2>
-                <button class="ss-btn ss-btn-ghost" id="ss-decompose" type="button" title="Decompose the plain-text story into a tree">Decompose</button>
+                <h2>Structure map</h2>
+                <div class="ss-tree-tools">
+                    <div class="ss-viewtoggle" role="group" aria-label="Tree view mode">
+                        <button type="button" class="ss-view-btn is-active" id="ss-view-map" data-view="map" title="Pictorial map">Map</button>
+                        <button type="button" class="ss-view-btn" id="ss-view-list" data-view="list" title="Compact list">List</button>
+                    </div>
+                    <button class="ss-btn ss-btn-ghost" id="ss-decompose" type="button" title="Rebuild the tree from the source book into authority folders">Decompose</button>
+                    <button class="ss-btn ss-btn-ghost" id="ss-export-tree" type="button" title="Download the whole tree as text">Export</button>
+                </div>
             </div>
-            <div class="ss-tree" id="ss-tree">
-                <p class="ss-empty" id="ss-tree-empty">No tree yet. Click <strong>Decompose</strong> to build it from the story text.</p>
+            <div class="ss-tree-search">
+                <input type="search" id="ss-tree-filter" class="ss-input ss-input-sm" placeholder="Filter sections…" />
+            </div>
+            <div class="ss-tree" id="ss-tree" data-view="map">
+                <p class="ss-empty" id="ss-tree-empty">No tree yet. Click <strong>Decompose</strong> to build the authority structure from the source book.</p>
             </div>
         </aside>
 
@@ -40,20 +59,61 @@
             <div class="ss-panel-head">
                 <h2 id="ss-node-title">Select a section</h2>
                 <div class="ss-editor-actions">
-                    <button class="ss-btn ss-btn-ghost" id="ss-translate" type="button" disabled>Translate</button>
-                    <button class="ss-btn ss-btn-ghost" id="ss-add-child" type="button" disabled>Add child</button>
-                    <button class="ss-btn ss-btn-ghost ss-btn-danger" id="ss-delete" type="button" disabled>Prune</button>
+                    <button class="ss-btn ss-btn-ghost" id="ss-add-child" type="button" disabled title="Add a child section">Add child</button>
+                    <button class="ss-btn ss-btn-ghost ss-btn-danger" id="ss-delete" type="button" disabled title="Prune this section + subtree">Prune</button>
                     <button class="ss-btn" id="ss-save" type="button" disabled>Save</button>
                 </div>
             </div>
-            <input class="ss-input" id="ss-edit-title" type="text" placeholder="Section title" disabled />
-            <textarea class="ss-textarea" id="ss-edit-content" placeholder="Section content…" disabled></textarea>
-            <div class="ss-translation" id="ss-translation" hidden>
-                <div class="ss-panel-head">
-                    <h3>Translation</h3>
-                    <button class="ss-btn ss-btn-ghost" id="ss-translation-close" type="button">Close</button>
+
+            <div class="ss-editor-scroll">
+                <label class="ss-field-label" for="ss-edit-title">Title</label>
+                <input class="ss-input" id="ss-edit-title" type="text" placeholder="Section title" disabled />
+
+                <div class="ss-field-row">
+                    <label class="ss-field-label" for="ss-edit-content">Content</label>
+                    <div class="ss-field-tools">
+                        <button class="ss-chiplink" id="ss-export-node" type="button" disabled title="Download this section as .txt">&#x2B73; Download</button>
+                        <label class="ss-chiplink ss-chiplink-file" id="ss-import-node-label" title="Overwrite this section from a .txt file">
+                            &#x2B71; Overwrite
+                            <input type="file" id="ss-import-node" accept=".txt,.md,.markdown,.text" hidden disabled />
+                        </label>
+                    </div>
                 </div>
-                <div class="ss-translation-body" id="ss-translation-body"></div>
+                <textarea class="ss-textarea" id="ss-edit-content" placeholder="Section content…" disabled></textarea>
+
+                <!-- Translations -->
+                <div class="ss-block ss-lang-block">
+                    <div class="ss-block-head">
+                        <h3>Languages</h3>
+                        <div class="ss-lang-tools">
+                            <select id="ss-lang-select" class="ss-input ss-input-sm" disabled>
+                                <option value="en">English (en)</option>
+                                <option value="ja">日本語 (ja)</option>
+                                <option value="fr">Français (fr)</option>
+                                <option value="es">Español (es)</option>
+                                <option value="de">Deutsch (de)</option>
+                            </select>
+                            <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-translate" type="button" disabled title="Draft a translation with the translator model">Auto-translate</button>
+                            <button class="ss-btn ss-btn-sm" id="ss-save-lang" type="button" disabled title="Save this language version onto the node">Save language</button>
+                        </div>
+                    </div>
+                    <div class="ss-lang-tabs" id="ss-lang-tabs"></div>
+                    <textarea class="ss-textarea ss-textarea-sm" id="ss-lang-content" placeholder="Translation for the selected language…" disabled></textarea>
+                </div>
+
+                <!-- Assets attached to this node -->
+                <div class="ss-block ss-assets-block">
+                    <div class="ss-block-head">
+                        <h3>Assets</h3>
+                        <label class="ss-chiplink ss-chiplink-file" id="ss-node-asset-label" title="Attach a file to this section (images are shown to the co-author)">
+                            + Attach file
+                            <input type="file" id="ss-node-asset" accept=".txt,.md,.markdown,.text,image/png,image/jpeg,image/gif,image/webp" hidden disabled />
+                        </label>
+                    </div>
+                    <div class="ss-assets" id="ss-node-assets">
+                        <p class="ss-assets-empty" id="ss-assets-empty">No assets attached. Upload images or reference files here; the co-author can see attached images.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -71,19 +131,21 @@
                             <option value="max">Max</option>
                         </select>
                     </label>
-                    <button class="ss-btn ss-btn-ghost" id="ss-audit" type="button" title="Scan the whole book for duplication / contradiction / stale content">Audit</button>
+                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-audit" type="button" title="Scan the whole book for duplication / contradiction / stale content">Audit</button>
+                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-chat-clear" type="button" title="Clear the conversation">Clear</button>
                 </div>
             </div>
             <div class="ss-chat" id="ss-chat">
-                <div class="ss-msg ss-msg-ai">
-                    <p>Hi — I'm the co-author. I read the whole book through RAG before answering, so I can catch duplicates, contradictions, and stale content. Ask me to add, revise, or prune a section — or attach an old draft (.txt) and I'll propose where it belongs as a reviewable patch.</p>
+                <div class="ss-msg ss-msg-ai ss-msg-seed">
+                    <div class="ss-msg-body">
+                        <p>Hi — I'm the co-author. I read the whole book through RAG before answering, so I can catch duplicates, contradictions, and stale content. Ask me to add, revise, or prune a section — or attach an old draft (.txt) or reference image and I'll work it in. Patch mode returns a reviewable changeset.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Attachments staged for the next message -->
             <div class="ss-attachments" id="ss-attachments" hidden></div>
 
-            <!-- Patch review panel: appears when the co-author proposes a changeset -->
+            <!-- Patch review panel -->
             <div class="ss-patch" id="ss-patch" hidden>
                 <div class="ss-panel-head">
                     <h3 id="ss-patch-summary">Proposed changes</h3>
@@ -102,7 +164,7 @@
                         <input type="file" id="ss-file" accept=".txt,.md,.markdown,.text,image/png,image/jpeg,image/gif,image/webp" hidden />
                         <span aria-hidden="true">&#x1F4CE;</span>
                     </label>
-                    <textarea class="ss-chat-input" id="ss-chat-input" rows="2" placeholder="Ask the co-author…"></textarea>
+                    <textarea class="ss-chat-input" id="ss-chat-input" rows="2" placeholder="Ask the co-author…  (Enter to send · Shift+Enter for newline)"></textarea>
                 </div>
                 <div class="ss-chat-send-row">
                     <label class="ss-patch-mode" title="Return a reviewable changeset instead of a chat reply">

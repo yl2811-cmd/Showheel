@@ -300,6 +300,9 @@
   }
 
   async function checkAuth() {
+    // The password gate was removed from the page, so the studio is always
+    // considered unlocked. Never block bootstrapping on server auth status.
+    if (!el.gate) { hideGate(); return true; }
     try {
       const s = await req("GET", "/auth/status");
       if (s.authed) { hideGate(); return true; }

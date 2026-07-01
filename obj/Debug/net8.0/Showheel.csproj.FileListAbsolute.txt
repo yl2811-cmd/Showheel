@@ -94,7 +94,7 @@ D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\staticwebassets.build.json.cach
 D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\staticwebassets.development.json
 D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\swae.build.ex.cache
-D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\Showheel.genruntimeconfig.cache
 D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\ref\Showheel.dll
 D:\新建文件夹 (5)\Showheel\bin\Debug\net8.0\App_Data\story\tree.json
+D:\新建文件夹 (5)\Showheel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

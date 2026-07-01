@@ -10,6 +10,20 @@
     <div class="ss-bg-vignette"></div>
 </div>
 
+<!-- Password gate: hides the whole studio until unlocked. -->
+<div class="ss-gate" id="ss-gate" hidden>
+    <form class="ss-gate-card" id="ss-gate-form" autocomplete="off">
+        <p class="ss-gate-eyebrow">Skies Beyond the Star · Canon Console</p>
+        <h2 class="ss-gate-title">Story Studio is locked</h2>
+        <p class="ss-gate-sub">Enter the access password to continue.</p>
+        <div class="ss-gate-row">
+            <input class="ss-input ss-gate-input" id="ss-gate-input" type="password" placeholder="Password" autocomplete="current-password" />
+            <button class="ss-btn" id="ss-gate-unlock" type="submit">Unlock</button>
+        </div>
+        <p class="ss-gate-error" id="ss-gate-error" hidden></p>
+    </form>
+</div>
+
 <section class="ss-shell" id="ss-app">
     <header class="ss-header">
         <div class="ss-header-title">
@@ -49,6 +63,10 @@
         <!-- Tree / structure map -->
         <aside class="ss-panel ss-tree-panel">
             <div class="ss-panel-head">
+                <button class="ss-panel-expand" type="button" title="Expand this panel to full screen" aria-label="Expand this panel to full screen">
+                    <span class="ss-panel-expand-in" aria-hidden="true">&#x2922;</span>
+                    <span class="ss-panel-expand-out" aria-hidden="true">&#x2921;</span>
+                </button>
                 <h2>Structure map</h2>
                 <div class="ss-tree-tools">
                     <div class="ss-viewtoggle" role="group" aria-label="Tree view mode">
@@ -70,6 +88,10 @@
         <!-- Editor -->
         <section class="ss-panel ss-editor-panel">
             <div class="ss-panel-head">
+                <button class="ss-panel-expand" type="button" title="Expand this panel to full screen" aria-label="Expand this panel to full screen">
+                    <span class="ss-panel-expand-in" aria-hidden="true">&#x2922;</span>
+                    <span class="ss-panel-expand-out" aria-hidden="true">&#x2921;</span>
+                </button>
                 <h2 id="ss-node-title">Select a section</h2>
                 <div class="ss-editor-actions">
                     <button class="ss-btn ss-btn-ghost" id="ss-add-child" type="button" disabled title="Add a child section">Add child</button>
@@ -133,6 +155,10 @@
         <!-- Co-author chat -->
         <aside class="ss-panel ss-chat-panel">
             <div class="ss-panel-head">
+                <button class="ss-panel-expand" type="button" title="Expand this panel to full screen" aria-label="Expand this panel to full screen">
+                    <span class="ss-panel-expand-in" aria-hidden="true">&#x2922;</span>
+                    <span class="ss-panel-expand-out" aria-hidden="true">&#x2921;</span>
+                </button>
                 <h2>Co-author</h2>
                 <div class="ss-chat-tools">
                     <label class="ss-think" title="Thinking depth">

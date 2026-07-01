@@ -1902,8 +1902,18 @@ main {
     margin: 0;
     border-radius: 0;
     box-shadow: none;
+    /* Solid, opaque background so the dimmed page behind never bleeds through. */
+    background: var(--ss-panel-solid, #0a1421);
+    backdrop-filter: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .ss-panel.is-fullscreen::before { display: none; }
+/* Inner scroll regions fill the freed vertical space. */
+.ss-panel.is-fullscreen .ss-tree,
+.ss-panel.is-fullscreen .ss-editor-scroll,
+.ss-panel.is-fullscreen .ss-chat { flex: 1; min-height: 0; }
 /* Dim + lock the rest of the page while a panel is fullscreen. */
 body.ss-panel-maxed { overflow: hidden; }
 body.ss-panel-maxed .ss-panel-backdrop {

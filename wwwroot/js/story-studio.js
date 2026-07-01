@@ -55,6 +55,12 @@
     patchOps: $("ss-patch-ops"),
     patchApply: $("ss-patch-apply"),
     patchReject: $("ss-patch-reject"),
+    // gate (password)
+    gate: $("ss-gate"),
+    shell: $("ss-app"),
+    gateForm: $("ss-gate-form"),
+    gateInput: $("ss-gate-input"),
+    gateError: $("ss-gate-error"),
     // telemetry
     tokTurn: $("ss-tok-turn"),
     tokStat: $("ss-tok"),
@@ -81,7 +87,7 @@
     pending: [],               // transient attachments staged for the next message
     patch: null,
     lang: "en",                // currently edited language code
-    authed: true,              // password gate removed — always authenticated
+    authed: false,             // session passed the password gate
     holdsSlot: false,          // this session owns the AI conversation slot
   };
 
@@ -102,6 +108,8 @@
       const err = new Error((data && data.error) || `Request failed (${res.status})`);
       err.status = res.status;
       err.data = data;
+      // Session lost its auth: re-show the gate instead of each call failing noisily.
+      if (res.status === 401) showGate((data && data.requiresAuth) ? null : "Session expired — please unlock again.");
       throw err;
     }
     return data;
@@ -225,10 +233,20 @@
     try { renderSlot(await req("GET", "/slot/status")); } catch { /* silent */ }
   }
 
-  // The composer is always enabled (password gate + single-writer lock removed).
+  // Dim + disable the chat composer when this session can't drive the AI right now.
   function updateComposerLock() {
-    el.chatForm.classList.remove("is-locked");
-    el.slotNote.hidden = true;
+    const s = el.slot.dataset.state;
+    const ok = state.authed && (s === "held" || s === "free");
+    el.chatForm.classList.toggle("is-locked", !ok);
+    if (!ok && s === "busy") {
+      el.slotNote.hidden = false;
+      el.slotNote.textContent = "Another session is using the co-author. You'll take over when it goes idle.";
+    } else if (!ok && !state.authed) {
+      el.slotNote.hidden = false;
+      el.slotNote.textContent = "Unlock the studio to drive the AI.";
+    } else {
+      el.slotNote.hidden = true;
+    }
   }
 
   async function claimSlot() {
@@ -262,10 +280,52 @@
     state.holdsSlot = false;
   }
 
-  // ---- Auth (gate removed; always authenticated) ----
+  // ---- Password gate ----
 
-  // No password gate. Kept as a no-op so init() can still await a boot check.
-  async function checkAuth() { state.authed = true; return true; }
+  function showGate(message) {
+    el.gate.hidden = false;
+    el.shell.classList.add("is-locked");
+    state.authed = false;
+    updateComposerLock();
+    if (message) { el.gateError.hidden = false; el.gateError.textContent = message; }
+    if (el.gateInput) setTimeout(() => el.gateInput.focus(), 50);
+  }
+
+  function hideGate() {
+    el.gate.hidden = true;
+    el.shell.classList.remove("is-locked");
+    el.gateError.hidden = true;
+    state.authed = true;
+  }
+
+  async function checkAuth() {
+    try {
+      const s = await req("GET", "/auth/status");
+      if (s.authed) { hideGate(); return true; }
+      showGate(s.requiresPassword ? null : "Access required.");
+      return false;
+    } catch {
+      showGate(null);
+      return false;
+    }
+  }
+
+  async function doLogin(e) {
+    e.preventDefault();
+    el.gateError.hidden = true;
+    try {
+      const data = await req("POST", "/auth/login", { password: el.gateInput.value || "" });
+      if (data.authed) {
+        el.gateInput.value = "";
+        hideGate();
+        toast("Unlocked.", "success");
+        await Promise.all([refreshTelemetry(), refreshSlot(), claimSlot(), loadTree().catch(() => {}), refreshRag(true), refreshCache()]);
+      }
+    } catch (err) {
+      el.gateError.hidden = false;
+      el.gateError.textContent = err.message || "Wrong password.";
+    }
+  }
 
   // ---- Tree ----
 
@@ -1057,7 +1117,50 @@
 
   // ---- init ----
 
+  // ---- panel fullscreen ----
+
+  function setPanelFullscreen(panel, on) {
+    if (!panel) return;
+    if (on) {
+      // Only one panel may be fullscreen at a time.
+      document.querySelectorAll(".ss-panel.is-fullscreen").forEach((p) => {
+        if (p !== panel) p.classList.remove("is-fullscreen");
+      });
+      panel.classList.add("is-fullscreen");
+      document.body.classList.add("ss-panel-maxed");
+      if (!document.querySelector(".ss-panel-backdrop")) {
+        const bd = document.createElement("div");
+        bd.className = "ss-panel-backdrop";
+        bd.addEventListener("click", () => exitFullscreen());
+        document.body.appendChild(bd);
+      }
+    } else {
+      panel.classList.remove("is-fullscreen");
+      if (!document.querySelector(".ss-panel.is-fullscreen")) {
+        document.body.classList.remove("ss-panel-maxed");
+        const bd = document.querySelector(".ss-panel-backdrop");
+        if (bd) bd.remove();
+      }
+    }
+  }
+
+  function togglePanelFullscreen(btn) {
+    const panel = btn.closest(".ss-panel");
+    if (!panel) return;
+    setPanelFullscreen(panel, !panel.classList.contains("is-fullscreen"));
+  }
+
+  function exitFullscreen() {
+    document.querySelectorAll(".ss-panel.is-fullscreen").forEach((p) => {
+      p.classList.remove("is-fullscreen");
+    });
+    document.body.classList.remove("ss-panel-maxed");
+    const bd = document.querySelector(".ss-panel-backdrop");
+    if (bd) bd.remove();
+  }
+
   function bind() {
+    el.gateForm.addEventListener("submit", doLogin);
     el.decompose.addEventListener("click", decompose);
     el.exportTree.addEventListener("click", exportTree);
     el.rebuild.addEventListener("click", rebuildIndex);
@@ -1082,6 +1185,14 @@
     el.chatInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); el.chatForm.requestSubmit(); }
     });
+    document.querySelectorAll(".ss-panel-expand").forEach((btn) => {
+      btn.addEventListener("click", () => togglePanelFullscreen(btn));
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && document.querySelector(".ss-panel.is-fullscreen")) {
+        exitFullscreen();
+      }
+    });
   }
 
   async function init() {
@@ -1097,7 +1208,8 @@
       if (navigator.sendBeacon) navigator.sendBeacon(api + "/slot/release", "");
     });
 
-    await checkAuth(); // no-op (gate removed); kept for a clean boot sequence.
+    const authed = await checkAuth();
+    if (!authed) return; // gate is shown; doLogin() finishes bootstrapping after unlock.
 
     await Promise.all([refreshTelemetry(), refreshSlot(), claimSlot(), loadTree().catch(() => {}), refreshRag(true), refreshCache()]);
   }

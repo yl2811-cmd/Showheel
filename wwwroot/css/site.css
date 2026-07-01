@@ -1890,24 +1890,36 @@ main {
 .ss-panel.is-fullscreen .ss-panel-expand .ss-panel-expand-in { display: none; }
 .ss-panel.is-fullscreen .ss-panel-expand .ss-panel-expand-out { display: inline; }
 
-/* Fullscreen panel lifts out of the grid and fills the viewport. */
+/* Fullscreen panel becomes a large overlay card floating in front of the page.
+   It does NOT cover the whole viewport edge-to-edge (that reads like a new
+   page); instead it sits centered with a margin so the dimmed page is still
+   visible around it. */
 .ss-panel.is-fullscreen {
     position: fixed;
-    inset: 0;
-    z-index: 4000;
-    width: 100vw;
-    height: 100vh;
+    top: 3vh;
+    left: 3vw;
+    right: 3vw;
+    bottom: 3vh;
+    width: auto;
+    height: auto;
     max-width: none;
     max-height: none;
     margin: 0;
-    border-radius: 0;
-    box-shadow: none;
+    z-index: 4000;
+    border-radius: 18px;
+    border: 1px solid var(--ss-cyan, rgba(70,230,208,0.6));
+    box-shadow: 0 30px 90px rgba(0,0,0,0.6), 0 0 0 1px rgba(70,230,208,0.15);
     /* Solid, opaque background so the dimmed page behind never bleeds through. */
-    background: var(--ss-panel-solid, #0a1421);
+    background: #0a1421;
     backdrop-filter: none;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    animation: ssPanelPop 0.18s ease;
+}
+@keyframes ssPanelPop {
+    from { opacity: 0; transform: scale(0.98); }
+    to { opacity: 1; transform: scale(1); }
 }
 .ss-panel.is-fullscreen::before { display: none; }
 /* Inner scroll regions fill the freed vertical space. */
@@ -1920,7 +1932,12 @@ body.ss-panel-maxed .ss-panel-backdrop {
     position: fixed;
     inset: 0;
     z-index: 3900;
-    background: rgba(3,8,15,0.72);
-    backdrop-filter: blur(3px);
+    background: rgba(3,8,15,0.66);
+    backdrop-filter: blur(4px);
+    animation: ssBackdropFade 0.18s ease;
+}
+@keyframes ssBackdropFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 

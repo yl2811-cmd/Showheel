@@ -1,4 +1,4 @@
-@page
+﻿@page
 @model Showheel.Pages.StoryStudioModel
 @{
     ViewData["Title"] = "Story Studio — Skies Beyond the Star";
@@ -10,19 +10,6 @@
     <div class="ss-bg-vignette"></div>
 </div>
 
-<!-- Password gate: hides the whole studio until unlocked. -->
-<div class="ss-gate" id="ss-gate" hidden>
-    <form class="ss-gate-card" id="ss-gate-form" autocomplete="off">
-        <p class="ss-gate-eyebrow">Skies Beyond the Star · Canon Console</p>
-        <h2 class="ss-gate-title">Story Studio is locked</h2>
-        <p class="ss-gate-sub">Enter the access password to continue.</p>
-        <div class="ss-gate-row">
-            <input class="ss-input ss-gate-input" id="ss-gate-input" type="password" placeholder="Password" autocomplete="current-password" />
-            <button class="ss-btn" id="ss-gate-unlock" type="submit">Unlock</button>
-        </div>
-        <p class="ss-gate-error" id="ss-gate-error" hidden></p>
-    </form>
-</div>
 
 <section class="ss-shell" id="ss-app">
     <header class="ss-header">

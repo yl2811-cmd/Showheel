@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\images\0.jpg
 wwwroot\images\0242e596527d8b4d7b30d33266194e933546770577558337.jpg
 wwwroot\images\1718465537262.jpg
@@ -77,3 +76,4 @@ wwwroot\story-engl.md
 wwwroot\story-viewer.html
 wwwroot\story.md
 wwwroot\world-atlas.html
+wwwroot\css\site.css

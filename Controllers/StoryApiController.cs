@@ -1,4 +1,6 @@
+using System.Security.Cryptography;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Showheel.Services.Ai;
 using Showheel.Services.Story;
 
@@ -8,9 +10,10 @@ namespace Showheel.Controllers;
 /// Backend API for the Story Studio. The browser never sees API keys — it calls
 /// these endpoints, which call the configured AI providers server-side.
 ///
-/// NOTE: this API is currently unauthenticated. Because it proxies to paid AI
-/// providers using a server-held key, add authentication + rate limiting before
-/// exposing it publicly (see README / Program.cs comments).
+/// Authentication: a session-based password gate. The AI-touching endpoints
+/// (chat / audit / patch-propose / translate) additionally require ownership of the
+/// single AI slot (see <see cref="AiSlotService"/>), so only one person can drive the
+/// main brain at a time. The entry password lives in config and is compared server-side.
 /// </summary>
 [ApiController]
 [Route("api/story")]
@@ -23,6 +26,9 @@ public sealed class StoryApiController : ControllerBase
     private readonly StoryPatchService _patch;
     private readonly UploadService _uploads;
     private readonly AiResponseCache _cache;
+    private readonly MainBrainTelemetry _telemetry;
+    private readonly AiSlotService _slot;
+    private readonly IOptionsMonitor<StudioOptions> _studio;
 
     public StoryApiController(
         StoryTreeService tree,
@@ -31,7 +37,10 @@ public sealed class StoryApiController : ControllerBase
         TranslationService translator,
         StoryPatchService patch,
         UploadService uploads,
-        AiResponseCache cache)
+        AiResponseCache cache,
+        MainBrainTelemetry telemetry,
+        AiSlotService slot,
+        IOptionsMonitor<StudioOptions> studio)
     {
         _tree = tree;
         _rag = rag;
@@ -40,6 +49,43 @@ public sealed class StoryApiController : ControllerBase
         _patch = patch;
         _uploads = uploads;
         _cache = cache;
+        _telemetry = telemetry;
+        _slot = slot;
+        _studio = studio;
+    }
+
+    // ---- Auth + slot (session-based password gate) ----
+
+    private const string AuthSessionKey = "studio.authed";
+    private const string OwnerSessionKey = "studio.owner";
+
+    /// <summary>True when the gate is disabled (no password configured) or the session is authed.</summary>
+    private bool IsAuthed()
+        => string.IsNullOrEmpty(_studio.CurrentValue.Password) ||
+           HttpContext.Session.GetInt32(AuthSessionKey) == 1;
+
+    /// <summary>The stable per-session owner id, or null when not authenticated.</summary>
+    private string? OwnerId() => IsAuthed() ? HttpContext.Session.GetString(OwnerSessionKey) : null;
+
+    /// <summary>401 if the session hasn't passed the gate. Call at the top of protected endpoints.</summary>
+    private IActionResult? RequireAuth()
+        => IsAuthed() ? null : Unauthorized(new { error = "Password required.", requiresAuth = true });
+
+    /// <summary>
+    /// Guards an AI-driving endpoint: requires auth, then requires that this session owns
+    /// the AI slot. If the slot is free it is claimed (lazily) for this caller; if it is
+    /// held by another session, returns 409. Returns 401 when not authenticated.
+    /// </summary>
+    private IActionResult? RequireSlot()
+    {
+        var authFail = RequireAuth();
+        if (authFail is not null) return authFail;
+        var owner = HttpContext.Session.GetString(OwnerSessionKey);
+        if (owner is null) return Unauthorized(new { error = "Password required.", requiresAuth = true });
+        // TryClaim is atomic: succeeds when free / held-by-me / expired; fails only when
+        // another unexpired session holds the slot. Calling it per request both checks and
+        // renews ownership, so two free-slot users can't race past the gate.
+        return _slot.TryClaim(owner) ? null : Conflict(new { error = "AI busy: another session is using the co-author.", busy = true, status = _slot.Status() });
     }
 
     // ---- Tree ----
@@ -55,6 +101,8 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("decompose")]
     public async Task<IActionResult> Decompose([FromBody] DecomposeRequest? req, CancellationToken ct)
     {
+        var auth = RequireAuth();
+        if (auth is not null) return auth;
         var tree = await _tree.DecomposeAsync(req?.SourceFile, authorityBuckets: true, ct);
         return Ok(new { nodeCount = tree.Flatten().Count(), tree });
     }
@@ -192,6 +240,74 @@ public sealed class StoryApiController : ControllerBase
         return Ok(status);
     }
 
+    // ---- Auth + slot (entry gate + single-writer AI lock) ----
+
+    /// <summary>Whether a password is configured and the current session is unlocked.</summary>
+    [HttpGet("auth/status")]
+    public IActionResult AuthStatus()
+        => Ok(new { authed = IsAuthed(), requiresPassword = !string.IsNullOrEmpty(_studio.CurrentValue.Password) });
+
+    /// <summary>Verify the studio entry password and unlock this session.</summary>
+    [HttpPost("auth/login")]
+    public IActionResult AuthLogin([FromBody] LoginRequest? req)
+    {
+        var password = _studio.CurrentValue.Password ?? "";
+        if (password.Length == 0)
+        {
+            // Gate disabled: auto-auth and mint an owner id.
+            EnsureOwner();
+            HttpContext.Session.SetInt32(AuthSessionKey, 1);
+            return Ok(new { authed = true });
+        }
+        if (req is null || !FixedTimeEquals(req.Password ?? "", password))
+            return Unauthorized(new { error = "Wrong password.", requiresAuth = true });
+
+        EnsureOwner();
+        HttpContext.Session.SetInt32(AuthSessionKey, 1);
+        return Ok(new { authed = true });
+    }
+
+    /// <summary>The single AI conversation slot: who holds it right now.</summary>
+    [HttpGet("slot/status")]
+    public IActionResult SlotStatus() => Ok(_slot.Status());
+
+    /// <summary>Claim the AI slot for this session (fails 409 if held by another).</summary>
+    [HttpPost("slot/claim")]
+    public IActionResult SlotClaim()
+    {
+        var fail = RequireAuth();
+        if (fail is not null) return fail;
+        var owner = EnsureOwner();
+        var claimed = _slot.TryClaim(owner);
+        return claimed ? Ok(new { claimed = true, status = _slot.Status() })
+                       : Conflict(new { claimed = false, busy = true, error = "AI busy: another session holds the slot.", status = _slot.Status() });
+    }
+
+    /// <summary>Renew this session's hold on the AI slot (heartbeat).</summary>
+    [HttpPost("slot/heartbeat")]
+    public IActionResult SlotHeartbeat()
+    {
+        var fail = RequireAuth();
+        if (fail is not null) return fail;
+        var owner = HttpContext.Session.GetString(OwnerSessionKey);
+        return Ok(new { renewed = owner is not null && _slot.Renew(owner ?? ""), status = _slot.Status() });
+    }
+
+    /// <summary>Release the AI slot so another session can take over immediately.</summary>
+    [HttpPost("slot/release")]
+    public IActionResult SlotRelease()
+    {
+        var owner = HttpContext.Session.GetString(OwnerSessionKey);
+        if (owner is not null) _slot.Release(owner);
+        return Ok(new { released = true, status = _slot.Status() });
+    }
+
+    // ---- Main-brain telemetry (token usage + context window) ----
+
+    /// <summary>Cumulative + last-turn token usage for the co-author, and context-window occupancy.</summary>
+    [HttpGet("telemetry")]
+    public IActionResult Telemetry() => Ok(_telemetry.Snapshot());
+
     // ---- AI call cache utilization ----
 
     /// <summary>Report hit/miss utilization of the AI response + embedding cache.</summary>
@@ -207,6 +323,8 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("chat")]
     public async Task<IActionResult> Chat([FromBody] ChatRequest req, CancellationToken ct)
     {
+        var gate = RequireSlot();
+        if (gate is not null) return gate;
         if (!_coauthor.IsConfigured)
             return BadRequest(new { error = "Co-author provider not configured." });
         if (string.IsNullOrWhiteSpace(req.Message))
@@ -220,7 +338,7 @@ public sealed class StoryApiController : ControllerBase
         var thinking = ThinkingLevelExtensions.Parse(req.Thinking);
         var images = await ResolveImagesAsync(req.ImageDataUrls, req.NodeAssetIds, ct);
         var (reply, citations) = await _coauthor.ChatAsync(req.Message, history, images, thinking, ct);
-        return Ok(new { reply, citations });
+        return Ok(new { reply, citations, telemetry = _telemetry.Snapshot() });
     }
 
     /// <summary>
@@ -254,11 +372,13 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("audit")]
     public async Task<IActionResult> Audit([FromBody] AuditRequest? req, CancellationToken ct)
     {
+        var gate = RequireSlot();
+        if (gate is not null) return gate;
         var tree = await _tree.GetTreeAsync(ct);
         if (tree is null) return BadRequest(new { error = "Decompose the story first." });
         if (!_coauthor.IsConfigured) return BadRequest(new { error = "Co-author provider not configured." });
         var thinking = ThinkingLevelExtensions.Parse(req?.Thinking);
-        return Ok(new { report = await _coauthor.AuditAsync(tree, thinking, ct) });
+        return Ok(new { report = await _coauthor.AuditAsync(tree, thinking, ct), telemetry = _telemetry.Snapshot() });
     }
 
     // ---- Uploads (txt drafts, images) ----
@@ -295,6 +415,8 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("patch/propose")]
     public async Task<IActionResult> ProposePatch([FromBody] ProposePatchRequest req, CancellationToken ct)
     {
+        var gate = RequireSlot();
+        if (gate is not null) return gate;
         if (!_coauthor.IsConfigured)
             return BadRequest(new { error = "Co-author provider not configured." });
         if (string.IsNullOrWhiteSpace(req.Instruction))
@@ -303,7 +425,7 @@ public sealed class StoryApiController : ControllerBase
         var thinking = ThinkingLevelExtensions.Parse(req.Thinking ?? "high");
         var patch = await _coauthor.ProposePatchAsync(req.Instruction, req.DraftText, req.ImageDataUrls, thinking, ct);
         var validation = await _patch.ValidateAsync(patch, ct);
-        return Ok(new { patch, valid = validation.Success, errors = validation.Errors });
+        return Ok(new { patch, valid = validation.Success, errors = validation.Errors, telemetry = _telemetry.Snapshot() });
     }
 
     /// <summary>Apply a reviewed changeset atomically, then reindex once.</summary>
@@ -321,6 +443,8 @@ public sealed class StoryApiController : ControllerBase
     [HttpPost("translate")]
     public async Task<IActionResult> Translate([FromBody] TranslateRequest req, CancellationToken ct)
     {
+        var gate = RequireSlot();
+        if (gate is not null) return gate;
         if (!_translator.IsConfigured)
             return BadRequest(new { error = "Translator provider not configured." });
         var result = await _translator.TranslateAsync(req.Text ?? "", req.TargetLang ?? "English", ct);
@@ -340,6 +464,29 @@ public sealed class StoryApiController : ControllerBase
     public sealed record AuditRequest(string? Thinking);
     public sealed record ProposePatchRequest(string Instruction, string? DraftText, List<string>? ImageDataUrls, string? Thinking);
     public sealed record TranslateRequest(string? Text, string? TargetLang);
+    public sealed record LoginRequest(string? Password);
+
+    // ---- helpers ----
+
+    /// <summary>Mints (once per session) a stable owner id used for AI-slot ownership.</summary>
+    private string EnsureOwner()
+    {
+        var owner = HttpContext.Session.GetString(OwnerSessionKey);
+        if (string.IsNullOrEmpty(owner))
+        {
+            owner = Guid.NewGuid().ToString("N");
+            HttpContext.Session.SetString(OwnerSessionKey, owner);
+        }
+        return owner;
+    }
+
+    /// <summary>Constant-time string compare to avoid leaking the password length via timing.</summary>
+    private static bool FixedTimeEquals(string a, string b)
+    {
+        var aa = System.Text.Encoding.UTF8.GetBytes(a ?? "");
+        var bb = System.Text.Encoding.UTF8.GetBytes(b ?? "");
+        return aa.Length == bb.Length && CryptographicOperations.FixedTimeEquals(aa, bb);
+    }
 
     // ---- helpers ----
 

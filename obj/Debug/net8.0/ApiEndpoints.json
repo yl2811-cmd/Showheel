@@ -17,6 +17,52 @@
   },
   {
     "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "AuthLogin",
+    "RelativePath": "api/story/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BLoginRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "AuthStatus",
+    "RelativePath": "api/story/auth/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "CacheClear",
+    "RelativePath": "api/story/cache/clear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "CacheStats",
+    "RelativePath": "api/story/cache/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
     "Method": "Chat",
     "RelativePath": "api/story/chat",
     "HttpMethod": "POST",
@@ -45,6 +91,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "ExportTree",
+    "RelativePath": "api/story/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -102,6 +158,152 @@
   },
   {
     "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "AddNodeAsset",
+    "RelativePath": "api/story/node/{id}/asset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "RemoveNodeAsset",
+    "RelativePath": "api/story/node/{id}/asset/{assetId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "assetId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "GetNodeAsset",
+    "RelativePath": "api/story/node/{id}/asset/{assetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "assetId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SetNodeContent",
+    "RelativePath": "api/story/node/{id}/content",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BSetContentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "ExportNode",
+    "RelativePath": "api/story/node/{id}/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SetNodeTranslation",
+    "RelativePath": "api/story/node/{id}/translation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BSetTranslationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
     "Method": "ApplyPatch",
     "RelativePath": "api/story/patch/apply",
     "HttpMethod": "POST",
@@ -146,6 +348,56 @@
     "ContainingType": "Showheel.Controllers.StoryApiController",
     "Method": "RagStatus",
     "RelativePath": "api/story/rag/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SlotClaim",
+    "RelativePath": "api/story/slot/claim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SlotHeartbeat",
+    "RelativePath": "api/story/slot/heartbeat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SlotRelease",
+    "RelativePath": "api/story/slot/release",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "SlotStatus",
+    "RelativePath": "api/story/slot/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "Telemetry",
+    "RelativePath": "api/story/telemetry",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

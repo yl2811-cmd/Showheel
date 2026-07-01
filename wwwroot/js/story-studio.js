@@ -55,6 +55,22 @@
     patchOps: $("ss-patch-ops"),
     patchApply: $("ss-patch-apply"),
     patchReject: $("ss-patch-reject"),
+    // gate (password)
+    gate: $("ss-gate"),
+    shell: $("ss-app"),
+    gateForm: $("ss-gate-form"),
+    gateInput: $("ss-gate-input"),
+    gateError: $("ss-gate-error"),
+    // telemetry
+    tokTurn: $("ss-tok-turn"),
+    tokStat: $("ss-tok"),
+    ctx: $("ss-ctx"),
+    ctxText: $("ss-ctx-text"),
+    ctxFill: $("ss-ctx-fill"),
+    // slot
+    slot: $("ss-slot"),
+    slotText: $("ss-slot-text"),
+    slotNote: $("ss-slot-note"),
   };
 
   // state
@@ -66,9 +82,13 @@
     chat: [],                  // [{id, role, content}] — full transcript, source of truth
     ragTimer: null,
     cacheTimer: null,
+    slotTimer: null,           // polls slot status
+    heartbeatTimer: null,      // renews our hold on the AI slot
     pending: [],               // transient attachments staged for the next message
     patch: null,
     lang: "en",                // currently edited language code
+    authed: false,             // session passed the password gate
+    holdsSlot: false,          // this session owns the AI conversation slot
   };
 
   let msgSeq = 0;
@@ -84,7 +104,14 @@
     });
     let data = null;
     try { data = await res.json(); } catch { /* no body */ }
-    if (!res.ok) throw new Error((data && data.error) || `Request failed (${res.status})`);
+    if (!res.ok) {
+      const err = new Error((data && data.error) || `Request failed (${res.status})`);
+      err.status = res.status;
+      err.data = data;
+      // Session lost its auth: re-show the gate instead of each call failing noisily.
+      if (res.status === 401) showGate((data && data.requiresAuth) ? null : "Session expired — please unlock again.");
+      throw err;
+    }
     return data;
   }
 
@@ -162,6 +189,141 @@
       el.cache.title = `AI call cache — chat ${s.chat ? s.chat.hitRate : 0}% · embeddings ${s.embeddings ? s.embeddings.hitRate : 0}% · ${s.entries}/${s.maxEntries} entries`;
     } catch {
       el.cacheValue.textContent = "—";
+    }
+  }
+
+  // ---- Main-brain token telemetry ----
+
+  function fmt(n) { return typeof n === "number" ? n.toLocaleString() : "—"; }
+
+  function renderTelemetry(t) {
+    if (!t) return;
+    const last = t.last || {}, cum = t.cumulative || {}, ctx = t.context || {};
+    el.tokTurn.textContent = (last.input != null) ? `↑${fmt(last.input)} ↓${fmt(last.output)}` : "—";
+    el.tokTurn.title = `Last turn — in: ${fmt(last.input)} · out: ${fmt(last.output)}${last.fromCache ? " · (cache hit, 0 billed)" : ""} · cached: ${fmt(last.cached)}\nCumulative — in: ${fmt(cum.input)} · out: ${fmt(cum.output)}`;
+    const used = ctx.used || 0, max = ctx.max || 0, pct = ctx.percent || 0;
+    el.ctxText.textContent = max ? `${fmt(used)} / ${fmt(max)}` : "—";
+    el.ctxFill.style.width = Math.min(100, pct) + "%";
+    el.ctx.dataset.tone = pct >= 80 ? "hot" : "";
+  }
+
+  async function refreshTelemetry() {
+    try { renderTelemetry(await req("GET", "/telemetry")); } catch { /* silent */ }
+  }
+
+  // ---- AI slot (single-writer occupancy) ----
+
+  function renderSlot(s) {
+    if (!s) return;
+    const held = !!s.held;
+    if (held && state.holdsSlot) {
+      el.slot.dataset.state = "held";
+      el.slotText.textContent = `You hold the AI (${s.expiresInSeconds}s)`;
+    } else if (held) {
+      el.slot.dataset.state = "busy";
+      el.slotText.textContent = "AI busy";
+    } else {
+      el.slot.dataset.state = "free";
+      el.slotText.textContent = "AI free";
+    }
+    updateComposerLock();
+  }
+
+  async function refreshSlot() {
+    try { renderSlot(await req("GET", "/slot/status")); } catch { /* silent */ }
+  }
+
+  // Dim + disable the chat composer when this session can't drive the AI right now.
+  function updateComposerLock() {
+    const s = el.slot.dataset.state;
+    const ok = state.authed && (s === "held" || s === "free");
+    el.chatForm.classList.toggle("is-locked", !ok);
+    if (!ok && s === "busy") {
+      el.slotNote.hidden = false;
+      el.slotNote.textContent = "Another session is using the co-author. You'll take over when it goes idle.";
+    } else if (!ok && !state.authed) {
+      el.slotNote.hidden = false;
+      el.slotNote.textContent = "Unlock the studio to drive the AI.";
+    } else {
+      el.slotNote.hidden = true;
+    }
+  }
+
+  async function claimSlot() {
+    try {
+      const data = await req("POST", "/slot/claim");
+      state.holdsSlot = !!data.claimed;
+      renderSlot(data.status || data);
+      if (!state.holdsSlot) toast("AI is busy — waiting for the other session to finish.", "warn");
+    } catch (e) {
+      // 409 = held by someone else; render whatever status came back.
+      if (e.data && e.data.status) renderSlot(e.data.status);
+      else toast(e.message, "error");
+    }
+    startHeartbeat();
+  }
+
+  function startHeartbeat() {
+    if (state.heartbeatTimer) clearInterval(state.heartbeatTimer);
+    state.heartbeatTimer = setInterval(async () => {
+      if (!state.holdsSlot) return;
+      try {
+        const data = await req("POST", "/slot/heartbeat");
+        if (!data.renewed) { state.holdsSlot = false; renderSlot(data.status); }
+      } catch { /* will retry next tick */ }
+    }, 25000);
+  }
+
+  async function releaseSlot() {
+    if (!state.holdsSlot) return;
+    try { await req("POST", "/slot/release"); } catch { /* best effort */ }
+    state.holdsSlot = false;
+  }
+
+  // ---- Password gate ----
+
+  function showGate(message) {
+    el.gate.hidden = false;
+    el.shell.classList.add("is-locked");
+    state.authed = false;
+    updateComposerLock();
+    if (message) { el.gateError.hidden = false; el.gateError.textContent = message; }
+    if (el.gateInput) setTimeout(() => el.gateInput.focus(), 50);
+  }
+
+  function hideGate() {
+    el.gate.hidden = true;
+    el.shell.classList.remove("is-locked");
+    el.gateError.hidden = true;
+    state.authed = true;
+  }
+
+  async function checkAuth() {
+    try {
+      const s = await req("GET", "/auth/status");
+      if (s.authed) { hideGate(); return true; }
+      showGate(s.requiresPassword ? null : "Access required.");
+      return false;
+    } catch {
+      showGate(null);
+      return false;
+    }
+  }
+
+  async function doLogin(e) {
+    e.preventDefault();
+    el.gateError.hidden = true;
+    try {
+      const data = await req("POST", "/auth/login", { password: el.gateInput.value || "" });
+      if (data.authed) {
+        el.gateInput.value = "";
+        hideGate();
+        toast("Unlocked.", "success");
+        await Promise.all([refreshTelemetry(), refreshSlot(), claimSlot(), loadTree().catch(() => {}), refreshRag(true), refreshCache()]);
+      }
+    } catch (err) {
+      el.gateError.hidden = false;
+      el.gateError.textContent = err.message || "Wrong password.";
     }
   }
 
@@ -727,8 +889,10 @@
       pushMessage("assistant", `Proposed: ${data.patch.summary || "(changeset)"} — review below, then Apply.`);
       state.pending = [];
       renderAttachments();
+      if (data.telemetry) renderTelemetry(data.telemetry);
     } catch (e) {
       thinkingEl.remove();
+      if (e.status === 409) { state.holdsSlot = false; await refreshSlot(); }
       toast(e.message, "error");
     }
   }
@@ -900,8 +1064,10 @@
       state.pending = [];
       renderAttachments();
       refreshCache();
+      if (data.telemetry) { renderTelemetry(data.telemetry); state.holdsSlot = true; refreshSlot(); }
     } catch (err) {
       thinkingEl.remove();
+      if (err.status === 409) { state.holdsSlot = false; await refreshSlot(); }
       toast(err.message, "error");
     } finally {
       el.chatSend.disabled = false;
@@ -940,7 +1106,9 @@
       const data = await req("POST", "/audit", { thinking: thinkingLevel() });
       pushMessage("assistant", data.report || "(no findings)");
       refreshCache();
+      if (data.telemetry) renderTelemetry(data.telemetry);
     } catch (e) {
+      if (e.status === 409) { state.holdsSlot = false; await refreshSlot(); }
       toast(e.message, "error");
     } finally {
       el.audit.disabled = false;
@@ -950,6 +1118,7 @@
   // ---- init ----
 
   function bind() {
+    el.gateForm.addEventListener("submit", doLogin);
     el.decompose.addEventListener("click", decompose);
     el.exportTree.addEventListener("click", exportTree);
     el.rebuild.addEventListener("click", rebuildIndex);
@@ -979,9 +1148,20 @@
   async function init() {
     bind();
     setView("map");
-    await Promise.all([loadTree().catch(() => {}), refreshRag(true), refreshCache()]);
+    // Pollers start now; they no-op meaningfully until auth resolves.
     state.ragTimer = setInterval(refreshRag, 30000);
     state.cacheTimer = setInterval(refreshCache, 15000);
+    state.slotTimer = setInterval(refreshSlot, 10000);
+
+    // Release the AI slot when the tab closes so another session can take over at once.
+    window.addEventListener("beforeunload", () => {
+      if (navigator.sendBeacon) navigator.sendBeacon(api + "/slot/release", "");
+    });
+
+    const authed = await checkAuth();
+    if (!authed) return; // gate is shown; doLogin() finishes bootstrapping after unlock.
+
+    await Promise.all([refreshTelemetry(), refreshSlot(), claimSlot(), loadTree().catch(() => {}), refreshRag(true), refreshCache()]);
   }
 
   init();

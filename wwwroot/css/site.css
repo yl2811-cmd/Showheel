@@ -894,8 +894,7 @@ main {
 .ss-editor-panel { grid-area: editor; }
 .ss-chat-panel { grid-area: chat; }
 
-/* When the gate is up, the shell behind it is inert. */
-.ss-shell.is-locked { filter: blur(2px) opacity(0.3); pointer-events: none; user-select: none; }
+/* Password gate removed — no full-page dimming overlay. */
 
 @media (max-width: 1200px) {
     .ss-grid {

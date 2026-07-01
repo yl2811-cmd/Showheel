@@ -73,6 +73,11 @@
     slotNote: $("ss-slot-note"),
   };
 
+  document.body.classList.add("ss-story-studio-page");
+  document.body.classList.remove("ss-panel-maxed");
+  document.querySelectorAll(".ss-panel-backdrop, .ss-gate").forEach((node) => node.remove());
+  if (el.shell) el.shell.classList.remove("is-locked");
+
   // state
   const state = {
     tree: null,
@@ -108,8 +113,6 @@
       const err = new Error((data && data.error) || `Request failed (${res.status})`);
       err.status = res.status;
       err.data = data;
-      // Session lost its auth: re-show the gate instead of each call failing noisily.
-      if (res.status === 401) showGate((data && data.requiresAuth) ? null : "Session expired — please unlock again.");
       throw err;
     }
     return data;
@@ -280,22 +283,15 @@
     state.holdsSlot = false;
   }
 
-  // ---- Password gate ----
+  // ---- Password gate (removed) ----
+  // The gate UI was deleted from the page, so the studio is always unlocked.
+  // showGate is a no-op kept only so any legacy callers don't throw.
 
-  function showGate(message) {
-    if (!el.gate) { state.authed = true; return; }
-    el.gate.hidden = false;
-    if (el.shell) el.shell.classList.add("is-locked");
-    state.authed = false;
-    updateComposerLock();
-    if (message && el.gateError) { el.gateError.hidden = false; el.gateError.textContent = message; }
-    if (el.gateInput) setTimeout(() => el.gateInput.focus(), 50);
+  function showGate() {
+    state.authed = true;
   }
 
   function hideGate() {
-    if (el.gate) el.gate.hidden = true;
-    if (el.shell) el.shell.classList.remove("is-locked");
-    if (el.gateError) el.gateError.hidden = true;
     state.authed = true;
   }
 

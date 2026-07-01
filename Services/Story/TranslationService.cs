@@ -38,6 +38,6 @@ public sealed class TranslationService
             ChatMessage.System(system),
             ChatMessage.User(text)
         };
-        return await _ai.ChatAsync(provider, messages, temperature: 0.2, ct);
+        return await _ai.ChatAsync(provider, messages, temperature: 0.2, ct: ct);
     }
 }

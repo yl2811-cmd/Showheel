@@ -1,0 +1,121 @@
+@page
+@model Showheel.Pages.StoryStudioModel
+@{
+    ViewData["Title"] = "Story Studio — Skies Beyond the Star";
+}
+
+<section class="ss-shell" id="ss-app">
+    <header class="ss-header">
+        <div>
+            <p class="kd-eyebrow">01 · Skies Beyond the Star</p>
+            <h1 class="ss-title">Story Studio</h1>
+            <p class="ss-sub">AI-managed story tree · RAG whole-book awareness · custom provider</p>
+        </div>
+        <div class="ss-header-actions">
+            <div class="ss-rag" id="ss-rag" data-state="unknown" title="RAG status">
+                <span class="ss-rag-dot"></span>
+                <span class="ss-rag-text" id="ss-rag-text">Checking RAG…</span>
+            </div>
+            <button class="ss-btn" id="ss-rebuild" type="button">Rebuild index</button>
+        </div>
+    </header>
+
+    <!-- Notifications -->
+    <div class="ss-toasts" id="ss-toasts" aria-live="polite"></div>
+
+    <div class="ss-grid">
+        <!-- Tree -->
+        <aside class="ss-panel ss-tree-panel">
+            <div class="ss-panel-head">
+                <h2>Book tree</h2>
+                <button class="ss-btn ss-btn-ghost" id="ss-decompose" type="button" title="Decompose the plain-text story into a tree">Decompose</button>
+            </div>
+            <div class="ss-tree" id="ss-tree">
+                <p class="ss-empty" id="ss-tree-empty">No tree yet. Click <strong>Decompose</strong> to build it from the story text.</p>
+            </div>
+        </aside>
+
+        <!-- Editor -->
+        <section class="ss-panel ss-editor-panel">
+            <div class="ss-panel-head">
+                <h2 id="ss-node-title">Select a section</h2>
+                <div class="ss-editor-actions">
+                    <button class="ss-btn ss-btn-ghost" id="ss-translate" type="button" disabled>Translate</button>
+                    <button class="ss-btn ss-btn-ghost" id="ss-add-child" type="button" disabled>Add child</button>
+                    <button class="ss-btn ss-btn-ghost ss-btn-danger" id="ss-delete" type="button" disabled>Prune</button>
+                    <button class="ss-btn" id="ss-save" type="button" disabled>Save</button>
+                </div>
+            </div>
+            <input class="ss-input" id="ss-edit-title" type="text" placeholder="Section title" disabled />
+            <textarea class="ss-textarea" id="ss-edit-content" placeholder="Section content…" disabled></textarea>
+            <div class="ss-translation" id="ss-translation" hidden>
+                <div class="ss-panel-head">
+                    <h3>Translation</h3>
+                    <button class="ss-btn ss-btn-ghost" id="ss-translation-close" type="button">Close</button>
+                </div>
+                <div class="ss-translation-body" id="ss-translation-body"></div>
+            </div>
+        </section>
+
+        <!-- Co-author chat -->
+        <aside class="ss-panel ss-chat-panel">
+            <div class="ss-panel-head">
+                <h2>Co-author</h2>
+                <div class="ss-chat-tools">
+                    <label class="ss-think" title="Thinking depth">
+                        <span>Think</span>
+                        <select id="ss-thinking">
+                            <option value="normal">Normal</option>
+                            <option value="high" selected>High</option>
+                            <option value="xhigh">xHigh</option>
+                            <option value="max">Max</option>
+                        </select>
+                    </label>
+                    <button class="ss-btn ss-btn-ghost" id="ss-audit" type="button" title="Scan the whole book for duplication / contradiction / stale content">Audit</button>
+                </div>
+            </div>
+            <div class="ss-chat" id="ss-chat">
+                <div class="ss-msg ss-msg-ai">
+                    <p>Hi — I'm the co-author. I read the whole book through RAG before answering, so I can catch duplicates, contradictions, and stale content. Ask me to add, revise, or prune a section — or attach an old draft (.txt) and I'll propose where it belongs as a reviewable patch.</p>
+                </div>
+            </div>
+
+            <!-- Attachments staged for the next message -->
+            <div class="ss-attachments" id="ss-attachments" hidden></div>
+
+            <!-- Patch review panel: appears when the co-author proposes a changeset -->
+            <div class="ss-patch" id="ss-patch" hidden>
+                <div class="ss-panel-head">
+                    <h3 id="ss-patch-summary">Proposed changes</h3>
+                    <span class="ss-patch-badge" id="ss-patch-badge"></span>
+                </div>
+                <ol class="ss-patch-ops" id="ss-patch-ops"></ol>
+                <div class="ss-patch-actions">
+                    <button class="ss-btn ss-btn-ghost" id="ss-patch-reject" type="button">Reject</button>
+                    <button class="ss-btn" id="ss-patch-apply" type="button">Apply patch</button>
+                </div>
+            </div>
+
+            <form class="ss-chat-form" id="ss-chat-form">
+                <div class="ss-chat-row">
+                    <label class="ss-attach-btn" title="Attach a .txt draft or image">
+                        <input type="file" id="ss-file" accept=".txt,.md,.markdown,.text,image/png,image/jpeg,image/gif,image/webp" hidden />
+                        <span aria-hidden="true">&#x1F4CE;</span>
+                    </label>
+                    <textarea class="ss-chat-input" id="ss-chat-input" rows="2" placeholder="Ask the co-author…"></textarea>
+                </div>
+                <div class="ss-chat-send-row">
+                    <label class="ss-patch-mode" title="Return a reviewable changeset instead of a chat reply">
+                        <input type="checkbox" id="ss-patch-mode" />
+                        <span>Patch mode</span>
+                    </label>
+                    <button class="ss-btn" id="ss-chat-send" type="submit">Send</button>
+                </div>
+            </form>
+        </aside>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/story-studio.js" asp-append-version="true"></script>
+}

@@ -57,6 +57,11 @@
     file: $("ss-file"),
     attachments: $("ss-attachments"),
     patchMode: $("ss-patch-mode"),
+    pastePatch: $("ss-paste-patch"),
+    pastePanel: $("ss-paste-panel"),
+    pasteText: $("ss-paste-text"),
+    pasteCancel: $("ss-paste-cancel"),
+    pasteParse: $("ss-paste-parse"),
     patch: $("ss-patch"),
     patchSummary: $("ss-patch-summary"),
     patchBadge: $("ss-patch-badge"),
@@ -808,7 +813,7 @@
 
   // ---- Patch review ----
 
-  function renderPatch(patch, valid, errors) {
+  function renderPatch(patch, valid, errors, sections) {
     state.patch = patch;
     el.patch.hidden = false;
     el.patchSummary.textContent = patch.summary || "Proposed changes";
@@ -817,7 +822,8 @@
     el.patchApply.disabled = !valid;
 
     el.patchOps.innerHTML = "";
-    (patch.ops || []).forEach((op) => {
+    (patch.ops || []).forEach((op, i) => {
+      const info = (sections && sections[i]) || null;
       const li = document.createElement("li");
       li.className = `ss-op ss-op-${(op.op || "").toLowerCase()}`;
       const head = document.createElement("div");
@@ -827,7 +833,8 @@
       kind.textContent = (op.op || "?").toUpperCase();
       const target = document.createElement("span");
       target.className = "ss-op-target";
-      target.textContent = op.title || labelForId(op.targetId) || op.targetId || op.parentId || "";
+      target.textContent = (info && info.targetPath) || op.targetPath ||
+        labelForId(op.targetId) || op.title || op.parentPath || labelForId(op.parentId) || "";
       head.appendChild(kind);
       head.appendChild(target);
       li.appendChild(head);
@@ -836,6 +843,14 @@
         reason.className = "ss-op-reason";
         reason.textContent = op.reason;
         li.appendChild(reason);
+      }
+      if (info && info.contentChars) {
+        const stats = document.createElement("p");
+        stats.className = "ss-op-stats";
+        stats.textContent = info.currentChars
+          ? `${info.currentChars.toLocaleString()} → ${info.contentChars.toLocaleString()} chars`
+          : `${info.contentChars.toLocaleString()} chars`;
+        li.appendChild(stats);
       }
       if (op.content) {
         const body = document.createElement("pre");
@@ -905,6 +920,32 @@
       thinkingEl.remove();
       if (e.status === 409) { state.holdsSlot = false; await refreshSlot(); }
       toast(e.message, "error");
+    }
+  }
+
+  // ---- Paste an externally-written patch document ----
+
+  function togglePastePanel(show) {
+    el.pastePanel.hidden = show === undefined ? !el.pastePanel.hidden : !show;
+    if (!el.pastePanel.hidden) el.pasteText.focus();
+  }
+
+  // Sends the pasted plain-text patch doc for parsing + validation (no AI call),
+  // then reuses the normal review-and-apply flow.
+  async function parsePastedPatch() {
+    const text = el.pasteText.value.trim();
+    if (!text) { toast("Paste a patch document first.", "warn"); return; }
+    el.pasteParse.disabled = true;
+    try {
+      const data = await req("POST", "/patch/parse", { text });
+      renderPatch(data.patch, data.valid, data.errors, data.sections);
+      togglePastePanel(false);
+      if (data.valid) toast(`Patch parsed · ${data.patch.ops.length} ops — review, then Apply.`, "success");
+      else toast("Patch parsed with issues — see errors in the review panel.", "warn");
+    } catch (e) {
+      toast(e.message, "error");
+    } finally {
+      el.pasteParse.disabled = false;
     }
   }
 
@@ -1048,10 +1089,12 @@
   }
 
   // History for the API = all turns before the last user message we're answering.
+  // Send the FULL transcript (capped high): the server compacts old turns at quantized
+  // milestones, keeping the prompt prefix stable so provider prompt-caching hits.
   function historyForApi() {
     return state.chat
       .filter((m) => m.content && (m.role === "user" || m.role === "assistant"))
-      .slice(-16)
+      .slice(-200)
       .map((m) => ({ role: m.role, content: m.content }));
   }
 
@@ -1065,7 +1108,7 @@
       const provider = modelProviderPayload();
       const payload = {
         message: text,
-        history: hist.slice(-8),
+        history: hist,
         imageDataUrls: collectImageUrls(),
         thinking: thinkingLevel(),
       };
@@ -1253,6 +1296,9 @@
     el.file.addEventListener("change", onFilePicked);
     el.patchApply.addEventListener("click", applyPatch);
     el.patchReject.addEventListener("click", () => { clearPatch(); toast("Patch rejected.", "info"); });
+    if (el.pastePatch) el.pastePatch.addEventListener("click", () => togglePastePanel());
+    if (el.pasteCancel) el.pasteCancel.addEventListener("click", () => togglePastePanel(false));
+    if (el.pasteParse) el.pasteParse.addEventListener("click", parsePastedPatch);
     el.chatInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); el.chatForm.requestSubmit(); }
     });

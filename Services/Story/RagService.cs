@@ -144,8 +144,25 @@ public sealed class RagService
         finally { _indexGate.Release(); }
     }
 
-    /// <summary>Retrieves the top-K most relevant chunks for a query.</summary>
+    /// <summary>
+    /// Hybrid retrieval: vector search (when embeddings are configured) merged with
+    /// exact keyword search over the tree. Keyword hits guarantee that proper nouns and
+    /// entity codes are found verbatim, and keep retrieval alive when RAG is offline.
+    /// </summary>
     public async Task<List<VectorChunk>> RetrieveAsync(string query, int topK = 6, CancellationToken ct = default)
+    {
+        var vector = await RetrieveVectorAsync(query, topK, ct);
+        var keyword = await SearchKeywordAsync(query, Math.Max(3, topK / 2), ct);
+
+        // Vector hits first (semantic breadth), then keyword hits it missed (exactness).
+        var seen = new HashSet<string>(vector.Select(c => c.NodeId));
+        var merged = new List<VectorChunk>(vector);
+        foreach (var k in keyword)
+            if (seen.Add(k.NodeId)) merged.Add(k);
+        return merged.Take(topK + 2).ToList();
+    }
+
+    private async Task<List<VectorChunk>> RetrieveVectorAsync(string query, int topK, CancellationToken ct)
     {
         var embed = _options.CurrentValue.Embeddings;
         if (!embed.IsConfigured) return new();
@@ -162,6 +179,101 @@ public sealed class RagService
             .Take(topK)
             .Select(x => x.chunk)
             .ToList();
+    }
+
+    /// <summary>
+    /// Exact keyword search over the whole tree (no embeddings needed). Scores nodes by
+    /// term occurrences (title hits weighted), and returns excerpt chunks around the
+    /// first match so the model reads the actual canon text, not a fuzzy neighborhood.
+    /// Also backs the model's 【查:关键词】 verification loop.
+    /// </summary>
+    public async Task<List<VectorChunk>> SearchKeywordAsync(string query, int topK = 6, CancellationToken ct = default)
+    {
+        var tree = await _store.LoadTreeAsync(ct);
+        if (tree is null) return new();
+
+        var terms = ExtractTerms(query);
+        if (terms.Count == 0) return new();
+
+        var hits = new List<(VectorChunk chunk, int score)>();
+
+        void Walk(IEnumerable<StoryNode> nodes, List<string> ancestors)
+        {
+            foreach (var node in nodes)
+            {
+                var label = $"{node.Number} {node.Title}".Trim();
+                var chain = new List<string>(ancestors) { label };
+
+                var content = node.Content ?? "";
+                int score = 0, firstAt = -1;
+                foreach (var term in terms)
+                {
+                    if (node.Title.Contains(term, StringComparison.OrdinalIgnoreCase)) score += 3;
+                    var at = content.IndexOf(term, StringComparison.OrdinalIgnoreCase);
+                    if (at >= 0)
+                    {
+                        score += CountOccurrences(content, term);
+                        if (firstAt < 0 || at < firstAt) firstAt = at;
+                    }
+                }
+
+                if (score > 0)
+                {
+                    hits.Add((new VectorChunk
+                    {
+                        NodeId = node.Id,
+                        Path = label,
+                        AncestorPath = string.Join(" › ", chain),
+                        Text = Excerpt(content, firstAt)
+                    }, score));
+                }
+
+                Walk(node.Children, chain);
+            }
+        }
+
+        Walk(tree.Nodes, new List<string>());
+        return hits.OrderByDescending(h => h.score).Take(topK).Select(h => h.chunk).ToList();
+    }
+
+    /// <summary>Split a query into searchable terms; CJK phrases are kept whole.</summary>
+    private static List<string> ExtractTerms(string query)
+    {
+        var terms = new List<string>();
+        var parts = query.Split(new[] { ' ', '\t', '\n', ',', '，', '。', '、', '；', ';', '?', '？', '!', '！', '"', '“', '”', ':', '：' },
+            StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+        foreach (var p in parts)
+            if (p.Length >= 2 && p.Length <= 32 && !terms.Contains(p, StringComparer.OrdinalIgnoreCase))
+                terms.Add(p);
+        // Short queries are likely a single name/phrase — search it whole too.
+        var whole = query.Trim();
+        if (whole.Length >= 2 && whole.Length <= 32 && !terms.Contains(whole, StringComparer.OrdinalIgnoreCase))
+            terms.Add(whole);
+        return terms;
+    }
+
+    private static int CountOccurrences(string text, string term)
+    {
+        int count = 0, at = 0;
+        while ((at = text.IndexOf(term, at, StringComparison.OrdinalIgnoreCase)) >= 0)
+        {
+            count++;
+            at += term.Length;
+        }
+        return count;
+    }
+
+    /// <summary>A window of text around the first match (or the head when the hit was in the title).</summary>
+    private static string Excerpt(string content, int matchAt, int window = 600)
+    {
+        if (string.IsNullOrEmpty(content)) return "";
+        if (matchAt < 0) matchAt = 0;
+        var start = Math.Max(0, matchAt - window / 3);
+        var len = Math.Min(window, content.Length - start);
+        var slice = content.Substring(start, len);
+        if (start > 0) slice = "…" + slice;
+        if (start + len < content.Length) slice += "…";
+        return slice;
     }
 
     /// <summary>Formats retrieved chunks as a context block for a prompt.</summary>

@@ -18,8 +18,18 @@ public sealed partial class ConversationMemory
     private readonly OpenAiCompatibleClient _ai;
     private readonly IOptionsMonitor<AiOptions> _options;
 
-    /// <summary>Keep this many most-recent turns verbatim; older turns get summarized.</summary>
+    /// <summary>Always keep at least this many most-recent turns verbatim.</summary>
     private const int VerbatimTurns = 8;
+
+    /// <summary>
+    /// Compression happens in blocks of this size: the summarized prefix only grows in
+    /// steps of 16 turns, so for 16 consecutive turns the "older transcript" is byte-
+    /// identical → the summarization call hits <see cref="Showheel.Services.Ai.AiResponseCache"/>
+    /// (zero provider tokens) and the prompt prefix stays stable for provider-side
+    /// prompt caching. This is the milestone/quantized alternative to re-summarizing
+    /// every turn.
+    /// </summary>
+    private const int CompressBlock = 16;
 
     public ConversationMemory(OpenAiCompatibleClient ai, IOptionsMonitor<AiOptions> options)
     {
@@ -53,7 +63,11 @@ public sealed partial class ConversationMemory
 
     /// <summary>
     /// Splits history into (summary of older turns, recent verbatim turns). If history
-    /// is short, summary is empty and all turns are returned verbatim.
+    /// is short, summary is empty and all turns are returned verbatim. The split point
+    /// is quantized to <see cref="CompressBlock"/>-turn milestones so both the summary
+    /// input and the verbatim window are append-only between milestones — that keeps
+    /// the prompt prefix stable (provider cache hits) and lets the summarization call
+    /// itself hit the local response cache.
     /// </summary>
     public async Task<(string summary, List<ChatMessage> recent)> CompressAsync(
         IReadOnlyList<ChatMessage> history,
@@ -61,11 +75,14 @@ public sealed partial class ConversationMemory
         ProviderOptions? providerOverride = null,
         CancellationToken ct = default)
     {
-        if (history.Count <= VerbatimTurns)
+        // Quantize: only whole blocks get summarized, and only once at least one full
+        // block sits behind the verbatim window.
+        var olderCount = (history.Count - VerbatimTurns) / CompressBlock * CompressBlock;
+        if (olderCount <= 0)
             return ("", history.ToList());
 
-        var older = history.Take(history.Count - VerbatimTurns).ToList();
-        var recent = history.Skip(history.Count - VerbatimTurns).ToList();
+        var older = history.Take(olderCount).ToList();
+        var recent = history.Skip(olderCount).ToList();
 
         var provider = providerOverride ?? _options.CurrentValue.CoAuthor;
         if (!provider.IsConfigured)

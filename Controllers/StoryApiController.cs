@@ -435,6 +435,53 @@ public sealed class StoryApiController : ControllerBase
         return Ok(new { patch, valid = validation.Success, errors = validation.Errors, telemetry = _telemetry.Snapshot() });
     }
 
+    /// <summary>
+    /// Parses a pasted plain-text patch document (e.g. written by an external "main
+    /// brain" over a long chat) into a reviewable changeset. Sections target nodes by
+    /// outline path — no ids. Nothing is applied; the response carries the parsed patch
+    /// (path references resolved), per-section previews, and any errors.
+    /// No AI call happens here, so the AI slot is not required.
+    /// </summary>
+    [HttpPost("patch/parse")]
+    public async Task<IActionResult> ParsePatchDoc([FromBody] ParsePatchRequest? req, CancellationToken ct)
+    {
+        var auth = RequireAuth();
+        if (auth is not null) return auth;
+        if (req is null || string.IsNullOrWhiteSpace(req.Text))
+            return BadRequest(new { error = "Patch document text is required." });
+
+        StoryPatch patch;
+        var parseErrors = new List<string>();
+        if (StoryPatchTextParser.LooksLikeTextPatch(req.Text))
+            patch = StoryPatchTextParser.Parse(req.Text, out parseErrors);
+        else
+            patch = CoAuthorService.ParsePatch(req.Text); // tolerate pasted JSON too
+
+        var validation = await _patch.ValidateAsync(patch, ct);
+        var errors = parseErrors.Concat(validation.Errors).ToList();
+
+        // Per-section preview with resolved display paths for the review UI.
+        var tree = await _tree.GetTreeAsync(ct);
+        var sections = patch.Ops.Select(op =>
+        {
+            var target = op.TargetId is not null ? tree?.Find(op.TargetId) : null;
+            var parent = op.ParentId is not null ? tree?.Find(op.ParentId) : null;
+            return new
+            {
+                op = op.Op,
+                targetPath = target is not null && tree is not null ? StoryPath.DisplayPath(tree, target) : op.TargetPath,
+                parentPath = parent is not null && tree is not null ? StoryPath.DisplayPath(tree, parent) : op.ParentPath,
+                title = op.Title,
+                number = op.Number,
+                reason = op.Reason,
+                contentChars = op.Content?.Length ?? 0,
+                currentChars = target?.Content?.Length ?? 0,
+            };
+        }).ToList();
+
+        return Ok(new { patch, valid = errors.Count == 0 && validation.Success, errors, sections });
+    }
+
     /// <summary>Apply a reviewed changeset atomically, then reindex once.</summary>
     [HttpPost("patch/apply")]
     public async Task<IActionResult> ApplyPatch([FromBody] StoryPatch patch, CancellationToken ct)
@@ -471,6 +518,7 @@ public sealed class StoryApiController : ControllerBase
     public sealed record ProviderRequest(string? BaseUrl, string? ApiKey, string? Model, int? MaxContextTokens);
     public sealed record AuditRequest(string? Thinking, ProviderRequest? Provider);
     public sealed record ProposePatchRequest(string Instruction, string? DraftText, List<string>? ImageDataUrls, string? Thinking, ProviderRequest? Provider);
+    public sealed record ParsePatchRequest(string? Text);
     public sealed record TranslateRequest(string? Text, string? TargetLang);
     public sealed record LoginRequest(string? Password);
 

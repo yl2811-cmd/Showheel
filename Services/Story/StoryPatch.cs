@@ -18,9 +18,21 @@ public sealed class PatchOp
     [JsonPropertyName("targetId")]
     public string? TargetId { get; set; }
 
+    /// <summary>
+    /// Human/model-friendly target reference (update/append/delete/move): outline number
+    /// ("1.7"), title, or slash path ("1 世界观 / 1.7"). Resolved server-side to
+    /// <see cref="TargetId"/> so the model never handles GUIDs.
+    /// </summary>
+    [JsonPropertyName("targetPath")]
+    public string? TargetPath { get; set; }
+
     /// <summary>Parent node id for add/move (null/empty = top level).</summary>
     [JsonPropertyName("parentId")]
     public string? ParentId { get; set; }
+
+    /// <summary>Human/model-friendly parent reference for add/move (null/empty/"top" = top level).</summary>
+    [JsonPropertyName("parentPath")]
+    public string? ParentPath { get; set; }
 
     /// <summary>Outline number for a new node, e.g. "1.8" (optional).</summary>
     [JsonPropertyName("number")]

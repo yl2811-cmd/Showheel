@@ -73,6 +73,11 @@
     slotNote: $("ss-slot-note"),
   };
 
+  document.body.classList.add("ss-story-studio-page");
+  document.body.classList.remove("ss-panel-maxed");
+  document.querySelectorAll(".ss-panel-backdrop, .ss-gate").forEach((node) => node.remove());
+  if (el.shell) el.shell.classList.remove("is-locked");
+
   // state
   const state = {
     tree: null,

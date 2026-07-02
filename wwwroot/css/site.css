@@ -1242,6 +1242,26 @@ main {
 .ss-op-error { border-color: rgba(255,93,93,0.5); color: #ff9d9d; font-size: 0.82rem; }
 .ss-patch-actions { display: flex; justify-content: flex-end; gap: 8px; }
 
+.ss-paste-panel {
+    margin-top: 12px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--bg-secondary);
+    padding: 12px;
+}
+.ss-paste-text {
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 10px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--text);
+    font: 0.82rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+    padding: 10px;
+}
+.ss-op-stats { font-size: 0.72rem; color: var(--text-muted); margin: 2px 0 0; }
+
 /* ─── Story Studio · Sci-Fi Theme override ─────────────── */
 /* Tokens scoped to the studio so the rest of the site is untouched. */
 .ss-shell {

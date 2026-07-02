@@ -192,7 +192,7 @@
             <div class="ss-chat" id="ss-chat">
                 <div class="ss-msg ss-msg-ai ss-msg-seed">
                     <div class="ss-msg-body">
-                        <p>Hi — I'm the co-author. I read the whole book through RAG before answering, so I can catch duplicates, contradictions, and stale content. Ask me to add, revise, or prune a section — or attach an old draft (.txt) or reference image and I'll work it in. Patch mode returns a reviewable changeset.</p>
+                        <p>Hi — I'm the co-author. I always see the whole book's outline, retrieve relevant passages each turn, and can look up exact canon text mid-answer when unsure. Ask me to add, revise, or prune a section — or attach an old draft (.txt) or reference image. Patch mode returns a reviewable plain-text changeset, and "Paste patch" applies a patch document written elsewhere.</p>
                     </div>
                 </div>
             </div>
@@ -212,6 +212,19 @@
                 </div>
             </div>
 
+            <!-- Paste an externally-written patch document (plain text, path-addressed) -->
+            <div class="ss-paste-panel" id="ss-paste-panel" hidden>
+                <div class="ss-panel-head">
+                    <h3>Paste patch document</h3>
+                </div>
+                <textarea class="ss-paste-text" id="ss-paste-text" rows="10"
+                          placeholder="# summary: 一句话概述&#10;=== update 1.7 ===&#10;reason: …&#10;---&#10;（新正文，可几万字）&#10;=== append 1 世界观 / 1.2 ===&#10;---&#10;（追加的正文）"></textarea>
+                <div class="ss-patch-actions">
+                    <button class="ss-btn ss-btn-ghost" id="ss-paste-cancel" type="button">Cancel</button>
+                    <button class="ss-btn" id="ss-paste-parse" type="button">Parse &amp; preview</button>
+                </div>
+            </div>
+
             <form class="ss-chat-form" id="ss-chat-form">
                 <p class="ss-slot-note" id="ss-slot-note" hidden></p>
                 <div class="ss-chat-row">
@@ -226,6 +239,8 @@
                         <input type="checkbox" id="ss-patch-mode" />
                         <span>Patch mode</span>
                     </label>
+                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-paste-patch" type="button"
+                            title="Paste a plain-text patch document written elsewhere and apply it here">Paste patch</button>
                     <button class="ss-btn" id="ss-chat-send" type="submit">Send</button>
                 </div>
             </form>

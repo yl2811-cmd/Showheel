@@ -79,6 +79,30 @@ public sealed class StoryPatchService
 
     // --- validation ---
 
+    /// <summary>
+    /// Resolves human/model-friendly path references (targetPath/parentPath) to node ids
+    /// in place, so the rest of the pipeline works on ids while the model never sees a
+    /// GUID. Resolution failures become validation errors.
+    /// </summary>
+    private static void ResolvePaths(StoryPatch patch, StoryTree tree, PatchResult result)
+    {
+        foreach (var op in patch.Ops)
+        {
+            if (string.IsNullOrEmpty(op.TargetId) && !string.IsNullOrWhiteSpace(op.TargetPath))
+            {
+                var r = StoryPath.Resolve(tree, op.TargetPath);
+                if (r.Success) op.TargetId = r.Node!.Id;
+                else result.Errors.Add($"{op.Op}: {r.Error}");
+            }
+            if (string.IsNullOrEmpty(op.ParentId) && !string.IsNullOrWhiteSpace(op.ParentPath))
+            {
+                var r = StoryPath.Resolve(tree, op.ParentPath);
+                if (r.Success) op.ParentId = r.Node!.Id;
+                else result.Errors.Add($"{op.Op}: {r.Error}");
+            }
+        }
+    }
+
     private static PatchResult Validate(StoryPatch patch, StoryTree tree)
     {
         var result = new PatchResult { Success = true };
@@ -89,31 +113,36 @@ public sealed class StoryPatchService
             return result;
         }
 
+        ResolvePaths(patch, tree, result);
+
         foreach (var op in patch.Ops)
         {
             var kind = op.Op.Trim().ToLowerInvariant();
+            var targetRef = op.TargetPath ?? op.TargetId;
+            var parentRef = op.ParentPath ?? op.ParentId;
+            // A path that failed to resolve already produced an error in ResolvePaths;
+            // don't double-report it here.
+            var targetUnresolved = string.IsNullOrEmpty(op.TargetId) && !string.IsNullOrWhiteSpace(op.TargetPath);
+            var parentUnresolved = string.IsNullOrEmpty(op.ParentId) && !string.IsNullOrWhiteSpace(op.ParentPath);
             switch (kind)
             {
                 case "add":
-                    if (!string.IsNullOrEmpty(op.ParentId) && tree.Find(op.ParentId) is null)
-                        result.Errors.Add($"add: parent '{op.ParentId}' not found.");
+                    if (!parentUnresolved && !string.IsNullOrEmpty(op.ParentId) && tree.Find(op.ParentId) is null)
+                        result.Errors.Add($"add: parent '{parentRef}' not found.");
                     if (string.IsNullOrWhiteSpace(op.Title) && string.IsNullOrWhiteSpace(op.Content))
                         result.Errors.Add("add: needs a title or content.");
                     break;
                 case "update":
                 case "append":
-                    if (string.IsNullOrEmpty(op.TargetId) || tree.Find(op.TargetId) is null)
-                        result.Errors.Add($"{kind}: target '{op.TargetId}' not found.");
-                    break;
                 case "delete":
-                    if (string.IsNullOrEmpty(op.TargetId) || tree.Find(op.TargetId) is null)
-                        result.Errors.Add($"delete: target '{op.TargetId}' not found.");
+                    if (!targetUnresolved && (string.IsNullOrEmpty(op.TargetId) || tree.Find(op.TargetId) is null))
+                        result.Errors.Add($"{kind}: target '{targetRef}' not found.");
                     break;
                 case "move":
-                    if (string.IsNullOrEmpty(op.TargetId) || tree.Find(op.TargetId) is null)
-                        result.Errors.Add($"move: target '{op.TargetId}' not found.");
-                    if (!string.IsNullOrEmpty(op.ParentId) && tree.Find(op.ParentId) is null)
-                        result.Errors.Add($"move: parent '{op.ParentId}' not found.");
+                    if (!targetUnresolved && (string.IsNullOrEmpty(op.TargetId) || tree.Find(op.TargetId) is null))
+                        result.Errors.Add($"move: target '{targetRef}' not found.");
+                    if (!parentUnresolved && !string.IsNullOrEmpty(op.ParentId) && tree.Find(op.ParentId) is null)
+                        result.Errors.Add($"move: parent '{parentRef}' not found.");
                     if (!string.IsNullOrEmpty(op.TargetId) && op.TargetId == op.ParentId)
                         result.Errors.Add("move: a node cannot be its own parent.");
                     break;

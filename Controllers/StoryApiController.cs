@@ -325,8 +325,10 @@ public sealed class StoryApiController : ControllerBase
     {
         var gate = RequireSlot();
         if (gate is not null) return gate;
-        if (!_coauthor.IsConfigured)
-            return BadRequest(new { error = "Co-author provider not configured." });
+        var providerError = TryBuildProvider(req.Provider, out var provider);
+        if (providerError is not null) return BadRequest(new { error = providerError });
+        if (provider is null && !_coauthor.IsConfigured)
+            return BadRequest(new { error = "Co-author provider not configured. Configure a model provider to chat." });
         if (string.IsNullOrWhiteSpace(req.Message))
             return BadRequest(new { error = "Message is required." });
 
@@ -337,7 +339,7 @@ public sealed class StoryApiController : ControllerBase
 
         var thinking = ThinkingLevelExtensions.Parse(req.Thinking);
         var images = await ResolveImagesAsync(req.ImageDataUrls, req.NodeAssetIds, ct);
-        var (reply, citations) = await _coauthor.ChatAsync(req.Message, history, images, thinking, ct);
+        var (reply, citations) = await _coauthor.ChatAsync(req.Message, history, images, thinking, provider, ct);
         return Ok(new { reply, citations, telemetry = _telemetry.Snapshot() });
     }
 
@@ -376,9 +378,12 @@ public sealed class StoryApiController : ControllerBase
         if (gate is not null) return gate;
         var tree = await _tree.GetTreeAsync(ct);
         if (tree is null) return BadRequest(new { error = "Decompose the story first." });
-        if (!_coauthor.IsConfigured) return BadRequest(new { error = "Co-author provider not configured." });
+        var providerError = TryBuildProvider(req?.Provider, out var provider);
+        if (providerError is not null) return BadRequest(new { error = providerError });
+        if (provider is null && !_coauthor.IsConfigured)
+            return BadRequest(new { error = "Co-author provider not configured. Configure a model provider to run this check." });
         var thinking = ThinkingLevelExtensions.Parse(req?.Thinking);
-        return Ok(new { report = await _coauthor.AuditAsync(tree, thinking, ct), telemetry = _telemetry.Snapshot() });
+        return Ok(new { report = await _coauthor.AuditAsync(tree, thinking, provider, ct), telemetry = _telemetry.Snapshot() });
     }
 
     // ---- Uploads (txt drafts, images) ----
@@ -417,13 +422,15 @@ public sealed class StoryApiController : ControllerBase
     {
         var gate = RequireSlot();
         if (gate is not null) return gate;
-        if (!_coauthor.IsConfigured)
-            return BadRequest(new { error = "Co-author provider not configured." });
+        var providerError = TryBuildProvider(req.Provider, out var provider);
+        if (providerError is not null) return BadRequest(new { error = providerError });
+        if (provider is null && !_coauthor.IsConfigured)
+            return BadRequest(new { error = "Co-author provider not configured. Configure a model provider to propose patches." });
         if (string.IsNullOrWhiteSpace(req.Instruction))
             return BadRequest(new { error = "Instruction is required." });
 
         var thinking = ThinkingLevelExtensions.Parse(req.Thinking ?? "high");
-        var patch = await _coauthor.ProposePatchAsync(req.Instruction, req.DraftText, req.ImageDataUrls, thinking, ct);
+        var patch = await _coauthor.ProposePatchAsync(req.Instruction, req.DraftText, req.ImageDataUrls, thinking, provider, ct);
         var validation = await _patch.ValidateAsync(patch, ct);
         return Ok(new { patch, valid = validation.Success, errors = validation.Errors, telemetry = _telemetry.Snapshot() });
     }
@@ -459,10 +466,11 @@ public sealed class StoryApiController : ControllerBase
     public sealed record SetContentRequest(string? Content);
     public sealed record SetTranslationRequest(string? Lang, string? Text);
     public sealed record AssetRef(string NodeId, string AssetId);
-    public sealed record ChatRequest(string Message, List<ChatTurn>? History, List<string>? ImageDataUrls, List<AssetRef>? NodeAssetIds, string? Thinking);
+    public sealed record ChatRequest(string Message, List<ChatTurn>? History, List<string>? ImageDataUrls, List<AssetRef>? NodeAssetIds, string? Thinking, ProviderRequest? Provider);
     public sealed record ChatTurn(string Role, string Content);
-    public sealed record AuditRequest(string? Thinking);
-    public sealed record ProposePatchRequest(string Instruction, string? DraftText, List<string>? ImageDataUrls, string? Thinking);
+    public sealed record ProviderRequest(string? BaseUrl, string? ApiKey, string? Model, int? MaxContextTokens);
+    public sealed record AuditRequest(string? Thinking, ProviderRequest? Provider);
+    public sealed record ProposePatchRequest(string Instruction, string? DraftText, List<string>? ImageDataUrls, string? Thinking, ProviderRequest? Provider);
     public sealed record TranslateRequest(string? Text, string? TargetLang);
     public sealed record LoginRequest(string? Password);
 
@@ -478,6 +486,34 @@ public sealed class StoryApiController : ControllerBase
             HttpContext.Session.SetString(OwnerSessionKey, owner);
         }
         return owner;
+    }
+
+    private static string? TryBuildProvider(ProviderRequest? provider, out ProviderOptions? result)
+    {
+        result = null;
+        if (provider is null) return null;
+        var any =
+            !string.IsNullOrWhiteSpace(provider.BaseUrl) ||
+            !string.IsNullOrWhiteSpace(provider.ApiKey) ||
+            !string.IsNullOrWhiteSpace(provider.Model) ||
+            provider.MaxContextTokens is not null;
+        if (!any) return null;
+
+        if (string.IsNullOrWhiteSpace(provider.BaseUrl) ||
+            string.IsNullOrWhiteSpace(provider.ApiKey) ||
+            string.IsNullOrWhiteSpace(provider.Model))
+            return "Model provider requires Base URL, API key, and model.";
+        if (provider.MaxContextTokens is not null && provider.MaxContextTokens <= 0)
+            return "Model provider max context tokens must be greater than zero.";
+
+        result = new ProviderOptions
+        {
+            BaseUrl = provider.BaseUrl.Trim(),
+            ApiKey = provider.ApiKey.Trim(),
+            Model = provider.Model.Trim(),
+            MaxContextTokens = provider.MaxContextTokens
+        };
+        return null;
     }
 
     /// <summary>Constant-time string compare to avoid leaking the password length via timing.</summary>

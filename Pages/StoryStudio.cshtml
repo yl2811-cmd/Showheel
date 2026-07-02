@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model Showheel.Pages.StoryStudioModel
 @{
     ViewData["Title"] = "Story Studio — Skies Beyond the Star";
@@ -157,8 +157,36 @@
                             <option value="max">Max</option>
                         </select>
                     </label>
-                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-audit" type="button" title="Scan the whole book for duplication / contradiction / stale content">Audit</button>
+                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-model-config" type="button" title="Configure the co-author model provider">Model</button>
                     <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-chat-clear" type="button" title="Clear the conversation">Clear</button>
+                </div>
+            </div>
+            <div class="ss-model-config" id="ss-model-config-panel" hidden>
+                <div class="ss-model-config-grid">
+                    <label class="ss-model-field">
+                        <span>Label</span>
+                        <input class="ss-input ss-input-sm" id="ss-model-label" type="text" placeholder="Co-author provider" />
+                    </label>
+                    <label class="ss-model-field ss-model-field-wide">
+                        <span>Base URL</span>
+                        <input class="ss-input ss-input-sm" id="ss-model-base-url" type="url" placeholder="https://api.example.com/v1" />
+                    </label>
+                    <label class="ss-model-field">
+                        <span>API key</span>
+                        <input class="ss-input ss-input-sm" id="ss-model-api-key" type="password" placeholder="sk-..." autocomplete="off" />
+                    </label>
+                    <label class="ss-model-field">
+                        <span>Model</span>
+                        <input class="ss-input ss-input-sm" id="ss-model-name" type="text" placeholder="model-name" />
+                    </label>
+                    <label class="ss-model-field">
+                        <span>Max context</span>
+                        <input class="ss-input ss-input-sm" id="ss-model-context" type="number" min="1" step="1" placeholder="optional" />
+                    </label>
+                </div>
+                <div class="ss-model-config-actions">
+                    <button class="ss-btn ss-btn-ghost ss-btn-sm" id="ss-model-clear-config" type="button">Clear</button>
+                    <button class="ss-btn ss-btn-sm" id="ss-model-save-config" type="button">Save</button>
                 </div>
             </div>
             <div class="ss-chat" id="ss-chat">

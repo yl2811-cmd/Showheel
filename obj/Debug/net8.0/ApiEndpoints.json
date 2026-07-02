@@ -320,6 +320,22 @@
   },
   {
     "ContainingType": "Showheel.Controllers.StoryApiController",
+    "Method": "ParsePatchDoc",
+    "RelativePath": "api/story/patch/parse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Showheel.Controllers.StoryApiController\u002BParsePatchRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Showheel.Controllers.StoryApiController",
     "Method": "ProposePatch",
     "RelativePath": "api/story/patch/propose",
     "HttpMethod": "POST",

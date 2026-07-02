@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yl281\\AppData\\Local\\Temp\\cursor-sandbox-cache\\f66d3ed4a719ac3296c0bd5559a27584\\nuget": {},
+    "C:\\Users\\yl281\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,7 +17,7 @@
       "projectUniqueName": "D:\\新建文件夹 (5)\\Showheel\\Showheel.csproj",
       "projectName": "Showheel",
       "projectPath": "D:\\新建文件夹 (5)\\Showheel\\Showheel.csproj",
-      "packagesPath": "C:\\Users\\yl281\\AppData\\Local\\Temp\\cursor-sandbox-cache\\f66d3ed4a719ac3296c0bd5559a27584\\nuget",
+      "packagesPath": "C:\\Users\\yl281\\.nuget\\packages\\",
       "outputPath": "D:\\新建文件夹 (5)\\Showheel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [

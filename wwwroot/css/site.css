@@ -1110,6 +1110,40 @@ main {
 }
 .ss-think select:focus { outline: none; border-color: var(--accent); }
 
+.ss-model-config {
+    margin: 0 0 12px;
+    padding: 12px;
+    border: 1px solid var(--ss-line, var(--line));
+    border-radius: 12px;
+    background: var(--ss-panel-solid, rgba(9, 20, 33, 0.94));
+}
+.ss-model-config-grid {
+    display: grid;
+    grid-template-columns: minmax(140px, 0.8fr) minmax(180px, 1.2fr) minmax(160px, 1fr) minmax(150px, 0.8fr);
+    gap: 10px;
+}
+.ss-model-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+    font-size: 0.72rem;
+    color: var(--ss-muted, var(--text-muted));
+}
+.ss-model-field-wide { grid-column: span 2; }
+.ss-model-config-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 10px;
+}
+@media (max-width: 900px) {
+    .ss-model-config-grid {
+        grid-template-columns: 1fr;
+    }
+    .ss-model-field-wide { grid-column: auto; }
+}
+
 .ss-chat-row { display: flex; gap: 8px; align-items: flex-start; }
 .ss-chat-row .ss-chat-input { flex: 1; }
 .ss-chat-send-row {

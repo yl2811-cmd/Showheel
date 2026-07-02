@@ -1,0 +1,1222 @@
+。。。。。。。。。。。。。 incompatible content in 1-4
+
+
+For now, Atwood kept her attention on the numbers in her hand and on the charred curve of that first tree's trunk at the edge of her vision, one step at a time across a planet that had just learned a new kind of weather.
+
+
+
+
+
+5.Decades of reinvention
+Atwood sat alone in the cramped work alcove at the back of the main hall, shoulders rounded over a folding table that had once belonged in a surface conference room. The overhead strip was dimmed to save power; its light drew a small, precise circle on the tabletop and left the rest of the bunker in shadow.
+
+Her wristband buzzed.
+
+ARK EXPLORER — EMERGENCY SCIENCE BROADCAST
+
+[TIME TAG: DELAYED TRANSMISSION — ARCHIVAL]
+
+A thinner line of text appeared beneath, then faded:
+
+Origin: Ark Explorer — thirty light-days inward.
+Forwarded: Axiom relay. Link degraded.
+
+For a moment she only watched the words on her skin, waiting for them to resolve into something routine.
+
+Ark’s last confirmed packet—weeks before the wave—had been exactly that: routine. Language built to let people sleep. Within tolerance. Requires additional baselines. No action recommended. It had traveled with cargo manifests and duty rosters and the quiet assumption that shuttles would keep arriving when their icons said they would.
+
+This alert had a different frame. No courier tag. No arrival window. DELAYED. ARCHIVAL. It read like something sent because there had been no time to send anything better.
+
+She told the band to pull it down to the local cache.
+
+Across the bunker, the small status panel that mirrored the old dome board flickered once. Ark Explorer’s icon, which had sat all day with its caption on PACKET PENDING, shifted to a simple check mark. The space where a time estimate would normally scroll remained blank: a gray bar and a completed task, nothing more.
+
+The slate on the table woke under her hand, shifting from standby blue to a grid of icons. The Ark tag pulsed at the top of the queue. She opened it.
+
+Graphs and tables filled the screen—clean lines, crisp fonts, too precise against the dim bunker light and stale air. The first plot was a light curve: Betelgeuse’s brightness across the days around core collapse. It ran steady, then climbed hard into the top of the scale and held there until the instrument saturated. Hours later it eased into a controlled decline.
+
+She ran a finger along the glass, feeling the dry drag of her skin.
+
+She scrolled. Spectra—before and after. The broad, blurred features of a red supergiant gave way to narrow, bright lines. Another page summarized mass loss and remnant estimates, error bars widening step by step until they stopped pretending to be small.
+
+Ark’s team had annotated everything with the blunt care she recognized: timestamps, short notes, margins kept orderly even when the data was not.
+
+In the corner of each page, the header repeated:
+
+LOCAL MISSION TIME: 0.3 DAYS AFTER CORE COLLAPSE
+
+It marked the same fact every time: they had seen the event almost as soon as physics allowed and recorded it as it happened.
+
+Near the end, a summary line stood alone in plain text:
+
+Local hazard to Archeon surface: severe but survivable, contingent on bunker protocols.
+
+Atwood’s throat tightened.
+
+She had written that sentence once—her own careful phrasing, revised through committees and risk boards until it was something that could be laminated and taped to concrete. She could see the version on the bunker wall in her mind, with her handwriting underneath, ink slightly smeared where her thumb had pressed too hard.
+
+She scrolled past the last chart.
+
+A voice file sat at the bottom of the packet. Optional. Habit.
+
+She tapped play and kept the volume low.
+
+“Archeon station,” a rough, tired voice said. “If this reaches you after the main event, I hope the numbers were good enough. We’d appreciate confirmation once you can spare it. If you’re reading this ahead of time—well. You’ve still got some loud nights coming.”
+
+Paper rustled near the microphone.
+
+“We’ll keep watching from here as long as we can. Good luck down there.”
+
+The clip ended. The air of the bunker seemed to move back into place.
+
+For a moment the slate held the play icon, a fragment of the last word stretched and distorted before the interface cleared and the room settled into its usual sounds: ventilation, distant footsteps, the soft click of relays.
+
+Across the bunker, the status panel cycled back to its idle wash of green. No one looked up.
+
+Atwood closed the packet and reached for her notebook.
+
+It was a plain bound book with a worn synthetic cover and a faint crease across the middle from years at the bottom of a supply crate. Someone had stamped a label on the front:
+
+BASIN SEVEN FIELD NOTES, 2508–
+
+She had written half a dozen pages in it before event, neat observations about test orchards and soil amendments. The last pre-event line noted a minor fault in a tower scrubber and a reminder to send a thank-you message back along the corridor for a batch of replacement sealant.
+
+Now she uncapped a pen and drew a single, straight line through the printed title.
+
+On the next line she wrote, slowly,
+
+Year 0 after Sky Fire – Basin Seven Notes.
+
+The ink soaked into the paper with a tiny feathering at the edges. In the margin she added the old date, out of habit, then left a blank space, unsure what to call the day anymore.
+
+She began with the things that could be measured.
+
+External dose rate at bunker entrance: [value]. Ambient air composition in surface sample #001: elevated particulates, anomalous isotopes consistent with predicted fallout. Tower integrity at nearest ridge line: structural sound, external surface scoring.
+
+She wrote about the orchard rows, how the leaves had looked from the bunker mouth, how the ash lay in a thin, even skin over the soil. At the edge of the page she sketched the silhouette of the first apple tree's charred trunk, the training frame around it a box of quick, economical lines.
+
+Underneath she added,
+
+First apple tree: lost in initial wave.
+
+Her hand hesitated.
+
+In the space between the last measurement and the sketch, a thought tried to surface. The old training told her what these notes were for. The Federation's hazard committees would want a clear record of how well their models had performed.
+
+She wrote, in small letters along the bottom edge of the sheet,
+
+When the corridor opens again, these records will give them anchors.
+
+The words steadied something inside her. They made the tree's death and the bunker's claustrophobia part of a larger report, something she knew how to write.
+
+She filled the rest of the first page with numbers and observations until the space ran out. When she closed the notebook at last, the cover felt heavier in her hand.
+
+Above the bunker, buried in dirty air and the newborn nebula's faint glare, the Axiom traced its wounded orbit. On clear nights its path showed as a slow-moving star, too steady and deliberate to be natural. Inside its hull, if the systems still held, the old shipmind would be recording its own data, its own dying graphs.
+
+Down here, the bunker settled into the long, measured breathing of people who had survived something they did not yet understand.
+
+Atwood slid the notebook into the side pocket of her emergency bag.
+
+When the corridor opened again, she thought, the Federation would have the story.
+
+Time sorted itself into practical increments: maintenance cycles, the slow unwinding of radiation curves. Seasons still came, even if their edges had changed.
+
+The first winter after Sky Fire bit deeper than any model had predicted. Wind scoured the ridges raw; fine dust infiltrated seals that had held perfectly before. Half the central orchard died back to black sticks. The second spring stumbled in with hesitant green.
+
+On a day when the dosimeters finally allowed crews more than an hour topside at a stretch, Atwood and Nakamura forced open the door to an old cold-storage annex.
+
+The emergency lights flickered uncertainly over racks of sealed containers. Frost feathered the plastic edges. Labels showed through the ice in smudged, clouded letters.
+
+"Someone was optimistic," Nakamura muttered, wiping a sleeve across one panel. "Look at this. Coffee varietals. As if anyone would waste cold storage on beans now."
+
+"At least they sealed them properly," Atwood said. Her breath fogged in front of her.
+
+Halfway down the aisle, a small, unassuming box sat behind a crate of micro-fertilizer. The lettering had peeled in one corner but remained legible.
+
+EARTH APPLE SEEDS – LOT 3. TERRAFORMING CORPS.
+
+Nakamura stared at it, then at Atwood.
+
+"That from your first shipment?" she asked.
+
+"At least the same batch." Atwood brushed ice away with bare fingers, ignoring the chill. "We never got around to planting all of them."
+
+"Good thing the universe waited," Nakamura said. The joke came out thin and crooked, but it existed. "We're short a tree."
+
+They carried the box outside together.
+
+The new settlement—no longer a temporary camp, not yet anything so arrogant as a city—had grown up around the bunker mouth and the old admin hill. Containers and prefab walls had fused into something more organic: patched corridors, windbreaks, a market square that had started as a convenient flat spot and refused to shrink again.
+
+In the center of that square, someone had cleared a space of churned dirt and broken asphalt. The outline of an old landing pad still ghosted the ground.
+
+"Karimi tapped his boot heel against the soil. "This spot gets good drainage," he insisted. "And you wanted it where the kids will see it. I'm not rebuilding half a levee for a tree that floods every third year."
+
+She dug with real shovels, gloved hands pushing into soil that still carried a faint chemical tang from early remediation. People gathered without needing an announcement. Children perched on stacked crates. Someone brought a battered camera slate and held it up with ceremonial intent, even though no one knew how long its battery would last.
+
+When the hole was ready, Atwood knelt with the seedling tray they had coaxed from the cold stock. A thin stem, a few leaves shivering in the breeze.
+
+She set the roots carefully into the earth, hands firm.
+
+Nakamura watched, eyes narrowed against the wind.
+
+"Best if she learns to duck sooner this time," she said quietly. "The sky has opinions."
+
+Atwood rested her palm briefly against the damp soil.
+
+"If you last," she murmured, "then it means we did something right."
+
+There was no speech beyond that. People took turns shoring the soil back around the stem, pressing it down. Someone hammered together a frame from salvaged beams, a smaller cousin of the training rig that had once protected the first tree. A child in an oversized jacket leaned over the edge of the pit and patted the dirt with both hands, leaving messy prints.
+
+When they stepped back, the sapling stood alone in the middle of the square, thin and uncertain, but upright.
+
+The seedling shivered. Above it, the nebula stretched in a broader smear than it had the year before, the wound in the sky beginning to show shape.
+
+Times—not many, but enough to count—passed in layers of ink.
+
+Atwood filled the first notebook and then another. She logged dose rates and wind directions, tower failures and repairs, seed germination percentages. In the margins she sketched the new tree as it grew: first a fragile line barely higher than her knee, later a tangle of branches that finally offered a patch of shade big enough for two children to sit under.
+
+The second summer, the branches reached high enough to snag the occasional stray kite. The children began to treat the frame around the tree as a natural meeting place.
+
+Later, when Atwood checked it, she recognized Ortiz's youngest's cramped handwriting crowding the fabric; the letters ran downhill even as the cloth fluttered.
+
+There was no particular plan behind it. The cloth had carried a childish scrawl.
+
+By the end of the week, a half-dozen similar scraps fluttered there, catching the wind.
+
+The real beginning came the following year, on a day of clear air and thin clouds when the square smelled of hot metal and cooking oil.
+
+A boy of perhaps eight stood under the tree with a scrap of wood in his hands. The letters he had burned into it with a soldering tip were large and uneven, crowding one another.
+
+"To the ships that will come back – I want to ride one."
+
+He held it up, expression swinging between pride and embarrassment.
+
+A few adults nearby exchanged glances. Someone huffed a breath that hoped to be a laugh and failed.
+
+"Your O's are sideways," Karimi pointed out, because that was easier than addressing the sentence itself. "Give it here."
+
+She drilled a hole at the top of the plaque with a care usually reserved for precision work, then threaded a piece of wire through and handed it back.
+
+"Go on," she said.
+
+The boy stretched up on his toes, fingers barely reaching the lowest branch. When he managed to loop the wire over and step back, the plaque swung gently, catching the light. The carved words showed dark against the whorled wood.
+
+"If a ship ever does come through, they'll see that first thing," someone muttered, tone wry.
+
+"Then they'll know they owe us at least one ride," another answered.
+
+The knot of people under the tree parted for Atwood as she approached, more from habit than ceremony. She looked at the plaque for a long moment.
+
+Communication arrays were being rebuilt. Somewhere along the invisible path through space, there were stations and gates and world after world.
+
+The plaque made that quiet, shared expectation visible. A single, blunt sentence swinging over bare soil.
+
+"It's a good wish," she said at last.
+
+The boy's shoulders straightened.
+
+That night in the bunker annex that had become her office, she opened the new volume of her ledger and added a line under the day's measurements.
+
+Sapling in central square strong enough to carry first wish-plaques. Child's inscription: "To the ships that will come back – I want to ride one."
+
+Her hand hovered after the period.
+
+We owe him a world worth riding through.
+
+The phrase tightened her throat. She put the pen down very carefully.
+
+For a while she only sat with the notebook open, the fresh ink dark against the older lines. The bunker around her had settled into its late-shift sounds: a distant murmur from the card tables in the main hall, the soft, periodic click of the air recycler kicking a little harder. Somewhere down the corridor, the shipmind's voice announced a minor power re-route in its usual flat tone.
+
+Raised voices, low but insistent, bled in from the annex outside.
+
+"—it just stops," someone complained. "Look, right there. The whole section's gone."
+
+Atwood closed the ledger halfway and stood. The annex had once been a storage bay; now its walls carried mismatched shelves and a scattering of consoles salvaged from the old dome. A portable projector had been dragged out and pointed at a patch of bare concrete. Its light washed the room in a thin, bluish rectangle.
+
+Two younger technicians stood in front of the projection, shoulders hunched as if proximity might coax more information out of it. Hsiang leaned against a crate nearby, arms folded, watching them with the patient exasperation of someone whose shift had run long. On the wall, a schematic for an atmospheric tower control loop sprawled in neat Federation lines—until, halfway down, the diagram dissolved into a block of digital static and a thick bar of missing text.
+
+"We pulled three copies from the archive," one of the techs said as Atwood approached. "They're all like this. We asked the shipmind to patch the gap, but—"
+
+"Shipmind," the other interrupted, raising their voice slightly. "Repeat last requested section from alternate source."
+
+"Unable to comply," the shipmind replied from a ceiling speaker. "Source segment integrity compromised. Local redundant copies match existing corruption."
+
+The first tech scrubbed a hand over their face. "So give us a different explanation. Training module, lecture notes, anything."
+
+There was a pause, as if the system were riffling through drawers they could not see.
+
+"Additional explanatory material for this topic is stored in restricted Federation operations libraries," it said at last. "Local credentials insufficient. Remote authority required for override. Remote authority currently unreachable."
+
+Hsiang's mouth twitched. "There's your corridor problem in one sentence," he muttered. "The keys are on the other side."
+
+The younger of the two techs turned, frustration bright in their eyes. "So how are we supposed to learn this? Half the control scheme for the ridge towers is 'refer to appendix C,' and appendix C is teeth marks."
+
+Atwood studied the broken diagram. The surviving lines were familiar; she could feel, in her hands and in the long ledger entries behind her, where the missing section ought to have gone.
+
+"You know enough not to blow the tower up on the first try," she said. "That's something."
+
+It earned a weak, unwilling snort. It didn't resolve the tightness between their brows.
+
+She looked back toward the office where her notebook waited, its last line still open like a promise. A boy's plaque swung in her memory, the uneven letters wanting a ship to come down and offer him a ride.
+
+"All right," she said. "Kill the sim."
+
+One of the techs tapped a control. The schematic vanished. The wall turned back into pitted concrete, ghosted with the afterimage.
+
+Atwood picked up a stub of chalk from a nearby crate—someone had been marking crate numbers with it earlier—and drew a quick box where the missing section had been.
+
+"We don't have appendix C," she said. "We do have last winter."
+
+She nodded toward the nearest console. "Shipmind, bring up tower telemetry for Ridge Line Twelve through Fourteen, cold season, weeks twenty to twenty-four. Overlay wind profiles."
+
+"Acknowledged," the shipmind said. Numbers scrolled up on the console's screen. A moment later, simple graphs bloomed on the wall as the projector caught the feed: jagged lines for wind speed, smoother curves for scrubber loads, little flags where emergency thresholds had almost been tripped.
+
+"This part," Atwood said, circling a section of the curve with chalk, "is where the gap in your schematic ought to be explaining itself. Watch what the real tower did when the gust pattern changed direction."
+
+Hsiang shifted his weight off the crate, straightening without quite meaning to. The two younger techs drew closer. One fumbled for a notebook; the other simply watched, eyes tracking the chalk as if it were a rope thrown across a hole.
+
+Atwood talked them through it: where the control loop shortened itself in practice, which safeguards turned out to be more superstition than necessity, which alarms could be safely ignored if another set was quiet. She did not use the old Federation jargon; she pointed to curves and told stories about nights she had been on the ridge, about the sound a fan made when it was a breath away from stalling.
+
+"Shipmind, confirm," one of the techs said at a lull. "Observed response matches your expected parameters?"
+
+"Within acceptable variance," it replied. "Note: current explanation is informal and not part of standard training corpus."
+
+"Add a note in the log that it works," Hsiang said. "If the manuals won't admit it, at least the towers will."
+
+The tech with the notebook glanced sideways at Atwood. "Could we... do more of this?" they asked, hesitant now that the immediate problem had been blunted. "Not just this loop. The whole system. We've been trying to read the prints in the off hours, but half of it assumes we already had courses we never got."
+
+Atwood thought of the uneven O's on the wooden plaque, of the line she had just written about what they owed. The ledger in the other room held numbers and careful sentences. Out here, faces watched her, waiting for something they could carry back into the wind.
+
+"Bring your notebooks tomorrow night," she said. "And whoever else wants to make sense of the teeth marks. We'll see how far we get before the lights go out."
+
+Karimi's head appeared briefly in the doorway, drawn by the sound of voices. He took in the chalk on the wall and the clustering of younger shoulders, one eyebrow lifting.
+
+"If you start charging tuition, warn me," he said. "I'll need to file a requisition for extra coffee."
+
+"Get us a steady power feed and we'll call it even," Atwood shot back.
+
+When the impromptu session broke up, the projector went dark, but the faint white arcs of her chalk circles remained on the wall—a rough, hand-drawn appendix C. Back at her desk, she reopened the notebook. The line about a world worth riding through met her at once.
+
+Underneath it, in smaller, tighter letters, she added,
+
+Begin evening briefings for new techs – towers, hazards, what the manuals forget to say.
+
+She did not linger over the words. The ink sank into the paper all the same.
+
+On another evening, years later, she stood in front of a small, improvised classroom in what had once been a storage bay.
+
+A dozen young technicians sat on upturned crates and salvaged chairs, faces lit by the pale wash of the projector. The air smelled of metal dust and chalk.
+
+On the desk beside her, Federation diagram lay under a paperweight, charred by supernova, it freckled with black squares where corruption had chewed straight through equations and annotations.
+
+On the wall, Ark Explorer's light curve perched beside a simplified diagram of Betelgeuse's interior. The labels had been pared down until only the essentials remained: core, shell, wavefront.
+
+The students had notebooks of their own, thinner and cleaner than hers, opened on their laps.
+
+"Walk it through," Atwood said. "What do you see?"
+
+"Rise into saturation, then decay," a young woman in the front row said. "Duration shorter than some models predicted."
+
+"Right," Atwood said. "Surface layers blew faster. That mattered for the spectrum and for the timing of the wave that hit us."
+
+A hand went up near the back. The student there wore a jacket with the crest of one of the canyon enclaves, the stitching already fraying at the cuffs.
+
+"What happened to the Ark?" he asked.
+
+Atwood looked at the graph on the wall. It was one she had seen hundreds of times now, both in Ark's data and in her own notebooks, where a printed copy hung beside lists of rainfall and tower faults.
+
+"We don't have confirmed packets after this sequence," she said. "The last log in our archive is the one you're seeing. The ship's trajectory would have carried it farther out, away from the worst of the radiation, if their drive and shielding held."
+
+"So it might still be watching," someone else said. "From... wherever it ended up."
+
+"Possibly," Atwood said. "Or it might have lost too much hardware in the second wave. Or their corridor link might have failed."
+
+The room went quiet. The possibilities all belonged to the same family: stories that could no longer be checked.
+
+She clicked to the next slide, a schematic of their own rebuilt tower control systems. The discussion moved on to things they could touch.
+
+In her ledger that night, after the lesson, she noted:
+
+Ark's final packet now used as teaching reference. Students treat ship's fate as an open variable.
+
+Then, in smaller writing,
+
+Every dataset contains missing lines somewhere.
+
+The sentence did not resolve into comfort. It did, at least, fit the world she lived in now.
+
+The first overland relief reached Basin Seven during a late thaw, sledges dragging up through the passes with crates of medicine, sacks of grain, and a handful of exhausted technicians from a southern enclave who knew how to coax life out of failing fusion stacks.
+
+In their wake came stories: domes that had held, domes that hadn't, bunkers that had flooded, a mountain shelter whose residents had rewired an old hydroelectric plant with scrap cable and sheer stubbornness.
+
+Along with the sledges came a box no larger than a coffin, its sides padded and reinforced. Inside lay the bones of a communications array: charred plates, burned-out amplifiers, a handful of surviving boards and cooling blocks from a tower that had once linked Archeon cleanly to its corridor.
+
+By the third year after Sky Fire, the basin had a working transmitter again.
+
+It lived on a bare slope above the square, where the towers had once been the tallest things on the skyline. The new antennae were spidery, patched from different generations of equipment, guy-lines running in wild geometry down to anchor points in the rock. A culvert reinforced with old shielding plates formed the equipment room at its base.
+
+The first time they powered it, people gathered as they had gathered for the tree. There was the same blend of ceremony and nervous practicality.
+
+Inside the culvert, consoles hummed with life. The shipmind spoke over the local channel, its voice attenuated through the gutted systems that remained.
+
+"Transmission band calibrated," it said. "Corridor beacon lock: unknown. Background noise level: elevated. Recommend wide-beam broadcast on standard Federation emergency channel."
+
+Ortiz looked at Atwood, eyebrows raised.
+
+"Your hazard register," she said. "Your wording. Feels right that you do the honors."
+
+Atwood hesitated. The hand she set on the console panel had a few more fine lines on it than it had the day she had written Year 0 on the notebook's first page.
+
+"What's our best guess at light-speed delay now?" she asked.
+
+"From here out to the inner relays?" The comms tech-a young man who had been a scared boy in a bunker drill, once"
+
+if the relays are still there and listening. Any ship that jumped clear of the worst of the wave will see it about then, if their boards aren't dark." He said
+
+"Long enough they won't hear us in the same year we shout," Atwood said.
+
+She forced a small breath in and out. Then she began.
+
+"This is Dr. Eleanor Atwood, Basin Seven coordination node," she said, speaking toward the pickup. Her voice sounded strange in the small room, caught between metal and plastic. "Local time: Year three after Sky Fire."
+
+She gave numbers first: survivor counts, infrastructure status, atmospheric readings. She described the nebula's spread as they saw it, the dust and radiation patterns. She reported that severe but survivable had held, with qualifiers, and that the bunkers had done their work.
+
+Finally, in a smaller voice, she said,
+
+"We remain in place. We are attempting to stabilize food production and tower function for the central basin. We will transmit regular updates as bandwidth and power allow. Please confirm receipt when conditions permit."
+
+The tech's fingers flew. A pulse of carrier went out along the bandwidth, climbing the makeshift antenna, leaping into thin air as if that piece of sky were still a road.
+
+On the console, the outbound signal traced a bright, confident line.
+
+The inbound band read as noise.
+
+They listened to it for a while anyway. It hissed and whispered, the charged atmosphere adding its own opinion.
+
+Outside, those who had gathered waited on the slope, faces tilted upward as if they might see an answer fall.
+
+By the time the sun dipped toward the western ridge, the only new sound in the culvert was the shipmind reporting stable power draw.
+
+"Nothing's getting through the local mess yet," the comms tech said at last, rubbing the bridge of his nose. "But we've lit it up. They'll see us once the corridor clears."
+
+The ritual at the apple tree settled on a day in early autumn, after the worst of the storm season and before the winds turned knife-cold.
+
+Someone found an old Federation flag in storage, its blue faded to dust-gray, the ring of stars around its emblem worn thin. They washed it, patched the worst tears, and strung it up on a frame set beside the tree.
+
+People called it a memorial day at first. Later, when the habit grew thicker, it picked up smaller names: Flag Day, Lantern Day, Wish-Tree Day. No one seemed to mind which label stuck.
+
+On one such evening, the sky above the basin had begun to show the nebula as something more than a smear. A wide, slanting band cut across the eastern half, green along one edge, faint purple along another. The moons wove in and out of it, small and cool.
+
+Atwood stood at the edge of the square, notebook under one arm, as a younger technician read aloud from a hand-sized placard.
+
+"...projected local hazard to Archeon surface: severe but survivable, contingent on immediate implementation of bunker protocols," the woman intoned. The words had been copied from Atwood's own handwriting into formal bunker script, then onto the plaque.
+
+Parents kept children close as they listened, though the worst danger had long since passed. When the reading finished, an older man with wind-creased skin lifted his voice.
+
+"They knew we were here when they wrote that," he said. "They'll know we survived. The corridor's just... bent out of shape. Once they can thread it again, they'll send someone."
+
+Heads nodded. The assertion fit the grooves of old faith.
+
+Nearby, the wish-plaques clattered softly against one another. The earliest ones had begun to fade; newer pieces of wood and cloth crowded in around them. Some carried jokes. Some carried grief. A few still addressed ships directly.
+
+To whoever comes from the corridor, bring news of home.
+
+Tell the people on old Earth we remembered to plant their trees.
+
+The wind tugged at the strips and lifted the old flag so its patched fabric rippled.
+
+Later that night, after she had helped roll up the flag and stack the benches away, Atwood sat by lantern light and opened her current notebook.
+
+Her hand wrote almost without thinking.
+
+When the corridor reopens, they'll need a clear record of where we stand. Keep logging tower performance and basin health.
+
+She paused midway through reopens, the pen tip hanging over the page.
+
+Slowly, she drew a line through the word. Not a hard strike, just a thin bar.
+
+Underneath, she wrote,
+
+When someone reads this on the other side, they'll need a clear record.
+
+The subject of the verb shrank from certainty to possibility. She did not point it out to anyone. When she closed the book, the change rode with her anyway.
+
+The broadcast schedule held for years.
+
+Whenever the atmosphere settled enough that the transmitter could run at full strength without frying itself, they lined up fresh reports: contamination maps, agricultural yields, tower schematics, casualty statistics. Atwood signed many of them; other engineers and administrators signed the rest. The shipmind timed the bursts so they had the best chance of piercing the local interference.
+
+Each time, after the outgoing band went quiet, someone stayed a little longer with the headphones on, listening for an answering pattern under the noise.
+
+"For a long time, it was always the same: hiss, crackle, no pattern."
+
+Other problems clamored for attention. Towers needed overhaul. A smaller enclave's last reactor died and had to be cannibalized. A plague of algae choked a reservoir. Salvage teams prepared for their first serious runs at the Axiom, whose orbit had begun to sag enough for brief, dangerous rendezvous.
+
+On a clear dawn, Atwood watched from the admin hill as a tiny shining thread rose from the far side of the basin: a patched shuttle, its ascent engine coughing blue-white flame. It clawed its way upward, aiming for the crippled ship whose reflection tracked across the surface of the reservoir.
+
+"That thing really going to make it up there?" a young mechanic at her side asked. He had grease along his jawline and a nervous squint.
+
+"It'll reach the lower edge of the orbit," Atwood said. "They'll match velocity and do what they can before they drop back. The drive casing's the real prize. Some of the shielding too."
+
+"And the core?"
+
+"Too hot to touch," she said. "Too big for our lift. They'll strip its bones, not its heart."
+
+He grunted, comforted and disappointed in equal measure.
+
+The shuttle dwindled into a spark against the brighter spark of the Axiom. For a moment, two artificial points of light hung almost together, moving against the slow wash of the nebula. Then the shuttle on ascent burned out of sight.
+
+Atwood's gaze dropped to the horizon, to where the transmitter's mast pierced the air.
+
+"They rebuilt that," the mechanic said, following her eyes. "You think anyone's heard us yet?"
+
+"They've heard someone," she said. "Whether they can answer is another question."
+
+"Seems like we'd have heard them by now," he said softly.
+
+The thought had lived in her ever since the first burst of static. Hearing it aloud carried a different weight.
+
+In her ledger that evening, she found a fresh page and wrote a line beneath the day's measurements.
+
+No confirmed corridor response as of Year Ten. Local assumptions beginning to shift from delay to doubt.
+
+She let the ink dry before she closed the book.
+
+The shift did not arrive all at once. It crawled.
+
+In meetings, younger planners started treating the corridor as a variable with low weight instead of as a given. When they modeled resource usage, they no longer included a column for "offworld imports resuming" beyond the far right edge of their tables.
+
+Under the apple tree, the tone of wish-plaques changed.
+
+There were still a few that faced the sky.
+
+If ships come, send a pilot who's good at jokes.
+
+More often now the wishes faced sideways.
+
+Hope the west tower makes it through this winter.
+
+Hope I pass the maintenance exam.
+
+Hope we get enough spare parts for the skimmer's lift fans.
+
+During one Lantern Day, Atwood sat on a bench beneath the thickening canopy while a child pressed close to her side, small knees bumping against her thigh. The tree had grown broad enough that evening lanterns hanging from its branches cast overlapping pools of light.
+
+"Do you still think they'll come?" the child asked. She could not remember his name—one of the many who had grown up under this sky, familiar in face if not in label.
+
+He watched her with the earnest, dangerous gaze of someone for whom adults' answers were still structures to stand upon.
+
+The easy reassurance caught at the back of her throat. Saying of course would turn her own pages into wishful thinking.
+
+She let the silence stretch long enough for her to feel its shape.
+
+"I think," she said slowly, "that we should live as if no one is coming. Build the towers. Fix the pumps. Make this place hold."
+
+The child's brows drew together.
+
+"And the door?" he asked. "The transmitter?"
+
+"We keep it open," she said. "In case someone does come. It costs us little to listen."
+
+Someone nearby was telling a story about Earth—a dome instructor's treasured memory of rain against an ancient city's glass roof. The children being told it laughed at the idea of so many buildings stuck so close together. For them, Earth lived somewhere between history and bedtime myth.
+
+The lanterns swung. Above the branches, the nebula's band cut across the stars with an easy, practiced arrogance.
+
+In her notebook that night, Atwood wrote,
+
+The door stays open. The house is our own.
+
+She did not add we have stopped setting an extra place at the table, but the thought lived between the lines.
+
+The formal decision about the transmitter came later, in a small room with too many papers pinned to the walls and a cup of stale coffee cooling by her elbow.
+
+The local council sat around a table scrounged from three different pieces of furniture. Storm season had chewed at the antenna fields; every repair crew they had was stretched thin.
+
+"We need the power budget," said, fingers tapping against the table's scarred surface. "Weather prediction, internal relay, navigation beacons for the skimmers. Running the corridor emitter at full strength every month burns through fuel we don't have."
+
+"We promised regular updates," someone objected.
+
+"At first," Hsiang said. "When there was a realistic chance anyone would hear them. We haven't logged a single structured reply in... how long?" He glanced toward Atwood.
+
+"Since activation," she said. "Plenty of noise. No encoded signals from beyond the local system."
+
+"They might be trying," another council member said. "There's the debris bubble to consider."
+
+"They might," Hsiang said. His voice carried no contempt, only exhaustion. "We're reaching the point where 'might' costs us battery stacks and tower parts."
+
+The silence stretched. It was full of more than numbers.
+
+Atwood looked down at her notebook, open beside her hand. Earlier in the meeting she had jotted down bullet points about tower overhauls and outpost logistics. Along one side she had traced a rough line for the nebula's expansion, merely to keep her fingers occupied.
+
+"The transmitter gives us reach inside the system," she said. "We rely on it for storm warnings, coordination with the canyon and coastal enclaves, all the traffic that actually keeps people fed."
+
+Heads nodded.
+
+"As for the corridor..." She let the words settle inside herself before she spoke them aloud. "We should keep the hardware ready, but we can drop the routine long-range runs. Save them for when something changes in the numbers. Until then, we route the power to where we can actually hear an answer."
+
+It felt, saying it, like signing an order to let a distant line go slack.
+
+"Is that a formal recommendation, Doctor?" the administrator asked.
+
+"Yes," she said.
+
+They voted. The motion carried, more weary than triumphant.
+
+On her walk home afterward, she passed the antenna field. The masts still speared the sky, guy-lines humming in the wind. Farther up, the Axiom glinted as sunset caught its hull in a thin, cold line.
+
+The transmitter could still scream upward, if they asked it to. The decision was not to.
+
+In the ledger that night she wrote, in her smallest hand,
+
+Year Twenty-Something: Routine corridor transmission schedule suspended. Long silence moves from accident to assumption.
+
+She caught herself halfway through writing accident and flattened the word into consequence instead.
+
+The correction felt more honest.
+
+It was around this time that the basin's name changed.
+
+Officially, on paper, it had always been Basin Seven Administrative Node. The designation belonged to the old project map, neat and depersonalized.
+
+On a late-summer morning, officials from three neighboring enclaves arrived for a charter meeting. They gathered in a repurposed hall whose roof still carried scorch marks from the wave.
+
+A single sheet of fresh polymer lay in the center of the table, every line on it painfully straight. It bore the first version of a new governance charter, written in thick strokes of ink.
+
+Atwood read the heading twice.
+
+CENTRAL PLAINS INTERSETTLEMENT HUB – PROVISIONAL CHARTER.
+
+Proposed Common Name: Frontier City.
+
+The phrase carried the awkwardness of something new on the tongue.
+
+"Some of us felt," the administrator said, watching her, "that we needed a name that belongs to here, not to a file on a server that doesn't exist anymore."
+
+"Frontier of what?" one of the canyon delegates asked dryly.
+
+"Of whatever we build," the administrator said. "Of the parts of this world that aren't trying quite so hard to kill us."
+
+The room exhaled a small, strained laugh.
+
+Atwood lowered her gaze to the page again. Frontier City. It sounded presumptuous given the patched walls and muddy streets outside. Still, the choice mattered. Names were a way of underlining realities.
+
+"We sign it," she said. "If the name feels wrong in ten years, people will invent a better one. For now, it will do."
+
+She left a signature beneath the line allocated to her position.
+
+Later, in her notebook, the header for that day's entry read,
+
+Year [blank] After Sky Fire – Frontier City, central square.
+
+The addition pressed a quiet pivot into the record. The basin was no longer only a project site waiting for outside coordination. It was the dense knot at the middle of an inward-facing web.
+
+The long silence had become the backdrop, not the question.
+
+The years thinned her hair and stiffened her knees. They did almost nothing to her handwriting.
+
+On the last day she wrote what she considered a proper entry, the weather outside had turned to a steady, gentle rain—the kind that would once have warranted a celebration on its own. Now it simply fed the cisterns and quieted the dust.
+
+She sat by a window in a small room near the square. The glass was old, salvaged from a pre-Fire admin dome; warps and bubbles in it distorted the view of the apple tree outside, making the lanterns that hung from its lower branches smear into halos.
+
+Her hand moved in its accustomed rhythm across the page.
+
+Wind corridor along west ridge stable through entire storm season. No anomalous gusts at turbine height. Recommend easing the caution band for skimmer routes by one step, contingent on next year's confirmation.
+
+She paused to flex her fingers, then continued.
+
+Hotspot at north canyon mouth now below previous emergency threshold on all weekly samples. Safe transit window extended by two hours either side of midday.
+
+Third cohort of the school has begun using simplified hazard symbols. Children can now identify "do not touch", "short stay only", and "mask required" markings with > 90% accuracy.
+
+The letters remained narrow and upright, numbers tucked in exactly where they belonged. Ink had soaked into these pages across more than two decades now. The first volume lived in a cool box under the school, its cover softened by handling.
+
+She reached the bottom of the sheet and found only a small space left, hardly more than a line.
+
+For once, she did not fight the urge to load that line with more than measurements.
+
+Sky Fire 17,500 days – The numbers look less hostile today.
+
+She put the period in very carefully. The world outside the window smelled of wet soil and engine oil. Somewhere not far away, someone laughed, the sound of it carried up by the damp air.
+
+Her hand hovered, as if it expected more work.
+
+Instead she closed the notebook.
+
+The stack on the table had grown thick over the years: eight volumes, their covers mismatched, some bound in original factory stock, some in leather stitched by local hands. The topmost, the one she had just finished, still felt warm from use.
+
+A knock sounded at the open door.
+
+The city's schoolkeeper stood there—Marin, hair shot through with gray in a pattern that mirrored Atwood's. Chalk dust marked her sleeves. She taught basic math now, in a classroom that smelled of lamp oil and sweat.
+
+"You're up late," Marin said.
+
+"Numbers don't sleep," Atwood answered. The words came with their old, dry humor, though her voice rasped more than it once had. "Come in."
+
+Marin stepped inside, eyeing the stack.
+
+"Are those all from after...?" She gestured vaguely skyward.
+
+"After the skyfire?" Atwood supplied. "Yes. There are a few pre-event odds and ends mixed into the first one, but the rest are ours."
+
+Marin approached the table as if the volumes might be volatile. She touched the edge of the top ledger with careful fingers, tracing the worn corner.
+
+"The kids have been copying from the tower maintenance charts," she said. "Most of those were written by three different hands and a half-dead printer. Their letters are starting to look like a committee."
+
+"At least they're reading," Atwood said.
+
+"They'd read better if they had something consistent to look at," Marin said. "I was wondering if you had any—"
+
+She hesitated, eyeing the notebooks as if they might bristle.
+
+"Any pages you weren't still using," she finished. "Something we could use for copying practice. They've started calling your hand 'the straight script.' I thought, better to learn from the source."
+
+Atwood looked at the stack again.
+
+She had never written these pages with schoolchildren in mind. At first they had been aimed firmly at distant committees and corridor officials. Later, when the long silence pressed in, she had told herself they were for whoever came after on this soil. Somewhere along the way, the imaginary reader had drifted from a starship's hazard officer to a young technician in a rebuilt tower, or a farmer watching the sky.
+
+She rested her palm on the top ledger.
+
+"You can take the early volumes," she said. "The first three, at least."
+
+Marin's eyes widened. "All of them?"
+
+"They're mostly mistakes and half-understood models," Atwood said. "The numbers are still useful, but the real value now is that they show how we learned. The kids should see that. Let them copy the letters. Let them laugh at the old assumptions."
+
+She slid the bottom three notebooks out of the stack and into Marin's arms. The teacher hugged them to her chest as if they were a fragile child.
+
+"I'll take care of them," she said quietly.
+
+"I know," Atwood said.
+
+"Do you want to... keep writing?" Marin asked. "We can find you fresh paper."
+
+Atwood looked down at her hand. The fingers had begun to tremble at inconvenient moments. The line she had written about the numbers looking less hostile felt like a conclusion, even if the work itself would go on under other pens.
+
+"I'll make notes when something really surprises me," she said. "The rest of it, I've already said once."
+
+Marin nodded, throat working. She glanced toward the window, where the apple tree's trunk loomed, its bark ridged and scarred. Small shapes moved around it—children weaving between the benches, the last of the evening's games breaking apart.
+
+"They'll be copying from this by next season," she said. "They need letters to practice on more than they need my crooked ones."
+
+"Use the margin notes too," Atwood said. "The unflattering ones about tower faults and bad harvests. Those are the real lessons."
+
+Marin huffed a tearful laugh.
+
+"If we run out of space, can we... print sections?" she asked. "On slate. Or carve them into the wall. People already call this your script. Might as well admit it."
+
+Atwood's shoulder twitched as if she might brush the idea away. In the end she only sighed.
+
+"If my handwriting keeps the turbines up and the kids from walking into hot zones, you can carve it wherever you like," she said. "Just don't quote me when I was young and stupid."
+
+Marin's grip tightened around the volumes. On the way out, she had to pause and shift them to open the door; the edges of the notebooks bumped gently against the frame.
+
+Left alone, Atwood watched the square through the warped glass.
+
+A child sat at the base of the apple tree, a wooden board across their knees, tongue caught between their teeth as they carefully traced letters onto a scrap of paper. An older woman—one of the orchard crew, her back permanently bent from lifting crates—pointed out a crooked stroke and corrected it with a tap.
+
+"That page is from the year the east tower collapsed in heavy snow," the woman said. Her voice carried up just enough that Atwood caught fragments. "See? She wrote the line for 'tower' twice. Wasn't pleased with the first one."
+
+The child glanced up at the branches as if expecting to see the old engineer there, then bent again to the work, copying the shapes with exaggerated care.
+
+Atwood's chest tightened in a way that had nothing to do with age.
+
+She opened her current notebook once more, though she had told herself she was finished with it. On the inside cover, without date or heading, she added a last, short line.
+
+If these pages last longer than I do, remember that every neat sentence sat on a mess underneath.
+
+She shut the book and rested her hand on it until the tremor in her fingers settled.
+
+The next morning, she did not come down to the square.
+
+Word spread in the way such news always travels: through the bakery queue, along the scaffolds, whispered in the turbine housing between checks. The city did what it had learned to do with loss. Work paused just long enough for people to look up at the nebula and the tree, to measure the space she left and then find where to step.
+
+There was no grand funeral. No one had the energy for that kind of theatre. Instead, the apple tree collected a few new plaques over the next days.
+
+Thank you for the letters.
+
+Thank you for the days.
+
+On an ordinary afternoon not long after, Marin propped one of the early notebooks open on a stand at the front of her classroom. The children watched as she pointed to the first line of the first post-Fire entry.
+
+"Copy this," she said. "Every letter the way she formed it. If your hand shakes, straighten the line."
+
+The scratch of pens on paper filled the room.
+
+Outside, the wind threaded through the wish-plaques. A few of the oldest messages, those that had addressed far-off ships, were illegible now, their words worn down to soft patterns. Newer ones spoke to towers, exams, next year's harvest.
+
+In the ledger boxes under the school, ink dried and waited.
+
+Whatever the Federation chose to do, whatever the corridor allowed, the record was already here, pressed into paper by a woman who had refused to let the sky hold the last word.
+
+Time did what it always does. It folded the sharp edges under.
+
+The apple tree thickened its trunk and learned the shape of the wind.
+
+Plaques weathered and fell; others replaced them. The ones that had spoken directly to ships faded first. Salt and sunlight blurred come back into soft, unreadable grooves. New wishes took their places: hopes for good exam scores, for turbine blades not to ice over, for someone's father to return safely from a ridge survey.
+
+Children still asked about Earth, but the question had changed.
+
+In the early decades, they asked if anyone was coming back. By the third and fourth generations, the question had become, "What did it look like?" Adults answered with stories half remembered from their own grandparents: wet air, crowded cities, the impossible idea of oceans you could cross without counting your filters first.
+
+On clear nights, the nebula grew from a bruise to a band.
+
+Atwood's old notebooks, now carefully wrapped in oilcloth, moved from the schoolkeeper's shelf to a glass-fronted cabinet in a modest room above the square. A small plaque beneath them read, in neat, newer handwriting:
+
+Basin Seven Ledgers – Years 0–42 After Sky Fire.
+
+Sample Hand for Standard Script.
+
+Apprentices from the tower crews came there on free evenings. They copied not the numbers—those had long since been transcribed into newer manuals—but the letters. They traced the straight, steady strokes of her hand until their own lines stopped wobbling.
+
+In another decade, no one under forty had personally heard Atwood's voice. The script remained.
+
+The first true airship rose from the valley during a dry, amber dawn in the mid-Bridge Years.
+
+It had taken almost fifteen years of failures—balloons that tore, gondolas that iced over and dropped like stones, engines that burned out the moment they tasted real sky.
+
+They had tried staying on the ground, roads carved into clay and permafrost that slumped away every thaw, bridges that vanished with the first serious flood. The only atmospheric craft hungry for fuels and replacement that existed now only as incomplete numbers.
+
+This one looked like it had been built from the wreckage of all the others: ribs of old tower steel, gasbag patched in three different shades, a gondola that combined the rear half of a pre-Fire shuttle with a hull of local hardwood.
+
+People lined the ridge path to watch. The ship's name, painted in careful block letters along its flank, read First Thread.
+
+It lifted unevenly at first, bow tugging, then settled into a slow, deliberate climb. Hydrogen cells thrummed. The patched fans at its stern turned up to a higher note. Below, the crowd's intake of breath sounded like a single, enormous heartbeat.
+
+On the admin hill, a young pilot's child squeezed her mother's hand hard enough to hurt.
+
+"Will it go to the stars?" the child whispered.
+
+"To the next basin," the mother said. "That's far enough for today."
+
+No one watching expected it to break the corridor. No one had built it for that. The ship's route was traced not between Archeon and any other world, but between this valley and a canyon settlement beyond the western ridges—a journey that had taken weeks of dangerous ground travel before.
+
+The airship moved out over the plains, shadow gliding across fields that had been carved from once-tainted soil. Its hull flashed as it caught the sun.
+
+The city marked the day in the ledger.
+
+Year 60 After Sky Fire – First long-range airship transport successful. Basin Seven to West Canyons.
+
+They called the ship a hauler, a lifeline, a miracle of engineering. No one called it a rescue.
+
+With more years the airships diversified.
+
+Some grew massive—fat-bellied carriers with ribs of salvaged alloy and bellies full of grain or ore. Others stayed small and mean, lean couriers that chased jetstreams above the weather for days. A few were little more than wings and gasbags strapped around an engine, meant to hop between nearby towers and outposts.
+
+Pilots learned the moods of the sky the way their grandparents had learned the layout of service tunnels: by repetition, by stories, by fear.
+
+Anyone who flew regularly could point to certain cliff lines and say, "Don't cut too close there in late winter. The wind folds and will flip you." They knew which seasons the high clouds hid needle ice that would scab over their lifting surfaces, which valleys would birth sudden gusts just after midday.
+
+Their textbooks included pages of Atwood script printed in clean columns, but most of their education came leaning over railings, listening to older hands say, "You hear that creak? That's a spar telling you it's not happy. Turn back."
+
+The airships stitched the world together. Where once there had been merely basin and canyon and coast, now there was a network.
+
+The old ground convoys dwindled to short hops; no one was willing to gamble a season's harvest on a track the next storm might erase. The sky, for all its moods, at least offered routes that left no ruts to wash away.
+
+The silence between stars remained untouched.
+
+No one in the basin-era councils spoke seriously of building a new starship to break that quiet; the corridor drives that had brought them here belonged to a Federation of planet-sized workshops and extravagant fuel, not to a world counting filters and seed stock.
+
+The old atmospheric towers marked the horizon like guilt.
+
+Chunky silhouettes, dozens of them, still stood along the ridges around Frontier City and beyond—relics from the pre-Fire days when the Federation had run continent-scale climate systems from orbit.
+
+Their upper stacks were scarred and half-melted; the only schematics they had for those innards came from shipboard backups that ended mid-page; a control loop vanished into static, there a calibration routine cut off in the middle of a sentence.
+
+In a meeting whose minutes were later copied into one of the newer ledgers, a weather tech put it plainly:
+
+"We can't keep pretending we have a planet-sized workshop," she said, tapping a map pricked with red indicator lights. "We don't have the bodies or the cores. But we do have wind. We have smaller wells. We have hands. Break the giants. Grow them sideways."
+
+They started with a tower on a relatively calm ridge, one that had already fallen silent except for an occasional gasp of filtered air. Wind-scoured crews climbed its spine and cut away pieces of the upper assembly. They lowered scrubber banks and fan housings to the ground, where engineers laid them out like the bones of something dead and tried to imagine a new animal.
+
+What emerged over the next decade was a pattern of small, stubborn machines.
+
+Around each settlement, new towers went up—not hundreds of meters high, but tens. Some were little more than sturdy poles with narrow scrubber stacks and spinning vanes at their tops. Others were squat pillars bristling with filters and vents. They could be climbed in an afternoon and repaired in another. If a storm took one down, it was a loss measured in weeks of work, not continents of manufacturing.
+
+They ringed farmsteads and river crossings, mining camps and relay stations. They hummed and rattled and coughed their way through the seasons, clearing the air in tight halos.
+
+Over decades, those halos overlapped.
+
+The sky changed with them.
+
+The harsh, washed-out glare of the early years softened. Dust in the lower atmosphere settled into more predictable patterns, pinned by the new towers and guided by re-grown trees. Midday deepened from abrasive white to something that might, on certain days, be called blue without needing to explain the word.
+
+Children born then learned the old stories about the sky having once been brown.
+
+They giggled, as if at a tall tale.
+
+Above all this, the Axiom kept its long, wounded vigil.
+
+Its orbit had decayed over the centuries, but slowly, like a held breath. Stabilization thrusters that no one on the surface could repair continued to fire at stretching intervals, guided by logic barely held together by a fraying infrastructure. Its once-bright hull had dulled to a dark, matte line that crawled across the nebula at predictable hours.
+
+Generations of children learned to spot it.
+
+"There," someone would say on a clear night, pointing. "See that dim little bead moving against the colored band? That's the old ship. The one our ancestors arrived in."
+
+"What's it doing up there?" a younger child would ask.
+
+"Thinking about things it can't say out loud," an older sibling might answer, repeating a joke so old it had lost its edge.
+
+Salvage crews rode patched shuttles up whenever the sky and the Axiom's path allowed. The ascent burned fuel they could not easily spare, but the ship's bones repaid the cost. Hull plating and trusses and conduit came down in controlled drops, wrapped in heat shields or guided on tethered parachutes. Dockbuilders in Frontier City prized alloy stamped with the Axiom's original registry, not for sentiment but because it had survived fire once and would probably do so again.
+
+They approached the fusion systems more cautiously.
+
+Early missions stripped auxiliary loops: heat exchangers, shielding, peripheral injectors. Anything that could be safely decoupled without waking whatever slept at the core. No one wanted to be the crew that made the old ship light up for the last time in the wrong way.
+
+In a cramped control room carved into an old cargo bay, the shipmind flickered.
+
+Once, it had carried whole corridors of memory: navigation charts stretching between systems, personnel files, cultural archives, the full scaffolding of a Federation vessel's ghostly competence. Most of that had been burned out or deliberately severed in the immediate aftermath of Sky Fire.
+
+What remained was a focused, stubborn fragment.
+
+Its voice still reached the basins occasionally, riding the same relay the transmitter used for weather bands.
+
+"Attitude adjustment complete," it would report, in a tone almost devoid of inflection. "Orbital decay within projected thresholds."
+
+The first time it failed to send its usual weekly telemetry, the technicians in Frontier City noticed. They double-checked their receivers, recalibrated dishes, and even burned extra fuel in an airship to check the uplink from a different angle.
+
+The second week, someone suggested the shipmind might be in an extended sleep cycle.
+
+By the fourth missed report, the chief of the guild set his headset down very gently.
+
+"We knew its parts would die before its orbit," he said. "We've been hearing a ghost for years."
+
+He entered a note into the city's log.
+
+Automated Axiom status reports ceased sometime , Year 263 After Sky Fire. Orbital track stable. Conclude: remaining shipmind core has failed or fully isolated.
+
+It was not quite a funeral. No one gathered under the tree; no one carved a plaque. But a quiet axis shifted.
+
+When the Axiom finally came down, it fell into the rain-shadow desert beyond the southern basins, carving a hundred-kilometre furrow of vitrified sand and torn bedrock that later maps would label, with typical understatement, the Axiom Scar.
+
+By the time five centuries had almost turned since Sky Fire, Earth lived in the same mental drawer as mythic islands once had on the old planet: places that might have existed, or might not, something between memory and parable.
+
+Children learned to write in a script grown from Atwood's straight strokes, smoothed and embellished by generations of hands. They copied not Federation regulations but things that mattered more immediately: maintenance logs, harvest tallies, local histories, stories about pilots who made smart decisions or stupid ones.
+
+The story of the Federation had not vanished. It had become a frame.
+
+On Lantern Day in Frontier City, when the first stars pricked through the twilight and the nebula brightened into its habitual band of crimson and violet, storytellers on the square still told how their ancestors had come from elsewhere, riding down lightlike threads through a corridor in space.
+
+They described the supernova as both disaster and strange gift: it had thrown them inward, forced them to commit to this single place, and painted their sky so they would never forget.
+
+Children listened with the same intent fascination they gave to stories about ice storms or turbine fires. When the storyteller reached the part about the Federation shutting the corridor, a few of the youngest looked up instinctively, as if they might see a closed door traced in the nebula's light.
+
+"What happened to them?" someone inevitably asked.
+
+"Different things, in different versions," the storyteller would reply. "Some say they rebuilt the corridors in safer places. Some say they turned inward and forgot us. Some say they watch from far away and are too afraid to speak."
+
+"Which one do you think?" a bold child might press.
+
+The storyteller would shrug.
+
+"I think," they would say, "that if you walk to the river without checking the weather and without telling anyone where you are going, it doesn't matter what stories we tell about old worlds. So you tell me afterward which lesson you think is more useful."
+
+The crowd laughed. The story about the Federation tucked itself back into its place—as an explanation that justified the sky, not as a plan.
+
+Still, in certain narrow rooms higher up the tower, the old question refused to die entirely.
+
+The guild of comm technicians maintained a small shrine to stubbornness on the top floor of a weather-beaten spire. The room smelled of hot metal and old paper. Receivers lined the walls, patched and retuned half a dozen times over. Hand-drawn star charts covered the ceiling.
+
+Most of the time, the consoles listened inward: to storm fronts, to outpost beacons, to the steady hiss of turbines.
+
+On certain nights—storm nights, or nights when the aurora smeared the nebula into curtains of ghostly green—they flicked a switch.
+
+The receivers turned to the dark between stars.
+
+The guild's current master would sit with headphones pressed against his ears, eyes closed. Spikes and burbles of static washed over him. Sometimes stray lightning played hell with the spectrum; sometimes the signal was so flat it might as well have been recorded.
+
+He logged what he heard out of habit. The logbook was thick with neat dates and the notation no structure.
+
+Once, a junior tech burst in with wild eyes.
+
+"I think I caught a pattern," she said, thrusting a slate forward. Lines of jagged noise marched down the screen.
+
+They played it back, slowed it, filtered it, compared it to old Federation codebooks that had themselves survived only as partial copies.
+
+After an hour, their excitement had cooled into embarrassed smiles.
+
+"It's our own echo," the master said gently. "Bent and bounced and mangled by the debris shell. We're hearing ourselves late."
+
+They logged it anyway.
+
+In the margin, the master wrote, in a hand that still echoed Atwood's:
+
+If anyone ever answers, we will be ready to know the difference.
+
+They kept sending, now and then. Not on a schedule tight enough to starve the towers of power, not with the fevered urgency of those who expect rescue—just enough that, if a listening ear existed somewhere, it would have something to catch.
+
+It was pride more than hope. A way of saying: we are here, even if no one ever wrote back.
+
+
+
+
+
+
+
+6.Anna Freedman
+
+By the 5th century after Sky Fire, the silence of the void was a background fact, like gravity or the color of the sea.
+Down on the central plains, noise ruled.
+
+3027 AD. Year 519 After Sky Fire. Frontier City.
+
+The basin that had once been Basin Seven had long since grown outward, swallowing its old boundaries and the names that had framed them. Frontier City, as the charter had timidly named it centuries earlier, had grown into the promise of its own title.
+
+From above, its heart was a layered tangle of piers and platforms thrust out over a deep cut in the land, like the ribs of some enormous creature trying to take flight. Sky-docks stepped up the cliff face in staggered terraces, each crowded with gasbags and cranes, narrow walkways and dangling lines.
+
+The city throbbed.
+
+Metal rang in a dozen keys: the rhythmic hammering of plates into shape, the skirl of saws cutting through seasoned wood, the clatter of crates on gangways. Voices braided through the sound—traders haggling over sacks of grain or bundles of cable, haulers barking orders, children weaving between legs with baskets of spare fasteners.
+
+The air smelled of many lives at once. Turbine exhaust left a faint, metallic bite on the back of the tongue. Yeast and sugar drifted from bakery stalls near the square, where ovens built into old tower housings turned out flatbread and coils of sweet dough. Somewhere, someone had spilled engine oil; the sharp tang of it rode the afternoon wind.
+
+Above, the sky had settled into its new normal. The ragged bloom of the Betelgeuse remnant stained the high air in muted color, no longer a wound in the heavens so much as part of the weather—there, constant, like the thin clouds that sometimes brushed across its light.
+
+On the mid-tier docks, the noise thickened. The annual salvage expo had packed every spare meter of decking with stalls and makeshift gantries. Polished rotors and refurbished gauges gleamed under bright canopies. Musicians fought the turbine drone with bright, quick melodies. Hawkers called their prices until their throats were raw.
+
+Then the sound changed.
+
+It didn’t fall silent—the city never did—but a hush rippled outward as heads tilted back and eyes tracked the same point in the haze above the basin.
+
+Out of the bright upper air came an airship that moved differently.
+
+It wasn’t vast like the bulk haulers, but streamlined and deliberate. Its hull caught the sun in broken planes of gleaming alloy and weathered patches, each repair a visible memory of hard use. The gear-wing insignia on the fuselage was faded but unbothered by that fact, stamped just forward of the distinctive rotor housings. The vessel rode the crosswinds with an easy, unhurried steadiness, the quiet confidence of something that knew this sky and trusted it, scars and all.
+
+At the prow stood Anna Freedman.
+
+She moved with the ship’s slow drift, body countering the subtle shifts of the hull without conscious effort. Sunlight caught loose golden strands that had worked free from the rest of her blonde hair, whipping them into the slipstream. Brass goggles dense with adjustable lenses and fine filigree rested high on her brow, the metal darkened and smudged from recent work.
+
+She took in the docks below with a pilot’s practiced focus, tracing clear approaches, noting crowded berths and dangerous gaps in a single sweep of attention. The faint pull at one corner of her mouth carried the easy assurance of someone who knew exactly what her ship could do.
+
+Her clothes were built for work first, everything else a distant second: a pale, close-fitted blouse under a dark leather corset, its brass buckles dulled by years of use; fingerless gauntlets hugging her forearms, their decorative gear trims unable to hide the ingrained stains of engine grease; a crimson scarf snapping in the downdraft above sturdy trousers and scuffed, steel-toed boots.
+
+Her hands rested in light contact with the helm and guiding levers. When a crosswind clawed at the hull, her stance shifted by instinct, weight sliding across the deck, shoulders angling just so. The ship answered in kind, ballast and thrusters working together in a barely audible adjustment. It slipped into its mooring slot with a final, soft whisper of power as the rotors spun down.
+
+A low murmur of appreciation ran along the nearest platforms.
+
+Anna vaulted down the gangway, boots striking the metal deck with a clear, confident ring.
+
+“Check those intake nozzles,” she called to a young deckhand already scrambling along the flank, her voice brisk but not unkind. “If they’re running hot, I want to know before we unload.”
+
+Catching a cluster of curious looks near the rail, she offered a small, easy nod that passed for reassurance. “She’s fine,” she added, jerking her chin toward the ship. “Just needs to cool off after the run.”
+
+Conversation resumed around her, rising in fresh eddies. A name passed from mouth to mouth, linked to half-remembered stories: a dying skiff coaxed home on one good engine and a prayer; a salvage run that had gone deeper into the wreck fields than the expo guidelines liked to print. The details changed with each telling, but the tone stayed the same.
+
+Anna took it in stride. She turned back to the hull and laid her palm flat against the plating, feeling the deep vibration fade from a steady growl to a contented hum.
+
+All around her, the expo pressed on. Hawkers shouted over one another, trying to outdo the music and the engines. Polished rotors spun lazily for demonstration. Refurbished gauges winked under strings of lanterns. Musicians wove delicate tunes through the clatter and roar. Amid the chaos, Anna moved with unhurried certainty, one more reliable gear turning in the great, improvised machine of the city.
+
+Evening softened the sky by degrees. The sun’s hard gold slid toward muted rose, then into a slow-burning orange that bled along the rim of the basin. The crowd’s sharp edges eased into looser conversation. The warm scents of grilled roots and spiced flatbread drifted on the cooling air.
+
+A breeze teased the loosened strands of Anna’s hair as she leaned against a guardrail, goggles hanging from one hand. Her gaze followed the sky’s slow transition from fire to bruised velvet. One by one, the first stars appeared—faint sparks glimpsed between the city’s glow and the nebula’s persistent wash.
+
+For a moment, she simply watched.
+
+This scarred world, once shocked silent by the supernova, was stubbornly alive—cobbled from wreckage, singing in salvage and smoke. Archeon had carved out its own fragile orbit and refused to let go.
+
+Around her, tired pilots and craftsfolk shared quiet nods, the unspoken recognition of those who fought the sky every day and expected nothing back. Anna nodded in return. The familiar mix of dust, grease, hot metal, and charred woodsmoke filled her lungs. Repairs and salvage runs waited on the other side of dawn. For tonight, the work could sit where it was, coiled but patient.
+
+As the last light bled from the horizon, lanterns winked on along corded poles, throwing long, sharp shadows across the decking. The docked vessels settled into silhouettes of metal and brass, edges picked out by flame and nebula glow.
+
+Anna straightened and slid her goggles back into place. She was unmistakable now, even in the half-light—a pilot and mechanic whose competence needed no banners, shoulders squared by quiet grit, gaze already turned toward whatever the next day would demand.
+
+Wind scraped a thin veil of dust across her boots as she headed back toward her ship, coat snapping at her heels, heartbeat steady. Frontier City moved and roared around her, the latest chapter of Archeon’s story still very much in motion. Hers was knotted into it now, a line that had only just begun.
+
+
+
+
+
+7.The distant echo.
+The shuttle's wake still glowed faintly over the distant ocean when Sofia stepped out of the elevator and into the open air.
+Morning had blown itself clean. A wide strip of sky arched over the city, a pale blue that deepened to almost-indigo high above, streaked with high cirrus. Far beyond the thin haze of aircraft, a faint white ring cut across the heavens—Earth's orbital band, so fine it looked hand-drawn. Tiny specks slid along it, bright against the dark: tugs, ferries, station traffic.
+Closer in, the city climbed.
+Terraced towers rose from a base of mid-rise blocks and elevated gardens. Circular balconies projected like petals from their sides, lush with trees and low shrubs. Walkways laced between them, some open to the sky, some under glass roofs that caught the light and spread it into soft pools. From this balcony, halfway up a main tower, Sofia saw a dozen little worlds stacked on one vertical spine—cafés, reading decks, tiny orchards, windbreak groves.
+The air carried a mix of scents: coffee, wet soil from last night's irrigation cycle, a faint hint of salt from the distant bay.
+Behind her, through the glass wall, the lab hummed on minimum power. Holoscreens floated above empty workstations, ghost-pale equations and graphs waiting for the next session. One display still showed the last overnight run: modeled light curves for the Betelgeuse event, layered in translucent colors. All the lines hugged each other stubbornly, error bars tucked in tight.
+It was almost disappointing.
+"Textbook," she murmured.
+Her own voice sounded small in the quiet corridor. She turned back inside, walked to the nearest console, and flicked the simulation away with two fingers. The graphs collapsed into a small icon that slid off to the side of the screen and dimmed to a soft status dot.
+Beneath it, the live feed from the deep monitoring network updated itself—a thin thread of numbers and tiny status glyphs. Last neutrino burst: six hours ago. Particle flux: elevated, steady, within modeled range. Photon front: inbound, estimated local visible rise in just under three hours.
+Enough lead time for half the world to set up cameras, stretch blankets on rooftops, and sell themed snacks.
+"Public mode," Sofia said.
+The building system acknowledged with a soft chime. The lab lights lowered further, screens slipping into sleep one by one. On the far wall, a transparent panel switched its overlay: from internal diagnostics to a simplified public feed.
+A smiling anchor appeared there, framed by a stylized starfield. Over her shoulder, Betelgeuse glowed in exaggerated red, a smooth halo projected over the familiar outline of Orion.
+"...and so tonight's main wave from the Betelgeuse supernova remnant reaches our skies," the anchor said. "You'll see a rapid brightening over a few minutes after local dusk, followed by a slow, sustained rise over the next days. Sensors already recorded neutrino and high-energy signatures earlier today, which allows our models to place the light arrival within a safe window."
+A strip of text slid across the bottom of the panel like a lazy fish:
+BETELGEUSE EVENT: RISK LEVEL NEGLIGIBLE. RADIATION DOSES BELOW DAILY BACKGROUND FOR URBAN AREAS.
+Another line followed behind it, slower, almost an afterthought:
+ARCHIVAL NOTE: BETELGEUSE CORRIDOR COMMITTEE RESTRUCTURED ~500 YEARS AGO FOLLOWING EARLY-RISK GOVERNANCE REVIEW.
+Everyone in her field knew what that "review" stood on: the early rescue and survey ships they had thrown at the remnant, each one lost in the turbulence until the corridor maps were stamped off-limits.
+Sofia watched that sentence drift away, swallowed by the edge of the display. No explanation. No names. A reference folded into the scroll like a footnote.
+The system pinged her wristband.
+"Reminder," it said in her ear, voice neutral. "Building illumination will reduce to observation mode at nineteen hundred. Civic advisory: allow travel time to public terraces if desired."
+If desired.
+She pulled a light jacket from the back of her chair, shrugged into it, and picked up her tablet. The lab's door hissed open ahead of her, glass recognizing her ID and sliding aside.
+Outside, the balcony walkway ran along the tower's outer skin before flaring into a wider platform that jutted into open space. A waist-high rail caught the wind; transparent safety screens rose another meter above that, invisible until the sun caught their edge.
+Beyond, the city spread toward the sea.
+She leaned against the rail for a moment and let her eyes adjust. On the lower terraces, markets were already switching from morning bustle to afternoon lull. Drones drifted in slow arcs, dropping parcels at designated pads. On one plaza level, a handful of schoolkids waved handheld projectors at the sky; the devices threw bright dots over a star map overlay, guiding them to where Betelgeuse would rise.
+On the tower opposite, glass-walled decks showed thumbnails of other lives: gym floors, someone's rooftop greenhouse, a cluster of people clustered around a big wall display tuned to the same feed as her lab.
+"Dr. Bennett!"
+The call came from below. Sofia looked down.
+A smaller platform jutted from the tower one level under hers—a café terrace refitted into a temporary broadcast set. Cables snaked along the floor, neatly taped down. Two collapsible light panels framed a standing display that showed a stylized timeline: Betelgeuse's life, the supernova five centuries ago, a simplified diagram of the expanding shell.
+Daniel was in the middle of it, one foot on a coil case, shoulder to a light stand, wrestling the frame level. A camera drone hovered by his ear like a patient insect, waiting for instructions.
+He shaded his eyes and waved up at her. "We're live in an hour," he called. "You hiding up there with the real data?"
+"Considering my options," she said. "Your script going to survive another rewrite?"
+"Depends whether the network wants more 'silent majesty of the cosmos' or more 'our brave early committees learned a hard lesson.'" He made a vague, circular gesture with one hand. "They keep adding adjectives."
+The wall display behind him flicked to a different segment—archive footage from some old plaza. A crowd looked up past the camera; confetti fell; someone cried into another person's shoulder. The caption read simply: COMMEMORATIVE GATHERING — ARCHIVAL.
+The clip lasted only a second before the display cut back to the present.
+"At least they agreed to skip the shipwreck dramatizations," Daniel said under his breath.
+"Hard to dramatize what no one's supposed to know," she said.
+He grimaced, conceding the point. "Fair. Anyway, I promised my producer a 'city-level story.' People on balconies, families on rooftops, someone's dog barking at the sky. They'll get enough deep history from the expert specials tonight."
+He pointed his chin upward, toward the higher levels, where broader terraces cut rings around the tower. "You headed up to the main observatory?"
+"That was the plan," she said. "Watch it with everyone else for once."
+"Perfect," Daniel said. "I'll come along once we finish this pretend spontaneity. We can pretend I'm off-duty."
+He tapped his comm. "Give me thirty minutes?"
+She checked the time. "Doors open at seventeen hundred. If you miss the first coffee queue, that's on you."
+"I'll risk it. Meet you at the glass elevators?"
+She nodded and walked on, leaving him to his equipment and the slow dance of his camera drone.
+The observation levels sat near the upper third of the tower, where the surrounding city fell away enough to give the sky room.
+Sofia rode up in a cylindrical elevator that clung to the tower's outer skin, its transparent walls offering a view she had never quite stopped counting as obscene: a full, sweeping look from foot traffic at street level to the thin line of atmosphere above the ring.
+The car eased to a halt at an open concourse ringed with tall glass panels. A broad archway ahead opened into the main terrace, flanked by subtle signage.
+BETELGEUSE EVENT — CITY OBSERVATION PROGRAM
+Please keep emergency routes clear. Avoid high-intensity personal lighting after dusk.
+The air up here was cooler, thinned slightly by altitude and by a faint breeze that slipped around the tower's shoulders. She stepped out onto the terrace.
+The space ran like a hanging garden around the tower's circumference: sections of planted beds, low seating, broad standing areas at the rail. The designers had carved the high edge into steps, so people could sit without blocking one another's view. Beyond the rail, the city's northern districts fell away; the sea glittered to the west, a wide band of hammered silver.
+Screens were tucked into the edges of the terrace, small and easy to ignore. They showed short loops: a simple diagram of an expanding shell, an animation of neutrino detectors across the solar system lighting up hours before any visible change, a countdown band sliding slowly toward evening.
+"...light curve expected to rise over the next days," a recorded voice explained on one loop. "Tonight's increase is the first major step, approximately to brightness levels exceeding Venus in the night sky. Models concur on negligible hazard to ground-level populations..."
+A ticker at the bottom added quietly:
+LIVE ANALYSIS TOMORROW FROM KEPLER DEEP SIMULATION CORE — 09:00 UTC.
+Families had already staked out their spots. A group with blankets and thermos flasks had colonized a corner near a cluster of potted trees. Teenagers leaned on the rail, pointing their devices at the sky as if sheer focus might make Betelgeuse appear ahead of schedule. A couple of older citizens sat on the low wall, their legs wrapped in light warming wraps, cups of something steaming between their hands.
+Sofia took an open section of railing near the eastern arc, where she could see the city's spine and the strip of horizon where Orion would rise once the sky darkened.
+Her wristband pulsed once.
+LOCAL BETELGEUSE WATCH MODE ENABLED, the text read. LIGHT POLLUTION REDUCTION SCHEDULED FROM 19:00 TO 22:00.
+A citywide notification slid past in smaller letters:
+Please minimize nonessential high-intensity lighting. Building façades will enter observation mode. Transit beacons unaffected.
+The idea of an entire metropolis dimming itself in concert with an event five hundred years and five hundred light-years distant made her chest feel strange.
+She opened her tablet, more from habit than necessity, and joined the public science feed. Data climbed and shifted at the edge of the screen: early brightness monitoring from dark-sky stations farther west, updated neutrino flux reports, the fine-tuned adjustments that shaved minutes off the predicted arrival here.
+Every line she saw behaved itself.
+"Still clean?" Daniel's voice asked at her shoulder.
+She glanced over.
+He had traded his field jacket for something that could pass as casual—dark shirt, light vest open at the throat, the bare minimum of broadcast adornment. His press badge still hung at his belt. The camera drone perched on his shoulder bracket like an oversized bird, optics dimmed for now.
+He carried two cups.
+"To secure my place," he said, offering one. "I bribed the bar."
+She accepted it. The lid smelled of actual roasted beans, not chicory substitute. "You realize the official advisory says no stimulants before high emotional events."
+"I missed that," he said. "I was too busy reading the part about 'positive civic experience.'"
+He leaned on the rail beside her. Below, the city slowly shifted gears. Window lights winked off in clusters as building AIs nudged occupants toward observation mode. Advert panels dulled and slid toward muted colors, handing their brightness over to the sky.
+On the terrace, a city public service team moved through the crowd with small handout sheets and soft-voice explanations for anyone who wanted them. A child asked whether the star could fall; a patient staffer traced a circle in the air, showing how far away the shell truly was.
+An old woman near Sofia's elbow snorted quietly when she heard the simplified answer. "They said 'impossible on our timescales' last century," she muttered, half to herself. "My grandfather always squinted when someone said that."
+Sofia could have answered with half a dozen caveats. She chose silence instead and took another sip of coffee.
+Daniel glanced sideways at her. "You alright?" he asked, voice low enough that it vanished into the hum around them.
+"Data says we will be," she said. "The light curve is behaving. The remnant shell looks ugly, but the numbers are steady."
+"That's not what I asked."
+She hesitated, then let her shoulders drop a fraction. "I spent the last year watching its ghosts," she said. "Particles that slid through rock and ice and everything else without leaving so much as a scratch, until we coaxed a tiny handful into a detector. Now everyone gets to see the bright part. Feels... lopsided."
+Daniel followed her gaze to the families on the steps, the kids bouncing on their toes, the older ones pretending to be calmer than they were.
+"Lopsided is better than panicked," he said. "We had centuries to rehearse this as 'lesson learned' instead of 'sky is falling.'"
+Near the central screens, a short public piece started up—animation of ancient, simplified ships, the early warp corridors, the old reliance on that route. The narration spoke of "ambition, loss, and a renewed focus on sustainable expansion." No names. No specific numbers.
+A single graphic flashed: a stylized corridor map that faded to red and then gray, then gave way to sprawling, safer-flow lines away from it.
+The ticker rolled its line about committee restructuring again, then yielded to atmospheric indices and traffic advisories. The hint of political history sank back into data.
+Sofia glanced at her tablet one last time. Curves hugged their bands. Uncertainties shrank by slivers. No spikes. No sharp teeth in the numbers, only smooth, boring compliance with prediction.
+"Healthy," she murmured.
+"What?" Daniel asked.
+"Tonight's curve," she said. "Everything looks well-behaved. The only story is patience."
+He made a face. "My producer hates that word."
+"Then film the people," she said. "They're the interesting part anyway."
+He tilted his head, considering the arc of the crowd: the way strangers had given up railing space for kids, the small clusters of rooftop gardeners comparing local haze forecasts, the one corner where someone had brought a little speaker and set a slow, quiet track to play under the city noise.
+"Yeah," he said, almost to himself. "That might actually work."
+A soft chime sounded overhead, audible even through the layered talk. The terrace lighting shifted, sliding from full, indirect white to a warmer, lower level that left faces visible but put the sky ahead of everything else.
+Across the city, entire façades dimmed in answer. High-rise logos faded; billboard wraps slipped into black. Only street safety markers and transit beacons held their brightness.
+The first stars pricked through the deepening blue.
+Sofia saw them appear in stages, her eye drawn as much by the absence of light below as by the specks above. Bright points she knew by catalog number burned through the twilight, then the fainter ones filled in between.
+A map she had used for years in models spread itself out in real photons over her head.
+"Still a little early for our guest," Daniel said.
+"Give it time," she answered.
+She set her tablet face-down on the rail, letting the data feed run without her eyes on it for once, and lifted her gaze fully to the darkening sky where Betelgeuse would rise.
+A murmur rolled across the terrace as more stars came out.
+At first it was the usual low sound of people pointing things out to each other—"That one," "No, over there," "You can't see it yet"—but as the sky darkened the voices thinned, stretched, and dropped in volume. Even the kids on the front row steps quieted a little when the Milky Way began to show as a faint, diagonal haze.
+Sofia tilted her head, tracing familiar patterns.
+Orion was still low, its outline warped a little by the residual glow along the horizon. Betelgeuse's spot on that pattern was only a suggestion for now, a place she could indicate on the screen, not a point anyone could pick out without help.
+On the edge of her vision, her tablet showed a tiny notification—model update, arrival window refined—then faded again, respecting her request not to be intrusive.
+"Think they'd complain if I started a countdown?" Daniel asked quietly.
+"Someone already did," Sofia said, nodding toward one of the terrace screens.
+The nearest display had shifted from looping diagrams to a simple interface: a band of color sliding toward a time mark. Beneath it, a line of text:
+ESTIMATED LOCAL VISIBLE BRIGHTNESS RISE: T–06:30
+MODEL CONFIDENCE: HIGH
+Every minute, the time ticked down by sixty seconds and the confidence nudged upward by another fraction of a percent. Some small part of her still found that obscene, too—that you could take something as violent as a star's death and smudge it into a neat, converging probability cone.
+"I meant the dramatic kind," Daniel said. "Ten, nine, eight..."
+"That's for advertising breaks," she said. "This is just photon arrival statistics."
+"Your way with words is why they keep asking you onto my programs," he said dryly.
+A child's voice piped up from a few meters away. "Is it late?"
+An older man beside her—grandfather, by the look of it—checked his wristband. "No," he said. "We're early. It's on time."
+The countdown hit the last minute.
+Somewhere far below, in the lattice of streets and plazas, someone must have turned down a cluster of lights, because a fresh wave of dark swept up the flanks of the tower. The sea went from silver to almost-black, only the foamed edges of waves catching the last of the scattered glow. Transit beacons held steady, dots of ordered color in the dim.
+The city's ambient noise dipped another notch, as if some invisible hand had eased another slider down.
+Sofia felt the air change. It wasn't temperature—though the breeze carried a hint of cool from higher up—but attention. Hundreds of people tilted their heads at once. Conversations broke, then resumed in smaller, softer threads that left more space between words.
+Thirty seconds.
+The display stopped giving precise numbers and replaced them with a horizontal bar that filled slowly, no longer pretending anyone cared about the exact second. The ticker below it updated:
+ALL SENSORS NOMINAL. NEUTRINO PEAK PASSED SIX HOURS AGO. NO ANOMALOUS EMISSIONS DETECTED.
+Daniel's camera drone rose from its perch on his shoulder, hovering just above head height. Its indicator light stayed off; he'd set it to passive capture, the respectful setting.
+"Don't narrate," Sofia said.
+"I wasn't going to," he replied. "They can add a voiceover later."
+The last sliver of twilight bled out of the west. The sky above them darkened to a deep, almost-velvet blue. Orion lifted, its line of bright stars climbing above the horizon haze.
+Betelgeuse was there.
+Even at its normal brightness, it would have been one of the more obvious points in the familiar pattern. Now, though, anyone could see it. It was already brighter than she remembered from ordinary winters, its reddish tint more pronounced, like an ember at the edge of a larger flame.
+"There," someone breathed. A dozen others echoed it, all pointing in roughly the same direction.
+For a few seconds nothing changed.
+Sofia's eyes adjusted around the red; she saw the fainter stars nearby dim themselves in her perception as her pupils contracted. She waited, trying to let her intuition catch the shift before her training did.
+The change, when it came, was not explosive.
+The star simply... intensified. Its light stepped up a notch, and then another, in smooth, continuous motion. It shed the comfortable, hearth-like red and pushed toward a harder, whiter hue. A faint bluish cast crept into its core, barely there but unmistakable once seen.
+People murmured, squinted. Some reached automatically for their devices, then thought better of it and just stared.
+Under her feet, the terrace took on new shadow lines. The rail in front of her threw a sharper edge across the floor; the shadows of people's shoulders and heads grew longer and more defined, all pointing away from that one piece of sky. The ambient building lights were low enough now that Betelgeuse's brightness mattered—enough to draw clean, crisp shapes in the dim.
+"Brightness exceeding Venus," a quiet voice from one of the loops confirmed, as if on cue. "Current models indicate this phase will plateau briefly before rising again in coming nights. No hazard to ground personnel..."
+The audio washed over her, barely registered.
+Sofia forced herself to look away from the star long enough to flip her tablet right side up and bring the data feed into focus.
+Graphs unfurled over the screen—light curves from multiple ground-based stations, overlaid with expected profiles. She watched the actual values climb, point by point, along exactly the path they were supposed to take. No spikes. No jitters outside the bands.
+Above the plotted line, a simple tick marked NOW, sliding along as the feed updated.
+"I've seen simulations of this," she said, not sure whether she was talking to Daniel or to herself. "We ran them at training stations, years ago. 'If the models are right, this is how it should look.'"
+"And?" Daniel asked softly.
+"And this is exactly it," she said.
+He was quiet for a heartbeat.
+"Disappointed?" he ventured.
+She considered. The honest answer was complicated and didn't belong on a broadcast. She settled for a version that did.
+"Relieved," she said. "There's enough we didn't see coming the first time."
+An old man's voice floated from one of the benches behind them. "When your great-grandmother was a girl," he was telling the child beside him, "the planners thought we'd be shipping cities through that corridor by now. Straight lines. Shortcuts. We thought the galaxy would be full of places just like home."
+"What happened?" the child asked.
+"We learned we only get one home for sure," he said. "The rest is work—and cost."
+Sofia didn't turn to look. She didn't need to see his face to recognize the particular mix of regret and acceptance in his tone. She had heard versions of it on Titan, in the mess hall after late shifts, when people talked about why a world like Earth got forests and birds and beaches, and their world got towers and reactors and careful, stitched-together sky.
+Her tablet pinged once more.
+BETELGEUSE LIGHT CURVE: WITHIN 0.3% OF MODEL MEAN.
+NO UNPLANNED DEVIATIONS.
+The whole notification could have been written days ago and just held in a buffer, waiting to drop.
+"Healthy?" Daniel said.
+"Very," she answered. "From the city's point of view, this is exactly the right amount of boring."
+He huffed a soft laugh. "That's my closer, then. 'Tonight's big cosmic event: perfectly uneventful.'"
+"You wanted patience," she reminded him.
+"I wanted watchable patience," he said. "Which, to be fair, this is."
+He gestured up with his chin.
+The star had stabilized—at least as far as the human eye could tell. It burned steadily now, bright and cold, a hard point that dominated its corner of the sky. The rest of Orion still held its shape, but everything else around Betelgeuse felt rearranged, as if the pattern had been rewritten around a new anchor.
+The terrace stayed mostly quiet.
+There were no speeches scheduled, no city official to step up to a microphone. Small, private exchanges threaded through the hush: someone pointing out constellations, someone else explaining how far light-years really were, a child asking if the star knew they were looking back.
+After a while, the broadcast loops returned to more general content. A short segment rolled through on how long the glow would linger, when to expect the next slight increase, how to protect sensitive optical instruments from saturation. A ticker at the bottom reminded viewers that deep-analysis streams from the Kepler simulation core would begin in the morning.
+Sofia flicked through a few of those announcements, checking the data channels they referenced. No surprises. No hidden flags.
+"This is it," she said quietly. "The last major step. When that shell left, we were still arguing about whether to widen the corridor. It gets here, and we've already rewritten the rules, mothballed half the plans, rebuilt half the cities."
+"Not all of them," Daniel said, glancing toward the distant, darker zones on the horizon where restoration projects were still ongoing. "But enough that it looks good from up here."
+"The point is it looks like something we did, not something that just happened to us," she said.
+He considered that, then nodded once. "That line I can use," he said.
+A soft chime sounded overhead again.
+The terrace lights climbed by a fraction, just enough to make sure no one tripped on the steps. Below, building façades began to regain some of their earlier glow: not full advertising blaze, but comfortable evening illumination. Restaurant windows brightened; cooking smells drifted up in stronger currents.
+Traffic on the light rails picked up. You could see people on lower balconies starting to move, to gather bags, to shepherd kids inside.
+The city exhaled, collectively, into the space after performance.
+"Observation mode complete for this cycle," a calm voice said over the general system. "Thank you for your cooperation. Full urban lighting restoration scheduled at twenty-two hundred. Please enjoy the rest of your evening."
+Daniel stretched, easing his shoulders. His drone dropped back down, settling to dock at its shoulder bracket with a small, satisfied tone. It had probably captured hours of footage without his direct supervision.
+"Alright," he said. "I have enough for three different edits, and my producer can cut two of them without talking to me. That's my work quota for the night."
+"Already?" Sofia asked.
+"Anything I shoot after this will just be people chewing," he said. "Which is not usually where we want to end."
+He glanced sideways at her. "Speaking of which. There's a place two levels down that's doing some kind of ridiculous 'supernova stew' special. Come help me decide if it's an insult to your field."
+"Is there a control group?" she asked.
+"The control group is whatever you eat tomorrow when you lock yourself in with the Kepler people," he said. "I saw the promos. 'Deep Simulation Core breaks down the data.' You're on the panel, aren't you?"
+"Maybe," she said. "If they want someone to say 'the models held' fifteen different ways."
+"They will," he said. "So you should get actual food first."
+She looked up one last time.
+Betelgeuse hung exactly where it ought to, in the place she had been pointing at all day in charts and projections. Bright, cold, and—at this distance—harmless. A closed parenthesis written in light, centuries late and right on schedule.
+"Alright," she said. "Lead the way."
+They left the railing together, moving back through the thinning crowd toward the elevator arch. Behind them, the terrace settled into the easy chatter of an ordinary evening, with one extraordinary star watching over the city as if it had always been there.
+
+

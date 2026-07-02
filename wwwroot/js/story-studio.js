@@ -44,7 +44,15 @@
     chatInput: $("ss-chat-input"),
     chatSend: $("ss-chat-send"),
     chatClear: $("ss-chat-clear"),
-    audit: $("ss-audit"),
+    modelConfig: $("ss-model-config"),
+    modelConfigPanel: $("ss-model-config-panel"),
+    modelLabel: $("ss-model-label"),
+    modelBaseUrl: $("ss-model-base-url"),
+    modelApiKey: $("ss-model-api-key"),
+    modelName: $("ss-model-name"),
+    modelContext: $("ss-model-context"),
+    modelSaveConfig: $("ss-model-save-config"),
+    modelClearConfig: $("ss-model-clear-config"),
     thinking: $("ss-thinking"),
     file: $("ss-file"),
     attachments: $("ss-attachments"),
@@ -98,6 +106,7 @@
 
   let msgSeq = 0;
   const nextMsgId = () => `m${Date.now().toString(36)}${(msgSeq++).toString(36)}`;
+  const modelProviderKey = "storyStudio.modelProvider";
 
   // ---- helpers ----
 
@@ -875,12 +884,14 @@
   }
 
   async function proposePatch(instruction) {
+    const provider = modelProviderPayload();
     const payload = {
       instruction,
       draftText: collectDraftText(),
       imageDataUrls: collectImageUrls(),
       thinking: thinkingLevel(),
     };
+    if (provider) payload.provider = provider;
     const thinkingEl = renderThinking("Drafting a patch across the whole book…");
     try {
       const data = await req("POST", "/patch/propose", payload);
@@ -1051,12 +1062,15 @@
     const hist = historyForApi();
     if (hist.length && hist[hist.length - 1].role === "user" && hist[hist.length - 1].content === text) hist.pop();
     try {
-      const data = await req("POST", "/chat", {
+      const provider = modelProviderPayload();
+      const payload = {
         message: text,
         history: hist.slice(-8),
         imageDataUrls: collectImageUrls(),
         thinking: thinkingLevel(),
-      });
+      };
+      if (provider) payload.provider = provider;
+      const data = await req("POST", "/chat", payload);
       thinkingEl.remove();
       const m = { id: nextMsgId(), role: "assistant", content: data.reply || "(no reply)", citations: data.citations };
       state.chat.push(m);
@@ -1099,20 +1113,73 @@
     renderChat();
   }
 
-  async function audit() {
-    el.audit.disabled = true;
-    pushMessage("assistant", "Auditing the whole book for duplication / contradiction / stale content…");
-    try {
-      const data = await req("POST", "/audit", { thinking: thinkingLevel() });
-      pushMessage("assistant", data.report || "(no findings)");
-      refreshCache();
-      if (data.telemetry) renderTelemetry(data.telemetry);
-    } catch (e) {
-      if (e.status === 409) { state.holdsSlot = false; await refreshSlot(); }
-      toast(e.message, "error");
-    } finally {
-      el.audit.disabled = false;
+  function modelProviderFromFields() {
+    const provider = {
+      label: (el.modelLabel && el.modelLabel.value.trim()) || "",
+      baseUrl: (el.modelBaseUrl && el.modelBaseUrl.value.trim()) || "",
+      apiKey: (el.modelApiKey && el.modelApiKey.value.trim()) || "",
+      model: (el.modelName && el.modelName.value.trim()) || "",
+      maxContextTokens: el.modelContext && el.modelContext.value ? Number(el.modelContext.value) : null,
+    };
+    const any = provider.label || provider.baseUrl || provider.apiKey || provider.model || provider.maxContextTokens;
+    if (!any) return null;
+    if (!provider.baseUrl || !provider.apiKey || !provider.model) {
+      throw new Error("Model provider needs Base URL, API key, and model.");
     }
+    if (provider.maxContextTokens !== null && (!Number.isInteger(provider.maxContextTokens) || provider.maxContextTokens <= 0)) {
+      throw new Error("Max context must be a positive whole number.");
+    }
+    return provider;
+  }
+
+  function modelProviderPayload() {
+    const provider = modelProviderFromFields();
+    if (!provider) return null;
+    return {
+      baseUrl: provider.baseUrl,
+      apiKey: provider.apiKey,
+      model: provider.model,
+      maxContextTokens: provider.maxContextTokens,
+    };
+  }
+
+  function setModelProviderFields(provider) {
+    if (el.modelLabel) el.modelLabel.value = provider?.label || "";
+    if (el.modelBaseUrl) el.modelBaseUrl.value = provider?.baseUrl || "";
+    if (el.modelApiKey) el.modelApiKey.value = provider?.apiKey || "";
+    if (el.modelName) el.modelName.value = provider?.model || "";
+    if (el.modelContext) el.modelContext.value = provider?.maxContextTokens || "";
+  }
+
+  function loadModelProvider() {
+    if (!el.modelConfigPanel) return;
+    try {
+      const saved = localStorage.getItem(modelProviderKey);
+      setModelProviderFields(saved ? JSON.parse(saved) : null);
+    } catch {
+      setModelProviderFields(null);
+    }
+  }
+
+  function saveModelProvider() {
+    try {
+      const provider = modelProviderFromFields();
+      if (provider) {
+        localStorage.setItem(modelProviderKey, JSON.stringify(provider));
+        toast("Model provider saved.", "success");
+      } else {
+        localStorage.removeItem(modelProviderKey);
+        toast("Model provider cleared.", "info");
+      }
+    } catch (e) {
+      toast(e.message, "error");
+    }
+  }
+
+  function clearModelProvider() {
+    localStorage.removeItem(modelProviderKey);
+    setModelProviderFields(null);
+    toast("Model provider cleared.", "info");
   }
 
   // ---- init ----
@@ -1178,7 +1245,11 @@
     el.saveLang.addEventListener("click", saveLang);
     el.chatForm.addEventListener("submit", sendChat);
     el.chatClear.addEventListener("click", clearChat);
-    el.audit.addEventListener("click", audit);
+    if (el.modelConfig) el.modelConfig.addEventListener("click", () => {
+      if (el.modelConfigPanel) el.modelConfigPanel.hidden = !el.modelConfigPanel.hidden;
+    });
+    if (el.modelSaveConfig) el.modelSaveConfig.addEventListener("click", saveModelProvider);
+    if (el.modelClearConfig) el.modelClearConfig.addEventListener("click", clearModelProvider);
     el.file.addEventListener("change", onFilePicked);
     el.patchApply.addEventListener("click", applyPatch);
     el.patchReject.addEventListener("click", () => { clearPatch(); toast("Patch rejected.", "info"); });
@@ -1197,6 +1268,7 @@
 
   async function init() {
     bind();
+    loadModelProvider();
     setView("map");
     // Pollers start now; they no-op meaningfully until auth resolves.
     state.ragTimer = setInterval(refreshRag, 30000);

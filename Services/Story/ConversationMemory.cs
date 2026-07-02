@@ -56,7 +56,10 @@ public sealed partial class ConversationMemory
     /// is short, summary is empty and all turns are returned verbatim.
     /// </summary>
     public async Task<(string summary, List<ChatMessage> recent)> CompressAsync(
-        IReadOnlyList<ChatMessage> history, ThinkingLevel thinking = ThinkingLevel.Normal, CancellationToken ct = default)
+        IReadOnlyList<ChatMessage> history,
+        ThinkingLevel thinking = ThinkingLevel.Normal,
+        ProviderOptions? providerOverride = null,
+        CancellationToken ct = default)
     {
         if (history.Count <= VerbatimTurns)
             return ("", history.ToList());
@@ -64,7 +67,7 @@ public sealed partial class ConversationMemory
         var older = history.Take(history.Count - VerbatimTurns).ToList();
         var recent = history.Skip(history.Count - VerbatimTurns).ToList();
 
-        var provider = _options.CurrentValue.CoAuthor;
+        var provider = providerOverride ?? _options.CurrentValue.CoAuthor;
         if (!provider.IsConfigured)
             return ("", recent); // can't summarize without a provider; just keep recent.
 

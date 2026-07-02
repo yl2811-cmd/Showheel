@@ -52,9 +52,10 @@ public sealed partial class CoAuthorService
         IReadOnlyList<ChatMessage> history,
         IReadOnlyList<string>? imageDataUrls = null,
         ThinkingLevel thinking = ThinkingLevel.Normal,
+        ProviderOptions? providerOverride = null,
         CancellationToken ct = default)
     {
-        var provider = _options.CurrentValue.CoAuthor;
+        var provider = providerOverride ?? _options.CurrentValue.CoAuthor;
 
         // 1) On-demand retrieval: only look up the book when the message needs it.
         var retrieved = new List<VectorChunk>();
@@ -63,7 +64,7 @@ public sealed partial class CoAuthorService
         var context = RagService.FormatContext(retrieved);
 
         // 2) Memory: summarize older turns, keep recent turns verbatim.
-        var (summary, recent) = await _memory.CompressAsync(history, thinking, ct);
+        var (summary, recent) = await _memory.CompressAsync(history, thinking, provider, ct);
 
         var system = BuildSystemPrompt(context, summary, patchMode: false);
 
@@ -99,9 +100,10 @@ public sealed partial class CoAuthorService
         string? draftText = null,
         IReadOnlyList<string>? imageDataUrls = null,
         ThinkingLevel thinking = ThinkingLevel.High,
+        ProviderOptions? providerOverride = null,
         CancellationToken ct = default)
     {
-        var provider = _options.CurrentValue.CoAuthor;
+        var provider = providerOverride ?? _options.CurrentValue.CoAuthor;
 
         // Retrieve global context so placement avoids duplication/contradiction, and
         // give the model the current node ids it can target.
@@ -144,9 +146,13 @@ public sealed partial class CoAuthorService
     /// Reviews the whole tree for global-consistency issues: duplication,
     /// contradiction, and stale content. Returns a plain-text report.
     /// </summary>
-    public async Task<string> AuditAsync(StoryTree tree, ThinkingLevel thinking = ThinkingLevel.High, CancellationToken ct = default)
+    public async Task<string> AuditAsync(
+        StoryTree tree,
+        ThinkingLevel thinking = ThinkingLevel.High,
+        ProviderOptions? providerOverride = null,
+        CancellationToken ct = default)
     {
-        var provider = _options.CurrentValue.CoAuthor;
+        var provider = providerOverride ?? _options.CurrentValue.CoAuthor;
 
         var outline = new StringBuilder();
         foreach (var n in tree.Flatten())

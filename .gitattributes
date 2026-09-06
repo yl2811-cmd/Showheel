@@ -1,0 +1,2 @@
+# Preserve imported atlas bytes so the asset manifest survives Git checkout.
+wwwroot/archeon-atlas/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

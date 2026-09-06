@@ -1,0 +1,1 @@
+window.ATLAS_CONTOUR_RECEIVE&&window.ATLAS_CONTOUR_RECEIVE("aethelgard:9:0","<path data-elevation=\"50\" d=\"M1154.613 128L1152 123.004\" fill=\"none\" stroke=\"#667057\" stroke-opacity=\"0.21\" stroke-width=\"0.18\"/>");

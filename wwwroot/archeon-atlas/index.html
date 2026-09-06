@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Archeon Atlas · Year 521</title><link rel="stylesheet" href="atlas.css"></head>
+<body>
+<header class="masthead"><div class="wordmark">ARCHEON <span>ATLAS</span></div><div class="epoch">Year 521 <span>·</span> 3094</div><a class="about" href="about.html">地图说明 ↗</a></header>
+<nav class="view-tabs" aria-label="地图视图"><button data-view="world" aria-pressed="true"><span>01</span>世界地图</button><button data-view="aethelgard" aria-pressed="false"><span>02</span>Aethelgard</button><button data-view="atheria" aria-pressed="false"><span>03</span>Atheria 阶地</button><button data-view="marneth" aria-pressed="false"><span>04</span>Marneth — Skyleaf</button><button data-view="rimstone" aria-pressed="false"><span>05</span>Rimstone Tarn</button></nav>
+<div class="workspace">
+<aside class="sidebar"><label class="search-label" for="search">寻找一个地方</label><input id="search" type="search" autocomplete="off" placeholder="地名、河流或航线…"><div id="search-results" class="search-results" aria-live="polite"></div>
+<div class="layer-title">图层 <button id="toggle-layers" aria-expanded="true" aria-controls="layers">收起</button></div>
+<div id="layers">
+<label><input type="checkbox" data-layer="terrain" checked><span class="key relief"></span>地貌与地表色彩</label>
+<label><input type="checkbox" data-layer="contours" checked><span class="key contour"></span>等高线</label>
+<label><input type="checkbox" data-layer="water" checked><span class="key water"></span>水系与海岸</label>
+<label><input type="checkbox" data-layer="places" checked><span class="key place"></span>地点</label>
+<label><input type="checkbox" data-layer="labels" checked><span class="key label-key">A</span>地名</label>
+<label><input type="checkbox" data-layer="routes" checked><span class="key route"></span>Threads 航路</label>
+<label><input type="checkbox" data-layer="extents" checked><span class="key extent"></span>奇观范围</label>
+<label><input type="checkbox" data-layer="ecology"><span class="key ecology"></span>生态分区说明</label>
+<label><input type="checkbox" data-layer="mist" checked><span class="key mist"></span>贴地薄雾</label>
+<label><input type="checkbox" data-layer="clouds"><span class="key clouds"></span>代表性云带</label>
+<label><input type="checkbox" data-layer="climate"><span class="key climate"></span>干湿、风带与洋流</label>
+<label><input type="checkbox" data-layer="ci"><span class="key ci"></span>灾前 CI · 2573</label>
+<label><input type="checkbox" data-layer="grid" checked><span class="key grid"></span>经纬网</label>
+</div>
+<div id="ecology-key" class="ecology-key" hidden><span><i style="background:#385c48"></i>湿林与密林冠</span><span><i style="background:#9da56d"></i>草甸与疏林</span><span><i style="background:#a8704e"></i>干地与裸岩</span><span><i style="background:#dce9e1"></i>冰雪与寒地</span><p>颜色随地势与湿润程度交错。分区表示环境倾向，细碎形状属于制图推导。</p></div>
+<div class="sidebar-note">放大后，林冠、裸岩、湿沟与草甸逐渐展开。地表纹理随地势延伸；点击地名可查看坐标与设定依据。</div>
+<div class="downloads"><a href="data/atlas.json" download>地理数据 <span>↓</span></a></div>
+</aside>
+<main class="map-panel"><div id="map-stage" aria-label="可缩放的 Archeon 地图" aria-busy="true"><div class="loading">正在展开地图…</div></div>
+<div class="map-tools" aria-label="地图缩放"><button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">−</button><button id="reset" aria-label="重置视图">全图</button><button id="scenic" aria-pressed="false" title="暂时收起航路、奇观范围和经纬网">观景</button></div><div class="map-status"><span id="view-status">Equal Earth · R 4,750 km</span><span id="load-status" role="status"></span><span id="zoom-status">100%</span></div>
+<section id="detail" class="detail" aria-label="地点详情" hidden><button id="close-detail" aria-label="关闭详情">×</button><div id="detail-body"></div></section>
+</main></div>
+<script src="vendor/d3.v7.min.js"></script><script src="data/atlas.js"></script><script src="data/tiles.js"></script><script src="app.js"></script>
+</body></html>

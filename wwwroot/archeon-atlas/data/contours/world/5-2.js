@@ -1,0 +1,1 @@
+window.ATLAS_CONTOUR_RECEIVE&&window.ATLAS_CONTOUR_RECEIVE("world:5:2","<path data-elevation=\"250\" d=\"M844.8 416.389L844.559 416.625L844.508 416.808L844.427 417.725L844.447 418.275L844.8 419.749M844.8 420.183L844.342 421.575L843.767 422.4\" fill=\"none\" stroke=\"#667057\" stroke-opacity=\"0.21\" stroke-width=\"0.22\"/>");

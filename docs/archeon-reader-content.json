@@ -1,0 +1,21 @@
+{
+  "source": "D:/SKBS/timelapse-skies_beyond_the_star.txt",
+  "bytes": 771559,
+  "sourceSha256": "0c9141d08e8597901611cf7e8cb56376e3af57323e92690f7f46185e5708377f",
+  "previousChineseSha256": "d226565c56e192d8ff8e904ebe26b570c28c6ed2b772c88bf3d89f626b4fa7ef",
+  "englishSha256": "a5692e29390226af2a46d903ba571efb1e2b12937a7ac883431493f1d2615638",
+  "dependencies": [
+    {
+      "name": "marked",
+      "version": "18.0.11",
+      "tarball": "https://registry.npmjs.org/marked/-/marked-18.0.11.tgz",
+      "integrity": "sha512-HnslJfsZkRPBDJRHvVtAaWlZHEpSu7u8LgQuJCELjRKuWR+hpq4A7sLq3p8HaI9ypVoXDXxV34CsQJEe1+J5Aw=="
+    },
+    {
+      "name": "dompurify",
+      "version": "3.4.15",
+      "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.15.tgz",
+      "integrity": "sha512-EUBjM+B+lkDE41iE82DDSCfkoPGfXx8IxFxPMjNzm/Uk4xDet77rTN9wqlxlVg71kK7XGuUMv6wUxJUwwv+Xyw=="
+    }
+  ]
+}

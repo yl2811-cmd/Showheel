@@ -1,0 +1,108 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const os = require('node:os');
+const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const base = process.argv[2] || 'http://127.0.0.1:5280';
+const root = path.resolve(__dirname, '..');
+const output = process.env.READER_QA_OUTPUT || path.join(os.tmpdir(), 'showheel-reader-qa');
+const content = JSON.parse(fs.readFileSync(path.join(root, 'docs/archeon-reader-content.json')));
+const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const fixture = '# Fixture\n\n**bold** and *italic*\n\n> quote\n\n- item\n\n| A | B |\n| --- | --- |\n| one | two |\n\n```text\n=====\nkeep this code\n=====\n```\n\n=====\nA chapter\n=====\n\n<script>window.readerUnsafe=true</script><img src=x onerror="window.readerUnsafe=true"><a href="javascript:alert(1)">unsafe</a>';
+
+(async () => {
+    assert.equal(hash(path.join(root, 'wwwroot/story.md')), content.sourceSha256);
+    assert.equal(hash(path.join(root, 'wwwroot/story-engl.md')), content.englishSha256);
+    fs.mkdirSync(output, { recursive: true });
+    const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
+    const result = { hashes: true, views: [], errors: [], failedResources: [] };
+    try {
+        const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+        page.on('pageerror', e => result.errors.push(e.message));
+        page.on('response', r => { if (r.url().startsWith(base) && r.status() >= 400) result.failedResources.push({ url: r.url(), status: r.status() }); });
+        let mapLoads = 0;
+        page.on('request', r => { if (r.url().endsWith('/archeon-atlas/index.html')) mapLoads++; });
+        await page.goto(base + '/Archeon');
+        const reader = page.locator('[data-story-reader]');
+        const scroll = page.locator('[data-story-scroll]');
+        await reader.locator('.story-prose').waitFor();
+        assert.equal(await scroll.getAttribute('lang'), 'zh-CN');
+        assert((await reader.innerText()).includes('核的低鸣还在。'));
+        assert.equal(await page.locator('.kd-feature-grid,.kd-mason,.kd-story-row').count(), 0);
+        assert.equal(await page.locator('iframe[src*="youtube"]').count(), 0);
+        await page.locator('.archeon-map-frame').scrollIntoViewIfNeeded();
+        const frame = page.frameLocator('.archeon-map-frame iframe');
+        for (const view of ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone']) {
+            await frame.locator('button[data-view="' + view + '"]').click();
+            await frame.locator('#map-' + view).waitFor();
+            result.views.push(view);
+        }
+        await frame.locator('button[data-view="world"]').click();
+        await reader.scrollIntoViewIfNeeded();
+        await scroll.evaluate(el => { el.scrollTop = 2100; });
+        await reader.getByRole('button', { name: 'English', exact: true }).click();
+        await page.waitForFunction(() => document.querySelector('[data-story-scroll]').lang === 'en' && !!document.querySelector('.story-prose'));
+        await scroll.evaluate(el => { el.scrollTop = 1200; });
+        await reader.getByRole('button', { name: '中文', exact: true }).click();
+        await page.waitForFunction(() => document.querySelector('[data-story-scroll]').scrollTop === 2100);
+        await reader.getByRole('button', { name: 'English', exact: true }).click();
+        await page.waitForFunction(() => document.querySelector('[data-story-scroll]').scrollTop === 1200);
+        result.scrollRestoration = true;
+        assert.equal(mapLoads, 1);
+        result.mapNotReloaded = true;
+        await scroll.focus();
+        await page.keyboard.press('PageDown');
+        await page.waitForFunction(() => document.querySelector('[data-story-scroll]').scrollTop > 1200);
+        result.keyboardScroll = true;
+        await reader.getByRole('button', { name: '中文', exact: true }).click();
+        await reader.locator('.story-prose').waitFor();
+        await scroll.evaluate(el => { el.scrollTop = 0; });
+        await reader.screenshot({ path: path.join(output, 'reader-desktop.png') });
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.reload();
+        await reader.locator('.story-prose').waitFor();
+        await reader.scrollIntoViewIfNeeded();
+        assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+        result.mobile = await scroll.evaluate(el => ({ width: el.clientWidth, scrollHeight: el.scrollHeight, height: el.clientHeight }));
+        await page.screenshot({ path: path.join(output, 'reader-mobile.png') });
+        for (const [file, lang] of [['story-viewer.html', 'zh-CN'], ['story-engl-viewer.html', 'en']]) {
+            await page.goto(base + '/' + file);
+            await page.locator('.story-prose').waitFor();
+            assert.equal(await page.locator('[data-story-scroll]').getAttribute('lang'), lang);
+        }
+        result.standalone = true;
+        const failure = await browser.newPage();
+        let attempt = 0;
+        await failure.route('**/story.md', route => route.fulfill({ status: ++attempt === 1 ? 503 : 200, contentType: 'text/plain', body: fixture }));
+        await failure.goto(base + '/story-viewer.html');
+        await failure.locator('[data-story-retry]:visible').waitFor();
+        await failure.locator('[data-story-retry]').click();
+        await failure.locator('.story-prose').waitFor();
+        assert.equal(attempt, 2);
+        assert.equal(await failure.locator('.story-wide table').count(), 1);
+        assert.equal(await failure.locator('.story-wide pre').count(), 1);
+        assert.equal(await failure.locator('.story-prose h2').innerText(), 'A chapter');
+        assert((await failure.locator('pre').innerText()).includes('=====\nkeep this code\n====='));
+        assert.equal(await failure.locator('.story-prose script,[onerror],a[href^="javascript:"]').count(), 0);
+        assert.equal(await failure.evaluate(() => window.readerUnsafe), undefined);
+        result.retryAndMarkdownSafety = true;
+        const race = await browser.newPage();
+        await race.route('**/story.md', async route => { await new Promise(resolve => setTimeout(resolve, 700)); await route.fulfill({ body: '# Chinese response' }); });
+        await race.route('**/story-engl.md', route => route.fulfill({ body: '# English response' }));
+        await race.goto(base + '/story-viewer.html');
+        await race.getByRole('button', { name: 'English', exact: true }).click();
+        await race.getByRole('heading', { name: 'English response', exact: true }).waitFor();
+        await race.waitForTimeout(900);
+        assert.equal(await race.locator('.story-prose').innerText(), 'English response');
+        result.staleResponseIgnored = true;
+        assert.deepEqual(result.errors, []);
+        assert.deepEqual(result.failedResources, []);
+        result.passed = true;
+    } finally {
+        fs.writeFileSync(path.join(output, 'verification.json'), JSON.stringify(result, null, 2));
+        await browser.close();
+    }
+    console.log(JSON.stringify(result, null, 2));
+})().catch(error => { console.error(error); process.exitCode = 1; });

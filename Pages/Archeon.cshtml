@@ -19,78 +19,32 @@
     <a class="kd-scroll-cue" href="#archeon-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
 </section>
 
+<link rel="stylesheet" href="~/css/story-reader.css" asp-append-version="true" />
 <section id="archeon-body" class="kd-detail-body kd-detail-body--archeon">
     <div class="kd-detail-inner">
-        <div class="kd-feature-grid">
-            <div class="kd-feature-main">
-                <div class="kd-media-frame kd-video-frame">
-                    <iframe
-                        src="https://www.youtube.com/embed/23Ve8w_A_fo?autoplay=1&mute=0&rel=0&controls=1&loop=1&playlist=23Ve8w_A_fo"
-                        title="Archeon concept reel"
-                        loading="lazy"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        playsinline></iframe>
-                </div>
-                <p class="kd-caption">Concept reel — click anywhere to play with sound.</p>
-
-                <a class="kd-atlas-card" href="/archeon-atlas/index.html" target="_blank" rel="noopener noreferrer">
-                    <span class="kd-atlas-icon">&#x1F30D;</span>
-                    <span class="kd-atlas-text">
-                        <span class="kd-atlas-title">Archeon World Atlas</span>
-                        <span class="kd-atlas-sub">Explore the world, terrain &amp; airship routes — Year 521 Post-Sky Fire</span>
-                    </span>
-                    <span class="kd-atlas-arrow">&#x2192;</span>
-                </a>
-
-                <div class="kd-story-row">
-                    <a class="kd-story-box" href="/story-viewer.html" target="_blank" rel="noopener noreferrer">
-                        <span class="kd-story-icon">&#x1F4D6;</span>
-                        <span class="kd-story-title">Story (中文)</span>
-                        <span class="kd-story-sub">阅读中文故事文档</span>
-                    </a>
-                    <a class="kd-story-box" href="/story-engl-viewer.html" target="_blank" rel="noopener noreferrer">
-                        <span class="kd-story-icon">&#x1F4D6;</span>
-                        <span class="kd-story-title">Story (English)</span>
-                        <span class="kd-story-sub">Read the English story document</span>
-                    </a>
-                </div>
-            </div>
-
-            <aside class="kd-feature-side">
-                <div class="kd-side-card">
-                    <p class="kd-eyebrow">Protagonist</p>
-                    <a class="kd-side-media" href="https://www.wattpad.com/story/404103703-skies-beyond-the-star" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/anna-freedman.png" alt="Anna Freedman portrait" loading="lazy" />
-                    </a>
-                    <p class="kd-side-caption">Anna Freedman — protagonist of Skies Beyond the Star. Click to read on Wattpad.</p>
-                </div>
-                <div class="kd-side-card">
-                    <p class="kd-eyebrow">Vistas</p>
-                    <a class="kd-side-media" href="https://www.bilibili.com/video/BV1tNFhznEvd/" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/re1.png" alt="Archeon vista" loading="lazy" />
-                    </a>
-                    <p class="kd-side-caption">Reading &amp; music experience on Bilibili.</p>
-                </div>
-            </aside>
+        <div class="archeon-map-frame">
+            <iframe src="/archeon-atlas/index.html" title="Archeon 世界地图 · Interactive World Atlas" loading="lazy"></iframe>
         </div>
-
-        <h3 class="kd-section-sub">Concept selections</h3>
-        <div class="kd-mason kd-mason-3col">
-            <img src="/images/Arcehonoutpost(11).png" alt="Archeon settlement I" loading="lazy" />
-            <img src="/images/archeonsettlem%20%287%29.png" alt="Archeon settlement II" loading="lazy" />
-            <img src="/images/archeon02.png" alt="Archeon settlement III" loading="lazy" />
-            <img src="/images/archeonsettlem%20%288%29.png.png" alt="Archeon settlement IV" loading="lazy" />
-            <img src="/images/frontier%282%29.png" alt="Frontier" loading="lazy" />
-            <img src="/images/outpost3.png" alt="Outpost" loading="lazy" />
-            <img src="/images/archeonsettlem%20%289%29.png.png" alt="Archeon settlement V" loading="lazy" />
-            <img src="/images/irishollow%20%283%29.png" alt="Iris Hollow" loading="lazy" />
-            <img src="/images/archeonsettlem%20%2810%29.png.png" alt="Archeon settlement VI" loading="lazy" />
+        <div id="archeon-story" class="archeon-reading">
+            <section class="story-reader" data-story-reader data-default-lang="zh" aria-label="Story reader">
+                <header class="story-toolbar">
+                    <h2 data-story-heading>小说与世界设定</h2>
+                    <div class="story-language" role="group" aria-label="阅读语言 / Reading language">
+                        <button type="button" data-story-lang="zh" aria-pressed="true">中文</button>
+                        <button type="button" data-story-lang="en" aria-pressed="false">English</button>
+                    </div>
+                </header>
+                <div class="story-status"><p data-story-status role="status" aria-live="polite"></p><button class="story-retry" type="button" data-story-retry hidden>重新加载</button></div>
+                <div class="story-scroll" data-story-scroll tabindex="0" role="region" aria-label="小说正文" aria-busy="true"></div>
+                <noscript><p>请启用 JavaScript 阅读，或打开 <a href="/story.md">中文全文</a> / <a href="/story-engl.md">English manuscript</a>。</p></noscript>
+            </section>
         </div>
     </div>
 </section>
 
 @section Scripts {
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/vendor/marked/marked.umd.js" asp-append-version="true" defer></script>
+    <script src="~/vendor/dompurify/purify.min.js" asp-append-version="true" defer></script>
+    <script src="~/js/story-reader.js" asp-append-version="true" defer></script>
 }

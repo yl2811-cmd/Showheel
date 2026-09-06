@@ -56,7 +56,7 @@ async function main() {
     }));
     const archeon = await fetch(new URL('/Archeon', base));
     assert.equal(archeon.status, 200);
-    assert((await archeon.text()).includes('href="/archeon-atlas/index.html"'));
+    assert((await archeon.text()).includes('src="/archeon-atlas/index.html"'));
     const old = await fetch(new URL('/world-atlas.html', base));
     assert.equal(old.status, 200);
     const redirect = await old.text();

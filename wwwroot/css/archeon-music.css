@@ -1,0 +1,43 @@
+.archeon-music {
+    position: fixed;
+    top: 3px;
+    right: clamp(20px, 4vw, 56px);
+    z-index: 1300;
+    width: 296px;
+    max-width: calc(100vw - 32px);
+    padding: 8px 12px;
+    border: 1px solid rgba(237, 184, 95, .4);
+    border-radius: 12px;
+    background: rgba(13, 21, 30, .94);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
+    color: #eee7d8;
+    font: 12px/1.45 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+.archeon-music-title { font-weight: 600; letter-spacing: .04em; }
+.archeon-music-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.archeon-music-controls { display: flex; gap: 5px; flex: none; }
+.archeon-music button { min-width: 32px; min-height: 34px; padding: 5px 7px; border: 1px solid #566170; border-radius: 6px; background: #1c2936; color: #f1dfbd; cursor: pointer; font: inherit; }
+.archeon-music button:hover { background: #33465b; }
+.archeon-music button:focus-visible { outline: 2px solid #edb85f; outline-offset: 2px; }
+.archeon-music button:disabled { cursor: default; opacity: .5; }
+.archeon-music-status { margin-top: 3px; color: #b4c0ce; font-size: 10px; }
+.archeon-page .kd-nav { margin-right: 316px; }
+.archeon-page .story-reader { scroll-margin-top: 90px; }
+@media (max-width: 900px) {
+    .archeon-page .kd-detail-hero { margin-top: 110px; }
+    .archeon-page .kd-topbar { height: 110px; align-items: flex-start; padding-top: 16px; background: rgba(5, 5, 7, .88); }
+    .archeon-page .kd-nav { position: absolute; top: 74px; right: 16px; margin-right: 0; }
+    .archeon-page .story-reader { scroll-margin-top: 122px; }
+    .archeon-music { top: 5px; right: 16px; width: 276px; padding: 8px 11px; }
+}
+@media (max-width: 620px) {
+    .archeon-page .kd-detail-hero-inner { padding: 8px 16px; }
+    .archeon-page .kd-detail-hero .kd-eyebrow { display: none; }
+    .archeon-page .kd-detail-title { font-size: clamp(1.15rem, 4.8vw, 1.8rem); margin-bottom: 5px; }
+}
+.archeon-page .kd-detail-hero { height: auto; min-height: 0; aspect-ratio: 1875 / 664; margin-top: 72px; }
+.archeon-page .kd-detail-hero-bg { inset: 0; background-size: 100% 100%; transform: none; }
+.archeon-page .kd-detail-hero-inner { position: absolute; inset: 0; padding: 0 clamp(16px, 4vw, 56px) clamp(24px, 3vw, 44px); }
+.archeon-page .kd-detail-title { font-size: clamp(1.6rem, 4.3vw, 4rem); }
+.archeon-page .kd-detail-sub { font-size: clamp(.75rem, 1.2vw, 1.1rem); line-height: 1.45; }
+.archeon-page .kd-scroll-cue { display: none; }

@@ -12,6 +12,11 @@
     border: 0;
 }
 .archeon-reading { margin-top: clamp(32px, 5vw, 64px); }
+.archeon-reading .story-prose {
+    max-width: none;
+    width: 100%;
+    padding-inline: clamp(24px, 8vw, 128px);
+}
 .story-reader {
     display: flex;
     flex-direction: column;
@@ -102,6 +107,7 @@
     .story-toolbar h2 { font-size: 16px; }
     .story-language button { padding: 8px 10px; }
     .story-prose { padding: 24px 18px 48px; font-size: 17px; }
+    .archeon-reading .story-prose { padding-inline: 18px; }
     [lang=en] > .story-prose { font-size: 18px; }
     .story-standalone { padding: 14px 10px; }
 }

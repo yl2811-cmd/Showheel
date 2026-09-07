@@ -20,15 +20,15 @@
     },
     {
       "path": "data/atlas.js",
-      "bytes": 10366774,
-      "sourceSha256": "3d7bc1741d764c004c1ed58b198aad07f6b27b445fa532d0415389c1c4f80a86",
-      "sha256": "3d7bc1741d764c004c1ed58b198aad07f6b27b445fa532d0415389c1c4f80a86"
+      "bytes": 10390357,
+      "sourceSha256": "b378d081eed95409c8b9cb2fbbdd0e4dfb5f3d317aad809d7d104572ab880c29",
+      "sha256": "b378d081eed95409c8b9cb2fbbdd0e4dfb5f3d317aad809d7d104572ab880c29"
     },
     {
       "path": "data/atlas.json",
-      "bytes": 24260632,
-      "sourceSha256": "ad9103810818b4e6b67eabd5b85b00c3503c9d6bf810443faef3557306d6d186",
-      "sha256": "ad9103810818b4e6b67eabd5b85b00c3503c9d6bf810443faef3557306d6d186"
+      "bytes": 10391742,
+      "sourceSha256": "ef8288d47e983a90c7ea1c5d5b4cb2eb89dd5ebc54f9e5caf90e14bb3b8de347",
+      "sha256": "ef8288d47e983a90c7ea1c5d5b4cb2eb89dd5ebc54f9e5caf90e14bb3b8de347"
     },
     {
       "path": "data/contours/aethelgard/10-0.js",
@@ -62,27 +62,27 @@
     },
     {
       "path": "data/contours/aethelgard/10-6.js",
-      "bytes": 276683,
-      "sourceSha256": "dbef9493474aa854f3b2958bdb71c6e2d7604085d27b2900266633ba9a291667",
-      "sha256": "dbef9493474aa854f3b2958bdb71c6e2d7604085d27b2900266633ba9a291667"
+      "bytes": 280455,
+      "sourceSha256": "44ba171f7113ca0ea266255d705125187d8c5b9d18da9c24fd2dfec851016fcf",
+      "sha256": "44ba171f7113ca0ea266255d705125187d8c5b9d18da9c24fd2dfec851016fcf"
     },
     {
       "path": "data/contours/aethelgard/10-7.js",
-      "bytes": 371134,
-      "sourceSha256": "3ddfeb072e65103e266223633663380d459ca28782cd42539123f110a9511f1f",
-      "sha256": "3ddfeb072e65103e266223633663380d459ca28782cd42539123f110a9511f1f"
+      "bytes": 386493,
+      "sourceSha256": "d5cd0f12f5920860011242362d4674d35ccde96d1443c77fe882c0ff7affadac",
+      "sha256": "d5cd0f12f5920860011242362d4674d35ccde96d1443c77fe882c0ff7affadac"
     },
     {
       "path": "data/contours/aethelgard/10-8.js",
-      "bytes": 506608,
-      "sourceSha256": "ce275e1b85de57e1e684da124c9934b6f04fd651e822062c5acbb84f40f43ff4",
-      "sha256": "ce275e1b85de57e1e684da124c9934b6f04fd651e822062c5acbb84f40f43ff4"
+      "bytes": 495188,
+      "sourceSha256": "47c1793c85990bc5dd3e8f9bbfe23b6b32feccce84cb44270e2482bc541b71a7",
+      "sha256": "47c1793c85990bc5dd3e8f9bbfe23b6b32feccce84cb44270e2482bc541b71a7"
     },
     {
       "path": "data/contours/aethelgard/10-9.js",
-      "bytes": 19026951,
-      "sourceSha256": "38b6ea5db1f1c9c53076c19b4a80f111a977f5f84e607ab7b408d17ce1a8a7a0",
-      "sha256": "38b6ea5db1f1c9c53076c19b4a80f111a977f5f84e607ab7b408d17ce1a8a7a0"
+      "bytes": 19037415,
+      "sourceSha256": "52c9ce139695117a4a2ec4044c9d578e2c155cd8f66b516819427613169b1b5d",
+      "sha256": "52c9ce139695117a4a2ec4044c9d578e2c155cd8f66b516819427613169b1b5d"
     },
     {
       "path": "data/contours/aethelgard/11-0.js",
@@ -92,33 +92,33 @@
     },
     {
       "path": "data/contours/aethelgard/11-5.js",
-      "bytes": 139748,
-      "sourceSha256": "43ba45b8861f5aeea129a8810333ad5c9c6ed90fe42baf172ca93909cd8f968b",
-      "sha256": "43ba45b8861f5aeea129a8810333ad5c9c6ed90fe42baf172ca93909cd8f968b"
+      "bytes": 163981,
+      "sourceSha256": "ca98bf3bf9418a2e8300df6d7ad6a0959db183253ae22b890cd3f674ba0f79cd",
+      "sha256": "ca98bf3bf9418a2e8300df6d7ad6a0959db183253ae22b890cd3f674ba0f79cd"
     },
     {
       "path": "data/contours/aethelgard/11-6.js",
-      "bytes": 402349,
-      "sourceSha256": "7c204439610f816442b44f0a75d20be48f37fff88ba602bd6c889786090e0230",
-      "sha256": "7c204439610f816442b44f0a75d20be48f37fff88ba602bd6c889786090e0230"
+      "bytes": 417577,
+      "sourceSha256": "656d20f75dcfe00b505fce7ce9f8db251159b667a1deb097f922221c5512dcc4",
+      "sha256": "656d20f75dcfe00b505fce7ce9f8db251159b667a1deb097f922221c5512dcc4"
     },
     {
       "path": "data/contours/aethelgard/11-7.js",
-      "bytes": 495195,
-      "sourceSha256": "1154c630a18a033e01f0f77a82f062d237efcc0f31f849bdae112bd53aaccc45",
-      "sha256": "1154c630a18a033e01f0f77a82f062d237efcc0f31f849bdae112bd53aaccc45"
+      "bytes": 520512,
+      "sourceSha256": "66e5b052198267d788bd8577ff255c262c573362605a57f5654ae7121aa4152f",
+      "sha256": "66e5b052198267d788bd8577ff255c262c573362605a57f5654ae7121aa4152f"
     },
     {
       "path": "data/contours/aethelgard/11-8.js",
-      "bytes": 324870,
-      "sourceSha256": "289920c363b60f106643defcef87bbbcd3d5bf9b24bc5a5a265f4709cb63faf1",
-      "sha256": "289920c363b60f106643defcef87bbbcd3d5bf9b24bc5a5a265f4709cb63faf1"
+      "bytes": 324887,
+      "sourceSha256": "673732154e45eb172bd1ee31d0840f4906baaac155bae5c66fed19f79eb75695",
+      "sha256": "673732154e45eb172bd1ee31d0840f4906baaac155bae5c66fed19f79eb75695"
     },
     {
       "path": "data/contours/aethelgard/11-9.js",
-      "bytes": 2708806,
-      "sourceSha256": "130f8dc86dee739977223d1937ac7a1c6644b3052909ea86d6c043799b03f9f9",
-      "sha256": "130f8dc86dee739977223d1937ac7a1c6644b3052909ea86d6c043799b03f9f9"
+      "bytes": 2709050,
+      "sourceSha256": "8eb1cf0b39db5fdc2dba2f6d4506bfdacb855d660dcf6c7ebbeb89657432b618",
+      "sha256": "8eb1cf0b39db5fdc2dba2f6d4506bfdacb855d660dcf6c7ebbeb89657432b618"
     },
     {
       "path": "data/contours/aethelgard/12-0.js",
@@ -140,15 +140,15 @@
     },
     {
       "path": "data/contours/aethelgard/12-6.js",
-      "bytes": 95072,
-      "sourceSha256": "ec8387befd564eb17ca41316563e0ae65138a09fe078b1999b329420bae5a784",
-      "sha256": "ec8387befd564eb17ca41316563e0ae65138a09fe078b1999b329420bae5a784"
+      "bytes": 95886,
+      "sourceSha256": "55e5dafe0d42e768d17aedad77f989be2f6ad14009255fa96b556a18c9a7ded2",
+      "sha256": "55e5dafe0d42e768d17aedad77f989be2f6ad14009255fa96b556a18c9a7ded2"
     },
     {
       "path": "data/contours/aethelgard/12-7.js",
-      "bytes": 132834,
-      "sourceSha256": "368e6be5317536ed4f0da9deb299dcbbc4a33ac1977f8b7f68bf8db22eedb157",
-      "sha256": "368e6be5317536ed4f0da9deb299dcbbc4a33ac1977f8b7f68bf8db22eedb157"
+      "bytes": 153757,
+      "sourceSha256": "04960d0e11bf97a87239c781dbeb3d28937cea02848b6328599379754976e58a",
+      "sha256": "04960d0e11bf97a87239c781dbeb3d28937cea02848b6328599379754976e58a"
     },
     {
       "path": "data/contours/aethelgard/12-8.js",
@@ -374,15 +374,15 @@
     },
     {
       "path": "data/contours/aethelgard/4-4.js",
-      "bytes": 87289,
-      "sourceSha256": "04189f6f798d821c55de2de156cfe0502616c591ee6670f6da97e3c5dd162532",
-      "sha256": "04189f6f798d821c55de2de156cfe0502616c591ee6670f6da97e3c5dd162532"
+      "bytes": 88779,
+      "sourceSha256": "349aebadbe0eced6e5a521cffaad7f781ec85d9cec386537a6a6672dbf49d5fd",
+      "sha256": "349aebadbe0eced6e5a521cffaad7f781ec85d9cec386537a6a6672dbf49d5fd"
     },
     {
       "path": "data/contours/aethelgard/4-5.js",
-      "bytes": 172221,
-      "sourceSha256": "f2d4e2451754df90dc632ec3e1ebee15a04cd1447e349721c5191e2a4218a952",
-      "sha256": "f2d4e2451754df90dc632ec3e1ebee15a04cd1447e349721c5191e2a4218a952"
+      "bytes": 181097,
+      "sourceSha256": "d993f60b5f5301085692b016ed62fea8be7a97ec6f83ee4f58aa638f2d486d09",
+      "sha256": "d993f60b5f5301085692b016ed62fea8be7a97ec6f83ee4f58aa638f2d486d09"
     },
     {
       "path": "data/contours/aethelgard/4-6.js",
@@ -434,21 +434,21 @@
     },
     {
       "path": "data/contours/aethelgard/5-5.js",
-      "bytes": 133570,
-      "sourceSha256": "fc4bba16711059289f6032d9d577337c944879a5e1ddedc97a1c657d2f860268",
-      "sha256": "fc4bba16711059289f6032d9d577337c944879a5e1ddedc97a1c657d2f860268"
+      "bytes": 139603,
+      "sourceSha256": "afe8f7c8f403023c3965e9e72fd2494c64d60e5d3d5d84b6ade5fe278829588e",
+      "sha256": "afe8f7c8f403023c3965e9e72fd2494c64d60e5d3d5d84b6ade5fe278829588e"
     },
     {
       "path": "data/contours/aethelgard/5-6.js",
-      "bytes": 278497,
-      "sourceSha256": "45a59a30c121d2fe0adacd5f85a7487dd91d735a39d105bff9014d84c8c57b64",
-      "sha256": "45a59a30c121d2fe0adacd5f85a7487dd91d735a39d105bff9014d84c8c57b64"
+      "bytes": 279132,
+      "sourceSha256": "4162131064a69b99199d3fbca349595a1055f36ba831fcae631bd406cc011131",
+      "sha256": "4162131064a69b99199d3fbca349595a1055f36ba831fcae631bd406cc011131"
     },
     {
       "path": "data/contours/aethelgard/5-7.js",
-      "bytes": 176044,
-      "sourceSha256": "72a27d83af54d1e94dcef256b7a60496a2c35b7f8316aa863df272436ff36f81",
-      "sha256": "72a27d83af54d1e94dcef256b7a60496a2c35b7f8316aa863df272436ff36f81"
+      "bytes": 180596,
+      "sourceSha256": "7ec9119edde9b216d6611cc604a98b197c03b74157e0496094c0ea7c468cf3df",
+      "sha256": "7ec9119edde9b216d6611cc604a98b197c03b74157e0496094c0ea7c468cf3df"
     },
     {
       "path": "data/contours/aethelgard/5-8.js",
@@ -476,33 +476,33 @@
     },
     {
       "path": "data/contours/aethelgard/6-3.js",
-      "bytes": 69962,
-      "sourceSha256": "b834d9b33669ae0df54c28c82f2ed8b364a0ee433ef201a80cb52f68815386b5",
-      "sha256": "b834d9b33669ae0df54c28c82f2ed8b364a0ee433ef201a80cb52f68815386b5"
+      "bytes": 72920,
+      "sourceSha256": "0c7b88a2141b8fea520638e156e7327262094c31ff269400792e345d4c461a95",
+      "sha256": "0c7b88a2141b8fea520638e156e7327262094c31ff269400792e345d4c461a95"
     },
     {
       "path": "data/contours/aethelgard/6-4.js",
-      "bytes": 131413,
-      "sourceSha256": "5ffa770947180bf511ee3f8e0a87bdf8ef6826993d2035ef899d70b099cf6ad2",
-      "sha256": "5ffa770947180bf511ee3f8e0a87bdf8ef6826993d2035ef899d70b099cf6ad2"
+      "bytes": 131439,
+      "sourceSha256": "be70ed9213bd4359d1d478308ee1a4a22bd9d72439413e936224abf473d525d9",
+      "sha256": "be70ed9213bd4359d1d478308ee1a4a22bd9d72439413e936224abf473d525d9"
     },
     {
       "path": "data/contours/aethelgard/6-5.js",
-      "bytes": 178850,
-      "sourceSha256": "e068c64272d673f5656c4d5f04505e715f54ef95d471799ad334d5fe6daff728",
-      "sha256": "e068c64272d673f5656c4d5f04505e715f54ef95d471799ad334d5fe6daff728"
+      "bytes": 194716,
+      "sourceSha256": "ca60490a4792aadd684d01930f245fd2b3abcd60ee1107d35eda46d7c23f7294",
+      "sha256": "ca60490a4792aadd684d01930f245fd2b3abcd60ee1107d35eda46d7c23f7294"
     },
     {
       "path": "data/contours/aethelgard/6-6.js",
-      "bytes": 211587,
-      "sourceSha256": "6227f9803247a39f446c9f968422ad046cef475a67c663832978c60d5a6be6bb",
-      "sha256": "6227f9803247a39f446c9f968422ad046cef475a67c663832978c60d5a6be6bb"
+      "bytes": 214337,
+      "sourceSha256": "f0817bdcabe33b40bffad8ea5a2ace7e3407e7a88f3729766e1bff455aa9ff60",
+      "sha256": "f0817bdcabe33b40bffad8ea5a2ace7e3407e7a88f3729766e1bff455aa9ff60"
     },
     {
       "path": "data/contours/aethelgard/6-7.js",
-      "bytes": 200069,
-      "sourceSha256": "cdb1cda6699827ddd7087b0030f3c3f6fc56bd0db0d8ac2a658cb8a8bae6648c",
-      "sha256": "cdb1cda6699827ddd7087b0030f3c3f6fc56bd0db0d8ac2a658cb8a8bae6648c"
+      "bytes": 204871,
+      "sourceSha256": "11ada5f626092079e6d17390bcdd158bcf72f5b35921a2ce6272bfca052b686a",
+      "sha256": "11ada5f626092079e6d17390bcdd158bcf72f5b35921a2ce6272bfca052b686a"
     },
     {
       "path": "data/contours/aethelgard/6-8.js",
@@ -524,9 +524,9 @@
     },
     {
       "path": "data/contours/aethelgard/7-10.js",
-      "bytes": 85052,
-      "sourceSha256": "87d6cdf30b1ccba6d32bcba63f30c305f1a8cdf058bf30d447e180f98100d57d",
-      "sha256": "87d6cdf30b1ccba6d32bcba63f30c305f1a8cdf058bf30d447e180f98100d57d"
+      "bytes": 102844,
+      "sourceSha256": "2bde5ab7712a794f73da6fee99fdd23c3da6019fbe5a4d9c822c74d286dfd259",
+      "sha256": "2bde5ab7712a794f73da6fee99fdd23c3da6019fbe5a4d9c822c74d286dfd259"
     },
     {
       "path": "data/contours/aethelgard/7-3.js",
@@ -536,27 +536,27 @@
     },
     {
       "path": "data/contours/aethelgard/7-4.js",
-      "bytes": 264437,
-      "sourceSha256": "6447289e419b57ae05e09c0fbe6496fab2d1965855e263710f5bc7e12f95da4d",
-      "sha256": "6447289e419b57ae05e09c0fbe6496fab2d1965855e263710f5bc7e12f95da4d"
+      "bytes": 293984,
+      "sourceSha256": "3371cea4d9ae22cc2559d748b61f0b07fa9e9e4025246c8b3d84ec9822fdb0b2",
+      "sha256": "3371cea4d9ae22cc2559d748b61f0b07fa9e9e4025246c8b3d84ec9822fdb0b2"
     },
     {
       "path": "data/contours/aethelgard/7-5.js",
-      "bytes": 246476,
-      "sourceSha256": "9e960e87d480ef82662ed4af354e6ee7b1869499886d3d1572a11806c827946f",
-      "sha256": "9e960e87d480ef82662ed4af354e6ee7b1869499886d3d1572a11806c827946f"
+      "bytes": 258419,
+      "sourceSha256": "4bece0531d6a6b135468d1b38a63c9fd784b859c1505257f6528b1e7eb8be8ee",
+      "sha256": "4bece0531d6a6b135468d1b38a63c9fd784b859c1505257f6528b1e7eb8be8ee"
     },
     {
       "path": "data/contours/aethelgard/7-6.js",
-      "bytes": 173229,
-      "sourceSha256": "479b2e47f287409568e3e667661c969b5042c0626c962a24a5a6218840fe0389",
-      "sha256": "479b2e47f287409568e3e667661c969b5042c0626c962a24a5a6218840fe0389"
+      "bytes": 176835,
+      "sourceSha256": "37f0b8810be9cfefdf634843ac759687bb0a7d35f3200a80dfbe40bf23cd4b0e",
+      "sha256": "37f0b8810be9cfefdf634843ac759687bb0a7d35f3200a80dfbe40bf23cd4b0e"
     },
     {
       "path": "data/contours/aethelgard/7-7.js",
-      "bytes": 203989,
-      "sourceSha256": "06b11733d2c0fe30a78d55607da4e34df29b40e23c6d0890dc3ae17b02a21645",
-      "sha256": "06b11733d2c0fe30a78d55607da4e34df29b40e23c6d0890dc3ae17b02a21645"
+      "bytes": 211865,
+      "sourceSha256": "b0c236db2f9e4c1c7553ad69fd728b1806ee3ed35fb8880874dcda3dcdc9aa63",
+      "sha256": "b0c236db2f9e4c1c7553ad69fd728b1806ee3ed35fb8880874dcda3dcdc9aa63"
     },
     {
       "path": "data/contours/aethelgard/7-8.js",
@@ -566,9 +566,9 @@
     },
     {
       "path": "data/contours/aethelgard/7-9.js",
-      "bytes": 346387,
-      "sourceSha256": "6da9fe8516cb6e2405021ed37d4d68a3653431d9dd869c321746b5f8d18ca723",
-      "sha256": "6da9fe8516cb6e2405021ed37d4d68a3653431d9dd869c321746b5f8d18ca723"
+      "bytes": 431445,
+      "sourceSha256": "e053d43b43c98041d92dbe83e15a258fbb6326e5cf3e57e5ab497521b321aed0",
+      "sha256": "e053d43b43c98041d92dbe83e15a258fbb6326e5cf3e57e5ab497521b321aed0"
     },
     {
       "path": "data/contours/aethelgard/8-0.js",
@@ -584,9 +584,9 @@
     },
     {
       "path": "data/contours/aethelgard/8-10.js",
-      "bytes": 184535,
-      "sourceSha256": "11b211c654f14550a357850169d77327d89867ef9daa70dbe2bc1d6e00eb590e",
-      "sha256": "11b211c654f14550a357850169d77327d89867ef9daa70dbe2bc1d6e00eb590e"
+      "bytes": 195897,
+      "sourceSha256": "cbc99294e5994ec63e452f8882f1550b98d9816ea9b02485a6b7dd201b290eb1",
+      "sha256": "cbc99294e5994ec63e452f8882f1550b98d9816ea9b02485a6b7dd201b290eb1"
     },
     {
       "path": "data/contours/aethelgard/8-2.js",
@@ -596,39 +596,39 @@
     },
     {
       "path": "data/contours/aethelgard/8-4.js",
-      "bytes": 203772,
-      "sourceSha256": "40fbdfd68eb629cd56be9b88fecfb77a9db263e5b09c63b9944c37ea06ec6e90",
-      "sha256": "40fbdfd68eb629cd56be9b88fecfb77a9db263e5b09c63b9944c37ea06ec6e90"
+      "bytes": 203780,
+      "sourceSha256": "cbf839c8f3c9e200bd1857d280a33ba4c93df8e6c62d7c58e7e0d657b73a040d",
+      "sha256": "cbf839c8f3c9e200bd1857d280a33ba4c93df8e6c62d7c58e7e0d657b73a040d"
     },
     {
       "path": "data/contours/aethelgard/8-5.js",
-      "bytes": 246857,
-      "sourceSha256": "c9135f034c3fd80ed14b581401d99e0d99cecab812ba4e53322fa8901c1fb7a6",
-      "sha256": "c9135f034c3fd80ed14b581401d99e0d99cecab812ba4e53322fa8901c1fb7a6"
+      "bytes": 252833,
+      "sourceSha256": "175f23ab104103359ffcbc297f69608bc35856be18056d69bdd9e5bf32da37de",
+      "sha256": "175f23ab104103359ffcbc297f69608bc35856be18056d69bdd9e5bf32da37de"
     },
     {
       "path": "data/contours/aethelgard/8-6.js",
-      "bytes": 246000,
-      "sourceSha256": "713390dbb657cbe8dc1b916b69ede46db5864cba191c1d5d48bef9fb34c871e2",
-      "sha256": "713390dbb657cbe8dc1b916b69ede46db5864cba191c1d5d48bef9fb34c871e2"
+      "bytes": 250091,
+      "sourceSha256": "962c8d1993b86a96b18bdcf216710af4ceebab3d936706446532b3940fcbfbb7",
+      "sha256": "962c8d1993b86a96b18bdcf216710af4ceebab3d936706446532b3940fcbfbb7"
     },
     {
       "path": "data/contours/aethelgard/8-7.js",
-      "bytes": 155420,
-      "sourceSha256": "45ed24d3dd396b5ee10fd5630b4036191ee8b2a44f8ba5640b6812f28d72dcbf",
-      "sha256": "45ed24d3dd396b5ee10fd5630b4036191ee8b2a44f8ba5640b6812f28d72dcbf"
+      "bytes": 171591,
+      "sourceSha256": "0698addcc1d3e0ed60ccae6254ab764e1f723a9fe15fe4b4aec2944d1886f817",
+      "sha256": "0698addcc1d3e0ed60ccae6254ab764e1f723a9fe15fe4b4aec2944d1886f817"
     },
     {
       "path": "data/contours/aethelgard/8-8.js",
-      "bytes": 195084,
-      "sourceSha256": "48319f0ae33cbc4d89469a25adc784d5d396c37b39094cb197fa1f7d7d0faffa",
-      "sha256": "48319f0ae33cbc4d89469a25adc784d5d396c37b39094cb197fa1f7d7d0faffa"
+      "bytes": 207745,
+      "sourceSha256": "d337ae02f77fddecf92c106940a7c090f28ee09a61bf6689fc9defe4f13ee2a0",
+      "sha256": "d337ae02f77fddecf92c106940a7c090f28ee09a61bf6689fc9defe4f13ee2a0"
     },
     {
       "path": "data/contours/aethelgard/8-9.js",
-      "bytes": 341147,
-      "sourceSha256": "3c61a94161b7cf396d34f19973fc920ead5f4e801a2514d52cf14aa7276c607f",
-      "sha256": "3c61a94161b7cf396d34f19973fc920ead5f4e801a2514d52cf14aa7276c607f"
+      "bytes": 419973,
+      "sourceSha256": "fa4204d66d197545d458f23f5d69789466b4cf735d47ea5bcb14a7aa7918c9b3",
+      "sha256": "fa4204d66d197545d458f23f5d69789466b4cf735d47ea5bcb14a7aa7918c9b3"
     },
     {
       "path": "data/contours/aethelgard/9-0.js",
@@ -644,9 +644,9 @@
     },
     {
       "path": "data/contours/aethelgard/9-10.js",
-      "bytes": 1660826,
-      "sourceSha256": "1145643c38203e7f372af75798c0f6ef60e3d2ca17cea8179bc4aff29330a9b0",
-      "sha256": "1145643c38203e7f372af75798c0f6ef60e3d2ca17cea8179bc4aff29330a9b0"
+      "bytes": 1660764,
+      "sourceSha256": "7f8bf0657bb79e4248809f9c9353aa384786837c8baf07d675f7d6dd04059a0f",
+      "sha256": "7f8bf0657bb79e4248809f9c9353aa384786837c8baf07d675f7d6dd04059a0f"
     },
     {
       "path": "data/contours/aethelgard/9-2.js",
@@ -662,33 +662,33 @@
     },
     {
       "path": "data/contours/aethelgard/9-5.js",
-      "bytes": 436419,
-      "sourceSha256": "1a0eb8d23b7878d167b0a7c22971c717dc5e0b4a1c3d93ad48f257fe0afa2114",
-      "sha256": "1a0eb8d23b7878d167b0a7c22971c717dc5e0b4a1c3d93ad48f257fe0afa2114"
+      "bytes": 437975,
+      "sourceSha256": "1d067fee3dfd0db379f07fc72c616f5b207a5434c6ca18c26020a605018a1770",
+      "sha256": "1d067fee3dfd0db379f07fc72c616f5b207a5434c6ca18c26020a605018a1770"
     },
     {
       "path": "data/contours/aethelgard/9-6.js",
-      "bytes": 246622,
-      "sourceSha256": "47b314fade09525ecce3c64a514f09ffb66dd5003aa09617b2941caab1cd6726",
-      "sha256": "47b314fade09525ecce3c64a514f09ffb66dd5003aa09617b2941caab1cd6726"
+      "bytes": 258953,
+      "sourceSha256": "520db1eeada6b8e1f1c82cca8a68df167eb16ee0aa5bb438f8acd4ef32d55bfb",
+      "sha256": "520db1eeada6b8e1f1c82cca8a68df167eb16ee0aa5bb438f8acd4ef32d55bfb"
     },
     {
       "path": "data/contours/aethelgard/9-7.js",
-      "bytes": 195853,
-      "sourceSha256": "f602cf67d4284e4e3f18d1c2a7e80f49e4dcf5dec0058a3ae286944d813c5439",
-      "sha256": "f602cf67d4284e4e3f18d1c2a7e80f49e4dcf5dec0058a3ae286944d813c5439"
+      "bytes": 224542,
+      "sourceSha256": "73190631403bb178abe901b81625762f124aeb1d6c0c23321f716e9d738c9ae4",
+      "sha256": "73190631403bb178abe901b81625762f124aeb1d6c0c23321f716e9d738c9ae4"
     },
     {
       "path": "data/contours/aethelgard/9-8.js",
-      "bytes": 280895,
-      "sourceSha256": "4f659f3aff582450292be8d8fd9120d3f79638ff75e76189224894bb9fa30343",
-      "sha256": "4f659f3aff582450292be8d8fd9120d3f79638ff75e76189224894bb9fa30343"
+      "bytes": 282096,
+      "sourceSha256": "3168ed59391392501708a669ac695a2283f901234e3edf6830f849de79a775a9",
+      "sha256": "3168ed59391392501708a669ac695a2283f901234e3edf6830f849de79a775a9"
     },
     {
       "path": "data/contours/aethelgard/9-9.js",
-      "bytes": 5924909,
-      "sourceSha256": "86b7b6dd460f04e07a7cb67edaeaebee834428704f289d960f3ce18b25e10624",
-      "sha256": "86b7b6dd460f04e07a7cb67edaeaebee834428704f289d960f3ce18b25e10624"
+      "bytes": 5980546,
+      "sourceSha256": "6e0926ee2f6287175f0d2382ea34f47a797f84482f7e49019777d6e7b07d88f6",
+      "sha256": "6e0926ee2f6287175f0d2382ea34f47a797f84482f7e49019777d6e7b07d88f6"
     },
     {
       "path": "data/contours/world/0-1.js",
@@ -740,15 +740,15 @@
     },
     {
       "path": "data/contours/world/10-2.js",
-      "bytes": 70675,
-      "sourceSha256": "1e1a8cf31302794144a8096cb54043d2a1a029cec92a3c5da214fca8cbf7a7f8",
-      "sha256": "1e1a8cf31302794144a8096cb54043d2a1a029cec92a3c5da214fca8cbf7a7f8"
+      "bytes": 76517,
+      "sourceSha256": "007ecc04db313e7335a6b39b7559a2e61dcb3f306499dd8b88c48a89807d0819",
+      "sha256": "007ecc04db313e7335a6b39b7559a2e61dcb3f306499dd8b88c48a89807d0819"
     },
     {
       "path": "data/contours/world/10-3.js",
-      "bytes": 77990,
-      "sourceSha256": "0b6487da0dea3f41ed80cd8cae051296c22612c41650a75a0d625a6c45909162",
-      "sha256": "0b6487da0dea3f41ed80cd8cae051296c22612c41650a75a0d625a6c45909162"
+      "bytes": 80938,
+      "sourceSha256": "4cc6d75fcc5dc058f7881cb63b8a7413a36d242310c3830cb7fb8341ba71fdb5",
+      "sha256": "4cc6d75fcc5dc058f7881cb63b8a7413a36d242310c3830cb7fb8341ba71fdb5"
     },
     {
       "path": "data/contours/world/10-4.js",
@@ -764,15 +764,15 @@
     },
     {
       "path": "data/contours/world/10-6.js",
-      "bytes": 154160,
-      "sourceSha256": "3e7de184633a8d1d6d7870ba5546e137d5d6c0c1d52f1b2ff57f7876a5530667",
-      "sha256": "3e7de184633a8d1d6d7870ba5546e137d5d6c0c1d52f1b2ff57f7876a5530667"
+      "bytes": 162380,
+      "sourceSha256": "5665be0d4a5fd4936832e9887ef10d6f4218527b87d22bb97d1062c642b9594b",
+      "sha256": "5665be0d4a5fd4936832e9887ef10d6f4218527b87d22bb97d1062c642b9594b"
     },
     {
       "path": "data/contours/world/10-7.js",
-      "bytes": 177316,
-      "sourceSha256": "79cf8051e4624bccb3b8ae8f225c292ce0e1686b3d1841767730092bf6fc782d",
-      "sha256": "79cf8051e4624bccb3b8ae8f225c292ce0e1686b3d1841767730092bf6fc782d"
+      "bytes": 182637,
+      "sourceSha256": "3cc2eb810e77f15e42809d36ec56d72e59cb2d9f58d1778675b808126a7bc4c7",
+      "sha256": "3cc2eb810e77f15e42809d36ec56d72e59cb2d9f58d1778675b808126a7bc4c7"
     },
     {
       "path": "data/contours/world/10-8.js",
@@ -806,9 +806,9 @@
     },
     {
       "path": "data/contours/world/11-6.js",
-      "bytes": 171054,
-      "sourceSha256": "521b249431612999f6d34e736d8ff44d3aed61fea04612ef2a1c21db5f4818f1",
-      "sha256": "521b249431612999f6d34e736d8ff44d3aed61fea04612ef2a1c21db5f4818f1"
+      "bytes": 179158,
+      "sourceSha256": "020b850dfeb6bc2e60d11cb66baac3c2179f8a2c048d3389b5a6bc3c66e44193",
+      "sha256": "020b850dfeb6bc2e60d11cb66baac3c2179f8a2c048d3389b5a6bc3c66e44193"
     },
     {
       "path": "data/contours/world/11-7.js",
@@ -836,27 +836,27 @@
     },
     {
       "path": "data/contours/world/12-3.js",
-      "bytes": 255729,
-      "sourceSha256": "67b35801726f8ecd5ae1f7c7df69cd43a2bde79fdfd774852cbe56c5174de159",
-      "sha256": "67b35801726f8ecd5ae1f7c7df69cd43a2bde79fdfd774852cbe56c5174de159"
+      "bytes": 254718,
+      "sourceSha256": "effc510956522bcc5df85963fed211681b6d2d334f0f410e6021dd18e478c06d",
+      "sha256": "effc510956522bcc5df85963fed211681b6d2d334f0f410e6021dd18e478c06d"
     },
     {
       "path": "data/contours/world/12-4.js",
-      "bytes": 157808,
-      "sourceSha256": "336c9055b8b1842dcc24fcf15d7a876e9b0cde9b0323bbb78757f1d4a5d85845",
-      "sha256": "336c9055b8b1842dcc24fcf15d7a876e9b0cde9b0323bbb78757f1d4a5d85845"
+      "bytes": 161774,
+      "sourceSha256": "a9dedb35f83eaccdc98a33a17b76b326ea64777e1380683d0040e700fb3e69ed",
+      "sha256": "a9dedb35f83eaccdc98a33a17b76b326ea64777e1380683d0040e700fb3e69ed"
     },
     {
       "path": "data/contours/world/12-5.js",
-      "bytes": 182939,
-      "sourceSha256": "446cefb1ecf4612cd63de65a8eac3dc3693fa46fab0b99996afaa08e39c631f6",
-      "sha256": "446cefb1ecf4612cd63de65a8eac3dc3693fa46fab0b99996afaa08e39c631f6"
+      "bytes": 169870,
+      "sourceSha256": "3098d7b85079e351adbec04c96e1faf1999ece0657c035e1ae9c0b2256aef61c",
+      "sha256": "3098d7b85079e351adbec04c96e1faf1999ece0657c035e1ae9c0b2256aef61c"
     },
     {
       "path": "data/contours/world/12-6.js",
-      "bytes": 101198,
-      "sourceSha256": "51e4fbfde136836dff0c2bca5f08545008911dd15fa24d0e3c585023b10548dd",
-      "sha256": "51e4fbfde136836dff0c2bca5f08545008911dd15fa24d0e3c585023b10548dd"
+      "bytes": 102192,
+      "sourceSha256": "74fb1c16a5ad85ca2d651e52dfb2a13be4bfd91ccf90f85691cf7c0314dcf0fb",
+      "sha256": "74fb1c16a5ad85ca2d651e52dfb2a13be4bfd91ccf90f85691cf7c0314dcf0fb"
     },
     {
       "path": "data/contours/world/12-7.js",
@@ -872,9 +872,9 @@
     },
     {
       "path": "data/contours/world/13-3.js",
-      "bytes": 59542,
-      "sourceSha256": "b11932d57c3a17661cf636da688a90f6081b406d692217e469dc7a7b1cc0fa09",
-      "sha256": "b11932d57c3a17661cf636da688a90f6081b406d692217e469dc7a7b1cc0fa09"
+      "bytes": 62312,
+      "sourceSha256": "d38307560922c7d9044f217bac8be8bbdb56d2a23c93ac9b7243ba473b91c189",
+      "sha256": "d38307560922c7d9044f217bac8be8bbdb56d2a23c93ac9b7243ba473b91c189"
     },
     {
       "path": "data/contours/world/13-4.js",
@@ -1016,15 +1016,15 @@
     },
     {
       "path": "data/contours/world/6-2.js",
-      "bytes": 62153,
-      "sourceSha256": "6253e878c592ed274ec8e878b02685530ab7a45c86b1d8d4c367764984fc6092",
-      "sha256": "6253e878c592ed274ec8e878b02685530ab7a45c86b1d8d4c367764984fc6092"
+      "bytes": 63633,
+      "sourceSha256": "a2d351e668af0b219856e37f50d9939a1d31dddbfdcf5f0cef7b317328a83ef9",
+      "sha256": "a2d351e668af0b219856e37f50d9939a1d31dddbfdcf5f0cef7b317328a83ef9"
     },
     {
       "path": "data/contours/world/6-3.js",
-      "bytes": 135055,
-      "sourceSha256": "168050fae0510b2db89e47b083fc241d95a4198c80e9ee7129db575091b4fabf",
-      "sha256": "168050fae0510b2db89e47b083fc241d95a4198c80e9ee7129db575091b4fabf"
+      "bytes": 134856,
+      "sourceSha256": "3620726b282a5a4bbac8d8c5e9720cbe65925949e9952b5355a5538590f81e3c",
+      "sha256": "3620726b282a5a4bbac8d8c5e9720cbe65925949e9952b5355a5538590f81e3c"
     },
     {
       "path": "data/contours/world/6-4.js",
@@ -1046,21 +1046,21 @@
     },
     {
       "path": "data/contours/world/7-2.js",
-      "bytes": 124723,
-      "sourceSha256": "368d08f0b4040e3aad3784bbd24ce8420cbc97eb8e84014e6ccb4d28e5dd52b5",
-      "sha256": "368d08f0b4040e3aad3784bbd24ce8420cbc97eb8e84014e6ccb4d28e5dd52b5"
+      "bytes": 126333,
+      "sourceSha256": "f46465292499613de2e5c82f9ca85bf54f4290f67fdda887c5f654ff1d7dbdb4",
+      "sha256": "f46465292499613de2e5c82f9ca85bf54f4290f67fdda887c5f654ff1d7dbdb4"
     },
     {
       "path": "data/contours/world/7-3.js",
-      "bytes": 162720,
-      "sourceSha256": "e8a8de1ea05786a1dfb48a815a56e160ae31be2b0dd688496ef5cf902d142fac",
-      "sha256": "e8a8de1ea05786a1dfb48a815a56e160ae31be2b0dd688496ef5cf902d142fac"
+      "bytes": 165077,
+      "sourceSha256": "743aeb88fb5a5d13a2f51d1ce5274081b06c2957b5a192b47db0939b8382d65f",
+      "sha256": "743aeb88fb5a5d13a2f51d1ce5274081b06c2957b5a192b47db0939b8382d65f"
     },
     {
       "path": "data/contours/world/7-4.js",
-      "bytes": 416979,
-      "sourceSha256": "f087650960d4ef03dc65f8781018ec028656be0a716ef45dc04640c0ee46e8c0",
-      "sha256": "f087650960d4ef03dc65f8781018ec028656be0a716ef45dc04640c0ee46e8c0"
+      "bytes": 409651,
+      "sourceSha256": "8c86a4c81bf02481ddf6377e00983f9a6f2a7a2cb35ccd29e1af6d672517664c",
+      "sha256": "8c86a4c81bf02481ddf6377e00983f9a6f2a7a2cb35ccd29e1af6d672517664c"
     },
     {
       "path": "data/contours/world/7-8.js",
@@ -1082,15 +1082,15 @@
     },
     {
       "path": "data/contours/world/8-3.js",
-      "bytes": 250856,
-      "sourceSha256": "0c711e5120a08ccce6982073563e58b8e257f24147835719e6981b98aa67173d",
-      "sha256": "0c711e5120a08ccce6982073563e58b8e257f24147835719e6981b98aa67173d"
+      "bytes": 248300,
+      "sourceSha256": "310dd54e0d017799095f5ae3d7f5a6cc5cfafe0826980d39ef2faade13b8044b",
+      "sha256": "310dd54e0d017799095f5ae3d7f5a6cc5cfafe0826980d39ef2faade13b8044b"
     },
     {
       "path": "data/contours/world/8-4.js",
-      "bytes": 990907,
-      "sourceSha256": "0c62d4cabb9274a4e8673083781e3c51382f24ec0988ffee2d3c6df6c00bf814",
-      "sha256": "0c62d4cabb9274a4e8673083781e3c51382f24ec0988ffee2d3c6df6c00bf814"
+      "bytes": 988697,
+      "sourceSha256": "c2bf4a0487beb980c770638d23b2821bdf2a1f3b6581eea80c36a821d9fc62dd",
+      "sha256": "c2bf4a0487beb980c770638d23b2821bdf2a1f3b6581eea80c36a821d9fc62dd"
     },
     {
       "path": "data/contours/world/8-5.js",
@@ -1118,9 +1118,9 @@
     },
     {
       "path": "data/contours/world/9-3.js",
-      "bytes": 4811,
-      "sourceSha256": "eaa7f1983b781b4e5b054eb044614cd647f868356d7ef75e7fbd6e20cc77839d",
-      "sha256": "eaa7f1983b781b4e5b054eb044614cd647f868356d7ef75e7fbd6e20cc77839d"
+      "bytes": 4327,
+      "sourceSha256": "9bbb7739372441a47d7d74bb71ba5973a287dcda271576411bec4cb60d3d920f",
+      "sha256": "9bbb7739372441a47d7d74bb71ba5973a287dcda271576411bec4cb60d3d920f"
     },
     {
       "path": "data/contours/world/9-4.js",
@@ -1130,15 +1130,15 @@
     },
     {
       "path": "data/contours/world/9-5.js",
-      "bytes": 86606,
-      "sourceSha256": "686dcc0d09a36260e36511869c2870c23a051d48893244d00b43b01c4aa14175",
-      "sha256": "686dcc0d09a36260e36511869c2870c23a051d48893244d00b43b01c4aa14175"
+      "bytes": 86451,
+      "sourceSha256": "ec31f3cb4a291bc0c7c1bf1ef34f2b7a4af5813b0697e2111cda58ecb9e7d471",
+      "sha256": "ec31f3cb4a291bc0c7c1bf1ef34f2b7a4af5813b0697e2111cda58ecb9e7d471"
     },
     {
       "path": "data/contours/world/9-6.js",
-      "bytes": 212203,
-      "sourceSha256": "d9d11e1012e8b7454643af276fb0c0a68b40658bb31b32d06c0137f32a405b7b",
-      "sha256": "d9d11e1012e8b7454643af276fb0c0a68b40658bb31b32d06c0137f32a405b7b"
+      "bytes": 217647,
+      "sourceSha256": "9c3f44e723a39777d3283eee6fc7905dcbbf1a14a04620e29dec053b76720ef7",
+      "sha256": "9c3f44e723a39777d3283eee6fc7905dcbbf1a14a04620e29dec053b76720ef7"
     },
     {
       "path": "data/contours/world/9-7.js",
@@ -1154,9 +1154,9 @@
     },
     {
       "path": "data/maps-aethelgard.js",
-      "bytes": 14062011,
-      "sourceSha256": "3afdc07633a9b7a1f64f4345fd787ddcde9d8e599d8d059ce5588fc867e67a36",
-      "sha256": "3afdc07633a9b7a1f64f4345fd787ddcde9d8e599d8d059ce5588fc867e67a36"
+      "bytes": 14626469,
+      "sourceSha256": "1d56629a67a3b56b2c608031e19b8dc722e52818d63f96389c48ba085c472a8c",
+      "sha256": "1d56629a67a3b56b2c608031e19b8dc722e52818d63f96389c48ba085c472a8c"
     },
     {
       "path": "data/maps-atheria.js",
@@ -1178,9 +1178,9 @@
     },
     {
       "path": "data/maps-world.js",
-      "bytes": 8658122,
-      "sourceSha256": "f092116aca8e4916332d1f21d8d9e2aa9b0fff6b47f9facda836f8ebedb4505b",
-      "sha256": "f092116aca8e4916332d1f21d8d9e2aa9b0fff6b47f9facda836f8ebedb4505b"
+      "bytes": 8659590,
+      "sourceSha256": "8493bb3a24a7f8857c67c7c4e4ac05f6ebe9d7f2c5a714b1fd3ee9c2d55b8122",
+      "sha256": "8493bb3a24a7f8857c67c7c4e4ac05f6ebe9d7f2c5a714b1fd3ee9c2d55b8122"
     },
     {
       "path": "data/tiles.js",
@@ -1208,9 +1208,9 @@
     },
     {
       "path": "terrain/aethelgard-relief-preview.png",
-      "bytes": 2909495,
-      "sourceSha256": "e1ee108d82d20c761a4a14da63a5b054b7d6820a2599bb565da0d6fa9265740d",
-      "sha256": "e1ee108d82d20c761a4a14da63a5b054b7d6820a2599bb565da0d6fa9265740d"
+      "bytes": 2900698,
+      "sourceSha256": "27954360cbbff9767e3271673d58182e1cc0d77ab098f4db0a411d0701a15220",
+      "sha256": "27954360cbbff9767e3271673d58182e1cc0d77ab098f4db0a411d0701a15220"
     },
     {
       "path": "terrain/atheria-clouds.png",
@@ -1322,15 +1322,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/0/1-1.png",
-      "bytes": 62899,
-      "sourceSha256": "6995f5b175679662d91e6bd954de5e69f311c4c122bdc4f6f016fa1d8d1e0221",
-      "sha256": "6995f5b175679662d91e6bd954de5e69f311c4c122bdc4f6f016fa1d8d1e0221"
+      "bytes": 62864,
+      "sourceSha256": "4a62d1961eaabc2656da7c92cdc8635412150dc16fef11bd4c8128a93b645905",
+      "sha256": "4a62d1961eaabc2656da7c92cdc8635412150dc16fef11bd4c8128a93b645905"
     },
     {
       "path": "terrain/tiles/aethelgard/0/1-2.png",
-      "bytes": 186301,
-      "sourceSha256": "a4ba1756783959f30601af8c05437e733c03ca9fe728be63494742a2b5389f23",
-      "sha256": "a4ba1756783959f30601af8c05437e733c03ca9fe728be63494742a2b5389f23"
+      "bytes": 186345,
+      "sourceSha256": "83c50f904b67c53f683ecde80daa07e1920d1bb0bfd294e2631e11a7ab43c831",
+      "sha256": "83c50f904b67c53f683ecde80daa07e1920d1bb0bfd294e2631e11a7ab43c831"
     },
     {
       "path": "terrain/tiles/aethelgard/0/1-3.png",
@@ -1352,21 +1352,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/0/2-1.png",
-      "bytes": 262967,
-      "sourceSha256": "be2f8f0a4d390d490a117b2c4f5ec99fa3ae7eb7ec619b1bd6aa9b3af11e909e",
-      "sha256": "be2f8f0a4d390d490a117b2c4f5ec99fa3ae7eb7ec619b1bd6aa9b3af11e909e"
+      "bytes": 262000,
+      "sourceSha256": "f149507b5d77ba7586cb7f5ccfedb783d5ec1bc46304f1fc8fc2e6b395b4a258",
+      "sha256": "f149507b5d77ba7586cb7f5ccfedb783d5ec1bc46304f1fc8fc2e6b395b4a258"
     },
     {
       "path": "terrain/tiles/aethelgard/0/2-2.png",
-      "bytes": 480168,
-      "sourceSha256": "b449a37b0b7434c96c1533bacabf699374b38fba323c8cf730fec9194728b8b8",
-      "sha256": "b449a37b0b7434c96c1533bacabf699374b38fba323c8cf730fec9194728b8b8"
+      "bytes": 479816,
+      "sourceSha256": "7f5e579f988faa351eeb87da81e2f40c733b67f05974c5af41839e91c9e26931",
+      "sha256": "7f5e579f988faa351eeb87da81e2f40c733b67f05974c5af41839e91c9e26931"
     },
     {
       "path": "terrain/tiles/aethelgard/0/2-3.png",
-      "bytes": 346790,
-      "sourceSha256": "dd60bdb1cdd169ca8aa45235df959962e2ef97632c542152e9e6b795f8b3519f",
-      "sha256": "dd60bdb1cdd169ca8aa45235df959962e2ef97632c542152e9e6b795f8b3519f"
+      "bytes": 346101,
+      "sourceSha256": "0d3f6692a2de884f1a13563685787a5418d4c2016653d523df74c4305bb85699",
+      "sha256": "0d3f6692a2de884f1a13563685787a5418d4c2016653d523df74c4305bb85699"
     },
     {
       "path": "terrain/tiles/aethelgard/0/2-4.png",
@@ -1382,21 +1382,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/0/3-1.png",
-      "bytes": 155068,
-      "sourceSha256": "72cbc28a6bf51aa88fe0d1c990c3f879f8613f1574b37c534077ba20bad09b7a",
-      "sha256": "72cbc28a6bf51aa88fe0d1c990c3f879f8613f1574b37c534077ba20bad09b7a"
+      "bytes": 155110,
+      "sourceSha256": "f23a355538c7eaf84a21331eec63c1760caae09bae0231fc8b138ba4658a2252",
+      "sha256": "f23a355538c7eaf84a21331eec63c1760caae09bae0231fc8b138ba4658a2252"
     },
     {
       "path": "terrain/tiles/aethelgard/0/3-2.png",
-      "bytes": 499826,
-      "sourceSha256": "7b038947537a49ed78cffa747bbc64a422f5f68ce7a662acea6037a59d98f5fe",
-      "sha256": "7b038947537a49ed78cffa747bbc64a422f5f68ce7a662acea6037a59d98f5fe"
+      "bytes": 496542,
+      "sourceSha256": "ff62a0384d31f71508d13b68cbfb67ab0b47308e1d3dfe0788510d652de6698d",
+      "sha256": "ff62a0384d31f71508d13b68cbfb67ab0b47308e1d3dfe0788510d652de6698d"
     },
     {
       "path": "terrain/tiles/aethelgard/0/3-3.png",
-      "bytes": 401142,
-      "sourceSha256": "8b641f561a6ac05983fd2e6e53c6ba427bc033c521c98b137ae78dff0c186cd2",
-      "sha256": "8b641f561a6ac05983fd2e6e53c6ba427bc033c521c98b137ae78dff0c186cd2"
+      "bytes": 397104,
+      "sourceSha256": "1fdc97c45cdcdb9c516f759e0f8a64c229fc10a90577c75b117f7c3bb5d49ceb",
+      "sha256": "1fdc97c45cdcdb9c516f759e0f8a64c229fc10a90577c75b117f7c3bb5d49ceb"
     },
     {
       "path": "terrain/tiles/aethelgard/0/3-4.png",
@@ -1418,15 +1418,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/0/4-2.png",
-      "bytes": 309020,
-      "sourceSha256": "ef87b1fc32a773db2c24cc8eb20d5c8e0e4202fb4f4efdda26e8daddd7c46ee9",
-      "sha256": "ef87b1fc32a773db2c24cc8eb20d5c8e0e4202fb4f4efdda26e8daddd7c46ee9"
+      "bytes": 304966,
+      "sourceSha256": "520572112a9f36aa0e2964466fdea3c923f8e4bfd0eaac17d4e82aa9f32deeb2",
+      "sha256": "520572112a9f36aa0e2964466fdea3c923f8e4bfd0eaac17d4e82aa9f32deeb2"
     },
     {
       "path": "terrain/tiles/aethelgard/0/4-3.png",
-      "bytes": 237760,
-      "sourceSha256": "295af2bef0d0abb102f67bc4cd178af61777dc999108f0a000ea4248c62172de",
-      "sha256": "295af2bef0d0abb102f67bc4cd178af61777dc999108f0a000ea4248c62172de"
+      "bytes": 237784,
+      "sourceSha256": "2f91ed491902f7131665012f3086275a9968f3931498c6988febb9574115f92b",
+      "sha256": "2f91ed491902f7131665012f3086275a9968f3931498c6988febb9574115f92b"
     },
     {
       "path": "terrain/tiles/aethelgard/0/4-4.png",
@@ -1784,21 +1784,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/3-3.png",
-      "bytes": 191598,
-      "sourceSha256": "5e03bd0bfe7a3dcaef402455dce91832e4749483072aa6f717e58999bb3a8abd",
-      "sha256": "5e03bd0bfe7a3dcaef402455dce91832e4749483072aa6f717e58999bb3a8abd"
+      "bytes": 191665,
+      "sourceSha256": "b1126d4d70121f8b0b0ff43cf2524ea7ad6de5decbc5a69aa46eabf3926bf7cb",
+      "sha256": "b1126d4d70121f8b0b0ff43cf2524ea7ad6de5decbc5a69aa46eabf3926bf7cb"
     },
     {
       "path": "terrain/tiles/aethelgard/1/3-4.png",
-      "bytes": 404307,
-      "sourceSha256": "a087bae9e11ec81eab04ecf620c05a9df070e3480e1b11bc435a48a84e439ed0",
-      "sha256": "a087bae9e11ec81eab04ecf620c05a9df070e3480e1b11bc435a48a84e439ed0"
+      "bytes": 404300,
+      "sourceSha256": "136edf28914595446acfc504ebdbe73eb4c4ea2b306ef87b312506012407bba2",
+      "sha256": "136edf28914595446acfc504ebdbe73eb4c4ea2b306ef87b312506012407bba2"
     },
     {
       "path": "terrain/tiles/aethelgard/1/3-5.png",
-      "bytes": 193942,
-      "sourceSha256": "699eec4baed2059ee2a6e865acd215c011624a72764b13c1c3a104f55b92a26c",
-      "sha256": "699eec4baed2059ee2a6e865acd215c011624a72764b13c1c3a104f55b92a26c"
+      "bytes": 193976,
+      "sourceSha256": "76107c955661878be86a3545c8c28531140210293aefe8e19605d9bbbacd1583",
+      "sha256": "76107c955661878be86a3545c8c28531140210293aefe8e19605d9bbbacd1583"
     },
     {
       "path": "terrain/tiles/aethelgard/1/3-6.png",
@@ -1838,9 +1838,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/4-2.png",
-      "bytes": 100522,
-      "sourceSha256": "fb4d5995be47ed062ae884f50f1b7fcad5daa16c9bb8d8378576d5a89af7bd08",
-      "sha256": "fb4d5995be47ed062ae884f50f1b7fcad5daa16c9bb8d8378576d5a89af7bd08"
+      "bytes": 100398,
+      "sourceSha256": "735ac0af3b4b778d629096a923edbfc5e59af717e504b8188509940e8281bbfc",
+      "sha256": "735ac0af3b4b778d629096a923edbfc5e59af717e504b8188509940e8281bbfc"
     },
     {
       "path": "terrain/tiles/aethelgard/1/4-3.png",
@@ -1850,15 +1850,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/4-4.png",
-      "bytes": 366367,
-      "sourceSha256": "0514773e7005546a15647769a51529f7707f2d5e5fe76f8da59aef7bd8bdb610",
-      "sha256": "0514773e7005546a15647769a51529f7707f2d5e5fe76f8da59aef7bd8bdb610"
+      "bytes": 366216,
+      "sourceSha256": "5f458e9001c5e29ba441a353520d7f414e3a1f90b61657a77893554d6c36478d",
+      "sha256": "5f458e9001c5e29ba441a353520d7f414e3a1f90b61657a77893554d6c36478d"
     },
     {
       "path": "terrain/tiles/aethelgard/1/4-5.png",
-      "bytes": 437645,
-      "sourceSha256": "8dd4b0ff2a6d8c0452be4d7447c7fab33b97ab397324c8a9850ab33678434be3",
-      "sha256": "8dd4b0ff2a6d8c0452be4d7447c7fab33b97ab397324c8a9850ab33678434be3"
+      "bytes": 437256,
+      "sourceSha256": "30ec53a94b24e4a2faa83dc143e56423c67a2dced4c5e1defbe85795d2d6b43d",
+      "sha256": "30ec53a94b24e4a2faa83dc143e56423c67a2dced4c5e1defbe85795d2d6b43d"
     },
     {
       "path": "terrain/tiles/aethelgard/1/4-6.png",
@@ -1898,39 +1898,39 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-2.png",
-      "bytes": 26168,
-      "sourceSha256": "c8d180a64a3ebcfabbc3636de9bfa2bfcc2426ebb519e769a4872a130b7f5fed",
-      "sha256": "c8d180a64a3ebcfabbc3636de9bfa2bfcc2426ebb519e769a4872a130b7f5fed"
+      "bytes": 26204,
+      "sourceSha256": "23af598e1584e4d307dd517f01da06b26434f2f6ff3c8b370611bf127be344cb",
+      "sha256": "23af598e1584e4d307dd517f01da06b26434f2f6ff3c8b370611bf127be344cb"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-3.png",
-      "bytes": 424874,
-      "sourceSha256": "655fdc8821bcb3c9d15a60dfb0997d1cdb102fbe97520e9b5e9d568f1495c654",
-      "sha256": "655fdc8821bcb3c9d15a60dfb0997d1cdb102fbe97520e9b5e9d568f1495c654"
+      "bytes": 422616,
+      "sourceSha256": "09a3ee355dd0ceb8c13a295c47622a75835a4cbcc9178ee5ce9365d0a6750f28",
+      "sha256": "09a3ee355dd0ceb8c13a295c47622a75835a4cbcc9178ee5ce9365d0a6750f28"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-4.png",
-      "bytes": 441441,
-      "sourceSha256": "ed99d4976814c56d40a199aceeb28fff3d840a8b0b1f5f1a14f6881d708a4ab6",
-      "sha256": "ed99d4976814c56d40a199aceeb28fff3d840a8b0b1f5f1a14f6881d708a4ab6"
+      "bytes": 441470,
+      "sourceSha256": "779499beb4a266e6e03534f4eb8138c9f7f839992af0a4e591a708af75cb9f86",
+      "sha256": "779499beb4a266e6e03534f4eb8138c9f7f839992af0a4e591a708af75cb9f86"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-5.png",
-      "bytes": 454722,
-      "sourceSha256": "de4baabf863d44b6c07c48e51856ddcfcae9695fd63ab0221ea1353dfa5bfd15",
-      "sha256": "de4baabf863d44b6c07c48e51856ddcfcae9695fd63ab0221ea1353dfa5bfd15"
+      "bytes": 454184,
+      "sourceSha256": "1d50893fb2ac959d26282925056d996536f3f3a28ab931c718257ad4a98f0c1a",
+      "sha256": "1d50893fb2ac959d26282925056d996536f3f3a28ab931c718257ad4a98f0c1a"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-6.png",
-      "bytes": 424791,
-      "sourceSha256": "919080e98734bfec2b4e99e1b76607b9782f355ad20e81e5fc3f46595458f3f5",
-      "sha256": "919080e98734bfec2b4e99e1b76607b9782f355ad20e81e5fc3f46595458f3f5"
+      "bytes": 424705,
+      "sourceSha256": "9fe66b66313304be5b51a4cf4adb6e90e66035f5096ee246d656c8bd8c433294",
+      "sha256": "9fe66b66313304be5b51a4cf4adb6e90e66035f5096ee246d656c8bd8c433294"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-7.png",
-      "bytes": 234341,
-      "sourceSha256": "b4c673807d2a07a3b45ac17ded9338ebb135b2c741769d7003c84bbfb0056e97",
-      "sha256": "b4c673807d2a07a3b45ac17ded9338ebb135b2c741769d7003c84bbfb0056e97"
+      "bytes": 233021,
+      "sourceSha256": "c8b50cd60ca44a4bb598b87173af4e7931f1d46242703fbc22e5456414ad9ed9",
+      "sha256": "c8b50cd60ca44a4bb598b87173af4e7931f1d46242703fbc22e5456414ad9ed9"
     },
     {
       "path": "terrain/tiles/aethelgard/1/5-8.png",
@@ -1964,33 +1964,33 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-3.png",
-      "bytes": 316605,
-      "sourceSha256": "63d3ce348c2dcae7701ec196e62a8919199e262082a760af43c98419e67e9ce3",
-      "sha256": "63d3ce348c2dcae7701ec196e62a8919199e262082a760af43c98419e67e9ce3"
+      "bytes": 316436,
+      "sourceSha256": "cd16f3983d17705d60cfa98d11732bc19d426c5c32b76af5217c8b9073aac77b",
+      "sha256": "cd16f3983d17705d60cfa98d11732bc19d426c5c32b76af5217c8b9073aac77b"
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-4.png",
-      "bytes": 446549,
-      "sourceSha256": "aae75c8149da64e25170a9ebd000a814192f463b78387e5bae418dc5c69bb77f",
-      "sha256": "aae75c8149da64e25170a9ebd000a814192f463b78387e5bae418dc5c69bb77f"
+      "bytes": 446052,
+      "sourceSha256": "62eb46baf4879392702bea72ad0115bb00958deebaaa977c8fb6810c816f5ae1",
+      "sha256": "62eb46baf4879392702bea72ad0115bb00958deebaaa977c8fb6810c816f5ae1"
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-5.png",
-      "bytes": 448728,
-      "sourceSha256": "102e79f509ce844af21e0d73510dd4e70c69c2ece5100ee5c1ea44189189febb",
-      "sha256": "102e79f509ce844af21e0d73510dd4e70c69c2ece5100ee5c1ea44189189febb"
+      "bytes": 445385,
+      "sourceSha256": "5ca99a0ead7445888f36ab517b9146d132fc4d252967d8ce819b6a4997543ba2",
+      "sha256": "5ca99a0ead7445888f36ab517b9146d132fc4d252967d8ce819b6a4997543ba2"
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-6.png",
-      "bytes": 414231,
-      "sourceSha256": "f07a6f798443f9b2b8a20316c6bff30d3a3fb4e0636fcc1c1e4c9a61591dda3e",
-      "sha256": "f07a6f798443f9b2b8a20316c6bff30d3a3fb4e0636fcc1c1e4c9a61591dda3e"
+      "bytes": 408826,
+      "sourceSha256": "0c571961a9cff2c50b1be429963ccde1be7925697dd8e9ddf5d92c387d7e351c",
+      "sha256": "0c571961a9cff2c50b1be429963ccde1be7925697dd8e9ddf5d92c387d7e351c"
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-7.png",
-      "bytes": 325387,
-      "sourceSha256": "e4b82ca3934b8a476c9977bf7647fde0aefe79f578a5704263d3a3a80231e27f",
-      "sha256": "e4b82ca3934b8a476c9977bf7647fde0aefe79f578a5704263d3a3a80231e27f"
+      "bytes": 323314,
+      "sourceSha256": "5b5bbbdfe9eb2194276b8e6b61c68aee00156a38b1da288b2c3fdbfa9caccf22",
+      "sha256": "5b5bbbdfe9eb2194276b8e6b61c68aee00156a38b1da288b2c3fdbfa9caccf22"
     },
     {
       "path": "terrain/tiles/aethelgard/1/6-8.png",
@@ -2036,21 +2036,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/7-5.png",
-      "bytes": 428680,
-      "sourceSha256": "ef2e25bc93b8b070200c908264b7cdf9792b207536edb6c9f0da127d0c30fd0c",
-      "sha256": "ef2e25bc93b8b070200c908264b7cdf9792b207536edb6c9f0da127d0c30fd0c"
+      "bytes": 423829,
+      "sourceSha256": "5abfad5c71e70ad8649155289200a8bdaa7dcc107a51e1fa67c0307bd814e72b",
+      "sha256": "5abfad5c71e70ad8649155289200a8bdaa7dcc107a51e1fa67c0307bd814e72b"
     },
     {
       "path": "terrain/tiles/aethelgard/1/7-6.png",
-      "bytes": 381103,
-      "sourceSha256": "f721e333dd2beb690e2f1852288ad45032784647be23d298bcfed3304839c1ee",
-      "sha256": "f721e333dd2beb690e2f1852288ad45032784647be23d298bcfed3304839c1ee"
+      "bytes": 380363,
+      "sourceSha256": "5c3f243aff1af2776a579f85aaefff45b0c246aad1c7a098cd53ce37d15ff3c4",
+      "sha256": "5c3f243aff1af2776a579f85aaefff45b0c246aad1c7a098cd53ce37d15ff3c4"
     },
     {
       "path": "terrain/tiles/aethelgard/1/7-7.png",
-      "bytes": 349905,
-      "sourceSha256": "d61f4b4099971d99fd3aa4cb742696fb9f80c226a753e038410c8435f312f4f2",
-      "sha256": "d61f4b4099971d99fd3aa4cb742696fb9f80c226a753e038410c8435f312f4f2"
+      "bytes": 349928,
+      "sourceSha256": "a880a171b925a6d8d24cc0f8c5c885aef888fedaee1b34120ea93b9934d3b066",
+      "sha256": "a880a171b925a6d8d24cc0f8c5c885aef888fedaee1b34120ea93b9934d3b066"
     },
     {
       "path": "terrain/tiles/aethelgard/1/7-8.png",
@@ -2090,21 +2090,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/8-4.png",
-      "bytes": 378548,
-      "sourceSha256": "1936764fbf2d7496f97826394f14c9a806118330f9eb4ce9f4963848cd9af613",
-      "sha256": "1936764fbf2d7496f97826394f14c9a806118330f9eb4ce9f4963848cd9af613"
+      "bytes": 376266,
+      "sourceSha256": "7cec24f1e5b41ec52fc7e1ee79bc9ed784de1ff69a9dc888d45ca4fce7da8fca",
+      "sha256": "7cec24f1e5b41ec52fc7e1ee79bc9ed784de1ff69a9dc888d45ca4fce7da8fca"
     },
     {
       "path": "terrain/tiles/aethelgard/1/8-5.png",
-      "bytes": 403225,
-      "sourceSha256": "e6bc0489e7535216fd7dc45d76e742d70b565c9b0c3916f5889bae69963a47b9",
-      "sha256": "e6bc0489e7535216fd7dc45d76e742d70b565c9b0c3916f5889bae69963a47b9"
+      "bytes": 399273,
+      "sourceSha256": "17196be6cd842e1ddf90b47223e2466d0a23e4bebc9ec420ce45a2d0b251e416",
+      "sha256": "17196be6cd842e1ddf90b47223e2466d0a23e4bebc9ec420ce45a2d0b251e416"
     },
     {
       "path": "terrain/tiles/aethelgard/1/8-6.png",
-      "bytes": 352317,
-      "sourceSha256": "a21ee92c784367a1d150b88c3048228cb41267648e536a46aacc74a79e91e907",
-      "sha256": "a21ee92c784367a1d150b88c3048228cb41267648e536a46aacc74a79e91e907"
+      "bytes": 352440,
+      "sourceSha256": "851ed0eb1a6ccf28595ad766e884e8bc52b8629204803dac495c2f9dce137955",
+      "sha256": "851ed0eb1a6ccf28595ad766e884e8bc52b8629204803dac495c2f9dce137955"
     },
     {
       "path": "terrain/tiles/aethelgard/1/8-7.png",
@@ -2150,15 +2150,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/1/9-4.png",
-      "bytes": 52556,
-      "sourceSha256": "3a22482123761d3df463c54f17bda6d722202a49f103f0911dda5f0f86f35ce2",
-      "sha256": "3a22482123761d3df463c54f17bda6d722202a49f103f0911dda5f0f86f35ce2"
+      "bytes": 52094,
+      "sourceSha256": "f4c9cdb287f0440d0a6e76c1e75754bca2aa9ae9a11cb43935aaeb53a4790fde",
+      "sha256": "f4c9cdb287f0440d0a6e76c1e75754bca2aa9ae9a11cb43935aaeb53a4790fde"
     },
     {
       "path": "terrain/tiles/aethelgard/1/9-5.png",
-      "bytes": 233368,
-      "sourceSha256": "fe4cffc9019558cf82c9df6960476a121333822361ecb98f4955aa59e59b4077",
-      "sha256": "fe4cffc9019558cf82c9df6960476a121333822361ecb98f4955aa59e59b4077"
+      "bytes": 230432,
+      "sourceSha256": "c80b636629a0f8562fbd34c17123f826cf38b854c4909f33a94429f2f29e85aa",
+      "sha256": "c80b636629a0f8562fbd34c17123f826cf38b854c4909f33a94429f2f29e85aa"
     },
     {
       "path": "terrain/tiles/aethelgard/1/9-6.png",
@@ -2426,15 +2426,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-10.png",
-      "bytes": 362344,
-      "sourceSha256": "871f21cbf6b64aad2af5758726909285b72bf13300d011e11381d0a4bfba7fc0",
-      "sha256": "871f21cbf6b64aad2af5758726909285b72bf13300d011e11381d0a4bfba7fc0"
+      "bytes": 361377,
+      "sourceSha256": "3804150a94d3afe104a673aa76fcfb7a7a236d93c47aa33a83ff44d797d0901f",
+      "sha256": "3804150a94d3afe104a673aa76fcfb7a7a236d93c47aa33a83ff44d797d0901f"
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-11.png",
-      "bytes": 356706,
-      "sourceSha256": "970186b8cb6e6cdb9059a392c8d7cde91d0e479b6210534dd4f0be8a1fcc8733",
-      "sha256": "970186b8cb6e6cdb9059a392c8d7cde91d0e479b6210534dd4f0be8a1fcc8733"
+      "bytes": 356773,
+      "sourceSha256": "d984eaf3ab31e8d1d7b7e8c13a1f4f539c240bd5738b62c1ff070952f670c5af",
+      "sha256": "d984eaf3ab31e8d1d7b7e8c13a1f4f539c240bd5738b62c1ff070952f670c5af"
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-12.png",
@@ -2498,21 +2498,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-5.png",
-      "bytes": 63874,
-      "sourceSha256": "de5f364cecc5facd3d70a07239444c03807dad811e6e72480cd8e079a5f900f3",
-      "sha256": "de5f364cecc5facd3d70a07239444c03807dad811e6e72480cd8e079a5f900f3"
+      "bytes": 63831,
+      "sourceSha256": "5e017eef143813e43d67c72d297ea350c49d43381fd469607b4235abf4e2913a",
+      "sha256": "5e017eef143813e43d67c72d297ea350c49d43381fd469607b4235abf4e2913a"
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-6.png",
-      "bytes": 307240,
-      "sourceSha256": "ce97ebed7c636bc145151cbb3bacdde1c3d23b0818757d8848748de6b562f0c0",
-      "sha256": "ce97ebed7c636bc145151cbb3bacdde1c3d23b0818757d8848748de6b562f0c0"
+      "bytes": 304912,
+      "sourceSha256": "0f9e0238b0db3857ba5c3a83c350a4cd12a876a94f6bfb29155ae5b425fc73d3",
+      "sha256": "0f9e0238b0db3857ba5c3a83c350a4cd12a876a94f6bfb29155ae5b425fc73d3"
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-7.png",
-      "bytes": 354521,
-      "sourceSha256": "78927a7972451c404304097f9d2894a016ca6c6b0de672fcd351e305e074078c",
-      "sha256": "78927a7972451c404304097f9d2894a016ca6c6b0de672fcd351e305e074078c"
+      "bytes": 354279,
+      "sourceSha256": "06615a7923e1a4234cd11b2fd9b36661ee87ffa258861b0347339c0cafbea723",
+      "sha256": "06615a7923e1a4234cd11b2fd9b36661ee87ffa258861b0347339c0cafbea723"
     },
     {
       "path": "terrain/tiles/aethelgard/2/10-8.png",
@@ -2540,9 +2540,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-10.png",
-      "bytes": 350740,
-      "sourceSha256": "341d0292959f4d950bc23d73248f5de4f2ebc0bd53537f4815c8c2c3ef35f328",
-      "sha256": "341d0292959f4d950bc23d73248f5de4f2ebc0bd53537f4815c8c2c3ef35f328"
+      "bytes": 350499,
+      "sourceSha256": "b2d97d08d5bb4b0853bd7a25cc468a5bf64c547fc215fa2481275641451b80fc",
+      "sha256": "b2d97d08d5bb4b0853bd7a25cc468a5bf64c547fc215fa2481275641451b80fc"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-11.png",
@@ -2558,21 +2558,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-13.png",
-      "bytes": 286209,
-      "sourceSha256": "90db76c4c755db40e98401b3766364e3b91ee67ce4e78760ae76da2e365de148",
-      "sha256": "90db76c4c755db40e98401b3766364e3b91ee67ce4e78760ae76da2e365de148"
+      "bytes": 286431,
+      "sourceSha256": "6ade9b5757dd149d6bb27228611b48e91d6ea2871eec55b9433fef84aa0325f2",
+      "sha256": "6ade9b5757dd149d6bb27228611b48e91d6ea2871eec55b9433fef84aa0325f2"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-14.png",
-      "bytes": 290661,
-      "sourceSha256": "b11a9d236af509dffe4b3d06d56b1bc3e82459f6850687eb5375a614aa592af5",
-      "sha256": "b11a9d236af509dffe4b3d06d56b1bc3e82459f6850687eb5375a614aa592af5"
+      "bytes": 291159,
+      "sourceSha256": "532cbc06f492ab2f97128d817994f9cc0ca6a3b6c4221cc34750d004c0e43496",
+      "sha256": "532cbc06f492ab2f97128d817994f9cc0ca6a3b6c4221cc34750d004c0e43496"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-15.png",
-      "bytes": 103277,
-      "sourceSha256": "38075dc6d6c8119bdcd6578f69ad4cddc233c742512d9800c0684c818a71a8e9",
-      "sha256": "38075dc6d6c8119bdcd6578f69ad4cddc233c742512d9800c0684c818a71a8e9"
+      "bytes": 101665,
+      "sourceSha256": "39b95d9806cad7660de2a1d35b711adf41b30761558f0ab6e27b697df7d92bc2",
+      "sha256": "39b95d9806cad7660de2a1d35b711adf41b30761558f0ab6e27b697df7d92bc2"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-16.png",
@@ -2618,27 +2618,27 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-6.png",
-      "bytes": 317243,
-      "sourceSha256": "d5fe218eef313c4bb9f364d2ab21c89ced37ee5fb6fac0c639c4d80ecf977f66",
-      "sha256": "d5fe218eef313c4bb9f364d2ab21c89ced37ee5fb6fac0c639c4d80ecf977f66"
+      "bytes": 317245,
+      "sourceSha256": "d0cd8e9e057032601223246f746361caa3f0a0bbafe6ce674afc028f3dac26ac",
+      "sha256": "d0cd8e9e057032601223246f746361caa3f0a0bbafe6ce674afc028f3dac26ac"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-7.png",
-      "bytes": 359798,
-      "sourceSha256": "86049d18e2e4e8f60ce711c2d326afc7cb2c59b24979789cd3004642ffca7e69",
-      "sha256": "86049d18e2e4e8f60ce711c2d326afc7cb2c59b24979789cd3004642ffca7e69"
+      "bytes": 357959,
+      "sourceSha256": "56c3618e216b6018fecb376f2db3cd2836415bcbbf4e78461b8bca4abe4f53ef",
+      "sha256": "56c3618e216b6018fecb376f2db3cd2836415bcbbf4e78461b8bca4abe4f53ef"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-8.png",
-      "bytes": 335064,
-      "sourceSha256": "853e94933a90a83e474fcccd7c5f22db585c83bcf1cac83e17991d9d933c2ff1",
-      "sha256": "853e94933a90a83e474fcccd7c5f22db585c83bcf1cac83e17991d9d933c2ff1"
+      "bytes": 335095,
+      "sourceSha256": "81da070ea7cd3d5aa986d7496943cbb986dbd60f78bbf7050889ad2fb73c70fd",
+      "sha256": "81da070ea7cd3d5aa986d7496943cbb986dbd60f78bbf7050889ad2fb73c70fd"
     },
     {
       "path": "terrain/tiles/aethelgard/2/11-9.png",
-      "bytes": 326806,
-      "sourceSha256": "b1799d8ce1a5e2c101838efe11b278282d25930ba8ddbd1cc2b1b050fdb984af",
-      "sha256": "b1799d8ce1a5e2c101838efe11b278282d25930ba8ddbd1cc2b1b050fdb984af"
+      "bytes": 326958,
+      "sourceSha256": "8268f8d242bc8dec8cfe99a5d38796cd53ded602a96ed9623691911b94c70cb8",
+      "sha256": "8268f8d242bc8dec8cfe99a5d38796cd53ded602a96ed9623691911b94c70cb8"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-0.png",
@@ -2654,39 +2654,39 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-10.png",
-      "bytes": 360926,
-      "sourceSha256": "1a068e2e950cf2089514661ccd8618da4d766e2c851fae74853d0ca0c2513363",
-      "sha256": "1a068e2e950cf2089514661ccd8618da4d766e2c851fae74853d0ca0c2513363"
+      "bytes": 360363,
+      "sourceSha256": "a5a1f56faf5dbc8b0b60ce0b58a31c66f58f40da22c59b6b42140398730aa6ff",
+      "sha256": "a5a1f56faf5dbc8b0b60ce0b58a31c66f58f40da22c59b6b42140398730aa6ff"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-11.png",
-      "bytes": 334383,
-      "sourceSha256": "dd1e63450ced40364815a78eb38dfa85d13c5ff8ad78bf9a82854117bcf023f7",
-      "sha256": "dd1e63450ced40364815a78eb38dfa85d13c5ff8ad78bf9a82854117bcf023f7"
+      "bytes": 334182,
+      "sourceSha256": "f179c10b1b10324667503bfd175e5ade23b256fa61bd059cefe35b7b7726ac35",
+      "sha256": "f179c10b1b10324667503bfd175e5ade23b256fa61bd059cefe35b7b7726ac35"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-12.png",
-      "bytes": 339680,
-      "sourceSha256": "f152eae692fd2b24f7d2169ce4cf603995f5c87c5245ed97242402a4856cca55",
-      "sha256": "f152eae692fd2b24f7d2169ce4cf603995f5c87c5245ed97242402a4856cca55"
+      "bytes": 335146,
+      "sourceSha256": "323df661d4844ad6de94677b4f64b59deb8bf49ec88654731854c0768945fac4",
+      "sha256": "323df661d4844ad6de94677b4f64b59deb8bf49ec88654731854c0768945fac4"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-13.png",
-      "bytes": 303016,
-      "sourceSha256": "965625b93e512845837102810b77afd003d7f0aa76a2341ebde3c854f39f69df",
-      "sha256": "965625b93e512845837102810b77afd003d7f0aa76a2341ebde3c854f39f69df"
+      "bytes": 295200,
+      "sourceSha256": "50e7d019b6c737408ae9b7ec98591da73c6a06cd46f7e99a122872c6417b30d7",
+      "sha256": "50e7d019b6c737408ae9b7ec98591da73c6a06cd46f7e99a122872c6417b30d7"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-14.png",
-      "bytes": 289759,
-      "sourceSha256": "228d8adf9044bf528813edaa083f851460eca0cb2efbd6b15bf9e8253c849eb4",
-      "sha256": "228d8adf9044bf528813edaa083f851460eca0cb2efbd6b15bf9e8253c849eb4"
+      "bytes": 289292,
+      "sourceSha256": "3d946bffdf4270d402a206b6374bb1a3cf962da56d4b6156070ffd374870cbd0",
+      "sha256": "3d946bffdf4270d402a206b6374bb1a3cf962da56d4b6156070ffd374870cbd0"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-15.png",
-      "bytes": 215897,
-      "sourceSha256": "e84d5c892a3fcbea30ef78b0eed443a4f70361e24df4df517a110981374617db",
-      "sha256": "e84d5c892a3fcbea30ef78b0eed443a4f70361e24df4df517a110981374617db"
+      "bytes": 215750,
+      "sourceSha256": "919d637cad0dc0b29d0223fe5fd51e46a7ad71ac6c870ed2a36b21bad2f3c370",
+      "sha256": "919d637cad0dc0b29d0223fe5fd51e46a7ad71ac6c870ed2a36b21bad2f3c370"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-16.png",
@@ -2738,15 +2738,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-7.png",
-      "bytes": 347536,
-      "sourceSha256": "30ea8fdd631e3b0f295eef378840b1f701baf413ca406f8f471679eb8ca28b41",
-      "sha256": "30ea8fdd631e3b0f295eef378840b1f701baf413ca406f8f471679eb8ca28b41"
+      "bytes": 347254,
+      "sourceSha256": "d5fcbb81f9508db5540a8de6d2e7b85f3355db8517b68f092b29741b4ee14d96",
+      "sha256": "d5fcbb81f9508db5540a8de6d2e7b85f3355db8517b68f092b29741b4ee14d96"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-8.png",
-      "bytes": 344253,
-      "sourceSha256": "861da3d28cb51e1e7791429f7b0ff621e7a2162e13d62ba4ada3cd57c331866a",
-      "sha256": "861da3d28cb51e1e7791429f7b0ff621e7a2162e13d62ba4ada3cd57c331866a"
+      "bytes": 344257,
+      "sourceSha256": "7cf659632acdd858bb94a7dd1ef03e3c5f58509f35f4a3416203dbf6907bf432",
+      "sha256": "7cf659632acdd858bb94a7dd1ef03e3c5f58509f35f4a3416203dbf6907bf432"
     },
     {
       "path": "terrain/tiles/aethelgard/2/12-9.png",
@@ -2768,39 +2768,39 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-10.png",
-      "bytes": 364311,
-      "sourceSha256": "be9e688a1afd5d3c2e377ec9e731bd4c3e334b7f203af0fa15d95a09b17613cb",
-      "sha256": "be9e688a1afd5d3c2e377ec9e731bd4c3e334b7f203af0fa15d95a09b17613cb"
+      "bytes": 363677,
+      "sourceSha256": "d2a066f7e4cf53a274f05d6e6df827ab7bb06526470012379ed22972b5ad3c5a",
+      "sha256": "d2a066f7e4cf53a274f05d6e6df827ab7bb06526470012379ed22972b5ad3c5a"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-11.png",
-      "bytes": 339560,
-      "sourceSha256": "c2f32d4c1ae4a35bed3294ef5aa3f4fe24c9e78615e159b812c32dce73bb17ec",
-      "sha256": "c2f32d4c1ae4a35bed3294ef5aa3f4fe24c9e78615e159b812c32dce73bb17ec"
+      "bytes": 332175,
+      "sourceSha256": "b3cc1a0ae5a412ea5fee1e4e46b96b024a94243e59ae0d982a1ab5339dc71469",
+      "sha256": "b3cc1a0ae5a412ea5fee1e4e46b96b024a94243e59ae0d982a1ab5339dc71469"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-12.png",
-      "bytes": 325342,
-      "sourceSha256": "b171a2cfc95ac865573ba596e141265a215313f83498c3aa530e55544d55ff8e",
-      "sha256": "b171a2cfc95ac865573ba596e141265a215313f83498c3aa530e55544d55ff8e"
+      "bytes": 323928,
+      "sourceSha256": "ce5b042bbf55155bfac3068c4575606153c6b3eebb700baf3801ec9f90544385",
+      "sha256": "ce5b042bbf55155bfac3068c4575606153c6b3eebb700baf3801ec9f90544385"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-13.png",
-      "bytes": 266886,
-      "sourceSha256": "1c1ebc085d2e872a1bfbc57dabbb975b158bf6e88ebbeeb72742acd0f5010c47",
-      "sha256": "1c1ebc085d2e872a1bfbc57dabbb975b158bf6e88ebbeeb72742acd0f5010c47"
+      "bytes": 266988,
+      "sourceSha256": "52ed0279b2c999d0be0d760efa48672fb8765d9b05d19de04822fb58fb13778f",
+      "sha256": "52ed0279b2c999d0be0d760efa48672fb8765d9b05d19de04822fb58fb13778f"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-14.png",
-      "bytes": 274733,
-      "sourceSha256": "8cbd5116cd22ee28b41f54c1597b4cfb8c57d82dd9e5823547e725d883cc3ed6",
-      "sha256": "8cbd5116cd22ee28b41f54c1597b4cfb8c57d82dd9e5823547e725d883cc3ed6"
+      "bytes": 274003,
+      "sourceSha256": "9672ce1ba274ba14f2b3dc6d5a4d9454688490fbaba883233b50e2c69c94bd30",
+      "sha256": "9672ce1ba274ba14f2b3dc6d5a4d9454688490fbaba883233b50e2c69c94bd30"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-15.png",
-      "bytes": 168168,
-      "sourceSha256": "ffcf8e23d1836c680bef6c9a440c174cf0b93a8eea37cda49c1c9617c76ba8b3",
-      "sha256": "ffcf8e23d1836c680bef6c9a440c174cf0b93a8eea37cda49c1c9617c76ba8b3"
+      "bytes": 167590,
+      "sourceSha256": "afc779f3e1d7c9e122eccf15d63b3ffa7ba2f5d40308dd79bbc72164b3c9a5a5",
+      "sha256": "afc779f3e1d7c9e122eccf15d63b3ffa7ba2f5d40308dd79bbc72164b3c9a5a5"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-16.png",
@@ -2858,15 +2858,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-8.png",
-      "bytes": 351117,
-      "sourceSha256": "adefe0cfd879e1de3d43e6f47263f33d1da8651258ac6af0bdd8666f2cc433c3",
-      "sha256": "adefe0cfd879e1de3d43e6f47263f33d1da8651258ac6af0bdd8666f2cc433c3"
+      "bytes": 351007,
+      "sourceSha256": "58821c25d60e68b6fd9198e044e243adbb2c3f54e761f088154e6b7f08ab804c",
+      "sha256": "58821c25d60e68b6fd9198e044e243adbb2c3f54e761f088154e6b7f08ab804c"
     },
     {
       "path": "terrain/tiles/aethelgard/2/13-9.png",
-      "bytes": 342192,
-      "sourceSha256": "9a1dbbb05d2a92732506284e840eab91e377859e4b18afb46f02d83c06d82af9",
-      "sha256": "9a1dbbb05d2a92732506284e840eab91e377859e4b18afb46f02d83c06d82af9"
+      "bytes": 340728,
+      "sourceSha256": "7d5ba969deb2356e2017eb2d18fb94f74f38348fd3f482e7f6e479a108eb9806",
+      "sha256": "7d5ba969deb2356e2017eb2d18fb94f74f38348fd3f482e7f6e479a108eb9806"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-0.png",
@@ -2882,15 +2882,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-10.png",
-      "bytes": 338197,
-      "sourceSha256": "3b5dc4425654a45a011992869bf83fb498a7b4d182bc578debcdfd45c2f607fc",
-      "sha256": "3b5dc4425654a45a011992869bf83fb498a7b4d182bc578debcdfd45c2f607fc"
+      "bytes": 338358,
+      "sourceSha256": "99a9134b020e6c90baec23c22e185f9f9475ccb1310bc94bc4c11d220e2166bd",
+      "sha256": "99a9134b020e6c90baec23c22e185f9f9475ccb1310bc94bc4c11d220e2166bd"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-11.png",
-      "bytes": 327932,
-      "sourceSha256": "d26479042e1cb426655239bb1661706a3b7463464db3eb3f695689fc24725d62",
-      "sha256": "d26479042e1cb426655239bb1661706a3b7463464db3eb3f695689fc24725d62"
+      "bytes": 324501,
+      "sourceSha256": "762ad8dba3e26a33f8262bedd58a381b16023b8b93782a10526a67044c4e1690",
+      "sha256": "762ad8dba3e26a33f8262bedd58a381b16023b8b93782a10526a67044c4e1690"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-12.png",
@@ -2900,21 +2900,21 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-13.png",
-      "bytes": 288933,
-      "sourceSha256": "d1ccdebbf0d7b89dfae2d5402dc70b050444ded3548614db038717f808b456ab",
-      "sha256": "d1ccdebbf0d7b89dfae2d5402dc70b050444ded3548614db038717f808b456ab"
+      "bytes": 288982,
+      "sourceSha256": "c6c9f12d1e5e89a63807cb39f7f55f5486f6235a194654b1c9b46cab7dffd5b1",
+      "sha256": "c6c9f12d1e5e89a63807cb39f7f55f5486f6235a194654b1c9b46cab7dffd5b1"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-14.png",
-      "bytes": 387787,
-      "sourceSha256": "a0acc418aa08c4be1669dc6a7e8b9069349a652c4e8126e206dffc41fa4ce863",
-      "sha256": "a0acc418aa08c4be1669dc6a7e8b9069349a652c4e8126e206dffc41fa4ce863"
+      "bytes": 388951,
+      "sourceSha256": "9698bb137cc8d4dccfe4899d4da0fe184488516681f40b71f24a89f7fa71c49d",
+      "sha256": "9698bb137cc8d4dccfe4899d4da0fe184488516681f40b71f24a89f7fa71c49d"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-15.png",
-      "bytes": 263799,
-      "sourceSha256": "4826ae761cc8e9f1f7f4ec77459e37c501059b7133da708cd08f3489ec84c346",
-      "sha256": "4826ae761cc8e9f1f7f4ec77459e37c501059b7133da708cd08f3489ec84c346"
+      "bytes": 263807,
+      "sourceSha256": "ef45c114d0b4b3b8813cd50ae14d30784e0d513a29fc0277431d248f2862b226",
+      "sha256": "ef45c114d0b4b3b8813cd50ae14d30784e0d513a29fc0277431d248f2862b226"
     },
     {
       "path": "terrain/tiles/aethelgard/2/14-16.png",
@@ -2996,15 +2996,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/15-10.png",
-      "bytes": 343394,
-      "sourceSha256": "d17a5259c3e2cb3718abc17d94054d4bbe6f689b33a9adbad7dc38d7f550f8fd",
-      "sha256": "d17a5259c3e2cb3718abc17d94054d4bbe6f689b33a9adbad7dc38d7f550f8fd"
+      "bytes": 334605,
+      "sourceSha256": "6092c929618bfb7667ff5ee2e9b335ea4d525b6ba0649e9a7fdf4c9c139472aa",
+      "sha256": "6092c929618bfb7667ff5ee2e9b335ea4d525b6ba0649e9a7fdf4c9c139472aa"
     },
     {
       "path": "terrain/tiles/aethelgard/2/15-11.png",
-      "bytes": 300831,
-      "sourceSha256": "bd0b215a81c7d7ad1b9584d552317958aa69a88dfee87bd695f3aa9e87e1f413",
-      "sha256": "bd0b215a81c7d7ad1b9584d552317958aa69a88dfee87bd695f3aa9e87e1f413"
+      "bytes": 300051,
+      "sourceSha256": "b780c1bfe164bffbd652d3f0ff55197934f9a74fd9dd1b39f52f9eab69fb61f1",
+      "sha256": "b780c1bfe164bffbd652d3f0ff55197934f9a74fd9dd1b39f52f9eab69fb61f1"
     },
     {
       "path": "terrain/tiles/aethelgard/2/15-12.png",
@@ -3014,9 +3014,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/15-13.png",
-      "bytes": 303187,
-      "sourceSha256": "4cb443bdf9ce0308cc8ce473e98a30cd6a70f7ef0f651c8e803068c38b49b4cd",
-      "sha256": "4cb443bdf9ce0308cc8ce473e98a30cd6a70f7ef0f651c8e803068c38b49b4cd"
+      "bytes": 301752,
+      "sourceSha256": "f98d193d5e6ec50d914e59f7fe3b1c1ad8a74c99a5897aea25408c085619d634",
+      "sha256": "f98d193d5e6ec50d914e59f7fe3b1c1ad8a74c99a5897aea25408c085619d634"
     },
     {
       "path": "terrain/tiles/aethelgard/2/15-14.png",
@@ -3110,15 +3110,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-10.png",
-      "bytes": 310723,
-      "sourceSha256": "d207d555a59cb638cddae700b898c6deefebb797ee9c60f28d45c6d4a9d41156",
-      "sha256": "d207d555a59cb638cddae700b898c6deefebb797ee9c60f28d45c6d4a9d41156"
+      "bytes": 309898,
+      "sourceSha256": "c22e1c91b0a7dd53a3dd134f3784c0c344ab90dfc982691a0f592d0791c155d1",
+      "sha256": "c22e1c91b0a7dd53a3dd134f3784c0c344ab90dfc982691a0f592d0791c155d1"
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-11.png",
-      "bytes": 303954,
-      "sourceSha256": "8bf608024375dea2f8800109e73211e5b49b8660b8bd02eca313374b0b69cee2",
-      "sha256": "8bf608024375dea2f8800109e73211e5b49b8660b8bd02eca313374b0b69cee2"
+      "bytes": 301960,
+      "sourceSha256": "438c70377edf9ad1163fc4cf099452779ba306c4d504c3700ee2bc957569b23c",
+      "sha256": "438c70377edf9ad1163fc4cf099452779ba306c4d504c3700ee2bc957569b23c"
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-12.png",
@@ -3128,9 +3128,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-13.png",
-      "bytes": 291958,
-      "sourceSha256": "40c3207443d855e20d308e9f4123998faa89dca12cbba139f1a3f247febc8eeb",
-      "sha256": "40c3207443d855e20d308e9f4123998faa89dca12cbba139f1a3f247febc8eeb"
+      "bytes": 292576,
+      "sourceSha256": "fe1f9701d7d7f58b47bfe0b6c90338787d799bdb506b423bbd32f5042a7149bd",
+      "sha256": "fe1f9701d7d7f58b47bfe0b6c90338787d799bdb506b423bbd32f5042a7149bd"
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-14.png",
@@ -3200,15 +3200,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-8.png",
-      "bytes": 312602,
-      "sourceSha256": "8de449ca5cdc29128c799bf9fff4f0f3ad4bf8f1923334fc31c2b7e7bb23c453",
-      "sha256": "8de449ca5cdc29128c799bf9fff4f0f3ad4bf8f1923334fc31c2b7e7bb23c453"
+      "bytes": 312990,
+      "sourceSha256": "a1e9a15ca5b66a27a68a34f6219d30654c055727ee939eca6c9f4460f064f337",
+      "sha256": "a1e9a15ca5b66a27a68a34f6219d30654c055727ee939eca6c9f4460f064f337"
     },
     {
       "path": "terrain/tiles/aethelgard/2/16-9.png",
-      "bytes": 312858,
-      "sourceSha256": "693d313e157802f5fe7bad3561ad2d194ba78701bd5b892358ef246ed62fe90f",
-      "sha256": "693d313e157802f5fe7bad3561ad2d194ba78701bd5b892358ef246ed62fe90f"
+      "bytes": 312897,
+      "sourceSha256": "e921d4c3bef3c4e0cba1da19458078874532b962c5f42b60adbdca4cb7f7614f",
+      "sha256": "e921d4c3bef3c4e0cba1da19458078874532b962c5f42b60adbdca4cb7f7614f"
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-0.png",
@@ -3224,15 +3224,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-10.png",
-      "bytes": 320374,
-      "sourceSha256": "1cb683b747f5304381400886319be6c69958c0c02da96717d08ea0ddd43d5c74",
-      "sha256": "1cb683b747f5304381400886319be6c69958c0c02da96717d08ea0ddd43d5c74"
+      "bytes": 316446,
+      "sourceSha256": "dd5541c78248371523e84de68a36497b45ac9d1fa0f8400041f21e6d2f933759",
+      "sha256": "dd5541c78248371523e84de68a36497b45ac9d1fa0f8400041f21e6d2f933759"
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-11.png",
-      "bytes": 311710,
-      "sourceSha256": "96b3b93e56dd6cf166037c8ca96105c3ed87c76b803eee8f2fed730b7c256ae9",
-      "sha256": "96b3b93e56dd6cf166037c8ca96105c3ed87c76b803eee8f2fed730b7c256ae9"
+      "bytes": 309231,
+      "sourceSha256": "8be03f6e75d7fbd3e3a4fe7cbda5b308b694a924ec2a4bd96cb70a6edc156412",
+      "sha256": "8be03f6e75d7fbd3e3a4fe7cbda5b308b694a924ec2a4bd96cb70a6edc156412"
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-12.png",
@@ -3314,15 +3314,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-8.png",
-      "bytes": 183898,
-      "sourceSha256": "1127b21eb1eddbc894b478acfc8ce974cea965eb4c5493c22a9b96a54e8f53f5",
-      "sha256": "1127b21eb1eddbc894b478acfc8ce974cea965eb4c5493c22a9b96a54e8f53f5"
+      "bytes": 184292,
+      "sourceSha256": "4876d5c9f3e10a55e48afbedc7d8febc25c2c90993bb261d2a15fbd27b35743e",
+      "sha256": "4876d5c9f3e10a55e48afbedc7d8febc25c2c90993bb261d2a15fbd27b35743e"
     },
     {
       "path": "terrain/tiles/aethelgard/2/17-9.png",
-      "bytes": 337173,
-      "sourceSha256": "dda94e8d10e3ec6aeaf9cd08e8658c8aa0915b4d6986a889cab095da7d2fb2e1",
-      "sha256": "dda94e8d10e3ec6aeaf9cd08e8658c8aa0915b4d6986a889cab095da7d2fb2e1"
+      "bytes": 330800,
+      "sourceSha256": "6b60beedb92feddf5fb3bcb02087d23dc9dffa815a881d655ea90ff4b1a7e9d5",
+      "sha256": "6b60beedb92feddf5fb3bcb02087d23dc9dffa815a881d655ea90ff4b1a7e9d5"
     },
     {
       "path": "terrain/tiles/aethelgard/2/18-0.png",
@@ -3338,15 +3338,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/18-10.png",
-      "bytes": 304547,
-      "sourceSha256": "ddc0445f0fe3bc278586451d78421376b9c4976210838af44d5d2f4895b0a61c",
-      "sha256": "ddc0445f0fe3bc278586451d78421376b9c4976210838af44d5d2f4895b0a61c"
+      "bytes": 304747,
+      "sourceSha256": "da51e5696d19be17b3d6688e02887ee0f1b0b70eb33a52168305a545748f4bf8",
+      "sha256": "da51e5696d19be17b3d6688e02887ee0f1b0b70eb33a52168305a545748f4bf8"
     },
     {
       "path": "terrain/tiles/aethelgard/2/18-11.png",
-      "bytes": 286177,
-      "sourceSha256": "60d7bb6963a895ba3b7a7d6d3d188f7b8a1048e819d7de615c2489f577950cea",
-      "sha256": "60d7bb6963a895ba3b7a7d6d3d188f7b8a1048e819d7de615c2489f577950cea"
+      "bytes": 278374,
+      "sourceSha256": "0ae1a6f51767bb934c3187894c9693d0f8ee8ca908d05bd929539c8cf2f25dfe",
+      "sha256": "0ae1a6f51767bb934c3187894c9693d0f8ee8ca908d05bd929539c8cf2f25dfe"
     },
     {
       "path": "terrain/tiles/aethelgard/2/18-12.png",
@@ -3434,9 +3434,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/18-9.png",
-      "bytes": 134765,
-      "sourceSha256": "7ec0c5a238b4216689a8c81ec73f143017a7314e9b6eafcfda6f69c260bed96b",
-      "sha256": "7ec0c5a238b4216689a8c81ec73f143017a7314e9b6eafcfda6f69c260bed96b"
+      "bytes": 133025,
+      "sourceSha256": "30d949525ae187f93ed3b4cdcdcf665d8590d72a417ad1a19c0d3f5b455547c7",
+      "sha256": "30d949525ae187f93ed3b4cdcdcf665d8590d72a417ad1a19c0d3f5b455547c7"
     },
     {
       "path": "terrain/tiles/aethelgard/2/19-0.png",
@@ -3452,15 +3452,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/19-10.png",
-      "bytes": 33640,
-      "sourceSha256": "6ec7b4987298b246a6f3e305acc9cfe127751469bc0a1c32f9654d8cdc73047b",
-      "sha256": "6ec7b4987298b246a6f3e305acc9cfe127751469bc0a1c32f9654d8cdc73047b"
+      "bytes": 33683,
+      "sourceSha256": "1c130d79b877efaa33aa15b9ccb8df3d37c9408780c031a526108b4b41c7abb7",
+      "sha256": "1c130d79b877efaa33aa15b9ccb8df3d37c9408780c031a526108b4b41c7abb7"
     },
     {
       "path": "terrain/tiles/aethelgard/2/19-11.png",
-      "bytes": 39350,
-      "sourceSha256": "9a9fc1a25510cfc35e47f174a373590bc84bf131e9ad6aa1da41eb32420c1972",
-      "sha256": "9a9fc1a25510cfc35e47f174a373590bc84bf131e9ad6aa1da41eb32420c1972"
+      "bytes": 38612,
+      "sourceSha256": "bfd36a7ac1351a4a601d3cf730791fc09d5829248748905dfc5a6e3ca5091449",
+      "sha256": "bfd36a7ac1351a4a601d3cf730791fc09d5829248748905dfc5a6e3ca5091449"
     },
     {
       "path": "terrain/tiles/aethelgard/2/19-12.png",
@@ -4562,15 +4562,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/6-7.png",
-      "bytes": 227950,
-      "sourceSha256": "2ed8964223c666b932381b496aa7d97b101d891fda67d27383f76557c6fc7a8d",
-      "sha256": "2ed8964223c666b932381b496aa7d97b101d891fda67d27383f76557c6fc7a8d"
+      "bytes": 228245,
+      "sourceSha256": "9353a61eba50b9c00809358726741839ba10e90eaf6a012a013317f003d2fa0e",
+      "sha256": "9353a61eba50b9c00809358726741839ba10e90eaf6a012a013317f003d2fa0e"
     },
     {
       "path": "terrain/tiles/aethelgard/2/6-8.png",
-      "bytes": 301479,
-      "sourceSha256": "54e682cdb0436c78a76311d4b8a9c526d41a5e3136bb7f8c1c3d39ead6c911c4",
-      "sha256": "54e682cdb0436c78a76311d4b8a9c526d41a5e3136bb7f8c1c3d39ead6c911c4"
+      "bytes": 301520,
+      "sourceSha256": "a9b7584de588de5fdbdce3b3b315d3f68b6c71cf43c59ac095f9a80da79c6d01",
+      "sha256": "a9b7584de588de5fdbdce3b3b315d3f68b6c71cf43c59ac095f9a80da79c6d01"
     },
     {
       "path": "terrain/tiles/aethelgard/2/6-9.png",
@@ -4598,9 +4598,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/7-11.png",
-      "bytes": 193634,
-      "sourceSha256": "754fcdacc2bd30a405b624bc996ac36185ba7bc42933d1f17004a9e94736db37",
-      "sha256": "754fcdacc2bd30a405b624bc996ac36185ba7bc42933d1f17004a9e94736db37"
+      "bytes": 193921,
+      "sourceSha256": "02571cec501d0e9cad54e203e0069c6f3c04ba02ee7b5573c3255df6f2e6cb7d",
+      "sha256": "02571cec501d0e9cad54e203e0069c6f3c04ba02ee7b5573c3255df6f2e6cb7d"
     },
     {
       "path": "terrain/tiles/aethelgard/2/7-12.png",
@@ -4676,15 +4676,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/7-7.png",
-      "bytes": 244542,
-      "sourceSha256": "1ac83a3526d4cfb0bde7f3a751ad61d168d136a2a05d160b9719f5e67273caec",
-      "sha256": "1ac83a3526d4cfb0bde7f3a751ad61d168d136a2a05d160b9719f5e67273caec"
+      "bytes": 244709,
+      "sourceSha256": "4a81270f20d66525336863d5aa937a272a72e3109383b8b726f788ad141948ca",
+      "sha256": "4a81270f20d66525336863d5aa937a272a72e3109383b8b726f788ad141948ca"
     },
     {
       "path": "terrain/tiles/aethelgard/2/7-8.png",
-      "bytes": 297409,
-      "sourceSha256": "f5383d7195a6fbb822aa87cafb0bd19f5b049a6cdb80d03497bc330f78885330",
-      "sha256": "f5383d7195a6fbb822aa87cafb0bd19f5b049a6cdb80d03497bc330f78885330"
+      "bytes": 297407,
+      "sourceSha256": "8ff0b27d9eb91709f3691f971f0806ee4d83c9071b36a6511a7d1fc8a0eee99a",
+      "sha256": "8ff0b27d9eb91709f3691f971f0806ee4d83c9071b36a6511a7d1fc8a0eee99a"
     },
     {
       "path": "terrain/tiles/aethelgard/2/7-9.png",
@@ -4706,15 +4706,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/8-10.png",
-      "bytes": 333252,
-      "sourceSha256": "835e17cbee268c3b205b36e986eec63081cfc185a2e9ce22d36d9699f2332fe5",
-      "sha256": "835e17cbee268c3b205b36e986eec63081cfc185a2e9ce22d36d9699f2332fe5"
+      "bytes": 333257,
+      "sourceSha256": "0fc9f9d80ad7010872e6e90b2a7f8e74df98b658fae5bf33239d24f0c2f59f24",
+      "sha256": "0fc9f9d80ad7010872e6e90b2a7f8e74df98b658fae5bf33239d24f0c2f59f24"
     },
     {
       "path": "terrain/tiles/aethelgard/2/8-11.png",
-      "bytes": 339987,
-      "sourceSha256": "dd616e49681f8152fcd1e1e8b1bd86079f5119f5294e8368db2e63994c578ade",
-      "sha256": "dd616e49681f8152fcd1e1e8b1bd86079f5119f5294e8368db2e63994c578ade"
+      "bytes": 339340,
+      "sourceSha256": "0c7db6939f8bf150cb83f01bc3a09b640e56a88d9e2274dbd71da4b423e162b8",
+      "sha256": "0c7db6939f8bf150cb83f01bc3a09b640e56a88d9e2274dbd71da4b423e162b8"
     },
     {
       "path": "terrain/tiles/aethelgard/2/8-12.png",
@@ -4796,15 +4796,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/8-8.png",
-      "bytes": 217991,
-      "sourceSha256": "a7d9efdf29ffc4d62c84bcaa8e5c91df9a80eb7411ebdb0405a2c44266e13c8c",
-      "sha256": "a7d9efdf29ffc4d62c84bcaa8e5c91df9a80eb7411ebdb0405a2c44266e13c8c"
+      "bytes": 218091,
+      "sourceSha256": "2ff183080ca79293a69845df57449aebfac98dadf8d7982db003323993cfc7ff",
+      "sha256": "2ff183080ca79293a69845df57449aebfac98dadf8d7982db003323993cfc7ff"
     },
     {
       "path": "terrain/tiles/aethelgard/2/8-9.png",
-      "bytes": 336514,
-      "sourceSha256": "0bebb140fc626d47f5da34d899a151b9ab4f2eef08986521ce9254ab998764f7",
-      "sha256": "0bebb140fc626d47f5da34d899a151b9ab4f2eef08986521ce9254ab998764f7"
+      "bytes": 336541,
+      "sourceSha256": "fd1335539016260643dd75ca2d4249130ffdcf9e21f33472b00bb7d051790fd9",
+      "sha256": "fd1335539016260643dd75ca2d4249130ffdcf9e21f33472b00bb7d051790fd9"
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-0.png",
@@ -4820,15 +4820,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-10.png",
-      "bytes": 355273,
-      "sourceSha256": "146a15b36e73d9f40c4be6ccaf5fabf3150272a632a4bf5eb8c9c83ef9e46395",
-      "sha256": "146a15b36e73d9f40c4be6ccaf5fabf3150272a632a4bf5eb8c9c83ef9e46395"
+      "bytes": 354534,
+      "sourceSha256": "bd2067d1a1f9a6f4c8f753476faf04de7dee9e149012f7d1351fb2de60776dff",
+      "sha256": "bd2067d1a1f9a6f4c8f753476faf04de7dee9e149012f7d1351fb2de60776dff"
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-11.png",
-      "bytes": 354475,
-      "sourceSha256": "16d069f5920fd50f366d96127f24c9b934f30a79f1966a43c487319151c5c20a",
-      "sha256": "16d069f5920fd50f366d96127f24c9b934f30a79f1966a43c487319151c5c20a"
+      "bytes": 354786,
+      "sourceSha256": "c03105cd4964d55031b2dd1de399b4362cd1a241d0e46ed2f3b72cf50b379bb1",
+      "sha256": "c03105cd4964d55031b2dd1de399b4362cd1a241d0e46ed2f3b72cf50b379bb1"
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-12.png",
@@ -4892,9 +4892,9 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-5.png",
-      "bytes": 180952,
-      "sourceSha256": "9c372b8d2a3bd4f527d9cdc93b0370324e7e99196c3624bd2b4492d4153118f7",
-      "sha256": "9c372b8d2a3bd4f527d9cdc93b0370324e7e99196c3624bd2b4492d4153118f7"
+      "bytes": 180961,
+      "sourceSha256": "d6814badd63588554403097cc80619b20dfc9707057fcc7381b4870f728c127f",
+      "sha256": "d6814badd63588554403097cc80619b20dfc9707057fcc7381b4870f728c127f"
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-6.png",
@@ -4910,15 +4910,15 @@
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-8.png",
-      "bytes": 238291,
-      "sourceSha256": "a019163cd278631ad05314e15068496960344882ba04d4cb6a72e824f3bbf3ae",
-      "sha256": "a019163cd278631ad05314e15068496960344882ba04d4cb6a72e824f3bbf3ae"
+      "bytes": 238245,
+      "sourceSha256": "a8254290624cb44e9e65dd1d48a23b5779dae8ebd26a2dd6f3f4f4417318560b",
+      "sha256": "a8254290624cb44e9e65dd1d48a23b5779dae8ebd26a2dd6f3f4f4417318560b"
     },
     {
       "path": "terrain/tiles/aethelgard/2/9-9.png",
-      "bytes": 355475,
-      "sourceSha256": "5eed70b4819ac1010fd6e53a04aeefb126422d23c353ab4d2cf298b78d51fc4f",
-      "sha256": "5eed70b4819ac1010fd6e53a04aeefb126422d23c353ab4d2cf298b78d51fc4f"
+      "bytes": 355532,
+      "sourceSha256": "043d9edf55141605a84ed111d85d790285d4bd0027e366a7ea31c4ebafc761ae",
+      "sha256": "043d9edf55141605a84ed111d85d790285d4bd0027e366a7ea31c4ebafc761ae"
     },
     {
       "path": "terrain/tiles/atheria/0/0-0.png",
@@ -6524,15 +6524,15 @@
     },
     {
       "path": "terrain/tiles/world/0/2-0.png",
-      "bytes": 58369,
-      "sourceSha256": "e1ac726ec963a83d50de53b7c19be5a6d94030f3f97505375f2a1ff358239cb3",
-      "sha256": "e1ac726ec963a83d50de53b7c19be5a6d94030f3f97505375f2a1ff358239cb3"
+      "bytes": 58153,
+      "sourceSha256": "cadc0779e13977683beb7d16ca230a80986740475546b86c3f235108992299c3",
+      "sha256": "cadc0779e13977683beb7d16ca230a80986740475546b86c3f235108992299c3"
     },
     {
       "path": "terrain/tiles/world/0/2-1.png",
-      "bytes": 324487,
-      "sourceSha256": "1349514b48c00793f4b97cc6765027c1acde6090e0572a519c375a012dad360b",
-      "sha256": "1349514b48c00793f4b97cc6765027c1acde6090e0572a519c375a012dad360b"
+      "bytes": 323133,
+      "sourceSha256": "bffe7141c8507ec655303ce1600660f19cb43ac88747cf7cbbfd19db6bc1068c",
+      "sha256": "bffe7141c8507ec655303ce1600660f19cb43ac88747cf7cbbfd19db6bc1068c"
     },
     {
       "path": "terrain/tiles/world/0/2-2.png",
@@ -6554,15 +6554,15 @@
     },
     {
       "path": "terrain/tiles/world/0/3-1.png",
-      "bytes": 283003,
-      "sourceSha256": "93ff308b5abf39c2f699f65af5ba6e999882432804c41574d190cbaa01944b80",
-      "sha256": "93ff308b5abf39c2f699f65af5ba6e999882432804c41574d190cbaa01944b80"
+      "bytes": 281704,
+      "sourceSha256": "b7d7cd5e50b6a3ae2b39f207b081253451ff7c356bc4b6a6939089988da1b9d5",
+      "sha256": "b7d7cd5e50b6a3ae2b39f207b081253451ff7c356bc4b6a6939089988da1b9d5"
     },
     {
       "path": "terrain/tiles/world/0/3-2.png",
-      "bytes": 277981,
-      "sourceSha256": "00f504b6c4231f899f78845045a57412c0b4ba3818617717fea41a1813d25bd5",
-      "sha256": "00f504b6c4231f899f78845045a57412c0b4ba3818617717fea41a1813d25bd5"
+      "bytes": 277484,
+      "sourceSha256": "a133b3f5f7e239eb80f65dc6f2f6a6591be830e2084736ec6979bb43089d557b",
+      "sha256": "a133b3f5f7e239eb80f65dc6f2f6a6591be830e2084736ec6979bb43089d557b"
     },
     {
       "path": "terrain/tiles/world/0/3-3.png",
@@ -6572,21 +6572,21 @@
     },
     {
       "path": "terrain/tiles/world/0/4-0.png",
-      "bytes": 46487,
-      "sourceSha256": "b3c9e256ad4f4948c9f7f4504cc78ab527839e71d2611cba8306646a01716c6e",
-      "sha256": "b3c9e256ad4f4948c9f7f4504cc78ab527839e71d2611cba8306646a01716c6e"
+      "bytes": 46343,
+      "sourceSha256": "fad0b5b90c38b45c695232ad6448dd7562678ee2b942ec0bec59675afe7fc4a4",
+      "sha256": "fad0b5b90c38b45c695232ad6448dd7562678ee2b942ec0bec59675afe7fc4a4"
     },
     {
       "path": "terrain/tiles/world/0/4-1.png",
-      "bytes": 426532,
-      "sourceSha256": "edd73c6b778f611448f675ec73abe1ac706fbb0e07ee3ada64eecb74c3868304",
-      "sha256": "edd73c6b778f611448f675ec73abe1ac706fbb0e07ee3ada64eecb74c3868304"
+      "bytes": 425141,
+      "sourceSha256": "f0091e0f7dc239ca1ff761f92f3697e5d28499ded129ad91539521549ee41fa9",
+      "sha256": "f0091e0f7dc239ca1ff761f92f3697e5d28499ded129ad91539521549ee41fa9"
     },
     {
       "path": "terrain/tiles/world/0/4-2.png",
-      "bytes": 180684,
-      "sourceSha256": "1b8d0cb8fa32a7097e189bc1e5cab2c23486881ed9a6bc114d688e6c028b9c99",
-      "sha256": "1b8d0cb8fa32a7097e189bc1e5cab2c23486881ed9a6bc114d688e6c028b9c99"
+      "bytes": 180492,
+      "sourceSha256": "8793a7d2d84a382d712f97666371a55ac9346116dcee2349c1e78b19ed5bccaf",
+      "sha256": "8793a7d2d84a382d712f97666371a55ac9346116dcee2349c1e78b19ed5bccaf"
     },
     {
       "path": "terrain/tiles/world/0/4-3.png",
@@ -6602,9 +6602,9 @@
     },
     {
       "path": "terrain/tiles/world/0/5-1.png",
-      "bytes": 29685,
-      "sourceSha256": "70fe5aa9c2db6d6b719fbbc5402f779bf6a71ce2d18ce642aef382ad93058de8",
-      "sha256": "70fe5aa9c2db6d6b719fbbc5402f779bf6a71ce2d18ce642aef382ad93058de8"
+      "bytes": 29629,
+      "sourceSha256": "1d067dd2518c692eafbe0c99103ffd109e1c82f4c9331a1de1b9e30473f4906f",
+      "sha256": "1d067dd2518c692eafbe0c99103ffd109e1c82f4c9331a1de1b9e30473f4906f"
     },
     {
       "path": "terrain/tiles/world/0/5-2.png",
@@ -6728,9 +6728,9 @@
     },
     {
       "path": "terrain/tiles/world/1/10-2.png",
-      "bytes": 40986,
-      "sourceSha256": "a8e08eb9828e4110e1f12a32a8e88e8e09315e83f2147f82d7fbf4914e0f6b42",
-      "sha256": "a8e08eb9828e4110e1f12a32a8e88e8e09315e83f2147f82d7fbf4914e0f6b42"
+      "bytes": 40970,
+      "sourceSha256": "b8d266a1f1818fbb95139cdaf1309a5103ef73604acb4c2778a6001bc5560bfe",
+      "sha256": "b8d266a1f1818fbb95139cdaf1309a5103ef73604acb4c2778a6001bc5560bfe"
     },
     {
       "path": "terrain/tiles/world/1/10-3.png",
@@ -6920,9 +6920,9 @@
     },
     {
       "path": "terrain/tiles/world/1/4-2.png",
-      "bytes": 205250,
-      "sourceSha256": "4ffb59c5436b0ccfe12917fadc9d7a3334e3135356440cf62af35f6cb8830f70",
-      "sha256": "4ffb59c5436b0ccfe12917fadc9d7a3334e3135356440cf62af35f6cb8830f70"
+      "bytes": 205225,
+      "sourceSha256": "645b0b40860df39f05947840f0c12e1f680c55846b84ed1b59e4c7d4363b3bca",
+      "sha256": "645b0b40860df39f05947840f0c12e1f680c55846b84ed1b59e4c7d4363b3bca"
     },
     {
       "path": "terrain/tiles/world/1/4-3.png",
@@ -6962,21 +6962,21 @@
     },
     {
       "path": "terrain/tiles/world/1/5-1.png",
-      "bytes": 146387,
-      "sourceSha256": "0d7a40d81ffdeeb58b10a4db11c1a3c8a7378e0e2dfcec5739699ccc7e344a9c",
-      "sha256": "0d7a40d81ffdeeb58b10a4db11c1a3c8a7378e0e2dfcec5739699ccc7e344a9c"
+      "bytes": 145855,
+      "sourceSha256": "f72fc512c98f412134e96aaec230b59a1d2e838892b6e66b7c91d84ddabf5fa8",
+      "sha256": "f72fc512c98f412134e96aaec230b59a1d2e838892b6e66b7c91d84ddabf5fa8"
     },
     {
       "path": "terrain/tiles/world/1/5-2.png",
-      "bytes": 531029,
-      "sourceSha256": "37476ce3a07ebb0976a7fd0e8511e22545eb0cee564e77ed5fdbe311616c186f",
-      "sha256": "37476ce3a07ebb0976a7fd0e8511e22545eb0cee564e77ed5fdbe311616c186f"
+      "bytes": 528919,
+      "sourceSha256": "f96ecd0ad3ccecbe4bfc067a8b38f5fdcae4cbf7854cbf15e4d32f35f1e0c340",
+      "sha256": "f96ecd0ad3ccecbe4bfc067a8b38f5fdcae4cbf7854cbf15e4d32f35f1e0c340"
     },
     {
       "path": "terrain/tiles/world/1/5-3.png",
-      "bytes": 290034,
-      "sourceSha256": "c7ca78788e0daa0fcae2544f6478442e280b7b9afb67c35d298931669ebfb81a",
-      "sha256": "c7ca78788e0daa0fcae2544f6478442e280b7b9afb67c35d298931669ebfb81a"
+      "bytes": 287185,
+      "sourceSha256": "9c7a7c7cad6ebfd0d0fd50c6218cb191aada0241a606d63c7e024342d4584270",
+      "sha256": "9c7a7c7cad6ebfd0d0fd50c6218cb191aada0241a606d63c7e024342d4584270"
     },
     {
       "path": "terrain/tiles/world/1/5-4.png",
@@ -7016,21 +7016,21 @@
     },
     {
       "path": "terrain/tiles/world/1/6-2.png",
-      "bytes": 321850,
-      "sourceSha256": "fa5adab940317de91f5d82fff0b92166543f1911c3a0f8234af2d45668899cac",
-      "sha256": "fa5adab940317de91f5d82fff0b92166543f1911c3a0f8234af2d45668899cac"
+      "bytes": 318497,
+      "sourceSha256": "35afce2341769bef841c5034b134a762b0423355dc63ccaad05750db7d6aba9b",
+      "sha256": "35afce2341769bef841c5034b134a762b0423355dc63ccaad05750db7d6aba9b"
     },
     {
       "path": "terrain/tiles/world/1/6-3.png",
-      "bytes": 266602,
-      "sourceSha256": "f00c5f2e2e0f470b189cb86255c3382343f56b104899cef0c3a51b2a73aad92e",
-      "sha256": "f00c5f2e2e0f470b189cb86255c3382343f56b104899cef0c3a51b2a73aad92e"
+      "bytes": 265586,
+      "sourceSha256": "a0a69da0c55dc2b1b035360faac23f3c3ee99f4aa80ac4e2a3ab82bd4b3a74bd",
+      "sha256": "a0a69da0c55dc2b1b035360faac23f3c3ee99f4aa80ac4e2a3ab82bd4b3a74bd"
     },
     {
       "path": "terrain/tiles/world/1/6-4.png",
-      "bytes": 150378,
-      "sourceSha256": "c4c6acae13264897913a030e1214ad1e54914707654c9b00f4516ed8e4488739",
-      "sha256": "c4c6acae13264897913a030e1214ad1e54914707654c9b00f4516ed8e4488739"
+      "bytes": 150181,
+      "sourceSha256": "de5efd00514ab6806e2b95f79cb3de5139005cc0bf8ddaaeba63ca610406dc87",
+      "sha256": "de5efd00514ab6806e2b95f79cb3de5139005cc0bf8ddaaeba63ca610406dc87"
     },
     {
       "path": "terrain/tiles/world/1/6-5.png",
@@ -7064,9 +7064,9 @@
     },
     {
       "path": "terrain/tiles/world/1/7-2.png",
-      "bytes": 103302,
-      "sourceSha256": "08ed5084822350a52ad0bd9e9f1bb22bd1164ee91405549156262536c162979c",
-      "sha256": "08ed5084822350a52ad0bd9e9f1bb22bd1164ee91405549156262536c162979c"
+      "bytes": 103300,
+      "sourceSha256": "9dceaae117ad554bccd49495ad303e3a1a586c304d2bc11a1ead0d7fa6c2c70b",
+      "sha256": "9dceaae117ad554bccd49495ad303e3a1a586c304d2bc11a1ead0d7fa6c2c70b"
     },
     {
       "path": "terrain/tiles/world/1/7-3.png",
@@ -7076,15 +7076,15 @@
     },
     {
       "path": "terrain/tiles/world/1/7-4.png",
-      "bytes": 383535,
-      "sourceSha256": "9f4d5331970110e61466fdacc93d354514677c930846ab6d498bb2ed1010bfae",
-      "sha256": "9f4d5331970110e61466fdacc93d354514677c930846ab6d498bb2ed1010bfae"
+      "bytes": 382590,
+      "sourceSha256": "2b9007b3ef5b1fbd692f3b542e16ed788a067b17e6384a8304d1bd37c8cac9ab",
+      "sha256": "2b9007b3ef5b1fbd692f3b542e16ed788a067b17e6384a8304d1bd37c8cac9ab"
     },
     {
       "path": "terrain/tiles/world/1/7-5.png",
-      "bytes": 382606,
-      "sourceSha256": "742fbd1b7d01402a3c123ba2ea804cc65eb5cc32a9dbdecc1214118d476de528",
-      "sha256": "742fbd1b7d01402a3c123ba2ea804cc65eb5cc32a9dbdecc1214118d476de528"
+      "bytes": 382230,
+      "sourceSha256": "53322852bfd6914fab559eb501ecd58076d075aa35e2df6513a4b7084335610c",
+      "sha256": "53322852bfd6914fab559eb501ecd58076d075aa35e2df6513a4b7084335610c"
     },
     {
       "path": "terrain/tiles/world/1/7-6.png",
@@ -7106,15 +7106,15 @@
     },
     {
       "path": "terrain/tiles/world/1/8-1.png",
-      "bytes": 124126,
-      "sourceSha256": "13008943d36008ab8c80abfc9fb9c3d9338d703fa6148a99a8a5c06377347361",
-      "sha256": "13008943d36008ab8c80abfc9fb9c3d9338d703fa6148a99a8a5c06377347361"
+      "bytes": 123715,
+      "sourceSha256": "ff69646b6866909bacf4ddeef5c20e33172cdf7a4da8c9dff8749c60fec52942",
+      "sha256": "ff69646b6866909bacf4ddeef5c20e33172cdf7a4da8c9dff8749c60fec52942"
     },
     {
       "path": "terrain/tiles/world/1/8-2.png",
-      "bytes": 427163,
-      "sourceSha256": "a3299333812d41c6d83630a81a09efbc311361a4d785af30d656482dc9f2c00d",
-      "sha256": "a3299333812d41c6d83630a81a09efbc311361a4d785af30d656482dc9f2c00d"
+      "bytes": 425877,
+      "sourceSha256": "a36320a3c2b0a3d9b223f5826a4d67c0d366b822f06c9c1ac9bf0f0541071779",
+      "sha256": "a36320a3c2b0a3d9b223f5826a4d67c0d366b822f06c9c1ac9bf0f0541071779"
     },
     {
       "path": "terrain/tiles/world/1/8-3.png",
@@ -7124,15 +7124,15 @@
     },
     {
       "path": "terrain/tiles/world/1/8-4.png",
-      "bytes": 185755,
-      "sourceSha256": "ebb03d484e294eecf3c51053c4868dfc2818f2bcac18d29c4fb46d1bf1145c50",
-      "sha256": "ebb03d484e294eecf3c51053c4868dfc2818f2bcac18d29c4fb46d1bf1145c50"
+      "bytes": 185608,
+      "sourceSha256": "5bf1969e69763733bb8fdbb9b54f6938562353f6457768b815e1a0cc37c3c8e2",
+      "sha256": "5bf1969e69763733bb8fdbb9b54f6938562353f6457768b815e1a0cc37c3c8e2"
     },
     {
       "path": "terrain/tiles/world/1/8-5.png",
-      "bytes": 256483,
-      "sourceSha256": "b0f58370e541228642d0d695a47151df6a8debf19c0ac7cb1d5c4b11082a1419",
-      "sha256": "b0f58370e541228642d0d695a47151df6a8debf19c0ac7cb1d5c4b11082a1419"
+      "bytes": 256352,
+      "sourceSha256": "fcc4e51a04f89229c0251e66285d6ceaa63ffdd31122b4ac85db0e7b5373bddb",
+      "sha256": "fcc4e51a04f89229c0251e66285d6ceaa63ffdd31122b4ac85db0e7b5373bddb"
     },
     {
       "path": "terrain/tiles/world/1/8-6.png",
@@ -7160,21 +7160,21 @@
     },
     {
       "path": "terrain/tiles/world/1/9-2.png",
-      "bytes": 404489,
-      "sourceSha256": "f2d7645375e0e9050052d2bae0c60cb65c6d565417fe362407a54ed9b1d82c20",
-      "sha256": "f2d7645375e0e9050052d2bae0c60cb65c6d565417fe362407a54ed9b1d82c20"
+      "bytes": 404251,
+      "sourceSha256": "cd114cb932d46324577951b90687906ae3d1841b40e9f27c7ebc5159fdbc93ba",
+      "sha256": "cd114cb932d46324577951b90687906ae3d1841b40e9f27c7ebc5159fdbc93ba"
     },
     {
       "path": "terrain/tiles/world/1/9-3.png",
-      "bytes": 449458,
-      "sourceSha256": "2c5e0457015101c03fb813bd2aca48a48d05f8425984928038d7c094e97d3f89",
-      "sha256": "2c5e0457015101c03fb813bd2aca48a48d05f8425984928038d7c094e97d3f89"
+      "bytes": 447213,
+      "sourceSha256": "6648c761884a1b2de9ba2af54899a9eb3af8d5b857b099d239a69cc8b1e0c249",
+      "sha256": "6648c761884a1b2de9ba2af54899a9eb3af8d5b857b099d239a69cc8b1e0c249"
     },
     {
       "path": "terrain/tiles/world/1/9-4.png",
-      "bytes": 161706,
-      "sourceSha256": "39854ab59c65301d723d5e3eba129321a89788d5fc213b88464323ad7cb5db81",
-      "sha256": "39854ab59c65301d723d5e3eba129321a89788d5fc213b88464323ad7cb5db81"
+      "bytes": 161531,
+      "sourceSha256": "327edfba25d26f7e1d27c7cba0e344b739db2eede4bc3a6e0aaee63e204bdea7",
+      "sha256": "327edfba25d26f7e1d27c7cba0e344b739db2eede4bc3a6e0aaee63e204bdea7"
     },
     {
       "path": "terrain/tiles/world/1/9-5.png",
@@ -7424,33 +7424,33 @@
     },
     {
       "path": "terrain/tiles/world/2/10-3.png",
-      "bytes": 227529,
-      "sourceSha256": "78ada740894c0d12409df4a1f7e629d09ed23f56a416f8d25f9b7eca17dfeb6e",
-      "sha256": "78ada740894c0d12409df4a1f7e629d09ed23f56a416f8d25f9b7eca17dfeb6e"
+      "bytes": 226574,
+      "sourceSha256": "122c98130db9c67ff26293e820692c58865df7e784491c1202de4a1b79ace4f6",
+      "sha256": "122c98130db9c67ff26293e820692c58865df7e784491c1202de4a1b79ace4f6"
     },
     {
       "path": "terrain/tiles/world/2/10-4.png",
-      "bytes": 446607,
-      "sourceSha256": "a4dbfe3ff067999c96c6a5a52ee16c4970a3592eccf8cb15ed5cb708472d4518",
-      "sha256": "a4dbfe3ff067999c96c6a5a52ee16c4970a3592eccf8cb15ed5cb708472d4518"
+      "bytes": 446582,
+      "sourceSha256": "5432c11a12a108bde951a3cbec411b46a19e471af8acbe86cb89eaa250c1d6ac",
+      "sha256": "5432c11a12a108bde951a3cbec411b46a19e471af8acbe86cb89eaa250c1d6ac"
     },
     {
       "path": "terrain/tiles/world/2/10-5.png",
-      "bytes": 486574,
-      "sourceSha256": "fc5f1da6fb88656837598c89bb6359451a167acc74ff7d7f496d2035520713ac",
-      "sha256": "fc5f1da6fb88656837598c89bb6359451a167acc74ff7d7f496d2035520713ac"
+      "bytes": 486255,
+      "sourceSha256": "41301fd3892cc782e466dd2db8d98b103ca817701e865539701de1a161177837",
+      "sha256": "41301fd3892cc782e466dd2db8d98b103ca817701e865539701de1a161177837"
     },
     {
       "path": "terrain/tiles/world/2/10-6.png",
-      "bytes": 437125,
-      "sourceSha256": "ee0d18f879e78b582146cd8d8d6f5bfad57ce4ae9d20be0e9fde7796627cde58",
-      "sha256": "ee0d18f879e78b582146cd8d8d6f5bfad57ce4ae9d20be0e9fde7796627cde58"
+      "bytes": 437124,
+      "sourceSha256": "255ae35064882482bac7b0a1d36506fb85e22020c000bd55d6b5a7119550b9e9",
+      "sha256": "255ae35064882482bac7b0a1d36506fb85e22020c000bd55d6b5a7119550b9e9"
     },
     {
       "path": "terrain/tiles/world/2/10-7.png",
-      "bytes": 17418,
-      "sourceSha256": "c59469826566b84c201302f4a3b41807c4d92942f09859add360816e2dea024a",
-      "sha256": "c59469826566b84c201302f4a3b41807c4d92942f09859add360816e2dea024a"
+      "bytes": 17030,
+      "sourceSha256": "9612eb3ebca493644c2332ca455714c76808cddd667cee234ccd8e0b064ff23e",
+      "sha256": "9612eb3ebca493644c2332ca455714c76808cddd667cee234ccd8e0b064ff23e"
     },
     {
       "path": "terrain/tiles/world/2/10-8.png",
@@ -7514,33 +7514,33 @@
     },
     {
       "path": "terrain/tiles/world/2/11-3.png",
-      "bytes": 148667,
-      "sourceSha256": "1fa4bd71bd64d45a1cccaf8052eeb6738ca83c9e2184cf9f7dd0d7fddad0908a",
-      "sha256": "1fa4bd71bd64d45a1cccaf8052eeb6738ca83c9e2184cf9f7dd0d7fddad0908a"
+      "bytes": 148648,
+      "sourceSha256": "5fb7cbe55b0a8afdbadc5ed4cdad834b40919f3464e9e62503ab831d252a0bfd",
+      "sha256": "5fb7cbe55b0a8afdbadc5ed4cdad834b40919f3464e9e62503ab831d252a0bfd"
     },
     {
       "path": "terrain/tiles/world/2/11-4.png",
-      "bytes": 481529,
-      "sourceSha256": "e9a41c146ebc975e24e121554be607c80aa12ae49228725fd895502eb5b3180a",
-      "sha256": "e9a41c146ebc975e24e121554be607c80aa12ae49228725fd895502eb5b3180a"
+      "bytes": 480668,
+      "sourceSha256": "08178b1f3c53d5bf8ac81c0e1ead6001ce660d9d740f18e3edbd77b88293f46f",
+      "sha256": "08178b1f3c53d5bf8ac81c0e1ead6001ce660d9d740f18e3edbd77b88293f46f"
     },
     {
       "path": "terrain/tiles/world/2/11-5.png",
-      "bytes": 482650,
-      "sourceSha256": "6164be75053f6a68648d15c8ca2d0a2a5ed43ab4b3c819150c08cdbfddf4669a",
-      "sha256": "6164be75053f6a68648d15c8ca2d0a2a5ed43ab4b3c819150c08cdbfddf4669a"
+      "bytes": 479455,
+      "sourceSha256": "42151b9a27f00885f7d8a6d8142dbc49ba6edd768ca4a2572aae3d903c23a6a0",
+      "sha256": "42151b9a27f00885f7d8a6d8142dbc49ba6edd768ca4a2572aae3d903c23a6a0"
     },
     {
       "path": "terrain/tiles/world/2/11-6.png",
-      "bytes": 430356,
-      "sourceSha256": "507febb9eff0263552046e42706ee814ac00a3c66d0c4abd403b400a07a9bf7b",
-      "sha256": "507febb9eff0263552046e42706ee814ac00a3c66d0c4abd403b400a07a9bf7b"
+      "bytes": 425487,
+      "sourceSha256": "667333430cc383396f000a7bf4a9be356d828926be8e274844542d51cc05adae",
+      "sha256": "667333430cc383396f000a7bf4a9be356d828926be8e274844542d51cc05adae"
     },
     {
       "path": "terrain/tiles/world/2/11-7.png",
-      "bytes": 145356,
-      "sourceSha256": "c923719dfe6718731c355ab31bcc36220c3b13da80d29d8752421ebc65da7a97",
-      "sha256": "c923719dfe6718731c355ab31bcc36220c3b13da80d29d8752421ebc65da7a97"
+      "bytes": 144519,
+      "sourceSha256": "1869b66d46500533b10e37c903b52a26df61143d29969e73047214c5f104e5fd",
+      "sha256": "1869b66d46500533b10e37c903b52a26df61143d29969e73047214c5f104e5fd"
     },
     {
       "path": "terrain/tiles/world/2/11-8.png",
@@ -7610,21 +7610,21 @@
     },
     {
       "path": "terrain/tiles/world/2/12-4.png",
-      "bytes": 378498,
-      "sourceSha256": "cb1ff9bfd6296a0dafe25380c59b95fd235b9bc9668580e4778004c7d1e41b1b",
-      "sha256": "cb1ff9bfd6296a0dafe25380c59b95fd235b9bc9668580e4778004c7d1e41b1b"
+      "bytes": 378523,
+      "sourceSha256": "b73482699e3cad6dc696dd2fe47f768bb33f40c5e89f90039e550eeb30e59fc7",
+      "sha256": "b73482699e3cad6dc696dd2fe47f768bb33f40c5e89f90039e550eeb30e59fc7"
     },
     {
       "path": "terrain/tiles/world/2/12-5.png",
-      "bytes": 455283,
-      "sourceSha256": "432f62ec970b14d6efbd512129dddff3d1f05606c1c7814710e0660ca243f0a5",
-      "sha256": "432f62ec970b14d6efbd512129dddff3d1f05606c1c7814710e0660ca243f0a5"
+      "bytes": 452063,
+      "sourceSha256": "ca009424806b22d74f41b52e2ebd0d7e0a528ba371b93e6912f539a0ac292c37",
+      "sha256": "ca009424806b22d74f41b52e2ebd0d7e0a528ba371b93e6912f539a0ac292c37"
     },
     {
       "path": "terrain/tiles/world/2/12-6.png",
-      "bytes": 403198,
-      "sourceSha256": "2e5b711e019d39b447c32e864910762eb17c9257350f33d98c3148990b986f4f",
-      "sha256": "2e5b711e019d39b447c32e864910762eb17c9257350f33d98c3148990b986f4f"
+      "bytes": 402137,
+      "sourceSha256": "802f355db25dca78a00a69c14112e495fdd136feb93f7e073fb6f845b9808717",
+      "sha256": "802f355db25dca78a00a69c14112e495fdd136feb93f7e073fb6f845b9808717"
     },
     {
       "path": "terrain/tiles/world/2/12-7.png",
@@ -7700,21 +7700,21 @@
     },
     {
       "path": "terrain/tiles/world/2/13-4.png",
-      "bytes": 54217,
-      "sourceSha256": "a1d73e0760e9c630640a9123649484a6ecfe50b69f23b51a6caa9ab7939ee251",
-      "sha256": "a1d73e0760e9c630640a9123649484a6ecfe50b69f23b51a6caa9ab7939ee251"
+      "bytes": 54206,
+      "sourceSha256": "963b8cc6efc159e9c62a8e846f1bbdfd9a949b3be1cd7a3ebac255e9e405c6e7",
+      "sha256": "963b8cc6efc159e9c62a8e846f1bbdfd9a949b3be1cd7a3ebac255e9e405c6e7"
     },
     {
       "path": "terrain/tiles/world/2/13-5.png",
-      "bytes": 236582,
-      "sourceSha256": "67509a94bdd5af5e6827c604b212db6c333b5569e1194d852aebdda78ef335d0",
-      "sha256": "67509a94bdd5af5e6827c604b212db6c333b5569e1194d852aebdda78ef335d0"
+      "bytes": 232416,
+      "sourceSha256": "855d750ffc5aacf5a90d54359ca6777424afd4ff462a2ea804bf0a3a7e928239",
+      "sha256": "855d750ffc5aacf5a90d54359ca6777424afd4ff462a2ea804bf0a3a7e928239"
     },
     {
       "path": "terrain/tiles/world/2/13-6.png",
-      "bytes": 227136,
-      "sourceSha256": "27266831ab9ca13a1293991ceebaf15c1d0ad87f6627ccdbaac999fc74942daf",
-      "sha256": "27266831ab9ca13a1293991ceebaf15c1d0ad87f6627ccdbaac999fc74942daf"
+      "bytes": 225732,
+      "sourceSha256": "5e17377315ecdb386f19f624569f25fd6d76c90886598505d104151dd0f2835f",
+      "sha256": "5e17377315ecdb386f19f624569f25fd6d76c90886598505d104151dd0f2835f"
     },
     {
       "path": "terrain/tiles/world/2/13-7.png",
@@ -7730,9 +7730,9 @@
     },
     {
       "path": "terrain/tiles/world/2/13-9.png",
-      "bytes": 317688,
-      "sourceSha256": "ec03673bd13a999d66970832c1035722042abee0042df0f04fcb2618d70a5590",
-      "sha256": "ec03673bd13a999d66970832c1035722042abee0042df0f04fcb2618d70a5590"
+      "bytes": 317313,
+      "sourceSha256": "f124fa9b02c9244160e7e87c2ee0e9eecdd46aaeb34a11eb671219957ca6f6d3",
+      "sha256": "f124fa9b02c9244160e7e87c2ee0e9eecdd46aaeb34a11eb671219957ca6f6d3"
     },
     {
       "path": "terrain/tiles/world/2/14-0.png",
@@ -7748,9 +7748,9 @@
     },
     {
       "path": "terrain/tiles/world/2/14-10.png",
-      "bytes": 375722,
-      "sourceSha256": "1d0fea5b4d2c91ad5b0bc454529cf55a4a0fd8ca77d57a4fb1c42cafc0de0efe",
-      "sha256": "1d0fea5b4d2c91ad5b0bc454529cf55a4a0fd8ca77d57a4fb1c42cafc0de0efe"
+      "bytes": 375602,
+      "sourceSha256": "8fb734abc33d3d17d71dd8cb59ce2bd9842b321a335d33f48584084f5ba2dcd6",
+      "sha256": "8fb734abc33d3d17d71dd8cb59ce2bd9842b321a335d33f48584084f5ba2dcd6"
     },
     {
       "path": "terrain/tiles/world/2/14-11.png",
@@ -7814,15 +7814,15 @@
     },
     {
       "path": "terrain/tiles/world/2/14-8.png",
-      "bytes": 358152,
-      "sourceSha256": "4212c5f1097f71a26885b7304a7c13b96bae824450db3837a8fd5e80f2a91cfc",
-      "sha256": "4212c5f1097f71a26885b7304a7c13b96bae824450db3837a8fd5e80f2a91cfc"
+      "bytes": 357715,
+      "sourceSha256": "c814019a289a1a8fb144279cc1e56d56ad8792663970c62216a913d81c82e273",
+      "sha256": "c814019a289a1a8fb144279cc1e56d56ad8792663970c62216a913d81c82e273"
     },
     {
       "path": "terrain/tiles/world/2/14-9.png",
-      "bytes": 487028,
-      "sourceSha256": "833e9d9502231cd6afb7c7675f86e170d52fbcbfdef1b1f77801d53950bb8c7e",
-      "sha256": "833e9d9502231cd6afb7c7675f86e170d52fbcbfdef1b1f77801d53950bb8c7e"
+      "bytes": 486525,
+      "sourceSha256": "f7ef8a99eb597571c7bd0f76d173837e7d78d8f9944ad5c6361f8bff69e1e72a",
+      "sha256": "f7ef8a99eb597571c7bd0f76d173837e7d78d8f9944ad5c6361f8bff69e1e72a"
     },
     {
       "path": "terrain/tiles/world/2/15-0.png",
@@ -7838,15 +7838,15 @@
     },
     {
       "path": "terrain/tiles/world/2/15-10.png",
-      "bytes": 473134,
-      "sourceSha256": "a25c5de1c5dac5ea35d778c541a23ce905b5148d36c3baf7b79d37d11ededa46",
-      "sha256": "a25c5de1c5dac5ea35d778c541a23ce905b5148d36c3baf7b79d37d11ededa46"
+      "bytes": 473110,
+      "sourceSha256": "e6ad68148e4562f93916954738ed57c7b9a05d94b3343f13917d8628a876fa30",
+      "sha256": "e6ad68148e4562f93916954738ed57c7b9a05d94b3343f13917d8628a876fa30"
     },
     {
       "path": "terrain/tiles/world/2/15-11.png",
-      "bytes": 400419,
-      "sourceSha256": "9d9cb7933a76e5484108684f2c585ac6f46d2f144ca0c5876d82274007637d04",
-      "sha256": "9d9cb7933a76e5484108684f2c585ac6f46d2f144ca0c5876d82274007637d04"
+      "bytes": 400077,
+      "sourceSha256": "c12a8610e7757c9a30cf0bdc10cf8aad9421d4132dede4986e7e5c568f20a94d",
+      "sha256": "c12a8610e7757c9a30cf0bdc10cf8aad9421d4132dede4986e7e5c568f20a94d"
     },
     {
       "path": "terrain/tiles/world/2/15-12.png",
@@ -7886,9 +7886,9 @@
     },
     {
       "path": "terrain/tiles/world/2/15-5.png",
-      "bytes": 179592,
-      "sourceSha256": "e00a8db5e96fdee1abc1cbe6411bb4ff265a579ab2983e8f2fcdaa4d9b9d69a6",
-      "sha256": "e00a8db5e96fdee1abc1cbe6411bb4ff265a579ab2983e8f2fcdaa4d9b9d69a6"
+      "bytes": 179604,
+      "sourceSha256": "551034b08c29588ca811d89c3f8cdde3c8822c6679d3deba9bd401d0d03ace4a",
+      "sha256": "551034b08c29588ca811d89c3f8cdde3c8822c6679d3deba9bd401d0d03ace4a"
     },
     {
       "path": "terrain/tiles/world/2/15-6.png",
@@ -7910,9 +7910,9 @@
     },
     {
       "path": "terrain/tiles/world/2/15-9.png",
-      "bytes": 416417,
-      "sourceSha256": "704f9559148cd5556c68d001b7434eefeea545847234f1eaed4a5b8480e5eefe",
-      "sha256": "704f9559148cd5556c68d001b7434eefeea545847234f1eaed4a5b8480e5eefe"
+      "bytes": 416560,
+      "sourceSha256": "dc9e7c2ed095fc629990ef9103c5df65fbe8f0454c5bb6dc98fab81618a7a62c",
+      "sha256": "dc9e7c2ed095fc629990ef9103c5df65fbe8f0454c5bb6dc98fab81618a7a62c"
     },
     {
       "path": "terrain/tiles/world/2/16-0.png",
@@ -7964,21 +7964,21 @@
     },
     {
       "path": "terrain/tiles/world/2/16-3.png",
-      "bytes": 159079,
-      "sourceSha256": "f23f5ab6ad6415c8658222473210652f0b946c1587a270f60fbea044889d2c59",
-      "sha256": "f23f5ab6ad6415c8658222473210652f0b946c1587a270f60fbea044889d2c59"
+      "bytes": 158138,
+      "sourceSha256": "71bac839e57adca89563cf2b34a9d55905fdac7076814746219d7be995ef580a",
+      "sha256": "71bac839e57adca89563cf2b34a9d55905fdac7076814746219d7be995ef580a"
     },
     {
       "path": "terrain/tiles/world/2/16-4.png",
-      "bytes": 424729,
-      "sourceSha256": "20a57f6d79c3f8e4e39710670fd7c01aad6be897202954876fde764d44b98300",
-      "sha256": "20a57f6d79c3f8e4e39710670fd7c01aad6be897202954876fde764d44b98300"
+      "bytes": 424809,
+      "sourceSha256": "f8bd65a4b9cc48a88390cf5a7c3b7f586be69a945945e8deff113dfd037454da",
+      "sha256": "f8bd65a4b9cc48a88390cf5a7c3b7f586be69a945945e8deff113dfd037454da"
     },
     {
       "path": "terrain/tiles/world/2/16-5.png",
-      "bytes": 435640,
-      "sourceSha256": "563dc76d3eaa4d0927f6fe7bd12c1f9157e5776b305076d51e75aa70c0d41fa8",
-      "sha256": "563dc76d3eaa4d0927f6fe7bd12c1f9157e5776b305076d51e75aa70c0d41fa8"
+      "bytes": 432859,
+      "sourceSha256": "26a1f28766d9ec0c980046157d1776f8e8f638339fdb2f1aed81697a82dc4595",
+      "sha256": "26a1f28766d9ec0c980046157d1776f8e8f638339fdb2f1aed81697a82dc4595"
     },
     {
       "path": "terrain/tiles/world/2/16-6.png",
@@ -8018,9 +8018,9 @@
     },
     {
       "path": "terrain/tiles/world/2/17-10.png",
-      "bytes": 304074,
-      "sourceSha256": "c3eedb23710fc5220cc67855a11549dce98ffd87a87d13858434a28799877c8e",
-      "sha256": "c3eedb23710fc5220cc67855a11549dce98ffd87a87d13858434a28799877c8e"
+      "bytes": 304224,
+      "sourceSha256": "555e63b1b1ef14524c8442271f0b95d9b2449784223bc3ede094278ab6cc927b",
+      "sha256": "555e63b1b1ef14524c8442271f0b95d9b2449784223bc3ede094278ab6cc927b"
     },
     {
       "path": "terrain/tiles/world/2/17-11.png",
@@ -8090,9 +8090,9 @@
     },
     {
       "path": "terrain/tiles/world/2/17-9.png",
-      "bytes": 318476,
-      "sourceSha256": "a805abe26ec1f9fdb3360a945d432cd154fe0273a435d1aab139b0bac6c57526",
-      "sha256": "a805abe26ec1f9fdb3360a945d432cd154fe0273a435d1aab139b0bac6c57526"
+      "bytes": 319075,
+      "sourceSha256": "6e8e0c4a43c262e7f6ef13f9f3c98e8754eec9c0eea34bf34f0824e90572155e",
+      "sha256": "6e8e0c4a43c262e7f6ef13f9f3c98e8754eec9c0eea34bf34f0824e90572155e"
     },
     {
       "path": "terrain/tiles/world/2/18-0.png",
@@ -8156,15 +8156,15 @@
     },
     {
       "path": "terrain/tiles/world/2/18-5.png",
-      "bytes": 453598,
-      "sourceSha256": "e211032b80c2bccaa3c10f294639e29b378be275218859354b8a54a97af43ffb",
-      "sha256": "e211032b80c2bccaa3c10f294639e29b378be275218859354b8a54a97af43ffb"
+      "bytes": 453603,
+      "sourceSha256": "47db5176538c66358b9d25aee701de95e68b555bd72b545183ecdcf8e769a1ae",
+      "sha256": "47db5176538c66358b9d25aee701de95e68b555bd72b545183ecdcf8e769a1ae"
     },
     {
       "path": "terrain/tiles/world/2/18-6.png",
-      "bytes": 451484,
-      "sourceSha256": "7ea6a4892aa0a968cb1efad36e45efe13e7bf2e7545d80d00e1ec1386f84f000",
-      "sha256": "7ea6a4892aa0a968cb1efad36e45efe13e7bf2e7545d80d00e1ec1386f84f000"
+      "bytes": 448966,
+      "sourceSha256": "7877c7b0a9662ca1ea8bfa9cebe0a9827518e60144775c4f4863d3fbea7e139c",
+      "sha256": "7877c7b0a9662ca1ea8bfa9cebe0a9827518e60144775c4f4863d3fbea7e139c"
     },
     {
       "path": "terrain/tiles/world/2/18-7.png",
@@ -8174,15 +8174,15 @@
     },
     {
       "path": "terrain/tiles/world/2/18-8.png",
-      "bytes": 216250,
-      "sourceSha256": "15c95779d5d7675d735c4469f8b7b54910e18cb5840960a1c756815b3b481cb2",
-      "sha256": "15c95779d5d7675d735c4469f8b7b54910e18cb5840960a1c756815b3b481cb2"
+      "bytes": 225970,
+      "sourceSha256": "252d9dc731bbb920371b45f3bc47bef89e8f6c096f65f3756866d4dd6366c215",
+      "sha256": "252d9dc731bbb920371b45f3bc47bef89e8f6c096f65f3756866d4dd6366c215"
     },
     {
       "path": "terrain/tiles/world/2/18-9.png",
-      "bytes": 240200,
-      "sourceSha256": "bb789a91dadba747639657598c86db523e267f923c3490d002e50d5068b3a0a6",
-      "sha256": "bb789a91dadba747639657598c86db523e267f923c3490d002e50d5068b3a0a6"
+      "bytes": 242582,
+      "sourceSha256": "3e81ddf845540f858af2a84d90e90085df4a19f11dafe48c9411a994bcd43174",
+      "sha256": "3e81ddf845540f858af2a84d90e90085df4a19f11dafe48c9411a994bcd43174"
     },
     {
       "path": "terrain/tiles/world/2/19-0.png",
@@ -8246,21 +8246,21 @@
     },
     {
       "path": "terrain/tiles/world/2/19-5.png",
-      "bytes": 491460,
-      "sourceSha256": "2c6575f153fd0b4a485106c8c50c19a6b11c55fe7ed05ad1a193c886aace73b6",
-      "sha256": "2c6575f153fd0b4a485106c8c50c19a6b11c55fe7ed05ad1a193c886aace73b6"
+      "bytes": 489948,
+      "sourceSha256": "eab8c7cfc9c3bf1da6273a29accd5d70f723eb9b34c2abd1b00551e46278ee07",
+      "sha256": "eab8c7cfc9c3bf1da6273a29accd5d70f723eb9b34c2abd1b00551e46278ee07"
     },
     {
       "path": "terrain/tiles/world/2/19-6.png",
-      "bytes": 475744,
-      "sourceSha256": "3e51070647acf6b5fbeb941d2174c841a6c4f3e32289aeee9ad97f09cd85bc04",
-      "sha256": "3e51070647acf6b5fbeb941d2174c841a6c4f3e32289aeee9ad97f09cd85bc04"
+      "bytes": 473997,
+      "sourceSha256": "e8f1acd79f623c6371f80078c4876ea46132a7031cd29c45ea12e293d04ac665",
+      "sha256": "e8f1acd79f623c6371f80078c4876ea46132a7031cd29c45ea12e293d04ac665"
     },
     {
       "path": "terrain/tiles/world/2/19-7.png",
-      "bytes": 292053,
-      "sourceSha256": "eda99ba76a2f0de77cbf209475a821d2f8627296c4599e9dc563082297ebf101",
-      "sha256": "eda99ba76a2f0de77cbf209475a821d2f8627296c4599e9dc563082297ebf101"
+      "bytes": 291308,
+      "sourceSha256": "5062738b3c0610ec0dde5a1cfad4f077bcb929368019c057cc2059d76de1c9d0",
+      "sha256": "5062738b3c0610ec0dde5a1cfad4f077bcb929368019c057cc2059d76de1c9d0"
     },
     {
       "path": "terrain/tiles/world/2/19-8.png",
@@ -8426,9 +8426,9 @@
     },
     {
       "path": "terrain/tiles/world/2/20-5.png",
-      "bytes": 120259,
-      "sourceSha256": "ab2b429824bd5d3a0c736d1b6dcad41502f9ab18a82bb48daaf4d5622e6b62d1",
-      "sha256": "ab2b429824bd5d3a0c736d1b6dcad41502f9ab18a82bb48daaf4d5622e6b62d1"
+      "bytes": 120189,
+      "sourceSha256": "2a00c01d11b80ba991b9f1bdcf2912818ea9d51f5c3a27612917a4da984352dd",
+      "sha256": "2a00c01d11b80ba991b9f1bdcf2912818ea9d51f5c3a27612917a4da984352dd"
     },
     {
       "path": "terrain/tiles/world/2/20-6.png",
@@ -9320,15 +9320,15 @@
     },
     {
       "path": "terrain/tiles/world/2/9-4.png",
-      "bytes": 371828,
-      "sourceSha256": "5d7cc4e91dfb64bfb995a17aa6c33f9c62430091d3906f4dd48f9b7b9f326fed",
-      "sha256": "5d7cc4e91dfb64bfb995a17aa6c33f9c62430091d3906f4dd48f9b7b9f326fed"
+      "bytes": 371826,
+      "sourceSha256": "6d63cc4864ef8659ee9e399e165b85720977cc9b44114e066465a77836f8a8b7",
+      "sha256": "6d63cc4864ef8659ee9e399e165b85720977cc9b44114e066465a77836f8a8b7"
     },
     {
       "path": "terrain/tiles/world/2/9-5.png",
-      "bytes": 277071,
-      "sourceSha256": "e8d0e1ded8a8a73abfbd61a2e9f45b4ce4ac39e04530c5799c374fe714b83926",
-      "sha256": "e8d0e1ded8a8a73abfbd61a2e9f45b4ce4ac39e04530c5799c374fe714b83926"
+      "bytes": 277134,
+      "sourceSha256": "3896647f147d2ec35e10ef61e399f834e7150c34a82bf4b8739cebe82f897741",
+      "sha256": "3896647f147d2ec35e10ef61e399f834e7150c34a82bf4b8739cebe82f897741"
     },
     {
       "path": "terrain/tiles/world/2/9-6.png",
@@ -9368,9 +9368,9 @@
     },
     {
       "path": "terrain/world-relief-preview.png",
-      "bytes": 1474413,
-      "sourceSha256": "6d834e9af7fd0c9895764b98f02b4a9bd55f81ee39521fccec7455d7ab6c7f43",
-      "sha256": "6d834e9af7fd0c9895764b98f02b4a9bd55f81ee39521fccec7455d7ab6c7f43"
+      "bytes": 1471786,
+      "sourceSha256": "76bf93397a745f9707ab6beeb3bcfdfb456705073b866d8c5ff75a945a79119f",
+      "sha256": "76bf93397a745f9707ab6beeb3bcfdfb456705073b866d8c5ff75a945a79119f"
     },
     {
       "path": "vendor/LICENSE-d3.txt",

@@ -92,10 +92,10 @@ D:\repo\Showheel\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\repo\Showheel\obj\Debug\net8.0\staticwebassets.development.json
 D:\repo\Showheel\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\repo\Showheel\obj\Debug\net8.0\swae.build.ex.cache
-D:\repo\Showheel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\repo\Showheel\obj\Debug\net8.0\Showheel.dll
 D:\repo\Showheel\obj\Debug\net8.0\refint\Showheel.dll
 D:\repo\Showheel\obj\Debug\net8.0\Showheel.pdb
 D:\repo\Showheel\obj\Debug\net8.0\Showheel.genruntimeconfig.cache
 D:\repo\Showheel\obj\Debug\net8.0\ref\Showheel.dll
 D:\repo\Showheel\bin\Debug\net8.0\docs\archeon-reader-content.json
+D:\repo\Showheel\bin\Debug\net8.0\dotnet-tools.json

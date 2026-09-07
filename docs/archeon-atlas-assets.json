@@ -8,9 +8,9 @@
   "files": [
     {
       "path": "app.js",
-      "bytes": 18348,
-      "sourceSha256": "fc90eb11d6d5cd380d16329a3f6660536fcb7d7b3f929f59976918c5855c0aa3",
-      "sha256": "52231994f3661f241bb52fedfc100867dbd83d651a4e4f6924d4bfbf8b0d6438"
+      "bytes": 18609,
+      "sourceSha256": "b728a4b4b6710b59d87cdeb0b904e24c0b988d2a6bf85ebf5950a0072f5e77d5",
+      "sha256": "0702fa0a4ba6a594d68600c49fff36bccfea75c70cc774accfa65c4c5964b4b3"
     },
     {
       "path": "atlas.css",
@@ -1165,6 +1165,18 @@
       "sha256": "03fc5ad3a620961fdb1a338ec27e7cd0d3486e7f646a1ea4e124e354f2338b5e"
     },
     {
+      "path": "data/living-atlas.js",
+      "bytes": 273887,
+      "sourceSha256": "c301876e20bc726278a7fa40f79c628477105c6e290f01e2dc34e4fd56698b2b",
+      "sha256": "c301876e20bc726278a7fa40f79c628477105c6e290f01e2dc34e4fd56698b2b"
+    },
+    {
+      "path": "data/living-atlas.json",
+      "bytes": 273861,
+      "sourceSha256": "c4e9bbe5e60fe60c130b3b2c0ec60424bed483e554f67749e35a9e72db8dbee5",
+      "sha256": "c4e9bbe5e60fe60c130b3b2c0ec60424bed483e554f67749e35a9e72db8dbee5"
+    },
+    {
       "path": "data/maps-aethelgard.js",
       "bytes": 14626469,
       "sourceSha256": "1d56629a67a3b56b2c608031e19b8dc722e52818d63f96389c48ba085c472a8c",
@@ -1214,9 +1226,15 @@
     },
     {
       "path": "index.html",
-      "bytes": 10032,
-      "sourceSha256": "722ecc36e6835f2f0eb35bd9e83b4b4807b5f96375a1b2053058c6475863633a",
-      "sha256": "51673006cc064efd71cdf133034385bdabfdfb6ee10f85887696771bf9f9e975"
+      "bytes": 11337,
+      "sourceSha256": "7d1a4ba6581103c269f6f24b2d90e8bdc84ea6a34e34f0a82ff19f46002df647",
+      "sha256": "ad8dc272c3df3233e278756ff18602988f3751be0a5a215d7ede564a049b9bd7"
+    },
+    {
+      "path": "living-overlay.js",
+      "bytes": 8736,
+      "sourceSha256": "30f4adcc085615c604420f10074d3f3895ce729d7ac54a7b6f16e871c8674c54",
+      "sha256": "30f4adcc085615c604420f10074d3f3895ce729d7ac54a7b6f16e871c8674c54"
     },
     {
       "path": "space-assets/NEBULAE.md",
@@ -1268,9 +1286,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 24270,
-      "sourceSha256": "3051a07efe6268ea7b94f4121fbb13c00da2baff283225b24305d288a7af30d7",
-      "sha256": "3051a07efe6268ea7b94f4121fbb13c00da2baff283225b24305d288a7af30d7"
+      "bytes": 25280,
+      "sourceSha256": "ea4f647f9d8b1033da3c0b18d9d33af235c69aa12d1b02d138a8c1a5b279015d",
+      "sha256": "ea4f647f9d8b1033da3c0b18d9d33af235c69aa12d1b02d138a8c1a5b279015d"
     },
     {
       "path": "space-ui.css",
@@ -1286,9 +1304,9 @@
     },
     {
       "path": "space-view.js",
-      "bytes": 59227,
-      "sourceSha256": "9db08685e72303c3f3361e9a1cf14771d73e7d739d6a0520d53052715ba55486",
-      "sha256": "9db08685e72303c3f3361e9a1cf14771d73e7d739d6a0520d53052715ba55486"
+      "bytes": 61724,
+      "sourceSha256": "f7d865cc8751210d46833230928577141094a49ce1a3bc2af662f2a9260b7d4b",
+      "sha256": "f7d865cc8751210d46833230928577141094a49ce1a3bc2af662f2a9260b7d4b"
     },
     {
       "path": "terraform-view.js",

@@ -21,6 +21,8 @@ The complete static site is approximately 450 MiB, so deployment requires checki
 
 ### Living atlas refresh — 2026-09-07
 
+The subsequent refresh includes settlement-display.js, revised living and astronomy data, and Federation documentation. All 1,587 resource hashes and 1,588 HTTP resource checks passed. The reader suite passed across five geographic views; both system and Federation views reached ready state without page errors. The isolated .NET build passed with no warnings or errors.
+
 Imported the latest living overlay and its JSON/JavaScript data alongside the updated map and space controllers. The importer supports the source's world-living export names while retaining the website's existing download adaptations. Verified 1,585 resource hashes, 1,586 HTTP resources, all five map views, and a browser world view exposing 243 community sites and 26 routes without JavaScript errors. The isolated .NET build passed with no warnings or errors.
 
 Use an isolated .NET artifacts directory for the build, because the starting commit tracks historical `bin` and `obj` files. Do not include generated artifact changes in this feature.

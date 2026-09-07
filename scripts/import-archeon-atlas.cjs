@@ -10,7 +10,7 @@ const destination = path.join(root, 'wwwroot/archeon-atlas');
 const views = ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone'];
 const files = new Set(['index.html', 'app.js', 'atlas.css', 'vendor/d3.v7.min.js',
   'vendor/LICENSE-d3.txt', 'data/atlas.js', 'data/atlas.json', 'data/tiles.js']);
-for (const file of ['living-overlay.js', 'data/living-atlas.js', 'data/living-atlas.json']) files.add(file);
+for (const file of ['living-overlay.js', 'settlement-display.js', 'data/living-atlas.js', 'data/living-atlas.json']) files.add(file);
 for (const file of ['space-controller.js', 'space-view.js', 'terraform-view.js',
   'space-ui.css', 'space-view.css', 'data/astronomy.js', 'data/astronomy.json',
   'data/stars-hyg41.js', 'data/space-textures.js', 'vendor/three-space.bundle.js',
@@ -54,7 +54,7 @@ function adapt(relative, original) {
     return Buffer.from(text);
   }
   if (relative === 'app.js') {
-    const text = replaceOnce(original.toString('utf8'), /document\.getElementById\('download-svg'\)\.href=[^]*?png\.href='exports\/'\+id(?:\+\(id==='world'\?'-living':''\))?\+'-12000\.png';/, '');
+    const text = replaceOnce(original.toString('utf8'), /document\.getElementById\('download-svg'\)\.href=[^;]+;const png=document\.getElementById\('download-png'\);png\.hidden=[^;]+;png\.href='exports\/'[^;]+;/, '');
     return Buffer.from(text);
   }
   return original;

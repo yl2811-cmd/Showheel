@@ -8,9 +8,9 @@
   "files": [
     {
       "path": "app.js",
-      "bytes": 18609,
-      "sourceSha256": "b728a4b4b6710b59d87cdeb0b904e24c0b988d2a6bf85ebf5950a0072f5e77d5",
-      "sha256": "0702fa0a4ba6a594d68600c49fff36bccfea75c70cc774accfa65c4c5964b4b3"
+      "bytes": 19110,
+      "sourceSha256": "a620ce588e68102d7e2e26cbc6b45c91b06a7debbd9ba17bc1ded90998342847",
+      "sha256": "ca016550a3cd0624af5eeb60749aa7de90790167f7ca0fbdc0383e4b2f4f6b47"
     },
     {
       "path": "atlas.css",
@@ -20,15 +20,15 @@
     },
     {
       "path": "data/astronomy.js",
-      "bytes": 59805,
-      "sourceSha256": "abea4f6feb7bda63b039d0d93d2c327f21b9b5fe9b2a2d19c449a99b8ce7a8a1",
-      "sha256": "abea4f6feb7bda63b039d0d93d2c327f21b9b5fe9b2a2d19c449a99b8ce7a8a1"
+      "bytes": 195035,
+      "sourceSha256": "0a06f0d7d1e533a6a08818a9d0d77b59d7fa4c41076c9f10a8bbb5fba7111cc6",
+      "sha256": "0a06f0d7d1e533a6a08818a9d0d77b59d7fa4c41076c9f10a8bbb5fba7111cc6"
     },
     {
       "path": "data/astronomy.json",
-      "bytes": 81247,
-      "sourceSha256": "d386546307b3f1edefc7463b11c4c02c2c66d7bb579dfe286d9cee4091906df0",
-      "sha256": "d386546307b3f1edefc7463b11c4c02c2c66d7bb579dfe286d9cee4091906df0"
+      "bytes": 262044,
+      "sourceSha256": "fa16147fa6145aa2a4fc34a87efa0ffbd9d9d07b07774a03ba6444460d134f2b",
+      "sha256": "fa16147fa6145aa2a4fc34a87efa0ffbd9d9d07b07774a03ba6444460d134f2b"
     },
     {
       "path": "data/atlas.js",
@@ -1166,15 +1166,15 @@
     },
     {
       "path": "data/living-atlas.js",
-      "bytes": 273887,
-      "sourceSha256": "c301876e20bc726278a7fa40f79c628477105c6e290f01e2dc34e4fd56698b2b",
-      "sha256": "c301876e20bc726278a7fa40f79c628477105c6e290f01e2dc34e4fd56698b2b"
+      "bytes": 3101895,
+      "sourceSha256": "c8ca0fe393e0b8dae75e12c0252d3f971d4944f31952e3ebaa29a19e7fce7551",
+      "sha256": "c8ca0fe393e0b8dae75e12c0252d3f971d4944f31952e3ebaa29a19e7fce7551"
     },
     {
       "path": "data/living-atlas.json",
-      "bytes": 273861,
-      "sourceSha256": "c4e9bbe5e60fe60c130b3b2c0ec60424bed483e554f67749e35a9e72db8dbee5",
-      "sha256": "c4e9bbe5e60fe60c130b3b2c0ec60424bed483e554f67749e35a9e72db8dbee5"
+      "bytes": 3101869,
+      "sourceSha256": "c82c2a43bd062bbed63c5081e902ab60f45c54cff7dbd0d56cb2a01659bbece1",
+      "sha256": "c82c2a43bd062bbed63c5081e902ab60f45c54cff7dbd0d56cb2a01659bbece1"
     },
     {
       "path": "data/maps-aethelgard.js",
@@ -1226,15 +1226,27 @@
     },
     {
       "path": "index.html",
-      "bytes": 11337,
-      "sourceSha256": "7d1a4ba6581103c269f6f24b2d90e8bdc84ea6a34e34f0a82ff19f46002df647",
-      "sha256": "ad8dc272c3df3233e278756ff18602988f3751be0a5a215d7ede564a049b9bd7"
+      "bytes": 11382,
+      "sourceSha256": "0b0c2f3ba21a0c2ba24436feaf862b34b938924de182297f7502b8e872524f34",
+      "sha256": "a8a64ff0114c80ddfb1a68899c44d715e27e554420d87f7598bd181bc530a67a"
     },
     {
       "path": "living-overlay.js",
-      "bytes": 8736,
-      "sourceSha256": "30f4adcc085615c604420f10074d3f3895ce729d7ac54a7b6f16e871c8674c54",
-      "sha256": "30f4adcc085615c604420f10074d3f3895ce729d7ac54a7b6f16e871c8674c54"
+      "bytes": 13479,
+      "sourceSha256": "a73a018638a78a15ed0962aff203f6b7e2683e48747e0a48fc74b661acc5ec5c",
+      "sha256": "a73a018638a78a15ed0962aff203f6b7e2683e48747e0a48fc74b661acc5ec5c"
+    },
+    {
+      "path": "settlement-display.js",
+      "bytes": 2979,
+      "sourceSha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1",
+      "sha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1"
+    },
+    {
+      "path": "space-assets/FEDERATION.md",
+      "bytes": 7842,
+      "sourceSha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a",
+      "sha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a"
     },
     {
       "path": "space-assets/NEBULAE.md",
@@ -1244,9 +1256,9 @@
     },
     {
       "path": "space-assets/README.md",
-      "bytes": 5165,
-      "sourceSha256": "3d5f84a54ef135c6e504d2e93565e66f6d3374a596722e5ae99eb4e3acb3e562",
-      "sha256": "3d5f84a54ef135c6e504d2e93565e66f6d3374a596722e5ae99eb4e3acb3e562"
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
       "path": "space-assets/RENDERING.md",
@@ -1256,9 +1268,9 @@
     },
     {
       "path": "space-assets/SOURCES.md",
-      "bytes": 5165,
-      "sourceSha256": "3d5f84a54ef135c6e504d2e93565e66f6d3374a596722e5ae99eb4e3acb3e562",
-      "sha256": "3d5f84a54ef135c6e504d2e93565e66f6d3374a596722e5ae99eb4e3acb3e562"
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
       "path": "space-assets/physics-humanity-audit.md",
@@ -1286,9 +1298,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 25280,
-      "sourceSha256": "ea4f647f9d8b1033da3c0b18d9d33af235c69aa12d1b02d138a8c1a5b279015d",
-      "sha256": "ea4f647f9d8b1033da3c0b18d9d33af235c69aa12d1b02d138a8c1a5b279015d"
+      "bytes": 27720,
+      "sourceSha256": "ece6f084e0ddb3dd7485a7d234f876c6a09bbb0ab02f41b5bdfc7991518a10b1",
+      "sha256": "ece6f084e0ddb3dd7485a7d234f876c6a09bbb0ab02f41b5bdfc7991518a10b1"
     },
     {
       "path": "space-ui.css",
@@ -1304,9 +1316,9 @@
     },
     {
       "path": "space-view.js",
-      "bytes": 61724,
-      "sourceSha256": "f7d865cc8751210d46833230928577141094a49ce1a3bc2af662f2a9260b7d4b",
-      "sha256": "f7d865cc8751210d46833230928577141094a49ce1a3bc2af662f2a9260b7d4b"
+      "bytes": 63851,
+      "sourceSha256": "de82f52a06968968cd6e3382afab57c8d171f1900aae54c978fa81d6e2c8c210",
+      "sha256": "de82f52a06968968cd6e3382afab57c8d171f1900aae54c978fa81d6e2c8c210"
     },
     {
       "path": "terraform-view.js",

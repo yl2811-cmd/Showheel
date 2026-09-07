@@ -40,10 +40,10 @@
     const sphereGeometry = new T.SphereGeometry(1, 80, 48);
     const resources = new Set([sphereGeometry]);
     const groups = {}; for (const id of ['stars', 'orbits', 'routes', 'colonies', 'nebulae', 'remnant', 'light-shell', 'bounds', 'bodies']) { groups[id] = new T.Group(); scene.add(groups[id]); }
-    const layers = { stars: true, labels: true, orbits: true, routes: true, colonies: true, nebulae:true, remnant: true, 'light-shell': false, bounds: true };
+    const layers = { stars: true, labels: true, orbits: true, routes: true, colonies: true, nebulae:true, remnant: true, 'light-shell': false, bounds: true, 'surface-life':true, inhabited:true, harbors:false, seasonal:true, assistance:false };
     const labels = new Map(), markers = new Map(), meshes = new Map(), positions = new Map(), orbitObjects = [], colonyRings=new Map();
     const starPositions = new Map();
-    const nebulaVolumes=[];
+    const nebulaVolumes=[];let living=null;const livingLabels=[];
     const dustDefinitions=[...nebulae.values()].slice(0,8).map(n=>{const axes=n.axesLy||[10,10,10],rotation=new T.Euler(...(n.rotationDeg||[0,0,0]).map(radians)),basis=n.orientationBasis,orientation=basis?new T.Matrix4().makeBasis(new T.Vector3(...basis.east),new T.Vector3(...basis.north),new T.Vector3(...basis.radial)):new T.Matrix4();orientation.multiply(new T.Matrix4().makeRotationFromEuler(rotation));const quaternion=new T.Quaternion().setFromRotationMatrix(orientation),physicalAxes=new T.Matrix3().setFromMatrix4(orientation.scale(new T.Vector3(...axes)));return{data:n,center:new T.Vector3(...n.positionLy),axes,inverse:physicalAxes.clone().invert(),physicalAxes,quaternion};});
     const dustGLSL=`
       float dustHash(vec3 p){return fract(sin(dot(p,vec3(127.1,311.7,74.7)))*43758.5453);}
@@ -244,7 +244,7 @@
         const star = body.id === hostId(), material = own(star ? new T.MeshBasicMaterial({ color: body.color || '#ffdcad' }) : new T.MeshStandardMaterial({ map: bodyTexture(body), color: 0xffffff, roughness: 1, metalness: 0 }));
         const mesh = new T.Mesh(sphereGeometry, material); mesh.userData.id = body.id; mesh.scale.setScalar(body.radiusKm / AU);
         mesh.userData.orientationBase=new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),radians(body.axialTiltDeg)).multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),Math.PI/2));mesh.quaternion.copy(mesh.userData.orientationBase);groups.bodies.add(mesh); meshes.set(body.id, mesh);
-        if (body.id === 'archeon') { atmosphericGlow(body, mesh); cloudVeil(mesh); mesh.rotation.y = radians(170); }
+        if (body.id === 'archeon') { atmosphericGlow(body, mesh); cloudVeil(mesh);living=window.ATLAS_LIVING?.mountGlobe({T,mesh,own,onSelect});if(living)for(const item of living.labels){const el=document.createElement('button');el.className='space-object-label';el.style.cssText='position:absolute;pointer-events:auto;font-size:11px;color:#ffdda0;background:#081412aa;border:0;padding:2px 4px;white-space:nowrap';el.textContent=item.feature.properties.name;el.onclick=()=>onSelect(item.feature);labelsRoot.append(el);livingLabels.push({...item,element:el});} mesh.rotation.y = radians(170); }
         const s = marker(body.id, body.color || (star ? 0xffce87 : 0xb2d6df), groups.bodies); s.userData.body = body;
         label(body, star ? 'K2V' : body.parent === 'archeon' ? 'moon' : '');
         if (body.semiMajorKm) {
@@ -265,7 +265,7 @@
     }
     function clearScene() {
       for (const group of Object.values(groups)) clearGroup(group);
-      labelsRoot.replaceChildren(); labels.clear(); markers.clear(); meshes.clear(); colonyRings.clear(); orbitObjects.length = 0;nebulaVolumes.length=0;starCloud=null;
+      living=null;livingLabels.length=0;labelsRoot.replaceChildren(); labels.clear(); markers.clear(); meshes.clear(); colonyRings.clear(); orbitObjects.length = 0;nebulaVolumes.length=0;starCloud=null;
     }
     function buildFederation() {
       origin = nodes.has(focusId) ? new T.Vector3(...nodes.get(focusId).positionLy) : nebulae.has(focusId)?new T.Vector3(...nebulae.get(focusId).positionLy):starPositions.get(focusId)?.clone() || new T.Vector3();
@@ -280,7 +280,7 @@
       sunLight.visible = ambient.visible = false; buildRoutes(); buildNebulae(); buildRemnant(); buildBoundaries();
     }
     function applyLayers() {
-      if(starCloud)starCloud.material.uniforms.dustEnabled.value=layers.nebulae?1:0;
+      if(starCloud)starCloud.material.uniforms.dustEnabled.value=layers.nebulae?1:0;living?.apply(layers);
       for (const [id, group] of Object.entries(groups)) {
         if (id === 'bodies') group.visible = mode === 'system';
         else if (id === 'orbits') group.visible = mode === 'system' && layers.orbits;
@@ -360,6 +360,7 @@
       }
       onSelect(objectById(id)); sceneChangedAt = performance.now(); report(true);
     }
+    function focusSurface(id){if(mode!=='system')setScene('system');focusObject('archeon',{overview:true});planetClose=true;animation=null;const mesh=meshes.get('archeon');mesh.updateWorldMatrix(true,true);const p=living?.focusPoint(id);if(!p)return;const c=mesh.getWorldPosition(new T.Vector3()),dir=p.clone().sub(c).normalize(),r=bodies.get('archeon').radiusKm/AU;controls.target.copy(c);camera.position.copy(c).addScaledVector(dir,r*3.6);camera.lookAt(c);sceneChangedAt=performance.now();cameraRange();report(true);}
     function zoomBy(factor) {
       if (!Number.isFinite(factor) || factor <= 0) return; animation = null; const d = camera.position.clone().sub(controls.target); d.multiplyScalar(1 / factor); camera.position.copy(controls.target).add(d); cameraRange(); controls.update(); maybeTransition(); report(true);
     }
@@ -398,7 +399,8 @@
         } else {const photometry=sprite.userData.photometry;if(photometry){const m=photometry.absoluteMagnitude+5*Math.log10(Math.max(d/3.261563777,1e-5))-5+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(sprite.position));sprite.material.opacity=photometry.historicalOnly&&epoch>=data.supernova.collapseYear?0:starVisibility(m);sprite.scale.setScalar(d*clamp((1.4+1.35*Math.sqrt(Math.max(0,limitingMagnitude()-m)))*.006,.005,.07));}else sprite.scale.setScalar(d*.017);const ring=colonyRings.get(id);if(ring)ring.scale.setScalar(d*.019);}
       }
     }
-    function updateLabels() {
+    function updateLivingLabels(){if(!living)return;living.apply(layers);const mesh=meshes.get('archeon'),center=mesh.getWorldPosition(new T.Vector3()),radius=bodies.get('archeon').radiusKm/AU,close=camera.position.distanceTo(center)<radius*14,occupied=[];for(const item of livingLabels){const p=item.object.getWorldPosition(new T.Vector3()),front=p.clone().sub(center).dot(camera.position.clone().sub(p))>0,screen=visiblePosition(p);const show=close&&front&&screen&&layers.labels&&layers['surface-life'];item.element.hidden=!show;if(!show)continue;const collision=occupied.some(q=>Math.abs(q.x-screen.x)<100&&Math.abs(q.y-screen.y)<18);if(collision){item.element.hidden=true;continue;}occupied.push(screen);item.labelScreen=screen;item.element.style.left=screen.x+'px';item.element.style.top=screen.y+'px';}}
+    function updateLabels() {updateLivingLabels();
       camera.updateMatrixWorld(); const occupied = [];
       const entries = [...labels.entries()].sort((a,b) => (a[0] === selectedId || a[0] === focusId ? -1 : 0) - (b[0] === selectedId || b[0] === focusId ? -1 : 0));
       for (const [id, item] of entries) {
@@ -416,7 +418,7 @@
       const p = selectedId && markerPosition(selectedId), point = p && visiblePosition(p); reticle.hidden = !point; if (point) { reticle.style.left = `${point.x}px`; reticle.style.top = `${point.y}px`; }
     }
     function pick(event, focus = false) {
-      const box = canvas.getBoundingClientRect(), x = event.clientX-box.left, y = event.clientY-box.top; let nearest = null, score = Infinity;
+      const box = canvas.getBoundingClientRect(), x = event.clientX-box.left, y = event.clientY-box.top;if(mode==='system'&&living&&layers['surface-life']){const ray=new T.Raycaster();ray.setFromCamera(new T.Vector2(x/width*2-1,1-y/height*2),camera);const f=living.pick(ray);if(f){if(focus&&f.geometry.type==='Point')focusSurface(f.id);onSelect(f);return;}} let nearest = null, score = Infinity;
       for (const [id,sprite] of markers) { if(sprite.userData.nebulaAnchor&&!layers.nebulae)continue;if (mode === 'federation' && !layers.colonies&&!sprite.userData.nebulaAnchor&&!sprite.userData.catalogueAnchor) continue; const p = markerPosition(id), projected = visiblePosition(p); if (!projected) continue;if(sprite.userData.catalogueAnchor){const m=sprite.userData.photometry.absoluteMagnitude+5*Math.log10(Math.max(camera.position.distanceTo(p)/3.261563777,1e-5))-5+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(p));if(!layers.stars||starVisibility(m)<.015)continue;} const body = bodies.get(id), projectedRadius = mode === 'system' && body ? body.radiusKm/AU / camera.position.distanceTo(p) * height / (2 * Math.tan(radians(camera.fov/2))) : 0; const d = Math.hypot(projected.x-x,projected.y-y); if (d < Math.max(19,projectedRadius) && d / Math.max(19,projectedRadius) < score) { score = d / Math.max(19,projectedRadius); nearest = id; } }
       if(!nearest&&mode==='federation'&&layers.stars&&allStars){let distance=7;const v=new T.Vector3();for(let i=0;i<catalogue.count;i++){const offset=i*(catalogue.stride||5);v.set(allStars[offset]-origin.x,allStars[offset+1]-origin.y,allStars[offset+2]-origin.z);const apparent=allStars[offset+3]+5*Math.log10(Math.max(v.distanceTo(camera.position)/3.261563777,1e-5))-5;if(starVisibility(apparent)<.015)continue;const point=visiblePosition(v);if(!point)continue;const d=Math.hypot(point.x-x,point.y-y);if(d<distance&&starVisibility(apparent+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(v)))>=.015){distance=d;nearest=`star:${i}`;}}if(nearest){const index=Number(nearest.slice(5)),offset=index*(catalogue.stride||5);starPositions.set(nearest,new T.Vector3(allStars[offset],allStars[offset+1],allStars[offset+2]));if(!markers.has(nearest)){const object=catalogueObject(index),sprite=marker(nearest,colorIndex(object.colorIndex),groups.stars);sprite.userData.photometry=object;sprite.userData.catalogueAnchor=true;sprite.material.opacity=0;sprite.position.copy(starPositions.get(nearest)).sub(origin);label(object);}}}
       if(!nearest&&mode==='federation'&&layers.nebulae){pointer.set(x/width*2-1,1-y/height*2);const raycaster=new T.Raycaster();raycaster.setFromCamera(pointer,camera);for(const hit of raycaster.intersectObjects(nebulaVolumes,false)){const volume=hit.object,ray=raycaster.ray,along=volume.position.clone().sub(ray.origin).dot(ray.direction);if(along<0)continue;const p=ray.at(along,new T.Vector3());if(p.clone().add(origin).length()>600)continue;if(dustDensityCPU(volume.worldToLocal(p).toArray())>.005){nearest=volume.userData.nebula.id;break;}}}
@@ -452,7 +454,7 @@
       if (destroyed) throw new Error('三维视图已经关闭。'); updateMarkers(); updateLabels(); renderer.render(scene,camera);
       const out=document.createElement('canvas'); out.width=canvas.width;out.height=canvas.height; const ctx=out.getContext('2d');ctx.drawImage(canvas,0,0);const pr=renderer.getPixelRatio();ctx.scale(pr,pr);ctx.textBaseline='middle';ctx.shadowColor='#000';ctx.shadowBlur=5;
       ctx.fillStyle='#d8e8e9';ctx.font='20px system-ui';ctx.fillText(title.textContent,24,35);ctx.fillStyle='#819eaa';ctx.font='10px system-ui';ctx.fillText(subtitle.textContent.replace(/\n/g,' · '),24,59);
-      if(layers.labels)for(const item of labels.values())if(!item.element.hidden&&item.labelScreen){ctx.fillStyle='#bddbe3';ctx.font='11px system-ui';ctx.fillText(item.object.name,item.labelScreen.x,item.labelScreen.y);}
+      if(layers.labels)for(const item of livingLabels)if(!item.element.hidden&&item.labelScreen){ctx.fillStyle='#ffdda0';ctx.font='11px system-ui';ctx.fillText(item.feature.properties.name,item.labelScreen.x,item.labelScreen.y);};if(layers.labels)for(const item of labels.values())if(!item.element.hidden&&item.labelScreen){ctx.fillStyle='#bddbe3';ctx.font='11px system-ui';ctx.fillText(item.object.name,item.labelScreen.x,item.labelScreen.y);}
       ctx.fillStyle='#a4bec7';ctx.font='11px system-ui';ctx.fillText(getScaleLabel(),24,height-25);ctx.fillStyle='#63808d';ctx.font='9px system-ui';ctx.fillText('ARCHEON ATLAS · HYG v4.1 / CC BY-SA 4.0 · fictional colony placements',24,height-10);return out.toDataURL('image/png');
     }
     function restoreState(saved){
@@ -467,7 +469,7 @@
       for(const r of resources)r.dispose?.();resources.clear();renderer.dispose();renderer.forceContextLoss();for(const el of [canvas,labelsRoot,reticle,caption,hud])el.remove();
     }
     setScene('federation'); raf=requestAnimationFrame(frame);
-    return {setScene,setEpoch,focusObject,zoomBy,reset,back,setLayer,setPlaying,resize,dispose,getState,search,capturePng,restoreState,setExposure,setBrightness};
+    return {setScene,setEpoch,focusObject,focusSurface,zoomBy,reset,back,setLayer,setPlaying,resize,dispose,getState,search,capturePng,restoreState,setExposure,setBrightness};
   }
   window.ATLAS_SPACE = Object.freeze({create,version:'1.0.0'});
 })();

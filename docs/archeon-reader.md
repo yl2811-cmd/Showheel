@@ -14,6 +14,10 @@ Use the existing `Showheel` startup project and launch profile, then navigate to
 
 ## Verification — 2026-09-06
 
+### Content refresh — 2026-09-07
+
+Replaced the Chinese snapshot with the latest 792,491-byte timelapse source and verified byte equality and SHA-256; English remains unchanged. Updated the browser test selectors for the current map navigation. The full reader suite passed, including five map views, the Chinese ending, language switching, independent scroll restoration, desktop/mobile layouts, standalone readers, retry, sanitization and stale-response handling, with no page errors or missing resources.
+
 - .NET build succeeded with 0 warnings and 0 errors using a temporary artifacts directory.
 - Background Chromium tests passed for all five embedded map views, full Chinese ending, both language defaults, independent scroll restoration, keyboard PageDown, and unchanged iframe loading count during language switches.
 - The 390 × 844 mobile viewport had no page overflow; desktop/mobile screenshots were inspected.

@@ -19,6 +19,10 @@ The complete static site is approximately 450 MiB, so deployment requires checki
 
 ## Validation
 
+### Living atlas refresh — 2026-09-07
+
+Imported the latest living overlay and its JSON/JavaScript data alongside the updated map and space controllers. The importer supports the source's world-living export names while retaining the website's existing download adaptations. Verified 1,585 resource hashes, 1,586 HTTP resources, all five map views, and a browser world view exposing 243 community sites and 26 routes without JavaScript errors. The isolated .NET build passed with no warnings or errors.
+
 Use an isolated .NET artifacts directory for the build, because the starting commit tracks historical `bin` and `obj` files. Do not include generated artifact changes in this feature.
 Serve the application with its repository content root and verify `/Archeon`, the old map URL, and all five atlas views.
 Check search, detail links, layers, scenic mode, zoom/pan, terrain and contour loading, error retry, JSON downloads, and a 390 px mobile viewport.

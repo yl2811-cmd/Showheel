@@ -34,12 +34,20 @@ const fixture = '# Fixture\n\n**bold** and *italic*\n\n> quote\n\n- item\n\n| A 
         assert.equal(await page.locator('iframe[src*="youtube"]').count(), 0);
         await page.locator('.archeon-map-frame').scrollIntoViewIfNeeded();
         const frame = page.frameLocator('.archeon-map-frame iframe');
+        async function selectMap(view) {
+            if (['world', 'aethelgard'].includes(view)) {
+                await frame.locator('button[data-tab="' + view + '"]').click();
+            } else {
+                await frame.locator('button[data-tab="local"]').click();
+                await frame.locator('button[data-view="' + view + '"]').click();
+            }
+        }
         for (const view of ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone']) {
-            await frame.locator('button[data-view="' + view + '"]').click();
+            await selectMap(view);
             await frame.locator('#map-' + view).waitFor();
             result.views.push(view);
         }
-        await frame.locator('button[data-view="world"]').click();
+        await selectMap('world');
         await reader.scrollIntoViewIfNeeded();
         await scroll.evaluate(el => { el.scrollTop = 2100; });
         await reader.getByRole('button', { name: 'English', exact: true }).click();

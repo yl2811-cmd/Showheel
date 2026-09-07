@@ -10,6 +10,8 @@
     const { THREE: T, OrbitControls } = window.THREE_SPACE;
     const data = window.ATLAS_ASTRONOMY, catalogue = window.ATLAS_STARS;
     const AU = data.constants.auKm, LY = data.constants.lyKm;
+    const orientation=data.system.orientation||{rotationAxisJ2000:[1,0,0],rotationDeg:0};
+    const systemOrientation=new T.Quaternion().setFromAxisAngle(new T.Vector3(...orientation.rotationAxisJ2000).normalize(),radians(orientation.rotationDeg));
     const nodes = new Map(data.nodes.map(n => [n.id, n]));
     const nebulae=new Map((data.nebulae||[]).map(n=>[n.id,n]));
     const bodies = new Map(data.systemBodies.map(n => [n.id, n]));
@@ -127,14 +129,19 @@
     function ring(radius, center, color, opacity, group, axis = 2) {
       const ps = []; for (let i = 0; i <= 256; i++) { const a = i / 256 * Math.PI * 2, v = axis === 2 ? new T.Vector3(Math.cos(a), Math.sin(a), 0) : axis === 1 ? new T.Vector3(Math.cos(a), 0, Math.sin(a)) : new T.Vector3(0, Math.cos(a), Math.sin(a)); ps.push(v.multiplyScalar(radius).add(center)); } return line(ps, color, opacity, group);
     }
+    const nodeVisible = node => !node || node.epochs?.[String(epoch)]?.visible !== false;
+    function syncProjectVisibility() {
+      for(const node of data.nodes){const visible=nodeVisible(node);const sprite=markers.get(node.id),ring=colonyRings.get(node.id);if(sprite)sprite.visible=visible;if(ring)ring.visible=visible;}
+      if(selectedId && nodes.has(selectedId) && !nodeVisible(nodes.get(selectedId)))selectedId=null;
+    }
     function statusColor(node) {
       const status = node.epochs?.[String(epoch)]?.status || '';
-      return /interrupted|isolated|lost|unknown|silence/.test(status) ? 0xc39383 : /project|early|survey|seed/.test(status) ? 0xd6bd85 : node.id === 'sol' ? 0xf3e3bd : 0x88cddd;
+      return /interrupted|isolated|lost|unknown|silence|unconfirmed/.test(status) ? 0xc39383 : /project|early|survey|seed|atmosphere/.test(status) ? 0xd6bd85 : node.id === 'sol' ? 0xf3e3bd : 0x88cddd;
     }
     function buildRoutes() {
       clearGroup(groups.routes);
       for (const route of data.routes || []) {
-        const from = nodes.get(route.from), to = nodes.get(route.to); if (!from || !to) continue;
+        const from = nodes.get(route.from), to = nodes.get(route.to); if (!from || !to || !nodeVisible(from) || !nodeVisible(to) || route.epochs?.[String(epoch)]?.visible===false) continue;
         const ps = (route.pointsLy || [from.positionLy, to.positionLy]).map(p => new T.Vector3(...p).sub(origin));
         const status = route.epochs?.[String(epoch)]?.status || '', interrupted = /interrupted|lost|closed/.test(status);
         line(ps, interrupted ? 0xa56a60 : /planned/.test(status) ? 0x77918e : 0x67959f, interrupted ? .44 : .26, groups.routes, interrupted || /planned|inferred/.test(status) || route.sourceCategory==='inferred');
@@ -233,7 +240,7 @@
       for (const body of activeBodies) {
         const parent = body.parent ? positions.get(body.parent) || new T.Vector3() : new T.Vector3();
         const a = radians(body.phaseDeg) + (body.periodEarthDays ? simulationDays / body.periodEarthDays * Math.PI * 2 : 0), r = (body.semiMajorKm || 0) / AU;
-        const p = new T.Vector3(Math.cos(a) * r, Math.sin(a) * r * Math.cos(radians(body.inclinationDeg)), Math.sin(a) * r * Math.sin(radians(body.inclinationDeg))).add(parent);
+        const p = new T.Vector3(Math.cos(a) * r, Math.sin(a) * r * Math.cos(radians(body.inclinationDeg)), Math.sin(a) * r * Math.sin(radians(body.inclinationDeg))).applyQuaternion(systemOrientation).add(parent);
         positions.set(body.id, p);
       }
     }
@@ -243,12 +250,12 @@
       for (const body of activeBodies) {
         const star = body.id === hostId(), material = own(star ? new T.MeshBasicMaterial({ color: body.color || '#ffdcad' }) : new T.MeshStandardMaterial({ map: bodyTexture(body), color: 0xffffff, roughness: 1, metalness: 0 }));
         const mesh = new T.Mesh(sphereGeometry, material); mesh.userData.id = body.id; mesh.scale.setScalar(body.radiusKm / AU);
-        mesh.userData.orientationBase=new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),radians(body.axialTiltDeg)).multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),Math.PI/2));mesh.quaternion.copy(mesh.userData.orientationBase);groups.bodies.add(mesh); meshes.set(body.id, mesh);
+        mesh.userData.orientationBase=systemOrientation.clone().multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),radians(body.axialTiltDeg)).multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(1,0,0),Math.PI/2)));mesh.quaternion.copy(mesh.userData.orientationBase);groups.bodies.add(mesh); meshes.set(body.id, mesh);
         if (body.id === 'archeon') { atmosphericGlow(body, mesh); cloudVeil(mesh);living=window.ATLAS_LIVING?.mountGlobe({T,mesh,own,onSelect});if(living)for(const item of living.labels){const el=document.createElement('button');el.className='space-object-label';el.style.cssText='position:absolute;pointer-events:auto;font-size:11px;color:#ffdda0;background:#081412aa;border:0;padding:2px 4px;white-space:nowrap';el.textContent=item.feature.properties.name;el.onclick=()=>onSelect(item.feature);labelsRoot.append(el);livingLabels.push({...item,element:el});} mesh.rotation.y = radians(170); }
         const s = marker(body.id, body.color || (star ? 0xffce87 : 0xb2d6df), groups.bodies); s.userData.body = body;
         label(body, star ? 'K2V' : body.parent === 'archeon' ? 'moon' : '');
         if (body.semiMajorKm) {
-          const points = []; for (let i = 0; i <= 256; i++) { const angle = i / 256 * Math.PI * 2, r = body.semiMajorKm / AU; points.push(new T.Vector3(Math.cos(angle)*r,Math.sin(angle)*r*Math.cos(radians(body.inclinationDeg)),Math.sin(angle)*r*Math.sin(radians(body.inclinationDeg)))); }
+          const points = []; for (let i = 0; i <= 256; i++) { const angle = i / 256 * Math.PI * 2, r = body.semiMajorKm / AU; points.push(new T.Vector3(Math.cos(angle)*r,Math.sin(angle)*r*Math.cos(radians(body.inclinationDeg)),Math.sin(angle)*r*Math.sin(radians(body.inclinationDeg))).applyQuaternion(systemOrientation)); }
           const orbit = line(points, body.parent === 'archeon' ? 0x587c8d : 0x415b68, body.parent === 'archeon' ? .35 : .32, groups.orbits); orbitObjects.push({ object: orbit, parent: body.parent });
         }
       }
@@ -277,7 +284,7 @@
         label(node, node.id === 'archeon' ? (epoch===2564?'530 ly · Axiom目的地':'530 ly · 联络未复') : node.id === 'sol' ? '0 ly' : '');
       }
       if (starPositions.has(focusId)) { const object = catalogueObject(Number(focusId.slice(5))),sprite=marker(focusId,colorIndex(object.colorIndex),groups.stars);sprite.userData.photometry=object;sprite.userData.catalogueAnchor=true;sprite.material.opacity=0;sprite.position.copy(starPositions.get(focusId)).sub(origin); label(object); }
-      sunLight.visible = ambient.visible = false; buildRoutes(); buildNebulae(); buildRemnant(); buildBoundaries();
+      syncProjectVisibility(); sunLight.visible = ambient.visible = false; buildRoutes(); buildNebulae(); buildRemnant(); buildBoundaries();
     }
     function applyLayers() {
       if(starCloud)starCloud.material.uniforms.dustEnabled.value=layers.nebulae?1:0;living?.apply(layers);
@@ -301,7 +308,7 @@
       if (mode === 'system') { crumbs.push({ id: 'archeon-star', label: 'Archeon System' }); if (focusId !== 'archeon-star') crumbs.push({ id: 'archeon', label: 'Archeon · 双月' }); if (focusId !== 'archeon-star' && focusId !== 'archeon') crumbs.push({ id: focusId, label: object?.name || focusId }); }
       else if (focusId !== 'sol') crumbs.push({ id: focusId, label: object?.name || focusId });
       return { scene: mode, epoch: mode === 'system' ? 3094 : epoch, focusId, focusName: object?.name || focusId, scaleLabel: getScaleLabel(), breadcrumbs: crumbs, ready, playing, simulationDays, planetClose, layers: { ...layers }, starCount: catalogue?.count || 0,nebulaCount:nebulae.size,photometry:{exposureEV,brightness,limitingMagnitude:limitingMagnitude(),referenceMagnitude},
-        cameraSnapshot: { position: camera.position.toArray(), target: controls.target.toArray(), origin: origin.toArray(), unit: mode === 'system' ? 'AU' : 'ly', distance: camera.position.distanceTo(controls.target) }, renderer: 'WebGL 2 · Three.js 0.180.0', physicalScale: true };
+        cameraSnapshot: { position: camera.position.toArray(), target: controls.target.toArray(), origin: origin.toArray(), unit: mode === 'system' ? 'AU' : 'ly', distance: camera.position.distanceTo(controls.target) }, systemGeometry:mode==='system'?{rotationDeg:orientation.rotationDeg,orbitalNormal:new T.Vector3(0,0,1).applyQuaternion(systemOrientation).toArray(),archeonPole:meshes.has('archeon')?new T.Vector3(0,1,0).applyQuaternion(meshes.get('archeon').quaternion).toArray():null,bodyPositionsAU:Object.fromEntries([...positions].map(([id,p])=>[id,p.toArray()]))}:null,renderer: 'WebGL 2 · Three.js 0.180.0', physicalScale: true };
     }
     function report(force = false) { const now = performance.now(); if (force || now - lastReport > 180) { lastReport = now; scale.textContent = getScaleLabel(); onState(getState()); } }
     function cameraRange() {
@@ -320,7 +327,7 @@
       if (mode === next && ready) { applyLayers(); report(true); return; }
       changing = true; mode = next; focusId = mode === 'system' ? 'archeon-star' : 'sol'; planetClose=false; clearScene();
       if (mode === 'system') { buildSystem(); camera.position.set(.42, -.7, .68); positionCamera(Math.max(3.4, (bodies.get('outer-planet')?.semiMajorKm || 4 * AU) / AU * 2.4)); }
-      else { buildFederation(); camera.position.set(.62, -.92, .68); positionCamera(1150); }
+      else { buildFederation(); camera.position.set(.62, -.92, .68); positionCamera(1550); }
       title.textContent = mode === 'system' ? 'ARCHEON SYSTEM' : 'THE NEAR STARS';
       subtitle.textContent = mode === 'system' ? 'K2V · ONE WORLD · TWO MOONS\n轨道相位示意' : `SOL-CENTERED · 600 LIGHT-YEARS · ${epoch}`;
       applyLayers(); ready = true; sceneChangedAt = performance.now(); changing = false; resize(); report(true);
@@ -328,13 +335,14 @@
     function setEpoch(year) {
       if (![2564, 3094].includes(Number(year))) return; epoch = Number(year);
       const frozenPosition=camera.position.clone(),frozenTarget=controls.target.clone();animation=null;controls.enableDamping=false;controls.update();camera.position.copy(frozenPosition);controls.target.copy(frozenTarget);controls.enableDamping=true;
-      if (mode === 'federation' && ready) { for (const [id, ring] of colonyRings) ring.material.color.set(statusColor(nodes.get(id)));const archeonNote=labels.get('archeon')?.element.querySelector('small');if(archeonNote)archeonNote.textContent=epoch===2564?'530 ly · Axiom目的地':'530 ly · 联络未复';buildRoutes(); buildRemnant(); buildBoundaries(); subtitle.textContent = `SOL-CENTERED · 600 LIGHT-YEARS · ${epoch}`; applyLayers(); }
+      if (mode === 'federation' && ready) { syncProjectVisibility(); for (const [id, ring] of colonyRings) ring.material.color.set(statusColor(nodes.get(id)));const archeonNote=labels.get('archeon')?.element.querySelector('small');if(archeonNote)archeonNote.textContent=epoch===2564?'530 ly · Axiom目的地':'530 ly · 联络未复';buildRoutes(); buildRemnant(); buildBoundaries(); subtitle.textContent = `SOL-CENTERED · 600 LIGHT-YEARS · ${epoch}`; applyLayers(); }
+      if(mode==='federation'&&nodes.has(focusId)&&!nodeVisible(nodes.get(focusId)))focusObject('sol');
       report(true);
     }
-    function select(id) { if (!objectById(id)) return; onSelect(objectById(id)); for (const [key, item] of labels) item.element.classList.toggle('is-selected', key === id); selectedId = id; report(true); }
+    function select(id) { if (!objectById(id)||!nodeVisible(nodes.get(id))) return; onSelect(objectById(id)); for (const [key, item] of labels) item.element.classList.toggle('is-selected', key === id); selectedId = id; report(true); }
     let selectedId = null;
     function focusObject(id, options = {}) {
-      if (destroyed) return;
+      if (destroyed || (nodes.has(id) && !nodeVisible(nodes.get(id)))) return;
       if (id === 'federation') { setScene('federation'); reset(); return; }
       if (id === 'surface') { onNavigate('surface'); return; }
       if (id.startsWith('star:')) {
@@ -356,7 +364,7 @@
       } else {
         clearScene(); buildFederation(); camera.position.copy(oldPosition.add(oldOrigin).sub(origin)); controls.target.copy(oldTarget.add(oldOrigin).sub(origin));
         const catalogueDistance=id.startsWith('star:')?clamp(Math.pow(10,(10-objectById(id).absoluteMagnitude)/5)*3.261563777,.03,35):nebulae.has(id)?Math.max(...nebulae.get(id).axesLy)*3.3:35;
-        positionCamera(id === 'sol' ? 1100 : id === 'betelgeuse' ? 12 : id === 'archeon' ? 18 : catalogueDistance, false); applyLayers();
+        positionCamera(id === 'sol' ? 1550 : id === 'betelgeuse' ? 12 : id === 'archeon' ? 18 : catalogueDistance, false); applyLayers();
       }
       onSelect(objectById(id)); sceneChangedAt = performance.now(); report(true);
     }
@@ -379,7 +387,7 @@
     function search(query) {
       const q = String(query || '').trim().toLowerCase(); if (!q) return [];
       const seen = new Set(), result = [], pool = mode === 'system' ? [...data.systemBodies, ...data.nodes,...nebulae.values()] : [...data.nodes,...nebulae.values(), ...data.systemBodies];
-      for (const o of pool) if (!seen.has(o.id) && [o.name, o.id, ...(o.aliases || [])].join(' ').toLowerCase().includes(q)) { seen.add(o.id); result.push(o); }
+      for (const o of pool) if (nodeVisible(o) && !seen.has(o.id) && [o.name, o.id, ...(o.aliases || [])].join(' ').toLowerCase().includes(q)) { seen.add(o.id); result.push(o); }
       if (catalogue) for (const [key, o] of Object.entries(catalogue.names || {})) { if (result.length >= 40) break; if ([o.name, o.proper, o.hip ? `hip ${o.hip}` : '', o.hd ? `hd ${o.hd}` : ''].join(' ').toLowerCase().includes(q)) result.push(catalogueObject(Number(key))); }
       return result;
     }
@@ -399,13 +407,13 @@
         } else {const photometry=sprite.userData.photometry;if(photometry){const m=photometry.absoluteMagnitude+5*Math.log10(Math.max(d/3.261563777,1e-5))-5+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(sprite.position));sprite.material.opacity=photometry.historicalOnly&&epoch>=data.supernova.collapseYear?0:starVisibility(m);sprite.scale.setScalar(d*clamp((1.4+1.35*Math.sqrt(Math.max(0,limitingMagnitude()-m)))*.006,.005,.07));}else sprite.scale.setScalar(d*.017);const ring=colonyRings.get(id);if(ring)ring.scale.setScalar(d*.019);}
       }
     }
-    function updateLivingLabels(){if(!living)return;living.apply(layers);const mesh=meshes.get('archeon'),center=mesh.getWorldPosition(new T.Vector3()),radius=bodies.get('archeon').radiusKm/AU,close=camera.position.distanceTo(center)<radius*14,occupied=[];for(const item of livingLabels){const p=item.object.getWorldPosition(new T.Vector3()),front=p.clone().sub(center).dot(camera.position.clone().sub(p))>0,screen=visiblePosition(p);const show=close&&front&&screen&&layers.labels&&layers['surface-life'];item.element.hidden=!show;if(!show)continue;const collision=occupied.some(q=>Math.abs(q.x-screen.x)<100&&Math.abs(q.y-screen.y)<18);if(collision){item.element.hidden=true;continue;}occupied.push(screen);item.labelScreen=screen;item.element.style.left=screen.x+'px';item.element.style.top=screen.y+'px';}}
+    function updateLivingLabels(){if(!living)return;living.apply(layers);living.updateView?.(camera,renderer);const mesh=meshes.get('archeon'),center=mesh.getWorldPosition(new T.Vector3()),radius=bodies.get('archeon').radiusKm/AU,close=camera.position.distanceTo(center)<radius*14,occupied=[];for(const item of livingLabels){const p=item.object.getWorldPosition(new T.Vector3()),front=p.clone().sub(center).dot(camera.position.clone().sub(p))>0,screen=visiblePosition(p);const show=close&&front&&screen&&layers.labels&&layers['surface-life'];item.element.hidden=!show;if(!show)continue;const collision=occupied.some(q=>Math.abs(q.x-screen.x)<100&&Math.abs(q.y-screen.y)<18);if(collision){item.element.hidden=true;continue;}occupied.push(screen);item.labelScreen=screen;item.element.style.left=screen.x+'px';item.element.style.top=screen.y+'px';}}
     function updateLabels() {updateLivingLabels();
       camera.updateMatrixWorld(); const occupied = [];
       const entries = [...labels.entries()].sort((a,b) => (a[0] === selectedId || a[0] === focusId ? -1 : 0) - (b[0] === selectedId || b[0] === focusId ? -1 : 0));
       for (const [id, item] of entries) {
         const p = markerPosition(id), point = p && visiblePosition(p); item.screen = point;
-        let visible = !!point && layers.labels && (nebulae.has(id)?layers.nebulae:(mode === 'system' || layers.colonies));
+        let visible = !!point && nodeVisible(item.object) && layers.labels && (nebulae.has(id)?layers.nebulae:(mode === 'system' || layers.colonies));
         let placement=null;
         if(visible){const note=item.element.querySelector('small'),w=Math.min(240,Math.max(100,item.object.name.length*7.3+25,(note?.textContent.length||0)*5.2+18)),h=note?35:24;const offsets=[[11,-12],[11,24],[-w-11,-12],[11,-49],[-w-11,25],[-w-11,-49],[25,61],[-w-25,61],[25,-84],[-w-25,-84],[75,0],[-w-75,0]];let best=Infinity;
           for(const [dx,dy] of offsets){const candidate={x:clamp(point.x+dx,6,Math.max(6,width-w-6)),y:clamp(point.y+dy,6,Math.max(6,height-h-6)),w,h};let overlap=0;for(const other of occupied)overlap+=Math.max(0,Math.min(candidate.x+w,other.x+other.w)-Math.max(candidate.x,other.x))*Math.max(0,Math.min(candidate.y+h,other.y+other.h)-Math.max(candidate.y,other.y));if(overlap<best){best=overlap;placement=candidate;}if(!overlap)break;}
@@ -419,7 +427,7 @@
     }
     function pick(event, focus = false) {
       const box = canvas.getBoundingClientRect(), x = event.clientX-box.left, y = event.clientY-box.top;if(mode==='system'&&living&&layers['surface-life']){const ray=new T.Raycaster();ray.setFromCamera(new T.Vector2(x/width*2-1,1-y/height*2),camera);const f=living.pick(ray);if(f){if(focus&&f.geometry.type==='Point')focusSurface(f.id);onSelect(f);return;}} let nearest = null, score = Infinity;
-      for (const [id,sprite] of markers) { if(sprite.userData.nebulaAnchor&&!layers.nebulae)continue;if (mode === 'federation' && !layers.colonies&&!sprite.userData.nebulaAnchor&&!sprite.userData.catalogueAnchor) continue; const p = markerPosition(id), projected = visiblePosition(p); if (!projected) continue;if(sprite.userData.catalogueAnchor){const m=sprite.userData.photometry.absoluteMagnitude+5*Math.log10(Math.max(camera.position.distanceTo(p)/3.261563777,1e-5))-5+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(p));if(!layers.stars||starVisibility(m)<.015)continue;} const body = bodies.get(id), projectedRadius = mode === 'system' && body ? body.radiusKm/AU / camera.position.distanceTo(p) * height / (2 * Math.tan(radians(camera.fov/2))) : 0; const d = Math.hypot(projected.x-x,projected.y-y); if (d < Math.max(19,projectedRadius) && d / Math.max(19,projectedRadius) < score) { score = d / Math.max(19,projectedRadius); nearest = id; } }
+      for (const [id,sprite] of markers) { if(!sprite.visible || (nodes.has(id)&&!nodeVisible(nodes.get(id))))continue;if(sprite.userData.nebulaAnchor&&!layers.nebulae)continue;if (mode === 'federation' && !layers.colonies&&!sprite.userData.nebulaAnchor&&!sprite.userData.catalogueAnchor) continue; const p = markerPosition(id), projected = visiblePosition(p); if (!projected) continue;if(sprite.userData.catalogueAnchor){const m=sprite.userData.photometry.absoluteMagnitude+5*Math.log10(Math.max(camera.position.distanceTo(p)/3.261563777,1e-5))-5+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(p));if(!layers.stars||starVisibility(m)<.015)continue;} const body = bodies.get(id), projectedRadius = mode === 'system' && body ? body.radiusKm/AU / camera.position.distanceTo(p) * height / (2 * Math.tan(radians(camera.fov/2))) : 0; const d = Math.hypot(projected.x-x,projected.y-y); if (d < Math.max(19,projectedRadius) && d / Math.max(19,projectedRadius) < score) { score = d / Math.max(19,projectedRadius); nearest = id; } }
       if(!nearest&&mode==='federation'&&layers.stars&&allStars){let distance=7;const v=new T.Vector3();for(let i=0;i<catalogue.count;i++){const offset=i*(catalogue.stride||5);v.set(allStars[offset]-origin.x,allStars[offset+1]-origin.y,allStars[offset+2]-origin.z);const apparent=allStars[offset+3]+5*Math.log10(Math.max(v.distanceTo(camera.position)/3.261563777,1e-5))-5;if(starVisibility(apparent)<.015)continue;const point=visiblePosition(v);if(!point)continue;const d=Math.hypot(point.x-x,point.y-y);if(d<distance&&starVisibility(apparent+dustMagnitudeCPU(origin.clone().add(camera.position),origin.clone().add(v)))>=.015){distance=d;nearest=`star:${i}`;}}if(nearest){const index=Number(nearest.slice(5)),offset=index*(catalogue.stride||5);starPositions.set(nearest,new T.Vector3(allStars[offset],allStars[offset+1],allStars[offset+2]));if(!markers.has(nearest)){const object=catalogueObject(index),sprite=marker(nearest,colorIndex(object.colorIndex),groups.stars);sprite.userData.photometry=object;sprite.userData.catalogueAnchor=true;sprite.material.opacity=0;sprite.position.copy(starPositions.get(nearest)).sub(origin);label(object);}}}
       if(!nearest&&mode==='federation'&&layers.nebulae){pointer.set(x/width*2-1,1-y/height*2);const raycaster=new T.Raycaster();raycaster.setFromCamera(pointer,camera);for(const hit of raycaster.intersectObjects(nebulaVolumes,false)){const volume=hit.object,ray=raycaster.ray,along=volume.position.clone().sub(ray.origin).dot(ray.direction);if(along<0)continue;const p=ray.at(along,new T.Vector3());if(p.clone().add(origin).length()>600)continue;if(dustDensityCPU(volume.worldToLocal(p).toArray())>.005){nearest=volume.userData.nebula.id;break;}}}
       if (nearest) { if (focus) focusObject(nearest); else select(nearest); }

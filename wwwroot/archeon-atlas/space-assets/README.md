@@ -13,7 +13,7 @@ The HYG 4.1 catalogue is by **David Nash / Astronexus**, adapted here under **CC
 
 ## Fictional placement
 
-The Earth–Archeon–Betelgeuse triangle is solved from 530 / 531 / 10 ly. The Betelgeuse direction comes from HYG. The Archeon azimuth around that direction, colony sky positions, four numbered intermediate nodes, unspecified orbital angles and outer-planet size are declared cartographic assumptions. Fixed distances and documented phases/populations remain separate.
+The Earth–Archeon–Betelgeuse triangle is solved from 530 / 531 / 10 ly. The Betelgeuse direction comes from HYG. The Archeon azimuth around that direction, colony sky positions, four numbered intermediate nodes, sixteen subsequent projects, unspecified orbital angles and outer-planet size are declared cartographic assumptions. Fixed distances and documented phases/populations remain separate.
 
 Historical event time, local first-light time and carried knowledge are separate data fields. The 3094 Archeon status is what Federation can know; the geographic atlas gives the author's contemporary surface view. A 2 ly luminous remnant does not imply a 2 ly lethal sphere or a 15 ly physical cloud.
 
@@ -25,7 +25,7 @@ Numerical checks are in qa/space-data-audit.json. They are geometry and two-body
 
 ## Host stars, visual photometry and terraform visits
 
-Every fictional colony now has a separate hostStar and terraformPlanet. The host is the luminous object at the existing system coordinate; the colony ring is an annotation. The real HYG point cloud is unchanged. The eight additional FGK hosts, planets and their procedural surfaces are explicitly inferred additions, not actual exoplanet detections. Archeon keeps its accepted primary, geography and moons.
+Every fictional colony now has a separate hostStar and terraformPlanet. The host is the luminous object at the existing system coordinate; the colony ring is an annotation. The real HYG point cloud is unchanged. The twenty-four additional FGK hosts, planets and their procedural surfaces are explicitly inferred additions, not actual exoplanet detections. Archeon keeps its accepted primary, geography and moons.
 
 Absolute magnitude and colour come from the retained HYG V / B−V fields for real stars. The renderer must calculate the apparent magnitude from the moving camera distance, so nearby red dwarfs can fade at distance while intrinsically luminous giants remain visible much farther away. The example display limit of V=12 is an exposure choice, not the naked-eye threshold.
 

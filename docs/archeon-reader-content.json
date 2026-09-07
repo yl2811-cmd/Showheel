@@ -1,8 +1,8 @@
 {
   "source": "D:/SKBS/timelapse-skies_beyond_the_star.txt",
-  "bytes": 792491,
-  "sourceSha256": "5193d46e505ba25a086423c5113cb9cc43c34eb49be48f4a9e338b07fe1b868c",
-  "previousChineseSha256": "0c9141d08e8597901611cf7e8cb56376e3af57323e92690f7f46185e5708377f",
+  "bytes": 812272,
+  "sourceSha256": "97f60764c053c6636d586ee114e8f2030cd3a83c42137dd976892220a7e87117",
+  "previousChineseSha256": "14c9065f3706521b34b10e226bb7f2b3bba0b44249b9bc9b7f0ea6c7d3c4163a",
   "englishSha256": "a5692e29390226af2a46d903ba571efb1e2b12937a7ac883431493f1d2615638",
   "dependencies": [
     {

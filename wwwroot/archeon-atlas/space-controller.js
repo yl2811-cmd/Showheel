@@ -7,7 +7,7 @@
  let activeTab='world',localView='atheria',instance=null,epoch=3094,playing=false,loadToken=0,loaded=null,scenicSnapshot=null,engineType='base',savedFederationState=null,exposure=0,brightness=1;
  const escape=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
  const sourceLabels={catalog:'真实恒星目录',canon:'正文明确',inferred:'制图推定',derived:'依正文数值推导',model:'制图推定','map-inference':'制图推定'};
- const statusLabels={'homeworld':'太阳系 · 出发之地','collapsed; light in transit':'源区已坍缩；爆发之光仍在途中','remnant':'Sky Fire 遗迹','Axiom destination':'Axiom 的目的地 · 先期居民已抵达','surface unconfirmed':'地表现况未确认 · 旧航线中断','terraform project':'地表与大气改造进行中','CI active':'CI 仍在运作','autonomous':'CI 已退出 · 当地自治','CI withdrawing':'CI 正在逐步退出','atmosphere development':'大气改造阶段','slow maturation':'漫长的地表准备阶段'};
+ const statusLabels={'homeworld':'太阳系 · 出发之地','collapsed; light in transit':'源区已坍缩；爆发之光仍在途中','remnant':'Sky Fire 遗迹','Axiom destination':'Axiom 的目的地 · 先期居民已抵达','surface unconfirmed':'地表现况未确认 · 旧航线中断','terraform project':'地表与大气改造进行中','CI active':'CI 仍在运作','autonomous':'CI 已退出 · 当地自治','CI withdrawing':'CI 正在逐步退出','atmosphere development':'大气改造阶段','slow maturation':'漫长的地表准备阶段','early residents':'先期住民已抵达','not deployed':'此时尚未部署'};
  function syncInterface(){
   const cosmic=isSpace(),planetary=cosmic&&app.spaceState?.domain==='planetary',systemNode=planetary?window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===app.spaceState.systemId):null;document.body.classList.toggle('space-mode',cosmic);$('map-stage').hidden=cosmic;$('space-stage').hidden=!cosmic;
   $('living-controls').hidden=activeTab!=='system';$('geography-sidebar').hidden=cosmic;$('astronomy-sidebar').hidden=!cosmic;$('space-back').hidden=!cosmic;$('space-breadcrumbs').hidden=!cosmic;$('space-instructions').hidden=!cosmic;$('local-tabs').hidden=activeTab!=='local';
@@ -17,7 +17,7 @@
   document.querySelector('.epoch').innerHTML=cosmic?(activeTab==='system'?'Year 521 <span>·</span> 3094':epoch+' <span>·</span> Federation'):'Year 521 <span>·</span> 3094';
   $('epoch-controls').hidden=activeTab!=='federation';$('system-controls').hidden=activeTab!=='system';$('terraform-controls').hidden=!planetary;$('space-legend').hidden=activeTab!=='federation'||planetary;
   $('space-eyebrow').textContent=planetary?'A FEDERATION WORLD':activeTab==='system'?'ONE STAR · TWO MOONS':'THE NEAR STARS';$('space-heading').textContent=planetary?(systemNode?.name||'Terraform World'):activeTab==='system'?'Archeon System':'Federation';
-  $('space-intro').textContent=activeTab==='system'?'一颗温暖的 K2V 恒星，海洋覆盖的 Archeon，与一快一慢的两个月亮。':'以太阳为原点，展开六百光年的邻近星空。殖民世界分散在各自的支线上。';
+  $('space-intro').textContent=activeTab==='system'?'一颗温暖的 K2V 恒星，海洋覆盖的 Archeon，与一快一慢的两个月亮。':(epoch===2564?'首轮八个世界与530光年处的Archeon；轨道基地先于开放地表成形。':'八个首轮世界与十六个后续项目仍在往来；Archeon的旧线末端尚未接续。');
   if(planetary)$('space-intro').textContent=systemNode?.terraformPlanet?.description||'在这个恒星系内观察宿主与行星。表面外观属于制图推定。';
   document.querySelectorAll('[data-scene-only]').forEach(n=>n.hidden=n.dataset.sceneOnly==='system'?!(activeTab==='system'||planetary):activeTab!=='federation'||planetary);
   document.querySelector('[data-space-layer="remnant"]').closest('label').hidden=planetary;
@@ -88,7 +88,7 @@
   }
  }
  async function enterColonySystem(id){
-  const node=window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===id);if(id==='archeon'){await setTab('system');instance?.focusObject('archeon');return;}if(!node?.terraformPlanet)return;
+  const node=window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===id);if(id==='archeon'){await setTab('system');instance?.focusObject('archeon');return;}if(!node?.terraformPlanet||node.epochs?.[String(epoch)]?.visible===false)return;
   const token=++loadToken;if(instance&&engineType==='base'&&activeTab==='federation')savedFederationState=instance.getState();
   restoreSpaceScenic();instance?.dispose();instance=null;engineType='terraform';activeTab='federation';app.spaceState=null;app.ready=false;app.loadingView='federation';$('detail').hidden=true;$('space-stage').replaceChildren();$('space-stage').innerHTML='<div class="space-loading">正在靠近 '+escape(node.name)+'…</div>';syncInterface();
   try{
@@ -107,16 +107,20 @@
   let html='<div class="kind">'+escape(kind)+'</div><h2>'+escape(o.name||o.id)+'</h2>';
   if(activeTab==='federation'&&Number.isFinite(o.distanceLy))html+='<div class="coords">距太阳 '+o.distanceLy.toLocaleString('en',{maximumFractionDigits:2})+' ly</div>';
   if(closeView&&o.radiusKm)html+='<div class="coords">直径 '+(o.radiusKm*2).toLocaleString('en',{maximumFractionDigits:0})+' km</div>';
-  if(info.status)html+='<p>'+escape(statusLabels[info.status]||info.status)+'</p>';if(o.description)html+='<p>'+escape(o.description)+'</p>';
+  if(info.status)html+='<p>'+escape(statusLabels[info.status]||info.status)+'</p>';if(info.description||o.description)html+='<p>'+escape(info.description||o.description)+'</p>';
   html+='<dl>';
   if(o.kind==='nebula'){html+='<dt>可见形态</dt><dd>'+escape({reflection:'反射星云 · 散射附近恒星光',dark:'暗星云 · 尘埃遮暗背景星',mixed:'反射光与暗尘带交织'}[o.nebulaType]||o.nebulaType)+'</dd><dt>距离与形态依据</dt><dd>'+escape(o.distanceNote||'距离为观测工作值；三维厚度和细部密度为制图推定。')+'</dd>';}
   if(o.hostStar)html+='<dt>宿主恒星</dt><dd>'+escape(o.hostStar.spectralType)+' · '+escape(o.hostStar.massSolar)+' M☉<br>宿主参数为制图推定</dd>';
-  if(info.phase)html+='<dt>此时的发展阶段</dt><dd>'+escape(info.phase)+'</dd>';
+   const projectNode=window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===(o.systemId||o.hostNodeId||o.id));
+   if(projectNode?.milestones){const m=projectNode.milestones,source=window.ATLAS_ASTRONOMY.nodes.find(n=>n.id===projectNode.sponsorNodeId);if(source)html+='<dt>接续出发地</dt><dd>'+escape(source.name)+'</dd>';for(const [key,title]of [['deploymentYear','设备部署'],['relayReadyYear','中继开始接船'],['surfaceReadyYear','开放地表'],['firstResidentsYear','先期住民抵达'],['phase3Year','开始交接'],['handoverYear','完成交接']]){const year=m[key];if(year&&year<=currentEpoch)html+='<dt>'+title+'</dt><dd>约 '+year+'</dd>'; }if(projectNode.id==='archeon'&&currentEpoch===3094)html+='<dt>旧端点状态</dt><dd>以上为灾前已知记录；当前地表适居与人口状态未确认。</dd>';if(projectNode.deploymentLeg)html+='<dt>接续航段</dt><dd>'+projectNode.deploymentLeg.distanceLy.toFixed(1)+' ly</dd>';}
+  if(currentEpoch===3094&&projectNode&&window.ATLAS_ASTRONOMY.federation?.cruiseSpeedC3094){html+='<dt>此时曲速</dt><dd>约500c；以下航时另加停靠与任务时间</dd>';if(projectNode.id==='archeon')html+='<dt>从Earth往返</dt><dd>约2.12年纯航行，单程约1.06年</dd><dt>从中程02往返</dt><dd>约1.32年纯航行，单程约0.66年</dd>';}
+   if(projectNode?.surveyHistory&&currentEpoch===3094)html+='<dt>向旧线前方继续勘测</dt><dd>'+escape(projectNode.surveyHistory.result)+'</dd>';
+   if(info.phase)html+='<dt>此时的发展阶段</dt><dd>'+escape(info.phase)+'</dd>';
   if(info.population!==undefined&&info.population!==null)html+='<dt>人口</dt><dd>'+escape(typeof info.population==='number'?'约 '+info.population.toLocaleString():info.population)+'</dd>';
   if(info.knowledge)html+='<dt>当时获知的情况</dt><dd>'+escape(info.knowledge)+'</dd>';
   if(closeView&&o.semiMajorKm){const au=o.semiMajorKm/window.ATLAS_ASTRONOMY.constants.auKm;html+='<dt>轨道半长轴</dt><dd>'+escape(au>.05?au.toFixed(3)+' AU':Math.round(o.semiMajorKm).toLocaleString()+' km')+'</dd>';}
   if(closeView&&o.periodEarthDays){html+='<dt>公转周期</dt><dd>'+o.periodEarthDays.toLocaleString('en',{maximumFractionDigits:4})+' 地球日';if(o.parent==='archeon')html+=' · '+(o.periodEarthDays*24/27).toFixed(1)+' 本地日';html+='</dd>';}
-  if(o.id==='archeon'&&activeTab==='system')html+='<dt>太阳日与轴倾角</dt><dd>27 地球小时 · 13°</dd>';
+  if(o.id==='archeon'&&activeTab==='system')html+='<dt>太阳日与轴倾角</dt><dd>27 地球小时 · 13°</dd><dt>恒星系朝向</dt><dd>轨道平面较旧图旋转60°；行星轴倾角仍为13°。</dd>';
   if(o.id==='betelgeuse')html+='<dt>空间与传播</dt><dd>小说距离 531 ly；源区坍缩 2563，Earth 首光 3094。实体遗迹约 2 ly，与向外传播的光壳分别显示。</dd><dt>此图的时间口径</dt><dd>显示源区的共时制图形态，不是 Earth 当时眼中的样子。3094 的地球刚收到爆发首光；Archeon 看见的是约十年前的源区。</dd>';
   if(o.firstLightYear&&activeTab==='federation'&&o.id!=='betelgeuse')html+='<dt>此地收到参宿四首光</dt><dd>约 '+Math.round(o.firstLightYear)+'</dd>';
   html+='<dt>位置与参数依据</dt><dd>'+escape(sourceLabels[o.sourceCategory]||o.sourceCategory||'真实恒星目录')+'</dd></dl>';
@@ -132,7 +136,7 @@
   if($('space-enter-colony'))$('space-enter-colony').onclick=()=>enterColonySystem(o.id);
   if($('space-surface'))$('space-surface').onclick=()=>app.setView('world');
  }
- function setEpoch(year){if(![2564,3094].includes(Number(year)))return;epoch=Number(year);syncInterface();instance?.setEpoch(activeTab==='system'?3094:epoch);if(!$('detail').hidden&&app.selectedFeature)showObject(app.selectedFeature);}
+ function setEpoch(year){if(![2564,3094].includes(Number(year)))return;epoch=Number(year);const data=window.ATLAS_ASTRONOMY,current=data?.nodes.find(n=>n.id===app.spaceState?.systemId);if(engineType==='terraform'&&current?.epochs?.[String(epoch)]?.visible===false){savedFederationState=null;$('detail').hidden=true;return setTab('federation');}syncInterface();instance?.setEpoch(activeTab==='system'?3094:epoch);const selected=resolveObject(app.selectedFeature||'');if(selected?.epochs?.[String(epoch)]?.visible===false){$('detail').hidden=true;app.selectedFeature=null;}else if(!$('detail').hidden&&app.selectedFeature)showObject(app.selectedFeature);$('search-results').replaceChildren();}
  async function focusSettlement(id,view='globe'){if(view==='map'){await app.setTab('world');return app.selectFeature(id);}await setTab('system');instance?.focusSurface?.(id);return app.showFeature(id);}
  function focusObject(id){if(id.startsWith('planet:')&&engineType!=='terraform')return enterColonySystem(id.slice(7));if(instance){instance.focusObject(id);$('detail').hidden=true;return;}return setTab('system').then(()=>instance?.focusObject(id));}
  document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));

@@ -1,0 +1,15 @@
+{
+  "count": 109399,
+  "name": "HYG Database v4.1",
+  "author": "David Nash / Astronexus",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sha256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+  "commit": "c7f7f883fe678cc7680169a50ccd7dcc49b060ce",
+  "coordinateEpoch": "J2000.0",
+  "scopeLy": 6000,
+  "localLicense": "space-assets/source/HYG-LICENSE.md",
+  "note": "Incomplete catalogue background only; model candidates are generated independently without this viewing cutoff.",
+  "missingCI": 1541,
+  "missingMagnitude": 0
+}

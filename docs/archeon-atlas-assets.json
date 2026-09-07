@@ -19,6 +19,36 @@
       "sha256": "e566b87f3512a7b7a05796e2be98adf1a38dccd183bf2de9e05f7028d006b381"
     },
     {
+      "path": "colonization-model.js",
+      "bytes": 32048,
+      "sourceSha256": "334cecbb030c2ff381ffbaf4a6c3d301779eeb3fbeafbbab623580348864aa06",
+      "sha256": "334cecbb030c2ff381ffbaf4a6c3d301779eeb3fbeafbbab623580348864aa06"
+    },
+    {
+      "path": "colonization-ui.css",
+      "bytes": 3241,
+      "sourceSha256": "bb260f633eac4ef6d3b2207fef66cc457c6040cbf8d4786cc95cc4895e0b70e8",
+      "sha256": "bb260f633eac4ef6d3b2207fef66cc457c6040cbf8d4786cc95cc4895e0b70e8"
+    },
+    {
+      "path": "colonization-ui.js",
+      "bytes": 17799,
+      "sourceSha256": "54e7a8209104a5002efeb6aebe1187fa193b580ff34eb8a835d9930a19a1a2a0",
+      "sha256": "54e7a8209104a5002efeb6aebe1187fa193b580ff34eb8a835d9930a19a1a2a0"
+    },
+    {
+      "path": "colonization-view.css",
+      "bytes": 3400,
+      "sourceSha256": "21945f7676eda7e06bd51eb63c0bf56ab4a37ee3fba0add1c8f4efefab39e1cb",
+      "sha256": "21945f7676eda7e06bd51eb63c0bf56ab4a37ee3fba0add1c8f4efefab39e1cb"
+    },
+    {
+      "path": "colonization-view.js",
+      "bytes": 36961,
+      "sourceSha256": "ba965ea6bb50205ca448ad8dbcf14fd69214a660219548eb3989eaa2c40f338d",
+      "sha256": "ba965ea6bb50205ca448ad8dbcf14fd69214a660219548eb3989eaa2c40f338d"
+    },
+    {
       "path": "data/astronomy.js",
       "bytes": 195035,
       "sourceSha256": "0a06f0d7d1e533a6a08818a9d0d77b59d7fa4c41076c9f10a8bbb5fba7111cc6",
@@ -41,6 +71,36 @@
       "bytes": 10391742,
       "sourceSha256": "ef8288d47e983a90c7ea1c5d5b4cb2eb89dd5ebc54f9e5caf90e14bb3b8de347",
       "sha256": "ef8288d47e983a90c7ea1c5d5b4cb2eb89dd5ebc54f9e5caf90e14bb3b8de347"
+    },
+    {
+      "path": "data/colonization-input.js",
+      "bytes": 35221,
+      "sourceSha256": "660ba3ff4a47e63726eb115d21edeeb98fb223b6575de82e548b6758d8278af8",
+      "sha256": "660ba3ff4a47e63726eb115d21edeeb98fb223b6575de82e548b6758d8278af8"
+    },
+    {
+      "path": "data/colonization-input.json",
+      "bytes": 43252,
+      "sourceSha256": "02e9c227bf840f008e061f28d896705a2da3dcf49afd656eaae6bcce769f2234",
+      "sha256": "02e9c227bf840f008e061f28d896705a2da3dcf49afd656eaae6bcce769f2234"
+    },
+    {
+      "path": "data/colonization-sensitivity.json",
+      "bytes": 27078,
+      "sourceSha256": "a49757ed2521233929e61f2ce06a291102c69cb7c7d8d7143f671d22a1f1c229",
+      "sha256": "a49757ed2521233929e61f2ce06a291102c69cb7c7d8d7143f671d22a1f1c229"
+    },
+    {
+      "path": "data/colonization-stars-provenance.json",
+      "bytes": 602,
+      "sourceSha256": "83a6e7ec94af8c1dee59d11d241e85c3120ea19eea0d3827b010de7a6fad027c",
+      "sha256": "83a6e7ec94af8c1dee59d11d241e85c3120ea19eea0d3827b010de7a6fad027c"
+    },
+    {
+      "path": "data/colonization-stars.js",
+      "bytes": 11749163,
+      "sourceSha256": "2832b62661e555d2df958cf0a5e667f942fb9e61c59f4978b6fc0425275dc437",
+      "sha256": "2832b62661e555d2df958cf0a5e667f942fb9e61c59f4978b6fc0425275dc437"
     },
     {
       "path": "data/contours/aethelgard/10-0.js",
@@ -1165,6 +1225,12 @@
       "sha256": "03fc5ad3a620961fdb1a338ec27e7cd0d3486e7f646a1ea4e124e354f2338b5e"
     },
     {
+      "path": "data/federation-projects.json",
+      "bytes": 72555,
+      "sourceSha256": "cf3d8bdd750e68fcc08b1d284982d5a7f6be6a88b9faab6da8c0341e4e737b37",
+      "sha256": "cf3d8bdd750e68fcc08b1d284982d5a7f6be6a88b9faab6da8c0341e4e737b37"
+    },
+    {
       "path": "data/living-atlas.js",
       "bytes": 3101895,
       "sourceSha256": "c8ca0fe393e0b8dae75e12c0252d3f971d4944f31952e3ebaa29a19e7fce7551",
@@ -1226,9 +1292,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 11382,
-      "sourceSha256": "0b0c2f3ba21a0c2ba24436feaf862b34b938924de182297f7502b8e872524f34",
-      "sha256": "a8a64ff0114c80ddfb1a68899c44d715e27e554420d87f7598bd181bc530a67a"
+      "bytes": 11526,
+      "sourceSha256": "9218638c62c40f8bacfd4dcdf6b0a0715384d6a2ecaa2a755664e923c88c4015",
+      "sha256": "5175087f039d35704b39ec6e1b7b9aa79967c06ad2635389bb2db3b96ca9c0b3"
     },
     {
       "path": "living-overlay.js",
@@ -1241,6 +1307,12 @@
       "bytes": 2979,
       "sourceSha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1",
       "sha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1"
+    },
+    {
+      "path": "space-assets/COLONIZATION.md",
+      "bytes": 10945,
+      "sourceSha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766",
+      "sha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766"
     },
     {
       "path": "space-assets/FEDERATION.md",
@@ -1273,6 +1345,12 @@
       "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
+      "path": "space-assets/colonization-sensitivity.md",
+      "bytes": 2073,
+      "sourceSha256": "4a9125259aa7debb1ffdbcd060c40b08ec505616e54d62f5dc5260f432add007",
+      "sha256": "4a9125259aa7debb1ffdbcd060c40b08ec505616e54d62f5dc5260f432add007"
+    },
+    {
       "path": "space-assets/physics-humanity-audit.md",
       "bytes": 25692,
       "sourceSha256": "4ae48009fc9e2ab17bae4b5a4a9b5e962ca9f2b907d6a8212f0ff2f1f7244175",
@@ -1298,9 +1376,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 27720,
-      "sourceSha256": "ece6f084e0ddb3dd7485a7d234f876c6a09bbb0ab02f41b5bdfc7991518a10b1",
-      "sha256": "ece6f084e0ddb3dd7485a7d234f876c6a09bbb0ab02f41b5bdfc7991518a10b1"
+      "bytes": 30887,
+      "sourceSha256": "65f74811ec7f9e3e6d7dc8a8d998a8f5a14524702c7c689e5d73a0ef626ec78a",
+      "sha256": "65f74811ec7f9e3e6d7dc8a8d998a8f5a14524702c7c689e5d73a0ef626ec78a"
     },
     {
       "path": "space-ui.css",

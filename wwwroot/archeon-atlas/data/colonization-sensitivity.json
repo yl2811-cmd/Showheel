@@ -1,0 +1,1016 @@
+{
+  "modelVersion": "1.0.0",
+  "seeds": [
+    240024,
+    240025,
+    240026,
+    240027,
+    240028,
+    240029,
+    240030,
+    240031,
+    240032,
+    240033
+  ],
+  "runCount": 90,
+  "method": "one factor at a time; same ten seeds; counts exclude Earth and include Archeon; seed distance is median within each run before between-run aggregation",
+  "scenarios": [
+    {
+      "id": "baseline",
+      "label": "基准",
+      "options": {},
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1523.9382717296692,
+          "medianSeedLegLy": 331.4996764793179,
+          "elapsedMs": 139
+        },
+        {
+          "seed": 240025,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1514.4719685396017,
+          "medianSeedLegLy": 243.78867824589216,
+          "elapsedMs": 133
+        },
+        {
+          "seed": 240026,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1360.883687095685,
+          "medianSeedLegLy": 284.261162027444,
+          "elapsedMs": 146
+        },
+        {
+          "seed": 240027,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1546.8903463393024,
+          "medianSeedLegLy": 285.4053054953315,
+          "elapsedMs": 137
+        },
+        {
+          "seed": 240028,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1119.795822954806,
+          "medianSeedLegLy": 285.15811508916823,
+          "elapsedMs": 131
+        },
+        {
+          "seed": 240029,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1267.453976472066,
+          "medianSeedLegLy": 253.44593643020704,
+          "elapsedMs": 126
+        },
+        {
+          "seed": 240030,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1505.4837407405041,
+          "medianSeedLegLy": 260.2210852404294,
+          "elapsedMs": 124
+        },
+        {
+          "seed": 240031,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1262.6551611817154,
+          "medianSeedLegLy": 299.08637787464045,
+          "elapsedMs": 181
+        },
+        {
+          "seed": 240032,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1139.4049703457147,
+          "medianSeedLegLy": 266.2991680098608,
+          "elapsedMs": 129
+        },
+        {
+          "seed": 240033,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1414.7319138091686,
+          "medianSeedLegLy": 277.2945777635876,
+          "elapsedMs": 127
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 36,
+          "min": 36,
+          "max": 36
+        },
+        "openSurfaceCount": {
+          "median": 32,
+          "min": 32,
+          "max": 32
+        },
+        "extentLy": {
+          "median": 1387.8078004524268,
+          "min": 1119.795822954806,
+          "max": 1546.8903463393024
+        },
+        "medianSeedLegLy": {
+          "median": 280.7778698955158,
+          "min": 243.78867824589216,
+          "max": 331.4996764793179
+        }
+      }
+    },
+    {
+      "id": "density-quarter",
+      "label": "候选密度 ×0.25",
+      "options": {
+        "densityFactor": 0.25
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1567.512891369462,
+          "medianSeedLegLy": 349.3234916507092,
+          "elapsedMs": 115
+        },
+        {
+          "seed": 240025,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1287.263579319752,
+          "medianSeedLegLy": 322.7277423123331,
+          "elapsedMs": 123
+        },
+        {
+          "seed": 240026,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1586.8164613535591,
+          "medianSeedLegLy": 398.14962092029725,
+          "elapsedMs": 119
+        },
+        {
+          "seed": 240027,
+          "projectCount": 36,
+          "openSurfaceCount": 30,
+          "extentLy": 1375.4714890318548,
+          "medianSeedLegLy": 392.40015684613377,
+          "elapsedMs": 114
+        },
+        {
+          "seed": 240028,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1550.1486730329823,
+          "medianSeedLegLy": 358.7873925751377,
+          "elapsedMs": 107
+        },
+        {
+          "seed": 240029,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1726.8463270184518,
+          "medianSeedLegLy": 356.93774078910775,
+          "elapsedMs": 123
+        },
+        {
+          "seed": 240030,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1329.6726260067321,
+          "medianSeedLegLy": 353.4460230239183,
+          "elapsedMs": 110
+        },
+        {
+          "seed": 240031,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1457.035164411661,
+          "medianSeedLegLy": 389.2309439833873,
+          "elapsedMs": 111
+        },
+        {
+          "seed": 240032,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 2212.628758638396,
+          "medianSeedLegLy": 381.6250089815534,
+          "elapsedMs": 109
+        },
+        {
+          "seed": 240033,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 1888.470651533044,
+          "medianSeedLegLy": 417.6825823639242,
+          "elapsedMs": 103
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 36,
+          "min": 36,
+          "max": 36
+        },
+        "openSurfaceCount": {
+          "median": 32,
+          "min": 30,
+          "max": 32
+        },
+        "extentLy": {
+          "median": 1558.830782201222,
+          "min": 1287.263579319752,
+          "max": 2212.628758638396
+        },
+        "medianSeedLegLy": {
+          "median": 370.20620077834553,
+          "min": 322.7277423123331,
+          "max": 417.6825823639242
+        }
+      }
+    },
+    {
+      "id": "density-four",
+      "label": "候选密度 ×4",
+      "options": {
+        "densityFactor": 4
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 812.5655401161753,
+          "medianSeedLegLy": 174.21843230879853,
+          "elapsedMs": 179
+        },
+        {
+          "seed": 240025,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 924.3084669123853,
+          "medianSeedLegLy": 185.8759900326265,
+          "elapsedMs": 197
+        },
+        {
+          "seed": 240026,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 635.3089205150814,
+          "medianSeedLegLy": 148.24506493016182,
+          "elapsedMs": 197
+        },
+        {
+          "seed": 240027,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 836.4655653274103,
+          "medianSeedLegLy": 174.32271688341925,
+          "elapsedMs": 190
+        },
+        {
+          "seed": 240028,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 863.3692108127967,
+          "medianSeedLegLy": 160.6964203475522,
+          "elapsedMs": 181
+        },
+        {
+          "seed": 240029,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 879.7675125660677,
+          "medianSeedLegLy": 165.79606574337444,
+          "elapsedMs": 208
+        },
+        {
+          "seed": 240030,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 915.6600260440794,
+          "medianSeedLegLy": 174.62228238870753,
+          "elapsedMs": 235
+        },
+        {
+          "seed": 240031,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 974.0260693564685,
+          "medianSeedLegLy": 159.73746040701096,
+          "elapsedMs": 264
+        },
+        {
+          "seed": 240032,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 646.007931487163,
+          "medianSeedLegLy": 166.06712471267838,
+          "elapsedMs": 217
+        },
+        {
+          "seed": 240033,
+          "projectCount": 36,
+          "openSurfaceCount": 32,
+          "extentLy": 982.6028329927107,
+          "medianSeedLegLy": 151.61478456804602,
+          "elapsedMs": 220
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 36,
+          "min": 36,
+          "max": 36
+        },
+        "openSurfaceCount": {
+          "median": 32,
+          "min": 31,
+          "max": 32
+        },
+        "extentLy": {
+          "median": 871.5683616894322,
+          "min": 635.3089205150814,
+          "max": 982.6028329927107
+        },
+        "medianSeedLegLy": {
+          "median": 165.93159522802642,
+          "min": 148.24506493016182,
+          "max": 185.8759900326265
+        }
+      }
+    },
+    {
+      "id": "population-slower",
+      "label": "物理常住比例下降较慢",
+      "options": {
+        "populationTrend": "slower"
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1674.6097194589784,
+          "medianSeedLegLy": 321.4791001752958,
+          "elapsedMs": 184
+        },
+        {
+          "seed": 240025,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1391.8888712361822,
+          "medianSeedLegLy": 258.58796181932286,
+          "elapsedMs": 182
+        },
+        {
+          "seed": 240026,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1355.1439465035994,
+          "medianSeedLegLy": 271.9359066703988,
+          "elapsedMs": 207
+        },
+        {
+          "seed": 240027,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1810.4414300348762,
+          "medianSeedLegLy": 307.6631156522683,
+          "elapsedMs": 198
+        },
+        {
+          "seed": 240028,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1154.3333082428715,
+          "medianSeedLegLy": 240.97100458609194,
+          "elapsedMs": 195
+        },
+        {
+          "seed": 240029,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1435.9308075071053,
+          "medianSeedLegLy": 257.33607694574107,
+          "elapsedMs": 210
+        },
+        {
+          "seed": 240030,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1668.7031994090248,
+          "medianSeedLegLy": 260.19101694311746,
+          "elapsedMs": 197
+        },
+        {
+          "seed": 240031,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1262.6551611817154,
+          "medianSeedLegLy": 307.70824729724495,
+          "elapsedMs": 166
+        },
+        {
+          "seed": 240032,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1614.8365411219816,
+          "medianSeedLegLy": 237.9942220912307,
+          "elapsedMs": 175
+        },
+        {
+          "seed": 240033,
+          "projectCount": 48,
+          "openSurfaceCount": 40,
+          "extentLy": 1808.061601652474,
+          "medianSeedLegLy": 277.6020100199327,
+          "elapsedMs": 194
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 48,
+          "min": 48,
+          "max": 48
+        },
+        "openSurfaceCount": {
+          "median": 40,
+          "min": 40,
+          "max": 40
+        },
+        "extentLy": {
+          "median": 1525.3836743145434,
+          "min": 1154.3333082428715,
+          "max": 1810.4414300348762
+        },
+        "medianSeedLegLy": {
+          "median": 266.06346180675814,
+          "min": 237.9942220912307,
+          "max": 321.4791001752958
+        }
+      }
+    },
+    {
+      "id": "population-constant",
+      "label": "物理常住比例保持20%",
+      "options": {
+        "populationTrend": "constant"
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1849.774373732459,
+          "medianSeedLegLy": 351.7953604639581,
+          "elapsedMs": 271
+        },
+        {
+          "seed": 240025,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1538.6399738228597,
+          "medianSeedLegLy": 260.09174084902804,
+          "elapsedMs": 255
+        },
+        {
+          "seed": 240026,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1566.5237313605273,
+          "medianSeedLegLy": 264.7722846192688,
+          "elapsedMs": 245
+        },
+        {
+          "seed": 240027,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1875.4842902969679,
+          "medianSeedLegLy": 301.21477117433136,
+          "elapsedMs": 259
+        },
+        {
+          "seed": 240028,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1204.7625502292847,
+          "medianSeedLegLy": 260.473760636851,
+          "elapsedMs": 234
+        },
+        {
+          "seed": 240029,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1905.2612418425936,
+          "medianSeedLegLy": 304.26115281255477,
+          "elapsedMs": 235
+        },
+        {
+          "seed": 240030,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1713.676322622892,
+          "medianSeedLegLy": 277.5795197245008,
+          "elapsedMs": 297
+        },
+        {
+          "seed": 240031,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1509.5604226252947,
+          "medianSeedLegLy": 301.21758938905606,
+          "elapsedMs": 318
+        },
+        {
+          "seed": 240032,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1905.5060892002714,
+          "medianSeedLegLy": 265.89128144034623,
+          "elapsedMs": 284
+        },
+        {
+          "seed": 240033,
+          "projectCount": 61,
+          "openSurfaceCount": 48,
+          "extentLy": 1558.6717448808693,
+          "medianSeedLegLy": 277.44829389176016,
+          "elapsedMs": 258
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 61,
+          "min": 61,
+          "max": 61
+        },
+        "openSurfaceCount": {
+          "median": 48,
+          "min": 48,
+          "max": 48
+        },
+        "extentLy": {
+          "median": 1640.1000269917097,
+          "min": 1204.7625502292847,
+          "max": 1905.5060892002714
+        },
+        "medianSeedLegLy": {
+          "median": 277.5139068081305,
+          "min": 260.09174084902804,
+          "max": 351.7953604639581
+        }
+      }
+    },
+    {
+      "id": "intent-half",
+      "label": "项目意愿 ×0.5",
+      "options": {
+        "intentFactor": 0.5
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 800.4112194592227,
+          "medianSeedLegLy": 263.9102574418957,
+          "elapsedMs": 94
+        },
+        {
+          "seed": 240025,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 748.6277319098408,
+          "medianSeedLegLy": 217.02917520318118,
+          "elapsedMs": 81
+        },
+        {
+          "seed": 240026,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1220.365908606095,
+          "medianSeedLegLy": 302.05632567218174,
+          "elapsedMs": 71
+        },
+        {
+          "seed": 240027,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1492.0606251971326,
+          "medianSeedLegLy": 285.4053054953315,
+          "elapsedMs": 71
+        },
+        {
+          "seed": 240028,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 961.0834128290461,
+          "medianSeedLegLy": 318.0261064524901,
+          "elapsedMs": 79
+        },
+        {
+          "seed": 240029,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1073.04208748553,
+          "medianSeedLegLy": 213.55163852789678,
+          "elapsedMs": 81
+        },
+        {
+          "seed": 240030,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1263.308738140662,
+          "medianSeedLegLy": 244.48855668370325,
+          "elapsedMs": 70
+        },
+        {
+          "seed": 240031,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1012.1385583933519,
+          "medianSeedLegLy": 274.4686090919061,
+          "elapsedMs": 72
+        },
+        {
+          "seed": 240032,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 844.3262597884221,
+          "medianSeedLegLy": 266.2991680098608,
+          "elapsedMs": 74
+        },
+        {
+          "seed": 240033,
+          "projectCount": 22,
+          "openSurfaceCount": 20,
+          "extentLy": 1002.5483181869959,
+          "medianSeedLegLy": 270.6614623229925,
+          "elapsedMs": 66
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 22,
+          "min": 22,
+          "max": 22
+        },
+        "openSurfaceCount": {
+          "median": 20,
+          "min": 20,
+          "max": 20
+        },
+        "extentLy": {
+          "median": 1007.3434382901739,
+          "min": 748.6277319098408,
+          "max": 1492.0606251971326
+        },
+        "medianSeedLegLy": {
+          "median": 268.48031516642664,
+          "min": 213.55163852789678,
+          "max": 318.0261064524901
+        }
+      }
+    },
+    {
+      "id": "intent-double",
+      "label": "项目意愿 ×2",
+      "options": {
+        "intentFactor": 2
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1523.9382717296692,
+          "medianSeedLegLy": 326.4557510992362,
+          "elapsedMs": 283
+        },
+        {
+          "seed": 240025,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1538.6399738228597,
+          "medianSeedLegLy": 271.8300649804361,
+          "elapsedMs": 340
+        },
+        {
+          "seed": 240026,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1566.5237313605273,
+          "medianSeedLegLy": 264.7722846192688,
+          "elapsedMs": 296
+        },
+        {
+          "seed": 240027,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1546.8903463393024,
+          "medianSeedLegLy": 279.55053367465587,
+          "elapsedMs": 280
+        },
+        {
+          "seed": 240028,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1229.198794913916,
+          "medianSeedLegLy": 274.91398078363994,
+          "elapsedMs": 293
+        },
+        {
+          "seed": 240029,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1444.2539846443171,
+          "medianSeedLegLy": 285.7390346369825,
+          "elapsedMs": 304
+        },
+        {
+          "seed": 240030,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1668.7031994090248,
+          "medianSeedLegLy": 260.2060510917734,
+          "elapsedMs": 286
+        },
+        {
+          "seed": 240031,
+          "projectCount": 63,
+          "openSurfaceCount": 55,
+          "extentLy": 1456.5911432921048,
+          "medianSeedLegLy": 299.5901974224106,
+          "elapsedMs": 270
+        },
+        {
+          "seed": 240032,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1614.8365411219816,
+          "medianSeedLegLy": 258.7940755208024,
+          "elapsedMs": 286
+        },
+        {
+          "seed": 240033,
+          "projectCount": 63,
+          "openSurfaceCount": 56,
+          "extentLy": 1808.061601652474,
+          "medianSeedLegLy": 269.2821214695261,
+          "elapsedMs": 379
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 63,
+          "min": 63,
+          "max": 63
+        },
+        "openSurfaceCount": {
+          "median": 56,
+          "min": 55,
+          "max": 56
+        },
+        "extentLy": {
+          "median": 1542.765160081081,
+          "min": 1229.198794913916,
+          "max": 1808.061601652474
+        },
+        "medianSeedLegLy": {
+          "median": 273.372022882038,
+          "min": 258.7940755208024,
+          "max": 326.4557510992362
+        }
+      }
+    },
+    {
+      "id": "terraform-short",
+      "label": "地表工期 ×0.7",
+      "options": {
+        "terraformFactor": 0.7
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1523.9382717296692,
+          "medianSeedLegLy": 331.4996764793179,
+          "elapsedMs": 168
+        },
+        {
+          "seed": 240025,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1514.4719685396017,
+          "medianSeedLegLy": 243.78867824589216,
+          "elapsedMs": 152
+        },
+        {
+          "seed": 240026,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1360.883687095685,
+          "medianSeedLegLy": 284.261162027444,
+          "elapsedMs": 129
+        },
+        {
+          "seed": 240027,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1546.8903463393024,
+          "medianSeedLegLy": 285.4053054953315,
+          "elapsedMs": 131
+        },
+        {
+          "seed": 240028,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1119.795822954806,
+          "medianSeedLegLy": 285.15811508916823,
+          "elapsedMs": 137
+        },
+        {
+          "seed": 240029,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1267.453976472066,
+          "medianSeedLegLy": 253.44593643020704,
+          "elapsedMs": 134
+        },
+        {
+          "seed": 240030,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1505.4837407405041,
+          "medianSeedLegLy": 260.2210852404294,
+          "elapsedMs": 134
+        },
+        {
+          "seed": 240031,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1262.6551611817154,
+          "medianSeedLegLy": 299.08637787464045,
+          "elapsedMs": 133
+        },
+        {
+          "seed": 240032,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1139.4049703457147,
+          "medianSeedLegLy": 266.2991680098608,
+          "elapsedMs": 141
+        },
+        {
+          "seed": 240033,
+          "projectCount": 36,
+          "openSurfaceCount": 33,
+          "extentLy": 1414.7319138091686,
+          "medianSeedLegLy": 277.2945777635876,
+          "elapsedMs": 122
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 36,
+          "min": 36,
+          "max": 36
+        },
+        "openSurfaceCount": {
+          "median": 33,
+          "min": 33,
+          "max": 33
+        },
+        "extentLy": {
+          "median": 1387.8078004524268,
+          "min": 1119.795822954806,
+          "max": 1546.8903463393024
+        },
+        "medianSeedLegLy": {
+          "median": 280.7778698955158,
+          "min": 243.78867824589216,
+          "max": 331.4996764793179
+        }
+      }
+    },
+    {
+      "id": "terraform-long",
+      "label": "地表工期 ×1.3",
+      "options": {
+        "terraformFactor": 1.3
+      },
+      "runs": [
+        {
+          "seed": 240024,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1523.9382717296692,
+          "medianSeedLegLy": 331.4996764793179,
+          "elapsedMs": 117
+        },
+        {
+          "seed": 240025,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1514.4719685396017,
+          "medianSeedLegLy": 243.78867824589216,
+          "elapsedMs": 121
+        },
+        {
+          "seed": 240026,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1360.883687095685,
+          "medianSeedLegLy": 284.261162027444,
+          "elapsedMs": 122
+        },
+        {
+          "seed": 240027,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1546.8903463393024,
+          "medianSeedLegLy": 285.4053054953315,
+          "elapsedMs": 118
+        },
+        {
+          "seed": 240028,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1119.795822954806,
+          "medianSeedLegLy": 285.15811508916823,
+          "elapsedMs": 126
+        },
+        {
+          "seed": 240029,
+          "projectCount": 36,
+          "openSurfaceCount": 30,
+          "extentLy": 1267.453976472066,
+          "medianSeedLegLy": 253.44593643020704,
+          "elapsedMs": 118
+        },
+        {
+          "seed": 240030,
+          "projectCount": 36,
+          "openSurfaceCount": 31,
+          "extentLy": 1505.4837407405041,
+          "medianSeedLegLy": 260.2210852404294,
+          "elapsedMs": 139
+        },
+        {
+          "seed": 240031,
+          "projectCount": 36,
+          "openSurfaceCount": 30,
+          "extentLy": 1262.6551611817154,
+          "medianSeedLegLy": 299.08637787464045,
+          "elapsedMs": 166
+        },
+        {
+          "seed": 240032,
+          "projectCount": 36,
+          "openSurfaceCount": 30,
+          "extentLy": 1139.4049703457147,
+          "medianSeedLegLy": 266.2991680098608,
+          "elapsedMs": 136
+        },
+        {
+          "seed": 240033,
+          "projectCount": 36,
+          "openSurfaceCount": 30,
+          "extentLy": 1414.7319138091686,
+          "medianSeedLegLy": 277.2945777635876,
+          "elapsedMs": 122
+        }
+      ],
+      "summary": {
+        "projectCount": {
+          "median": 36,
+          "min": 36,
+          "max": 36
+        },
+        "openSurfaceCount": {
+          "median": 31,
+          "min": 30,
+          "max": 31
+        },
+        "extentLy": {
+          "median": 1387.8078004524268,
+          "min": 1119.795822954806,
+          "max": 1546.8903463393024
+        },
+        "medianSeedLegLy": {
+          "median": 280.7778698955158,
+          "min": 243.78867824589216,
+          "max": 331.4996764793179
+        }
+      }
+    }
+  ]
+}

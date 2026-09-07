@@ -19,6 +19,12 @@ The complete static site is approximately 450 MiB, so deployment requires checki
 
 ## Validation
 
+### Colonization research refresh — 2026-09-07
+
+Imported the updated map entry and space controller with the source colonization UI, renderer, model, input data, star catalogue, provenance, sensitivity results and Federation registry. The importer now includes these dependencies, and verification checks the UI's dynamically loaded scripts as well as the space controller's scripts.
+
+All 1,600 asset hashes, JavaScript syntax checks, five map dependency graphs and 1,601 HTTP resource checks passed, including the Razor and legacy entry points. The isolated .NET build passed with no warnings or errors. Interactive browser behavior was not rechecked for this refresh.
+
 ### Living atlas refresh — 2026-09-07
 
 The subsequent refresh includes settlement-display.js, revised living and astronomy data, and Federation documentation. All 1,587 resource hashes and 1,588 HTTP resource checks passed. The reader suite passed across five geographic views; both system and Federation views reached ready state without page errors. The isolated .NET build passed with no warnings or errors.

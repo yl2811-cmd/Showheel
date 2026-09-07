@@ -1,0 +1,24 @@
+.colonization-stage{position:relative;isolation:isolate;overflow:hidden;min-height:480px;height:100%;background:#02080e;color:#b9dce4;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;touch-action:none}
+.colonization-stage canvas.colonization-canvas{display:block;width:100%;height:100%;position:absolute;inset:0;outline:none;cursor:grab;touch-action:none}
+.colonization-stage canvas.colonization-canvas:active{cursor:grabbing}
+.colonization-stage canvas.colonization-canvas:focus-visible{outline:2px solid #96e2ec;outline-offset:-3px}
+.colonization-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
+.colonization-stage .colonization-label{position:absolute;left:0;top:0;max-width:205px;background:transparent!important;border:0!important;border-radius:2px!important;padding:3px!important;color:#d0dedb!important;line-height:1.3;font:11px/1.3 system-ui,"Microsoft YaHei",sans-serif!important;letter-spacing:.025em;text-shadow:0 1px 4px #000,0 0 8px #000;white-space:nowrap;pointer-events:auto;cursor:pointer;text-align:left!important;box-shadow:none!important;overflow:hidden;text-overflow:ellipsis}
+.colonization-stage .colonization-label[hidden]{display:none!important}
+.colonization-stage .colonization-label:hover,.colonization-stage .colonization-label:focus-visible{color:#f4ffff!important;outline:1px solid #79d8e777!important;background:#071b25d9!important}
+.colonization-stage .colonization-label.is-selected{color:#edfff8!important;background:#10293299!important;font-weight:650!important}
+.colonization-label small{display:block;font-size:9px;color:#7b9aa5;font-weight:400;margin-top:3px;letter-spacing:.07em}
+.colonization-label[data-stage="local-civilization"]{color:#e0bba9!important}
+.colonization-label[data-stage="deployment"] small{color:#c7ab80}
+.colonization-label[data-stage="residents"] small,.colonization-label[data-stage="autonomous"] small,.colonization-label[data-stage="handover"] small{color:#89bfaf}
+.colonization-label[data-stage="star"]{color:#7996a0!important}
+.colonization-caption{position:absolute;left:23px;top:65px;z-index:3;pointer-events:none;text-shadow:0 2px 8px #000;max-width:85%}
+.colonization-caption strong{display:block;color:#d9e5e2;font-weight:400;font-size:21px;letter-spacing:.15em}
+.colonization-caption span{display:block;color:#789faa;font-size:10px;letter-spacing:.1em;margin-top:9px;line-height:1.6}
+.colonization-hud{display:none}
+.colonization-scale{color:#aac4cc;font-variant-numeric:tabular-nums}
+.colonization-reticle{position:absolute;left:0;top:0;width:30px;height:30px;margin:-15px;border:1px solid #c7e9dd77;border-radius:50%;pointer-events:none;z-index:3;box-shadow:0 0 12px #79d8c329}
+.colonization-reticle[hidden]{display:none}
+.colonization-reticle:before,.colonization-reticle:after{content:"";position:absolute;inset:7px -3px;border-left:2px solid #c0eede;border-right:2px solid #c0eede}
+.colonization-reticle:after{inset:-3px 7px;border:0;border-top:2px solid #c0eede;border-bottom:2px solid #c0eede}
+@media(max-width:700px){.colonization-stage{min-height:420px}.colonization-caption{left:17px;top:61px}.colonization-caption strong{font-size:17px;letter-spacing:.1em}.colonization-caption span{font-size:9px;letter-spacing:.03em}.colonization-stage .colonization-label{font-size:10px!important;max-width:155px}.colonization-label small{font-size:8px}}

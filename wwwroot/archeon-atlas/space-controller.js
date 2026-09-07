@@ -5,6 +5,7 @@
  const localIds=['atheria','marneth','rimstone'];
  const original={search:$('search').oninput,zoomIn:$('zoom-in').onclick,zoomOut:$('zoom-out').onclick,reset:$('reset').onclick,scenic:$('scenic').onclick};
  let activeTab='world',localView='atheria',instance=null,epoch=3094,playing=false,loadToken=0,loaded=null,scenicSnapshot=null,engineType='base',savedFederationState=null,exposure=0,brightness=1;
+ let federationMode='canon',researchResult=null;
  const escape=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
  const sourceLabels={catalog:'真实恒星目录',canon:'正文明确',inferred:'制图推定',derived:'依正文数值推导',model:'制图推定','map-inference':'制图推定'};
  const statusLabels={'homeworld':'太阳系 · 出发之地','collapsed; light in transit':'源区已坍缩；爆发之光仍在途中','remnant':'Sky Fire 遗迹','Axiom destination':'Axiom 的目的地 · 先期居民已抵达','surface unconfirmed':'地表现况未确认 · 旧航线中断','terraform project':'地表与大气改造进行中','CI active':'CI 仍在运作','autonomous':'CI 已退出 · 当地自治','CI withdrawing':'CI 正在逐步退出','atmosphere development':'大气改造阶段','slow maturation':'漫长的地表准备阶段','early residents':'先期住民已抵达','not deployed':'此时尚未部署'};
@@ -26,6 +27,9 @@
   $('epoch-caption').textContent=epoch===2564?'Axiom 出发时的殖民网络。参宿四已在源区坍缩，地球当时尚不知情。':'地球首光重新聚拢关注。坍缩早已得到确认；Archeon 的地表近况仍未确认。';
   const scenic=cosmic?!!scenicSnapshot:app.isScenic();$('scenic').textContent=scenic?'恢复图层':'观景';$('scenic').setAttribute('aria-pressed',String(scenic));
   app.currentTab=activeTab;app.localView=localView;app.epoch=epoch;
+  const source=$('space-source');source.innerHTML='J2000 恒星参照 · HYG 4.1<br>600 光年是显示范围，不代表领土边界，也不是完整恒星普查。';
+  app.federationMode=federationMode;
+  window.ATLAS_COLONIZATION_UI?.update({mode:federationMode,tab:activeTab,epoch,state:app.spaceState});
  }
  function restoreSpaceScenic(){if(!scenicSnapshot)return;for(const [layer,value]of scenicSnapshot){const input=document.querySelector('[data-space-layer="'+layer+'"]');if(input)input.checked=value;instance?.setLayer(layer,value);}scenicSnapshot=null;}
  function onGeography(id){
@@ -50,6 +54,7 @@
  function updateState(state){
   if(!isSpace())return;
   const oldState=app.spaceState;app.spaceState=state;
+  if(state.domain==='colonization')window.ATLAS_COLONIZATION_UI?.update({mode:federationMode,tab:activeTab,epoch,state});
   if(['system','federation'].includes(state.scene)&&state.scene!==activeTab){activeTab=state.scene;syncInterface();const expectedEpoch=activeTab==='system'?3094:epoch;if(instance&&state.epoch!==expectedEpoch){instance.setEpoch(expectedEpoch);return;}}
   if(oldState?.domain!==state.domain||oldState?.systemId!==state.systemId)syncInterface();app.currentView=activeTab;app.ready=state.ready!==false;app.loadingView=app.ready?null:activeTab;
   $('space-stage').setAttribute('aria-busy',String(!app.ready));$('view-status').textContent=state.scaleLabel?'距焦点 · '+state.scaleLabel:(activeTab==='system'?'Archeon · AU / km':'Sol · 0–600 ly');$('zoom-status').textContent=state.focusName||state.focusId||'';
@@ -66,19 +71,28 @@
   if(['world','aethelgard'].includes(id))return app.setView(id);
   if(id==='local')return app.setView(localView);
   if(!['system','federation'].includes(id))return;
-  const token=++loadToken;restoreSpaceScenic();if(instance&&engineType==='terraform'){instance.dispose();instance=null;engineType='base';app.spaceState=null;}app.suspend();activeTab=id;playing=false;
+  const desiredEngine=id==='federation'&&federationMode==='research'?'research':'base';
+  const token=++loadToken;restoreSpaceScenic();if(instance&&engineType!==desiredEngine){instance.dispose();instance=null;app.spaceState=null;}engineType=desiredEngine;app.suspend();activeTab=id;playing=false;
   $('search').value='';$('search-results').replaceChildren();$('detail').hidden=true;syncInterface();app.currentView=id;app.ready=false;app.loadingView=id;$('space-stage').setAttribute('aria-busy','true');$('load-status').textContent='展开星空…';
   if(!instance)$('space-stage').innerHTML='<div class="space-loading">正在展开星空…</div>';
   try{
    await loadSpace();if(token!==loadToken)return;
+   if(desiredEngine==='research'){
+    if(!researchResult)researchResult=await window.ATLAS_COLONIZATION_UI.ensureResult();
+    if(!window.ATLAS_COLONIZATION_STARS)await loadScript('data/colonization-stars.js');
+    if(!window.ATLAS_COLONIZATION_VIEW)await loadScript('colonization-view.js');
+    if(token!==loadToken)return;
+   }
    if(!instance){
     $('space-stage').replaceChildren();let candidate=null;
-    candidate=await window.ATLAS_SPACE.create({container:$('space-stage'),onState:s=>{if(token===loadToken||candidate&&instance===candidate)updateState(s);},onSelect:o=>{if(token===loadToken||candidate&&instance===candidate)showObject(o);},onNavigate:destination=>{if(token!==loadToken&&instance!==candidate)return;if(destination==='surface')app.setView('world');else if(destination==='system'||destination==='federation')setTab(destination);else if(destination?.type==='colony-system')enterColonySystem(destination.id);}});
+    const engine=desiredEngine==='research'?window.ATLAS_COLONIZATION_VIEW:window.ATLAS_SPACE;
+    candidate=await engine.create({container:$('space-stage'),result:researchResult,epoch,onState:s=>{if(token===loadToken||candidate&&instance===candidate)updateState(s);},onSelect:(o,meta)=>{if(token===loadToken||candidate&&instance===candidate){if(meta?.reason==='time'&&$('detail').hidden)return;showObject(o);}},onNavigate:destination=>{if(token!==loadToken&&instance!==candidate)return;if(destination==='surface')app.setView('world');else if(destination==='system'||destination==='federation')setTab(destination);else if(destination?.type==='colony-system')enterColonySystem(destination.id);}});
     if(token!==loadToken){candidate?.dispose();return;}instance=candidate;
    }
    if(token!==loadToken)return;
    instance.setEpoch(id==='system'?3094:epoch);instance.setScene(id);instance.setPlaying(false);$('space-play').textContent='播放轨道';$('space-play').setAttribute('aria-pressed','false');
    document.querySelectorAll('[data-space-layer]').forEach(i=>instance.setLayer(i.dataset.spaceLayer,i.checked));
+   if(desiredEngine==='research')document.querySelectorAll('[data-colonization-layer]').forEach(i=>instance.setLayer(i.dataset.colonizationLayer,i.checked));
    instance.setExposure?.(exposure);instance.setBrightness?.(brightness);instance.resize();updateState(instance.getState());window.dispatchEvent(new CustomEvent('atlas-view-ready',{detail:{id}}));
   }catch(error){
    if(token!==loadToken)return;instance?.dispose();instance=null;app.ready=false;app.loadingView=null;app.spaceError=error.message;$('load-status').textContent='三维视图未能展开';$('space-stage').setAttribute('aria-busy','false');
@@ -88,6 +102,7 @@
   }
  }
  async function enterColonySystem(id){
+  if(engineType==='research')return;
   const node=window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===id);if(id==='archeon'){await setTab('system');instance?.focusObject('archeon');return;}if(!node?.terraformPlanet||node.epochs?.[String(epoch)]?.visible===false)return;
   const token=++loadToken;if(instance&&engineType==='base'&&activeTab==='federation')savedFederationState=instance.getState();
   restoreSpaceScenic();instance?.dispose();instance=null;engineType='terraform';activeTab='federation';app.spaceState=null;app.ready=false;app.loadingView='federation';$('detail').hidden=true;$('space-stage').replaceChildren();$('space-stage').innerHTML='<div class="space-loading">正在靠近 '+escape(node.name)+'…</div>';syncInterface();
@@ -99,7 +114,7 @@
  }
  async function returnToFederation(){const saved=savedFederationState;await setTab('federation');if(instance&&saved){if(instance.restoreState)instance.restoreState(saved);else instance.focusObject(saved.focusId||'sol');}}
  function resolveObject(object){if(typeof object==='string'){const data=window.ATLAS_ASTRONOMY,body=data?.systemBodies.find(n=>n.id===object),node=data?.nodes.find(n=>n.id===object)||data?.nebulae?.find(n=>n.id===object);if(object.startsWith('planet:')){const n=data?.nodes.find(n=>n.id===object.slice(7));if(n)return {...n.terraformPlanet,id:object,name:n.name,systemId:n.id,epochs:n.epochs,kind:'planet'};}if(object.startsWith('host:')){const n=data?.nodes.find(n=>n.id===object.slice(5));if(n)return {...n.hostStar,id:object,name:n.hostStar.name||n.name+' 主星',radiusKm:n.hostStar.radiusSolar*695700,kind:'star'};}return activeTab==='system'?(body||node):(node||body);}return object;}
- function showObject(value){if(value?.geometry){app.showFeature(value.id);return;}
+ function showObject(value){if(engineType==='research'&&activeTab==='federation'){window.ATLAS_COLONIZATION_UI.detail(value);return;}if(value?.geometry){app.showFeature(value.id);return;}
   const object=resolveObject(value);if(!object||!isSpace())return;
   const node=window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===object.id),body=window.ATLAS_ASTRONOMY?.systemBodies.find(n=>n.id===object.id),o=activeTab==='system'&&body?{...body}:{...(node||body),...object};
   const closeView=activeTab==='system'||app.spaceState?.domain==='planetary',currentEpoch=activeTab==='system'?3094:epoch,info=o.epochs?.[String(currentEpoch)]||{};
@@ -136,7 +151,29 @@
   if($('space-enter-colony'))$('space-enter-colony').onclick=()=>enterColonySystem(o.id);
   if($('space-surface'))$('space-surface').onclick=()=>app.setView('world');
  }
- function setEpoch(year){if(![2564,3094].includes(Number(year)))return;epoch=Number(year);const data=window.ATLAS_ASTRONOMY,current=data?.nodes.find(n=>n.id===app.spaceState?.systemId);if(engineType==='terraform'&&current?.epochs?.[String(epoch)]?.visible===false){savedFederationState=null;$('detail').hidden=true;return setTab('federation');}syncInterface();instance?.setEpoch(activeTab==='system'?3094:epoch);const selected=resolveObject(app.selectedFeature||'');if(selected?.epochs?.[String(epoch)]?.visible===false){$('detail').hidden=true;app.selectedFeature=null;}else if(!$('detail').hidden&&app.selectedFeature)showObject(app.selectedFeature);$('search-results').replaceChildren();}
+ function setEpoch(year){
+  year=Number(year);const research=activeTab==='federation'&&federationMode==='research';
+  if(!Number.isFinite(year)||(research?(year<2400||year>3094):![2564,3094].includes(year)))return;
+  epoch=year;
+  if(research){syncInterface();instance?.setEpoch(year);if(!$('detail').hidden&&app.selectedFeature){const selected=instance?.resolveObject?.(app.selectedFeature);if(selected)showObject(selected);else{$('detail').hidden=true;app.selectedFeature=null;}}$('search-results').replaceChildren();return;}
+  const data=window.ATLAS_ASTRONOMY,current=data?.nodes.find(n=>n.id===app.spaceState?.systemId);
+  if(engineType==='terraform'&&current?.epochs?.[String(epoch)]?.visible===false){savedFederationState=null;$('detail').hidden=true;return setTab('federation');}
+  syncInterface();instance?.setEpoch(activeTab==='system'?3094:epoch);const selected=resolveObject(app.selectedFeature||'');
+  if(selected?.epochs?.[String(epoch)]?.visible===false){$('detail').hidden=true;app.selectedFeature=null;}else if(!$('detail').hidden&&app.selectedFeature)showObject(app.selectedFeature);$('search-results').replaceChildren();
+ }
+ async function setFederationMode(mode){
+  if(!['canon','research'].includes(mode))return;
+  window.ATLAS_COLONIZATION_UI.setPlaying(false);
+  if(mode==='research'&&!researchResult)researchResult=await window.ATLAS_COLONIZATION_UI.ensureResult();
+  federationMode=mode;
+  if(mode==='canon'&&![2564,3094].includes(epoch))epoch=Math.abs(epoch-2564)<Math.abs(epoch-3094)?2564:3094;
+  await setTab('federation');
+  const params=new URLSearchParams(location.hash.slice(1));params.set('view','federation');params.set('mode',mode);params.set('epoch',String(epoch));history.replaceState(null,'','#'+params.toString());
+ }
+ async function replaceResearchResult(result){
+  researchResult=result;
+  if(engineType==='research'&&instance){$('detail').hidden=true;app.selectedFeature=null;instance.setResult(result);instance.setEpoch(epoch);updateState(instance.getState());}
+ }
  async function focusSettlement(id,view='globe'){if(view==='map'){await app.setTab('world');return app.selectFeature(id);}await setTab('system');instance?.focusSurface?.(id);return app.showFeature(id);}
  function focusObject(id){if(id.startsWith('planet:')&&engineType!=='terraform')return enterColonySystem(id.slice(7));if(instance){instance.focusObject(id);$('detail').hidden=true;return;}return setTab('system').then(()=>instance?.focusObject(id));}
  document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
@@ -157,10 +194,14 @@
  $('exposure-down').onclick=()=>setExposure(exposure-.25);$('exposure-up').onclick=()=>setExposure(exposure+.25);$('brightness-down').onclick=()=>setBrightness(brightness-.1);$('brightness-up').onclick=()=>setBrightness(brightness+.1);$('light-reset').onclick=()=>{setExposure(0);setBrightness(1);};
  $('space-capture').onclick=async()=>{if(!instance)return;try{const result=await instance.capturePng(),a=document.createElement('a');a.href=typeof result==='string'?result:URL.createObjectURL(result);a.download='archeon-'+activeTab+'-'+(activeTab==='system'?3094:epoch)+'.png';a.click();if(typeof result!=='string')setTimeout(()=>URL.revokeObjectURL(a.href),1000);}catch(error){$('load-status').textContent='保存失败：'+error.message;}};
  document.querySelectorAll('[data-living-focus]').forEach(b=>b.onclick=()=>focusSettlement(b.dataset.livingFocus));
- Object.assign(app,{focusSettlement,setTab,setEpoch,focusObject,setExposure,setBrightness,enterColonySystem,returnToFederation,getSpaceState:()=>instance?.getState()||null,spaceSearch:q=>instance?.search(q)||[],currentTab:activeTab,epoch,localView});
+ Object.assign(app,{focusSettlement,setTab,setEpoch,focusObject,setExposure,setBrightness,enterColonySystem,returnToFederation,setFederationMode,getColonizationResult:()=>researchResult,getSpaceState:()=>instance?.getState()||null,spaceSearch:q=>instance?.search(q)||[],currentTab:activeTab,epoch,localView});
+ window.ATLAS_COLONIZATION_UI.init({setMode:setFederationMode,setYear:setEpoch,replaceResult:replaceResearchResult,loadScript,focus:id=>instance?.focusObject(id),openSurface:()=>app.setView('world'),setLayer:(id,value)=>instance?.setLayer(id,value)});
  new ResizeObserver(()=>instance?.resize()).observe($('space-stage'));
  window.addEventListener('atlas-view-ready',event=>{if(!['system','federation'].includes(event.detail?.id)){activeTab=localIds.includes(event.detail.id)?'local':event.detail.id;syncInterface();}});
  if(matchMedia('(max-width:620px)').matches)$('space-layers-toggle').click();
  syncInterface();
- const query=new URLSearchParams(location.hash.slice(1));const initial=query.get('view');if(['system','federation','world','aethelgard','local'].includes(initial))setTab(initial).then(()=>{const year=Number(query.get('epoch'));if(year)setEpoch(year);if(query.get('focus'))instance?.focusObject(query.get('focus'));});
+ const query=new URLSearchParams(location.hash.slice(1));const initial=query.get('view');if(['system','federation','world','aethelgard','local'].includes(initial)){
+  const open=initial==='federation'&&query.get('mode')==='research'?setFederationMode('research'):setTab(initial);
+  open.then(()=>{const year=Number(query.get('epoch'));if(year)setEpoch(year);if(query.get('focus'))instance?.focusObject(query.get('focus'));}).catch(error=>{$('load-status').textContent=error.message;});
+ }
 })();

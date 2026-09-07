@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 1,
+  "warpBreakthroughYearApprox": 2400,
+  "seed": 240024,
+  "epochs": [
+    2564,
+    3094
+  ],
+  "scopeLy": 600,
+  "source": "User-approved Federation two-wave revision, 2026-09-07; years are story working values",
+  "projectCount3094": 24,
+  "lostProjectIds": [
+    "archeon"
+  ],
+  "spacingNote": "100–200 ly is a common route leg, not a measured volume density or a maximum warp range",
+  "projects": [
+    {
+      "id": "veldara",
+      "name": "Veldara · 韦达拉",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        44.69204405037522,
+        22.771733833592247,
+        36.442685642133334
+      ],
+      "milestones": {
+        "deploymentYear": 2420,
+        "relayReadyYear": 2440,
+        "surfaceReadyYear": 2550,
+        "firstResidentsYear": 2552,
+        "phase3Year": 2560,
+        "handoverYear": 2654
+      },
+      "forecast": {
+        "handoverTargetYear": 2654
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": 400000,
+      "developmentNote": "暖海岸上的首批造土试验较早稳定，海洋与缓冲气体储备减少了需要从远处取得的物质。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 550000000000000060,
+        "oxygenBoundToRockKg": 82499999999999940,
+        "oxygenGrossKg": 632500000000000000,
+        "waterProcessedKg": 711562500000000000,
+        "hydrogenSeparatedKg": 79062500000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 2.5190991661e+25,
+        "availableProcessEnergyJ": 3.400783874235e+25,
+        "projectYears": 130,
+        "meanProcessPowerTW": 6141,
+        "allocatedMeanPowerTW": 8290,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6300,
+        "gravityG": 0.96,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1234448770085911300,
+        "initialFreeOxygenKg": 684448770085911300,
+        "initialBufferNitrogenKg": 4063393868199458000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 62,
+        "speedC": 100,
+        "departureYear": 2418,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "karen",
+      "name": "Karen · 卡伦",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        -79.92174483254693,
+        -16.987891284275012,
+        -23.429175244444927
+      ],
+      "milestones": {
+        "deploymentYear": 2428,
+        "relayReadyYear": 2454,
+        "surfaceReadyYear": 2595,
+        "firstResidentsYear": 2598,
+        "phase3Year": 2608,
+        "handoverYear": 2718
+      },
+      "forecast": {
+        "handoverTargetYear": 2658
+      },
+      "originalHandoverTargetYear": 2658,
+      "population3094": 250000,
+      "developmentNote": "火山活动反复改变地面进度；实际交接比原定2658年晚60年。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 595000000000000100,
+        "oxygenBoundToRockKg": 190400000000000130,
+        "oxygenGrossKg": 785400000000000300,
+        "waterProcessedKg": 883575000000000300,
+        "hydrogenSeparatedKg": 98175000000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.287787196588126e+25,
+        "availableProcessEnergyJ": 4.4385127153939704e+25,
+        "projectYears": 167,
+        "meanProcessPowerTW": 6239,
+        "allocatedMeanPowerTW": 8423,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6550,
+        "gravityG": 1.05,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1219990661538023400,
+        "initialFreeOxygenKg": 624990661538023300,
+        "initialBufferNitrogenKg": 4015802594229328000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 85,
+        "speedC": 100,
+        "departureYear": 2426,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "thessaly",
+      "name": "Thessaly · 忒萨利",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        46.30107856442375,
+        -33.63970266957127,
+        91.58919438489401
+      ],
+      "milestones": {
+        "deploymentYear": 2438,
+        "relayReadyYear": 2460,
+        "surfaceReadyYear": 2872,
+        "firstResidentsYear": 2875,
+        "phase3Year": 2883,
+        "handoverYear": 2968
+      },
+      "forecast": {
+        "handoverTargetYear": 2968
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": 80000,
+      "developmentNote": "大气氧的积累和海洋循环经历数百年检验，完成交接以后仍保留定期来往。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 640000000000000000,
+        "oxygenBoundToRockKg": 307200000000000000,
+        "oxygenGrossKg": 947200000000000000,
+        "waterProcessedKg": 1065600000000000000,
+        "hydrogenSeparatedKg": 118400000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.7213867388159996e+25,
+        "availableProcessEnergyJ": 5.023872097401599e+25,
+        "projectYears": 434,
+        "meanProcessPowerTW": 2718,
+        "allocatedMeanPowerTW": 3669,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6200,
+        "gravityG": 0.94,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1221008622495036400,
+        "initialFreeOxygenKg": 581008622495036400,
+        "initialBufferNitrogenKg": 4019153382379495400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 108.00000000000001,
+        "speedC": 100,
+        "departureYear": 2435,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "mirren",
+      "name": "Mirren · 米伦",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        11.852513916203689,
+        -44.23418413268942,
+        -28.615640268593065
+      ],
+      "milestones": {
+        "deploymentYear": 2442,
+        "relayReadyYear": 2468,
+        "surfaceReadyYear": 2998,
+        "firstResidentsYear": 3004,
+        "phase3Year": 3014,
+        "handoverYear": null
+      },
+      "forecast": {
+        "handoverTargetYear": 3110
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": null,
+      "developmentNote": "多孔玄武岩持续消耗游离氧，深水翻混又带出还原性物质；重新核定的吸氧负担使开放地表比同批项目更晚。住民已在露天下生活，部分流域仍由CI陪同交接。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 685000000000000000,
+        "oxygenBoundToRockKg": 582250000000000000,
+        "oxygenGrossKg": 1267250000000000000,
+        "waterProcessedKg": 1425656250000000000,
+        "hydrogenSeparatedKg": 158406250000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.841018776267657e+25,
+        "availableProcessEnergyJ": 6.535375347961337e+25,
+        "projectYears": 556,
+        "meanProcessPowerTW": 2760,
+        "allocatedMeanPowerTW": 3725,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6050,
+        "gravityG": 0.89,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1227959230745773300,
+        "initialFreeOxygenKg": 542959230745773300,
+        "initialBufferNitrogenKg": 4042032467871504400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 53.99999999999999,
+        "speedC": 100,
+        "departureYear": 2440,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "mid-01",
+      "name": "中程 01",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        -79.4158659441381,
+        -146.26582978504948,
+        54.077974015615794
+      ],
+      "milestones": {
+        "deploymentYear": 2455,
+        "relayReadyYear": 2481,
+        "surfaceReadyYear": 2830,
+        "firstResidentsYear": 2833,
+        "phase3Year": 2841,
+        "handoverYear": 2927
+      },
+      "forecast": {
+        "handoverTargetYear": 2927
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": null,
+      "developmentNote": "干燥大陆的表土与海风盐分分区处理，先形成的轨道制造设施很早便能为其他项目准备设备。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 730000000000000000,
+        "oxygenBoundToRockKg": 219000000000000000,
+        "oxygenGrossKg": 949000000000000000,
+        "waterProcessedKg": 1067625000000000000,
+        "hydrogenSeparatedKg": 118625000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.8667497488879042e+25,
+        "availableProcessEnergyJ": 5.2201121609986715e+25,
+        "projectYears": 375,
+        "meanProcessPowerTW": 3268,
+        "allocatedMeanPowerTW": 4412,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6400,
+        "gravityG": 1.003497560049522,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1218728122054881000,
+        "initialFreeOxygenKg": 488728122054881000,
+        "initialBufferNitrogenKg": 4011646735097316400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 175,
+        "speedC": 100,
+        "departureYear": 2452,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "mid-02",
+      "name": "中程 02",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        4.177982555547417,
+        198.28704462880816,
+        25.78356829724273
+      ],
+      "milestones": {
+        "deploymentYear": 2462,
+        "relayReadyYear": 2488,
+        "surfaceReadyYear": 2870,
+        "firstResidentsYear": 2873,
+        "phase3Year": 2881,
+        "handoverYear": 2971
+      },
+      "forecast": {
+        "handoverTargetYear": 2971
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": null,
+      "developmentNote": "旧线约200光年的基地持续运作；2894年的本地首光照到已经能够露天生活的海岸。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 775000000000000000,
+        "oxygenBoundToRockKg": 348750000000000000,
+        "oxygenGrossKg": 1123750000000000000,
+        "waterProcessedKg": 1264218750000000000,
+        "hydrogenSeparatedKg": 140468750000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.49680890334824e+25,
+        "availableProcessEnergyJ": 6.070692019520125e+25,
+        "projectYears": 408,
+        "meanProcessPowerTW": 3493,
+        "allocatedMeanPowerTW": 4715,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6250,
+        "gravityG": 0.9799780859858611,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1190164181694219800,
+        "initialFreeOxygenKg": 415164181694219800,
+        "initialBufferNitrogenKg": 3917623764743473700,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 200,
+        "speedC": 100,
+        "departureYear": 2459,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "mid-03",
+      "name": "中程 03",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        107.3365728840007,
+        96.64628432582408,
+        -191.6725224113503
+      ],
+      "milestones": {
+        "deploymentYear": 2478,
+        "relayReadyYear": 2508,
+        "surfaceReadyYear": 2938,
+        "firstResidentsYear": 2941,
+        "phase3Year": 2949,
+        "handoverYear": 3039
+      },
+      "forecast": {
+        "handoverTargetYear": 3039
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": null,
+      "developmentNote": "寒冷盆地先保留封闭住处，融水、土层和气候逐步稳定以后才扩大人居范围。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 820000000000000000,
+        "oxygenBoundToRockKg": 410000000000000000,
+        "oxygenGrossKg": 1230000000000000000,
+        "waterProcessedKg": 1383750000000000000,
+        "hydrogenSeparatedKg": 153750000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 5.19751978876616e+25,
+        "availableProcessEnergyJ": 7.0166517148343165e+25,
+        "projectYears": 460,
+        "meanProcessPowerTW": 3581,
+        "allocatedMeanPowerTW": 4834,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6700,
+        "gravityG": 1.0505365081768434,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1275856002776203300,
+        "initialFreeOxygenKg": 455856002776203260,
+        "initialBufferNitrogenKg": 4199692675805003000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 240.00000000000003,
+        "speedC": 100,
+        "departureYear": 2474,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      }
+    },
+    {
+      "id": "mid-04",
+      "name": "中程 04",
+      "wave": 1,
+      "sponsorNodeId": "sol",
+      "positionLy": [
+        72.5,
+        -125.5736835487436,
+        251.14736709748718
+      ],
+      "milestones": {
+        "deploymentYear": 2496,
+        "relayReadyYear": 2528,
+        "surfaceReadyYear": 2988,
+        "firstResidentsYear": 2992,
+        "phase3Year": 3000,
+        "handoverYear": null
+      },
+      "forecast": {
+        "handoverTargetYear": 3098
+      },
+      "originalHandoverTargetYear": null,
+      "population3094": null,
+      "developmentNote": "第一轮后段伸至290光年的世界；开放地表已完成，CI仍与住民共同核对最后几处流域的交接。",
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 865000000000000000,
+        "oxygenBoundToRockKg": 363300000000000000,
+        "oxygenGrossKg": 1228300000000000000,
+        "waterProcessedKg": 1381837500000000000,
+        "hydrogenSeparatedKg": 153537500000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.827707082333297e+25,
+        "availableProcessEnergyJ": 6.517404561149952e+25,
+        "projectYears": 492,
+        "meanProcessPowerTW": 3110,
+        "allocatedMeanPowerTW": 4198,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6100,
+        "gravityG": 0.9564586119222007,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1161600241333558300,
+        "initialFreeOxygenKg": 296600241333558300,
+        "initialBufferNitrogenKg": 3823600794389630000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 290,
+        "speedC": 100,
+        "departureYear": 2492,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "The 290 ly distance is retained; sky direction moved away from the Archeon branch following user clarification."
+    },
+    {
+      "id": "out-01",
+      "name": "Project 01",
+      "wave": 2,
+      "sponsorNodeId": "mid-01",
+      "positionLy": [
+        9.573331764,
+        -305.309504448,
+        18.743082578
+      ],
+      "milestones": {
+        "deploymentYear": 2688,
+        "relayReadyYear": 2710,
+        "surfaceReadyYear": 3088,
+        "firstResidentsYear": 3088,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3088,
+        "phase3TargetYear": 3098,
+        "handoverTargetYear": 3183
+      },
+      "population3094": null,
+      "developmentNote": "第一批露天住处已有人抵达；先期驻留者正在经历当地完整的季节，尚未开始CI退出。",
+      "visualSeed": 276720,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 660000000000000000,
+        "oxygenBoundToRockKg": 198000000000000000,
+        "oxygenGrossKg": 858000000000000000,
+        "waterProcessedKg": 965250000000000000,
+        "hydrogenSeparatedKg": 107250000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.3610486262925004e+25,
+        "availableProcessEnergyJ": 4.5374156454948755e+25,
+        "projectYears": 400,
+        "meanProcessPowerTW": 2663,
+        "allocatedMeanPowerTW": 3595,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6150,
+        "gravityG": 0.94,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1201394345065518300,
+        "initialFreeOxygenKg": 541394345065518340,
+        "initialBufferNitrogenKg": 3954589719173998600,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 185.64084225175404,
+        "speedC": 100,
+        "departureYear": 2685,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-02",
+      "name": "Project 02",
+      "wave": 2,
+      "sponsorNodeId": "mid-02",
+      "positionLy": [
+        -166.579290127,
+        207.932017494,
+        -190.283971965
+      ],
+      "milestones": {
+        "deploymentYear": 2701,
+        "relayReadyYear": 2726,
+        "surfaceReadyYear": 3090,
+        "firstResidentsYear": 3090,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3090,
+        "phase3TargetYear": 3100,
+        "handoverTargetYear": 3185
+      },
+      "population3094": null,
+      "developmentNote": "在另一方向通过筛选的较远目标；首个接续航段超出常见100–200光年范围。先期住民已抵达，沿Archeon方向的勘测仍未取得可落地的近邻目标。",
+      "visualSeed": 284639,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 715000000000000100,
+        "oxygenBoundToRockKg": 214500000000000130,
+        "oxygenGrossKg": 929500000000000300,
+        "waterProcessedKg": 1045687500000000300,
+        "hydrogenSeparatedKg": 116187500000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.818337077858876e+25,
+        "availableProcessEnergyJ": 5.154755055109483e+25,
+        "projectYears": 389,
+        "meanProcessPowerTW": 3111,
+        "allocatedMeanPowerTW": 4200,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6430,
+        "gravityG": 1.02,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1210277555865605400,
+        "initialFreeOxygenKg": 495277555865605250,
+        "initialBufferNitrogenKg": 3983830288057617400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 275.56533459513383,
+        "speedC": 100,
+        "departureYear": 2697,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-03",
+      "name": "Project 03",
+      "wave": 2,
+      "sponsorNodeId": "mid-03",
+      "positionLy": [
+        28.347597433,
+        -1.205814893,
+        -343.80072371
+      ],
+      "milestones": {
+        "deploymentYear": 2717,
+        "relayReadyYear": 2745,
+        "surfaceReadyYear": 3089,
+        "firstResidentsYear": 3089,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3089,
+        "phase3TargetYear": 3099,
+        "handoverTargetYear": 3184
+      },
+      "population3094": null,
+      "developmentNote": "第一批露天住处已有人抵达；先期驻留者正在经历当地完整的季节，尚未开始CI退出。",
+      "visualSeed": 292558,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 770000000000000000,
+        "oxygenBoundToRockKg": 231000000000000000,
+        "oxygenGrossKg": 1001000000000000000,
+        "waterProcessedKg": 1126125000000000000,
+        "hydrogenSeparatedKg": 125125000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.9974481832285e+25,
+        "availableProcessEnergyJ": 5.396555047358475e+25,
+        "projectYears": 372,
+        "meanProcessPowerTW": 3406,
+        "allocatedMeanPowerTW": 4597,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6280,
+        "gravityG": 0.97,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1213977838537062700,
+        "initialFreeOxygenKg": 443977838537062660,
+        "initialBufferNitrogenKg": 3996010385184498700,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 197.3759894077592,
+        "speedC": 100,
+        "departureYear": 2714,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-04",
+      "name": "Project 04",
+      "wave": 2,
+      "sponsorNodeId": "mid-04",
+      "positionLy": [
+        118.162662604,
+        -40.70596585,
+        360.914683148
+      ],
+      "milestones": {
+        "deploymentYear": 2696,
+        "relayReadyYear": 2727,
+        "surfaceReadyYear": 3091,
+        "firstResidentsYear": 3091,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3091,
+        "phase3TargetYear": 3101,
+        "handoverTargetYear": 3186
+      },
+      "population3094": null,
+      "developmentNote": "第一批露天住处已有人抵达；先期驻留者正在经历当地完整的季节，尚未开始CI退出。",
+      "visualSeed": 300477,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 825000000000000100,
+        "oxygenBoundToRockKg": 247500000000000130,
+        "oxygenGrossKg": 1072500000000000300,
+        "waterProcessedKg": 1206562500000000300,
+        "hydrogenSeparatedKg": 134062500000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.498486478557501e+25,
+        "availableProcessEnergyJ": 6.072956746052627e+25,
+        "projectYears": 395,
+        "meanProcessPowerTW": 3609,
+        "allocatedMeanPowerTW": 4872,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6520,
+        "gravityG": 1.06,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1197436609098477800,
+        "initialFreeOxygenKg": 372436609098477700,
+        "initialBufferNitrogenKg": 3941562171615824000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 146.0700925460566,
+        "speedC": 100,
+        "departureYear": 2693,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-05",
+      "name": "Project 05",
+      "wave": 2,
+      "sponsorNodeId": "out-01",
+      "positionLy": [
+        125.262957155,
+        -404.933812737,
+        -7.71153179
+      ],
+      "milestones": {
+        "deploymentYear": 2808,
+        "relayReadyYear": 2830,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3180,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道泊位已为下一批部署准备过设备；地面的水循环、氧与土层仍在连续观测中。",
+      "visualSeed": 308396,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 660000000000000000,
+        "oxygenBoundToRockKg": 264000000000000000,
+        "oxygenGrossKg": 924000000000000000,
+        "waterProcessedKg": 1039500000000000000,
+        "hydrogenSeparatedKg": 115500000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.619590828315e+25,
+        "availableProcessEnergyJ": 4.88644761822525e+25,
+        "projectYears": 372,
+        "meanProcessPowerTW": 3084,
+        "allocatedMeanPowerTW": 4163,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6150,
+        "gravityG": 0.94,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1201394345065518300,
+        "initialFreeOxygenKg": 541394345065518340,
+        "initialBufferNitrogenKg": 3954589719173998600,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 154.94818116561166,
+        "speedC": 200,
+        "departureYear": 2806,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-06",
+      "name": "Project 06",
+      "wave": 2,
+      "sponsorNodeId": "out-02",
+      "positionLy": [
+        -196.068400329,
+        148.930069356,
+        -312.723267391
+      ],
+      "milestones": {
+        "deploymentYear": 2836,
+        "relayReadyYear": 2861,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3188,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道泊位已为下一批部署准备过设备；地面的水循环、氧与土层仍在连续观测中。",
+      "visualSeed": 316315,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 715000000000000100,
+        "oxygenBoundToRockKg": 286000000000000000,
+        "oxygenGrossKg": 1001000000000000100,
+        "waterProcessedKg": 1126125000000000100,
+        "hydrogenSeparatedKg": 125125000000000020,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.1120553146172504e+25,
+        "availableProcessEnergyJ": 5.551274674733289e+25,
+        "projectYears": 352,
+        "meanProcessPowerTW": 3702,
+        "allocatedMeanPowerTW": 4998,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6430,
+        "gravityG": 1.02,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1210277555865605400,
+        "initialFreeOxygenKg": 495277555865605250,
+        "initialBufferNitrogenKg": 3983830288057617400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 139.07630484378078,
+        "speedC": 200,
+        "departureYear": 2834,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-07",
+      "name": "Project 07",
+      "wave": 2,
+      "sponsorNodeId": "out-03",
+      "positionLy": [
+        24.960393862,
+        113.435613205,
+        -451.326777838
+      ],
+      "milestones": {
+        "deploymentYear": 2853,
+        "relayReadyYear": 2881,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3196,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道泊位已为下一批部署准备过设备；地面的水循环、氧与土层仍在连续观测中。",
+      "visualSeed": 324234,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 770000000000000000,
+        "oxygenBoundToRockKg": 307999999999999900,
+        "oxygenGrossKg": 1077999999999999900,
+        "waterProcessedKg": 1212749999999999700,
+        "hydrogenSeparatedKg": 134749999999999980,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.304944197323e+25,
+        "availableProcessEnergyJ": 5.811674666386051e+25,
+        "projectYears": 343,
+        "meanProcessPowerTW": 3978,
+        "allocatedMeanPowerTW": 5370,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6280,
+        "gravityG": 0.97,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1213977838537062700,
+        "initialFreeOxygenKg": 443977838537062660,
+        "initialBufferNitrogenKg": 3996010385184498700,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 157.2131753407388,
+        "speedC": 200,
+        "departureYear": 2851,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-08",
+      "name": "Project 08",
+      "wave": 2,
+      "sponsorNodeId": "out-04",
+      "positionLy": [
+        190.981670968,
+        -139.569626221,
+        381.679882302
+      ],
+      "milestones": {
+        "deploymentYear": 2819,
+        "relayReadyYear": 2850,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3204,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道泊位已为下一批部署准备过设备；地面的水循环、氧与土层仍在连续观测中。",
+      "visualSeed": 332153,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 825000000000000100,
+        "oxygenBoundToRockKg": 329999999999999900,
+        "oxygenGrossKg": 1155000000000000000,
+        "waterProcessedKg": 1299375000000000000,
+        "hydrogenSeparatedKg": 144375000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.8445238999850005e+25,
+        "availableProcessEnergyJ": 6.540107264979751e+25,
+        "projectYears": 385,
+        "meanProcessPowerTW": 3988,
+        "allocatedMeanPowerTW": 5383,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6520,
+        "gravityG": 1.06,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1197436609098477800,
+        "initialFreeOxygenKg": 372436609098477700,
+        "initialBufferNitrogenKg": 3941562171615824000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 124.53041723600712,
+        "speedC": 200,
+        "departureYear": 2817,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-09",
+      "name": "Project 09",
+      "wave": 2,
+      "sponsorNodeId": "out-05",
+      "positionLy": [
+        237.328319353,
+        -444.247897117,
+        -58.222262903
+      ],
+      "milestones": {
+        "deploymentYear": 2908,
+        "relayReadyYear": 2930,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3290,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道储备和精密舱已经成形，地表仍有大片裸露岩面，培养平台沿不同海岸展开。",
+      "visualSeed": 340072,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 660000000000000000,
+        "oxygenBoundToRockKg": 330000000000000000,
+        "oxygenGrossKg": 990000000000000000,
+        "waterProcessedKg": 1113750000000000000,
+        "hydrogenSeparatedKg": 123750000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 3.8781330303375e+25,
+        "availableProcessEnergyJ": 5.235479590955625e+25,
+        "projectYears": 382,
+        "meanProcessPowerTW": 3218,
+        "allocatedMeanPowerTW": 4343,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6150,
+        "gravityG": 0.94,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1201394345065518300,
+        "initialFreeOxygenKg": 541394345065518340,
+        "initialBufferNitrogenKg": 3954589719173998600,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 129.05648605465933,
+        "speedC": 300,
+        "departureYear": 2906,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-10",
+      "name": "Project 10",
+      "wave": 2,
+      "sponsorNodeId": "out-06",
+      "positionLy": [
+        -308.704023143,
+        220.336424342,
+        -297.385532168
+      ],
+      "milestones": {
+        "deploymentYear": 2917,
+        "relayReadyYear": 2942,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3298,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道储备和精密舱已经成形，地表仍有大片裸露岩面，培养平台沿不同海岸展开。",
+      "visualSeed": 347991,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 715000000000000100,
+        "oxygenBoundToRockKg": 357500000000000100,
+        "oxygenGrossKg": 1072500000000000300,
+        "waterProcessedKg": 1206562500000000300,
+        "hydrogenSeparatedKg": 134062500000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.405773551375626e+25,
+        "availableProcessEnergyJ": 5.947794294357095e+25,
+        "projectYears": 381,
+        "meanProcessPowerTW": 3665,
+        "allocatedMeanPowerTW": 4947,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6430,
+        "gravityG": 1.02,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1210277555865605400,
+        "initialFreeOxygenKg": 495277555865605250,
+        "initialBufferNitrogenKg": 3983830288057617400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 134.2419352544322,
+        "speedC": 300,
+        "departureYear": 2915,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-11",
+      "name": "Project 11",
+      "wave": 2,
+      "sponsorNodeId": "out-07",
+      "positionLy": [
+        67.40944556,
+        44.819166498,
+        -536.993455291
+      ],
+      "milestones": {
+        "deploymentYear": 2942,
+        "relayReadyYear": 2970,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3306,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道储备和精密舱已经成形，地表仍有大片裸露岩面，培养平台沿不同海岸展开。",
+      "visualSeed": 355910,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 770000000000000000,
+        "oxygenBoundToRockKg": 385000000000000000,
+        "oxygenGrossKg": 1155000000000000000,
+        "waterProcessedKg": 1299375000000000000,
+        "hydrogenSeparatedKg": 144375000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.6124402114175e+25,
+        "availableProcessEnergyJ": 6.2267942854136254e+25,
+        "projectYears": 364,
+        "meanProcessPowerTW": 4016,
+        "allocatedMeanPowerTW": 5421,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6280,
+        "gravityG": 0.97,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1213977838537062700,
+        "initialFreeOxygenKg": 443977838537062660,
+        "initialBufferNitrogenKg": 3996010385184498700,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 117.68142748365348,
+        "speedC": 400,
+        "departureYear": 2940,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-12",
+      "name": "Project 12",
+      "wave": 2,
+      "sponsorNodeId": "out-08",
+      "positionLy": [
+        51.919465135,
+        -255.764594549,
+        463.600532092
+      ],
+      "milestones": {
+        "deploymentYear": 2928,
+        "relayReadyYear": 2959,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3314,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "轨道储备和精密舱已经成形，地表仍有大片裸露岩面，培养平台沿不同海岸展开。",
+      "visualSeed": 363829,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 825000000000000100,
+        "oxygenBoundToRockKg": 412500000000000100,
+        "oxygenGrossKg": 1237500000000000300,
+        "waterProcessedKg": 1392187500000000300,
+        "hydrogenSeparatedKg": 154687500000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 5.1905613214125015e+25,
+        "availableProcessEnergyJ": 7.0072577839068776e+25,
+        "projectYears": 386,
+        "meanProcessPowerTW": 4262,
+        "allocatedMeanPowerTW": 5753,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6520,
+        "gravityG": 1.06,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1197436609098477800,
+        "initialFreeOxygenKg": 372436609098477700,
+        "initialBufferNitrogenKg": 3941562171615824000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 198.8732275041073,
+        "speedC": 300,
+        "departureYear": 2926,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-13",
+      "name": "Project 13",
+      "wave": 2,
+      "sponsorNodeId": "out-09",
+      "positionLy": [
+        307.44344305,
+        -471.938836585,
+        -158.200419974
+      ],
+      "milestones": {
+        "deploymentYear": 2990,
+        "relayReadyYear": 3012,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3400,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "新一批抵达的设备正在扩建；中继能力已经取得验证，开放地表仍是数百年后的目标。",
+      "visualSeed": 371748,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 660000000000000000,
+        "oxygenBoundToRockKg": 396000000000000000,
+        "oxygenGrossKg": 1056000000000000000,
+        "waterProcessedKg": 1188000000000000000,
+        "hydrogenSeparatedKg": 132000000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.13667523236e+25,
+        "availableProcessEnergyJ": 5.584511563686001e+25,
+        "projectYears": 410,
+        "meanProcessPowerTW": 3198,
+        "allocatedMeanPowerTW": 4317,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6150,
+        "gravityG": 0.94,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1201394345065518300,
+        "initialFreeOxygenKg": 541394345065518340,
+        "initialBufferNitrogenKg": 3954589719173998600,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 125.21401914713701,
+        "speedC": 400,
+        "departureYear": 2988,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-14",
+      "name": "Project 14",
+      "wave": 2,
+      "sponsorNodeId": "out-10",
+      "positionLy": [
+        -301.003247795,
+        160.954930036,
+        -457.667332936
+      ],
+      "milestones": {
+        "deploymentYear": 3022,
+        "relayReadyYear": 3047,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3408,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "新一批抵达的设备正在扩建；中继能力已经取得验证，开放地表仍是数百年后的目标。",
+      "visualSeed": 379667,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 715000000000000100,
+        "oxygenBoundToRockKg": 429000000000000100,
+        "oxygenGrossKg": 1144000000000000300,
+        "waterProcessedKg": 1287000000000000300,
+        "hydrogenSeparatedKg": 143000000000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.699491788134001e+25,
+        "availableProcessEnergyJ": 6.344313913980902e+25,
+        "projectYears": 386,
+        "meanProcessPowerTW": 3858,
+        "allocatedMeanPowerTW": 5209,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6430,
+        "gravityG": 1.02,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1210277555865605400,
+        "initialFreeOxygenKg": 495277555865605250,
+        "initialBufferNitrogenKg": 3983830288057617400,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 171.10148878489252,
+        "speedC": 500,
+        "departureYear": 3020,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-15",
+      "name": "Project 15",
+      "wave": 2,
+      "sponsorNodeId": "out-11",
+      "positionLy": [
+        -32.601015202,
+        -11.478752842,
+        -593.040921231
+      ],
+      "milestones": {
+        "deploymentYear": 3005,
+        "relayReadyYear": 3033,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3416,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "新一批抵达的设备正在扩建；中继能力已经取得验证，开放地表仍是数百年后的目标。",
+      "visualSeed": 387586,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 770000000000000000,
+        "oxygenBoundToRockKg": 462000000000000000,
+        "oxygenGrossKg": 1232000000000000000,
+        "waterProcessedKg": 1386000000000000000,
+        "hydrogenSeparatedKg": 154000000000000000,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 4.919936225512e+25,
+        "availableProcessEnergyJ": 6.6419139044412e+25,
+        "projectYears": 411,
+        "meanProcessPowerTW": 3794,
+        "allocatedMeanPowerTW": 5121,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6280,
+        "gravityG": 0.97,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1213977838537062700,
+        "initialFreeOxygenKg": 443977838537062660,
+        "initialBufferNitrogenKg": 3996010385184498700,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 127.7218322063074,
+        "speedC": 500,
+        "departureYear": 3003,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    },
+    {
+      "id": "out-16",
+      "name": "Project 16",
+      "wave": 2,
+      "sponsorNodeId": "out-12",
+      "positionLy": [
+        81.48029118,
+        -167.219161879,
+        551.434271252
+      ],
+      "milestones": {
+        "deploymentYear": 3041,
+        "relayReadyYear": 3072,
+        "surfaceReadyYear": null,
+        "firstResidentsYear": null,
+        "phase3Year": null,
+        "handoverYear": null
+      },
+      "forecast": {
+        "surfaceTargetYear": 3424,
+        "phase3TargetYear": null,
+        "handoverTargetYear": null
+      },
+      "population3094": null,
+      "developmentNote": "新一批抵达的设备正在扩建；中继能力已经取得验证，开放地表仍是数百年后的目标。",
+      "visualSeed": 395505,
+      "engineering": {
+        "basis": "fictional resource and energy budget; not a climate simulation",
+        "oxygenSource": "local water; selected worlds retain substantial nitrogen and water inventories",
+        "oxygenRetainedKg": 825000000000000100,
+        "oxygenBoundToRockKg": 495000000000000100,
+        "oxygenGrossKg": 1320000000000000300,
+        "waterProcessedKg": 1485000000000000300,
+        "hydrogenSeparatedKg": 165000000000000030,
+        "hydrogenDestination": "removed from the atmosphere; accounted export beyond the planetary gravity well, without returning it to surface oxygen",
+        "electrolysisSpecificJPerKgO2": 25000000,
+        "hydrogenLiftEfficiency": 0.5,
+        "totalProcessEnergyJ": 5.536598742840001e+25,
+        "availableProcessEnergyJ": 7.474408302834001e+25,
+        "projectYears": 383,
+        "meanProcessPowerTW": 4581,
+        "allocatedMeanPowerTW": 6185,
+        "powerNote": "distributed solar collection and fusion; process allowance is separate from basic construction, climate control and warp energy",
+        "thermalNote": "orbital collection, external radiators and exported chemical energy require a separate heat balance; surface waste heat is not assumed harmless",
+        "radiusKm": 6520,
+        "gravityG": 1.06,
+        "targetSurfacePressurePa": 100000,
+        "targetOxygenMoleFraction": 0.21,
+        "targetFreeOxygenKg": 1197436609098477800,
+        "initialFreeOxygenKg": 372436609098477700,
+        "initialBufferNitrogenKg": 3941562171615824000,
+        "retainedOxygenIsNetAddition": true,
+        "localWaterInventoryKg": 1e+21,
+        "initialConditionsNote": "fictional selection assumptions: pre-existing nitrogen, water and partial abiotic oxygen; no claim of observed exoplanet atmospheres"
+      },
+      "deploymentLeg": {
+        "distanceLy": 128.17527771769088,
+        "speedC": 500,
+        "departureYear": 3039,
+        "handlingAllowanceYears": 1,
+        "assumption": "deployment planning speed by generation; 31st-century cruise about 500c; handling time is additional"
+      },
+      "positionRevision": "Later branch lies behind the outward plane through intermediate 02; fixed fictional placement, not a physical exclusion region."
+    }
+  ],
+  "cruiseSpeedC3094": 500,
+  "warpProgression": [
+    {
+      "fromYear": 2400,
+      "speedC": null,
+      "note": "breakthrough and experimental craft"
+    },
+    {
+      "fromYear": 2564,
+      "speedC": 100,
+      "note": "Axiom generation"
+    },
+    {
+      "fromYear": 2800,
+      "speedC": 200
+    },
+    {
+      "fromYear": 2880,
+      "speedC": 300
+    },
+    {
+      "fromYear": 2940,
+      "speedC": 400
+    },
+    {
+      "fromYear": 3000,
+      "speedC": 500
+    }
+  ],
+  "isolation": {
+    "lastOperatingRelayId": "mid-02",
+    "forwardDirection": [
+      0.02079864912985346,
+      0.9871038505783847,
+      0.15872430301532003
+    ],
+    "referencePositionLy": [
+      4.177982555547417,
+      198.28704462880816,
+      25.78356829724273
+    ],
+    "surveyCommonLegRangeLy": [
+      100,
+      200
+    ],
+    "surveyScope": "continuation toward Archeon; not a claim that the relay has no known neighbours toward Earth or elsewhere",
+    "newProjectForwardLimitLy": -20,
+    "layoutNote": "The empty forward half-space is a fictional project layout; it is neither a permanent ban nor a measured hazard volume.",
+    "nearestColonyToArcheonId": "mid-02",
+    "directRelayArcheonLy": 330.05649233971025,
+    "earthArcheonRoundTripYears": 2.12,
+    "relayArcheonRoundTripYears": 1.320225969358841
+  }
+}

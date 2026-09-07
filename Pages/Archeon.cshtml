@@ -2,13 +2,12 @@
 @model Showheel.Pages.ArcheonModel
 @{
     ViewData["Title"] = "Archeon — Skies Beyond the Star";
+    ViewData["BodyClass"] = "archeon-page";
 }
 
 <section class="kd-detail-hero">
-    <div class="kd-detail-hero-bg background-image"
-         data-motion-depth="1.05"
-         data-motion-scale="1.1"
-         style="background-image: url('/images/re1.png');"
+    <div class="kd-detail-hero-bg"
+         style="background-image: url('/images/anna1.png');"
          aria-hidden="true"></div>
     <div class="kd-detail-hero-shade" aria-hidden="true"></div>
     <div class="kd-detail-hero-inner">
@@ -20,6 +19,32 @@
 </section>
 
 <link rel="stylesheet" href="~/css/story-reader.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/archeon-music.css" asp-append-version="true" />
+<aside class="archeon-music" data-archeon-music aria-label="Archeon 背景音乐">
+    <div class="archeon-music-row">
+        <span class="archeon-music-title" data-music-title>Archeon vibe 1 · 1/9</span>
+        <div class="archeon-music-controls" role="group" aria-label="音乐播放控制">
+            <button type="button" data-music-previous aria-label="上一首" title="上一首">⏮</button>
+            <button type="button" data-music-toggle aria-label="播放背景音乐">播放</button>
+            <button type="button" data-music-next aria-label="下一首" title="下一首">⏭</button>
+        </div>
+    </div>
+    <div class="archeon-music-status" data-music-status role="status" aria-live="polite">加载中…</div>
+    <audio preload="metadata" hidden></audio>
+    <script type="application/json" data-music-tracks>
+        [
+            {"title":"Archeon vibe 1","src":"/images/archeonvibe1.mp3"},
+            {"title":"Archeon vibe 2","src":"/images/archeonvibe2.mp3"},
+            {"title":"Archeon vibe 3","src":"/images/archeonvibe3.mp3"},
+            {"title":"Archeon vibe 4","src":"/images/archeonvibe4.mp3"},
+            {"title":"Archeon vibe 5","src":"/images/archeonvibe5.mp3"},
+            {"title":"Archeon vibe 6","src":"/images/archeonvibe6.mp3"},
+            {"title":"Archeon vibe 7","src":"/images/archeonvibe7.mp3"},
+            {"title":"Archeon vibe 8","src":"/images/archeonvibe8.mp3"},
+            {"title":"Archeon vibe 9","src":"/images/archeonvibe9.mp3"}
+        ]
+    </script>
+</aside>
 <section id="archeon-body" class="kd-detail-body kd-detail-body--archeon">
     <div class="kd-detail-inner">
         <div class="archeon-map-frame">
@@ -47,4 +72,5 @@
     <script src="~/vendor/marked/marked.umd.js" asp-append-version="true" defer></script>
     <script src="~/vendor/dompurify/purify.min.js" asp-append-version="true" defer></script>
     <script src="~/js/story-reader.js" asp-append-version="true" defer></script>
+    <script src="~/js/archeon-music.js" asp-append-version="true" defer></script>
 }

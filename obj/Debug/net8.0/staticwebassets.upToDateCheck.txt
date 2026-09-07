@@ -1647,3 +1647,15 @@ wwwroot\vendor\dompurify\LICENSE-MPL
 wwwroot\vendor\dompurify\purify.min.js
 wwwroot\vendor\marked\LICENSE
 wwwroot\vendor\marked\marked.umd.js
+wwwroot\css\archeon-music.css
+wwwroot\js\archeon-music.js
+wwwroot\images\anna1.png
+wwwroot\images\archeonvibe1.mp3
+wwwroot\images\archeonvibe2.mp3
+wwwroot\images\archeonvibe3.mp3
+wwwroot\images\archeonvibe4.mp3
+wwwroot\images\archeonvibe5.mp3
+wwwroot\images\archeonvibe6.mp3
+wwwroot\images\archeonvibe7.mp3
+wwwroot\images\archeonvibe8.mp3
+wwwroot\images\archeonvibe9.mp3

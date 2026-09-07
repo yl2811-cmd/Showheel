@@ -10,6 +10,14 @@ const destination = path.join(root, 'wwwroot/archeon-atlas');
 const views = ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone'];
 const files = new Set(['index.html', 'app.js', 'atlas.css', 'vendor/d3.v7.min.js',
   'vendor/LICENSE-d3.txt', 'data/atlas.js', 'data/atlas.json', 'data/tiles.js']);
+for (const file of ['space-controller.js', 'space-view.js', 'terraform-view.js',
+  'space-ui.css', 'space-view.css', 'data/astronomy.js', 'data/astronomy.json',
+  'data/stars-hyg41.js', 'data/space-textures.js', 'vendor/three-space.bundle.js',
+  'vendor/LICENSE-three.txt']) files.add(file);
+const sourcePath = relative => relative === 'space-assets/physics-humanity-audit.md'
+  ? path.resolve(source, '../../review/space-atlas-20260907/physics-humanity-audit.md')
+  : path.join(source, relative);
+files.add('space-assets/physics-humanity-audit.md');
 
 function addDirectory(relative, extension) {
   for (const entry of fs.readdirSync(path.join(source, relative), { withFileTypes: true })) {
@@ -26,8 +34,9 @@ for (const view of views) {
 }
 addDirectory('terrain/tiles', '.png');
 addDirectory('data/contours', '.js');
+addDirectory('space-assets', '.md');
 for (const relative of files) {
-  if (!fs.statSync(path.join(source, relative)).isFile()) throw Error('Missing dependency: ' + relative);
+  if (!fs.statSync(sourcePath(relative)).isFile()) throw Error('Missing dependency: ' + relative);
 }
 
 function replaceOnce(text, pattern, replacement) {
@@ -39,6 +48,7 @@ function adapt(relative, original) {
   if (relative === 'index.html') {
     let text = original.toString('utf8');
     text = replaceOnce(text, /href="README\.md" target="_blank"/, 'href="about.html"');
+    text = replaceOnce(text, /\.\.\/\.\.\/review\/space-atlas-20260907\/physics-humanity-audit\.md/, 'space-assets/physics-humanity-audit.md');
     text = replaceOnce(text, /<a id="download-svg"[^]*?<\/a><a id="download-png"[^]*?<\/a>/, '');
     return Buffer.from(text);
   }
@@ -51,13 +61,13 @@ function adapt(relative, original) {
 const hash = buffer => crypto.createHash('sha256').update(buffer).digest('hex');
 const entries = [];
 for (const relative of [...files].sort()) {
-  const original = fs.readFileSync(path.join(source, relative));
+  const original = fs.readFileSync(sourcePath(relative));
   const deployed = adapt(relative, original);
   const target = path.join(destination, relative);
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, deployed);
   const sourceSha256 = hash(original), sha256 = hash(deployed);
-  if (hash(fs.readFileSync(target)) !== sha256 || hash(fs.readFileSync(path.join(source, relative))) !== sourceSha256) {
+  if (hash(fs.readFileSync(target)) !== sha256 || hash(fs.readFileSync(sourcePath(relative))) !== sourceSha256) {
     throw Error('Copy verification failed: ' + relative);
   }
   entries.push({ path: relative, bytes: deployed.length, sourceSha256, sha256 });
@@ -65,7 +75,7 @@ for (const relative of [...files].sort()) {
 fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
 fs.writeFileSync(path.join(root, 'docs/archeon-atlas-assets.json'), JSON.stringify({
   source: 'SKBS/maps/archeon-atlas', version: 6,
-  adaptations: ['index.html: website help link and data-only download', 'app.js: remove export download updates'],
+  adaptations: ['index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates'],
   files: entries
 }, null, 2) + '\n');
 console.log(JSON.stringify({ files: entries.length, bytes: entries.reduce((total, file) => total + file.bytes, 0), verified: true }));

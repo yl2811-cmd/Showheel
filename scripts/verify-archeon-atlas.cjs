@@ -20,6 +20,18 @@ async function main() {
     if (file.path.endsWith('.js')) new vm.Script(read(file.path), { filename: file.path });
   }
   const context = { window: {} };
+  for (const match of read('index.html').matchAll(/(?:href|src)="([^"]+)"/g)) {
+    const relative = match[1];
+    if (relative === 'about.html') continue;
+    if (!relative.startsWith('#') && !/^(?:https?:|data:)/.test(relative)) exists(relative);
+  }
+  for (const match of read('space-controller.js').matchAll(/loadScript\('([^']+)'\)/g)) exists(match[1]);
+  for (const file of ['data/astronomy.js', 'data/stars-hyg41.js', 'data/space-textures.js']) {
+    vm.runInNewContext(read(file), context);
+  }
+  assert(context.window.ATLAS_ASTRONOMY && context.window.ATLAS_STARS);
+  assert(context.window.ATLAS_SPACE_TEXTURES.archeon.startsWith('data:image/png;base64,'));
+  assert(!read('index.html').includes('../../review/'));
   vm.runInNewContext(read('data/tiles.js'), context);
   for (const meta of Object.values(context.window.ATLAS_TILES)) {
     for (const level of meta.levels) {

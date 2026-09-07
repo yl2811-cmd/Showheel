@@ -99,3 +99,4 @@ D:\repo\Showheel\obj\Debug\net8.0\Showheel.genruntimeconfig.cache
 D:\repo\Showheel\obj\Debug\net8.0\ref\Showheel.dll
 D:\repo\Showheel\bin\Debug\net8.0\docs\archeon-reader-content.json
 D:\repo\Showheel\bin\Debug\net8.0\dotnet-tools.json
+D:\repo\Showheel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

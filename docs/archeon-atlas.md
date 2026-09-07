@@ -14,7 +14,7 @@ Review the manifest diff on every refresh; the importer does not delete files.
 `wwwroot/archeon-atlas/index.html` is the public map entry. `/world-atlas.html` redirects there to preserve old links. No legacy atlas content is published.
 `about.html` is the website help page. Geographic descriptions, map geometry, coordinates and layers are copied without alteration.
 
-The imported runtime is approximately 235 MiB. Editable terrain arrays, source-generation scripts, historical versions, QA output and standalone image exports remain outside the website. JSON geography downloads are retained.
+The imported runtime is approximately 222 MiB. Editable terrain arrays, source-generation scripts, historical versions, QA output and standalone image exports remain outside the website. JSON geography downloads are retained.
 The complete static site is approximately 450 MiB, so deployment requires checking the target hosting plan's capacity. This integration does not change the deployment workflow or enable Git LFS.
 
 ## Validation
@@ -26,7 +26,16 @@ Browser map requests must be local, with no missing assets or JavaScript errors.
 
 Run `node scripts/verify-archeon-atlas.cjs http://127.0.0.1:5276` against the preview server to check hashes, JavaScript syntax, tile/contour references, HTTP responses, and the Razor/legacy entry points.
 
-### Verified on 2026-09-06
+### Terrain refresh verified on 2026-09-07
+
+- Imported the finished source revision `2026-09-07 naturalized valleys and bounded contour generalization`, including terrain imagery, tiles, contours, river geometry and geographic data.
+- All 1,563 imported resources match the source SHA-256 hashes after the documented web adaptations; five map dependency graphs and 1,564 HTTP resource checks passed.
+- Isolated .NET build passed with 0 warnings and 0 errors; `/Archeon` and the legacy map entry passed HTTP verification.
+- Parsed geography comparison confirms routes, settlements, coastlines, lakes and other existing non-river sections are unchanged. Rivers and tributaries retain their counts; the source adds terrain-naturalization metadata. The smaller JSON is minified upstream.
+- The source retains three documented pre-existing hydrology connection exceptions; this refresh preserves the source data.
+- The interaction checks below describe the earlier integration verification; this refresh rechecked asset integrity, references, syntax, build and HTTP delivery.
+
+### Initial integration verified on 2026-09-06
 
 - .NET build: 0 warnings, 0 errors; artifacts directed to a temporary directory.
 - Asset verification: 1,563 hashes and 1,564 HTTP resource checks passed; no missing tile or contour references.

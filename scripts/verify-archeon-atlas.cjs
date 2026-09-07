@@ -25,7 +25,9 @@ async function main() {
     if (relative === 'about.html') continue;
     if (!relative.startsWith('#') && !/^(?:https?:|data:)/.test(relative)) exists(relative);
   }
-  for (const match of read('space-controller.js').matchAll(/loadScript\('([^']+)'\)/g)) exists(match[1]);
+  for (const script of ['space-controller.js', 'colonization-ui.js']) {
+    for (const match of read(script).matchAll(/loadScript\('([^']+)'\)/g)) exists(match[1]);
+  }
   for (const file of ['data/astronomy.js', 'data/stars-hyg41.js', 'data/space-textures.js']) {
     vm.runInNewContext(read(file), context);
   }

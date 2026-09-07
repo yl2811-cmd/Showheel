@@ -19,6 +19,11 @@ const sourcePath = relative => relative === 'space-assets/physics-humanity-audit
   ? path.resolve(source, '../../review/space-atlas-20260907/physics-humanity-audit.md')
   : path.join(source, relative);
 files.add('space-assets/physics-humanity-audit.md');
+for (const file of ['colonization-ui.js', 'colonization-model.js', 'colonization-view.js',
+  'colonization-ui.css', 'colonization-view.css', 'data/colonization-input.js',
+  'data/colonization-input.json', 'data/colonization-stars.js',
+  'data/colonization-stars-provenance.json', 'data/colonization-sensitivity.json',
+  'data/federation-projects.json']) files.add(file);
 
 function addDirectory(relative, extension) {
   for (const entry of fs.readdirSync(path.join(source, relative), { withFileTypes: true })) {

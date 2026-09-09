@@ -73,5 +73,5 @@ if(ceramic||composite)metalnessFactor=0.;`)
 if(em>32.5&&em<34.5)totalEmissiveRadiance+=vec3(1.,.42,.1)*(em<33.5?1.25:.3);`);
  };material.customProgramCacheKey=()=> 'eyrie-families-v4-ceramic-composite-wet8';}
  function water(material){material.onBeforeCompile=shader=>{shader.uniforms.eyrieTime=time;shader.vertexShader=shader.vertexShader.replace('#include <common>','#include <common>\nvarying vec3 waterPos;').replace('#include <begin_vertex>','#include <begin_vertex>\nwaterPos=position;');shader.fragmentShader=shader.fragmentShader.replace('#include <common>','#include <common>\nuniform float eyrieTime;varying vec3 waterPos;').replace('#include <color_fragment>','#include <color_fragment>\nfloat ripple=sin(waterPos.z*9.0-eyrieTime*2.1+sin(waterPos.x*4.0))*sin(waterPos.x*5.0+eyrieTime*.8);diffuseColor.rgb*=.91+.09*ripple;diffuseColor.rgb+=vec3(.07,.1,.085)*pow(max(0.,ripple),10.);');};material.customProgramCacheKey=()=> 'eyrie-water-v3';}
- configure();window.EYRIE_SURFACES={configure,apply,water,tick(t,eye){time.value=t;if(eye)choose(eye);},state(){return{wetSources:sources.length,activeWetSources:wetCount.value};}};
+ configure();window.EYRIE_SURFACES={configure,apply,water,time,tick(t,eye){time.value=t;if(eye)choose(eye);},state(){return{wetSources:sources.length,activeWetSources:wetCount.value};}};
 })();

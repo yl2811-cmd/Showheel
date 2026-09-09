@@ -19,6 +19,12 @@ This integration does not change the deployment workflow or enable Git LFS.
 
 ## Validation
 
+### Atheria regional refresh — 2026-09-09
+
+Imported the source Atheria regional viewer and manifest-referenced binary geometry, plus updated Eyrie geometry, materials, batches and wind/life runtime. The importer and verifier now follow the regional manifest and controller dependencies. The old source physics audit is missing; its previously published copy is retained and explicitly recorded in the asset manifest.
+
+All 4,860 resource hashes and JavaScript syntax checks, five map dependency graphs, and 4,861 HTTP resource checks passed. The isolated .NET build passed with zero warnings and errors. Imported assets total 999,085,314 bytes. Interactive 3D browser behavior was not rechecked for this refresh.
+
 ### Eyrie and bilingual refresh — 2026-09-09
 
 Imported the latest Eyrie geometry, scene assets and runtime changes, together with the bilingual catalogue, content and interface resources. All 1,745 resource hashes, JavaScript syntax checks, five map dependency graphs and 1,746 HTTP resource checks passed. The isolated .NET build passed with zero warnings or errors. Interactive browser behavior was not rechecked for this refresh.

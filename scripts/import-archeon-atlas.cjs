@@ -17,8 +17,10 @@ for (const file of ['space-controller.js', 'space-view.js', 'terraform-view.js',
   'space-ui.css', 'space-view.css', 'data/astronomy.js', 'data/astronomy.json',
   'data/stars-hyg41.js', 'data/space-textures.js', 'vendor/three-space.bundle.js',
   'vendor/LICENSE-three.txt']) files.add(file);
+const auditSource = path.resolve(source, '../../review/space-atlas-20260907/physics-humanity-audit.md');
+const auditRetained = !fs.existsSync(auditSource);
 const sourcePath = relative => relative === 'space-assets/physics-humanity-audit.md'
-  ? path.resolve(source, '../../review/space-atlas-20260907/physics-humanity-audit.md')
+  ? (auditRetained ? path.join(destination, relative) : auditSource)
   : path.join(source, relative);
 files.add('space-assets/physics-humanity-audit.md');
 for (const file of ['colonization-ui.js', 'colonization-model.js', 'colonization-view.js',
@@ -30,6 +32,20 @@ for (const file of ['river-layer.js', 'eyrie.css', 'eyrie-controller.js',
   'eyrie-view.js', 'eyrie-materials.js', 'eyrie-motion.js', 'eyrie-batches.js',
   'eyrie-walking.js', 'eyrie-assets/manifest.js', 'eyrie-assets/navigation.js',
   'eyrie-assets/DESIGN.md', 'eyrie-assets/preview.png']) files.add(file);
+for (const file of ['eyrie-life-wind.js', 'atheria-controller.js', 'atheria-region.js',
+  'atheria-region.css', 'atheria-assets/manifest.js']) files.add(file);
+const regionContext = { window: {} };
+vm.runInNewContext(fs.readFileSync(path.join(source, 'atheria-assets/manifest.js'), 'utf8'), regionContext);
+function addRegionFiles(value) {
+  if (!value || typeof value !== 'object') return;
+  for (const [key, item] of Object.entries(value)) {
+    if (key === 'file' && typeof item === 'string') {
+      if (!/^[A-Za-z0-9_.-]+\.bin$/.test(item)) throw Error('Unexpected region asset: ' + item);
+      files.add('atheria-assets/' + item);
+    } else addRegionFiles(item);
+  }
+}
+addRegionFiles(regionContext.window.ATHERIA_REGION_MANIFEST);
 
 // Preserve the source geometry exactly while keeping each Git blob below 100 MiB.
 const geometrySource = fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'));
@@ -118,6 +134,7 @@ for (const [relative, deployed] of geometryParts) {
 if (hash(fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'))) !== hash(geometrySource)) throw Error('Source geometry changed during import');
 fs.writeFileSync(path.join(root, 'docs/archeon-atlas-assets.json'), JSON.stringify({
   source: 'SKBS/maps/archeon-atlas', version: 6,
+  retainedFiles: auditRetained ? [{ path: 'space-assets/physics-humanity-audit.md', reason: 'Source audit is missing; retained previously published copy for the existing link.' }] : [],
   adaptations: ['index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates', 'eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit'],
   files: entries
 }, null, 2) + '\n');

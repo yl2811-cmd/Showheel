@@ -25,9 +25,19 @@ async function main() {
     if (relative === 'about.html') continue;
     if (!relative.startsWith('#') && !/^(?:https?:|data:)/.test(relative)) exists(relative);
   }
-  for (const script of ['space-controller.js', 'colonization-ui.js', 'eyrie-controller.js']) {
+  for (const script of ['space-controller.js', 'colonization-ui.js', 'eyrie-controller.js', 'atheria-controller.js']) {
     for (const match of read(script).matchAll(/(?:loadScript|script)\('([^']+)'\)/g)) exists(match[1]);
   }
+  vm.runInNewContext(read('atheria-assets/manifest.js'), context);
+  function checkRegion(value) {
+    if (!value || typeof value !== 'object') return;
+    for (const [key, item] of Object.entries(value)) {
+      if (key === 'file' && typeof item === 'string') exists('atheria-assets/' + item);
+      else checkRegion(item);
+    }
+  }
+  assert(context.window.ATHERIA_REGION_MANIFEST);
+  checkRegion(context.window.ATHERIA_REGION_MANIFEST);
   for (const file of ['data/astronomy.js', 'data/stars-hyg41.js', 'data/space-textures.js']) {
     vm.runInNewContext(read(file), context);
   }

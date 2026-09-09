@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Archeon Atlas · Worlds & Stars</title><link rel="stylesheet" href="atlas.css"><link rel="stylesheet" href="space-ui.css"><link rel="stylesheet" href="space-view.css"><link rel="stylesheet" href="colonization-ui.css"><link rel="stylesheet" href="colonization-view.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Archeon Atlas · Worlds & Stars</title><link rel="stylesheet" href="atlas.css"><link rel="stylesheet" href="space-ui.css"><link rel="stylesheet" href="space-view.css"><link rel="stylesheet" href="colonization-ui.css"><link rel="stylesheet" href="colonization-view.css"><link rel="stylesheet" href="eyrie.css"></head>
 <body>
 <header class="masthead"><div class="wordmark">ARCHEON <span>ATLAS</span></div><div class="epoch">Year 521 <span>·</span> 3094</div><a class="about" href="about.html">地图说明 ↗</a></header>
 <nav class="view-tabs" aria-label="地图视图"><button data-tab="world" aria-pressed="true"><span>01</span>世界地图</button><button data-tab="aethelgard" aria-pressed="false"><span>02</span>Aethelgard</button><button data-tab="local" aria-pressed="false"><span>03</span>局部图</button><button data-tab="system" aria-pressed="false"><span>04</span>Archeon 恒星系</button><button data-tab="federation" aria-pressed="false"><span>05</span>Federation</button></nav>
@@ -12,6 +12,7 @@
 <label><input type="checkbox" data-layer="terrain" checked><span class="key relief"></span>地貌与地表色彩</label>
 <label><input type="checkbox" data-layer="contours" checked><span class="key contour"></span>等高线</label>
 <label><input type="checkbox" data-layer="water" checked><span class="key water"></span>水系与海岸</label>
+<label><input type="checkbox" data-layer="river-network" checked><span class="key water"></span>河流与多级支流</label>
 <label><input type="checkbox" data-layer="places" checked><span class="key place"></span>地点</label>
 <label><input type="checkbox" data-layer="labels" checked><span class="key label-key">A</span>地名</label>
 <label><input type="checkbox" data-layer="routes" checked><span class="key route"></span>Threads 航路</label>
@@ -49,5 +50,5 @@
 <div class="map-tools" aria-label="地图缩放"><button id="space-back" aria-label="返回上一级" hidden>↶</button><button id="zoom-in" aria-label="放大">＋</button><button id="zoom-out" aria-label="缩小">−</button><button id="reset" aria-label="重置视图">全图</button><button id="scenic" aria-pressed="false" title="暂时收起航路、奇观范围和经纬网">观景</button></div><div class="map-status"><span id="view-status">Equal Earth · R 4,750 km</span><span id="load-status" role="status"></span><span id="zoom-status">100%</span></div>
 <section id="detail" class="detail" aria-label="地点详情" hidden><button id="close-detail" aria-label="关闭详情">×</button><div id="detail-body"></div></section>
 </main></div>
-<script src="vendor/d3.v7.min.js"></script><script src="data/atlas.js"></script><script src="data/tiles.js"></script><script src="data/living-atlas.js"></script><script src="living-overlay.js"></script><script src="settlement-display.js"></script><script src="app.js"></script><script src="colonization-ui.js"></script><script src="space-controller.js"></script>
+<script src="vendor/d3.v7.min.js"></script><script src="data/atlas.js"></script><script src="data/tiles.js"></script><script src="data/living-atlas.js"></script><script src="living-overlay.js"></script><script src="settlement-display.js"></script><script src="river-layer.js"></script><script src="app.js"></script><script src="colonization-ui.js"></script><script src="space-controller.js"></script><script src="eyrie-controller.js"></script>
 </body></html>

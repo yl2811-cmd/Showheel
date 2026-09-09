@@ -4,6 +4,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
+const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const source = path.resolve(process.argv[2] || 'D:/SKBS/maps/archeon-atlas');
 const destination = path.join(root, 'wwwroot/archeon-atlas');
@@ -24,6 +25,29 @@ for (const file of ['colonization-ui.js', 'colonization-model.js', 'colonization
   'data/colonization-input.json', 'data/colonization-stars.js',
   'data/colonization-stars-provenance.json', 'data/colonization-sensitivity.json',
   'data/federation-projects.json']) files.add(file);
+for (const file of ['river-layer.js', 'eyrie.css', 'eyrie-controller.js',
+  'eyrie-view.js', 'eyrie-materials.js', 'eyrie-motion.js', 'eyrie-batches.js',
+  'eyrie-walking.js', 'eyrie-assets/manifest.js', 'eyrie-assets/navigation.js',
+  'eyrie-assets/DESIGN.md', 'eyrie-assets/preview.png']) files.add(file);
+
+// Preserve the source geometry exactly while keeping each Git blob below 100 MiB.
+const geometrySource = fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'));
+const geometryContext = { window: {} };
+vm.runInNewContext(geometrySource.toString('utf8'), geometryContext);
+const geometryParts = new Map();
+let geometryBatch = {}, geometryBytes = 0;
+function flushGeometry() {
+  if (!Object.keys(geometryBatch).length) return;
+  const name = 'eyrie-assets/geometry-part-' + String(geometryParts.size + 1).padStart(3, '0') + '.js';
+  geometryParts.set(name, Buffer.from('window.EYRIE_GEOMETRY=window.EYRIE_GEOMETRY||{};Object.assign(window.EYRIE_GEOMETRY,' + JSON.stringify(geometryBatch) + ');\n'));
+  geometryBatch = {}; geometryBytes = 0;
+}
+for (const [key, value] of Object.entries(geometryContext.window.EYRIE_GEOMETRY)) {
+  const bytes = Buffer.byteLength(JSON.stringify({ [key]: value }));
+  if (geometryBytes + bytes > 32 * 1024 * 1024) flushGeometry();
+  geometryBatch[key] = value; geometryBytes += bytes;
+}
+flushGeometry();
 
 function addDirectory(relative, extension) {
   for (const entry of fs.readdirSync(path.join(source, relative), { withFileTypes: true })) {
@@ -40,6 +64,7 @@ for (const view of views) {
 }
 addDirectory('terrain/tiles', '.png');
 addDirectory('data/contours', '.js');
+addDirectory('data/hydrology', '.js');
 addDirectory('space-assets', '.md');
 for (const relative of files) {
   if (!fs.statSync(sourcePath(relative)).isFile()) throw Error('Missing dependency: ' + relative);
@@ -51,6 +76,10 @@ function replaceOnce(text, pattern, replacement) {
   return text.replace(pattern, replacement);
 }
 function adapt(relative, original) {
+  if (relative === 'eyrie-controller.js') {
+    return Buffer.from(replaceOnce(original.toString('utf8'), /await script\('eyrie-assets\/geometry\.js'\)/,
+      '{' + [...geometryParts.keys()].map(name => "await script('" + name + "');").join('') + '}'));
+  }
   if (relative === 'index.html') {
     let text = original.toString('utf8');
     text = replaceOnce(text, /href="README\.md" target="_blank"/, 'href="about.html"');
@@ -71,7 +100,7 @@ for (const relative of [...files].sort()) {
   const deployed = adapt(relative, original);
   const target = path.join(destination, relative);
   fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, deployed);
+  if (!fs.existsSync(target) || !fs.readFileSync(target).equals(deployed)) fs.writeFileSync(target, deployed);
   const sourceSha256 = hash(original), sha256 = hash(deployed);
   if (hash(fs.readFileSync(target)) !== sha256 || hash(fs.readFileSync(sourcePath(relative))) !== sourceSha256) {
     throw Error('Copy verification failed: ' + relative);
@@ -79,9 +108,16 @@ for (const relative of [...files].sort()) {
   entries.push({ path: relative, bytes: deployed.length, sourceSha256, sha256 });
 }
 fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
+for (const [relative, deployed] of geometryParts) {
+  const target = path.join(destination, relative);
+  fs.writeFileSync(target, deployed);
+  if (hash(fs.readFileSync(target)) !== hash(deployed)) throw Error('Geometry copy failed: ' + relative);
+  entries.push({ path: relative, bytes: deployed.length, sourcePath: 'eyrie-assets/geometry.js', sourceSha256: hash(geometrySource), sha256: hash(deployed) });
+}
+if (hash(fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'))) !== hash(geometrySource)) throw Error('Source geometry changed during import');
 fs.writeFileSync(path.join(root, 'docs/archeon-atlas-assets.json'), JSON.stringify({
   source: 'SKBS/maps/archeon-atlas', version: 6,
-  adaptations: ['index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates'],
+  adaptations: ['index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates', 'eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit'],
   files: entries
 }, null, 2) + '\n');
 console.log(JSON.stringify({ files: entries.length, bytes: entries.reduce((total, file) => total + file.bytes, 0), verified: true }));

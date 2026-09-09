@@ -9,9 +9,9 @@
   "files": [
     {
       "path": "app.js",
-      "bytes": 20458,
-      "sourceSha256": "394710fd0eecde23e3ceafc16d21278e0ea0371d57fb9d6df59035e632117181",
-      "sha256": "56f11859824d9ad36f512f4c355b4f401e6f4de30dc560553787ef3035c5aabb"
+      "bytes": 20577,
+      "sourceSha256": "e97924f30ae21ca17632579517d5cf19fa3f0ded1a9fe84a7dfbd891ad2609ca",
+      "sha256": "1eb6d1b0adecbc5b14871c15d6e595ee5a66cb992a07d8ac02c0403f5766b3ba"
     },
     {
       "path": "atlas.css",
@@ -45,9 +45,9 @@
     },
     {
       "path": "colonization-view.js",
-      "bytes": 36961,
-      "sourceSha256": "ba965ea6bb50205ca448ad8dbcf14fd69214a660219548eb3989eaa2c40f338d",
-      "sha256": "ba965ea6bb50205ca448ad8dbcf14fd69214a660219548eb3989eaa2c40f338d"
+      "bytes": 37218,
+      "sourceSha256": "3298c8d5663553ef561a011c1d84f1d0e0478cba366751b39186c106d63edfbe",
+      "sha256": "3298c8d5663553ef561a011c1d84f1d0e0478cba366751b39186c106d63edfbe"
     },
     {
       "path": "data/astronomy.js",
@@ -2031,15 +2031,15 @@
     },
     {
       "path": "eyrie-assets/manifest.js",
-      "bytes": 6112765,
-      "sourceSha256": "cd2e05172426e26cc6f4dea0258dd63b3effe02bba2ad06e5bbf15413861fb6e",
-      "sha256": "cd2e05172426e26cc6f4dea0258dd63b3effe02bba2ad06e5bbf15413861fb6e"
+      "bytes": 10007017,
+      "sourceSha256": "b7e63288e97245cddfb3d253798c0c0405ec701ba5f847c3ad7a6b7e35943ad0",
+      "sha256": "b7e63288e97245cddfb3d253798c0c0405ec701ba5f847c3ad7a6b7e35943ad0"
     },
     {
       "path": "eyrie-assets/navigation.js",
-      "bytes": 3182651,
-      "sourceSha256": "a941f7b8c4e7154d1442d5b5994c1026ece70173b9377d1dfa0f2dd06520c99c",
-      "sha256": "a941f7b8c4e7154d1442d5b5994c1026ece70173b9377d1dfa0f2dd06520c99c"
+      "bytes": 3190155,
+      "sourceSha256": "49ffd758d5a828c502b21f952e5ab98356e40f247ede7a92c841c8e91b78faa4",
+      "sha256": "49ffd758d5a828c502b21f952e5ab98356e40f247ede7a92c841c8e91b78faa4"
     },
     {
       "path": "eyrie-assets/preview.png",
@@ -2049,15 +2049,15 @@
     },
     {
       "path": "eyrie-batches.js",
-      "bytes": 2791,
-      "sourceSha256": "cd562d4ea780deecd1ba1632948fbb41355c90fbd64ca4b5023e735be2c668b1",
-      "sha256": "cd562d4ea780deecd1ba1632948fbb41355c90fbd64ca4b5023e735be2c668b1"
+      "bytes": 4943,
+      "sourceSha256": "49a3dbac179db30e9e1f70d35d60b5dcb6c15f95ac5e56efaa299e402e7efdf5",
+      "sha256": "49a3dbac179db30e9e1f70d35d60b5dcb6c15f95ac5e56efaa299e402e7efdf5"
     },
     {
       "path": "eyrie-controller.js",
-      "bytes": 12898,
-      "sourceSha256": "218058a08720501c9e7d2e28a389fed7cfa77bfad310a59712aef77308d18a1a",
-      "sha256": "d7448dc222bab8db7db3a176955cf1e7c31d6396c9b8c8038b21873676a5de99"
+      "bytes": 13090,
+      "sourceSha256": "134968c0c5a244a1ae38322cbdc071140f3406e44055bd53ce09c20dceb089fa",
+      "sha256": "dd6e074250679f5753cc56806704da03620d81973395abaceed1ed27574e9b3c"
     },
     {
       "path": "eyrie-materials.js",
@@ -2073,9 +2073,9 @@
     },
     {
       "path": "eyrie-view.js",
-      "bytes": 21250,
-      "sourceSha256": "9c4612731b62399b32eb5b5066466531ddf5cf7c1d031e619499997521f0d92d",
-      "sha256": "9c4612731b62399b32eb5b5066466531ddf5cf7c1d031e619499997521f0d92d"
+      "bytes": 22314,
+      "sourceSha256": "faba073ff78ab16a3682c87a38e2452a357fc01116589af1c35aae978826ad85",
+      "sha256": "faba073ff78ab16a3682c87a38e2452a357fc01116589af1c35aae978826ad85"
     },
     {
       "path": "eyrie-walking.js",
@@ -2090,10 +2090,34 @@
       "sha256": "d46e484af998d5696bc7ba2c9f5f2f6facd1a26a9f4151844148ba6ada28a027"
     },
     {
+      "path": "i18n-catalogue.js",
+      "bytes": 28498,
+      "sourceSha256": "efc65463d55e8b40691b178d5ce7d9ce5725362850751bcceadf1c3ce95ec2df",
+      "sha256": "efc65463d55e8b40691b178d5ce7d9ce5725362850751bcceadf1c3ce95ec2df"
+    },
+    {
+      "path": "i18n-content.js",
+      "bytes": 63500,
+      "sourceSha256": "3cf8bf14048a039fb67e5e05efc9716ab5f37b40f8f3abd8524ee22dd45042d4",
+      "sha256": "3cf8bf14048a039fb67e5e05efc9716ab5f37b40f8f3abd8524ee22dd45042d4"
+    },
+    {
+      "path": "i18n.css",
+      "bytes": 1107,
+      "sourceSha256": "ab10c0dc23b7bd353c75a5b586e7717329f902c5147d88ed5fd88b7b390daafa",
+      "sha256": "ab10c0dc23b7bd353c75a5b586e7717329f902c5147d88ed5fd88b7b390daafa"
+    },
+    {
+      "path": "i18n.js",
+      "bytes": 4844,
+      "sourceSha256": "332d44e2fed2504dfe7677e2a15408f01d5da0ea7d00adefa0b6c51bab509c02",
+      "sha256": "332d44e2fed2504dfe7677e2a15408f01d5da0ea7d00adefa0b6c51bab509c02"
+    },
+    {
       "path": "index.html",
-      "bytes": 11773,
-      "sourceSha256": "8df8c15eee12c00ca22bd2e366a2a3eb9ae001807d21e474ebf2c9c0872109fc",
-      "sha256": "051f023b1df8084a99e930a15bea5a4e3e343baf980279eb04d0990653793d3b"
+      "bytes": 11923,
+      "sourceSha256": "4d1a7f6bc61584f108f1972b7f4fcd2445580bcf93aaa33b17306a207cb388bf",
+      "sha256": "d4bee6aa1efc90ce9302f869f7ae104adab00f43289c7f48019dc17f377c7ea4"
     },
     {
       "path": "living-overlay.js",
@@ -2181,9 +2205,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 30887,
-      "sourceSha256": "65f74811ec7f9e3e6d7dc8a8d998a8f5a14524702c7c689e5d73a0ef626ec78a",
-      "sha256": "65f74811ec7f9e3e6d7dc8a8d998a8f5a14524702c7c689e5d73a0ef626ec78a"
+      "bytes": 30923,
+      "sourceSha256": "1d158ce9deb694791a7be759e9e3b02007f1e3c84caf8bf29ed3751d7b5498df",
+      "sha256": "1d158ce9deb694791a7be759e9e3b02007f1e3c84caf8bf29ed3751d7b5498df"
     },
     {
       "path": "space-ui.css",
@@ -2199,15 +2223,15 @@
     },
     {
       "path": "space-view.js",
-      "bytes": 63851,
-      "sourceSha256": "de82f52a06968968cd6e3382afab57c8d171f1900aae54c978fa81d6e2c8c210",
-      "sha256": "de82f52a06968968cd6e3382afab57c8d171f1900aae54c978fa81d6e2c8c210"
+      "bytes": 64108,
+      "sourceSha256": "8fd9d5a9bf56568c1e402b5bfd8c20ac9aeb293d2af7440072327daf97787e49",
+      "sha256": "8fd9d5a9bf56568c1e402b5bfd8c20ac9aeb293d2af7440072327daf97787e49"
     },
     {
       "path": "terraform-view.js",
-      "bytes": 27802,
-      "sourceSha256": "1b4bac16667d04a53d098c7e6ca33c9aca791deb9a6fcaf582207e25d884cc15",
-      "sha256": "1b4bac16667d04a53d098c7e6ca33c9aca791deb9a6fcaf582207e25d884cc15"
+      "bytes": 27977,
+      "sourceSha256": "b2cfebfad433f858570cd216fe4df225828d21d16faa5e0d13e69fd00e73361e",
+      "sha256": "b2cfebfad433f858570cd216fe4df225828d21d16faa5e0d13e69fd00e73361e"
     },
     {
       "path": "terrain/aethelgard-clouds.png",
@@ -10413,52 +10437,52 @@
     },
     {
       "path": "eyrie-assets/geometry-part-001.js",
-      "bytes": 33515645,
+      "bytes": 33535668,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "fbd3889d96b348a8d8ec3b392eb85ffb787c0de61c4b623e79ade7360265118d"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "ea95e57d78136cef528c28b8e08c9023b08d1168858787331c0c7e2f8d29ac83"
     },
     {
       "path": "eyrie-assets/geometry-part-002.js",
-      "bytes": 33070323,
+      "bytes": 33510575,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "9faae4d4e30f7959e4a6bca21f5f9242d20ae7cdc1ce1390e4c15404f34da8b1"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "06e0e4297eaa501ef076df86fc6df34528f6ee07a586b66f4210d420a3188e3d"
     },
     {
       "path": "eyrie-assets/geometry-part-003.js",
-      "bytes": 33021213,
+      "bytes": 30583794,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "2eea5b1d23563953d77ccbaf6fa47ef9940994c16313f4c20a950078981c53a9"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "dad99ff7ad3cb01045f51bf9ef6f0315dcf953db32154cd804cf25fff5974321"
     },
     {
       "path": "eyrie-assets/geometry-part-004.js",
-      "bytes": 33529480,
+      "bytes": 33436284,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "4833122ead715e276dba4208ef9aaa5732eb024b01cf8c0a7205f2cc139f7d0f"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "5ca137ac75cd22ffe63de8ec638a8fd39d57fca8dab276a2f9404aade157cba9"
     },
     {
       "path": "eyrie-assets/geometry-part-005.js",
-      "bytes": 25637529,
+      "bytes": 31156686,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "2e84de3537095f4e924456aca4b1785ab49565da3cd14f2dfbf162ae5cf3236d"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "119e1c2dc0d879ec2faeb3c9dd055d8c5c22cf01816f84c75ecdcfc435d61c58"
     },
     {
       "path": "eyrie-assets/geometry-part-006.js",
-      "bytes": 33534380,
+      "bytes": 33546698,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "ee2a47e8b450d1dc38141e9a41b7820696bbaff20c4c60aa15fba7a13db52111"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "6e8b1b001961616cf2b162c2a2f6e3d4f4d1774dbebcbc9ff7ad32cd411fe70f"
     },
     {
       "path": "eyrie-assets/geometry-part-007.js",
-      "bytes": 7676140,
+      "bytes": 5608937,
       "sourcePath": "eyrie-assets/geometry.js",
-      "sourceSha256": "a882ac4ff6fc5fff4dd968d61d66b91255203bd04a729f6c768d718b0e5307b9",
-      "sha256": "a5e87c4508fbf849178b66c95d9579868bb8f3fdb3db888e0aa06b30256af10e"
+      "sourceSha256": "f809af84bdcf90b6edf8b3b2bae73edc0b05984de069a8f8db3db168c324db21",
+      "sha256": "39a1d22f328a97752deff4764f66ee32ff30482011e1e07ac31a3adfe11774e9"
     }
   ]
 }

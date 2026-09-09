@@ -387,8 +387,8 @@
     function search(query) {
       const q = String(query || '').trim().toLowerCase(); if (!q) return [];
       const seen = new Set(), result = [], pool = mode === 'system' ? [...data.systemBodies, ...data.nodes,...nebulae.values()] : [...data.nodes,...nebulae.values(), ...data.systemBodies];
-      for (const o of pool) if (nodeVisible(o) && !seen.has(o.id) && [o.name, o.id, ...(o.aliases || [])].join(' ').toLowerCase().includes(q)) { seen.add(o.id); result.push(o); }
-      if (catalogue) for (const [key, o] of Object.entries(catalogue.names || {})) { if (result.length >= 40) break; if ([o.name, o.proper, o.hip ? `hip ${o.hip}` : '', o.hd ? `hd ${o.hd}` : ''].join(' ').toLowerCase().includes(q)) result.push(catalogueObject(Number(key))); }
+      for (const o of pool) if (nodeVisible(o) && !seen.has(o.id) && [o.name, o.id, ...(o.aliases || [])].map(v=>String(v||'')+' '+(window.ATLAS_I18N?.english(v)||'')).join(' ').toLowerCase().includes(q)) { seen.add(o.id); result.push(o); }
+      if (catalogue) for (const [key, o] of Object.entries(catalogue.names || {})) { if (result.length >= 40) break; if ([o.name, o.proper, o.hip ? `hip ${o.hip}` : '', o.hd ? `hd ${o.hd}` : ''].map(v=>String(v||'')+' '+(window.ATLAS_I18N?.english(v)||'')).join(' ').toLowerCase().includes(q)) result.push(catalogueObject(Number(key))); }
       return result;
     }
     function visiblePosition(position) {
@@ -460,7 +460,7 @@
     }
     function capturePng() {
       if (destroyed) throw new Error('三维视图已经关闭。'); updateMarkers(); updateLabels(); renderer.render(scene,camera);
-      const out=document.createElement('canvas'); out.width=canvas.width;out.height=canvas.height; const ctx=out.getContext('2d');ctx.drawImage(canvas,0,0);const pr=renderer.getPixelRatio();ctx.scale(pr,pr);ctx.textBaseline='middle';ctx.shadowColor='#000';ctx.shadowBlur=5;
+      const out=document.createElement('canvas'); out.width=canvas.width;out.height=canvas.height; const ctx=out.getContext('2d');const fillTranslated=ctx.fillText.bind(ctx);ctx.fillText=(value,...args)=>fillTranslated(window.ATLAS_I18N?.t(value)??value,...args);ctx.drawImage(canvas,0,0);const pr=renderer.getPixelRatio();ctx.scale(pr,pr);ctx.textBaseline='middle';ctx.shadowColor='#000';ctx.shadowBlur=5;
       ctx.fillStyle='#d8e8e9';ctx.font='20px system-ui';ctx.fillText(title.textContent,24,35);ctx.fillStyle='#819eaa';ctx.font='10px system-ui';ctx.fillText(subtitle.textContent.replace(/\n/g,' · '),24,59);
       if(layers.labels)for(const item of livingLabels)if(!item.element.hidden&&item.labelScreen){ctx.fillStyle='#ffdda0';ctx.font='11px system-ui';ctx.fillText(item.feature.properties.name,item.labelScreen.x,item.labelScreen.y);};if(layers.labels)for(const item of labels.values())if(!item.element.hidden&&item.labelScreen){ctx.fillStyle='#bddbe3';ctx.font='11px system-ui';ctx.fillText(item.object.name,item.labelScreen.x,item.labelScreen.y);}
       ctx.fillStyle='#a4bec7';ctx.font='11px system-ui';ctx.fillText(getScaleLabel(),24,height-25);ctx.fillStyle='#63808d';ctx.font='9px system-ui';ctx.fillText('ARCHEON ATLAS · HYG v4.1 / CC BY-SA 4.0 · fictional colony placements',24,height-10);return out.toDataURL('image/png');

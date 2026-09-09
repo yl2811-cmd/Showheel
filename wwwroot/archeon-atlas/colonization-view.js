@@ -386,8 +386,8 @@
     function search(query) {
       const q = String(query || '').trim().toLowerCase(); if (!q) return [];
       const results = [];
-      for (const record of currentRecords.values()) if (['project', 'candidate'].includes(record.kind) && [record.id, record.name, ...(record.aliases || [])].join(' ').toLowerCase().includes(q)) { results.push(record); if (results.length >= 40) return results; }
-      for (const [index, info] of Object.entries(catalogue?.names || {})) if ([info.name, info.proper, info.hip && `HIP ${info.hip}`, info.hd && `HD ${info.hd}`].join(' ').toLowerCase().includes(q)) { results.push(catalogueRecord(Number(index))); if (results.length >= 40) break; }
+      for (const record of currentRecords.values()) if (['project', 'candidate'].includes(record.kind) && [record.id, record.name, ...(record.aliases || [])].map(v=>String(v||'')+' '+(window.ATLAS_I18N?.english(v)||'')).join(' ').toLowerCase().includes(q)) { results.push(record); if (results.length >= 40) return results; }
+      for (const [index, info] of Object.entries(catalogue?.names || {})) if ([info.name, info.proper, info.hip && `HIP ${info.hip}`, info.hd && `HD ${info.hd}`].map(v=>String(v||'')+' '+(window.ATLAS_I18N?.english(v)||'')).join(' ').toLowerCase().includes(q)) { results.push(catalogueRecord(Number(index))); if (results.length >= 40) break; }
       return results;
     }
     function resize() { if (destroyed) return; width = Math.max(1, container.clientWidth); height = Math.max(1, container.clientHeight); renderer.setSize(width, height, false); camera.aspect = width / height; updateMarkers(); updateLabels(); renderer.render(scene, camera); }
@@ -409,7 +409,7 @@
       if (destroyed) throw new Error('殖民推演视图已经关闭。');
       updateMarkers(); updateLabels(); renderer.render(scene, camera);
       const output = document.createElement('canvas'); output.width = canvas.width; output.height = canvas.height;
-      const ctx = output.getContext('2d'); ctx.drawImage(canvas, 0, 0); ctx.scale(renderer.getPixelRatio(), renderer.getPixelRatio());
+      const ctx = output.getContext('2d');const fillTranslated=ctx.fillText.bind(ctx);ctx.fillText=(value,...args)=>fillTranslated(window.ATLAS_I18N?.t(value)??value,...args); ctx.drawImage(canvas, 0, 0); ctx.scale(renderer.getPixelRatio(), renderer.getPixelRatio());
       ctx.shadowColor = '#000'; ctx.shadowBlur = 5; ctx.textBaseline = 'top';
       ctx.fillStyle = '#d9e5e2'; ctx.font = `${width < 700 ? 17 : 21}px system-ui, "Microsoft YaHei", sans-serif`; ctx.fillText(heading.textContent, 23, 22);
       ctx.font = '10px system-ui, "Microsoft YaHei", sans-serif'; ctx.fillStyle = '#83a9b4'; ctx.fillText(subtitle.textContent, 23, 55);

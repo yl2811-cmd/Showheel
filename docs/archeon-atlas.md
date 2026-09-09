@@ -19,6 +19,10 @@ This integration does not change the deployment workflow or enable Git LFS.
 
 ## Validation
 
+### Eyrie and bilingual refresh — 2026-09-09
+
+Imported the latest Eyrie geometry, scene assets and runtime changes, together with the bilingual catalogue, content and interface resources. All 1,745 resource hashes, JavaScript syntax checks, five map dependency graphs and 1,746 HTTP resource checks passed. The isolated .NET build passed with zero warnings or errors. Interactive browser behavior was not rechecked for this refresh.
+
 ### Terrain, rivers and Eyrie refresh — 2026-09-08
 
 Imported updated terrain tiles, contours, atlas data and map scripts, plus viewport-loaded river detail and the Eyrie scene, materials, motion, walking controls and navigation. The importer includes hydrology JavaScript blocks and the scene's browser dependencies.

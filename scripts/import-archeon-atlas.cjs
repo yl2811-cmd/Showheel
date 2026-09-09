@@ -11,6 +11,7 @@ const destination = path.join(root, 'wwwroot/archeon-atlas');
 const views = ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone'];
 const files = new Set(['index.html', 'app.js', 'atlas.css', 'vendor/d3.v7.min.js',
   'vendor/LICENSE-d3.txt', 'data/atlas.js', 'data/atlas.json', 'data/tiles.js']);
+for (const file of ['i18n.css', 'i18n-catalogue.js', 'i18n-content.js', 'i18n.js']) files.add(file);
 for (const file of ['living-overlay.js', 'settlement-display.js', 'data/living-atlas.js', 'data/living-atlas.json']) files.add(file);
 for (const file of ['space-controller.js', 'space-view.js', 'terraform-view.js',
   'space-ui.css', 'space-view.css', 'data/astronomy.js', 'data/astronomy.json',

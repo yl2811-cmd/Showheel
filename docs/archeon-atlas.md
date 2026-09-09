@@ -14,10 +14,18 @@ Review the manifest diff on every refresh; the importer does not delete files.
 `wwwroot/archeon-atlas/index.html` is the public map entry. `/world-atlas.html` redirects there to preserve old links. No legacy atlas content is published.
 `about.html` is the website help page. Geographic descriptions, map geometry, coordinates and layers are copied without alteration.
 
-The imported runtime is approximately 222 MiB. Editable terrain arrays, source-generation scripts, historical versions, QA output and standalone image exports remain outside the website. JSON geography downloads are retained.
-The complete static site is approximately 450 MiB, so deployment requires checking the target hosting plan's capacity. This integration does not change the deployment workflow or enable Git LFS.
+The imported runtime is approximately 524 MiB including the Eyrie scene. Editable terrain arrays, source-generation scripts, historical versions, QA output and standalone map exports remain outside the website. JSON geography downloads are retained.
+This integration does not change the deployment workflow or enable Git LFS.
 
 ## Validation
+
+### Terrain, rivers and Eyrie refresh — 2026-09-08
+
+Imported updated terrain tiles, contours, atlas data and map scripts, plus viewport-loaded river detail and the Eyrie scene, materials, motion, walking controls and navigation. The importer includes hydrology JavaScript blocks and the scene's browser dependencies.
+
+The source `eyrie-assets/geometry.js` exceeds the Git file size limit. The importer converts it into seven scripts of at most 32 MiB and adapts the Eyrie controller to await them in order. All 789 geometry entries were compared with the source and are identical; the manifest records the source file hash for each generated part. The source directory is unchanged.
+
+All 1,741 asset hashes, JavaScript syntax checks, five map dependency graphs and 1,742 HTTP resource checks passed, including the Razor and legacy entry points. The isolated .NET build passed with zero warnings or errors. Browser rendering and interactive behavior were not rechecked for this refresh.
 
 ### Colonization research refresh — 2026-09-07
 

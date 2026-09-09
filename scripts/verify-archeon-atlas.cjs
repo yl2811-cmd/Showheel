@@ -25,8 +25,8 @@ async function main() {
     if (relative === 'about.html') continue;
     if (!relative.startsWith('#') && !/^(?:https?:|data:)/.test(relative)) exists(relative);
   }
-  for (const script of ['space-controller.js', 'colonization-ui.js']) {
-    for (const match of read(script).matchAll(/loadScript\('([^']+)'\)/g)) exists(match[1]);
+  for (const script of ['space-controller.js', 'colonization-ui.js', 'eyrie-controller.js']) {
+    for (const match of read(script).matchAll(/(?:loadScript|script)\('([^']+)'\)/g)) exists(match[1]);
   }
   for (const file of ['data/astronomy.js', 'data/stars-hyg41.js', 'data/space-textures.js']) {
     vm.runInNewContext(read(file), context);
@@ -49,9 +49,12 @@ async function main() {
     for (const match of markup.matchAll(/(?:href|src)="([^"]+)"/g)) {
       if (!match[1].startsWith('#') && !match[1].startsWith('data:')) exists(match[1]);
     }
-    for (const match of markup.matchAll(/data-contour-manifest="([^"]+)"/g)) {
+    for (const match of markup.matchAll(/data-(?:contour|river)-manifest="([^"]+)"/g)) {
       const contour = JSON.parse(match[1].replaceAll('&quot;', '"').replaceAll('&amp;', '&'));
-      for (const [x, y] of contour.tiles) exists(contour.path.replace('{x}', x).replace('{y}', y));
+      for (const tile of contour.tiles) {
+        if (Array.isArray(tile)) exists(contour.path.replace('{x}', tile[0]).replace('{y}', tile[1]));
+        else exists(tile.path);
+      }
     }
   }
   assert(!/download-svg|download-png|exports\//.test(read('index.html') + read('app.js')));

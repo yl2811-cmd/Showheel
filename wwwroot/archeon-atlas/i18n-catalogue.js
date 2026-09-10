@@ -518,3 +518,11 @@ HYG v4.1 · J2000 目录位置。属于六百光年内的目录恒星；未标�
 约	About 
 自	From 
 `.trim().split('\n').map(line=>{const i=line.indexOf('\t');return[line.slice(0,i),line.slice(i+1)];}));
+
+Object.assign(window.ATLAS_TRANSLATIONS,{"二十千米":"Twenty kilometres","西侧残台":"Western remnants","东侧溪谷":"Eastern streams","后缘与主河":"Northern shoulder and river","渠岸生活体块":"Life beside the channel","半径 20 km":"20 km radius","溪流越过阶崖，主河绕过后缘":"Streams cross the scarps; Ishkar curves behind the upland"});
+
+Object.assign(window.ATLAS_TRANSLATIONS,{"渠岸与小车":"Channel paths and carts"});
+
+
+
+Object.assign(window.ATLAS_TRANSLATIONS,{"Float Rail 与停靠坪":"Ground links and landings","贴地连接与停靠坪":"Ground links and landings","层叠港台":"Layered harbour terraces","田间停靠点":"Field landings","湖水向下原":"Lake outflow","暂停活动":"Pause activity","继续活动":"Resume activity"});

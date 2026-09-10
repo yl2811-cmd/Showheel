@@ -8,3 +8,9 @@ bin/
 # User-specific files
 *.user
 *.suo
+
+# Generated web deployment output
+dist-web/
+scripts/web-build/node_modules/
+docs/web-build-report.json
+web-browser-qa/

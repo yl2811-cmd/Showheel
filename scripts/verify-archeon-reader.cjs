@@ -44,7 +44,11 @@ const fixture = '# Fixture\n\n**bold** and *italic*\n\n> quote\n\n- item\n\n| A 
         }
         for (const view of ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone']) {
             await selectMap(view);
-            await frame.locator('#map-' + view).waitFor();
+            if (view === 'atheria') {
+                await frame.locator('.atheria-canvas').waitFor();
+                const regionalFrame = page.frames().find(f => f.url().includes('/archeon-atlas/index.html'));
+                await regionalFrame.waitForFunction(() => window.ATLAS_APP?.getAtheriaState?.()?.visibleChunks > 0, null, { timeout: 60000 });
+            } else await frame.locator('#map-' + view).waitFor();
             result.views.push(view);
         }
         await selectMap('world');

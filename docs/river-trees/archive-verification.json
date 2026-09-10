@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "archiveRoot": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910",
+  "batches": [
+    {
+      "name": "atheria-20km-20260909",
+      "source": "D:\\SKBS\\review\\atheria-20km-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-20km-20260909",
+      "files": 9947,
+      "bytes": 14193534863.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-coarse-20260910",
+      "source": "D:\\SKBS\\review\\atheria-coarse-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-coarse-20260910",
+      "files": 7242,
+      "bytes": 14122031842.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-eyrie-upland-20260910",
+      "source": "D:\\SKBS\\review\\atheria-eyrie-upland-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-eyrie-upland-20260910",
+      "files": 14224,
+      "bytes": 2637861492.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-final-polish-20260909",
+      "source": "D:\\SKBS\\review\\atheria-final-polish-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-final-polish-20260909",
+      "files": 9418,
+      "bytes": 1378791023.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-gardens-20260910",
+      "source": "D:\\SKBS\\review\\atheria-gardens-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-gardens-20260910",
+      "files": 5924,
+      "bytes": 1041343504.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-living-landscape-20260909",
+      "source": "D:\\SKBS\\review\\atheria-living-landscape-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-living-landscape-20260909",
+      "files": 2,
+      "bytes": 49.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-natural-blend-20260909",
+      "source": "D:\\SKBS\\review\\atheria-natural-blend-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-natural-blend-20260909",
+      "files": 2,
+      "bytes": 49.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-rails-rivers-20260910",
+      "source": "D:\\SKBS\\review\\atheria-rails-rivers-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-rails-rivers-20260910",
+      "files": 4599,
+      "bytes": 923565667.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-rollback-20260909-0600",
+      "source": "D:\\SKBS\\review\\atheria-rollback-20260909-0600",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-rollback-20260909-0600",
+      "files": 13,
+      "bytes": 3310998.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-roof-skiff-20260910",
+      "source": "D:\\SKBS\\review\\atheria-roof-skiff-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-roof-skiff-20260910",
+      "files": 2167,
+      "bytes": 1207474582.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-traffic-20260909",
+      "source": "D:\\SKBS\\review\\atheria-traffic-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-traffic-20260909",
+      "files": 7038,
+      "bytes": 17006565016.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-voxel-gardens-20260909",
+      "source": "D:\\SKBS\\review\\atheria-voxel-gardens-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-voxel-gardens-20260909",
+      "files": 3174,
+      "bytes": 347811584.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atheria-water-simulation-20260910",
+      "source": "D:\\SKBS\\review\\atheria-water-simulation-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atheria-water-simulation-20260910",
+      "files": 9244,
+      "bytes": 841699013.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "atlas-life-20260909",
+      "source": "D:\\SKBS\\review\\atlas-life-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\atlas-life-20260909",
+      "files": 1084,
+      "bytes": 404622092.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "eyrie-assemblies-20260909",
+      "source": "D:\\SKBS\\review\\eyrie-assemblies-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\eyrie-assemblies-20260909",
+      "files": 3063,
+      "bytes": 1147804470.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "eyrie-p1-life-20260909",
+      "source": "D:\\SKBS\\review\\eyrie-p1-life-20260909",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\eyrie-p1-life-20260909",
+      "files": 5907,
+      "bytes": 2065261316.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "showheel-appservice-fix-20260910",
+      "source": "D:\\SKBS\\review\\showheel-appservice-fix-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\showheel-appservice-fix-20260910",
+      "files": 20046,
+      "bytes": 5726874524.0,
+      "hashesVerified": true
+    },
+    {
+      "name": "showheel-web-optimization-20260910",
+      "source": "D:\\SKBS\\review\\showheel-web-optimization-20260910",
+      "destination": "D:\\SKBS\\review-待手动删除-光伏改造以前-20260910\\showheel-web-optimization-20260910",
+      "files": 14950,
+      "bytes": 1654153375.0,
+      "hashesVerified": true
+    }
+  ],
+  "totalBytes": 64702705459.0,
+  "totalFiles": 118044.0,
+  "retained": "D:\\SKBS\\review\\eyrie-solar-20260910",
+  "deleted": false,
+  "recycleBinChanged": false
+}

@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "manuscript-unchanged",
+      "passed": true
+    },
+    {
+      "id": "detailed-eyrie-solar-and-seed-assets-unchanged",
+      "passed": true,
+      "detail": {
+        "files": 1419,
+        "changed": []
+      }
+    },
+    {
+      "id": "water-and-population-unchanged",
+      "passed": true
+    },
+    {
+      "id": "existing-households-and-paths-unchanged",
+      "passed": true
+    },
+    {
+      "id": "existing-rooftop-tree-list-unchanged",
+      "passed": true
+    },
+    {
+      "id": "eyrie-detail-bundles-byte-identical",
+      "passed": true,
+      "detail": {
+        "bundles": 11
+      }
+    },
+    {
+      "id": "water-geometry-byte-identical",
+      "passed": true
+    },
+    {
+      "id": "exactly-two-new-houses",
+      "passed": true
+    },
+    {
+      "id": "house-foundations-and-bank-clearance",
+      "passed": true,
+      "detail": [
+        {
+          "id": "eyrie-riverside-upper",
+          "base": 0.125,
+          "ground": [
+            0,
+            0
+          ],
+          "bank": 16.52797210482522
+        },
+        {
+          "id": "eyrie-riverside-lower",
+          "base": -121.375,
+          "ground": [
+            -122.5,
+            -121.5
+          ],
+          "bank": 22.802412572104192
+        }
+      ]
+    },
+    {
+      "id": "new-paths-connect-to-existing-paths",
+      "passed": true
+    },
+    {
+      "id": "flat-planting-in-all-four-marked-bands",
+      "passed": true,
+      "detail": {
+        "tiles": 302,
+        "zones": {
+          "upper-west": 67,
+          "upper-east": 39,
+          "lower-west": 125,
+          "lower-east": 71
+        },
+        "netAreaM2": 26116.318977514802
+      }
+    },
+    {
+      "id": "planting-preserves-detailed-scene-footprint",
+      "passed": true,
+      "detail": {
+        "overlaps": 0
+      }
+    },
+    {
+      "id": "core-canopy-coverage",
+      "passed": true,
+      "detail": {
+        "maskArea": 96878211.13895684,
+        "canopyArea": 58126923.09123401,
+        "coverage": 0.5999999629210733
+      }
+    },
+    {
+      "id": "edge-canopy-coverage",
+      "passed": true,
+      "detail": {
+        "maskArea": 113730544.95677575,
+        "canopyArea": 38727755.130347945,
+        "coverage": 0.34052202198685283
+      }
+    },
+    {
+      "id": "orchard-canopy-coverage",
+      "passed": true,
+      "detail": {
+        "maskArea": 848474.6091190297,
+        "canopyArea": 339474.1759810723,
+        "coverage": 0.400099392878177
+      }
+    },
+    {
+      "id": "canopy-colour-proportions",
+      "passed": true,
+      "detail": {
+        "green": {
+          "area": 82890708.46299964,
+          "fraction": 0.8528363735705407
+        },
+        "gold": {
+          "area": 9610881.090422291,
+          "fraction": 0.09888332634570435
+        },
+        "purple": {
+          "area": 4692562.844140524,
+          "fraction": 0.048280300083754925
+        }
+      }
+    },
+    {
+      "id": "actual-canopy-geometry-stays-in-frozen-mask-all-lods",
+      "passed": true,
+      "detail": {
+        "auditedTriangles": 570945,
+        "problems": []
+      }
+    },
+    {
+      "id": "actual-top-triangles-match-net-area-records",
+      "passed": true,
+      "detail": {
+        "maxCellAreaErrorM2": 0.07052770256996155,
+        "actualNetAreasM2": {
+          "core": 58126920.00399835,
+          "edge": 38727754.28264574,
+          "orchard": 339474.08652195544
+        },
+        "lodAreasM2": [
+          97194148.37316564,
+          62125883.1983379,
+          410193.8440906919,
+          35986.160210765316
+        ]
+      }
+    },
+    {
+      "id": "no-canopy-inside-lakes",
+      "passed": true,
+      "detail": {
+        "triangleCentroidsInsideLakes": 0
+      }
+    },
+    {
+      "id": "net-coverages-from-exported-geometry",
+      "passed": true,
+      "detail": {
+        "core": 58126920.00399835,
+        "edge": 38727754.28264574,
+        "orchard": 339474.08652195544
+      }
+    },
+    {
+      "id": "all-manifest-dependencies-exist",
+      "passed": true,
+      "detail": {
+        "resources": 1384,
+        "missing": []
+      }
+    }
+  ],
+  "geometry": {
+    "baselineFinestTriangles": 3823170,
+    "newFinestTriangles": 3850769,
+    "baselineBytes": 341455102,
+    "newBytes": 351585016
+  },
+  "buildId": "2026-09-10T19:51:00.526Z"
+}

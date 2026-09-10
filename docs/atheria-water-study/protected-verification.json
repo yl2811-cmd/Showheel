@@ -1,0 +1,26 @@
+{
+  "manuscriptUnchanged": true,
+  "unexpectedChanges": [],
+  "authorizedRoofChanges": [
+    "maps\\archeon-atlas\\src\\eyrie-expansion-layout.cjs",
+    "maps\\archeon-atlas\\src\\eyrie-expansion-life.cjs",
+    "maps\\archeon-atlas\\src\\eyrie-skiffs.cjs",
+    "maps\\archeon-atlas\\src\\eyrie-voxels.cjs",
+    "maps\\archeon-atlas\\atheria-assets\\eyrie-detail-002.bin",
+    "maps\\archeon-atlas\\atheria-assets\\eyrie-detail-005.bin",
+    "maps\\archeon-atlas\\atheria-assets\\eyrie-detail-006.bin",
+    "maps\\archeon-atlas\\atheria-assets\\eyrie-detail-009.bin",
+    "maps\\archeon-atlas\\atheria-assets\\eyrie-detail.json",
+    "maps\\archeon-atlas\\atheria-assets\\manifest.js",
+    "maps\\archeon-atlas\\atheria-assets\\manifest.json",
+    "maps\\archeon-atlas\\eyrie-assets\\exp-north-drying-far.bin",
+    "maps\\archeon-atlas\\eyrie-assets\\exp-north-drying-near.bin",
+    "maps\\archeon-atlas\\eyrie-assets\\geometry.js",
+    "maps\\archeon-atlas\\eyrie-assets\\manifest.js",
+    "maps\\archeon-atlas\\eyrie-assets\\manifest.json",
+    "maps\\archeon-atlas\\eyrie-assets\\navigation.js"
+  ],
+  "unchangedFiles": 6815,
+  "terrainCheckedBy": "file sizes and modification times; other protected inputs checked by SHA-256",
+  "waterSimulationKeptOutsideAtlas": true
+}

@@ -1,0 +1,311 @@
+{
+  "method": "Priority-Flood of uncarved natural DEM; channel interception records unique lateral catchments, not full reach discharge. Filled depressions indicate spill requirements, not modified terrain.",
+  "cellM": 40,
+  "boundedDomain": {
+    "x0": -24000,
+    "x1": 24000,
+    "z0": -34000,
+    "z1": 22000,
+    "step": 40,
+    "width": 1201,
+    "height": 1401,
+    "axes": "+X east, +Z south, +Y up",
+    "datumM": 720,
+    "description": "Accepted procedural natural ground before river and lake carving; not measured terrain"
+  },
+  "uniqueAreaKm2": 1921.1344000000001,
+  "uninterceptedAreaKm2": 771.0272,
+  "channels": [
+    {
+      "id": "ishkar",
+      "localInterceptedAreaKm2": 719.8304,
+      "localLateralFlowM3s": [
+        0.7198304000000001,
+        3.599152,
+        10.797456
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 163.5994970688363,
+      "maxWaterAboveNaturalGroundM": 339.88324134018194,
+      "junction": null,
+      "sourceStatus": "external inflow not quantified"
+    },
+    {
+      "id": "atheria-shelf-water",
+      "localInterceptedAreaKm2": 133.7824,
+      "localLateralFlowM3s": [
+        0.1337824,
+        0.6689120000000001,
+        2.006736
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 8.194428499983445,
+      "maxWaterAboveNaturalGroundM": 27.50222711863725,
+      "junction": {
+        "distanceM": 3786.707889229832,
+        "heightDifferenceM": -0.11503442393848218
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "western-shelf-creek",
+      "localInterceptedAreaKm2": 12.0384,
+      "localLateralFlowM3s": [
+        0.0120384,
+        0.060191999999999996,
+        0.180576
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 72.77433779821561,
+      "maxWaterAboveNaturalGroundM": 128.55178174577213,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "eyrie-creek",
+      "localInterceptedAreaKm2": 36.2496,
+      "localLateralFlowM3s": [
+        0.0362496,
+        0.181248,
+        0.543744
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 31.24915087223053,
+      "maxWaterAboveNaturalGroundM": 87.60577392578125,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "eastern-shelf-creek",
+      "localInterceptedAreaKm2": 37.1328,
+      "localLateralFlowM3s": [
+        0.0371328,
+        0.18566400000000002,
+        0.556992
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 13.975118055332473,
+      "maxWaterAboveNaturalGroundM": 53.17622071345909,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-west-rill",
+      "localInterceptedAreaKm2": 208.416,
+      "localLateralFlowM3s": [
+        0.208416,
+        1.04208,
+        3.1262399999999997
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 91.58535719318708,
+      "maxWaterAboveNaturalGroundM": 43.128647806044086,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-west-shoulder-water",
+      "localInterceptedAreaKm2": 104.7264,
+      "localLateralFlowM3s": [
+        0.1047264,
+        0.523632,
+        1.5708959999999998
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 68.54991348902844,
+      "maxWaterAboveNaturalGroundM": 70.84093423223007,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-east-rill",
+      "localInterceptedAreaKm2": 34.3984,
+      "localLateralFlowM3s": [
+        0.0343984,
+        0.171992,
+        0.515976
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 141.24632453918457,
+      "maxWaterAboveNaturalGroundM": 15.524838279612467,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-east-shoulder-water",
+      "localInterceptedAreaKm2": 58.6336,
+      "localLateralFlowM3s": [
+        0.0586336,
+        0.293168,
+        0.8795040000000001
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 141.24632453918457,
+      "maxWaterAboveNaturalGroundM": 26.32294755755825,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-north-rill",
+      "localInterceptedAreaKm2": 88.3936,
+      "localLateralFlowM3s": [
+        0.0883936,
+        0.441968,
+        1.325904
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 38.82248115665038,
+      "maxWaterAboveNaturalGroundM": 25.67364398541548,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "external inflow not quantified"
+    },
+    {
+      "id": "atheria-low-meadow-water",
+      "localInterceptedAreaKm2": 235.1216,
+      "localLateralFlowM3s": [
+        0.23512160000000001,
+        1.175608,
+        3.526824
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 46.435503275852895,
+      "maxWaterAboveNaturalGroundM": 26.80363163462397,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-west-outer-water",
+      "localInterceptedAreaKm2": 151.3808,
+      "localLateralFlowM3s": [
+        0.15138079999999998,
+        0.756904,
+        2.270712
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 86.7932246745658,
+      "maxWaterAboveNaturalGroundM": 103.73610396021947,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-east-lake-outlet",
+      "localInterceptedAreaKm2": 18.0032,
+      "localLateralFlowM3s": [
+        0.0180032,
+        0.09001599999999998,
+        0.270048
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 33.30004184856337,
+      "maxWaterAboveNaturalGroundM": 14.192130436292977,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-central-terrace-1",
+      "localInterceptedAreaKm2": 12.9808,
+      "localLateralFlowM3s": [
+        0.0129808,
+        0.06490399999999999,
+        0.19471200000000002
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 63.330543578035474,
+      "maxWaterAboveNaturalGroundM": 62.183089966592064,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-central-terrace-2",
+      "localInterceptedAreaKm2": 26.9856,
+      "localLateralFlowM3s": [
+        0.026985600000000002,
+        0.134928,
+        0.40478400000000003
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 42.82731491631148,
+      "maxWaterAboveNaturalGroundM": 101.65878421760338,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-central-terrace-3",
+      "localInterceptedAreaKm2": 39.0768,
+      "localLateralFlowM3s": [
+        0.0390768,
+        0.19538399999999997,
+        0.5861519999999999
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 136.9547601569177,
+      "maxWaterAboveNaturalGroundM": 13.968407504034499,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    },
+    {
+      "id": "atheria-central-terrace-4",
+      "localInterceptedAreaKm2": 3.984,
+      "localLateralFlowM3s": [
+        0.003984,
+        0.01992,
+        0.05976
+      ],
+      "uphillSegments": 0,
+      "maxNaturalGroundAboveWaterM": 16.143599308601566,
+      "maxWaterAboveNaturalGroundM": 68.44432457414231,
+      "junction": {
+        "distanceM": 0.0,
+        "heightDifferenceM": 0.0
+      },
+      "sourceStatus": "mapped headwater; local interception only"
+    }
+  ],
+  "limitations": [
+    "Regional native relief is inferred, coarser than narrow channels.",
+    "Cells can spill through unresolved depressions. Inferred upstream supply requires local checking.",
+    "North-rill starts geometrically at Ishkar but the published manifest omits the upstream connection; do not duplicate its imported water."
+  ]
+}

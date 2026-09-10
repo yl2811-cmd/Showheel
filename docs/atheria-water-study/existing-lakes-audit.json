@@ -1,0 +1,47 @@
+[
+  {
+    "id": "west-shelf-lake",
+    "planDimensionsM": [
+      620,
+      320
+    ],
+    "imposedDepthM": 2.5,
+    "imposedLevelRelativeM": -7.745409071988686,
+    "minimumNaturalRimM": -2.4994864463806152,
+    "maximumNaturalRimM": 0.6102054715156555,
+    "rimBelowImposedWaterCells": 0,
+    "naturalGroundAboveWaterMaxM": 8.304067611694336,
+    "naturalGroundBelowWaterMaxM": -5.464175701141357,
+    "interpretation": "Planform and 2.5 m rendered excavation are authored. Natural containment and a surveyed outlet are not established by these dimensions."
+  },
+  {
+    "id": "east-shelf-lake",
+    "planDimensionsM": [
+      440,
+      260
+    ],
+    "imposedDepthM": 2.5,
+    "imposedLevelRelativeM": 134.95073948861284,
+    "minimumNaturalRimM": 147.63665771484375,
+    "maximumNaturalRimM": 150.021240234375,
+    "rimBelowImposedWaterCells": 0,
+    "naturalGroundAboveWaterMaxM": 15.026748657226562,
+    "naturalGroundBelowWaterMaxM": -12.79351806640625,
+    "interpretation": "Planform and 2.5 m rendered excavation are authored. Natural containment and a surveyed outlet are not established by these dimensions."
+  },
+  {
+    "id": "upper-shelf-lake",
+    "planDimensionsM": [
+      360,
+      210
+    ],
+    "imposedDepthM": 2.5,
+    "imposedLevelRelativeM": 296.03581658461655,
+    "minimumNaturalRimM": 298.7681884765625,
+    "maximumNaturalRimM": 300.1633605957031,
+    "rimBelowImposedWaterCells": 0,
+    "naturalGroundAboveWaterMaxM": 4.09552001953125,
+    "naturalGroundBelowWaterMaxM": -2.736785888671875,
+    "interpretation": "Planform and 2.5 m rendered excavation are authored. Natural containment and a surveyed outlet are not established by these dimensions."
+  }
+]

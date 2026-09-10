@@ -17,4 +17,5 @@ for (const name of ['docs', 'scripts', 'dist-web']) assert(!fs.existsSync(path.j
 assert(fs.existsSync(path.join(output, 'showheel-web-routes.json')));
 assert(fs.existsSync(path.join(output, 'Showheel.dll')));
 const totalBytes = walk(output).reduce((s, f) => s + fs.statSync(f).size, 0);
+assert(totalBytes <= Math.floor(1024 ** 3 * 0.9), 'App Service publish exceeds 90% of the confirmed Shared D1 1 GiB quota');
 console.log(JSON.stringify({ actualAppServicePublishVerified: true, totalBytes, totalMB: totalBytes / 1e6, optimizedWebMB: report.totalBytes / 1e6, originalGeometryExcluded: true }));

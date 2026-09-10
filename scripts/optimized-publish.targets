@@ -5,6 +5,7 @@
     <_ShowheelAssetCache>$(MSBuildProjectDirectory)/obj/showheel-web-assets</_ShowheelAssetCache>
   </PropertyGroup>
   <ItemGroup>
+    <Content Update="wwwroot/**" CopyToPublishDirectory="Never" Condition="'$(UseOptimizedWebAssets)' == 'true'" />
     <Content Update="dist-web/**;docs/**;scripts/**;dotnet-tools.json;appsettings.Development.json" CopyToPublishDirectory="Never" />
     <None Update="dist-web/**;docs/**;scripts/**" CopyToPublishDirectory="Never" />
   </ItemGroup>
@@ -32,6 +33,9 @@
     </ItemGroup>
   </Target>
   <Target Name="VerifyShowheelPublishedAssets" AfterTargets="CopyFilesToPublishDirectory" Condition="'$(UseOptimizedWebAssets)' == 'true'">
+    <Exec Command="&quot;$(ShowheelNodeExecutable)&quot; &quot;$(MSBuildProjectDirectory)/scripts/verify-appservice-publish.cjs&quot; &quot;$(PublishDir).&quot; &quot;$(_ShowheelPreparedRoot)/report.json&quot;" />
+  </Target>
+  <Target Name="VerifyFinalShowheelWebDeployPayload" BeforeTargets="_CreateManifestFiles;MSDeployPublish;MSDeployPackagePublish" Condition="'$(UseOptimizedWebAssets)' == 'true'">
     <Exec Command="&quot;$(ShowheelNodeExecutable)&quot; &quot;$(MSBuildProjectDirectory)/scripts/verify-appservice-publish.cjs&quot; &quot;$(PublishDir).&quot; &quot;$(_ShowheelPreparedRoot)/report.json&quot;" />
   </Target>
 </Project>

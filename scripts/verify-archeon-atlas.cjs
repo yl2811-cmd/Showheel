@@ -25,7 +25,7 @@ async function main() {
     if (relative === 'about.html') continue;
     if (!relative.startsWith('#') && !/^(?:https?:|data:)/.test(relative)) exists(relative);
   }
-  for (const script of ['space-controller.js', 'colonization-ui.js', 'eyrie-controller.js', 'atheria-controller.js']) {
+  for (const script of ['space-controller.js', 'colonization-ui.js', 'eyrie-controller.js', 'atheria-controller.js'].filter(f=>files.has(f))) {
     for (const match of read(script).matchAll(/(?:loadScript|script)\('([^']+)'\)/g)) exists(match[1]);
   }
   vm.runInNewContext(read('atheria-assets/manifest.js'), context);
@@ -38,6 +38,14 @@ async function main() {
   }
   assert(context.window.ATHERIA_REGION_MANIFEST);
   checkRegion(context.window.ATHERIA_REGION_MANIFEST);
+  const detail=context.window.ATHERIA_REGION_MANIFEST.eyrieDetail;
+  if(detail){
+    assert(!read('index.html').includes('src="eyrie-controller.js"'), 'Separate Eyrie tab still loaded');
+    assert(![...files].some(f=>f.startsWith('eyrie-assets/geometry-part-')), 'Duplicate Eyrie geometry imported');
+    const e=JSON.parse(read('atheria-assets/'+detail.file));
+    for(const b of e.bundles){exists('atheria-assets/'+b.file);assert.equal(hash(fs.readFileSync(path.join(assets,'atheria-assets',b.file))),b.sha256);}
+    for(const p of e.parts){const b=fs.readFileSync(path.join(assets,'atheria-assets',e.bundles[p.bundle].file)).subarray(p.offset,p.offset+p.bytes);assert.equal(hash(b),e.sourceHashes[p.id+'.bin'],'Detailed Eyrie changed: '+p.id);}
+  }
   for (const file of ['data/astronomy.js', 'data/stars-hyg41.js', 'data/space-textures.js']) {
     vm.runInNewContext(read(file), context);
   }

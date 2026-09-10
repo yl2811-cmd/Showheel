@@ -37,13 +37,19 @@ node scripts/serve-web.cjs dist-web 5290
 
 压缩发布目录通过 HTTP/HTTPS 访问。原始地图数据的下载按钮由加载器还原文件后下载；直接将旧 JSON 路径当作独立 HTTP API 使用不属于此静态发布接口。
 
-## 发布仍需处理的事项
+## Visual Studio / App Service 发布
 
-1. 最近的 Azure Actions 错误为：`No matching Static Web App was found or the api key was invalid.` 浏览器中的 Azure 门户尚未登录，尚不能核实目标网站、档位及部署令牌。保留原密钥名称 `AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_TREE_0DC0E5510`，没有写入或展示密钥值。
-2. 远端默认分支为 `codex/archeon-atlas`；原工作流仅监听 `main`，远端当前没有 `main`。按本次约定保留原生产触发规则，推送当前分支不会自动上线。
-3. 需要依据 Azure 实际单环境额度设置仓库变量 `SWA_QUOTA_MB`。工作流必须确认额度且低于额度的 90% 才允许发布。当前档位未确认，默认 250 MB 只用于保守测算，不代表已确认订阅。
+实际生产目标是 Visual Studio 中的 `yl-portfolio - Web Deploy1.pubxml`，Azure App Service Windows，Shared D1 方案。门户确认文件存储额度为 1 GiB。Static Web Apps 是另一条工作流，其 250/500 MB 额度不适用于这个站点。
 
-按十进制 500 MB 额度计算，90% 预算为 450 MB，当前仍差 **10.28 MB**；按 250 MB 额度计算，90% 预算为 225 MB，仍差 **235.28 MB**。未自动降画质、付费升级或迁移资源。工作流只上传 `dist-web`，不再直接上传整个 `wwwroot`。
+`Showheel.csproj` 导入 `scripts/optimized-publish.targets`，因此点击“发布”会自动生成并验证压缩资源。源模型仍留在作者目录，发布清单只包含压缩版本；最终 Web Deploy 阶段再校验一次，阻止原件被后续构建步骤加回。整个应用展开约 460.91 MB，真实 Web Deploy ZIP 已成功生成。发布目录超过确认额度的 90% 时自动停止。
+
+该配置同步移除应用部署目录中多余的旧文件，并关闭服务器端 Web Deploy 自动备份以避免在同一额度内重复保存站点。首次替换前将线上站点备份到本机；不要把运行时用户上传的数据放在此部署目录。后续发布仍使用 Visual Studio 自己保存的凭据。
+
+发布版 ASP.NET 通过 `showheel-web-routes.json` 提供原有页面路径、图片路径及原始 JSON/二进制路径；压缩数据响应携带 gzip 编码。未发布的作者版加载方式保持不变。
+
+此前线上静态目录为 986.99 MiB，其中地图 694.93 MiB、图片 290.38 MiB，压缩目录为空；日志不足 1 MiB。根因是旧的未压缩资源仍在服务器，并非日志堆积。
+
+原 Static Web Apps 工作流保留原分支触发规则；它的连接错误需单独处理，不作为 Visual Studio 发布验收结果。
 
 ## 验证记录
 

@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "13-owners",
+      "pass": true
+    },
+    {
+      "id": "fixed",
+      "pass": true
+    },
+    {
+      "id": "legacy-panels-absent",
+      "pass": true
+    },
+    {
+      "id": "protected-geometry",
+      "pass": true,
+      "details": {
+        "count": 1042,
+        "changedProtected": []
+      }
+    },
+    {
+      "id": "walking-floors-unchanged",
+      "pass": true
+    },
+    {
+      "id": "post-contacts-and-clearance",
+      "pass": true,
+      "details": []
+    },
+    {
+      "id": "minimum-headroom",
+      "pass": true,
+      "details": [
+        {
+          "owner": "north-grain",
+          "minimumMetres": 2.875,
+          "samples": 416
+        },
+        {
+          "owner": "rail-upper",
+          "minimumMetres": 2.875,
+          "samples": 416
+        },
+        {
+          "owner": "rail-lower",
+          "minimumMetres": 2.875,
+          "samples": 416
+        },
+        {
+          "owner": "lower-west-extension",
+          "minimumMetres": 2.875,
+          "samples": 416
+        },
+        {
+          "owner": "lower-east",
+          "minimumMetres": 2.625,
+          "samples": 414
+        },
+        {
+          "owner": "lower-mill",
+          "minimumMetres": 2.875,
+          "samples": 211
+        },
+        {
+          "owner": "lower-round",
+          "minimumMetres": 2.875,
+          "samples": 231
+        },
+        {
+          "owner": "primary",
+          "minimumMetres": 2.875,
+          "samples": 56
+        },
+        {
+          "owner": "rear",
+          "minimumMetres": 2.875,
+          "samples": 47
+        },
+        {
+          "owner": "lower-main",
+          "minimumMetres": 2.875,
+          "samples": 18
+        }
+      ]
+    },
+    {
+      "id": "panes-have-wire-and-drain",
+      "pass": true
+    },
+    {
+      "id": "all-resources-exist",
+      "pass": true
+    },
+    {
+      "id": "transparent-glass-separate",
+      "pass": true
+    },
+    {
+      "id": "no-new-motion",
+      "pass": true
+    }
+  ]
+}

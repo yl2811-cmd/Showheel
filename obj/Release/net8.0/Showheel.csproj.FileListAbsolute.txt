@@ -104,3 +104,9 @@ D:\repo\Showheel\bin\Release\net8.0\dist-web\staticwebapp.config.json
 D:\repo\Showheel\bin\Release\net8.0\docs\web-build-report.json
 D:\repo\Showheel\bin\Release\net8.0\scripts\web-build\package-lock.json
 D:\repo\Showheel\bin\Release\net8.0\scripts\web-build\package.json
+D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\baseline-audit.json
+D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\existing-lakes-audit.json
+D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\protected-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\release-validation.json
+D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\updates\atheria-roof-water-20260910.json

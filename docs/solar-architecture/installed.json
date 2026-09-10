@@ -1,0 +1,241 @@
+{
+  "completed": true,
+  "buildId": "2026-09-10T18:12:52.225Z",
+  "changed": [
+    {
+      "file": "eyrie-assets/mechanics-primary-facilities.bin",
+      "sha256": "086cd944eafaa7c22bf9797be56c8602ee722e4429cbffd54bce6704a40a3b01",
+      "bytes": 232732
+    },
+    {
+      "file": "eyrie-assets/mechanics-rear-facilities.bin",
+      "sha256": "b75976d7f4b3ec9b20b3d5e326bf376dc6758c20ba5fcf35f4a898c825a2cee1",
+      "bytes": 214364
+    },
+    {
+      "file": "eyrie-assets/house-press-east-near.bin",
+      "sha256": "f53ffee1c02f53cfe78a30723fb2be4a14ab82c002c7f007d29013ad4a801289",
+      "bytes": 582544
+    },
+    {
+      "file": "eyrie-assets/house-press-east-far.bin",
+      "sha256": "84741691c4a380546b5187426baacc2c6782a1609f88005314df6e6835bf126d",
+      "bytes": 159424
+    },
+    {
+      "file": "eyrie-assets/house-herbs-east-near.bin",
+      "sha256": "f2ca8dc2dd2798964c209c12517c34da6b0b6d709228697da8d222b88af86867",
+      "bytes": 270616
+    },
+    {
+      "file": "eyrie-assets/house-herbs-east-far.bin",
+      "sha256": "aabbfc7f2599d1483d90a8bbe0aa82e0a55c9902f52cd60b6d6c4b3f20862675",
+      "bytes": 66108
+    },
+    {
+      "file": "eyrie-assets/house-linen-east-near.bin",
+      "sha256": "aa9a9ccae416d97ac8f3171bfb3953f3f7f4b3d7ea488b90a494d1131e6a8bca",
+      "bytes": 400176
+    },
+    {
+      "file": "eyrie-assets/house-linen-east-far.bin",
+      "sha256": "a1e63b852dfd55318d0f1e0f5cefa5b9de72a4266dab4f1d516a40364f6b2a4a",
+      "bytes": 126296
+    },
+    {
+      "file": "eyrie-assets/solar-north-grain.bin",
+      "sha256": "4717d92a1cc7a2d318c759e54e4294ffd89ddf692c79906e3492b611bec600c2",
+      "bytes": 236012
+    },
+    {
+      "file": "eyrie-assets/solar-north-grain-glass.bin",
+      "sha256": "500087826afac2ae6e7103759bb17706fb0d3d6943cba55aa1ffcc2b5e780968",
+      "bytes": 17728
+    },
+    {
+      "file": "eyrie-assets/solar-rail-upper.bin",
+      "sha256": "90ad7d12a4c21fdcbe40379665227d3e9881ef6c5aa343457c801aebd2ad3068",
+      "bytes": 236012
+    },
+    {
+      "file": "eyrie-assets/solar-rail-upper-glass.bin",
+      "sha256": "8c24a84c3db4821809d475d06428c8d3e6fa3c60ab940721e8e872cbd9fa13b8",
+      "bytes": 17728
+    },
+    {
+      "file": "eyrie-assets/solar-rail-lower.bin",
+      "sha256": "a60b08137e0ffa0a52245cb2595e37eca0217f21e79c30310ee1f12bc30d6ffb",
+      "bytes": 236012
+    },
+    {
+      "file": "eyrie-assets/solar-rail-lower-glass.bin",
+      "sha256": "6e6ed2bab07876256fd9b676297593de9ec78a27333edf97e422037611d5e10e",
+      "bytes": 17728
+    },
+    {
+      "file": "eyrie-assets/solar-lower-west-extension.bin",
+      "sha256": "1b5f70ab53d49aa9dfd2662eebebd1ba61f871740fbd23d011f9db74a14a6288",
+      "bytes": 236012
+    },
+    {
+      "file": "eyrie-assets/solar-lower-west-extension-glass.bin",
+      "sha256": "e08725323bf0905872619296b447567643383e466d580bf7bd87a93e7a41df15",
+      "bytes": 17728
+    },
+    {
+      "file": "eyrie-assets/solar-lower-east.bin",
+      "sha256": "8ad27513c08d82ccde58c1be951e3057a7fabaed9d845a64fb4a22728dfa33c7",
+      "bytes": 237980
+    },
+    {
+      "file": "eyrie-assets/solar-lower-east-glass.bin",
+      "sha256": "6c77c8af6e163079545a0451f389f4c488bc309882103e3c182b504f060322eb",
+      "bytes": 17728
+    },
+    {
+      "file": "eyrie-assets/solar-lower-mill.bin",
+      "sha256": "04eeced4b81b40d66b184eb16e245d27f6c389d6845276dbce3f83e6d9055d57",
+      "bytes": 112356
+    },
+    {
+      "file": "eyrie-assets/solar-lower-mill-glass.bin",
+      "sha256": "f8f42bb31da3ee66994f3ee3382bce975fa5a869f3ac52fe553420e5ac52deab",
+      "bytes": 6904
+    },
+    {
+      "file": "eyrie-assets/solar-lower-round.bin",
+      "sha256": "f751d4a8fb743ab9020b635757d6510fd01a176a025bb5c9714bc5c0535b879a",
+      "bytes": 119736
+    },
+    {
+      "file": "eyrie-assets/solar-lower-round-glass.bin",
+      "sha256": "9822fbc0c20863b446c43e8c7f93eb2398688e33cbdd0b6335aff65320dd0d04",
+      "bytes": 7888
+    },
+    {
+      "file": "eyrie-assets/solar-primary.bin",
+      "sha256": "d72c02c0027696c8c480d77a79c98dbb7e1d4da9fa40debf782ed2d2c57dc0fa",
+      "bytes": 104484
+    },
+    {
+      "file": "eyrie-assets/solar-primary-glass.bin",
+      "sha256": "bda280fff7c56dae4853e5b723901d6eec8caadb7e6d8a3c242b9dd6d545fafa",
+      "bytes": 5920
+    },
+    {
+      "file": "eyrie-assets/solar-rear.bin",
+      "sha256": "b0a72b36381b6f6fd77d2d9961c71906f0e9ce19e173d906a50a147306053433",
+      "bytes": 92676
+    },
+    {
+      "file": "eyrie-assets/solar-rear-glass.bin",
+      "sha256": "dcb06f56f8f61db3cdbde0e8457ee2d918c90df03121450ad072847aa01b8306",
+      "bytes": 4936
+    },
+    {
+      "file": "eyrie-assets/solar-lower-main.bin",
+      "sha256": "a2874bf3089b93964af1b991a7e07cb3ca4a688a122850f8bdda3a54904f418e",
+      "bytes": 58400
+    },
+    {
+      "file": "eyrie-assets/solar-lower-main-glass.bin",
+      "sha256": "97b5d29a3b3f6cd332a019914bb6aec2240a09330c508207dec2f257a3c2ff20",
+      "bytes": 2968
+    },
+    {
+      "file": "eyrie-assets/solar-press-east.bin",
+      "sha256": "b1dab74e9f648fbfbcc3d94e7963965df484ed211bde11633bf0028d53945a04",
+      "bytes": 189928
+    },
+    {
+      "file": "eyrie-assets/solar-herbs-east.bin",
+      "sha256": "ba7e6a3880b5e41e4543b764377a581c4607cd5c4c2654546acc2006fa751e59",
+      "bytes": 82344
+    },
+    {
+      "file": "eyrie-assets/solar-linen-east.bin",
+      "sha256": "be056731de2e87d28d9bd7bce420db1a199d0130d90e366c8850f9db3357db9d",
+      "bytes": 180252
+    },
+    {
+      "file": "eyrie-assets/manifest.json",
+      "sha256": "b904b87240183bcdf18968e75627678c3e257fe60087e7fd2e52c73c3fbde48b",
+      "bytes": 10113921
+    },
+    {
+      "file": "eyrie-assets/manifest.js",
+      "sha256": "64c0e337f3060ad28fc4c363fd966981092ff0b57231c28aa56476e2a8d2960d",
+      "bytes": 10113944
+    },
+    {
+      "file": "eyrie-assets/geometry.js",
+      "sha256": "406904abb00449d04ea4df6ccd264fa952679e4c05e99a8830e649d7001d589b",
+      "bytes": 210920691
+    },
+    {
+      "file": "eyrie-assets/navigation.js",
+      "sha256": "c2195c8c60ecb568cee0c70ae6cd1b10ea8bea70d0ddbcc9c8449d5105fc6940",
+      "bytes": 3185626
+    },
+    {
+      "file": "atheria-assets/manifest.json",
+      "sha256": "b1ab6c3a7d65c85a0f5ff39a652dd5a516c628d519810f17580c2406805947f2",
+      "bytes": 1457455
+    },
+    {
+      "file": "atheria-assets/manifest.js",
+      "sha256": "2f41ceced3e9a890bab0e2c25522429d17c0a4ad9ffcf33c68b1926ddd8ae65c",
+      "bytes": 1457487
+    },
+    {
+      "file": "atheria-assets/eyrie-detail.json",
+      "sha256": "b53f1f69086ca8f2b15ebd81a111b294f08a8dcb8fe79f0d3406709d1cab7896",
+      "bytes": 7587460
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-001.bin",
+      "sha256": "150557ff83814c21105f179a2ca279e81e086884af4aaffd7a651b4c93e67142",
+      "bytes": 16533136
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-002.bin",
+      "sha256": "dd0a7e37c70c3fd411b6d1ad9f5db22dee55f7c49656d549f9c950f292baa037",
+      "bytes": 16762976
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-003.bin",
+      "sha256": "8b31ec88905608e60b2f627b756ca551925294997a740edcf808b61d7adfe98a",
+      "bytes": 14374336
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-004.bin",
+      "sha256": "a07ca88a4a29292f619eef1167bd6009d6a112722584e7a25f959652e08498ed",
+      "bytes": 16497044
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-005.bin",
+      "sha256": "cdb366ee14d96f385166f04da194ea1e31e7df13a172940055e5417f2fea919d",
+      "bytes": 16741708
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-006.bin",
+      "sha256": "ffa714e5a9a672f229aaae32fe426aaf25b40d3457b849710bb925e653d716ad",
+      "bytes": 7641684
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-009.bin",
+      "sha256": "5aacdde9d593c78fed185281075970da08a0893bf3478e93333eed4b0e572b41",
+      "bytes": 16773436
+    },
+    {
+      "file": "atheria-assets/eyrie-detail-010.bin",
+      "sha256": "3e2f6e7bc67462a107ba967b6c035b059f382afe0f177ca86fb11d2a8a84e22c",
+      "bytes": 2832040
+    }
+  ],
+  "checks": {
+    "manuscriptUnchanged": true,
+    "sourceBuildMatches": true,
+    "allInstalledHashes": true
+  }
+}

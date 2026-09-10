@@ -45,39 +45,39 @@
     },
     {
       "path": "atheria-assets/eyrie-detail-001.bin",
-      "bytes": 15552004,
-      "sourceSha256": "a40f14224c43c4d19c0ea7f138c80456cf900ae8e8b2e1440865cd434d647a2d",
-      "sha256": "a40f14224c43c4d19c0ea7f138c80456cf900ae8e8b2e1440865cd434d647a2d"
+      "bytes": 16533136,
+      "sourceSha256": "150557ff83814c21105f179a2ca279e81e086884af4aaffd7a651b4c93e67142",
+      "sha256": "150557ff83814c21105f179a2ca279e81e086884af4aaffd7a651b4c93e67142"
     },
     {
       "path": "atheria-assets/eyrie-detail-002.bin",
-      "bytes": 16373904,
-      "sourceSha256": "7a84a94f4c6f78feb3cbec0ebf0fa2ef3ee63028b4177d415c4585e1348f874a",
-      "sha256": "7a84a94f4c6f78feb3cbec0ebf0fa2ef3ee63028b4177d415c4585e1348f874a"
+      "bytes": 16762976,
+      "sourceSha256": "dd0a7e37c70c3fd411b6d1ad9f5db22dee55f7c49656d549f9c950f292baa037",
+      "sha256": "dd0a7e37c70c3fd411b6d1ad9f5db22dee55f7c49656d549f9c950f292baa037"
     },
     {
       "path": "atheria-assets/eyrie-detail-003.bin",
-      "bytes": 16729260,
-      "sourceSha256": "91db78386950c34ff763c2a39fc5a4b5e2ef27396710931322843f3fb6937b09",
-      "sha256": "91db78386950c34ff763c2a39fc5a4b5e2ef27396710931322843f3fb6937b09"
+      "bytes": 14374336,
+      "sourceSha256": "8b31ec88905608e60b2f627b756ca551925294997a740edcf808b61d7adfe98a",
+      "sha256": "8b31ec88905608e60b2f627b756ca551925294997a740edcf808b61d7adfe98a"
     },
     {
       "path": "atheria-assets/eyrie-detail-004.bin",
-      "bytes": 15772344,
-      "sourceSha256": "c6ce896c48c347f4c4d77e50427dfbe261ee10a8b0f5d837f7f1744cae47b42f",
-      "sha256": "c6ce896c48c347f4c4d77e50427dfbe261ee10a8b0f5d837f7f1744cae47b42f"
+      "bytes": 16497044,
+      "sourceSha256": "a07ca88a4a29292f619eef1167bd6009d6a112722584e7a25f959652e08498ed",
+      "sha256": "a07ca88a4a29292f619eef1167bd6009d6a112722584e7a25f959652e08498ed"
     },
     {
       "path": "atheria-assets/eyrie-detail-005.bin",
-      "bytes": 16667048,
-      "sourceSha256": "49d984e1b7b3a48d42b5a22ffaee187bfc90a4eb308d1fdb3fe1dbd1b114dbc2",
-      "sha256": "49d984e1b7b3a48d42b5a22ffaee187bfc90a4eb308d1fdb3fe1dbd1b114dbc2"
+      "bytes": 16741708,
+      "sourceSha256": "cdb366ee14d96f385166f04da194ea1e31e7df13a172940055e5417f2fea919d",
+      "sha256": "cdb366ee14d96f385166f04da194ea1e31e7df13a172940055e5417f2fea919d"
     },
     {
       "path": "atheria-assets/eyrie-detail-006.bin",
-      "bytes": 12353340,
-      "sourceSha256": "380a7298622f2ca3c49ddd5ee7379434766af923905e30e3280c8d128324cc84",
-      "sha256": "380a7298622f2ca3c49ddd5ee7379434766af923905e30e3280c8d128324cc84"
+      "bytes": 7641684,
+      "sourceSha256": "ffa714e5a9a672f229aaae32fe426aaf25b40d3457b849710bb925e653d716ad",
+      "sha256": "ffa714e5a9a672f229aaae32fe426aaf25b40d3457b849710bb925e653d716ad"
     },
     {
       "path": "atheria-assets/eyrie-detail-007.bin",
@@ -93,15 +93,21 @@
     },
     {
       "path": "atheria-assets/eyrie-detail-009.bin",
-      "bytes": 15313756,
-      "sourceSha256": "142e58a4024e9465c4c2d0d4160e7e6323d5032b90615bb881b6ca94a003b8b0",
-      "sha256": "142e58a4024e9465c4c2d0d4160e7e6323d5032b90615bb881b6ca94a003b8b0"
+      "bytes": 16773436,
+      "sourceSha256": "5aacdde9d593c78fed185281075970da08a0893bf3478e93333eed4b0e572b41",
+      "sha256": "5aacdde9d593c78fed185281075970da08a0893bf3478e93333eed4b0e572b41"
+    },
+    {
+      "path": "atheria-assets/eyrie-detail-010.bin",
+      "bytes": 2832040,
+      "sourceSha256": "3e2f6e7bc67462a107ba967b6c035b059f382afe0f177ca86fb11d2a8a84e22c",
+      "sha256": "3e2f6e7bc67462a107ba967b6c035b059f382afe0f177ca86fb11d2a8a84e22c"
     },
     {
       "path": "atheria-assets/eyrie-detail.json",
-      "bytes": 7585351,
-      "sourceSha256": "39acee9ecd354b120f86cee104031dd1926150ff8cc83acea9ba5cae6e516ffe",
-      "sha256": "39acee9ecd354b120f86cee104031dd1926150ff8cc83acea9ba5cae6e516ffe"
+      "bytes": 7587460,
+      "sourceSha256": "b53f1f69086ca8f2b15ebd81a111b294f08a8dcb8fe79f0d3406709d1cab7896",
+      "sha256": "b53f1f69086ca8f2b15ebd81a111b294f08a8dcb8fe79f0d3406709d1cab7896"
     },
     {
       "path": "atheria-assets/harbour.bin",
@@ -117,9 +123,9 @@
     },
     {
       "path": "atheria-assets/manifest.js",
-      "bytes": 1456743,
-      "sourceSha256": "809c4492e5c02448f43b4ee951e8128200222f906bdcadbbc1b20dfea8454577",
-      "sha256": "809c4492e5c02448f43b4ee951e8128200222f906bdcadbbc1b20dfea8454577"
+      "bytes": 1457487,
+      "sourceSha256": "2f41ceced3e9a890bab0e2c25522429d17c0a4ad9ffcf33c68b1926ddd8ae65c",
+      "sha256": "2f41ceced3e9a890bab0e2c25522429d17c0a4ad9ffcf33c68b1926ddd8ae65c"
     },
     {
       "path": "atheria-assets/roof-trees.json",

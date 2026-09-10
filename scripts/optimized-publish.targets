@@ -1,0 +1,37 @@
+<Project>
+  <PropertyGroup>
+    <UseOptimizedWebAssets Condition="'$(UseOptimizedWebAssets)' == ''">true</UseOptimizedWebAssets>
+    <ShowheelNodeExecutable Condition="'$(ShowheelNodeExecutable)' == ''">node</ShowheelNodeExecutable>
+    <_ShowheelAssetCache>$(MSBuildProjectDirectory)/obj/showheel-web-assets</_ShowheelAssetCache>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Update="dist-web/**;docs/**;scripts/**;dotnet-tools.json;appsettings.Development.json" CopyToPublishDirectory="Never" />
+    <None Update="dist-web/**;docs/**;scripts/**" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+  <!-- Both Visual Studio Web Deploy and dotnet publish consume this item list. -->
+  <Target Name="PrepareShowheelPublishedAssets" BeforeTargets="ComputeFilesToPublish" Condition="'$(UseOptimizedWebAssets)' == 'true'">
+    <Exec Command="&quot;$(ShowheelNodeExecutable)&quot; &quot;$(MSBuildProjectDirectory)/scripts/prepare-appservice-publish.cjs&quot; &quot;$(_ShowheelAssetCache)&quot;" />
+    <ReadLinesFromFile File="$(_ShowheelAssetCache)/active-root.txt">
+      <Output TaskParameter="Lines" PropertyName="_ShowheelPreparedRoot" />
+    </ReadLinesFromFile>
+    <Error Condition="!Exists('$(_ShowheelPreparedRoot)/assets/index.html')" Text="The optimized website was not generated. Publishing uncompressed assets is blocked." />
+  </Target>
+  <Target Name="UseShowheelPublishedAssets" AfterTargets="ComputeFilesToPublish" DependsOnTargets="PrepareShowheelPublishedAssets" Condition="'$(UseOptimizedWebAssets)' == 'true'">
+    <ItemGroup>
+      <_ShowheelRawPublishFiles Include="@(ResolvedFileToPublish)" Condition="$([System.String]::Copy('%(ResolvedFileToPublish.RelativePath)').Replace('\', '/').StartsWith('wwwroot/')) Or '%(ResolvedFileToPublish.RelativePath)' == '$(AssemblyName).staticwebassets.endpoints.json'" />
+      <ResolvedFileToPublish Remove="@(_ShowheelRawPublishFiles)" />
+      <_ShowheelPackedPublishFiles Include="$(_ShowheelPreparedRoot)/assets/**/*" />
+      <ResolvedFileToPublish Include="@(_ShowheelPackedPublishFiles)">
+        <RelativePath>wwwroot/%(_ShowheelPackedPublishFiles.RecursiveDir)%(_ShowheelPackedPublishFiles.Filename)%(_ShowheelPackedPublishFiles.Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+      <ResolvedFileToPublish Include="$(_ShowheelPreparedRoot)/showheel-web-routes.json">
+        <RelativePath>showheel-web-routes.json</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+  <Target Name="VerifyShowheelPublishedAssets" AfterTargets="CopyFilesToPublishDirectory" Condition="'$(UseOptimizedWebAssets)' == 'true'">
+    <Exec Command="&quot;$(ShowheelNodeExecutable)&quot; &quot;$(MSBuildProjectDirectory)/scripts/verify-appservice-publish.cjs&quot; &quot;$(PublishDir).&quot; &quot;$(_ShowheelPreparedRoot)/report.json&quot;" />
+  </Target>
+</Project>

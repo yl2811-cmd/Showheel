@@ -100,3 +100,7 @@ D:\repo\Showheel\obj\Release\net8.0\Showheel.pdb
 D:\repo\Showheel\obj\Release\net8.0\Showheel.genruntimeconfig.cache
 D:\repo\Showheel\obj\Release\net8.0\ref\Showheel.dll
 D:\repo\Showheel\bin\Release\net8.0\dotnet-tools.json
+D:\repo\Showheel\bin\Release\net8.0\dist-web\staticwebapp.config.json
+D:\repo\Showheel\bin\Release\net8.0\docs\web-build-report.json
+D:\repo\Showheel\bin\Release\net8.0\scripts\web-build\package-lock.json
+D:\repo\Showheel\bin\Release\net8.0\scripts\web-build\package.json

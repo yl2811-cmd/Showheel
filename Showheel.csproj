@@ -4,4 +4,5 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  <Import Project="scripts/optimized-publish.targets" />
 </Project>

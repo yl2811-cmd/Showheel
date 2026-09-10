@@ -1,0 +1,184 @@
+{
+  "checks": {
+    "waterBudgetBelowOnePercent": true,
+    "fineTerrainWithin5M": true,
+    "fineProtectedCellsZero": true,
+    "fineMainCliffsUnchanged": true,
+    "lakeAreaConvergenceBelow5Percent": true,
+    "flowConvergenceBelow5Percent": true,
+    "sameActiveBranches": true,
+    "uniqueFlowCatchmentAssignment": true,
+    "importsExplicitAndNotCountedAsLocalRunoff": true,
+    "noOpposingSharedEdges": true
+  },
+  "geometry2M": [
+    {
+      "scenario": "B",
+      "maxTerrainEditM": 3.6982855224609352,
+      "protectedCells": 0,
+      "cliffEditCells": 0,
+      "accepted": true
+    },
+    {
+      "scenario": "C",
+      "maxTerrainEditM": 3.9723471316225747,
+      "protectedCells": 0,
+      "cliffEditCells": 0,
+      "accepted": true
+    }
+  ],
+  "convergence4Mto2M": [
+    {
+      "scenario": "B",
+      "runoff": 1,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.006744066325280684,
+      "maxFlowRelativeChange": 1.9675456247948693e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 1,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.006787173441860528,
+      "maxFlowRelativeChange": 5.17412057298323e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 1,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.006859497439606788,
+      "maxFlowRelativeChange": 0.00011257148605938875,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 5,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.004242222305030907,
+      "maxFlowRelativeChange": 5.78204372736322e-06,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 5,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.004217166033181341,
+      "maxFlowRelativeChange": 1.458346355314564e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 5,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.004175352445387803,
+      "maxFlowRelativeChange": 2.9597213264062214e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 15,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.01575630252100846,
+      "maxFlowRelativeChange": 4.464987712841354e-06,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 15,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.01575630252100846,
+      "maxFlowRelativeChange": 1.1166768602204329e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "B",
+      "runoff": 15,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.01575630252100846,
+      "maxFlowRelativeChange": 2.2347882553717758e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 1,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.004432987668015587,
+      "maxFlowRelativeChange": 0.0002241037575410836,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 1,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.0043817062465285606,
+      "maxFlowRelativeChange": 0.00058712235502647,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 1,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.0042954882973054165,
+      "maxFlowRelativeChange": 0.0012789412822809183,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 5,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.01096417192697996,
+      "maxFlowRelativeChange": 4.2847678544297544e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 5,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.010999657489774162,
+      "maxFlowRelativeChange": 0.00010796707624467486,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 5,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.011058860394403514,
+      "maxFlowRelativeChange": 0.0002187961714514468,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 15,
+      "loss": 2,
+      "maxLakeAreaRelativeChange": 0.00987917525419757,
+      "maxFlowRelativeChange": 8.238254298417224e-05,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 15,
+      "loss": 5,
+      "maxLakeAreaRelativeChange": 0.009849682653557235,
+      "maxFlowRelativeChange": 0.00020714955910209725,
+      "sameBranchActiveState": true
+    },
+    {
+      "scenario": "C",
+      "runoff": 15,
+      "loss": 10,
+      "maxLakeAreaRelativeChange": 0.009800503527836901,
+      "maxFlowRelativeChange": 0.0004183677368216994,
+      "sameBranchActiveState": true
+    }
+  ],
+  "maxAreaRelativeChange": 0.01575630252100846,
+  "maxFlowRelativeChange": 0.0012789412822809183,
+  "waterBudgetMaxRelativeError": 3.3978186646800853e-13,
+  "graph": {
+    "uniqueDirectedBranchSegments": 613,
+    "sharedSegments": 55
+  },
+  "scope": "Scenario geometry and conditional water balance. Imported CI supply availability and regional 40 m catchment calibration remain unverified."
+}

@@ -1,0 +1,24 @@
+{
+  "sourceAssets": {
+    "hashedFiles": 3112,
+    "httpChecked": 3113,
+    "passed": true
+  },
+  "compressedAssets": {
+    "packed": 1710,
+    "copied": 1527,
+    "modelHashesUnchanged": true
+  },
+  "browser": {
+    "raw": true,
+    "compressed": true
+  },
+  "manuscriptUnchanged": true,
+  "websiteTotalBytes": 511711921,
+  "deploymentGate": {
+    "quotaConfirmed": false,
+    "overBudgetBytes": 286711921,
+    "performed": false,
+    "note": "GitHub upload requested. Existing static-site quota is unconfirmed and output exceeds the default budget; no website deployment was attempted."
+  }
+}

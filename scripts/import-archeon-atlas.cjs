@@ -40,7 +40,7 @@ function addRegionFiles(value) {
   if (!value || typeof value !== 'object') return;
   for (const [key, item] of Object.entries(value)) {
     if (key === 'file' && typeof item === 'string') {
-      if (!/^[A-Za-z0-9_.-]+\.bin$/.test(item)) throw Error('Unexpected region asset: ' + item);
+      if (!/^[A-Za-z0-9_.-]+\.(bin|json)$/.test(item)) throw Error('Unexpected region asset: ' + item);
       files.add('atheria-assets/' + item);
     } else addRegionFiles(item);
   }

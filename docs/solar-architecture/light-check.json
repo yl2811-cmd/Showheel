@@ -1,0 +1,305 @@
+{
+  "method": "Top-face footprints corrected to the local design plane; frames and clear glazing excluded. Uniform 0.35 m maximum sample spacing. Full static near-detail triangle occlusion, including houses, terrain, furniture and vegetation; glass does not cast shadows, matching the viewer. Ray origins 0.16 m above voxel top faces. Day and dusk presets only, not annual energy yield.",
+  "before": {
+    "netArea": 175.92699896126857,
+    "areaByOwner": {
+      "lower-west-extension": 29.10382226964568,
+      "lower-main": 2.379320294354042,
+      "rear": 1.2166978777946795,
+      "primary": 2.379320294354042,
+      "north-grain": 28.50986671312243,
+      "lower-mill": 11.127932044276314,
+      "rail-lower": 28.24782749700905,
+      "linen-east": 2.379320294354042,
+      "press-east": 2.379320294354042,
+      "herbs-east": 2.379320294354042,
+      "lower-east": 27.09485494611079,
+      "rail-upper": 27.09485494611079,
+      "lower-round": 11.634541195428607
+    },
+    "lights": {
+      "day": {
+        "unshadedProjectedArea": 124.09515747144023,
+        "totalProjectedArea": 149.3767330224517,
+        "byOwner": {
+          "lower-west-extension": 0.5519119273416188,
+          "lower-main": 1.1786119372365047,
+          "rear": 0.6026992860868485,
+          "primary": 1.1786119372365047,
+          "north-grain": 25.020007372820125,
+          "lower-mill": 9.765774936572535,
+          "rail-lower": 24.790044069761088,
+          "linen-east": 1.021332315484382,
+          "press-east": 1.0981407211405843,
+          "herbs-east": 1.1212412393372713,
+          "lower-east": 23.77820553630148,
+          "rail-upper": 23.77820553630148,
+          "lower-round": 10.21037065581995
+        },
+        "topBlockers": [
+          [
+            "land--4_1",
+            24.989345599078923
+          ],
+          [
+            "annex-flag-4",
+            0.09820503033503682
+          ],
+          [
+            "annex-flag-1",
+            0.08557073187703801
+          ],
+          [
+            "annex-flag-2",
+            0.040432279865264494
+          ],
+          [
+            "house-herbs-east-near",
+            0.03528689974310845
+          ],
+          [
+            "house-linen-east-near",
+            0.03273501011167894
+          ]
+        ]
+      },
+      "dusk": {
+        "unshadedProjectedArea": 105.73979881180024,
+        "totalProjectedArea": 127.73653309961529,
+        "byOwner": {
+          "lower-west-extension": 0.426311737916727,
+          "lower-main": 0.6480834866250434,
+          "rear": 0.2651250627102448,
+          "primary": 0.6480834866250434,
+          "north-grain": 21.741898633753227,
+          "lower-mill": 8.486268032904853,
+          "rail-lower": 21.542065006604673,
+          "linen-east": 0.5502866280882661,
+          "press-east": 0.5860803484860111,
+          "herbs-east": 0.6473892483916307,
+          "lower-east": 20.662797047151454,
+          "rail-upper": 20.662797047151454,
+          "lower-round": 8.87261304539189
+        },
+        "topBlockers": [
+          [
+            "land--4_1",
+            21.768543117372907
+          ],
+          [
+            "pavilion-airship",
+            0.06628126567756122
+          ],
+          [
+            "annex-flag-4",
+            0.052912175777717875
+          ],
+          [
+            "annex-flag-1",
+            0.04940736199369643
+          ],
+          [
+            "annex-flag-2",
+            0.021578805172533543
+          ],
+          [
+            "house-herbs-east-near",
+            0.020374169894307806
+          ],
+          [
+            "house-linen-east-near",
+            0.01763739192590596
+          ]
+        ]
+      }
+    }
+  },
+  "after": {
+    "netArea": 274.9458237393089,
+    "areaByOwner": {
+      "lower-main": 2.923255138442193,
+      "lower-west-extension": 38.2738760202597,
+      "rear": 5.878458420473917,
+      "primary": 6.341706502522146,
+      "north-grain": 38.2738760202597,
+      "lower-mill": 20.54265632806917,
+      "rail-lower": 38.2738760202597,
+      "press-east": 9.941250668779276,
+      "linen-east": 10.706611855376982,
+      "herbs-east": 4.495426488599769,
+      "lower-east": 38.2738760202597,
+      "rail-upper": 38.2738760202597,
+      "lower-round": 22.74707823574689
+    },
+    "lights": {
+      "day": {
+        "unshadedProjectedArea": 179.22875340830046,
+        "totalProjectedArea": 206.4347374381263,
+        "byOwner": {
+          "lower-main": 0.6434621870626394,
+          "lower-west-extension": 11.47507566928373,
+          "rear": 4.105165010731358,
+          "primary": 4.8383406757979195,
+          "north-grain": 29.277529511350203,
+          "lower-mill": 15.913314856972143,
+          "rail-lower": 29.277529511350203,
+          "press-east": 1.5042079083830278,
+          "linen-east": 3.7070621323263055,
+          "herbs-east": 2.3110424150928752,
+          "lower-east": 29.277529511350203,
+          "rail-upper": 29.277529511350203,
+          "lower-round": 17.62096450725376
+        },
+        "topBlockers": [
+          [
+            "land--4_1",
+            16.21854692006599
+          ],
+          [
+            "house-press-east-near",
+            3.2346708743758876
+          ],
+          [
+            "exp-lower-west-extension-near",
+            1.583906922000343
+          ],
+          [
+            "lower-main-rails",
+            0.9899418262502141
+          ],
+          [
+            "house-herbs-east-near",
+            0.7280312560238215
+          ],
+          [
+            "house-linen-east-near",
+            0.5702204230709305
+          ],
+          [
+            "asset-roof-hatch",
+            0.5231681715712175
+          ],
+          [
+            "lower-main-floors",
+            0.5197194587813626
+          ],
+          [
+            "pavilion-airship",
+            0.4485673900196283
+          ],
+          [
+            "solar-lower-west-extension",
+            0.37122818484383036
+          ],
+          [
+            "solar-north-grain",
+            0.37122818484383036
+          ],
+          [
+            "solar-rail-lower",
+            0.37122818484383036
+          ],
+          [
+            "solar-lower-east",
+            0.37122818484383036
+          ],
+          [
+            "solar-rail-upper",
+            0.37122818484383036
+          ],
+          [
+            "annex-flag-1",
+            0.23850957925221547
+          ]
+        ]
+      },
+      "dusk": {
+        "unshadedProjectedArea": 137.9918241767876,
+        "totalProjectedArea": 161.02723652256876,
+        "byOwner": {
+          "lower-main": 0.3775556542981254,
+          "lower-west-extension": 9.425088247511056,
+          "rear": 3.4394102185093725,
+          "primary": 3.809658344014628,
+          "north-grain": 22.41300275536669,
+          "lower-mill": 12.529976036835867,
+          "rail-lower": 22.41300275536669,
+          "press-east": 0.962566895052798,
+          "linen-east": 2.1993106848516004,
+          "herbs-east": 1.7216857395228369,
+          "lower-east": 22.41300275536669,
+          "rail-upper": 22.41300275536669,
+          "lower-round": 13.874561334723422
+        },
+        "topBlockers": [
+          [
+            "land--4_1",
+            10.678735409309578
+          ],
+          [
+            "exp-lower-west-extension-near",
+            2.179267475561653
+          ],
+          [
+            "house-press-east-near",
+            2.044013307526725
+          ],
+          [
+            "solar-lower-west-extension",
+            0.9321158949123608
+          ],
+          [
+            "solar-north-grain",
+            0.9321158949123608
+          ],
+          [
+            "solar-rail-lower",
+            0.9321158949123608
+          ],
+          [
+            "solar-lower-east",
+            0.9321158949123608
+          ],
+          [
+            "solar-rail-upper",
+            0.9321158949123608
+          ],
+          [
+            "lower-main-rails",
+            0.6601134342889803
+          ],
+          [
+            "lower-main-floors",
+            0.6381908479103796
+          ],
+          [
+            "asset-roof-hatch",
+            0.5784629818713495
+          ],
+          [
+            "house-herbs-east-near",
+            0.5534250975875621
+          ],
+          [
+            "house-linen-east-near",
+            0.305687078618212
+          ],
+          [
+            "annex-flag-1",
+            0.21639871715448258
+          ],
+          [
+            "pavilion-airship",
+            0.14615057585733882
+          ]
+        ]
+      }
+    }
+  },
+  "checks": {
+    "area": true,
+    "day": true,
+    "dusk": true
+  },
+  "passed": true
+}

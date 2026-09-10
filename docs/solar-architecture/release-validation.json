@@ -1,0 +1,34 @@
+{
+  "sourceBuild": "2026-09-10T18:12:52.225Z",
+  "sourceAssets": {
+    "passed": true,
+    "hashedFiles": 3113,
+    "views": 5,
+    "httpChecked": 3114,
+    "bytes": 889621720
+  },
+  "compressedAssets": {
+    "passed": true,
+    "packed": 1711,
+    "copied": 1527,
+    "pages": 9,
+    "modelHashesUnchanged": true,
+    "readerHashesUnchanged": true
+  },
+  "browser": {
+    "raw": true,
+    "compressed": true,
+    "errors": [],
+    "missing": []
+  },
+  "archive": {
+    "archive": "archeon-solar-20260910.zip",
+    "files": 90,
+    "bytes": 76964682,
+    "uncompressedBytes": 495736692,
+    "sha256": "3695001f648210d6cb0d0bb9af72027689d5eb2596ce963cad274c272ad3b571",
+    "verified": true
+  },
+  "manuscriptUnchanged": true,
+  "deploymentPerformed": false
+}

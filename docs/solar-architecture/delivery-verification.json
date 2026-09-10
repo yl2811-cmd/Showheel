@@ -1,0 +1,254 @@
+{
+  "passed": true,
+  "errors": [],
+  "missing": [],
+  "states": [
+    {
+      "kind": "raw",
+      "focus": "solarNorth",
+      "state": {
+        "buildId": "2026-09-10T05:46:53.295Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "solarNorth",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            -4.999999999999993,
+            27.999999999999996,
+            -39.99999999999999
+          ],
+          "target": [
+            -43,
+            8,
+            -82
+          ]
+        },
+        "frameSamples": 0,
+        "frameMs": null,
+        "frameP95Ms": null,
+        "triangles": 7887794,
+        "drawCalls": 344,
+        "pending": 13,
+        "loadedChunks": 138,
+        "visibleChunks": 128,
+        "geometryBytes": 74171628,
+        "geometries": 355,
+        "textures": 0,
+        "time": 3.0212999999999997,
+        "errors": [],
+        "lodCounts": [
+          128,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 46,
+          "positionSample": [
+            -2279.20947265625,
+            -69.4425277709961,
+            1420.4041748046875
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "raw",
+      "focus": "solarLower",
+      "state": {
+        "buildId": "2026-09-10T05:46:53.295Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "solarLower",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            121,
+            -91,
+            117
+          ],
+          "target": [
+            64,
+            -114,
+            46
+          ]
+        },
+        "frameSamples": 19,
+        "frameMs": 35.14736842105269,
+        "frameP95Ms": 83.30000000000109,
+        "triangles": 3421700,
+        "drawCalls": 522,
+        "pending": 0,
+        "loadedChunks": 158,
+        "visibleChunks": 156,
+        "geometryBytes": 86640464,
+        "geometries": 627,
+        "textures": 0,
+        "time": 4.7566,
+        "errors": [],
+        "lodCounts": [
+          156,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 66,
+          "positionSample": [
+            -2273.783203125,
+            -69.43968963623047,
+            1419.6158447265625
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "compressed",
+      "focus": "solarNorth",
+      "state": {
+        "buildId": "2026-09-10T05:46:53.295Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "solarNorth",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            -4.999999999999993,
+            27.999999999999996,
+            -39.99999999999999
+          ],
+          "target": [
+            -43,
+            8,
+            -82
+          ]
+        },
+        "frameSamples": 0,
+        "frameMs": null,
+        "frameP95Ms": null,
+        "triangles": 7367215,
+        "drawCalls": 301,
+        "pending": 257,
+        "loadedChunks": 88,
+        "visibleChunks": 69,
+        "geometryBytes": 47864404,
+        "geometries": 308,
+        "textures": 0,
+        "time": 3.104599999999999,
+        "errors": [],
+        "lodCounts": [
+          69,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 47,
+          "positionSample": [
+            -2278.851318359375,
+            -69.44233703613281,
+            1420.3521728515625
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "compressed",
+      "focus": "solarLower",
+      "state": {
+        "buildId": "2026-09-10T05:46:53.295Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "solarLower",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            121,
+            -91,
+            117
+          ],
+          "target": [
+            64,
+            -114,
+            46
+          ]
+        },
+        "frameSamples": 0,
+        "frameMs": null,
+        "frameP95Ms": null,
+        "triangles": 3150209,
+        "drawCalls": 502,
+        "pending": 1,
+        "loadedChunks": 155,
+        "visibleChunks": 130,
+        "geometryBytes": 84990752,
+        "geometries": 603,
+        "textures": 0,
+        "time": 4.940100000000001,
+        "errors": [],
+        "lodCounts": [
+          130,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 67,
+          "positionSample": [
+            -2273.22021484375,
+            -69.43939971923828,
+            1419.5340576171875
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    }
+  ],
+  "http": {
+    "passed": true,
+    "hashedFiles": 3113,
+    "views": 5,
+    "httpChecked": 3114,
+    "bytes": 889621720
+  }
+}

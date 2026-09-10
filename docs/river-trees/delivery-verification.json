@@ -1,0 +1,254 @@
+{
+  "passed": true,
+  "errors": [],
+  "missing": [],
+  "states": [
+    {
+      "kind": "raw",
+      "focus": "riverPlanting",
+      "state": {
+        "buildId": "2026-09-10T19:51:00.526Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "riverPlanting",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            244.99999999999994,
+            280,
+            330
+          ],
+          "target": [
+            0,
+            -32,
+            5
+          ]
+        },
+        "frameSamples": 12,
+        "frameMs": 29.224999999999984,
+        "frameP95Ms": 50.100000000000364,
+        "triangles": 2012792,
+        "drawCalls": 647,
+        "pending": 0,
+        "loadedChunks": 150,
+        "visibleChunks": 150,
+        "geometryBytes": 84591564,
+        "geometries": 682,
+        "textures": 0,
+        "time": 2.4207999999999994,
+        "errors": [],
+        "lodCounts": [
+          150,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 45,
+          "positionSample": [
+            -2280.948974609375,
+            -69.44343566894531,
+            1420.6568603515625
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "raw",
+      "focus": "riverGroves",
+      "state": {
+        "buildId": "2026-09-10T19:51:00.526Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": false,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "riverGroves",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            2130,
+            475,
+            -1000
+          ],
+          "target": [
+            1800,
+            180.00000000000003,
+            -1400
+          ]
+        },
+        "frameSamples": 45,
+        "frameMs": 16.69777777777777,
+        "frameP95Ms": 16.800000000000182,
+        "triangles": 844658,
+        "drawCalls": 71,
+        "pending": 0,
+        "loadedChunks": 179,
+        "visibleChunks": 136,
+        "geometryBytes": 99188768,
+        "geometries": 744,
+        "textures": 0,
+        "time": 3.9402999999999992,
+        "errors": [],
+        "lodCounts": [
+          136,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 80,
+          "positionSample": [
+            -2276.338623046875,
+            -69.44102478027344,
+            1419.987060546875
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "compressed",
+      "focus": "riverPlanting",
+      "state": {
+        "buildId": "2026-09-10T19:51:00.526Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": true,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "riverPlanting",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            244.99999999999994,
+            280,
+            330
+          ],
+          "target": [
+            0,
+            -32,
+            5
+          ]
+        },
+        "frameSamples": 0,
+        "frameMs": null,
+        "frameP95Ms": null,
+        "triangles": 1985397,
+        "drawCalls": 646,
+        "pending": 195,
+        "loadedChunks": 114,
+        "visibleChunks": 74,
+        "geometryBytes": 58326456,
+        "geometries": 676,
+        "textures": 0,
+        "time": 2.4039,
+        "errors": [],
+        "lodCounts": [
+          74,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 43,
+          "positionSample": [
+            -2281.000732421875,
+            -69.44346618652344,
+            1420.6644287109375
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    },
+    {
+      "kind": "compressed",
+      "focus": "riverGroves",
+      "state": {
+        "buildId": "2026-09-10T19:51:00.526Z",
+        "eyrie": {
+          "status": "ready",
+          "visible": false,
+          "error": null,
+          "sourceBuild": "2026-09-10T18:12:52.225Z"
+        },
+        "mode": "riverGroves",
+        "paused": false,
+        "light": "late",
+        "quality": "auto",
+        "camera": {
+          "position": [
+            2130,
+            475,
+            -1000
+          ],
+          "target": [
+            1800,
+            180.00000000000003,
+            -1400
+          ]
+        },
+        "frameSamples": 35,
+        "frameMs": 16.69714285714287,
+        "frameP95Ms": 16.800000000000182,
+        "triangles": 844658,
+        "drawCalls": 71,
+        "pending": 0,
+        "loadedChunks": 177,
+        "visibleChunks": 136,
+        "geometryBytes": 97187460,
+        "geometries": 739,
+        "textures": 0,
+        "time": 4.1403,
+        "errors": [],
+        "lodCounts": [
+          136,
+          0,
+          0,
+          0
+        ],
+        "traffic": {
+          "vehicles": 77,
+          "visible": 73,
+          "updates": 80,
+          "positionSample": [
+            -2275.673828125,
+            -69.44068145751953,
+            1419.8905029296875
+          ],
+          "pads": 257
+        },
+        "scopeRadiusM": 20000
+      }
+    }
+  ],
+  "http": {
+    "passed": true,
+    "hashedFiles": 3116,
+    "views": 5,
+    "httpChecked": 3117,
+    "bytes": 910025573
+  }
+}

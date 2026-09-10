@@ -82,7 +82,9 @@
    });attr.needsUpdate=true;trafficMesh.instanceMatrix.needsUpdate=true;trafficUpdates++;
   }
   // Only the regional page owns these approximate community silhouettes.
-  const promises=[loadTraffic(),load(M.water,waterMaterial).then(m=>{scene.add(m);fixed.push(m);}),...M.communities.map(f=>load(f.mesh).then(m=>{m.position.set(f.x,0,f.z);scene.add(m);fixed.push(m);}))];
+  const transitionMaterial=new T.MeshLambertMaterial({vertexColors:true});resources.push(transitionMaterial);
+  const transitionPromise=M.eyrieTransition?load(M.eyrieTransition.mesh,transitionMaterial).then(m=>{m.userData.eyrie=true;m.userData.transition=true;scene.add(m);fixed.push(m);}):Promise.resolve();
+  const promises=[transitionPromise,loadTraffic(),load(M.water,waterMaterial).then(m=>{scene.add(m);fixed.push(m);}),...M.communities.map(f=>load(f.mesh).then(m=>{m.position.set(f.x,0,f.z);scene.add(m);fixed.push(m);}))];
   const cloudMat=new T.MeshLambertMaterial({color:'#EEE5D2',transparent:true,opacity:.24,depthWrite:false,side:T.FrontSide}),clouds=[];
   clipMaterial(cloudMat);
   const random=n=>{const x=Math.sin(n*127.1+311.7)*43758.5453;return x-Math.floor(x)};

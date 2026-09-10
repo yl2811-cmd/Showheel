@@ -110,3 +110,10 @@ D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\protected-verificat
 D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\release-validation.json
 D:\repo\Showheel\bin\Release\net8.0\docs\atheria-water-study\verification.json
 D:\repo\Showheel\bin\Release\net8.0\docs\updates\atheria-roof-water-20260910.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\delivery-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\installed.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\light-check.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\navigation-audit.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\release-validation.json
+D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-solar-20260910.json

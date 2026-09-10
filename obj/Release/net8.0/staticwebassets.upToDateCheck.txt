@@ -994,7 +994,7 @@ wwwroot\images\archeonvibe2.mp3
 wwwroot\images\archeonvibe3.mp3
 wwwroot\images\archeonvibe4.mp3
 wwwroot\archeon-atlas\atheria-assets\eyrie-detail-000.bin
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-002.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-010.bin
 wwwroot\images\archeonvibe7.mp3
 wwwroot\images\archeonvibe8.mp3
 wwwroot\images\archeonvibe9.mp3
@@ -3308,7 +3308,7 @@ wwwroot\archeon-atlas\terrain\tiles\world\2\15-12.png
 wwwroot\archeon-atlas\terrain\tiles\world\2\15-13.png
 wwwroot\archeon-atlas\terrain\tiles\world\2\15-14.png
 wwwroot\archeon-atlas\terrain\tiles\world\2\15-2.png
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-001.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail.json
 wwwroot\archeon-atlas\i18n.js
 wwwroot\archeon-atlas\i18n.css
 wwwroot\archeon-atlas\i18n-content.js
@@ -3667,16 +3667,16 @@ wwwroot\archeon-atlas\terrain\tiles\world\2\17-8.png
 wwwroot\archeon-atlas\colonization-ui.css
 wwwroot\archeon-atlas\colonization-model.js
 wwwroot\archeon-atlas\atlas.css
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-003.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-009.bin
 wwwroot\archeon-atlas\atheria-region.css
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-004.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-006.bin
 wwwroot\archeon-atlas\atheria-assets\west-community.bin
-wwwroot\archeon-atlas\atheria-assets\manifest.js
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail.json
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-001.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-002.bin
 wwwroot\archeon-atlas\atheria-assets\eyrie-detail-007.bin
 wwwroot\archeon-atlas\atheria-assets\eyrie-detail-008.bin
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-009.bin
-wwwroot\archeon-atlas\atheria-assets\eyrie-detail-006.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-003.bin
+wwwroot\archeon-atlas\atheria-assets\eyrie-detail-004.bin
 wwwroot\archeon-atlas\atheria-assets\eyrie-detail-005.bin
 wwwroot\archeon-atlas\atheria-assets\roof-trees.json
 wwwroot\archeon-atlas\atheria-assets\t0-0.bin
@@ -4988,3 +4988,4 @@ wwwroot\archeon-water-study\style.css
 wwwroot\archeon-water-study\verification.json
 wwwroot\archeon-water-study\viewer.js
 wwwroot\images\archeonvibe6.mp3
+wwwroot\archeon-atlas\atheria-assets\manifest.js

@@ -8,6 +8,7 @@ const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const source = path.resolve(process.argv[2] || 'D:/SKBS/maps/archeon-atlas');
 const destination = path.join(root, 'wwwroot/archeon-atlas');
+const unifiedEyrie = !!JSON.parse(fs.readFileSync(path.join(source, 'atheria-assets/manifest.json'))).eyrieDetail;
 const views = ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone'];
 const files = new Set(['index.html', 'app.js', 'atlas.css', 'vendor/d3.v7.min.js',
   'vendor/LICENSE-d3.txt', 'data/atlas.js', 'data/atlas.json', 'data/tiles.js']);
@@ -28,11 +29,13 @@ for (const file of ['colonization-ui.js', 'colonization-model.js', 'colonization
   'data/colonization-input.json', 'data/colonization-stars.js',
   'data/colonization-stars-provenance.json', 'data/colonization-sensitivity.json',
   'data/federation-projects.json']) files.add(file);
-for (const file of ['river-layer.js', 'eyrie.css', 'eyrie-controller.js',
+for (const file of ['river-layer.js', 'eyrie.css']) files.add(file);
+if (!unifiedEyrie) for (const file of ['eyrie-controller.js',
   'eyrie-view.js', 'eyrie-materials.js', 'eyrie-motion.js', 'eyrie-batches.js',
   'eyrie-walking.js', 'eyrie-assets/manifest.js', 'eyrie-assets/navigation.js',
   'eyrie-assets/DESIGN.md', 'eyrie-assets/preview.png']) files.add(file);
-for (const file of ['eyrie-life-wind.js', 'atheria-controller.js', 'atheria-region.js',
+if (!unifiedEyrie) files.add('eyrie-life-wind.js');
+for (const file of ['atheria-controller.js', 'atheria-region.js',
   'atheria-region.css', 'atheria-assets/manifest.js']) files.add(file);
 const regionContext = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(source, 'atheria-assets/manifest.js'), 'utf8'), regionContext);
@@ -48,7 +51,7 @@ function addRegionFiles(value) {
 addRegionFiles(regionContext.window.ATHERIA_REGION_MANIFEST);
 
 // Preserve the source geometry exactly while keeping each Git blob below 100 MiB.
-const geometrySource = fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'));
+const geometrySource = unifiedEyrie ? Buffer.from('window.EYRIE_GEOMETRY={};') : fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'));
 const geometryContext = { window: {} };
 vm.runInNewContext(geometrySource.toString('utf8'), geometryContext);
 const geometryParts = new Map();
@@ -131,7 +134,7 @@ for (const [relative, deployed] of geometryParts) {
   if (hash(fs.readFileSync(target)) !== hash(deployed)) throw Error('Geometry copy failed: ' + relative);
   entries.push({ path: relative, bytes: deployed.length, sourcePath: 'eyrie-assets/geometry.js', sourceSha256: hash(geometrySource), sha256: hash(deployed) });
 }
-if (hash(fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'))) !== hash(geometrySource)) throw Error('Source geometry changed during import');
+if (!unifiedEyrie && hash(fs.readFileSync(path.join(source, 'eyrie-assets/geometry.js'))) !== hash(geometrySource)) throw Error('Source geometry changed during import');
 fs.writeFileSync(path.join(root, 'docs/archeon-atlas-assets.json'), JSON.stringify({
   source: 'SKBS/maps/archeon-atlas', version: 6,
   retainedFiles: auditRetained ? [{ path: 'space-assets/physics-humanity-audit.md', reason: 'Source audit is missing; retained previously published copy for the existing link.' }] : [],

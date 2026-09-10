@@ -522,6 +522,7 @@ HYG v4.1 · J2000 目录位置。属于六百光年内的目录恒星；未标�
 Object.assign(window.ATLAS_TRANSLATIONS,{"二十千米":"Twenty kilometres","西侧残台":"Western remnants","东侧溪谷":"Eastern streams","后缘与主河":"Northern shoulder and river","渠岸生活体块":"Life beside the channel","半径 20 km":"20 km radius","溪流越过阶崖，主河绕过后缘":"Streams cross the scarps; Ishkar curves behind the upland"});
 
 Object.assign(window.ATLAS_TRANSLATIONS,{"渠岸与小车":"Channel paths and carts"});
+Object.assign(window.ATLAS_TRANSLATIONS,{"鹰巢与完整崖壁":"The Eyrie and cliff face","走近鹰巢":"Approach the Eyrie","鹰巢溪流与崖脚":"Eyrie stream and lower terraces","聚焦鹰巢":"Focus on the Eyrie","拖动旋转 · 滚轮靠近指向处 · 双击重设中心 · 右键平移":"Drag to orbit · scroll towards the pointer · double-click to set the centre · right-drag to pan"});
 
 
 

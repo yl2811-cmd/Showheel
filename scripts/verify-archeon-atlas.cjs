@@ -38,6 +38,12 @@ async function main() {
   }
   assert(context.window.ATHERIA_REGION_MANIFEST);
   checkRegion(context.window.ATHERIA_REGION_MANIFEST);
+  for (const file of ['house-tuning/core.js', 'house-tuning/geometry.js', 'house-tuning/runtime.js', 'house-tuning/worker.js', 'house-tuning/ui.js', 'house-tuning/ui.css', 'data/house-tuning/catalog.json', 'data/house-tuning/default-layout.json', 'scene-editor/core.js', 'scene-editor/block-geometry.js', 'scene-editor/runtime.js', 'scene-editor/ui.js', 'scene-editor/ui.css', 'scene-editor/catalog.json', 'scene-editor/saved-scene.json', 'scene-editor/imported-assets.json']) exists(file);
+  for (const tile of context.window.ATHERIA_REGION_MANIFEST.tiles) for (const level of tile.levels) exists('data/house-tuning/' + level.file + '.json');
+  const sceneCore = require(path.join(assets, 'scene-editor/core.js'));
+  const sceneCatalog = JSON.parse(read('scene-editor/catalog.json'));
+  sceneCatalog.assets.push(...JSON.parse(read('scene-editor/imported-assets.json')).assets);
+  assert.deepEqual(sceneCore.validate(JSON.parse(read('scene-editor/saved-scene.json')), sceneCatalog), [], 'Saved manual scene conflicts');
   const detail=context.window.ATHERIA_REGION_MANIFEST.eyrieDetail;
   if(detail){
     assert(!read('index.html').includes('src="eyrie-controller.js"'), 'Separate Eyrie tab still loaded');

@@ -56,7 +56,8 @@ function adapt(relative, source) {
     text = replace(text, "async function create({container,", "async function create({container,signal,", relative);
     text = replace(text, "const r=await fetch(assetBase+record.file,{signal:abort.signal});if(!r.ok)throw Error('区域分块未能读取：'+record.file);", "const data=await window.SHOWHEEL_ASSETS.bytes(assetBase+record.file,abort.signal);const r={arrayBuffer:async()=>data};", relative);
     text = replace(text, 'const errors=[];', "const errors=[];if(signal?.aborted)abort.abort();signal?.addEventListener('abort',()=>abort.abort(),{once:true});", relative);
-    text = replace(text, 'mesh.name=record.file;return mesh;', "mesh.name=record.file;if(disposed){mesh.geometry.dispose();throw new DOMException('Scene closed','AbortError');}return mesh;", relative);
+    const editorHook = text.includes('if(editor)await editor.onMesh(mesh,record);') ? 'if(editor)await editor.onMesh(mesh,record);' : '';
+    text = replace(text, 'mesh.name=record.file;' + editorHook + 'return mesh;', "mesh.name=record.file;" + editorHook + "if(disposed){mesh.geometry.dispose();throw new DOMException('Scene closed','AbortError');}return mesh;", relative);
     text = replace(text, 'await Promise.all(promises);', "try{await Promise.all(promises);}catch(error){disposed=true;abort.abort();for(const m of fixed)m.geometry.dispose();resources.forEach(g=>g.dispose());[material,waterMaterial,cloudMat].forEach(m=>m.dispose());orbit.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove();throw error;}", relative);
     if (text.includes('async function loadTraffic()')) text = replace(text, "const response=await fetch(assetBase+M.transport.file,{signal:abort.signal});if(!response.ok)throw Error('Traffic data unavailable');trafficData=await response.json();", "trafficData=JSON.parse(new TextDecoder().decode(await window.SHOWHEEL_ASSETS.bytes(assetBase+M.transport.file,abort.signal)));", relative);
   }

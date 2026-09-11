@@ -76,6 +76,12 @@ function addDirectory(relative, extension) {
     else if (name.endsWith(extension)) files.add(name);
   }
 }
+// Include the current scene editor and saved manual changes; local credentials stay outside these directories.
+addDirectory('data/house-tuning', '.json');
+for (const directory of ['house-tuning', 'scene-editor']) {
+  for (const extension of ['.js', '.json', '.css']) addDirectory(directory, extension);
+}
+for (const file of ['eyrie-life-wind.js', 'eyrie-materials.js', 'eyrie-motion.js', 'eyrie-batches.js', 'eyrie-water-spray.js', 'vendor/LICENSE-three-bvh-csg.txt', 'vendor/LICENSE-three-mesh-bvh.txt']) files.add(file);
 for (const view of views) {
   const relative = 'data/maps-' + view + '.js';
   files.add(relative);

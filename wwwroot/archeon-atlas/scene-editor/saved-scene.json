@@ -1,0 +1,1170 @@
+{
+  "format": "archeon-scene",
+  "version": 1,
+  "revision": 3,
+  "baseBuild": "2026-09-11T07:52:34.477Z",
+  "catalogHash": "e39944474b23d89adbaa9c3651291ccf7805a19b7e03398a6d2181c2c0dd1369",
+  "layout": {
+    "version": 1,
+    "controlRevision": "fuller-splitting-v4.1",
+    "baselineHash": "822510d81baaa9ba010ffcab34986d415f749ede4ad4b85c29d457943e74b632",
+    "seed": 2026091110,
+    "global": {
+      "smallCount": 0.93,
+      "smallSize": 0.48,
+      "smallHeight": 0.4,
+      "terraceCount": 0.43,
+      "terraceSize": 0.67,
+      "terraceHeight": 0.55,
+      "terraceLevels": 0.68,
+      "splitMinArea": 0.15,
+      "split": 0.92,
+      "scatter": 0.47,
+      "lod": 0.5
+    },
+    "units": {}
+  },
+  "edits": {
+    "inst:56087f9de9692cc5f312": {
+      "assetVersion": "b05b317780491b59bfd71576a231a0f752fa5feefd75bfb69f6af9cdb8eb9e5d",
+      "transform": {
+        "position": [
+          -9.051249999999998,
+          0.0627027027027027,
+          -4.593131095038092
+        ],
+        "quaternion": [
+          0,
+          -0.7071067811865475,
+          0,
+          0.7071067811865476
+        ],
+        "scale": [
+          1.0436363636363637,
+          1.0032432432432432,
+          1
+        ]
+      }
+    },
+    "inst:43a0e6130ae6871c7c4e": {
+      "assetVersion": "b05b317780491b59bfd71576a231a0f752fa5feefd75bfb69f6af9cdb8eb9e5d",
+      "transform": {
+        "position": [
+          0.4593861105492959,
+          0.1627027027027027,
+          4.140461472946723
+        ],
+        "quaternion": [
+          0,
+          0.5891447579422695,
+          0,
+          0.8080275083121519
+        ],
+        "scale": [
+          1.0436363636363637,
+          1.0032432432432432,
+          1
+        ]
+      }
+    },
+    "part:finish-river-stepping-stones:stepping-3": {
+      "assetVersion": "d91ad20dd5142ae1e38f6611e8b076fc99ecf9c07bfda9b6d43ffc77e0c59738",
+      "transform": {
+        "position": [
+          24.11834655972874,
+          -1.1875,
+          -11.512614580712905
+        ],
+        "quaternion": [
+          0,
+          0.2090132101084286,
+          0,
+          0.9779128171775692
+        ],
+        "scale": [
+          0.9999999999999999,
+          1,
+          0.9999999999999999
+        ]
+      }
+    },
+    "part:finish-river-stepping-stones:stepping-2": {
+      "assetVersion": "8148577765771d5694684951b8d1d48eb002a093f19e6194cb7f10fa8ea30492",
+      "transform": {
+        "position": [
+          24.00155861149176,
+          -1.1875,
+          -10.15006813523475
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "part:finish-river-stepping-stones:stepping-4": {
+      "assetVersion": "d874c59eaea1f517cc118ab500eb6b247aeabf438cc5c399e2c9c27f248fffad",
+      "transform": {
+        "position": [
+          25.272891597521504,
+          -1.1875,
+          -10.223959413066323
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "part:finish-river-stepping-stones:stepping-5": {
+      "assetVersion": "5982c2f6a688b786c01e2ea9a0aded7c52247cafbfbc839b14e2e611bfb58691",
+      "transform": {
+        "position": [
+          26.565595176215414,
+          -1.1875,
+          -10.806917635535461
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "part:finish-river-stepping-stones:stepping-6": {
+      "assetVersion": "2aa2bb0887658ede92c728c477024778588f35e9c14eb8528c39bb3a033357db",
+      "transform": {
+        "position": [
+          27.171369326272487,
+          -0.1875,
+          -9.480978101634939
+        ],
+        "quaternion": [
+          0,
+          0.26795688503551013,
+          0,
+          0.9634309045085
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "additions": {
+    "user-09023aa2-65e9-4d25-8dbf-8f070fb803b3": {
+      "assetId": "part:round-lower-1-frame",
+      "assetVersion": "311e569a1fe0eef872834ca89dcdfbfe82beb56d98f1c1b96ca68f933cffcb9e",
+      "name": "木窗框",
+      "owner": "人工摆放",
+      "room": "",
+      "level": 1,
+      "transform": {
+        "position": [
+          -27.79169113962775,
+          2.0040000029802325,
+          -84.18841810643555
+        ],
+        "quaternion": [
+          0,
+          0.267115153830138,
+          0,
+          0.9636646172783879
+        ],
+        "scale": [
+          0.9999999999999999,
+          1,
+          0.9999999999999999
+        ]
+      }
+    },
+    "user-53a94bff-1c78-4b78-aa4e-a35e0056bd5f": {
+      "assetId": "part:round-lower-1-shutter--1",
+      "assetVersion": "bafbc27df80aee627d8c3fea762e2b199921f93f714dd1b02d97826f6be7f831",
+      "name": "木窗板",
+      "owner": "人工摆放",
+      "room": "",
+      "level": 1,
+      "transform": {
+        "position": [
+          -28.24604235152784,
+          2.204000002980232,
+          -83.50637326486965
+        ],
+        "quaternion": [
+          0,
+          -0.6284833731886235,
+          0,
+          0.7778230194751564
+        ],
+        "scale": [
+          0.9999999999999999,
+          1,
+          0.9999999999999999
+        ]
+      }
+    },
+    "user-d182af25-63fa-4f20-820d-8189eba433ae": {
+      "assetId": "part:round-lower-1-shutter-1",
+      "assetVersion": "33d799deb634bf8131ef2e71fb212656c3abebd7308b25bc0da5fee34ff306c4",
+      "name": "木窗板",
+      "owner": "人工摆放",
+      "room": "",
+      "level": 1,
+      "transform": {
+        "position": [
+          -26.976135008169422,
+          2.204000002980232,
+          -84.26896862538142
+        ],
+        "quaternion": [
+          0,
+          0.9392361090336937,
+          0,
+          0.34327180409589053
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "user-2eec7eb3-b9fc-4978-9f80-b2c247a7a830": {
+      "assetId": "part:round-lower-1-sash",
+      "assetVersion": "7f4dd8d81624a46a1bc9f1048494c700e906588ae4466f525a488b828f046739",
+      "name": "玻璃窗扇",
+      "owner": "人工摆放",
+      "room": "",
+      "level": 1,
+      "transform": {
+        "position": [
+          -27.921246558087574,
+          2.2540000029802325,
+          -84.38473518044518
+        ],
+        "quaternion": [
+          0,
+          0.267115153830138,
+          0,
+          0.9636646172783879
+        ],
+        "scale": [
+          0.9999999999999999,
+          1,
+          0.9999999999999999
+        ]
+      }
+    },
+    "user-7b8b7af0-579a-40d3-b031-37ae8ca65048": {
+      "assetId": "part:finish-river-stepping-stones:stepping-6",
+      "assetVersion": "2aa2bb0887658ede92c728c477024778588f35e9c14eb8528c39bb3a033357db",
+      "name": "踏石 7 · 副本",
+      "owner": "eyrie-home",
+      "room": "廊下与一层",
+      "level": 0,
+      "collision": null,
+      "transform": {
+        "position": [
+          25.479215630540892,
+          -0.1875,
+          -11.782586125914273
+        ],
+        "quaternion": [
+          0,
+          -0.13245020776264127,
+          0,
+          0.9911896601880152
+        ],
+        "scale": [
+          0.9999999999999999,
+          1,
+          0.9999999999999999
+        ]
+      }
+    }
+  },
+  "groups": {
+    "window:round-lower-1": {
+      "name": "一层木窗 2",
+      "members": [
+        "part:round-lower-1-frame",
+        "part:round-lower-1-shutter--1",
+        "part:round-lower-1-shutter-1",
+        "part:round-lower-1-sash"
+      ]
+    },
+    "window:round-lower-2": {
+      "name": "一层木窗 3",
+      "members": [
+        "part:round-lower-2-frame",
+        "part:round-lower-2-shutter--1",
+        "part:round-lower-2-shutter-1",
+        "part:round-lower-2-sash"
+      ]
+    },
+    "window:round-lower-3": {
+      "name": "一层木窗 4",
+      "members": [
+        "part:round-lower-3-frame",
+        "part:round-lower-3-shutter--1",
+        "part:round-lower-3-shutter-1",
+        "part:round-lower-3-sash"
+      ]
+    },
+    "window:round-upper-0": {
+      "name": "二层木窗 5",
+      "members": [
+        "part:round-upper-0-frame",
+        "part:round-upper-0-shutter--1",
+        "part:round-upper-0-shutter-1",
+        "part:round-upper-0-sash"
+      ]
+    },
+    "window:round-upper-1": {
+      "name": "二层木窗 6",
+      "members": [
+        "part:round-upper-1-frame",
+        "part:round-upper-1-shutter--1",
+        "part:round-upper-1-shutter-1",
+        "part:round-upper-1-sash"
+      ]
+    },
+    "window:round-upper-2": {
+      "name": "二层木窗 7",
+      "members": [
+        "part:round-upper-2-frame",
+        "part:round-upper-2-shutter--1",
+        "part:round-upper-2-shutter-1",
+        "part:round-upper-2-sash"
+      ]
+    },
+    "window:round-upper-3": {
+      "name": "二层木窗 8",
+      "members": [
+        "part:round-upper-3-frame",
+        "part:round-upper-3-shutter--1",
+        "part:round-upper-3-shutter-1",
+        "part:round-upper-3-sash"
+      ]
+    },
+    "window:round-upper-4": {
+      "name": "二层木窗 9",
+      "members": [
+        "part:round-upper-4-frame",
+        "part:round-upper-4-shutter--1",
+        "part:round-upper-4-shutter-1",
+        "part:round-upper-4-sash"
+      ]
+    },
+    "window:back-kitchen": {
+      "name": "一层木窗 10",
+      "members": [
+        "part:back-kitchen-frame",
+        "part:back-kitchen-shutter--1",
+        "part:back-kitchen-shutter-1",
+        "part:back-kitchen-sash"
+      ]
+    },
+    "window:back-sleep": {
+      "name": "二层木窗 11",
+      "members": [
+        "part:back-sleep-frame",
+        "part:back-sleep-shutter--1",
+        "part:back-sleep-shutter-1",
+        "part:back-sleep-sash"
+      ]
+    },
+    "window:west-upper-0": {
+      "name": "二层木窗 12",
+      "members": [
+        "part:west-upper-0-frame",
+        "part:west-upper-0-shutter--1",
+        "part:west-upper-0-shutter-1",
+        "part:west-upper-0-sash"
+      ]
+    },
+    "window:west-upper-1": {
+      "name": "二层木窗 13",
+      "members": [
+        "part:west-upper-1-frame",
+        "part:west-upper-1-shutter--1",
+        "part:west-upper-1-shutter-1",
+        "part:west-upper-1-sash"
+      ]
+    },
+    "window:back-kitchen-east": {
+      "name": "一层木窗 14",
+      "members": [
+        "part:back-kitchen-east-frame",
+        "part:back-kitchen-east-shutter--1",
+        "part:back-kitchen-east-shutter-1",
+        "part:back-kitchen-east-sash"
+      ]
+    },
+    "window:back-sleep-west": {
+      "name": "二层木窗 15",
+      "members": [
+        "part:back-sleep-west-frame",
+        "part:back-sleep-west-shutter--1",
+        "part:back-sleep-west-shutter-1",
+        "part:back-sleep-west-sash"
+      ]
+    },
+    "window:east-bay-0": {
+      "name": "一层木窗 16",
+      "members": [
+        "part:east-bay-0-frame",
+        "part:east-bay-0-shutter--1",
+        "part:east-bay-0-shutter-1",
+        "part:east-bay-0-sash"
+      ]
+    },
+    "window:east-bay-1": {
+      "name": "一层木窗 17",
+      "members": [
+        "part:east-bay-1-frame",
+        "part:east-bay-1-shutter--1",
+        "part:east-bay-1-shutter-1",
+        "part:east-bay-1-sash"
+      ]
+    },
+    "window:east-bay-2": {
+      "name": "一层木窗 18",
+      "members": [
+        "part:east-bay-2-frame",
+        "part:east-bay-2-shutter--1",
+        "part:east-bay-2-shutter-1",
+        "part:east-bay-2-sash"
+      ]
+    },
+    "plant:inst:59414c084f9ef6464822": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:59414c084f9ef6464822",
+        "inst:df84560f8c90256f171e"
+      ]
+    },
+    "plant:inst:d915918c3efab6d080d2": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:d915918c3efab6d080d2",
+        "inst:3d75ee04d6f6ef880faf"
+      ]
+    },
+    "plant:inst:f9bb01fd5d4f87440cd9": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:f9bb01fd5d4f87440cd9",
+        "inst:963bac62abf45da69c01",
+        "inst:6533e283d75e254829cd",
+        "inst:d78e964934ad3f5383ed"
+      ]
+    },
+    "plant:inst:930df5dd02c282936229": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:930df5dd02c282936229",
+        "inst:0cd6e2be8407f928ba69"
+      ]
+    },
+    "plant:inst:d2472fbb5a247b6cead1": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:d2472fbb5a247b6cead1",
+        "inst:f31cd195f71ce0237a85"
+      ]
+    },
+    "plant:inst:beb56ad025aa5b7225b8": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:beb56ad025aa5b7225b8",
+        "inst:59922953e8c42f83138c"
+      ]
+    },
+    "plant:inst:ecfe447200f3b047f224": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:ecfe447200f3b047f224",
+        "inst:e56e6ce736481d935a8d"
+      ]
+    },
+    "plant:inst:6151e409ede595c884ac": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:6151e409ede595c884ac",
+        "inst:80721853c44882503b66"
+      ]
+    },
+    "plant:inst:c8db374a9eaddb156985": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:c8db374a9eaddb156985",
+        "inst:f058fbad0fb6b85db6fd"
+      ]
+    },
+    "plant:inst:e62f1e9d7bae40b81827": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:e62f1e9d7bae40b81827",
+        "inst:8354dccee483f14cee6c"
+      ]
+    },
+    "plant:inst:db74e330b501ce57442d": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:db74e330b501ce57442d",
+        "inst:1c5c175343bf377287d1"
+      ]
+    },
+    "plant:inst:d80623009f86d72c2d7c": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:d80623009f86d72c2d7c",
+        "inst:a8c171c7628e6e8ce59e",
+        "part:balcony-garden:2e565a0bac97"
+      ]
+    },
+    "plant:inst:0f9b9c9144d7c3e3de96": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:0f9b9c9144d7c3e3de96",
+        "inst:ab6408344f917a2daf1a",
+        "part:balcony-garden:9ed7e30aad26"
+      ]
+    },
+    "plant:inst:2229e4485a7f8e0c43f4": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:2229e4485a7f8e0c43f4",
+        "inst:bfbcf1902e70b5a497a5",
+        "inst:280ddf365ea3700610f0",
+        "inst:2b3fdd004d6bfa4dacc1"
+      ]
+    },
+    "plant:inst:b984437d29b6eaa3340e": {
+      "name": "完整盆栽",
+      "members": [
+        "inst:b984437d29b6eaa3340e",
+        "inst:433cdaa638925391abc5",
+        "part:balcony-garden:2385a7d111e1"
+      ]
+    },
+    "plant:part:balcony-planters:31998bb1c71a": {
+      "name": "完整盆栽",
+      "members": [
+        "part:balcony-planters:31998bb1c71a",
+        "part:balcony-garden:643f71845923"
+      ]
+    },
+    "plant:part:herb-pots:1f866b227485": {
+      "name": "完整盆栽",
+      "members": [
+        "part:herb-pots:1f866b227485",
+        "part:window-herbs:219d8b07a7a0"
+      ]
+    },
+    "plant:part:herb-pots:fdab5b283d2d": {
+      "name": "完整盆栽",
+      "members": [
+        "part:herb-pots:fdab5b283d2d",
+        "part:window-herbs:91762717a815"
+      ]
+    },
+    "plant:part:herb-pots:e93aeafe2226": {
+      "name": "完整盆栽",
+      "members": [
+        "part:herb-pots:e93aeafe2226",
+        "part:window-herbs:26d19709bbfe"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:906e9854a6e5": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:906e9854a6e5",
+        "inst:6ee6740d9ae5ee7e945a"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:f0bf678e5297": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:f0bf678e5297",
+        "inst:79f73f7c66f4eff97abf"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:2ca35be9ecdc": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:2ca35be9ecdc",
+        "inst:9d1948b28ea9931f896e"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:67ae6cd3e486": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:67ae6cd3e486",
+        "inst:9e79a50483540485ffd6"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:7df19decc0ff": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:7df19decc0ff",
+        "inst:318119a5a8e3c010b49f"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:55382207c0af": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:55382207c0af",
+        "inst:df0ea69ed01ec3a17bdc",
+        "inst:8b6c47e02309f9ba4da7",
+        "inst:f13b51c049808abb01ca"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:88749ea7e3a2": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:88749ea7e3a2",
+        "inst:e1cfbfa18e36c54f347c"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:125f944e8a17": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:125f944e8a17",
+        "inst:0a3ce33c2efc9e46a032",
+        "inst:be7bbd3481bf98dbdec0",
+        "inst:c3610941e9ea89b6e150"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:bd8849bd2603": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:bd8849bd2603",
+        "inst:f0dbad54822e535373d6"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:13124d66ff13": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:13124d66ff13",
+        "inst:2b9f707837c339e8182b",
+        "inst:9d20e006fbc6b8d59fd5",
+        "inst:ee7d841daa3fd0b4d909"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:e55adb3224b4": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:e55adb3224b4",
+        "inst:faba546c7b991c666cfc"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:e201487976b1": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:e201487976b1",
+        "inst:4a2f7845b9ed218d429e"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:37120a5dbea3": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:37120a5dbea3",
+        "inst:4b17c1e7b0f0ee3effdd"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:827b49183eaa": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:827b49183eaa",
+        "inst:607ffcafa12cc10b0297"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:8a9b785af5f1": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:8a9b785af5f1",
+        "inst:5ac2fcf1984caa597f33"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:0f3ccb0b678f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:0f3ccb0b678f",
+        "inst:6950a0bd039ed56cb10f"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:0b3bfd6b4443": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:0b3bfd6b4443",
+        "inst:281bd2f247e113c67053"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:288840967907": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:288840967907",
+        "inst:ee2ae62106c6e784dffd",
+        "inst:920d3236f79b47872e3d",
+        "inst:5f4b13cf8c3ab0de569e"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:bbd30c731b03": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:bbd30c731b03",
+        "inst:95158185ca0a76159789",
+        "inst:3aa0fb96882ae4c7b600",
+        "inst:7c5f7b1a4880fb090dec"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:32d18b25dd85": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:32d18b25dd85",
+        "inst:918263338160ffea2964",
+        "inst:7c163c0a004e6323d211",
+        "inst:fc5734219419240f876a"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:f2b09dc6d373": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:f2b09dc6d373",
+        "inst:355f563c2bbed2a1f2d8"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:51e9b8c15791": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:51e9b8c15791",
+        "inst:49ce5064726a9241053c"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:cab8e39fd00a": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:cab8e39fd00a",
+        "inst:a170271cf9fe48348fc2",
+        "inst:bfd985a4047def8c88a5",
+        "inst:5a8f8ee4973944bf0563"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:015f51d25ad8": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:015f51d25ad8",
+        "inst:0692a20f4be4e14b863d"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:e9d25a355fbb": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:e9d25a355fbb",
+        "inst:34c0fb96b71f486e470a",
+        "inst:5f652fee636871cd1215",
+        "inst:5848285f8fbe423ee63d"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:2caf167f522f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:2caf167f522f",
+        "inst:83a923ead0aef96f9c18"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:bb3efc467450": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:bb3efc467450",
+        "inst:42c09068e5ed3a39967b"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:2fba1fca5f8a": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:2fba1fca5f8a",
+        "inst:a04e9c7eac7476ad7698"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:b1613e00dc79": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:b1613e00dc79",
+        "inst:34aef2aedb9695bb3213"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:7e7089083bfe": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:7e7089083bfe",
+        "inst:c4eb90fd6322d9c527d2"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:3524d0fabe6e": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:3524d0fabe6e",
+        "inst:aac03ffdf26441a09b4f",
+        "inst:40f2fb882befb1a60db3",
+        "inst:f430552e3c21e3fa1689"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:8c1543fa2ab8": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:8c1543fa2ab8",
+        "inst:142cbe78562544b06594"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:3f2d185dbc8f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:3f2d185dbc8f",
+        "inst:b5c6c02e62dfe7f2aedd",
+        "inst:be856d6ed516c3b03a66",
+        "inst:788fc4d1047084a5991e"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:a12fa74cf9bf": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:a12fa74cf9bf",
+        "inst:78baa0da7fd8cfbfa627"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:bc45db6bdceb": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:bc45db6bdceb",
+        "inst:d16f23ff7fa291438de0"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:9287c34ede08": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:9287c34ede08",
+        "inst:77471eca416fd2763269"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:b83a48a4206c": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:b83a48a4206c",
+        "inst:8ca9e34a037d64c67052"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:e3dacad823c2": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:e3dacad823c2",
+        "inst:7fe2cd790d654a03b9f9"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:c2939674c6b0": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:c2939674c6b0",
+        "inst:7afe89b2f8fca8c602b0",
+        "inst:5aa31e59b1dbb6b34add",
+        "inst:603e37829d190f36d571"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:c3e0fc5afe9f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:c3e0fc5afe9f",
+        "inst:6db92470515d2f90d06a",
+        "inst:82a24ac97fa3048c6f3c",
+        "inst:c98f3ac78612c49fc17b"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:c927e0a28ef9": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:c927e0a28ef9",
+        "inst:9b06766e45775f576e4f",
+        "inst:a5446b063c7179655abb",
+        "inst:1a02391f1c286a0ae544"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:fa23862226bf": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:fa23862226bf",
+        "inst:c957de3a80b7a663c1b2"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:f3666bf5e1e6": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:f3666bf5e1e6",
+        "inst:85284d65722c1343b40f"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:697e4eddac02": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:697e4eddac02",
+        "inst:a05fe5bed0097b17ec36"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:cd215a891ad6": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:cd215a891ad6",
+        "inst:112855d628d0a1723951"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:951d45d1b45f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:951d45d1b45f",
+        "inst:8c47cdb0d03a742561f7"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:3e1e316c28ab": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:3e1e316c28ab",
+        "inst:e8f403e912b8d903cb86"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:78da4b1e0aa8": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:78da4b1e0aa8",
+        "inst:8bd8b8bac68982451bc5"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:3d9fb044b8cd": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:3d9fb044b8cd",
+        "inst:207c4a8017cc5577cfc1"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:f8ccf7cafb34": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:f8ccf7cafb34",
+        "inst:00f7ed44644989549af4",
+        "inst:961f0d218b85ec30f434",
+        "inst:ec8d88bb12195a7eb6c4"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:59fbc8b52b07": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:59fbc8b52b07",
+        "inst:9a749b2f45ea676997d3",
+        "inst:85b8db3d0cebbb9192e2",
+        "inst:ae105315c6222674a383"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:d4834036a5e1": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:d4834036a5e1",
+        "inst:81ed37bf9ec531fbd158"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:e48bd1b93dc9": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:e48bd1b93dc9",
+        "inst:c6d1ebfd21b63da6b56e"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:4997e0f4d3c8": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:4997e0f4d3c8",
+        "inst:99213843a2f5f1ef3c45"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:f93526a065fc": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:f93526a065fc",
+        "inst:d1f44bd672cf0d0f9144",
+        "inst:afe2e2d4aa8200d16a38",
+        "inst:356a44d48ffaa48c6f24"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:a19c08b5da3f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:a19c08b5da3f",
+        "inst:876bd765bc5f9cb47915",
+        "inst:6b530a9f1fb65dd9daaf",
+        "inst:c3d0ad2ca05eecdb0315"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:3104d174399f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:3104d174399f",
+        "inst:11189ca05120cb21af6e",
+        "inst:4e22e575e739a8871aed",
+        "inst:b0b308e223c483f9e7fd"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:7669c0e5169f": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:7669c0e5169f",
+        "inst:eb71729f194ad14d6b4a"
+      ]
+    },
+    "plant:part:garden-pots-and-soil:66b914a41cd1": {
+      "name": "完整盆栽",
+      "members": [
+        "part:garden-pots-and-soil:66b914a41cd1",
+        "inst:cdff28a0be775eabda47",
+        "inst:263e9c484afbb7a0ae80",
+        "inst:81ec917137899a4ae586"
+      ]
+    },
+    "user-e038a597-01fb-4f58-a4d0-0032fae7d782": {
+      "name": "一层木窗 2",
+      "members": [
+        "user-09023aa2-65e9-4d25-8dbf-8f070fb803b3",
+        "user-53a94bff-1c78-4b78-aa4e-a35e0056bd5f",
+        "user-d182af25-63fa-4f20-820d-8189eba433ae",
+        "user-2eec7eb3-b9fc-4978-9f80-b2c247a7a830"
+      ]
+    }
+  },
+  "savedAt": "2026-09-11T07:55:18.297Z",
+  "knownGroups": [
+    "window:round-lower-1",
+    "window:round-lower-2",
+    "window:round-lower-3",
+    "window:round-upper-0",
+    "window:round-upper-1",
+    "window:round-upper-2",
+    "window:round-upper-3",
+    "window:round-upper-4",
+    "window:back-kitchen",
+    "window:back-sleep",
+    "window:west-upper-0",
+    "window:west-upper-1",
+    "window:back-kitchen-east",
+    "window:back-sleep-west",
+    "window:east-bay-0",
+    "window:east-bay-1",
+    "window:east-bay-2",
+    "plant:inst:59414c084f9ef6464822",
+    "plant:inst:d915918c3efab6d080d2",
+    "plant:inst:f9bb01fd5d4f87440cd9",
+    "plant:inst:930df5dd02c282936229",
+    "plant:inst:d2472fbb5a247b6cead1",
+    "plant:inst:beb56ad025aa5b7225b8",
+    "plant:inst:ecfe447200f3b047f224",
+    "plant:inst:6151e409ede595c884ac",
+    "plant:inst:c8db374a9eaddb156985",
+    "plant:inst:e62f1e9d7bae40b81827",
+    "plant:inst:db74e330b501ce57442d",
+    "plant:inst:d80623009f86d72c2d7c",
+    "plant:inst:0f9b9c9144d7c3e3de96",
+    "plant:inst:2229e4485a7f8e0c43f4",
+    "plant:inst:b984437d29b6eaa3340e",
+    "plant:part:balcony-planters:31998bb1c71a",
+    "plant:part:herb-pots:1f866b227485",
+    "plant:part:herb-pots:fdab5b283d2d",
+    "plant:part:herb-pots:e93aeafe2226",
+    "plant:part:garden-pots-and-soil:906e9854a6e5",
+    "plant:part:garden-pots-and-soil:f0bf678e5297",
+    "plant:part:garden-pots-and-soil:2ca35be9ecdc",
+    "plant:part:garden-pots-and-soil:67ae6cd3e486",
+    "plant:part:garden-pots-and-soil:7df19decc0ff",
+    "plant:part:garden-pots-and-soil:55382207c0af",
+    "plant:part:garden-pots-and-soil:88749ea7e3a2",
+    "plant:part:garden-pots-and-soil:125f944e8a17",
+    "plant:part:garden-pots-and-soil:bd8849bd2603",
+    "plant:part:garden-pots-and-soil:13124d66ff13",
+    "plant:part:garden-pots-and-soil:e55adb3224b4",
+    "plant:part:garden-pots-and-soil:e201487976b1",
+    "plant:part:garden-pots-and-soil:37120a5dbea3",
+    "plant:part:garden-pots-and-soil:827b49183eaa",
+    "plant:part:garden-pots-and-soil:8a9b785af5f1",
+    "plant:part:garden-pots-and-soil:0f3ccb0b678f",
+    "plant:part:garden-pots-and-soil:0b3bfd6b4443",
+    "plant:part:garden-pots-and-soil:288840967907",
+    "plant:part:garden-pots-and-soil:bbd30c731b03",
+    "plant:part:garden-pots-and-soil:32d18b25dd85",
+    "plant:part:garden-pots-and-soil:f2b09dc6d373",
+    "plant:part:garden-pots-and-soil:51e9b8c15791",
+    "plant:part:garden-pots-and-soil:cab8e39fd00a",
+    "plant:part:garden-pots-and-soil:015f51d25ad8",
+    "plant:part:garden-pots-and-soil:e9d25a355fbb",
+    "plant:part:garden-pots-and-soil:2caf167f522f",
+    "plant:part:garden-pots-and-soil:bb3efc467450",
+    "plant:part:garden-pots-and-soil:2fba1fca5f8a",
+    "plant:part:garden-pots-and-soil:b1613e00dc79",
+    "plant:part:garden-pots-and-soil:7e7089083bfe",
+    "plant:part:garden-pots-and-soil:3524d0fabe6e",
+    "plant:part:garden-pots-and-soil:8c1543fa2ab8",
+    "plant:part:garden-pots-and-soil:3f2d185dbc8f",
+    "plant:part:garden-pots-and-soil:a12fa74cf9bf",
+    "plant:part:garden-pots-and-soil:bc45db6bdceb",
+    "plant:part:garden-pots-and-soil:9287c34ede08",
+    "plant:part:garden-pots-and-soil:b83a48a4206c",
+    "plant:part:garden-pots-and-soil:e3dacad823c2",
+    "plant:part:garden-pots-and-soil:c2939674c6b0",
+    "plant:part:garden-pots-and-soil:c3e0fc5afe9f",
+    "plant:part:garden-pots-and-soil:c927e0a28ef9",
+    "plant:part:garden-pots-and-soil:fa23862226bf",
+    "plant:part:garden-pots-and-soil:f3666bf5e1e6",
+    "plant:part:garden-pots-and-soil:697e4eddac02",
+    "plant:part:garden-pots-and-soil:cd215a891ad6",
+    "plant:part:garden-pots-and-soil:951d45d1b45f",
+    "plant:part:garden-pots-and-soil:3e1e316c28ab",
+    "plant:part:garden-pots-and-soil:78da4b1e0aa8",
+    "plant:part:garden-pots-and-soil:3d9fb044b8cd",
+    "plant:part:garden-pots-and-soil:f8ccf7cafb34",
+    "plant:part:garden-pots-and-soil:59fbc8b52b07",
+    "plant:part:garden-pots-and-soil:d4834036a5e1",
+    "plant:part:garden-pots-and-soil:e48bd1b93dc9",
+    "plant:part:garden-pots-and-soil:4997e0f4d3c8",
+    "plant:part:garden-pots-and-soil:f93526a065fc",
+    "plant:part:garden-pots-and-soil:a19c08b5da3f",
+    "plant:part:garden-pots-and-soil:3104d174399f",
+    "plant:part:garden-pots-and-soil:7669c0e5169f",
+    "plant:part:garden-pots-and-soil:66b914a41cd1",
+    "solar:north-grain",
+    "solar:rail-upper",
+    "solar:primary",
+    "solar:rear",
+    "solar:lower-main",
+    "solar:press-east",
+    "solar:herbs-east",
+    "solar:linen-east"
+  ]
+}

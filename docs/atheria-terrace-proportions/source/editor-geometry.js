@@ -1,5 +1,5 @@
 /* Shared mesh patches: the editor and exported AVX1 use these same vertices. */
-(function(root,factory){const api=factory(typeof module==='object'?require('./core.js'):root.AtheriaEditorCore);if(typeof module==='object')module.exports=api;else root.AtheriaEditorGeometry=api;})(globalThis,function(Core){
+(function(root,factory){const api=factory(typeof module==='object'?require('./editor-core.js'):root.AtheriaEditorCore);if(typeof module==='object')module.exports=api;else root.AtheriaEditorGeometry=api;})(globalThis,function(Core){
 'use strict';const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v)),mix=(a,b,t)=>a+(b-a)*t,curvature=(x,z)=>-(x*x+z*z)/9500000;
 function hash(x,z,seed=91){let h=Math.imul(x,374761393)^Math.imul(z,668265263)^seed;h=Math.imul(h^(h>>>13),1274126177);return(h^(h>>>16))>>>0;}
 function noise(x,z){const a=Math.floor(x),b=Math.floor(z),smooth=t=>t*t*(3-2*t),u=smooth(x-a),v=smooth(z-b),f=(x,z)=>hash(x,z)/4294967295;return mix(mix(f(a,b),f(a+1,b),u),mix(f(a,b+1),f(a+1,b+1),u),v);}

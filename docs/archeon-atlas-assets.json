@@ -9591,9 +9591,9 @@
     },
     {
       "path": "data/house-tuning/default-layout.json",
-      "bytes": 16579679,
-      "sourceSha256": "4826554d8d1c23cc04495ab658f9b394edad5854930f1c1f6df722793673796a",
-      "sha256": "4826554d8d1c23cc04495ab658f9b394edad5854930f1c1f6df722793673796a"
+      "bytes": 18146889,
+      "sourceSha256": "19cafe01f651d18c41b00c21ce0406375b3ab7e52e4f031a927834c52737e63b",
+      "sha256": "19cafe01f651d18c41b00c21ce0406375b3ab7e52e4f031a927834c52737e63b"
     },
     {
       "path": "data/house-tuning/t0-0.bin.json",
@@ -18585,21 +18585,21 @@
     },
     {
       "path": "house-tuning/core.js",
-      "bytes": 22996,
-      "sourceSha256": "dbfdb194c98530267c1145f576b6dfad8ce7fc0b6bbdce083d277ddae930e542",
-      "sha256": "dbfdb194c98530267c1145f576b6dfad8ce7fc0b6bbdce083d277ddae930e542"
+      "bytes": 30104,
+      "sourceSha256": "e82e318e0b53639e75bc46e11b4cea072b27442204d232d9a8bf62a81795ab21",
+      "sha256": "e82e318e0b53639e75bc46e11b4cea072b27442204d232d9a8bf62a81795ab21"
     },
     {
       "path": "house-tuning/defaults.json",
-      "bytes": 1003,
-      "sourceSha256": "232922fad744fb576d7674a5cff84046ba31d4bc42588341e87d1483ab83c7c0",
-      "sha256": "232922fad744fb576d7674a5cff84046ba31d4bc42588341e87d1483ab83c7c0"
+      "bytes": 1212,
+      "sourceSha256": "95d0a68c77cdb6052a75fb80b5b181306db9f1e88b0d209ece5494bf7d755c9e",
+      "sha256": "95d0a68c77cdb6052a75fb80b5b181306db9f1e88b0d209ece5494bf7d755c9e"
     },
     {
       "path": "house-tuning/geometry.js",
-      "bytes": 10180,
-      "sourceSha256": "ec644e808e23b160adb225d9e94d26c4e473194a2af341c616cd5645647a8ada",
-      "sha256": "ec644e808e23b160adb225d9e94d26c4e473194a2af341c616cd5645647a8ada"
+      "bytes": 10173,
+      "sourceSha256": "0629c662e52759f039cef5969e70339b0b651de0ef2f88681967b25a70a60404",
+      "sha256": "0629c662e52759f039cef5969e70339b0b651de0ef2f88681967b25a70a60404"
     },
     {
       "path": "house-tuning/runtime.js",
@@ -18615,15 +18615,15 @@
     },
     {
       "path": "house-tuning/ui.js",
-      "bytes": 8276,
-      "sourceSha256": "5cddb0b278a3611aa346e622f443e0d15cc99f5bb95996d783989ea3fadec7df",
-      "sha256": "5cddb0b278a3611aa346e622f443e0d15cc99f5bb95996d783989ea3fadec7df"
+      "bytes": 8622,
+      "sourceSha256": "4fe6fea59f7016de67d792ed65beef62e233ea374f11e2767b5fdf61e6ef52c7",
+      "sha256": "4fe6fea59f7016de67d792ed65beef62e233ea374f11e2767b5fdf61e6ef52c7"
     },
     {
       "path": "house-tuning/worker.js",
-      "bytes": 1576,
-      "sourceSha256": "7b179782619fc2b0bd0b034d4a9ee59ecffb1dab83947d671a012c3a00ac39ed",
-      "sha256": "7b179782619fc2b0bd0b034d4a9ee59ecffb1dab83947d671a012c3a00ac39ed"
+      "bytes": 1505,
+      "sourceSha256": "8a2df00d9b74ed760295565ee8c8e85f3a05fe0b62a6e11a2f7303e4a90259b0",
+      "sha256": "8a2df00d9b74ed760295565ee8c8e85f3a05fe0b62a6e11a2f7303e4a90259b0"
     },
     {
       "path": "i18n-catalogue.js",

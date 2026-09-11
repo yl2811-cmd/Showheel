@@ -117,3 +117,14 @@ D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\navigation-audit.jso
 D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\release-validation.json
 D:\repo\Showheel\bin\Release\net8.0\docs\solar-architecture\verification.json
 D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-solar-20260910.json
+D:\repo\Showheel\bin\Release\net8.0\docs\eyrie-round-balcony\archive-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\eyrie-round-balcony\browser-review.json
+D:\repo\Showheel\bin\Release\net8.0\docs\eyrie-round-balcony\compression-summary.json
+D:\repo\Showheel\bin\Release\net8.0\docs\eyrie-round-balcony\verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\river-trees\archive-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\river-trees\compression-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\river-trees\delivery-verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\river-trees\installed.json
+D:\repo\Showheel\bin\Release\net8.0\docs\river-trees\verification.json
+D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-eyrie-doors-balcony-20260911.json
+D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-river-trees-20260910.json

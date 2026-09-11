@@ -1,0 +1,1024 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "rectangle union handles overlaps and negative world coordinates",
+      "pass": true
+    },
+    {
+      "name": "smallCount 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallCount 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallCount 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallCount 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallCount center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "smallCount 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallCount 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallSize 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallSize 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallSize 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallSize 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallSize center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "smallSize 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallSize 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "smallHeight center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "smallHeight 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceCount center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceCount 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceSize center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceSize 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceHeight 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "terraceLevels 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "splitMinArea 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "split 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "split 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "split 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "split 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "split center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "split 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "split 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "scatter 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "scatter 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "scatter 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "scatter 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "scatter center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "scatter 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "scatter 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "lod 0 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "lod 0 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "lod 0.5 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "lod 0.5 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "lod center is exact identity",
+      "pass": true
+    },
+    {
+      "name": "lod 1 finite and protected",
+      "pass": true
+    },
+    {
+      "name": "lod 1 per-group area constraints",
+      "pass": true
+    },
+    {
+      "name": "small count decreases and increases by whole units",
+      "pass": true
+    },
+    {
+      "name": "terrace count decreases and increases with safe-site saturation",
+      "pass": true,
+      "details": {
+        "baseline": 170,
+        "low": 67,
+        "high": 171
+      }
+    },
+    {
+      "name": "terrace levels change visible height bands both ways",
+      "pass": true
+    },
+    {
+      "name": "latest 69 reversals preserve footprint and lowered height",
+      "pass": true
+    },
+    {
+      "name": "splits conserve volume and compact fragments have near-cubic proportions",
+      "pass": true
+    },
+    {
+      "name": "split:0 globally conserves model footprint",
+      "pass": true
+    },
+    {
+      "name": "scatter:0 globally conserves model footprint",
+      "pass": true
+    },
+    {
+      "name": "scatter:1 globally conserves model footprint",
+      "pass": true
+    },
+    {
+      "name": "local edit affects only the chosen stable object",
+      "pass": true
+    },
+    {
+      "name": "same parameters produce the same placements and geometry",
+      "pass": true
+    },
+    {
+      "name": "catalogue remains immutable after every edit",
+      "pass": true
+    },
+    {
+      "name": "cumulative new field occupancy remains below 15 percent",
+      "pass": true
+    },
+    {
+      "name": "output building IDs are unique",
+      "pass": true
+    },
+    {
+      "name": "mixed edits introduce no inter-building overlaps",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all four LODs have matching frozen provenance",
+      "pass": true
+    },
+    {
+      "name": "fixed fragments retain position size and roof height across LODs",
+      "pass": true,
+      "details": {
+        "emissions": 50330,
+        "bad": []
+      }
+    },
+    {
+      "name": "small quantity uses the requested new-house size exactly once",
+      "pass": true
+    },
+    {
+      "name": "terrace quantity uses the requested new-house size exactly once",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "small": 2417,
+    "terrace": 170,
+    "blocks": 11093,
+    "area": 8954954.991987213,
+    "volume": 118705392.41592757
+  },
+  "endpointStats": {
+    "smallCount:0": {
+      "small": 727,
+      "terrace": 170,
+      "blocks": 6118,
+      "changed": 1690,
+      "added": 0,
+      "removed": 1690,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 797,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 727,
+      "terraceRequested": 170,
+      "area": 3590807.385074799,
+      "areaDelta": -5364147.606912415,
+      "volume": 48240542.96111662,
+      "volumeDelta": -70464849.45481095,
+      "elapsedMs": 82.99290000000002
+    },
+    "smallCount:1": {
+      "small": 3203,
+      "terrace": 170,
+      "blocks": 12060,
+      "changed": 786,
+      "added": 786,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2521,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 12061,
+      "terraceRequested": 170,
+      "area": 9374777.65342221,
+      "areaDelta": 419822.6614349969,
+      "volume": 123089794.22699273,
+      "volumeDelta": 4384401.811065152,
+      "elapsedMs": 411.3365
+    },
+    "smallSize:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 2408,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 1549,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 4169526.4463048074,
+      "areaDelta": -4785428.545682406,
+      "volume": 56652684.925598726,
+      "volumeDelta": -62052707.49032885,
+      "elapsedMs": 167.2487000000001
+    },
+    "smallSize:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 249,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2344,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 9207571.50845242,
+      "areaDelta": 252616.5164652057,
+      "volume": 121228755.43233238,
+      "volumeDelta": 2523363.0164048076,
+      "elapsedMs": 98.15660000000003
+    },
+    "smallHeight:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 2411,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 70213937.7029482,
+      "volumeDelta": -48491454.71297938,
+      "elapsedMs": 128.39210000000003
+    },
+    "smallHeight:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 2411,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 215688301.8418863,
+      "volumeDelta": 96982909.42595874,
+      "elapsedMs": 97.85209999999984
+    },
+    "terraceCount:0": {
+      "small": 2417,
+      "terrace": 67,
+      "blocks": 8637,
+      "changed": 103,
+      "added": 0,
+      "removed": 103,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2159,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 67,
+      "area": 8025937.868477295,
+      "areaDelta": -929017.1235099183,
+      "volume": 104715270.55983491,
+      "volumeDelta": -13990121.856092662,
+      "elapsedMs": 38.16030000000001
+    },
+    "terraceCount:1": {
+      "small": 2417,
+      "terrace": 171,
+      "blocks": 11109,
+      "changed": 1,
+      "added": 1,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2263,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 339,
+      "area": 8956460.337166883,
+      "areaDelta": 1505.345179669559,
+      "volume": 118724829.93570225,
+      "volumeDelta": 19437.51977467537,
+      "elapsedMs": 87.83459999999991
+    },
+    "terraceSize:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 169,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2232,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8027063.469891454,
+      "areaDelta": -927891.5220957594,
+      "volume": 105105606.7243326,
+      "volumeDelta": -13599785.691594973,
+      "elapsedMs": 87.58719999999994
+    },
+    "terraceSize:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 7,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8959472.243191443,
+      "areaDelta": 4517.251204229891,
+      "volume": 118761904.2008286,
+      "volumeDelta": 56511.78490102291,
+      "elapsedMs": 65.22540000000004
+    },
+    "terraceHeight:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 169,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 108080559.84436907,
+      "volumeDelta": -10624832.571558505,
+      "elapsedMs": 73.31840000000011
+    },
+    "terraceHeight:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 169,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 139955057.55904463,
+      "volumeDelta": 21249665.143117055,
+      "elapsedMs": 65.88280000000032
+    },
+    "terraceLevels:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 169,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 120132472.1667298,
+      "volumeDelta": 1427079.750802219,
+      "elapsedMs": 302.06669999999986
+    },
+    "terraceLevels:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 102,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118989459.95173179,
+      "volumeDelta": 284067.5358042121,
+      "elapsedMs": 168.31680000000006
+    },
+    "splitMinArea:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 0,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2504,
+      "splitThresholdM2": 100,
+      "splitThresholdsM2": [
+        100
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 52.14340000000038
+    },
+    "splitMinArea:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 0,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 1849,
+      "splitThresholdM2": 1000,
+      "splitThresholdsM2": [
+        1000
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 47.11149999999998
+    },
+    "split:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 149,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 104.53729999999996
+    },
+    "split:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 15619,
+      "changed": 1789,
+      "added": 0,
+      "removed": 0,
+      "split": 1789,
+      "splitReached": 707,
+      "splitPartial": 1082,
+      "splitUnplaced": 473,
+      "terraceSplit": 151,
+      "terraceSplitMedian": 0.20000000185654937,
+      "splitRequested": 2262,
+      "splitEligible": 2262,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8371676.31759333,
+      "areaDelta": -583278.6743938839,
+      "volume": 118705392.4159219,
+      "volumeDelta": -0.000005677342414855957,
+      "elapsedMs": 28153.234800000002
+    },
+    "scatter:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 231,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 86.54769999999917
+    },
+    "scatter:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 232,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 114.6762000000017
+    },
+    "lod:0": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 2580,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 79.80459999999948
+    },
+    "lod:1": {
+      "small": 2417,
+      "terrace": 170,
+      "blocks": 11093,
+      "changed": 2580,
+      "added": 0,
+      "removed": 0,
+      "split": 0,
+      "splitReached": 0,
+      "splitPartial": 0,
+      "splitUnplaced": 0,
+      "terraceSplit": 0,
+      "terraceSplitMedian": 0,
+      "splitRequested": 0,
+      "splitEligible": 0,
+      "splitCandidates": 2262,
+      "splitThresholdM2": 600,
+      "splitThresholdsM2": [
+        600
+      ],
+      "smallRequested": 2417,
+      "terraceRequested": 170,
+      "area": 8954954.99198721,
+      "areaDelta": -3.725290298461914e-9,
+      "volume": 118705392.41592771,
+      "volumeDelta": 1.341104507446289e-7,
+      "elapsedMs": 87.54360000000088
+    }
+  }
+}

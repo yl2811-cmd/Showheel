@@ -1,4 +1,4 @@
-importScripts('core.js','geometry.js');
+importScripts('editor-core.js','editor-geometry.js');
 let defaultResult,catalog,latest=null,version=0,scheduled=false,result,prepared,pending=[];const metas=new Map();
 function schedule(){if(scheduled)return;scheduled=true;setTimeout(run,8);}
 function run(){scheduled=false;try{if(latest){const job=latest;latest=null;version=job.version;result=AtheriaEditorCore.cacheMatches(defaultResult,catalog,job.state)?structuredClone(defaultResult):AtheriaEditorCore.evaluate(catalog,job.state);prepared=AtheriaEditorGeometry.prepare(catalog,result);postMessage({type:'result',version,result});pending=[...metas.keys()].sort((a,b)=>((job.visible?.indexOf(a)??-1)<0?9999:job.visible.indexOf(a))-((job.visible?.indexOf(b)??-1)<0?9999:job.visible.indexOf(b)));}if(pending.length&&result){const file=pending.shift(),patch=AtheriaEditorGeometry.patch(catalog,result,file,metas.get(file),prepared);postMessage({type:'patch',version,file,patch,remaining:pending.length},[patch.p.buffer,patch.n.buffer,patch.c.buffer,patch.i.buffer]);}if(pending.length||latest)schedule();}catch(e){postMessage({type:'error',version,message:e.stack||e.message});}}

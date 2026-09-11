@@ -1,0 +1,467 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "visitor defaults use the exact recomputed layout",
+      "passed": true
+    },
+    {
+      "name": "actual split statuses and terrace share are visible",
+      "passed": true
+    },
+    {
+      "name": "LOD 0 loads without stale geometry",
+      "passed": true
+    },
+    {
+      "name": "LOD 1 loads without stale geometry",
+      "passed": true
+    },
+    {
+      "name": "LOD 2 loads without stale geometry",
+      "passed": true
+    },
+    {
+      "name": "LOD 3 loads without stale geometry",
+      "passed": true
+    },
+    {
+      "name": "strength 0.5 matches deterministic calculation",
+      "passed": true
+    },
+    {
+      "name": "strength 0.75 matches deterministic calculation",
+      "passed": true
+    },
+    {
+      "name": "strength 1 matches deterministic calculation",
+      "passed": true
+    },
+    {
+      "name": "reset restores defaults and all placements",
+      "passed": true
+    },
+    {
+      "name": "real slider and undo restore parameters and geometry",
+      "passed": true
+    },
+    {
+      "name": "save records new algorithm and unchanged defaults",
+      "passed": true
+    },
+    {
+      "name": "legacy load notifies and recomputes current geometry",
+      "passed": true
+    },
+    {
+      "name": "wrong baseline is rejected",
+      "passed": true
+    },
+    {
+      "name": "no script, worker or resource errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "selected": {
+    "id": "village-15-1/current-dddbc706",
+    "actualShare": 0.2500000019687721,
+    "camera": {
+      "position": [
+        -9.375919341733649,
+        -50.16729702493174,
+        291.6280286683535
+      ],
+      "target": [
+        -77.39005900232463,
+        -109.96,
+        197.1639458064216
+      ]
+    }
+  },
+  "samples": [
+    {
+      "name": "before-default",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 18851,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2301,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 9122452.155556267,
+        "areaDelta": 167497.16356905364,
+        "volume": 102051273.66668066,
+        "volumeDelta": -16654118.74924691,
+        "elapsedMs": 31669.6283
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "after-default",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17838,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2613,
+        "splitReached": 662,
+        "splitPartial": 1951,
+        "splitUnplaced": 504,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8558421.744994925,
+        "areaDelta": -396533.24699228816,
+        "volume": 112114598.93579295,
+        "volumeDelta": -6590793.480134621,
+        "elapsedMs": 10928.153400000001
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "after-lod-0",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17838,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2613,
+        "splitReached": 662,
+        "splitPartial": 1951,
+        "splitUnplaced": 504,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8558421.744994925,
+        "areaDelta": -396533.24699228816,
+        "volume": 112114598.93579295,
+        "volumeDelta": -6590793.480134621,
+        "elapsedMs": 10928.153400000001
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "after-lod-1",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17838,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2613,
+        "splitReached": 662,
+        "splitPartial": 1951,
+        "splitUnplaced": 504,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8558421.744994925,
+        "areaDelta": -396533.24699228816,
+        "volume": 112114598.93579295,
+        "volumeDelta": -6590793.480134621,
+        "elapsedMs": 10928.153400000001
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "after-lod-2",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17838,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2613,
+        "splitReached": 662,
+        "splitPartial": 1951,
+        "splitUnplaced": 504,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8558421.744994925,
+        "areaDelta": -396533.24699228816,
+        "volume": 112114598.93579295,
+        "volumeDelta": -6590793.480134621,
+        "elapsedMs": 10928.153400000001
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "after-lod-3",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17838,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2613,
+        "splitReached": 662,
+        "splitPartial": 1951,
+        "splitUnplaced": 504,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 2618,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8558421.744994925,
+        "areaDelta": -396533.24699228816,
+        "volume": 112114598.93579295,
+        "volumeDelta": -6590793.480134621,
+        "elapsedMs": 10928.153400000001
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "split-0.5",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 11826,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 0,
+        "splitReached": 0,
+        "splitPartial": 0,
+        "splitUnplaced": 0,
+        "terraceSplit": 0,
+        "terraceSplitMedian": 0,
+        "splitRequested": 0,
+        "splitEligible": 0,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 9122452.155556273,
+        "areaDelta": 167497.16356905922,
+        "volume": 112114598.93579434,
+        "volumeDelta": -6590793.480133235,
+        "elapsedMs": 519.9000000059605
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "split-0.75",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 14804,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 1559,
+        "splitReached": 404,
+        "splitPartial": 1155,
+        "splitUnplaced": 189,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.15000000005140593,
+        "splitRequested": 1559,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8848058.614024414,
+        "areaDelta": -106896.37796279974,
+        "volume": 112114598.93579297,
+        "volumeDelta": -6590793.480134606,
+        "elapsedMs": 9534.300000011921
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    },
+    {
+      "name": "split-1",
+      "stats": {
+        "small": 3230,
+        "terrace": 160,
+        "blocks": 17825,
+        "changed": 3393,
+        "added": 813,
+        "removed": 10,
+        "split": 2607,
+        "splitReached": 828,
+        "splitPartial": 1779,
+        "splitUnplaced": 510,
+        "terraceSplit": 134,
+        "terraceSplitMedian": 0.10000000604105863,
+        "splitRequested": 3117,
+        "splitEligible": 3117,
+        "splitCandidates": 3117,
+        "splitThresholdM2": 250,
+        "splitThresholdsM2": [
+          250
+        ],
+        "smallRequested": 10712,
+        "terraceRequested": 160,
+        "area": 8525939.028923718,
+        "areaDelta": -429015.96306349523,
+        "volume": 112114598.93579301,
+        "volumeDelta": -6590793.480134562,
+        "elapsedMs": 20049.59999999404
+      },
+      "camera": {
+        "position": [
+          -9.375919341733649,
+          -50.16729702493175,
+          291.6280286683535
+        ],
+        "target": [
+          -77.39005900232463,
+          -109.96,
+          197.1639458064216
+        ]
+      }
+    }
+  ]
+}

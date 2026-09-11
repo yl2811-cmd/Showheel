@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "identicalPreviewAndExport": true,
+  "changedMeshes": 639,
+  "checkedBlocks": 17747,
+  "maxFootprintRoundingError": 0.01756481244956376,
+  "stats": {
+    "small": 3230,
+    "terrace": 160,
+    "blocks": 17838,
+    "changed": 3393,
+    "added": 813,
+    "removed": 10,
+    "split": 2613,
+    "splitReached": 662,
+    "splitPartial": 1951,
+    "splitUnplaced": 504,
+    "terraceSplit": 134,
+    "terraceSplitMedian": 0.10000000604105863,
+    "splitRequested": 2618,
+    "splitEligible": 3117,
+    "splitCandidates": 3117,
+    "splitThresholdM2": 250,
+    "splitThresholdsM2": [
+      250
+    ],
+    "smallRequested": 10712,
+    "terraceRequested": 160,
+    "area": 8558421.744994925,
+    "areaDelta": -396533.24699228816,
+    "volume": 112114598.93579295,
+    "volumeDelta": -6590793.480134621,
+    "elapsedMs": 24012.1403
+  },
+  "algorithmSha256": "e82e318e0b53639e75bc46e11b4cea072b27442204d232d9a8bf62a81795ab21"
+}

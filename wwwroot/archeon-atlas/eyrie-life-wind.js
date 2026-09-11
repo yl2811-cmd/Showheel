@@ -20,5 +20,6 @@
  `;
  function applyMotion(m,time){m.defaultAttributeValues={...(m.defaultAttributeValues||{}),p1Wind:[0,0,0,0]};m.onBeforeCompile=s=>{s.uniforms.eyrieTime=time;s.vertexShader=s.vertexShader.replace('#include <common>','#include <common>\nattribute vec4 p1Wind;uniform float eyrieTime;').replace('#include <begin_vertex>','#include <begin_vertex>\n'+deformation);};m.customProgramCacheKey=()=> 'p1-pinned-motion-2';return m;}
  function depth(T,time){return applyMotion(new T.MeshDepthMaterial({depthPacking:T.RGBADepthPacking}),time);}
- window.EYRIE_LIFE_WIND={attributes,weight,deformation,depth,applyMotion};
+ function regional(material,time){material.onBeforeCompile=s=>{s.uniforms.eyrieTime=time;s.vertexShader=s.vertexShader.replace('#include <common>','#include <common>\nattribute float materialFamily;uniform float eyrieTime;').replace('#include <begin_vertex>','#include <begin_vertex>\n#ifdef USE_INSTANCING\nif(materialFamily>4.5&&materialFamily<7.5)transformed.x+=sin(eyrieTime*1.2+instanceMatrix[3].x*.15+instanceMatrix[3].z*.21)*.055*smoothstep(.3,1.,position.y);\n#endif');};material.customProgramCacheKey=()=> 'eyrie-regional-wind-lambert-v1';}
+ window.EYRIE_LIFE_WIND={attributes,weight,deformation,depth,applyMotion,regional};
 })();

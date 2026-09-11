@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sourceFiles": 4629,
+  "pages": 9,
+  "sourceBytes": 1268396547,
+  "compressedBytes": 534791517,
+  "configuredBudgetBytes": 225000000,
+  "exceedsBudget": true,
+  "modelCompression": "lossless",
+  "gitUploadIncludes": "source assets and 1.9 MB verified change archive"
+}

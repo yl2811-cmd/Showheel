@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "build": "2026-09-11T07:52:34.477Z",
+  "unchangedParts": 1121,
+  "unchangedInstances": 25705,
+  "partCount": 1135,
+  "totalTriangles": 1956750,
+  "doorRays": 174,
+  "solarPartsRemoved": 13,
+  "solarVertices": 0,
+  "sceneEditsPreserved": 7,
+  "sceneAdditionsPreserved": 5,
+  "solarSavedEditsRetired": 16,
+  "solarSavedBlocksRetired": 1,
+  "savedSceneSourceHash": "bb12c1d275068b1fc7a741d19a6183b275376780d795ca8efffe14680eab9b76",
+  "checks": {
+    "geometry": true,
+    "doorOpenings": true,
+    "circularDeck": true,
+    "lowerStairs": true,
+    "unrelatedParts": true,
+    "unrelatedInstances": true,
+    "packedBytes": true,
+    "noSolar": true,
+    "savedSceneConflicts": 0,
+    "manuscriptUnchanged": true
+  }
+}

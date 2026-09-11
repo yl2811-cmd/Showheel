@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "localPreview": "http://127.0.0.1:8814/editor",
+  "views": [
+    "round balcony",
+    "widened front bay door",
+    "new rear door and stone steps",
+    "west door and relocated cistern"
+  ],
+  "manualSceneAssetConflicts": 0,
+  "compressedPreview": {
+    "url": "http://127.0.0.1:54265/archeon-atlas/index.html#view=atheria&focus=eyrieHome",
+    "loaded": true,
+    "actualDetailedSceneVisible": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "authored default houses are all at least 12m and publishable",
+      "passed": true
+    },
+    {
+      "name": "default browser geometry equals the exported calculation",
+      "passed": true
+    },
+    {
+      "name": "LOD 0 loads with correct real cell size",
+      "passed": true
+    },
+    {
+      "name": "LOD 2 loads with correct real cell size",
+      "passed": true
+    },
+    {
+      "name": "minimum size slider still produces no sub-12m houses",
+      "passed": true
+    },
+    {
+      "name": "undo restores exact default houses",
+      "passed": true
+    },
+    {
+      "name": "saved scheme uses the new algorithm",
+      "passed": true
+    },
+    {
+      "name": "saved scheme reloads without geometric drift",
+      "passed": true
+    },
+    {
+      "name": "legacy scheme announces and applies 12m rules",
+      "passed": true
+    },
+    {
+      "name": "live browser calculation matches Node house envelopes and parts exactly",
+      "passed": true
+    },
+    {
+      "name": "no script or resource errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "cameras": {
+    "fields": {
+      "position": [
+        620,
+        440,
+        730
+      ],
+      "target": [
+        50,
+        -80,
+        150
+      ]
+    },
+    "front": {
+      "position": [
+        0,
+        520,
+        850
+      ],
+      "target": [
+        0,
+        -100,
+        180
+      ]
+    },
+    "detail": {
+      "position": [
+        64,
+        -89.96,
+        232
+      ],
+      "target": [
+        24,
+        -117.51715351791741,
+        184
+      ]
+    }
+  },
+  "house": "t203:19,22/peel-z-1-223.118179/compact-1-0"
+}

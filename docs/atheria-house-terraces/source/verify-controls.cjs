@@ -1,0 +1,1 @@
+'use strict';const cp=require('child_process'),path=require('path');for(const file of ['verify.cjs','verify-terraces.cjs','verify-parameters.cjs']){const r=cp.spawnSync(process.execPath,[path.resolve(__dirname,'../atheria-house-terraces-20260911',file)],{stdio:'inherit',windowsHide:true});if(r.status)process.exit(r.status);}

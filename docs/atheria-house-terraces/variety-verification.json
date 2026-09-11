@@ -1,0 +1,2008 @@
+{
+  "passed": true,
+  "total": 5820,
+  "forms": {
+    "1": 154,
+    "2": 1369,
+    "3": 2811,
+    "5": 493,
+    "7": 469,
+    "9": 524
+  },
+  "materialPaletteBuckets": 650,
+  "regions": [
+    {
+      "region": "-9,13",
+      "houses": 12,
+      "distinctVariants": 8,
+      "largestRepeatedFraction": 0.3333333333333333,
+      "detailCounts": [
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "-4,4",
+      "houses": 12,
+      "distinctVariants": 8,
+      "largestRepeatedFraction": 0.3333333333333333,
+      "detailCounts": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "region": "10,3",
+      "houses": 13,
+      "distinctVariants": 11,
+      "largestRepeatedFraction": 0.23076923076923078,
+      "detailCounts": [
+        3,
+        2
+      ]
+    },
+    {
+      "region": "-7,12",
+      "houses": 14,
+      "distinctVariants": 11,
+      "largestRepeatedFraction": 0.21428571428571427,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "-6,13",
+      "houses": 14,
+      "distinctVariants": 11,
+      "largestRepeatedFraction": 0.21428571428571427,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "region": "-10,11",
+      "houses": 15,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.2,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "-10,0",
+      "houses": 15,
+      "distinctVariants": 10,
+      "largestRepeatedFraction": 0.2,
+      "detailCounts": [
+        3,
+        1,
+        5,
+        7,
+        2,
+        9
+      ]
+    },
+    {
+      "region": "-16,0",
+      "houses": 12,
+      "distinctVariants": 10,
+      "largestRepeatedFraction": 0.16666666666666666,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-7,-7",
+      "houses": 12,
+      "distinctVariants": 10,
+      "largestRepeatedFraction": 0.16666666666666666,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        1,
+        2
+      ]
+    },
+    {
+      "region": "0,7",
+      "houses": 12,
+      "distinctVariants": 10,
+      "largestRepeatedFraction": 0.16666666666666666,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        7
+      ]
+    },
+    {
+      "region": "2,7",
+      "houses": 12,
+      "distinctVariants": 10,
+      "largestRepeatedFraction": 0.16666666666666666,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        2,
+        1
+      ]
+    },
+    {
+      "region": "-9,-1",
+      "houses": 19,
+      "distinctVariants": 16,
+      "largestRepeatedFraction": 0.15789473684210525,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-8,-7",
+      "houses": 21,
+      "distinctVariants": 18,
+      "largestRepeatedFraction": 0.14285714285714285,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        2,
+        9
+      ]
+    },
+    {
+      "region": "15,-5",
+      "houses": 14,
+      "distinctVariants": 11,
+      "largestRepeatedFraction": 0.14285714285714285,
+      "detailCounts": [
+        3,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "-4,11",
+      "houses": 14,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.14285714285714285,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "15,-4",
+      "houses": 15,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.13333333333333333,
+      "detailCounts": [
+        7,
+        1,
+        9,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "region": "-1,4",
+      "houses": 35,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.11428571428571428,
+      "detailCounts": [
+        7,
+        3,
+        5,
+        2,
+        9
+      ]
+    },
+    {
+      "region": "-2,0",
+      "houses": 18,
+      "distinctVariants": 17,
+      "largestRepeatedFraction": 0.1111111111111111,
+      "detailCounts": [
+        9,
+        2,
+        5,
+        3,
+        7
+      ]
+    },
+    {
+      "region": "-21,-1",
+      "houses": 19,
+      "distinctVariants": 18,
+      "largestRepeatedFraction": 0.10526315789473684,
+      "detailCounts": [
+        5,
+        9,
+        1,
+        7,
+        2,
+        3
+      ]
+    },
+    {
+      "region": "0,-4",
+      "houses": 19,
+      "distinctVariants": 17,
+      "largestRepeatedFraction": 0.10526315789473684,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "13,3",
+      "houses": 20,
+      "distinctVariants": 18,
+      "largestRepeatedFraction": 0.1,
+      "detailCounts": [
+        3,
+        1,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "6,7",
+      "houses": 21,
+      "distinctVariants": 18,
+      "largestRepeatedFraction": 0.09523809523809523,
+      "detailCounts": [
+        3,
+        7,
+        9,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "1,-4",
+      "houses": 32,
+      "distinctVariants": 26,
+      "largestRepeatedFraction": 0.09375,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        2,
+        7
+      ]
+    },
+    {
+      "region": "-9,-6",
+      "houses": 22,
+      "distinctVariants": 21,
+      "largestRepeatedFraction": 0.09090909090909091,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "region": "-6,-5",
+      "houses": 22,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.09090909090909091,
+      "detailCounts": [
+        3,
+        7,
+        9,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "4,6",
+      "houses": 34,
+      "distinctVariants": 26,
+      "largestRepeatedFraction": 0.08823529411764706,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-7,2",
+      "houses": 23,
+      "distinctVariants": 21,
+      "largestRepeatedFraction": 0.08695652173913043,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-15,7",
+      "houses": 23,
+      "distinctVariants": 21,
+      "largestRepeatedFraction": 0.08695652173913043,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "1,1",
+      "houses": 24,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "3,0",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        2,
+        3
+      ]
+    },
+    {
+      "region": "12,1",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-12,-4",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "7,3",
+      "houses": 36,
+      "distinctVariants": 29,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        7,
+        9,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "-7,-1",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "region": "13,-3",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        5,
+        3,
+        7,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "-6,3",
+      "houses": 12,
+      "distinctVariants": 12,
+      "largestRepeatedFraction": 0.08333333333333333,
+      "detailCounts": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "region": "-3,-1",
+      "houses": 37,
+      "distinctVariants": 34,
+      "largestRepeatedFraction": 0.08108108108108109,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        7,
+        2,
+        1
+      ]
+    },
+    {
+      "region": "-3,-4",
+      "houses": 25,
+      "distinctVariants": 24,
+      "largestRepeatedFraction": 0.08,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "-15,-5",
+      "houses": 13,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        7,
+        5,
+        3,
+        9
+      ]
+    },
+    {
+      "region": "-15,0",
+      "houses": 13,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-20,0",
+      "houses": 13,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        7
+      ]
+    },
+    {
+      "region": "2,0",
+      "houses": 26,
+      "distinctVariants": 25,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-14,-4",
+      "houses": 13,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        2,
+        5,
+        3,
+        9
+      ]
+    },
+    {
+      "region": "4,-3",
+      "houses": 26,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        1,
+        9
+      ]
+    },
+    {
+      "region": "-3,-5",
+      "houses": 13,
+      "distinctVariants": 13,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        2,
+        5,
+        9,
+        3,
+        7
+      ]
+    },
+    {
+      "region": "2,5",
+      "houses": 26,
+      "distinctVariants": 25,
+      "largestRepeatedFraction": 0.07692307692307693,
+      "detailCounts": [
+        2,
+        9,
+        5,
+        3,
+        7
+      ]
+    },
+    {
+      "region": "-7,3",
+      "houses": 54,
+      "distinctVariants": 49,
+      "largestRepeatedFraction": 0.07407407407407407,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        7,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "0,20",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "-12,15",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        7,
+        3,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "13,0",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        3,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-16,-3",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        3,
+        7,
+        2
+      ]
+    },
+    {
+      "region": "-8,2",
+      "houses": 28,
+      "distinctVariants": 27,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        5,
+        3,
+        2,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-6,-2",
+      "houses": 28,
+      "distinctVariants": 27,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        7,
+        2,
+        3,
+        9,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "-11,-1",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        7,
+        9,
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "13,-2",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "9,0",
+      "houses": 14,
+      "distinctVariants": 14,
+      "largestRepeatedFraction": 0.07142857142857142,
+      "detailCounts": [
+        5,
+        9,
+        1,
+        3,
+        7,
+        2
+      ]
+    },
+    {
+      "region": "-10,-1",
+      "houses": 29,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.06896551724137931,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-9,-2",
+      "houses": 29,
+      "distinctVariants": 27,
+      "largestRepeatedFraction": 0.06896551724137931,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        9,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "13,1",
+      "houses": 15,
+      "distinctVariants": 15,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        3,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "6,-3",
+      "houses": 15,
+      "distinctVariants": 15,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "-8,13",
+      "houses": 15,
+      "distinctVariants": 15,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        9,
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "-2,-5",
+      "houses": 30,
+      "distinctVariants": 27,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "region": "-7,13",
+      "houses": 15,
+      "distinctVariants": 15,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        3,
+        9,
+        7,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "5,6",
+      "houses": 30,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.06666666666666667,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-4,-1",
+      "houses": 31,
+      "distinctVariants": 29,
+      "largestRepeatedFraction": 0.06451612903225806,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-4,-5",
+      "houses": 31,
+      "distinctVariants": 30,
+      "largestRepeatedFraction": 0.06451612903225806,
+      "detailCounts": [
+        3,
+        7,
+        1,
+        2,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-1,-1",
+      "houses": 16,
+      "distinctVariants": 16,
+      "largestRepeatedFraction": 0.0625,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "10,2",
+      "houses": 16,
+      "distinctVariants": 16,
+      "largestRepeatedFraction": 0.0625,
+      "detailCounts": [
+        5,
+        3,
+        2,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "12,3",
+      "houses": 16,
+      "distinctVariants": 16,
+      "largestRepeatedFraction": 0.0625,
+      "detailCounts": [
+        9,
+        5,
+        7,
+        3
+      ]
+    },
+    {
+      "region": "4,-2",
+      "houses": 49,
+      "distinctVariants": 44,
+      "largestRepeatedFraction": 0.061224489795918366,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        9,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "5,-2",
+      "houses": 33,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.06060606060606061,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        9,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "6,6",
+      "houses": 34,
+      "distinctVariants": 33,
+      "largestRepeatedFraction": 0.058823529411764705,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        5,
+        7
+      ]
+    },
+    {
+      "region": "-9,10",
+      "houses": 17,
+      "distinctVariants": 17,
+      "largestRepeatedFraction": 0.058823529411764705,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        5,
+        7
+      ]
+    },
+    {
+      "region": "1,5",
+      "houses": 34,
+      "distinctVariants": 33,
+      "largestRepeatedFraction": 0.058823529411764705,
+      "detailCounts": [
+        3,
+        1,
+        9,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "7,12",
+      "houses": 17,
+      "distinctVariants": 17,
+      "largestRepeatedFraction": 0.058823529411764705,
+      "detailCounts": [
+        5,
+        3,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-8,-1",
+      "houses": 17,
+      "distinctVariants": 17,
+      "largestRepeatedFraction": 0.058823529411764705,
+      "detailCounts": [
+        5,
+        9,
+        3,
+        2,
+        7
+      ]
+    },
+    {
+      "region": "6,3",
+      "houses": 52,
+      "distinctVariants": 48,
+      "largestRepeatedFraction": 0.057692307692307696,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "0,-3",
+      "houses": 35,
+      "distinctVariants": 34,
+      "largestRepeatedFraction": 0.05714285714285714,
+      "detailCounts": [
+        9,
+        2,
+        3,
+        5,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "-5,-2",
+      "houses": 35,
+      "distinctVariants": 33,
+      "largestRepeatedFraction": 0.05714285714285714,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "0,-1",
+      "houses": 36,
+      "distinctVariants": 35,
+      "largestRepeatedFraction": 0.05555555555555555,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        9,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "7,1",
+      "houses": 36,
+      "distinctVariants": 35,
+      "largestRepeatedFraction": 0.05555555555555555,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "5,1",
+      "houses": 36,
+      "distinctVariants": 35,
+      "largestRepeatedFraction": 0.05555555555555555,
+      "detailCounts": [
+        2,
+        3
+      ]
+    },
+    {
+      "region": "1,2",
+      "houses": 55,
+      "distinctVariants": 51,
+      "largestRepeatedFraction": 0.05454545454545454,
+      "detailCounts": [
+        7,
+        2,
+        3,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "2,-1",
+      "houses": 19,
+      "distinctVariants": 19,
+      "largestRepeatedFraction": 0.05263157894736842,
+      "detailCounts": [
+        2,
+        7,
+        5,
+        3,
+        9
+      ]
+    },
+    {
+      "region": "5,7",
+      "houses": 19,
+      "distinctVariants": 19,
+      "largestRepeatedFraction": 0.05263157894736842,
+      "detailCounts": [
+        7,
+        9,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "region": "-7,-2",
+      "houses": 57,
+      "distinctVariants": 54,
+      "largestRepeatedFraction": 0.05263157894736842,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        9,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "4,-1",
+      "houses": 20,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        3,
+        5,
+        9,
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "-1,-3",
+      "houses": 20,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "region": "8,2",
+      "houses": 40,
+      "distinctVariants": 37,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        3,
+        9,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-11,-2",
+      "houses": 20,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "3,-1",
+      "houses": 20,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        2,
+        3,
+        7,
+        5,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "5,-3",
+      "houses": 20,
+      "distinctVariants": 20,
+      "largestRepeatedFraction": 0.05,
+      "detailCounts": [
+        9,
+        2,
+        3,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-5,-1",
+      "houses": 41,
+      "distinctVariants": 39,
+      "largestRepeatedFraction": 0.04878048780487805,
+      "detailCounts": [
+        9,
+        3,
+        2,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "2,-2",
+      "houses": 42,
+      "distinctVariants": 41,
+      "largestRepeatedFraction": 0.047619047619047616,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "region": "-3,6",
+      "houses": 42,
+      "distinctVariants": 41,
+      "largestRepeatedFraction": 0.047619047619047616,
+      "detailCounts": [
+        2,
+        3,
+        7,
+        9,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "-3,-3",
+      "houses": 43,
+      "distinctVariants": 42,
+      "largestRepeatedFraction": 0.046511627906976744,
+      "detailCounts": [
+        7,
+        3,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "0,-2",
+      "houses": 43,
+      "distinctVariants": 41,
+      "largestRepeatedFraction": 0.046511627906976744,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        1,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-2,-1",
+      "houses": 43,
+      "distinctVariants": 42,
+      "largestRepeatedFraction": 0.046511627906976744,
+      "detailCounts": [
+        3,
+        1,
+        2,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-15,-4",
+      "houses": 22,
+      "distinctVariants": 22,
+      "largestRepeatedFraction": 0.045454545454545456,
+      "detailCounts": [
+        5,
+        9,
+        7,
+        2,
+        3
+      ]
+    },
+    {
+      "region": "-8,-6",
+      "houses": 22,
+      "distinctVariants": 22,
+      "largestRepeatedFraction": 0.045454545454545456,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        7,
+        2
+      ]
+    },
+    {
+      "region": "-1,1",
+      "houses": 44,
+      "distinctVariants": 43,
+      "largestRepeatedFraction": 0.045454545454545456,
+      "detailCounts": [
+        2,
+        3,
+        1,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "9,2",
+      "houses": 23,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.043478260869565216,
+      "detailCounts": [
+        2,
+        3,
+        1,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "5,0",
+      "houses": 23,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.043478260869565216,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "8,0",
+      "houses": 23,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.043478260869565216,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "1,0",
+      "houses": 23,
+      "distinctVariants": 23,
+      "largestRepeatedFraction": 0.043478260869565216,
+      "detailCounts": [
+        9,
+        2,
+        3,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "1,-3",
+      "houses": 47,
+      "distinctVariants": 45,
+      "largestRepeatedFraction": 0.0425531914893617,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        9,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "-4,6",
+      "houses": 49,
+      "distinctVariants": 45,
+      "largestRepeatedFraction": 0.04081632653061224,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-2,-4",
+      "houses": 49,
+      "distinctVariants": 48,
+      "largestRepeatedFraction": 0.04081632653061224,
+      "detailCounts": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "region": "0,5",
+      "houses": 49,
+      "distinctVariants": 48,
+      "largestRepeatedFraction": 0.04081632653061224,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-9,-3",
+      "houses": 25,
+      "distinctVariants": 25,
+      "largestRepeatedFraction": 0.04,
+      "detailCounts": [
+        3,
+        2,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-5,-5",
+      "houses": 25,
+      "distinctVariants": 25,
+      "largestRepeatedFraction": 0.04,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-1,-4",
+      "houses": 51,
+      "distinctVariants": 49,
+      "largestRepeatedFraction": 0.0392156862745098,
+      "detailCounts": [
+        3,
+        1,
+        2,
+        5,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-8,3",
+      "houses": 54,
+      "distinctVariants": 48,
+      "largestRepeatedFraction": 0.037037037037037035,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "0,0",
+      "houses": 55,
+      "distinctVariants": 54,
+      "largestRepeatedFraction": 0.03636363636363636,
+      "detailCounts": [
+        2,
+        3,
+        7,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "4,2",
+      "houses": 56,
+      "distinctVariants": 55,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        3,
+        1,
+        2,
+        5,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-4,-3",
+      "houses": 28,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        7,
+        2,
+        3,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "-7,-4",
+      "houses": 28,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        9,
+        3,
+        2,
+        5,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "-5,-4",
+      "houses": 28,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        3,
+        9,
+        2
+      ]
+    },
+    {
+      "region": "-6,-4",
+      "houses": 28,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "region": "1,-2",
+      "houses": 28,
+      "distinctVariants": 28,
+      "largestRepeatedFraction": 0.03571428571428571,
+      "detailCounts": [
+        7,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "region": "9,1",
+      "houses": 29,
+      "distinctVariants": 29,
+      "largestRepeatedFraction": 0.034482758620689655,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        1,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "5,3",
+      "houses": 29,
+      "distinctVariants": 29,
+      "largestRepeatedFraction": 0.034482758620689655,
+      "detailCounts": [
+        7,
+        3,
+        2,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "3,2",
+      "houses": 59,
+      "distinctVariants": 55,
+      "largestRepeatedFraction": 0.03389830508474576,
+      "detailCounts": [
+        5,
+        2,
+        3,
+        7,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "-3,-2",
+      "houses": 60,
+      "distinctVariants": 58,
+      "largestRepeatedFraction": 0.03333333333333333,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        1,
+        9
+      ]
+    },
+    {
+      "region": "-4,-2",
+      "houses": 61,
+      "distinctVariants": 59,
+      "largestRepeatedFraction": 0.03278688524590164,
+      "detailCounts": [
+        3,
+        2,
+        1,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-1,-2",
+      "houses": 61,
+      "distinctVariants": 60,
+      "largestRepeatedFraction": 0.03278688524590164,
+      "detailCounts": [
+        5,
+        2,
+        3,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "-5,-3",
+      "houses": 31,
+      "distinctVariants": 31,
+      "largestRepeatedFraction": 0.03225806451612903,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "8,1",
+      "houses": 32,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.03125,
+      "detailCounts": [
+        3,
+        9,
+        5,
+        2
+      ]
+    },
+    {
+      "region": "2,1",
+      "houses": 32,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.03125,
+      "detailCounts": [
+        1,
+        2,
+        5,
+        9,
+        3
+      ]
+    },
+    {
+      "region": "1,-1",
+      "houses": 32,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.03125,
+      "detailCounts": [
+        2,
+        7,
+        9,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "region": "-8,-2",
+      "houses": 32,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.03125,
+      "detailCounts": [
+        9,
+        1,
+        3,
+        2,
+        7
+      ]
+    },
+    {
+      "region": "4,3",
+      "houses": 32,
+      "distinctVariants": 32,
+      "largestRepeatedFraction": 0.03125,
+      "detailCounts": [
+        2,
+        3,
+        7,
+        5,
+        9,
+        1
+      ]
+    },
+    {
+      "region": "4,1",
+      "houses": 33,
+      "distinctVariants": 33,
+      "largestRepeatedFraction": 0.030303030303030304,
+      "detailCounts": [
+        7,
+        3,
+        2,
+        1,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "5,2",
+      "houses": 34,
+      "distinctVariants": 34,
+      "largestRepeatedFraction": 0.029411764705882353,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-10,-3",
+      "houses": 36,
+      "distinctVariants": 36,
+      "largestRepeatedFraction": 0.027777777777777776,
+      "detailCounts": [
+        9,
+        5,
+        3,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "region": "2,2",
+      "houses": 73,
+      "distinctVariants": 72,
+      "largestRepeatedFraction": 0.0273972602739726,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        5,
+        1,
+        9
+      ]
+    },
+    {
+      "region": "-7,-3",
+      "houses": 37,
+      "distinctVariants": 37,
+      "largestRepeatedFraction": 0.02702702702702703,
+      "detailCounts": [
+        2,
+        5,
+        9,
+        3,
+        7
+      ]
+    },
+    {
+      "region": "4,0",
+      "houses": 37,
+      "distinctVariants": 37,
+      "largestRepeatedFraction": 0.02702702702702703,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        1,
+        9,
+        5
+      ]
+    },
+    {
+      "region": "2,-3",
+      "houses": 38,
+      "distinctVariants": 38,
+      "largestRepeatedFraction": 0.02631578947368421,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        1,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "-4,-4",
+      "houses": 38,
+      "distinctVariants": 38,
+      "largestRepeatedFraction": 0.02631578947368421,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        1,
+        7
+      ]
+    },
+    {
+      "region": "-1,0",
+      "houses": 77,
+      "distinctVariants": 75,
+      "largestRepeatedFraction": 0.025974025974025976,
+      "detailCounts": [
+        3,
+        1,
+        2,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "region": "7,2",
+      "houses": 39,
+      "distinctVariants": 39,
+      "largestRepeatedFraction": 0.02564102564102564,
+      "detailCounts": [
+        3,
+        2,
+        9,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "-2,-3",
+      "houses": 42,
+      "distinctVariants": 42,
+      "largestRepeatedFraction": 0.023809523809523808,
+      "detailCounts": [
+        2,
+        7,
+        5,
+        3,
+        1,
+        9
+      ]
+    },
+    {
+      "region": "6,1",
+      "houses": 43,
+      "distinctVariants": 43,
+      "largestRepeatedFraction": 0.023255813953488372,
+      "detailCounts": [
+        3,
+        7,
+        2,
+        9,
+        1,
+        5
+      ]
+    },
+    {
+      "region": "-10,-2",
+      "houses": 44,
+      "distinctVariants": 44,
+      "largestRepeatedFraction": 0.022727272727272728,
+      "detailCounts": [
+        2,
+        3,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "region": "3,1",
+      "houses": 44,
+      "distinctVariants": 44,
+      "largestRepeatedFraction": 0.022727272727272728,
+      "detailCounts": [
+        9,
+        3,
+        2,
+        1,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "1,4",
+      "houses": 44,
+      "distinctVariants": 44,
+      "largestRepeatedFraction": 0.022727272727272728,
+      "detailCounts": [
+        2,
+        9,
+        7,
+        5,
+        3
+      ]
+    },
+    {
+      "region": "-8,-3",
+      "houses": 45,
+      "distinctVariants": 45,
+      "largestRepeatedFraction": 0.022222222222222223,
+      "detailCounts": [
+        2,
+        3,
+        9,
+        7,
+        5,
+        1
+      ]
+    },
+    {
+      "region": "0,1",
+      "houses": 46,
+      "distinctVariants": 46,
+      "largestRepeatedFraction": 0.021739130434782608,
+      "detailCounts": [
+        2,
+        3,
+        5,
+        1,
+        9,
+        7
+      ]
+    },
+    {
+      "region": "-2,-2",
+      "houses": 46,
+      "distinctVariants": 46,
+      "largestRepeatedFraction": 0.021739130434782608,
+      "detailCounts": [
+        3,
+        2,
+        7,
+        1,
+        9
+      ]
+    },
+    {
+      "region": "6,2",
+      "houses": 46,
+      "distinctVariants": 46,
+      "largestRepeatedFraction": 0.021739130434782608,
+      "detailCounts": [
+        3,
+        2,
+        1,
+        7,
+        5
+      ]
+    },
+    {
+      "region": "3,-2",
+      "houses": 51,
+      "distinctVariants": 51,
+      "largestRepeatedFraction": 0.0196078431372549,
+      "detailCounts": [
+        3,
+        5,
+        2,
+        7,
+        1
+      ]
+    },
+    {
+      "region": "0,4",
+      "houses": 54,
+      "distinctVariants": 54,
+      "largestRepeatedFraction": 0.018518518518518517,
+      "detailCounts": [
+        3,
+        5,
+        7,
+        2,
+        9
+      ]
+    },
+    {
+      "region": "-6,-3",
+      "houses": 58,
+      "distinctVariants": 58,
+      "largestRepeatedFraction": 0.017241379310344827,
+      "detailCounts": [
+        2,
+        7,
+        3,
+        9,
+        5,
+        1
+      ]
+    }
+  ],
+  "metric": "500m regions with >=12 houses; actual visible normalized part layout, metre-rounded width/depth/height and source colour; visual review is separate"
+}

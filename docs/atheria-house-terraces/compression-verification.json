@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files": 4629,
+  "pages": 9,
+  "compressedBytes": 538163919,
+  "budgetBytes": 225000000,
+  "quotaConfirmed": false,
+  "overBudgetBytes": 313163919,
+  "modelCompression": "lossless gzip; all decoded bytes verified by verify-web",
+  "readerBytesUnchanged": true,
+  "websitePublished": false
+}

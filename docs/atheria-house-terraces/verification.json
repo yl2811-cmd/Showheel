@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "revision": "detached-terraces-v7",
+  "checks": [
+    {
+      "name": "minimum curve: exact anchors, continuity and monotonicity",
+      "passed": true
+    },
+    {
+      "name": "12m applies to a whole house, not each voxel",
+      "passed": true
+    },
+    {
+      "name": "existing houses get priority and cannot silently stay below 12m",
+      "passed": true
+    },
+    {
+      "name": "new houses with sites smaller than 12m are not generated",
+      "passed": true
+    },
+    {
+      "name": "compact fragments respect curve, source uplift and narrow-site bounds",
+      "passed": true
+    },
+    {
+      "name": "fine/coarse transitions use actual cell metres including 25m boundary",
+      "passed": true
+    },
+    {
+      "name": "single-voxel exceptions stay a small minority of minimum houses",
+      "passed": true,
+      "details": {
+        "single": 102,
+        "outOf": 1000
+      }
+    },
+    {
+      "name": "same input is deterministic, and old cache revisions are rejected",
+      "passed": true
+    },
+    {
+      "name": "default candidate uses current code and has no unresolved existing houses",
+      "passed": true,
+      "details": {
+        "houses": 5820,
+        "minimum": 11.999999999999943
+      }
+    },
+    {
+      "name": "all size-slider positions enforce minimum or explicitly block publication",
+      "passed": true
+    },
+    {
+      "name": "minimum volume uplift is explicit and split bookkeeping balances",
+      "passed": true
+    },
+    {
+      "name": "protected buildings and untouched source assemblies retain their protection",
+      "passed": true
+    },
+    {
+      "name": "new and expanded house envelopes introduce no overlaps",
+      "passed": true,
+      "details": {
+        "checked": 5820
+      }
+    },
+    {
+      "name": "all reserved parcels stay under the additional 15 percent limit",
+      "passed": true
+    },
+    {
+      "name": "all four LOD meshes use correct house parts and fixed outer dimensions",
+      "passed": true,
+      "details": {
+        "meshes": 640,
+        "fine": 6019,
+        "coarse": 20562
+      }
+    },
+    {
+      "name": "source landscape, saved scene and manuscript remain unchanged",
+      "passed": true
+    }
+  ],
+  "stats": {
+    "detachedHouses": 5820,
+    "tallHouses": 1486,
+    "tallShare": 0.25532646048109964,
+    "terracedHouses": 1486,
+    "terraceExpansionLimited": 0,
+    "heightBaselineRemovedVolume": 5094158.001245701,
+    "terraceAddedVolume": 822696.9637134833,
+    "minimumHouseSideM": 11.999999999999943,
+    "minimumAdjusted": 2718,
+    "minimumAddedVolume": 2291637.349804617,
+    "blockedExisting": 0,
+    "small": 3150,
+    "terrace": 160,
+    "blocks": 16415,
+    "changed": 3313,
+    "added": 733,
+    "removed": 10,
+    "split": 2345,
+    "splitReached": 605,
+    "splitPartial": 1740,
+    "splitUnplaced": 780,
+    "terraceSplit": 116,
+    "terraceSplitMedian": 0.1000000008927879,
+    "splitRequested": 2625,
+    "splitEligible": 3125,
+    "splitCandidates": 3125,
+    "splitThresholdM2": 250,
+    "splitThresholdsM2": [
+      250
+    ],
+    "smallRequested": 10712,
+    "terraceRequested": 160,
+    "area": 8797420.262724651,
+    "areaDelta": -157534.72926256247,
+    "volume": 109874969.99385808,
+    "volumeDelta": -8830422.42206949,
+    "elapsedMs": 23181.9383
+  }
+}

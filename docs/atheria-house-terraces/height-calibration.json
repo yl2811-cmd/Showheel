@@ -1,0 +1,9 @@
+{
+  "coefficient": 1.22,
+  "calibrationSource": "detached-min12-v6",
+  "originalCount": 5881,
+  "projectedShare": 0.33667743581023635,
+  "finalCount": 5820,
+  "finalShare": 0.25532646048109964,
+  "scope": "authored default only; fixed coefficient on later slider changes"
+}

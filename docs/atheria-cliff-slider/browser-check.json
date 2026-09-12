@@ -1,0 +1,685 @@
+{
+  "passed": true,
+  "zeroDiff": {
+    "pixels": 0,
+    "meanDelta": 0
+  },
+  "changed": {
+    "pixels": 93800,
+    "meanDelta": 5.416546223958333
+  },
+  "copied": "Atheria 崖壁提白：68/100\r\n色调：略暖的浅岩白\r\n基准：atheria-cliff-white-1\r\n曲线：warm-rock-1\r\n日光：late",
+  "samples": {
+    "50": {
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 50,
+        "defaultValue": 0,
+        "baselineRevision": "atheria-cliff-white-1",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": false,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": true,
+          "elapsed": 0,
+          "insectInstances": 60,
+          "harvestProgress": 0,
+          "cutInstances": 44,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -42,
+                7.25,
+                15.6
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -69,
+                -118.25,
+                44
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                72,
+                1.875,
+                15
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                35,
+                0.9,
+                -81
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -8,
+                -121.05,
+                45
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.35,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.4,
+                -45.5
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.6,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.625,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                13.868646838077897,
+                18.430413654539713,
+                -18.937561549987542
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                13.302268591590533,
+                23.536341307466408,
+                -25.452402395323404
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "overview",
+      "paused": true,
+      "light": "late",
+      "quality": "high",
+      "camera": {
+        "position": [
+          3500,
+          1400.000000000001,
+          4600
+        ],
+        "target": [
+          0,
+          79.99999999999999,
+          -1000
+        ]
+      },
+      "frameSamples": 23,
+      "frameMs": 63.85652173861213,
+      "frameP95Ms": 98.09999999403954,
+      "triangles": 2293358,
+      "drawCalls": 219,
+      "pending": 0,
+      "loadedChunks": 237,
+      "visibleChunks": 237,
+      "geometryBytes": 130230654,
+      "geometries": 218,
+      "textures": 0,
+      "time": 0,
+      "errors": [],
+      "lodCounts": [
+        237,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 68,
+        "updates": 23,
+        "positionSample": [
+          -2288.37548828125,
+          -69.44733428955078,
+          1421.73583984375
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    },
+    "100": {
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 100,
+        "defaultValue": 0,
+        "baselineRevision": "atheria-cliff-white-1",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": false,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": true,
+          "elapsed": 0,
+          "insectInstances": 60,
+          "harvestProgress": 0,
+          "cutInstances": 44,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -42,
+                7.25,
+                15.6
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -69,
+                -118.25,
+                44
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                72,
+                1.875,
+                15
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                35,
+                0.9,
+                -81
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -8,
+                -121.05,
+                45
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.35,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.4,
+                -45.5
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.6,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.625,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                13.868646838077897,
+                18.430413654539713,
+                -18.937561549987542
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                13.302268591590533,
+                23.536341307466408,
+                -25.452402395323404
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "overview",
+      "paused": true,
+      "light": "late",
+      "quality": "high",
+      "camera": {
+        "position": [
+          3500,
+          1400.000000000001,
+          4600
+        ],
+        "target": [
+          0,
+          79.99999999999999,
+          -1000
+        ]
+      },
+      "frameSamples": 27,
+      "frameMs": 65.08888888910964,
+      "frameP95Ms": 106.10000002384186,
+      "triangles": 2293358,
+      "drawCalls": 219,
+      "pending": 0,
+      "loadedChunks": 237,
+      "visibleChunks": 237,
+      "geometryBytes": 130230654,
+      "geometries": 218,
+      "textures": 0,
+      "time": 0,
+      "errors": [],
+      "lodCounts": [
+        237,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 68,
+        "updates": 25,
+        "positionSample": [
+          -2288.37548828125,
+          -69.44733428955078,
+          1421.73583984375
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    },
+    "zero": {
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 0,
+        "defaultValue": 0,
+        "baselineRevision": "atheria-cliff-white-1",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": false,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": true,
+          "elapsed": 0,
+          "insectInstances": 60,
+          "harvestProgress": 0,
+          "cutInstances": 44,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -42,
+                7.25,
+                15.6
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -69,
+                -118.25,
+                44
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                72,
+                1.875,
+                15
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                35,
+                0.9,
+                -81
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -8,
+                -121.05,
+                45
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.35,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.4,
+                -45.5
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.6,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.625,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                13.868646838077897,
+                18.430413654539713,
+                -18.937561549987542
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                13.302268591590533,
+                23.536341307466408,
+                -25.452402395323404
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "overview",
+      "paused": true,
+      "light": "late",
+      "quality": "high",
+      "camera": {
+        "position": [
+          3500,
+          1400.000000000001,
+          4600
+        ],
+        "target": [
+          0,
+          79.99999999999999,
+          -1000
+        ]
+      },
+      "frameSamples": 18,
+      "frameMs": 62.9611111101177,
+      "frameP95Ms": 106.7999999821186,
+      "triangles": 2293358,
+      "drawCalls": 219,
+      "pending": 0,
+      "loadedChunks": 237,
+      "visibleChunks": 237,
+      "geometryBytes": 130230654,
+      "geometries": 218,
+      "textures": 0,
+      "time": 0,
+      "errors": [],
+      "lodCounts": [
+        237,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 68,
+        "updates": 21,
+        "positionSample": [
+          -2288.37548828125,
+          -69.44733428955078,
+          1421.73583984375
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    }
+  },
+  "errors": [],
+  "liveState": {
+    "buildId": "2026-09-11T01:39:06.672Z",
+    "cliffWhiteness": {
+      "value": 50,
+      "defaultValue": 0,
+      "baselineRevision": "atheria-cliff-white-1",
+      "curveRevision": "warm-rock-1",
+      "tone": "warm-rock-white"
+    },
+    "eyrie": {
+      "status": "ready",
+      "visible": false,
+      "error": null,
+      "sourceBuild": "2026-09-11T07:52:34.477Z",
+      "motion": {
+        "paused": false,
+        "elapsed": 6.261400000000001,
+        "insectInstances": 60,
+        "harvestProgress": 0.11384363636363638,
+        "cutInstances": 58,
+        "vehicles": [
+          {
+            "id": "gondola-cabin",
+            "position": [
+              -42.106673085027666,
+              6.836702715573837,
+              15.717663645303244
+            ]
+          },
+          {
+            "id": "lower-gondola-cabin",
+            "position": [
+              -70.56346339652295,
+              -118.35420853055638,
+              43.739422767246175
+            ]
+          },
+          {
+            "id": "east-gondola-cabin",
+            "position": [
+              71.98561145978935,
+              1.423858142735305,
+              15.118705456737786
+            ]
+          },
+          {
+            "id": "canal-cart",
+            "position": [
+              34.99999350461175,
+              0.9,
+              -80.9884589129651
+            ]
+          },
+          {
+            "id": "lower-rail-cart",
+            "position": [
+              -7.999069486455329,
+              -121.05,
+              45.010339832256356
+            ]
+          },
+          {
+            "id": "small-airship",
+            "position": [
+              -66,
+              2.2539264569152224,
+              -2
+            ]
+          },
+          {
+            "id": "plain-cutter",
+            "position": [
+              46.5,
+              0.4,
+              -44.53232909090909
+            ]
+          },
+          {
+            "id": "ivory-courier",
+            "position": [
+              63,
+              0.5039264569152223,
+              2
+            ]
+          },
+          {
+            "id": "pavilion-airship",
+            "position": [
+              -76,
+              6.528926456915222,
+              -32
+            ]
+          },
+          {
+            "id": "sky-skiff-1",
+            "position": [
+              7.268906052210951,
+              18.597861504468433,
+              -14.427752512534664
+            ]
+          },
+          {
+            "id": "sky-skiff-2",
+            "position": [
+              11.097845241631049,
+              23.89219393447058,
+              -32.195877039216725
+            ]
+          }
+        ]
+      },
+      "windParts": 97,
+      "spray": true
+    },
+    "mode": "shelves",
+    "paused": false,
+    "light": "late",
+    "quality": "auto",
+    "camera": {
+      "position": [
+        4800,
+        2100,
+        4400
+      ],
+      "target": [
+        -300,
+        130,
+        -899.9999999999999
+      ]
+    },
+    "frameSamples": 89,
+    "frameMs": 23.077528089887636,
+    "frameP95Ms": 33.5,
+    "triangles": 2586533,
+    "drawCalls": 400,
+    "pending": 8,
+    "loadedChunks": 243,
+    "visibleChunks": 235,
+    "geometryBytes": 133084308,
+    "geometries": 433,
+    "textures": 0,
+    "time": 7.046000000000009,
+    "errors": [],
+    "lodCounts": [
+      219,
+      16,
+      0,
+      0
+    ],
+    "traffic": {
+      "vehicles": 77,
+      "visible": 54,
+      "updates": 180,
+      "positionSample": [
+        -2266.759765625,
+        -69.43602752685547,
+        1418.595458984375
+      ],
+      "pads": 257
+    },
+    "scopeRadiusM": 20000
+  },
+  "unaffectedAreas": {
+    "sky": {
+      "pixels": 0,
+      "meanDelta": 0,
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 180
+      }
+    },
+    "foregroundFields": {
+      "pixels": 0,
+      "meanDelta": 0,
+      "rect": {
+        "left": 0,
+        "top": 680,
+        "width": 1000,
+        "height": 120
+      }
+    }
+  }
+}

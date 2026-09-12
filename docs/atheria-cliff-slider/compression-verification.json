@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "files": 4632,
+  "packed": 3081,
+  "bytes": 541251291,
+  "budgetBytes": 921600000,
+  "overBudgetBytes": 0,
+  "modelsLossless": true,
+  "chineseSynced": true,
+  "englishUnchanged": true
+}

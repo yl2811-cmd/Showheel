@@ -35,7 +35,7 @@ if (!unifiedEyrie) for (const file of ['eyrie-controller.js',
   'eyrie-walking.js', 'eyrie-assets/manifest.js', 'eyrie-assets/navigation.js',
   'eyrie-assets/DESIGN.md', 'eyrie-assets/preview.png']) files.add(file);
 if (!unifiedEyrie) files.add('eyrie-life-wind.js');
-for (const file of ['atheria-controller.js', 'atheria-region.js',
+for (const file of ['atheria-controller.js', 'atheria-cliff-look.js', 'atheria-region.js',
   'atheria-region.css', 'atheria-assets/manifest.js']) files.add(file);
 const regionContext = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(source, 'atheria-assets/manifest.js'), 'utf8'), regionContext);

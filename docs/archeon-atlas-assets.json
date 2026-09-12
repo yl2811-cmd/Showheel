@@ -26,6 +26,18 @@
       "sha256": "9b1b6c0eab22defdfbad876e87c9b52dc0a42906369adcb44aa5b44c0f36a780"
     },
     {
+      "path": "atheria-assets/cliff-look.json",
+      "bytes": 80701,
+      "sourceSha256": "1930d0c3a2a95a0acfa7186a0f1271dc46ee88d373d2373f9e41b71b3e65ae51",
+      "sha256": "1930d0c3a2a95a0acfa7186a0f1271dc46ee88d373d2373f9e41b71b3e65ae51"
+    },
+    {
+      "path": "atheria-assets/cliff-masks.bin",
+      "bytes": 200504,
+      "sourceSha256": "fd22bc68f11ecddf42252e7bead0a8ca70115f416596cd5b788fd41720f77ae6",
+      "sha256": "fd22bc68f11ecddf42252e7bead0a8ca70115f416596cd5b788fd41720f77ae6"
+    },
+    {
       "path": "atheria-assets/east-community.bin",
       "bytes": 8176,
       "sourceSha256": "4d3c108ada001aee9e0f08089ffcbd49589a6ac231d935c1a225d326310dbc9c",
@@ -153,9 +165,9 @@
     },
     {
       "path": "atheria-assets/manifest.js",
-      "bytes": 1466357,
-      "sourceSha256": "74c1d043280842574f16780c8cd80c7274e1847e49751bce2d0f708f15af0963",
-      "sha256": "74c1d043280842574f16780c8cd80c7274e1847e49751bce2d0f708f15af0963"
+      "bytes": 1466612,
+      "sourceSha256": "7bfdca9a009ef9e0da5c1d3549c9f4fd7d238951250844c06471cb889db988c6",
+      "sha256": "7bfdca9a009ef9e0da5c1d3549c9f4fd7d238951250844c06471cb889db988c6"
     },
     {
       "path": "atheria-assets/roof-trees.json",
@@ -8348,22 +8360,28 @@
       "sha256": "1ac3b0b99bc62dd47b81efeb3ca34a9aac96a0df70564744cfd83e83e9ca11fb"
     },
     {
+      "path": "atheria-cliff-look.js",
+      "bytes": 3891,
+      "sourceSha256": "008058129400668b611ac56a53808f599be2fead7c4474b0190710c9aef22dd9",
+      "sha256": "008058129400668b611ac56a53808f599be2fead7c4474b0190710c9aef22dd9"
+    },
+    {
       "path": "atheria-controller.js",
-      "bytes": 8253,
-      "sourceSha256": "5ef3ee68a5dca95287d8504776642a5659cadb82a862c596111c73662e4a3acd",
-      "sha256": "5ef3ee68a5dca95287d8504776642a5659cadb82a862c596111c73662e4a3acd"
+      "bytes": 10531,
+      "sourceSha256": "9508187fef7b9d6f76207da80623bd37283087f2126a2ad94690ee1548dbc7a8",
+      "sha256": "9508187fef7b9d6f76207da80623bd37283087f2126a2ad94690ee1548dbc7a8"
     },
     {
       "path": "atheria-region.css",
-      "bytes": 2369,
-      "sourceSha256": "644ce9e62ee36b4c58f8b103eed1ea1f19c82fac3ffd0052578befa1c0b653aa",
-      "sha256": "644ce9e62ee36b4c58f8b103eed1ea1f19c82fac3ffd0052578befa1c0b653aa"
+      "bytes": 3462,
+      "sourceSha256": "1d714d9ccc16bb0bfdc236c61d5f1268deeef518ae9ef239863c4fd17cf3a7b6",
+      "sha256": "1d714d9ccc16bb0bfdc236c61d5f1268deeef518ae9ef239863c4fd17cf3a7b6"
     },
     {
       "path": "atheria-region.js",
-      "bytes": 27481,
-      "sourceSha256": "c7344c5a4a73525ca945746e354ef158dc5d1f4a3f0864ede11f8ffeaba6fdc7",
-      "sha256": "c7344c5a4a73525ca945746e354ef158dc5d1f4a3f0864ede11f8ffeaba6fdc7"
+      "bytes": 28046,
+      "sourceSha256": "d43a51282f0d81b0a128947c9d0037ad8df4dc3ffce08425d822d971c3c4f40d",
+      "sha256": "d43a51282f0d81b0a128947c9d0037ad8df4dc3ffce08425d822d971c3c4f40d"
     },
     {
       "path": "atlas.css",

@@ -1,0 +1,192 @@
+{
+  "date": "2026-09-12",
+  "placement": "Archeon Atlas tab 06, immediately after Federation (05)",
+  "primaryUrl": "/Archeon",
+  "directTabUrl": "/archeon-atlas/index.html#view=character",
+  "sharedContentUrl": "/Character",
+  "files": [
+    {
+      "path": "scripts/atlas-character-adapter.cjs",
+      "sha256": "1e4c2831ce51d6c532fef743aeafedebf68f336caabd2d4932d371dedeb3c44b"
+    },
+    {
+      "path": "scripts/atlas-character/character-panel.js",
+      "sha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6"
+    },
+    {
+      "path": "scripts/atlas-character/character-panel.css",
+      "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
+    },
+    {
+      "path": "wwwroot/js/character.js",
+      "sha256": "ac3bf0942d96bda16e48f5b54409094e16edaa6fb5bca51e8d6ecf517ff3c440"
+    },
+    {
+      "path": "wwwroot/archeon-atlas/index.html",
+      "sha256": "09169005c414278a6c4b94c5b4d1631b48b0adcd783446f9381cdcc36dbf1641"
+    },
+    {
+      "path": "wwwroot/archeon-atlas/space-controller.js",
+      "sha256": "bc3a7459468f77cd010d4d9f87e84c52f0a9ad4b0fafd6f23cacec3c141203d0"
+    },
+    {
+      "path": "wwwroot/archeon-atlas/character-panel.js",
+      "sha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6"
+    },
+    {
+      "path": "wwwroot/archeon-atlas/character-panel.css",
+      "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
+    },
+    {
+      "path": "docs/archeon-atlas-assets.json",
+      "sha256": "f1dcaad2a231274772be90619046f7f7897fcaf60f99db7ab0de9afb86d32733"
+    },
+    {
+      "path": "scripts/import-archeon-atlas.cjs",
+      "sha256": "55b619a9777c50df9505d713148aa11ecf3509e3f8d761a3d60f6ea01326b7d5"
+    },
+    {
+      "path": "scripts/verify-archeon-atlas.cjs",
+      "sha256": "ef4ec31713e1736c5f247a705b82c64b6bbc9ac14a5925e6da573c8b6ccb8c55"
+    },
+    {
+      "path": "Pages/Archeon.cshtml",
+      "sha256": "07aaa32a0d41de425b251536300ff7d58978ca5a451056bf0a0e4c7404373a67"
+    },
+    {
+      "path": "Pages/Index.cshtml",
+      "sha256": "235c8f8f2b7acb9f28fc293ad93b3b495c24b504c60d1ee47f2f264660d1a616"
+    },
+    {
+      "path": "scripts/verify-character.cjs",
+      "sha256": "bf81efc24401fdf0b9da2dbae48d8b535ef1110cc947ef06226cf1e908a07f9e"
+    },
+    {
+      "path": "scripts/verify-character-atlas.cjs",
+      "sha256": "ea870da49fc6373b9122de09576d6ba03d39c5384cea4b963c226a3327722fb7"
+    }
+  ],
+  "browser": {
+    "checks": [
+      "06 Character follows Federation in the same Atlas tab row and opens three portraits in place",
+      "Atlas and Character language buttons stay synchronized; prose bypasses automatic translation",
+      "Embedded reading position survives a language switch",
+      "World, Aethelgard, local maps, system and Federation return correctly; disposed star scenes do not cover Character",
+      "Rapid tab switching does not restore a stale star scene",
+      "390px mobile tab scrolling and in-panel character jumps work without horizontal overflow",
+      "Direct Character-tab links and retry after a failed content request work"
+    ],
+    "errors": [],
+    "failedResources": [],
+    "passed": true
+  },
+  "standalone": {
+    "checks": [
+      "Standalone reader remains accessible; misplaced home and above-map links are absent",
+      "zh: names, ages, dimensions and three spoiler-light paragraphs",
+      "en: names, ages, dimensions and three spoiler-light paragraphs",
+      "Selected language persists after reload",
+      "Switching language keeps the current Lia paragraph in place",
+      "Keyboard switches language and keeps button focus",
+      "390px: all anchors, complete images, vertical text order and no overflow",
+      "320px: all anchors, complete images, vertical text order and no overflow",
+      "English mobile layout",
+      "No JavaScript: all Chinese prose remains readable",
+      "Unavailable storage does not prevent reading or switching"
+    ],
+    "pageErrors": [],
+    "failedResources": [],
+    "passed": true
+  },
+  "build": {
+    "passed": true,
+    "pages": 10,
+    "assets": 4637,
+    "totalBytes": 543018716,
+    "quotaConfirmed": false,
+    "defaultBudgetBytes": 225000000
+  },
+  "importedWebsiteAssets": {
+    "passed": true,
+    "hashedFiles": 4509,
+    "sourceAtlasUnchanged": true
+  },
+  "freshImportProbe": {
+    "adapterMatchesInstalledFiles": [
+      "index.html",
+      "space-controller.js",
+      "character-panel.js",
+      "character-panel.css"
+    ],
+    "fullSourceModelValidationPassed": false,
+    "note": "An isolated full import preserved the Character integration exactly. The separate authoring-source Eyrie detail manifest disagrees with 11 source bundles; those source model changes were not applied to the website. Existing website atlas and compressed delivery both passed their integrity checks.",
+    "sourceBundleMismatches": [
+      {
+        "file": "eyrie-detail-000.bin",
+        "expected": "931dec669b12065599da647ced8ff57411bc4a3ba80dbb7ce6802bbc11d6d815",
+        "actual": "e01e3ecc084bb878f311649356f1768f824c44ee22a4a0a3ecdfcb3b2c9f63ce"
+      },
+      {
+        "file": "eyrie-detail-001.bin",
+        "expected": "f7092bffd47eb59d2180645cc34ecc1728b2ad63a921502df9895d5db3305303",
+        "actual": "1276f284c50cf229c91c677e5f8c62ba2425615440ad5929bf2ee5c2a03e292f"
+      },
+      {
+        "file": "eyrie-detail-002.bin",
+        "expected": "8656d411c66ffa84fc716574b50229cef014bf7426e5b4cf3e6f7339e9df7e5b",
+        "actual": "0d2d9412003152bb0aa0659791711e11ac3c261da96038dfcf370f016e3c976f"
+      },
+      {
+        "file": "eyrie-detail-003.bin",
+        "expected": "2cda94d84460e60a07e61511614544487a237abb78b990ee25569067a01a2c24",
+        "actual": "d6f9088666a1a70fe37d9694afbf10e599f62e632b303a195178e286e5437c4a"
+      },
+      {
+        "file": "eyrie-detail-004.bin",
+        "expected": "f544d7303e5128b6cf5ec40de323606d525831ace66ef7c5c15cda52b772803e",
+        "actual": "36186fda841b18b7d4784a5391d61a9c4902dac63d675f1d600996de14792e17"
+      },
+      {
+        "file": "eyrie-detail-005.bin",
+        "expected": "83bba826eb51702467e7d7c0354e8766157b8e3d881fea4b856afc49d63f4237",
+        "actual": "58c2db81111784b5669f6736e1a0f53b82928a7ea67a66083943ccf28b19e2c6"
+      },
+      {
+        "file": "eyrie-detail-006.bin",
+        "expected": "7e485b7346ac3580fc4b4d31e1c5da8d3ab9a0471d1ba59159039583da2bc66c",
+        "actual": "fa2f3419ad0d3c25c3bc3e51a0491b60295711cc45af03160002c41aad506534"
+      },
+      {
+        "file": "eyrie-detail-007.bin",
+        "expected": "dde7c177f3ff25872b588bf3f7e440886c98beccd55179c8daf270993a5d9069",
+        "actual": "99ad9f11a692acd9af768bf17ad726ef71e2729209bce7164d97c9ebff88b984"
+      },
+      {
+        "file": "eyrie-detail-008.bin",
+        "expected": "2949c10433282ffdef635771d4d73bd2f80c1aaa070aad3160bc61950013e235",
+        "actual": "d68ecc677859d5652c7a4e497ca3a8337c5aaa85be5a2db7d6323f698c450a8c"
+      },
+      {
+        "file": "eyrie-detail-009.bin",
+        "expected": "041c69ab758f3c50fc94c938864dde17cee9b7b43892d368da0b8dd82cfc8028",
+        "actual": "56ec54ccff1185f4c4e72340fb560d23b13953ab869a3565351bf5d3be2e6e5d"
+      },
+      {
+        "file": "eyrie-detail-010.bin",
+        "expected": "dc15e8c7e980dd5685e8b537831d704591a6efccb7e0b441d7cda707bb4f491c",
+        "actual": "6cb3efaf5b2f711e4f8e48c4fb13056690d69fff3aa920194d7f1ec2d800145f"
+      }
+    ]
+  },
+  "manuscripts": {
+    "chineseSourceSha256": "3af7685f7d45b8b04a8b2cb4c3d6831dcaaa9c1a8cc6c6d6a3df6a617a0a43c8",
+    "chineseWebSha256": "3af7685f7d45b8b04a8b2cb4c3d6831dcaaa9c1a8cc6c6d6a3df6a617a0a43c8",
+    "englishSha256": "7b818efa84d0239321f0e53626979b98e906d6467926720ec82d1cc2706231eb",
+    "englishUnchanged": true
+  },
+  "deployment": {
+    "target": "origin/codex/archeon-atlas",
+    "notConfirmed": true,
+    "note": "A branch push does not itself confirm deployment. This release changes no main-branch or Azure settings."
+  }
+}

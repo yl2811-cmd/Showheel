@@ -18,13 +18,10 @@ const expected = [
         const page = await context.newPage();
         page.on('pageerror', e => result.pageErrors.push(e.message));
         page.on('response', r => { if (r.url().startsWith(base) && r.status() >= 400) result.failedResources.push({ url: r.url(), status: r.status() }); });
-        assert.equal((await page.goto(base + '/')).status(), 200);
-        const entry = page.locator('[data-card="character"]');
-        assert.equal(await entry.locator('.kd-card-no').textContent(), '06');
-        await entry.click();
-        await page.waitForURL(base + '/Character');
-        assert.match(await (await context.request.get(base + '/Archeon')).text(), /href="\/Character"/);
-        check('Home 06 card and Archeon link reach Character');
+        assert.equal((await page.goto(base + '/Character')).status(), 200);
+        assert(!/data-card="character"/.test(await (await context.request.get(base + '/')).text()));
+        assert(!/href="\/Character"/.test(await (await context.request.get(base + '/Archeon')).text()));
+        check('Standalone reader remains accessible; misplaced home and above-map links are absent');
         assert.equal(await page.locator('html').getAttribute('lang'), 'zh-Hans');
         assert.equal(await page.locator('.character-profile').count(), 3);
         for (const [id] of expected) {

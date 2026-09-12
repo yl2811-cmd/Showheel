@@ -5,6 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const vm = require('node:vm');
+const characterAtlas = require('./atlas-character-adapter.cjs');
 const root = path.resolve(__dirname, '..');
 const source = path.resolve(process.argv[2] || 'D:/SKBS/maps/archeon-atlas');
 const destination = path.join(root, 'wwwroot/archeon-atlas');
@@ -102,6 +103,7 @@ function replaceOnce(text, pattern, replacement) {
   return text.replace(pattern, replacement);
 }
 function adapt(relative, original) {
+  original = characterAtlas.adapt(relative, original);
   if (relative === 'eyrie-controller.js') {
     return Buffer.from(replaceOnce(original.toString('utf8'), /await script\('eyrie-assets\/geometry\.js'\)/,
       '{' + [...geometryParts.keys()].map(name => "await script('" + name + "');").join('') + '}'));
@@ -133,6 +135,12 @@ for (const relative of [...files].sort()) {
   }
   entries.push({ path: relative, bytes: deployed.length, sourceSha256, sha256 });
 }
+for (const relative of characterAtlas.ownedFiles) {
+  const sourcePath = 'scripts/atlas-character/' + relative;
+  const data = fs.readFileSync(path.join(root, sourcePath));
+  fs.writeFileSync(path.join(destination, relative), data);
+  entries.push({ path: relative, bytes: data.length, sourcePath, sourceSha256: hash(data), sha256: hash(data) });
+}
 fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
 for (const [relative, deployed] of geometryParts) {
   const target = path.join(destination, relative);
@@ -144,7 +152,7 @@ if (!unifiedEyrie && hash(fs.readFileSync(path.join(source, 'eyrie-assets/geomet
 fs.writeFileSync(path.join(root, 'docs/archeon-atlas-assets.json'), JSON.stringify({
   source: 'SKBS/maps/archeon-atlas', version: 6,
   retainedFiles: auditRetained ? [{ path: 'space-assets/physics-humanity-audit.md', reason: 'Source audit is missing; retained previously published copy for the existing link.' }] : [],
-  adaptations: ['index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates', 'eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit'],
+  adaptations: ['Website Character tab: navigation adapter and website-owned panel', 'index.html: website help link, local astronomy audit link and data-only download', 'app.js: remove export download updates', 'eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit'],
   files: entries
 }, null, 2) + '\n');
 console.log(JSON.stringify({ files: entries.length, bytes: entries.reduce((total, file) => total + file.bytes, 0), verified: true }));

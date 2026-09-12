@@ -10,7 +10,8 @@
   "adaptations": [
     "index.html: website help link, local astronomy audit link and data-only download",
     "app.js: remove export download updates",
-    "eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit"
+    "eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit",
+    "Website Character tab: navigation adapter plus website-owned panel; shared bilingual prose is loaded from /Character."
   ],
   "files": [
     {
@@ -18669,9 +18670,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 11974,
+      "bytes": 12340,
       "sourceSha256": "02abf6a3b90877d7ff0482d42d19d43096c95a4a4e2615cb2f5612d35baac129",
-      "sha256": "0fde142320a3033dffa320b41333b59ec562fbf8e745c0c9c28cb8c03220c201"
+      "sha256": "09169005c414278a6c4b94c5b4d1631b48b0adcd783446f9381cdcc36dbf1641"
     },
     {
       "path": "living-overlay.js",
@@ -18813,9 +18814,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 30923,
+      "bytes": 31686,
       "sourceSha256": "1d158ce9deb694791a7be759e9e3b02007f1e3c84caf8bf29ed3751d7b5498df",
-      "sha256": "1d158ce9deb694791a7be759e9e3b02007f1e3c84caf8bf29ed3751d7b5498df"
+      "sha256": "bc3a7459468f77cd010d4d9f87e84c52f0a9ad4b0fafd6f23cacec3c141203d0"
     },
     {
       "path": "space-ui.css",
@@ -27054,6 +27055,20 @@
       "bytes": 845433,
       "sourceSha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21",
       "sha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21"
+    },
+    {
+      "path": "character-panel.js",
+      "bytes": 2381,
+      "sourcePath": "scripts/atlas-character/character-panel.js",
+      "sourceSha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6",
+      "sha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6"
+    },
+    {
+      "path": "character-panel.css",
+      "bytes": 2117,
+      "sourcePath": "scripts/atlas-character/character-panel.css",
+      "sourceSha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603",
+      "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
     }
   ]
 }

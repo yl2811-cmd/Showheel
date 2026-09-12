@@ -1,0 +1,29 @@
+.character-mode .workspace { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); }
+.character-mode .sidebar,
+.character-mode .map-tools,
+.character-mode .map-status,
+.character-mode #detail { display: none !important; }
+.character-mode .map-panel { min-height: 0; background: var(--paper); }
+#character-stage { position: absolute; inset: 0; overflow: auto; overscroll-behavior: contain; }
+#character-stage .characters { --character-gold: #835b32; --character-muted: #607268; --character-rule: #c3c9b6; padding-top: 46px; color: var(--ink); }
+#character-stage .character-back,
+#character-stage .character-end { display: none; }
+#character-stage .character-intro { padding-bottom: 28px; }
+#character-stage .kd-eyebrow { font-size: 11px; letter-spacing: .2em; margin: 0 0 18px; }
+#character-stage .character-intro h1 { font-size: clamp(30px, 4.6vw, 58px); margin: 0 0 12px; }
+#character-stage .character-copy h2 { font-family: Georgia, 'Segoe UI', serif; margin: 0 0 8px; }
+#character-stage .character-toolbar { top: 0; background: #edeadbf7; }
+#character-stage a { color: var(--ink); text-decoration: none; }
+#character-stage .character-language button[aria-pressed="true"] { color: #fbf6e9; background: #35564b; border-color: #35564b; }
+#character-stage .character-facts dd { color: #31473d; }
+#character-stage .character-prose p { color: #33483d; }
+#character-stage .character-portrait img { box-shadow: 0 4px 22px #283c3017; }
+#character-stage .character-profile { scroll-margin-top: 100px; }
+.character-panel-status { padding: 64px 24px; text-align: center; color: var(--muted); line-height: 1.8; }
+.character-panel-status button { padding: 9px 18px; background: #35564b; color: #fbf6e9; border: 0; border-radius: 3px; }
+@media (max-width: 1100px) { .view-tabs button[data-tab="character"] span { display: inline; } }
+@media (max-width: 620px) {
+    .character-mode .workspace { height: calc(100svh - 102px); min-height: 540px; grid-template-rows: minmax(0, 1fr); }
+    #character-stage .characters { padding: 28px 20px 48px; }
+    #character-stage .character-intro h1 { font-size: 30px; }
+}

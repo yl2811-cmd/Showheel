@@ -10,7 +10,8 @@
  const sourceLabels={catalog:'真实恒星目录',canon:'正文明确',inferred:'制图推定',derived:'依正文数值推导',model:'制图推定','map-inference':'制图推定'};
  const statusLabels={'homeworld':'太阳系 · 出发之地','collapsed; light in transit':'源区已坍缩；爆发之光仍在途中','remnant':'Sky Fire 遗迹','Axiom destination':'Axiom 的目的地 · 先期居民已抵达','surface unconfirmed':'地表现况未确认 · 旧航线中断','terraform project':'地表与大气改造进行中','CI active':'CI 仍在运作','autonomous':'CI 已退出 · 当地自治','CI withdrawing':'CI 正在逐步退出','atmosphere development':'大气改造阶段','slow maturation':'漫长的地表准备阶段','early residents':'先期住民已抵达','not deployed':'此时尚未部署'};
  function syncInterface(){
-  const cosmic=isSpace(),planetary=cosmic&&app.spaceState?.domain==='planetary',systemNode=planetary?window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===app.spaceState.systemId):null;document.body.classList.toggle('space-mode',cosmic);$('map-stage').hidden=cosmic;$('space-stage').hidden=!cosmic;
+  const character=activeTab==='character';document.body.classList.toggle('character-mode',character);$('character-stage').hidden=!character;
+  const cosmic=isSpace(),planetary=cosmic&&app.spaceState?.domain==='planetary',systemNode=planetary?window.ATLAS_ASTRONOMY?.nodes.find(n=>n.id===app.spaceState.systemId):null;document.body.classList.toggle('space-mode',cosmic);$('map-stage').hidden=cosmic||character;$('space-stage').hidden=!cosmic;
   $('living-controls').hidden=activeTab!=='system';$('geography-sidebar').hidden=cosmic;$('astronomy-sidebar').hidden=!cosmic;$('space-back').hidden=!cosmic;$('space-breadcrumbs').hidden=!cosmic;$('space-instructions').hidden=!cosmic;$('local-tabs').hidden=activeTab!=='local';
   document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===activeTab)));
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===localView)));
@@ -68,6 +69,13 @@
   }
  }
  async function setTab(id){
+  if(id==='character'){
+   const token=++loadToken;restoreSpaceScenic();instance?.dispose();instance=null;engineType='base';playing=false;app.spaceState=null;
+   window.ATLAS_ATHERIA_PAGE?.close();app.suspend();activeTab=id;syncInterface();app.currentView=id;app.ready=false;app.loadingView=id;$('detail').hidden=true;
+   try{await window.ATLAS_CHARACTERS.open();if(token!==loadToken)return;app.ready=true;app.loadingView=null;window.dispatchEvent(new CustomEvent('atlas-view-ready',{detail:{id}}));}
+   catch(error){if(token!==loadToken)return;app.ready=false;app.loadingView=null;}
+   return;
+  }
   if(['world','aethelgard'].includes(id))return app.setView(id);
   if(id==='local')return app.setView(localView);
   if(!['system','federation'].includes(id))return;
@@ -200,7 +208,7 @@
  window.addEventListener('atlas-view-ready',event=>{if(!['system','federation'].includes(event.detail?.id)){activeTab=localIds.includes(event.detail.id)?'local':event.detail.id;syncInterface();}});
  if(matchMedia('(max-width:620px)').matches)$('space-layers-toggle').click();
  syncInterface();
- const query=new URLSearchParams(location.hash.slice(1));const initial=query.get('view');if(['system','federation','world','aethelgard','local'].includes(initial)){
+ const query=new URLSearchParams(location.hash.slice(1));const initial=query.get('view');if(['system','federation','world','aethelgard','local','character'].includes(initial)){
   const open=initial==='federation'&&query.get('mode')==='research'?setFederationMode('research'):setTab(initial);
   open.then(()=>{const year=Number(query.get('epoch'));if(year)setEpoch(year);if(query.get('focus'))instance?.focusObject(query.get('focus'));}).catch(error=>{$('load-status').textContent=error.message;});
  }

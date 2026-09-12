@@ -11,7 +11,11 @@ const files = new Set(manifest.files.map(file => file.path));
 const views = ['world', 'aethelgard', 'atheria', 'marneth', 'rimstone'];
 const hash = buffer => crypto.createHash('sha256').update(buffer).digest('hex');
 const read = relative => fs.readFileSync(path.join(assets, relative), 'utf8');
-const exists = relative => assert(files.has(relative), 'Unlisted dependency: ' + relative);
+const exists = relative => {
+  if (['../css/character.css', '../js/character.js'].includes(relative)) {
+    assert(fs.statSync(path.resolve(assets, relative)).isFile(), 'Missing shared Character dependency: ' + relative);
+  } else assert(files.has(relative), 'Unlisted dependency: ' + relative);
+};
 
 async function main() {
   for (const file of manifest.files) {

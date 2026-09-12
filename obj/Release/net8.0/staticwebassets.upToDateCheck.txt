@@ -991,7 +991,7 @@ wwwroot\images\archeonsettlem (8).png.png
 wwwroot\images\archeonsettlem (9).png.png
 wwwroot\images\archeonvibe1.mp3
 wwwroot\images\archeonvibe2.mp3
-wwwroot\images\archeonvibe3.mp3
+wwwroot\images\kassia.png
 wwwroot\images\archeonvibe4.mp3
 wwwroot\archeon-atlas\atheria-cliff-look.js
 wwwroot\archeon-atlas\atheria-assets\t97-3.bin
@@ -1029,8 +1029,8 @@ wwwroot\images\hardsurface2.png
 wwwroot\images\hero-city.png
 wwwroot\images\Image_1714248859708.jpg
 wwwroot\images\irishollow (3).png
-wwwroot\images\kassia.jpg
-wwwroot\images\Lia.png
+wwwroot\images\archeonvibe3.mp3
+wwwroot\css\character.css
 wwwroot\images\mc.png
 wwwroot\images\millhaven (2).png
 wwwroot\images\outpost3.png
@@ -6379,3 +6379,5 @@ wwwroot\archeon-atlas\data\house-tuning\catalog.json
 wwwroot\archeon-atlas\atheria-region.css
 wwwroot\archeon-atlas\atheria-region.js
 wwwroot\story.md
+wwwroot\images\Lia redwood.png
+wwwroot\js\character.js

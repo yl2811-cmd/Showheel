@@ -180,3 +180,4 @@ D:\repo\Showheel\bin\Release\net8.0\docs\character\verification.json
 D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-character-20260912.json
 D:\repo\Showheel\bin\Release\net8.0\docs\character\atlas-tab-verification.json
 D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-character-tab-20260912.json
+D:\repo\Showheel\bin\Release\net8.0\docs\updates\archeon-character-english-20260912.json

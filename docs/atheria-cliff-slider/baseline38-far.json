@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "defaultValue": 38,
+  "oldTrialInvalidated": true,
+  "changedPixels": 4047,
+  "changedBounds": [
+    593,
+    372,
+    681,
+    449
+  ],
+  "lods": [
+    {
+      "lod": 0,
+      "mesh": "t203-0.bin",
+      "mask": 1,
+      "point": [
+        -5,
+        -50,
+        19.69230842590332
+      ],
+      "highVisible": false
+    },
+    {
+      "lod": 1,
+      "mesh": "t203-1.bin",
+      "mask": 1,
+      "point": [
+        -5,
+        -50,
+        19.69230842590332
+      ],
+      "highVisible": false
+    },
+    {
+      "lod": 2,
+      "mesh": "t84-2.bin",
+      "mask": 1,
+      "point": [
+        -5,
+        -50,
+        0
+      ],
+      "highVisible": false
+    },
+    {
+      "lod": 3,
+      "mesh": "t84-3.bin",
+      "mask": 1,
+      "point": [
+        -5,
+        -50,
+        0
+      ],
+      "highVisible": false
+    }
+  ],
+  "errors": []
+}

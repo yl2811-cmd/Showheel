@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "default38SurvivesRebuild": true,
+  "baselineRevision": "atheria-cliff-white-2",
+  "maskBytesUnchanged": true
+}

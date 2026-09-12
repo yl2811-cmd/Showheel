@@ -4989,8 +4989,8 @@ wwwroot\archeon-water-study\verification.json
 wwwroot\archeon-water-study\viewer.js
 wwwroot\images\archeonvibe6.mp3
 wwwroot\archeon-atlas\atheria-assets\t97-1.bin
-wwwroot\archeon-atlas\data\house-tuning\catalog.json
-wwwroot\archeon-atlas\data\house-tuning\default-layout.json
+wwwroot\story.md
+wwwroot\archeon-atlas\house-tuning\worker.js
 wwwroot\archeon-atlas\data\house-tuning\t0-0.bin.json
 wwwroot\archeon-atlas\data\house-tuning\t0-1.bin.json
 wwwroot\archeon-atlas\data\house-tuning\t0-2.bin.json
@@ -6355,13 +6355,13 @@ wwwroot\archeon-atlas\eyrie-batches.js
 wwwroot\archeon-atlas\eyrie-life-wind.js
 wwwroot\archeon-atlas\eyrie-motion.js
 wwwroot\archeon-atlas\eyrie-water-spray.js
-wwwroot\archeon-atlas\house-tuning\core.js
-wwwroot\archeon-atlas\house-tuning\defaults.json
+wwwroot\archeon-atlas\house-tuning\ui.js
 wwwroot\archeon-atlas\house-tuning\geometry.js
+wwwroot\archeon-atlas\house-tuning\defaults.json
 wwwroot\archeon-atlas\house-tuning\runtime.js
 wwwroot\archeon-atlas\house-tuning\ui.css
-wwwroot\archeon-atlas\house-tuning\ui.js
-wwwroot\archeon-atlas\house-tuning\worker.js
+wwwroot\archeon-atlas\house-tuning\core.js
+wwwroot\archeon-atlas\data\house-tuning\default-layout.json
 wwwroot\archeon-atlas\scene-editor\block-geometry.js
 wwwroot\archeon-atlas\scene-editor\catalog.json
 wwwroot\archeon-atlas\scene-editor\core.js
@@ -6375,4 +6375,4 @@ wwwroot\archeon-atlas\vendor\LICENSE-three-bvh-csg.txt
 wwwroot\archeon-atlas\vendor\LICENSE-three-mesh-bvh.txt
 wwwroot\archeon-atlas\vendor\three-space.bundle.js
 wwwroot\story-engl.md
-wwwroot\story.md
+wwwroot\archeon-atlas\data\house-tuning\catalog.json

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "bytes": 541231323,
+  "files": 4632,
+  "modelHashesUnchanged": true,
+  "readerHashesUnchanged": true,
+  "scope": "regional-cliffs-only",
+  "defaultValue": 38,
+  "baselineRevision": "atheria-cliff-white-2",
+  "highModelPixelsIdenticalAt0And100": true
+}

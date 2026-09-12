@@ -1,0 +1,14 @@
+{
+  "archive": "archeon-character-english-20260912.zip",
+  "bytes": 762961,
+  "sha256": "13a288295be1cebd5ce4f6f2afa68c3e643391cce082febcff43a0763915b55e",
+  "entriesVerified": 9,
+  "scope": "Nine revised English character paragraphs, Lia height 152 cm in both languages, synchronized Chinese Timelapse, and compressed page overlay",
+  "verification": {
+    "staticBuild": true,
+    "compressedAssetIntegrity": true,
+    "standaloneBrowser": true,
+    "atlasBrowser": true,
+    "chineseSourceByteMatch": true
+  }
+}

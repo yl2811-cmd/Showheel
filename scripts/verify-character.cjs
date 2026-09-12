@@ -8,7 +8,7 @@ const result = { checks: [], pageErrors: [], failedResources: [] };
 const check = name => result.checks.push(name);
 const expected = [
     ['anna', 'Anna Freedman', '19', '168', '58'],
-    ['lia', 'Lia Redwood', '14', '149', '44'],
+    ['lia', 'Lia Redwood', '14', '152', '44'],
     ['kassia', 'Kassia Ashcroft', '21', '172', '60']
 ];
 (async () => {

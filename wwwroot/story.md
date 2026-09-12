@@ -2842,7 +2842,7 @@ Miriam Freedman，Anna 之母。外貌设定：白人，金色头发，蓝灰色
 6A.22 Characters · Lia Redwood   
 ----------------------------------------------------------------------
 
-Lia Redwood，红棕色头发，浅绿色眼睛。当前身高约 149 cm，体重约 44 kg。年龄对应固定为：P4 事故时 Anna 十三岁、Lia 八岁；染坊偶遇时 Anna 十七岁、Lia 十二岁；主线重遇时 Anna 十九岁、Lia 十四岁；Ep69 时 Anna 二十岁、Lia 仍十四岁。这段主线只经过 Anna 的生日，Lia 的下一次生日尚未到来。
+Lia Redwood，红棕色头发，浅绿色眼睛。当前身高约 152 cm，体重约 44 kg。年龄对应固定为：P4 事故时 Anna 十三岁、Lia 八岁；染坊偶遇时 Anna 十七岁、Lia 十二岁；主线重遇时 Anna 十九岁、Lia 十四岁；Ep69 时 Anna 二十岁、Lia 仍十四岁。这段主线只经过 Anna 的生日，Lia 的下一次生日尚未到来。
 家人：Sara Redwood（母亲）、Kaelan Redwood（父亲）；全文统一用 Kaelan。
 居住：家在 Atheria。主线 Anna 十九岁、Lia 十四岁这次，Lia 与父母先在 Frontier 见医者，再去 Skyleaf；方案稳定后经过 Frontier 返回 Atheria，回到自己的家与熟人之间。
 

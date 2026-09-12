@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-12",
+  "route": "/Character",
+  "branch": "codex/archeon-atlas",
+  "profiles": [
+    {
+      "name": "Anna Freedman",
+      "age": 19,
+      "heightCm": 168,
+      "weightKg": 58,
+      "chineseCharacters": 334
+    },
+    {
+      "name": "Lia Redwood",
+      "age": 14,
+      "heightCm": 149,
+      "weightKg": 44,
+      "chineseCharacters": 334
+    },
+    {
+      "name": "Kassia Ashcroft",
+      "age": 21,
+      "heightCm": 172,
+      "weightKg": 60,
+      "chineseCharacters": 328
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "Pages/Character.cshtml",
+      "sha256": "cd655a21a0e750278a504a043c8aec4ae0abb77935c933b2ff149c187ba5cf69"
+    },
+    {
+      "path": "Pages/Index.cshtml",
+      "sha256": "3cef99f40785fdc3be6f9587c9b49ae295a81cfb3b5eec6be82c47e81a784457"
+    },
+    {
+      "path": "Pages/Archeon.cshtml",
+      "sha256": "915948a3d8a9ebb4035f6440302ca0a96f062f2704ef7fe3bb1cf2d56de4dd4f"
+    },
+    {
+      "path": "Pages/Shared/_Layout.cshtml",
+      "sha256": "d6bea218098e590edbd5ea11bdf4fbf2ecbb67bb4cacd2989fd870738c39c797"
+    },
+    {
+      "path": "wwwroot/css/character.css",
+      "sha256": "ae84fc49e15569b625c253851d0e51f48e72703c32fd2f45cc0c37b81056206a"
+    },
+    {
+      "path": "wwwroot/js/character.js",
+      "sha256": "5c894a18407f1d9ce19a04a8529609d01866c24dcbb61aa3c347a234e8a88039"
+    },
+    {
+      "path": "scripts/verify-character.cjs",
+      "sha256": "5eebcd236e9a35004d2bad338855200431adcefd3a1c0f02cb8d1b503ddb201c"
+    }
+  ],
+  "images": [
+    {
+      "path": "images/Anna Freedman-protagonist.png",
+      "stored": "images/Anna Freedman-protagonist.webp",
+      "sourceBytes": 3531978,
+      "bytes": 2054446,
+      "sourceSha256": "fc1abf61e1680229fb2a85c53d8b671940405753d6640e8321b2a7712ec76b24",
+      "sha256": "dc49955869022bba9839964b6c258c64ca66f3cda5e724d2e786bd7f0eec8654",
+      "method": "webp-lossless",
+      "pixelVerified": true
+    },
+    {
+      "path": "images/kassia.png",
+      "stored": "images/kassia.webp",
+      "sourceBytes": 2267344,
+      "bytes": 1514408,
+      "sourceSha256": "537e6202f020ab260d04cb9416804e9428b3482cb75e5e9ae4f2b41696a176a0",
+      "sha256": "0302db80c2ad7e1ff3a69b5e3ac15edaf712fad81229d429eaf68ce0a6b6f041",
+      "method": "webp-lossless",
+      "pixelVerified": true
+    },
+    {
+      "path": "images/Lia redwood.png",
+      "stored": "images/Lia redwood.webp",
+      "sourceBytes": 2387241,
+      "bytes": 1538446,
+      "sourceSha256": "3f3f20159fb3a1597dfc90051b5472a640b7634a655509af8c2e408f1c5e7454",
+      "sha256": "e2c267f0e24ded5a3d2e2df878e3112e555630eb4e2f593103a62a8c81905a1e",
+      "method": "webp-lossless",
+      "pixelVerified": true
+    }
+  ],
+  "manuscripts": {
+    "chineseSourceSha256": "3af7685f7d45b8b04a8b2cb4c3d6831dcaaa9c1a8cc6c6d6a3df6a617a0a43c8",
+    "chineseWebSha256": "3af7685f7d45b8b04a8b2cb4c3d6831dcaaa9c1a8cc6c6d6a3df6a617a0a43c8",
+    "chineseBytes": 814837,
+    "englishSha256": "7b818efa84d0239321f0e53626979b98e906d6467926720ec82d1cc2706231eb",
+    "englishUnchanged": true,
+    "sourceManuscriptUnchanged": true
+  },
+  "build": {
+    "passed": true,
+    "generatedPages": [
+      "About.html",
+      "Archeon.html",
+      "Character.html",
+      "Environment.html",
+      "Gallery.html",
+      "index.html",
+      "Minecraft.html",
+      "Privacy.html",
+      "Projects.html",
+      "Unreal.html"
+    ],
+    "assetCount": 4635,
+    "totalBytes": 543988542,
+    "quotaConfirmed": false,
+    "defaultQuotaBytes": 250000000,
+    "defaultBudgetBytes": 225000000,
+    "overDefaultBudgetBytes": 318988542
+  },
+  "browser": {
+    "checks": [
+      "Home 06 card and Archeon link reach Character",
+      "zh: names, ages, dimensions and three spoiler-light paragraphs",
+      "en: names, ages, dimensions and three spoiler-light paragraphs",
+      "Selected language persists after reload",
+      "Switching language keeps the current Lia paragraph in place",
+      "Keyboard switches language and keeps button focus",
+      "390px: all anchors, complete images, vertical text order and no overflow",
+      "320px: all anchors, complete images, vertical text order and no overflow",
+      "English mobile layout",
+      "No JavaScript: all Chinese prose remains readable",
+      "Unavailable storage does not prevent reading or switching"
+    ],
+    "pageErrors": [],
+    "failedResources": [],
+    "passed": true
+  },
+  "publication": {
+    "target": "origin/codex/archeon-atlas",
+    "deployed": false,
+    "note": "The checked workflow deploys main pushes or pull requests targeting main. No open PR or branch workflow run was returned by the public GitHub API before this commit. Local budget check also requires a confirmed SWA_QUOTA_MB and the generated site exceeds the default budget. No deployment settings were changed."
+  }
+}

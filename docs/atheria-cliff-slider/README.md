@@ -1,13 +1,13 @@
 # Atheria cliff whiteness
 
-The Atheria sidebar now controls the three cliff faces with a single 0–100 slider. Zero exactly preserves the accepted colours. The linked warm-white albedo curve retains the original rock variation and does not change lighting, geometry, buildings, fields, vegetation or water.
+The author-approved default is **38/100**, baseline revision **atheria-cliff-white-2**. Reset returns to 38. Zero still means the original, unmodified colours, and the numeric scale and warm-rock-1 curve are unchanged. A previous baseline's trial value is ignored on reload.
 
-The default remains 0 until the author reports a preferred value. The Copy parameters action includes the value and baseline revision. Promote a confirmed value by updating defaultValue and baselineRevision in the source cliff-look.json, rebuilding its metadata with build-atheria-cliff-look.cjs and repeating import and verification. Keep the numeric scale and original binary colours unchanged. Old browser trials are ignored after a baseline revision changes.
+Only regional cliff rock receives the shader adjustment. Eyrie high-detail terrain, its buildings, the collar and architecture proxies keep their original materials and colours.
 
-Ownership masks are generated for all four regional LODs only, and are loaded as sidecars. The existing regional builder refreshes ownership at each output exit. The compressed site loads these files through the established packed-asset loader.
+## Central distant cliff coverage
 
-Source verification confirms 3,124 original binary assets and the Chinese manuscript were unchanged. Browser verification covers zero equivalence, resetting, all LODs, near detail, light modes, clipboard, refresh, baseline invalidation, capture and responsive controls.
+The regional terrain previously excluded the central 256 m square even when high detail was not loaded. This left an untinted block at a distance. The regional ownership mask now includes this terrain across all four LODs. The viewer's existing Eyrie visibility clipping hides it when the separate high-detail scene is shown; no high-detail material hooks or masks are added.
 
-## Eyrie exclusion, 2026-09-12
+The fix adds 5,140 regional vertices and preserves all prior ownership, binary model files and original colours. Browser checks target the omitted block at every actual visible LOD, verify that the old trial value becomes 38, and confirm pixel-identical high-detail renders at slider values 0 and 100. Updated evidence is in baseline38-*.json; older verification files document the preceding revisions.
 
-The author restricted this control to the three regional cliff faces. Eyrie high-detail terrain, all its objects, the collar and proxies retain their original materials and colours. No cliff masks or shader hooks are attached to those meshes. The regional masks, curve, scalar default and persisted trial values are unchanged. See eyrie-exclusion-source.json and eyrie-exclusion-browser.json for the updated verification.
+To promote a future author-approved value, update defaultValue and baselineRevision in the source cliff-look.json, regenerate sidecar metadata using build-atheria-cliff-look.cjs, then import, validate, compress and push the current branch. Do not bake another colour gain into the original models or change the slider's scale.

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "defaultValue": 38,
+  "baselineRevision": "atheria-cliff-white-2",
+  "addedCentralLowLodVertices": 5140,
+  "centralRegionalVertices": [
+    2988,
+    1268,
+    552,
+    332
+  ],
+  "oldRegionalMasksRetained": true,
+  "colourCurveUnchanged": true,
+  "highDetailMaskRecords": 0,
+  "originalBinaryAssetsUnchanged": 3124
+}

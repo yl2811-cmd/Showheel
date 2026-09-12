@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "defaultValue": 38,
+  "resetValue": 38,
+  "oldTrialInvalidated": true,
+  "newTrialPersists": true,
+  "baselineRevision": "atheria-cliff-white-2",
+  "highDetailLoads": true,
+  "copied": "Atheria 崖壁提白：38/100\r\n色调：略暖的浅岩白\r\n范围：三道区域崖壁，不含鹰巢高模\r\n基准：atheria-cliff-white-2\r\n曲线：warm-rock-1\r\n日光：late",
+  "errors": []
+}

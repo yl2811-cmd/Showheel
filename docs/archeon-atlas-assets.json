@@ -27,15 +27,15 @@
     },
     {
       "path": "atheria-assets/cliff-look.json",
-      "bytes": 67365,
-      "sourceSha256": "46be56c15513de24050dd13c3b38d73851bce80619539f02c15bcc5add3abd65",
-      "sha256": "46be56c15513de24050dd13c3b38d73851bce80619539f02c15bcc5add3abd65"
+      "bytes": 67423,
+      "sourceSha256": "b8983f4e8cd71a5585fd7c8b8cc76605124d99b1e4987bdb6c9c452f3ece32ca",
+      "sha256": "b8983f4e8cd71a5585fd7c8b8cc76605124d99b1e4987bdb6c9c452f3ece32ca"
     },
     {
       "path": "atheria-assets/cliff-masks.bin",
-      "bytes": 143760,
-      "sourceSha256": "80dd795ff8b5ac5938aa4b09336226b31991b582c11ed8457434da2752e45675",
-      "sha256": "80dd795ff8b5ac5938aa4b09336226b31991b582c11ed8457434da2752e45675"
+      "bytes": 146160,
+      "sourceSha256": "21991ef144e13179df7a2d2976dec469e06e3ccdc607efb99105b215aef0ae01",
+      "sha256": "21991ef144e13179df7a2d2976dec469e06e3ccdc607efb99105b215aef0ae01"
     },
     {
       "path": "atheria-assets/east-community.bin",
@@ -166,8 +166,8 @@
     {
       "path": "atheria-assets/manifest.js",
       "bytes": 1466612,
-      "sourceSha256": "469a26a6f04894d60991b366eefa3aa2c34ed934dc003ae1b574b83195da3465",
-      "sha256": "469a26a6f04894d60991b366eefa3aa2c34ed934dc003ae1b574b83195da3465"
+      "sourceSha256": "a174bac43a7994b8e818d4a8236508992b4a9ab65d85a8e0cdf4f86785bb7206",
+      "sha256": "a174bac43a7994b8e818d4a8236508992b4a9ab65d85a8e0cdf4f86785bb7206"
     },
     {
       "path": "atheria-assets/roof-trees.json",
@@ -8367,9 +8367,9 @@
     },
     {
       "path": "atheria-controller.js",
-      "bytes": 10589,
-      "sourceSha256": "706a8f0f4b68a4a56660e8763d740cc79ad552422937bef76517288ad4d9d107",
-      "sha256": "706a8f0f4b68a4a56660e8763d740cc79ad552422937bef76517288ad4d9d107"
+      "bytes": 10591,
+      "sourceSha256": "9be7c0294b5714ae5b26b1ffe91470c666ab948f919a39fb3b375fc3f80fed16",
+      "sha256": "9be7c0294b5714ae5b26b1ffe91470c666ab948f919a39fb3b375fc3f80fed16"
     },
     {
       "path": "atheria-region.css",

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "compressed page loads new algorithm and exact default statistics",
+      "passed": true
+    },
+    {
+      "name": "compressed worker enforces 12m at minimum size",
+      "passed": true
+    },
+    {
+      "name": "compressed default cache restores the authored layout",
+      "passed": true
+    },
+    {
+      "name": "published story.md has identical bytes",
+      "passed": true
+    },
+    {
+      "name": "published story-engl.md has identical bytes",
+      "passed": true
+    },
+    {
+      "name": "packed assets and workers have no errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "optionalLocalService": [
+    "Local editing service is absent; the existing static-scene fallback was used."
+  ]
+}

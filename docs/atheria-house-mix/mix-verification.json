@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "default cohorts reach 40 and 20 percent and never overlap",
+      "passed": true,
+      "detail": {
+        "total": 5820,
+        "enlarged": 2328,
+        "compound": 1164
+      }
+    },
+    {
+      "name": "enlargement scales all three sides by 1.4 and preserves its existing pieces",
+      "passed": true
+    },
+    {
+      "name": "compound houses gain 2 or 3 connected nonoverlapping pieces within ten",
+      "passed": true
+    },
+    {
+      "name": "LOD preserves final envelope, height and fixed local house details",
+      "passed": true
+    },
+    {
+      "name": "variation volume additions are separate and exactly balanced",
+      "passed": true
+    },
+    {
+      "name": "selection is stable, safe failures retain houses, and the source is immutable",
+      "passed": true
+    }
+  ],
+  "stats": {
+    "detachedHouses": 5820,
+    "enlargedHouses": 2328,
+    "compoundHouses": 1164,
+    "variationAddedVolume": 12323016.003097098,
+    "tallHouses": 1486,
+    "tallShare": 0.25532646048109964,
+    "terracedHouses": 1486,
+    "terraceExpansionLimited": 0,
+    "heightBaselineRemovedVolume": 5094158.001245701,
+    "terraceAddedVolume": 822696.9637134835,
+    "minimumHouseSideM": 11.999999999999943,
+    "minimumAdjusted": 2718,
+    "minimumAddedVolume": 2291637.349804617,
+    "blockedExisting": 0,
+    "small": 3150,
+    "terrace": 160,
+    "blocks": 15818,
+    "changed": 3313,
+    "added": 733,
+    "removed": 10,
+    "split": 2345,
+    "splitReached": 605,
+    "splitPartial": 1740,
+    "splitUnplaced": 780,
+    "terraceSplit": 116,
+    "terraceSplitMedian": 0.1000000008927879,
+    "splitRequested": 2625,
+    "splitEligible": 3125,
+    "splitCandidates": 3125,
+    "splitThresholdM2": 250,
+    "splitThresholdsM2": [
+      250
+    ],
+    "smallRequested": 10712,
+    "terraceRequested": 160,
+    "area": 9715941.184664696,
+    "areaDelta": 760986.192677483,
+    "volume": 122197985.99695553,
+    "volumeDelta": 3492593.581027955,
+    "elapsedMs": 23218.022
+  },
+  "reports": [
+    {
+      "mode": "enlarge",
+      "target": 2328,
+      "actual": 2328,
+      "attempted": 3686,
+      "limited": 1358,
+      "blockLimit": 0,
+      "remaining": 0
+    },
+    {
+      "mode": "compound",
+      "target": 1164,
+      "actual": 1164,
+      "attempted": 1957,
+      "limited": 635,
+      "blockLimit": 158,
+      "remaining": 0
+    }
+  ]
+}

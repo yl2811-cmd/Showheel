@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "houses": 4834,
+  "certificates": 42549,
+  "baselineHash": "822510d81baaa9ba010ffcab34986d415f749ede4ad4b85c29d457943e74b632",
+  "sampleStepM": 6,
+  "maxGroundVariationM": 1,
+  "maxNaturalVariationM": 3
+}

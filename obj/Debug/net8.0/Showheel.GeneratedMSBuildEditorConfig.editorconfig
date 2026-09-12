@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJjaGVvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/repo/Showheel/Pages/Character.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/repo/Showheel/Pages/Environment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aXJvbm1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "highModelPixelsIdenticalAt0And100": true,
+  "highMeshes": 4587,
+  "highMaskAttributes": 0,
+  "regionalCliffsStillRespond": true,
+  "scope": "regional-cliffs-only",
+  "errors": []
+}

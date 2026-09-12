@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "regional-cliffs-only",
+  "regionalMasksUnchanged": true,
+  "curveAndSavedValuesUnchanged": true,
+  "eyrieMaskRecords": 0,
+  "originalBinaryAssetsUnchanged": 3124,
+  "regional": [
+    92296,
+    101188,
+    113024
+  ],
+  "lods": [
+    135424,
+    79820,
+    54344,
+    36920
+  ],
+  "detailVertices": 0,
+  "collarVertices": 0,
+  "files": 420,
+  "maskBytes": 143760,
+  "configBytes": 67365,
+  "baselineRevision": "atheria-cliff-white-1",
+  "defaultValue": 0
+}

@@ -5,10 +5,10 @@
   if(!manifest.cliffLook)throw Error('缺少崖壁调色配置');
   const bytes=async file=>{if(window.SHOWHEEL_ASSETS)return window.SHOWHEEL_ASSETS.bytes(assetBase+file,signal);const r=await fetch(assetBase+file,{signal});if(!r.ok)throw Error('崖壁参数未能读取：'+file);return r.arrayBuffer();};
   const [json,data]=await Promise.all([bytes(manifest.cliffLook.file),bytes(manifest.cliffLook.masks.file)]),config=JSON.parse(new TextDecoder().decode(json));
-  if(config.version!==1||config.curveRevision!=='warm-rock-1'||JSON.stringify(config.detailBundles)!==JSON.stringify(manifest.eyrieDetail.bundles.map(b=>b.sha256)))throw Error('崖壁遮罩需要随当前模型更新');
+  if(config.version!==1||config.curveRevision!=='warm-rock-1'||config.scope!=='regional-cliffs-only'||Object.keys(config.records).some(id=>!/^t\d+-[0-3]\.bin$/.test(id)))throw Error('崖壁遮罩需要随当前模型更新');
   const ranges=new DataView(data),uniform={value:clamp(config.defaultValue)/100},storageKey='archeon.atheria.cliff-whiteness',key=config.baselineRevision;
   try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved?.baselineRevision===key&&Number.isFinite(saved.value))uniform.value=clamp(saved.value)/100;else localStorage.removeItem(storageKey);}catch{}
-  function state(){return{value:Math.round(uniform.value*100),defaultValue:clamp(config.defaultValue),baselineRevision:key,curveRevision:config.curveRevision,tone:config.tone};}
+  function state(){return{value:Math.round(uniform.value*100),defaultValue:clamp(config.defaultValue),baselineRevision:key,curveRevision:config.curveRevision,tone:config.tone,scope:config.scope};}
   function set(value){uniform.value=clamp(value)/100;try{localStorage.setItem(storageKey,JSON.stringify({baselineRevision:key,value:Math.round(uniform.value*100)}));}catch{}return state();}
   function attach(g,id,sourceSha){const record=config.records[id];if(!record)return;
    if(record.vertices!==g.getAttribute('position').count||sourceSha&&sourceSha!==record.sourceSha256)throw Error('崖壁遮罩与模型不一致：'+id);

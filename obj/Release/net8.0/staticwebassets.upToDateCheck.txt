@@ -3293,7 +3293,7 @@ wwwroot\archeon-atlas\terraform-view.js
 wwwroot\archeon-atlas\space-view.js
 wwwroot\archeon-atlas\space-view.css
 wwwroot\archeon-atlas\space-ui.css
-wwwroot\archeon-atlas\space-controller.js
+wwwroot\archeon-atlas\character-panel.js
 wwwroot\archeon-atlas\space-assets\source\HYG-README.md
 wwwroot\archeon-atlas\space-assets\source\HYG-LICENSE.md
 wwwroot\archeon-atlas\space-assets\source\HYG-DATA-README.md
@@ -6380,4 +6380,6 @@ wwwroot\archeon-atlas\atheria-region.css
 wwwroot\archeon-atlas\atheria-region.js
 wwwroot\story.md
 wwwroot\images\Lia redwood.png
+wwwroot\archeon-atlas\character-panel.css
+wwwroot\archeon-atlas\space-controller.js
 wwwroot\js\character.js

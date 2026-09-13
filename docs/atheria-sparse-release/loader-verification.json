@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "packedLoaderReturnType": "ArrayBuffer",
+  "normalizedType": "Uint8Array",
+  "floatValuesPreserved": true,
+  "shaderChanged": false
+}

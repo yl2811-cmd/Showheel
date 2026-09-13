@@ -1,0 +1,11 @@
+{
+  "city": 0.68,
+  "fieldMin": 0.07,
+  "fieldMax": 0.1,
+  "heightPower": 4,
+  "natural": 1.7,
+  "scales": [
+    180,
+    720
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "method": "Computer-use accessibility and visual inspection",
+  "url": "http://127.0.0.1:8777/archeon-atlas/#view=atheria&focus=neighbourhood",
+  "parameters": {
+    "city": 0.68,
+    "fieldMin": 0.07,
+    "fieldMax": 0.1,
+    "heightPower": 4
+  },
+  "defaultBaselineComparison": false,
+  "displayedCoverageKm2": 127.78,
+  "checkedViews": [
+    "farmland",
+    "neighbourhood"
+  ],
+  "noAbnormalBlackRoofBlocksObserved": true,
+  "sourceViewAlsoChecked": true,
+  "scope": "Observed desktop views; no claim of exhaustive GPU/device coverage"
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "files": [
+    "atheria-controller.js",
+    "atheria-canopy.js",
+    "atheria-canopy-core.js",
+    "atheria-assets/manifest.js",
+    "house-tuning/defaults.json",
+    "atheria-assets/sparse-v1/parameters.json",
+    "atheria-assets/sparse-v1/profile-browser.js",
+    "atheria-assets/sparse-v1/profile-core.js",
+    "atheria-assets/sparse-v1/zones.json",
+    "atheria-assets/sparse-v1/zones.u8",
+    "atheria-assets/canopy-v13/exclusions.json",
+    "atheria-assets/canopy-v13/field.f32",
+    "atheria-assets/canopy-v13/manifest.json",
+    "atheria-assets/canopy-v13/masks.json"
+  ],
+  "unrelatedAssetHashesUnchanged": 4592,
+  "chineseSha256": "2576cb48b2a458694910bb251a9834a4e660bba3cde79b3829bf2f04bed81aa5",
+  "englishSha256": "7b818efa84d0239321f0e53626979b98e906d6467926720ec82d1cc2706231eb"
+}

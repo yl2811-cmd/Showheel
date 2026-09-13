@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "parameters": {
+    "city": 0.68,
+    "fieldMin": 0.07,
+    "fieldMax": 0.1,
+    "heightPower": 4,
+    "natural": 1.7,
+    "scales": [
+      180,
+      720
+    ]
+  },
+  "shaderSha256": "1b0fc049610fa336eb31d95d4bb7057c150ab60ebb7c5ae4bd9c9d8a10e327d0",
+  "shaderUnchanged": true,
+  "unchanged": [
+    {
+      "file": "atheria-canopy-core.js",
+      "sha256": "ba74ba87c8a655dd0674bad92109439628e083f94b993b76c7d37316990e376a"
+    },
+    {
+      "file": "atheria-region.js",
+      "sha256": "42707679edefb71b7daca727c69d4bc6c18246af460213b67d30a7221cb81f79"
+    },
+    {
+      "file": "atheria-cliff-look.js",
+      "sha256": "bed4c6e10d44e0aa08c22b191e1f4fc22a6fc02e2e42d26ac52d49ac9423d128"
+    },
+    {
+      "file": "house-tuning/ui.js",
+      "sha256": "b9d4f43a9d46ecdafb98d58f1e9e4bf911f8a64ac168ea3c2f9b2563836f8c0f"
+    },
+    {
+      "file": "house-tuning/runtime.js",
+      "sha256": "786684764bac59f46584670b1e79282194d8f43ddcd69325298e8b3609bc000f"
+    },
+    {
+      "file": "house-tuning/geometry.js",
+      "sha256": "13b41123f3c41aa4fab5ac3a3b4e64e6a2be3d85a8389c33bbfbb537ecc4da87"
+    },
+    {
+      "file": "house-tuning/core.js",
+      "sha256": "35d4aaa82758916d70333ace2edb09ad18e282f649c77e634abf70a4883824d7"
+    },
+    {
+      "file": "house-tuning/defaults.json",
+      "sha256": "cc1fe0cbc9a7c0ac8916ce81ab3e88272de22ee0f52451428382d73a0a040f01"
+    },
+    {
+      "file": "atheria-assets/canopy-v13/field.f32",
+      "sha256": "707e5e0e8679a7b807fcaa54ede8dca2684be92034f15822ed21d1335437e712"
+    }
+  ]
+}

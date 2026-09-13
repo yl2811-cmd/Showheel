@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "parameters": {
+    "city": 0.68,
+    "fieldMin": 0.07,
+    "fieldMax": 0.1,
+    "heightPower": 4,
+    "natural": 1.7,
+    "scales": [
+      180,
+      720
+    ]
+  },
+  "acceptedAt": "2026-09-13T20:30:05.739Z",
+  "source": "User final correction: fields 0.07–0.10; city 0.68 and height power 4 unchanged"
+}

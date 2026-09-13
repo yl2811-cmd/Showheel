@@ -97,6 +97,7 @@ addDirectory('space-assets', '.md');
 for(const f of ['orun-controller.js','orun-hydrology-v5.js','orun-hydrology.js','orun-water-mesh.js','orun-clouds-v5.js','orun-clouds.js','orun-cloud-view.js','orun-cloud-worker.js','orun-core.js','orun-landforms.js','orun-surface.js','orun-material-lod.js','orun-mesh.js','orun-view.js','orun-worker.js','orun.css'])files.add(f);
 const orunJSON=rel=>{files.add('orun-assets/'+rel);return JSON.parse(fs.readFileSync(path.join(source,'orun-assets',rel),'utf8'));};
 for(const f of ['atheria-canopy-core.js','atheria-canopy.js','orun-canopy.js','orun-climate.js','orun-drainage.js','orun-evolution.js','orun-environment.js','orun-collectors.js','orun-lakes.js','orun-watershed.js','orun-biomes.js','orun-hydrology-v6.js'])files.add(f);for(const ext of ['.json','.f32'])addDirectory('atheria-assets/'+path.posix.dirname(regionContext.window.ATHERIA_REGION_MANIFEST.canopy.manifestFile),ext);
+if(regionContext.window.ATHERIA_REGION_MANIFEST.canopy.sparse)for(const ext of ['.js','.json','.u8'])addDirectory('atheria-assets/'+path.posix.dirname(regionContext.window.ATHERIA_REGION_MANIFEST.canopy.sparse.manifestFile),ext);
 for(const f of ['terrain/orun-windward-projections.json','space-assets/archeon-texture-provenance.json','space-assets/archeon-equirectangular-4096.png','space-assets/archeon-equirectangular-preview.png'])files.add(f);
 const oi=orunJSON('input.json'),om=orunJSON('manifest.json');
 for(const k of ['heightFile','environmentFile','authorBandsFile','regionalInflowFile'])if(oi[k])files.add('orun-assets/'+oi[k]);

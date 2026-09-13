@@ -1,9 +1,13 @@
 {
-  "checkedAt": "2026-09-13T19:33:18.7057321Z",
+  "checkedAt": "2026-09-13T19:41:54.8892986Z",
   "branch": "codex/archeon-atlas",
-  "openPullRequests": [],
-  "deploymentWorkflowPushBranches": [
-    "main"
-  ],
-  "branchPushDirectlyDeploys": false
+  "commit": "63badc815b2156aa0a3046a7d9e7997c4c6e13ea",
+  "remoteCommit": "63badc815b2156aa0a3046a7d9e7997c4c6e13ea",
+  "pushVerified": true,
+  "commitUrl": "https://github.com/yl2811-cmd/Showheel/commit/63badc815b2156aa0a3046a7d9e7997c4c6e13ea",
+  "workflowRuns": [],
+  "deployments": [],
+  "deploymentResult": "No Azure deployment triggered: this branch has no open pull request and the workflow push trigger is main.",
+  "previewUrl": "http://127.0.0.1:8772/archeon-atlas/?release=63badc8#view=atheria&focus=compounds",
+  "compressedBytes": 931407652
 }

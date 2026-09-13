@@ -94,13 +94,13 @@ addDirectory('data/contours', '.js');
 addDirectory('data/hydrology', '.js');
 addDirectory('space-assets', '.md');
 // Orun dependencies: follow manifests and only copy browser inputs.
-for(const f of ['orun-controller.js','orun-core.js','orun-landforms.js','orun-surface.js','orun-material-lod.js','orun-mesh.js','orun-view.js','orun-worker.js','orun.css'])files.add(f);
+for(const f of ['orun-controller.js','orun-hydrology-v5.js','orun-hydrology.js','orun-water-mesh.js','orun-clouds-v5.js','orun-clouds.js','orun-cloud-view.js','orun-cloud-worker.js','orun-core.js','orun-landforms.js','orun-surface.js','orun-material-lod.js','orun-mesh.js','orun-view.js','orun-worker.js','orun.css'])files.add(f);
 const orunJSON=rel=>{files.add('orun-assets/'+rel);return JSON.parse(fs.readFileSync(path.join(source,'orun-assets',rel),'utf8'));};
 const oi=orunJSON('input.json'),om=orunJSON('manifest.json');
 for(const k of ['heightFile','environmentFile','authorBandsFile'])if(oi[k])files.add('orun-assets/'+oi[k]);
 for(const f of Object.values(om.fields))files.add('orun-assets/'+f.file);
 const mask=orunJSON(oi.maskManifestFile);files.add('orun-assets/'+path.posix.join(path.posix.dirname(oi.maskManifestFile),mask.dataFile));
-for(const file of [oi.landformManifestFile,oi.surfaceManifestFile]){if(!file)continue;const m=orunJSON(file),dir=path.posix.dirname(file),add=r=>files.add('orun-assets/'+path.posix.join(dir,r));for(const f of Object.values(m.fields||{}))add(f.file);for(const l of m.levels||[])add(l.file);if(m.dataFile)add(m.dataFile);for(const r of m.dataFiles||[])add(r.file);for(const r of m.preColor?.dataFiles||[])add(r.file);}
+for(const file of [oi.landformManifestFile,oi.surfaceManifestFile,oi.hydrologyManifestFile]){if(!file)continue;const m=orunJSON(file),dir=path.posix.dirname(file),add=r=>files.add('orun-assets/'+path.posix.join(dir,r));for(const f of Object.values(m.fields||{}))add(f.file);for(const l of m.levels||[])add(l.file);if(m.dataFile)add(m.dataFile);for(const r of m.dataFiles||[])add(r.file);for(const r of m.preColor?.dataFiles||[])add(r.file);for(const r of Object.values(m.preColor?.fields||{}))add(r.file);}
 for (const relative of files) {
   if (!fs.statSync(sourcePath(relative)).isFile()) throw Error('Missing dependency: ' + relative);
 }

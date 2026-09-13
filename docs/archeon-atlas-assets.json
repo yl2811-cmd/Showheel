@@ -27114,9 +27114,9 @@
     },
     {
       "path": "orun-assets/input.json",
-      "bytes": 12459,
-      "sourceSha256": "4969ee36c90706080d13ac87255ef0ee0d752df05c59f707e95c2f0fcdcf38c2",
-      "sha256": "4969ee36c90706080d13ac87255ef0ee0d752df05c59f707e95c2f0fcdcf38c2"
+      "bytes": 12508,
+      "sourceSha256": "dadc6cbd9bb4033f648ae8d0b56270afa8e1782415c0c05b6481b21dbfa17905",
+      "sha256": "dadc6cbd9bb4033f648ae8d0b56270afa8e1782415c0c05b6481b21dbfa17905"
     },
     {
       "path": "orun-assets/landforms-v3/area.f32",
@@ -27210,9 +27210,9 @@
     },
     {
       "path": "orun-assets/manifest.json",
-      "bytes": 36588,
-      "sourceSha256": "0ef1b8b75ebc3d184249868cb63db412b0d8951bd2d5f6418eabf1457e86279a",
-      "sha256": "0ef1b8b75ebc3d184249868cb63db412b0d8951bd2d5f6418eabf1457e86279a"
+      "bytes": 36908,
+      "sourceSha256": "a1885d28eecf663f52f99651f433df0884309fb7ff722866e8cdb488d80eb5af",
+      "sha256": "a1885d28eecf663f52f99651f433df0884309fb7ff722866e8cdb488d80eb5af"
     },
     {
       "path": "orun-assets/native-height.f32",
@@ -27281,16 +27281,118 @@
       "sha256": "32c7b05343fb7feb749ee77896e80c1bd2b5614d46ad6a6d1c01fe011c635abb"
     },
     {
+      "path": "orun-assets/water-v6/ecology-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "0fc49eb5dd8aaba2d6430e4f08503505a78f8a88e7b642cf62031be834c8a5ee",
+      "sha256": "0fc49eb5dd8aaba2d6430e4f08503505a78f8a88e7b642cf62031be834c8a5ee"
+    },
+    {
+      "path": "orun-assets/water-v6/ecology-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "33e1eaeabbfd917decf960a7fd28d9b352719f81bba876eac379244359cc932a",
+      "sha256": "33e1eaeabbfd917decf960a7fd28d9b352719f81bba876eac379244359cc932a"
+    },
+    {
+      "path": "orun-assets/water-v6/ecology-02.f32",
+      "bytes": 33554432,
+      "sourceSha256": "220bb4f4ed23b229a489e5f114c3a7b93420d91f75d9655250ee11292c2b9d8a",
+      "sha256": "220bb4f4ed23b229a489e5f114c3a7b93420d91f75d9655250ee11292c2b9d8a"
+    },
+    {
+      "path": "orun-assets/water-v6/ecology-03.f32",
+      "bytes": 14934720,
+      "sourceSha256": "8ff83252f71e0d752f50f882f701c54cda4033f26c9f457dda209efd062d51f8",
+      "sha256": "8ff83252f71e0d752f50f882f701c54cda4033f26c9f457dda209efd062d51f8"
+    },
+    {
+      "path": "orun-assets/water-v6/ecology-indices.i32",
+      "bytes": 12845056,
+      "sourceSha256": "8c166eb2ee1db860308921d42439d1b0000939e37fbcae87a5312835d68625b9",
+      "sha256": "8c166eb2ee1db860308921d42439d1b0000939e37fbcae87a5312835d68625b9"
+    },
+    {
+      "path": "orun-assets/water-v6/manifest.json",
+      "bytes": 18106236,
+      "sourceSha256": "0c03e0d529c0d7c1f1d74eab532282706c747c44fd3c4516c8c6b89129d618c0",
+      "sha256": "0c03e0d529c0d7c1f1d74eab532282706c747c44fd3c4516c8c6b89129d618c0"
+    },
+    {
+      "path": "orun-assets/water-v6/water-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "569de28c684aaf3e7039ecc760472af36014d26f17caab78563d60f939889904",
+      "sha256": "569de28c684aaf3e7039ecc760472af36014d26f17caab78563d60f939889904"
+    },
+    {
+      "path": "orun-assets/water-v6/water-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "dc02ca5f37bab9c021120c06e52922b899cbaf1d9e48c2d01149128933c590a4",
+      "sha256": "dc02ca5f37bab9c021120c06e52922b899cbaf1d9e48c2d01149128933c590a4"
+    },
+    {
+      "path": "orun-assets/water-v6/water-02.f32",
+      "bytes": 33554432,
+      "sourceSha256": "eb70b27c9665ec7a3939e2f75700365e2e1681acdb2b7233d89f7b12ba8433c4",
+      "sha256": "eb70b27c9665ec7a3939e2f75700365e2e1681acdb2b7233d89f7b12ba8433c4"
+    },
+    {
+      "path": "orun-assets/water-v6/water-03.f32",
+      "bytes": 33554432,
+      "sourceSha256": "4bf432cb4d0de2c4f449721904bfdcc3e2d7bb782b7af5ecb95048eb5d00614e",
+      "sha256": "4bf432cb4d0de2c4f449721904bfdcc3e2d7bb782b7af5ecb95048eb5d00614e"
+    },
+    {
+      "path": "orun-assets/water-v6/water-04.f32",
+      "bytes": 20095024,
+      "sourceSha256": "d7b2bd6545c70cde8b75476708b64beb646fa3b09bd4c3507266d370d1a0c23b",
+      "sha256": "d7b2bd6545c70cde8b75476708b64beb646fa3b09bd4c3507266d370d1a0c23b"
+    },
+    {
+      "path": "orun-cloud-view.js",
+      "bytes": 7594,
+      "sourceSha256": "26c0c23576d1b3d1e727d23159cc8f3eaa85d8e34abeebe21744fbdbc4ea239e",
+      "sha256": "26c0c23576d1b3d1e727d23159cc8f3eaa85d8e34abeebe21744fbdbc4ea239e"
+    },
+    {
+      "path": "orun-cloud-worker.js",
+      "bytes": 566,
+      "sourceSha256": "5a576b64a8cf85b644f3fb110857c635ffbc6aab3c69b7da7f31d4759aead51a",
+      "sha256": "5a576b64a8cf85b644f3fb110857c635ffbc6aab3c69b7da7f31d4759aead51a"
+    },
+    {
+      "path": "orun-clouds-v5.js",
+      "bytes": 5434,
+      "sourceSha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404",
+      "sha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404"
+    },
+    {
+      "path": "orun-clouds.js",
+      "bytes": 5874,
+      "sourceSha256": "f93f1703a0877ee6fb6da27722fcbabd920265530c23a5227727d964a90f22d7",
+      "sha256": "f93f1703a0877ee6fb6da27722fcbabd920265530c23a5227727d964a90f22d7"
+    },
+    {
       "path": "orun-controller.js",
-      "bytes": 15941,
-      "sourceSha256": "734617e197863795be6ec29d3ce74395154458620a89be9195d6fb787f824cff",
-      "sha256": "29696c5259a4bea2a8bcd0e65d3e214b19aa3f65019d1c0864d99ab962bc3528"
+      "bytes": 17271,
+      "sourceSha256": "b33235f6ace36d747eb94779f2c90d5189c4562ef83b7f3f8619709cba113019",
+      "sha256": "44ac94cfb2c00013d9ee8fe5ea90cbae7c20e77b161411378d3bd9d34f3d1d41"
     },
     {
       "path": "orun-core.js",
-      "bytes": 46560,
-      "sourceSha256": "fa14f17a17adccc574e410e592fbabc8fd405b55dd1d02e9a1e3d5e29e86e7b9",
-      "sha256": "fa14f17a17adccc574e410e592fbabc8fd405b55dd1d02e9a1e3d5e29e86e7b9"
+      "bytes": 48088,
+      "sourceSha256": "b43e21523f96bbce53a18feff8530ba8a7d2b7e832d9817bd89aa1257eb895d7",
+      "sha256": "b43e21523f96bbce53a18feff8530ba8a7d2b7e832d9817bd89aa1257eb895d7"
+    },
+    {
+      "path": "orun-hydrology-v5.js",
+      "bytes": 11534,
+      "sourceSha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c",
+      "sha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c"
+    },
+    {
+      "path": "orun-hydrology.js",
+      "bytes": 15892,
+      "sourceSha256": "7eaded9270d4a76fcc7340dd5078002b3725bd74cc85b9811e3a09a434011e7e",
+      "sha256": "7eaded9270d4a76fcc7340dd5078002b3725bd74cc85b9811e3a09a434011e7e"
     },
     {
       "path": "orun-landforms.js",
@@ -27306,27 +27408,33 @@
     },
     {
       "path": "orun-mesh.js",
-      "bytes": 10680,
-      "sourceSha256": "07e06066a3e4e6c84be3c1ec662c60c6da16846b36409906494dbcfe41fe3cc4",
-      "sha256": "07e06066a3e4e6c84be3c1ec662c60c6da16846b36409906494dbcfe41fe3cc4"
+      "bytes": 11547,
+      "sourceSha256": "261d99411e3b5e02b5d545ec548ecd371c62850dcd069265af2bbe9bd93bf689",
+      "sha256": "261d99411e3b5e02b5d545ec548ecd371c62850dcd069265af2bbe9bd93bf689"
     },
     {
       "path": "orun-surface.js",
-      "bytes": 16348,
-      "sourceSha256": "174eba07f59b60ca5b75be9f5b7873f997d2e81facacf1d4db6f04d6283d7d8f",
-      "sha256": "174eba07f59b60ca5b75be9f5b7873f997d2e81facacf1d4db6f04d6283d7d8f"
+      "bytes": 19999,
+      "sourceSha256": "82836736410240e0dac8a24f9cbc5762fb8ae1d8a2ad5a64bebf0982b726140f",
+      "sha256": "82836736410240e0dac8a24f9cbc5762fb8ae1d8a2ad5a64bebf0982b726140f"
     },
     {
       "path": "orun-view.js",
-      "bytes": 22774,
-      "sourceSha256": "89b0e5e7db2cfe2ee32bb739e88c7a57a2033df6a5c9fbcd82b7a4b29220c9b8",
-      "sha256": "89b0e5e7db2cfe2ee32bb739e88c7a57a2033df6a5c9fbcd82b7a4b29220c9b8"
+      "bytes": 23709,
+      "sourceSha256": "e506e22a6bf9414d45e9b5d28cfb5a1f1c1408fb4662af53dbfc90b7b066d469",
+      "sha256": "e506e22a6bf9414d45e9b5d28cfb5a1f1c1408fb4662af53dbfc90b7b066d469"
+    },
+    {
+      "path": "orun-water-mesh.js",
+      "bytes": 3805,
+      "sourceSha256": "0a3376607170c008c5534fd5711ad38d1fcc76fbc71251f06f29e260eb262e3e",
+      "sha256": "0a3376607170c008c5534fd5711ad38d1fcc76fbc71251f06f29e260eb262e3e"
     },
     {
       "path": "orun-worker.js",
-      "bytes": 2857,
-      "sourceSha256": "5f7e3d8bf54d2359f913ffe812d0656daf2703d999ba156d58dbaf8aa974d2a2",
-      "sha256": "5f7e3d8bf54d2359f913ffe812d0656daf2703d999ba156d58dbaf8aa974d2a2"
+      "bytes": 3259,
+      "sourceSha256": "8c6979092d18ab2715c9c98126e2a387fb7a34648d5664702f5d453bfcc26e43",
+      "sha256": "8c6979092d18ab2715c9c98126e2a387fb7a34648d5664702f5d453bfcc26e43"
     },
     {
       "path": "orun.css",

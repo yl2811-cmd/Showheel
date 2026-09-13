@@ -1,0 +1,93 @@
+[
+  {
+    "name": "No recharge or source leaves a flat dry",
+    "pass": true
+  },
+  {
+    "name": "Rotated slopes route water downhill, preserving every ground value",
+    "pass": true
+  },
+  {
+    "name": "Two tributaries share one downstream reach and sum their discharge",
+    "pass": true
+  },
+  {
+    "name": "Disconnected dry land does not borrow perennial river support",
+    "pass": true
+  },
+  {
+    "name": "Altitude changes plant composition continuously",
+    "pass": true,
+    "details": [
+      {
+        "grass": 0.42240000145467127,
+        "canopy": 0.11733333296034072
+      },
+      {
+        "grass": 0.4242818183843674,
+        "canopy": 0.11393560795842884
+      },
+      {
+        "grass": 0.48268660978418154,
+        "canopy": 0.008482512687019644
+      }
+    ]
+  },
+  {
+    "name": "Schema five keeps legacy water and schema six uses the new habitat",
+    "pass": true
+  },
+  {
+    "name": "Water has face-uniform blue color and an exposed thickness at drops",
+    "pass": true,
+    "details": {
+      "patches": 2,
+      "falls": 1,
+      "minimumClearanceM": 1.2,
+      "routes": 1,
+      "lakePatches": 0
+    }
+  },
+  {
+    "name": "Clouds use 200 metre cubes, wide coverage and thin connected stacks",
+    "pass": true,
+    "details": {
+      "low": {
+        "algorithm": "block-cloud-v4-200m",
+        "time": 0,
+        "voxelEdgeM": 200,
+        "voxels": 34759,
+        "exposedQuads": 42724,
+        "mergedQuads": 14571,
+        "minimumBottomM": 1000,
+        "maximumTopM": 4000,
+        "clippedVoxels": 0,
+        "windDeflectedColumns": 0,
+        "coverageParameter": 0.35,
+        "columns": 196364,
+        "occupiedColumns": 17262,
+        "maximumConnectedStackM": 600,
+        "coverage": 0.08790817054042492,
+        "triangles": 29142
+      },
+      "high": {
+        "algorithm": "block-cloud-v4-200m",
+        "time": 0,
+        "voxelEdgeM": 200,
+        "voxels": 399239,
+        "exposedQuads": 415168,
+        "mergedQuads": 76247,
+        "minimumBottomM": 1000,
+        "maximumTopM": 4000,
+        "clippedVoxels": 0,
+        "windDeflectedColumns": 0,
+        "coverageParameter": 1,
+        "columns": 196364,
+        "occupiedColumns": 146042,
+        "maximumConnectedStackM": 600,
+        "coverage": 0.743731030127722,
+        "triangles": 152494
+      }
+    }
+  }
+]

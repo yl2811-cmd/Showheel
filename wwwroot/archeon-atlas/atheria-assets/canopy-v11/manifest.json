@@ -1,0 +1,187 @@
+{
+  "version": 11,
+  "min": -20032,
+  "step": 32,
+  "n": 1252,
+  "stride": 12,
+  "baselineGroundAreaM2": 97194152.39756203,
+  "baselineRoofAreaM2": 4187.574528364792,
+  "baselineTotalAreaM2": 97198339.9720904,
+  "baselineWoodlandSha256": "1ac3b0b99bc62dd47b81efeb3ca34a9aac96a0df70564744cfd83e83e9ca11fb",
+  "defaultDensity": 1.7,
+  "source": "Fixed pre-change finest woodland crown area, with separate rooftop inventory",
+  "dataFile": "field.f32",
+  "maskFile": "masks.json",
+  "dataSha256": "d2593f307ec0f048efbb960dc46a43cabb08ac87eec905adafee096471a5a9d8",
+  "dataBytes": 75240192,
+  "verifiedOriginalCrownRanges": 36552,
+  "noise": {
+    "algorithm": "fixed-world-multiscale-density-v1",
+    "scalesM": [
+      [
+        720,
+        650
+      ],
+      [
+        180,
+        210
+      ],
+      [
+        48,
+        53
+      ]
+    ],
+    "weights": [
+      0.52,
+      0.29,
+      0.19
+    ],
+    "contrastInterval": [
+      0.33,
+      0.68
+    ],
+    "contrastPower": 3.2,
+    "gainRange": [
+      0.015,
+      5.015
+    ],
+    "fieldStepM": 32,
+    "appliesTo": "tree coverage and expansion weight; pigment and relief follow the resulting density",
+    "heightRepresentation": "10–20 m mature crowns; rapid occupancy threshold, footprint carries density"
+  },
+  "coefficients": {
+    "0": 0,
+    "1": 0,
+    "2": 0.10079987109963895,
+    "3": 0.20910172500492763,
+    "4": 0.36132881794674176,
+    "5": 0.6849517033762709,
+    "0.1": 0,
+    "0.2": 0,
+    "0.3": 0,
+    "0.4": 0,
+    "0.5": 0,
+    "0.6": 0,
+    "0.7": 0,
+    "0.8": 0,
+    "0.9": 0,
+    "1.1": 0.008977689805874434,
+    "1.2": 0.018890976057434727,
+    "1.3": 0.028956904319045407,
+    "1.4": 0.03907926836285469,
+    "1.5": 0.04924893766445848,
+    "1.6": 0.0594657397859919,
+    "1.7": 0.06972989530856921,
+    "1.8": 0.08003966389333073,
+    "1.9": 0.09039729811411235,
+    "2.1": 0.11125161219933943,
+    "2.2": 0.12175208294172535,
+    "2.3": 0.1323028700628015,
+    "2.4": 0.14290706635415518,
+    "2.5": 0.15357872400932138,
+    "2.6": 0.16434449456596667,
+    "2.7": 0.17523712631486887,
+    "2.8": 0.1862936963217976,
+    "2.9": 0.19755699774992763,
+    "3.1": 0.22102436916020451,
+    "3.2": 0.2333925875165619,
+    "3.3": 0.24628577682307196,
+    "3.4": 0.2597493197482095,
+    "3.5": 0.2739069295998888,
+    "3.6": 0.2889979936396685,
+    "3.7": 0.30518439442153067,
+    "3.8": 0.3225153452798395,
+    "3.9": 0.34113739574934243,
+    "4.1": 0.3835508117573454,
+    "4.2": 0.4077537307967418,
+    "4.3": 0.4340377698355269,
+    "4.4": 0.4624793530294937,
+    "4.5": 0.49314332441019815,
+    "4.6": 0.5261070975864186,
+    "4.7": 0.5615461749924862,
+    "4.8": 0.5997080754285093,
+    "4.9": 0.6407815365471379
+  },
+  "verification": [
+    {
+      "requested": 0,
+      "groundAreaM2": 0,
+      "groundRatio": 0,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 1,
+      "groundAreaM2": 97194152.4030544,
+      "groundRatio": 1.0000000000565092,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 1.7,
+      "groundAreaM2": 165230059.07586855,
+      "groundRatio": 1.7000000000001347,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 2.5,
+      "groundAreaM2": 242985380.99392787,
+      "groundRatio": 2.5000000000002345,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 5,
+      "groundAreaM2": 485970761.98781395,
+      "groundRatio": 5.000000000000039,
+      "maximumAreaM2": 1051334528.3049319
+    }
+  ],
+  "distribution": {
+    "atDensity": 2.5,
+    "bins": {
+      "open": 401413,
+      "sparse": 377407,
+      "mixed": 262128,
+      "dense": 136227
+    },
+    "farmBins": {
+      "open": 305175,
+      "sparse": 130272,
+      "mixed": 119373,
+      "dense": 46568
+    },
+    "farmCells": 601388,
+    "denseFarmShare": 0.07743420221221574
+  },
+  "placementWeights": {
+    "field": 4,
+    "terrace": 1,
+    "natural": 1,
+    "normalization": 0.4,
+    "fieldMultiplier": 1.6,
+    "terraceMultiplier": 0.4
+  },
+  "materialVariation": {
+    "algorithm": "world-fractal-canopy-tint",
+    "scalesM": [
+      140,
+      45,
+      13
+    ],
+    "maximumBrightnessDeviation": 0.05,
+    "hueDeviation": 0.02
+  },
+  "crownGeometry": {
+    "cellM": 32,
+    "typicalOpenGapM": [
+      20,
+      26
+    ],
+    "heightRangeM": [
+      10,
+      20
+    ],
+    "terraceHeightM": 6,
+    "rareGroves": true,
+    "coverageMeasure": "deduplicated footprint after default building and passage exclusions",
+    "clippedCells": 34601
+  }
+}

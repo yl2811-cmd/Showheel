@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Showheel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94c74249ebe1f3829a836c24dffca65809fb80de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+082d7f1f22849864361249d93b1267ecdcfabe94")]
 [assembly: System.Reflection.AssemblyProductAttribute("Showheel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Showheel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -27,25 +27,25 @@
       "sha256": "9b1b6c0eab22defdfbad876e87c9b52dc0a42906369adcb44aa5b44c0f36a780"
     },
     {
-      "path": "atheria-assets/canopy-v14/exclusions.json",
+      "path": "atheria-assets/canopy-v13/exclusions.json",
       "bytes": 5859374,
       "sourceSha256": "33e7f311c13e7ba542c0a5e523e8de7f5fb48f8902404f1d6e40d69fe44151f3",
       "sha256": "33e7f311c13e7ba542c0a5e523e8de7f5fb48f8902404f1d6e40d69fe44151f3"
     },
     {
-      "path": "atheria-assets/canopy-v14/field.f32",
+      "path": "atheria-assets/canopy-v13/field.f32",
       "bytes": 75240192,
-      "sourceSha256": "df2694913f2672d0aba7cf763971d91c65c9300dc7025754d79500a91329b9fc",
-      "sha256": "df2694913f2672d0aba7cf763971d91c65c9300dc7025754d79500a91329b9fc"
+      "sourceSha256": "707e5e0e8679a7b807fcaa54ede8dca2684be92034f15822ed21d1335437e712",
+      "sha256": "707e5e0e8679a7b807fcaa54ede8dca2684be92034f15822ed21d1335437e712"
     },
     {
-      "path": "atheria-assets/canopy-v14/manifest.json",
-      "bytes": 6223,
-      "sourceSha256": "eccee29a65020d74cff9f7a3eb705a51456b178c4d6f711c0ff2a3e5136a9d9c",
-      "sha256": "eccee29a65020d74cff9f7a3eb705a51456b178c4d6f711c0ff2a3e5136a9d9c"
+      "path": "atheria-assets/canopy-v13/manifest.json",
+      "bytes": 5241,
+      "sourceSha256": "1af82e54805d1bda4c79aa622ecaf188a8de22f8f5ac20c9697b7054f4ad3128",
+      "sha256": "1af82e54805d1bda4c79aa622ecaf188a8de22f8f5ac20c9697b7054f4ad3128"
     },
     {
-      "path": "atheria-assets/canopy-v14/masks.json",
+      "path": "atheria-assets/canopy-v13/masks.json",
       "bytes": 788260,
       "sourceSha256": "991791e7042cc7b4d521a065c775db97778af26900f997a440014eb2b4cb4437",
       "sha256": "991791e7042cc7b4d521a065c775db97778af26900f997a440014eb2b4cb4437"
@@ -190,15 +190,45 @@
     },
     {
       "path": "atheria-assets/manifest.js",
-      "bytes": 1469302,
-      "sourceSha256": "53b13c195f43458bdc57b526e39ec5097fa2e3576fe8ba47f3fba8fef4cd1260",
-      "sha256": "53b13c195f43458bdc57b526e39ec5097fa2e3576fe8ba47f3fba8fef4cd1260"
+      "bytes": 1468922,
+      "sourceSha256": "4626b754e2556b8b9e7160530518972f8378252e0d7f99aac3f8fd386311b3d6",
+      "sha256": "4626b754e2556b8b9e7160530518972f8378252e0d7f99aac3f8fd386311b3d6"
     },
     {
       "path": "atheria-assets/roof-trees.json",
       "bytes": 123550,
       "sourceSha256": "3f7bf61843b744fec5a9b7947e0ff83b5919befba80d3aa76c03df0c003cf6e6",
       "sha256": "3f7bf61843b744fec5a9b7947e0ff83b5919befba80d3aa76c03df0c003cf6e6"
+    },
+    {
+      "path": "atheria-assets/sparse-v1/parameters.json",
+      "bytes": 328,
+      "sourceSha256": "6cd92e2b451cf4b05eb5789ca76c6ed34519b7431f5981ce33cf41ebb122f789",
+      "sha256": "6cd92e2b451cf4b05eb5789ca76c6ed34519b7431f5981ce33cf41ebb122f789"
+    },
+    {
+      "path": "atheria-assets/sparse-v1/profile-browser.js",
+      "bytes": 5457,
+      "sourceSha256": "da8b5fe6a16c1d3705de2abf3fe12de7466347cf46a0513dcaca0592368dc85c",
+      "sha256": "da8b5fe6a16c1d3705de2abf3fe12de7466347cf46a0513dcaca0592368dc85c"
+    },
+    {
+      "path": "atheria-assets/sparse-v1/profile-core.js",
+      "bytes": 2664,
+      "sourceSha256": "f27bd14276c6f15cb5aa2d5db9d1fc3c6434c102907798b9a42658c7b68ba2e2",
+      "sha256": "f27bd14276c6f15cb5aa2d5db9d1fc3c6434c102907798b9a42658c7b68ba2e2"
+    },
+    {
+      "path": "atheria-assets/sparse-v1/zones.json",
+      "bytes": 234,
+      "sourceSha256": "c91ebe4f4f2e1dbb7210775ac79273650c62ce692e34aa9a3d7b0f653bb140d1",
+      "sha256": "c91ebe4f4f2e1dbb7210775ac79273650c62ce692e34aa9a3d7b0f653bb140d1"
+    },
+    {
+      "path": "atheria-assets/sparse-v1/zones.u8",
+      "bytes": 4702512,
+      "sourceSha256": "66c3591e62f29c1df3269fa9bf20e3616324924849c0f86f0a9755b1905d8d46",
+      "sha256": "66c3591e62f29c1df3269fa9bf20e3616324924849c0f86f0a9755b1905d8d46"
     },
     {
       "path": "atheria-assets/t0-0.bin",
@@ -8386,15 +8416,15 @@
     },
     {
       "path": "atheria-canopy-core.js",
-      "bytes": 10943,
-      "sourceSha256": "7d8ff155fa9d1a7f085a00e083b35d28ec8e11b41862ddefbd3f7535c7ecdc4b",
-      "sha256": "7d8ff155fa9d1a7f085a00e083b35d28ec8e11b41862ddefbd3f7535c7ecdc4b"
+      "bytes": 10756,
+      "sourceSha256": "ba74ba87c8a655dd0674bad92109439628e083f94b993b76c7d37316990e376a",
+      "sha256": "ba74ba87c8a655dd0674bad92109439628e083f94b993b76c7d37316990e376a"
     },
     {
       "path": "atheria-canopy.js",
-      "bytes": 12819,
-      "sourceSha256": "269bb257c15cfcfb5c1c979895bd487031f6df0adbe92c28e45a35e9adfc4d94",
-      "sha256": "269bb257c15cfcfb5c1c979895bd487031f6df0adbe92c28e45a35e9adfc4d94"
+      "bytes": 12912,
+      "sourceSha256": "ee625be155711aa054d4e161b7fb5eae97d290681d55f33bd42378f79746ae0e",
+      "sha256": "ee625be155711aa054d4e161b7fb5eae97d290681d55f33bd42378f79746ae0e"
     },
     {
       "path": "atheria-cliff-look.js",
@@ -8404,9 +8434,9 @@
     },
     {
       "path": "atheria-controller.js",
-      "bytes": 10721,
-      "sourceSha256": "3cedbdd6cb4a79155866c921fc9bafbc5ec825af6483c1f2c3c1017578cb352a",
-      "sha256": "3cedbdd6cb4a79155866c921fc9bafbc5ec825af6483c1f2c3c1017578cb352a"
+      "bytes": 10866,
+      "sourceSha256": "669598aa31e5788048d3095484ba0cb1e7e29e8908c6ba2c6d11b10412dc3548",
+      "sha256": "669598aa31e5788048d3095484ba0cb1e7e29e8908c6ba2c6d11b10412dc3548"
     },
     {
       "path": "atheria-region.css",
@@ -8425,6 +8455,20 @@
       "bytes": 7935,
       "sourceSha256": "e566b87f3512a7b7a05796e2be98adf1a38dccd183bf2de9e05f7028d006b381",
       "sha256": "e566b87f3512a7b7a05796e2be98adf1a38dccd183bf2de9e05f7028d006b381"
+    },
+    {
+      "path": "character-panel.css",
+      "bytes": 2117,
+      "sourcePath": "scripts/atlas-character/character-panel.css",
+      "sourceSha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603",
+      "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
+    },
+    {
+      "path": "character-panel.js",
+      "bytes": 2381,
+      "sourcePath": "scripts/atlas-character/character-panel.js",
+      "sourceSha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6",
+      "sha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6"
     },
     {
       "path": "colonization-model.js",
@@ -18646,9 +18690,9 @@
     },
     {
       "path": "house-tuning/defaults.json",
-      "bytes": 3907,
-      "sourceSha256": "ba925374eb1d66e4852750385c1c44e6a60bd3a3c11f8ea16a15a3b530f3da18",
-      "sha256": "ba925374eb1d66e4852750385c1c44e6a60bd3a3c11f8ea16a15a3b530f3da18"
+      "bytes": 3130,
+      "sourceSha256": "cc1fe0cbc9a7c0ac8916ce81ab3e88272de22ee0f52451428382d73a0a040f01",
+      "sha256": "cc1fe0cbc9a7c0ac8916ce81ab3e88272de22ee0f52451428382d73a0a040f01"
     },
     {
       "path": "house-tuning/geometry.js",
@@ -19263,42 +19307,6 @@
       "sha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1"
     },
     {
-      "path": "space-assets/COLONIZATION.md",
-      "bytes": 10945,
-      "sourceSha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766",
-      "sha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766"
-    },
-    {
-      "path": "space-assets/FEDERATION.md",
-      "bytes": 7842,
-      "sourceSha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a",
-      "sha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a"
-    },
-    {
-      "path": "space-assets/NEBULAE.md",
-      "bytes": 5860,
-      "sourceSha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e",
-      "sha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e"
-    },
-    {
-      "path": "space-assets/README.md",
-      "bytes": 5200,
-      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
-      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
-    },
-    {
-      "path": "space-assets/RENDERING.md",
-      "bytes": 2321,
-      "sourceSha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04",
-      "sha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04"
-    },
-    {
-      "path": "space-assets/SOURCES.md",
-      "bytes": 5200,
-      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
-      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
-    },
-    {
       "path": "space-assets/archeon-equirectangular-4096.png",
       "bytes": 5013212,
       "sourceSha256": "56a79dff3360084f55c7d6258be962abbf3e57c999003d5fd776e128729d5d8c",
@@ -19323,10 +19331,40 @@
       "sha256": "4a9125259aa7debb1ffdbcd060c40b08ec505616e54d62f5dc5260f432add007"
     },
     {
+      "path": "space-assets/COLONIZATION.md",
+      "bytes": 10945,
+      "sourceSha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766",
+      "sha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766"
+    },
+    {
+      "path": "space-assets/FEDERATION.md",
+      "bytes": 7842,
+      "sourceSha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a",
+      "sha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a"
+    },
+    {
+      "path": "space-assets/NEBULAE.md",
+      "bytes": 5860,
+      "sourceSha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e",
+      "sha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e"
+    },
+    {
       "path": "space-assets/physics-humanity-audit.md",
       "bytes": 25692,
       "sourceSha256": "4ae48009fc9e2ab17bae4b5a4a9b5e962ca9f2b907d6a8212f0ff2f1f7244175",
       "sha256": "4ae48009fc9e2ab17bae4b5a4a9b5e962ca9f2b907d6a8212f0ff2f1f7244175"
+    },
+    {
+      "path": "space-assets/README.md",
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
+    },
+    {
+      "path": "space-assets/RENDERING.md",
+      "bytes": 2321,
+      "sourceSha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04",
+      "sha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04"
     },
     {
       "path": "space-assets/source/HYG-DATA-README.md",
@@ -19345,6 +19383,12 @@
       "bytes": 245,
       "sourceSha256": "80982fcefb899a3d55fab15e84483ce78fb1e2499906a95fc59c4e517844606e",
       "sha256": "80982fcefb899a3d55fab15e84483ce78fb1e2499906a95fc59c4e517844606e"
+    },
+    {
+      "path": "space-assets/SOURCES.md",
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
       "path": "space-controller.js",
@@ -27573,6 +27617,12 @@
       "sha256": "c52e08dfe06f59517dedb35238602c046964d2d197f766e5c7c967985d189219"
     },
     {
+      "path": "vendor/d3.v7.min.js",
+      "bytes": 279706,
+      "sourceSha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
       "path": "vendor/LICENSE-d3.txt",
       "bytes": 744,
       "sourceSha256": "0fa3a5b83114a1c2eb75cc55b64908c8b8d767d31af34dc6f415b44dd80a5ad7",
@@ -27597,30 +27647,10 @@
       "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
     },
     {
-      "path": "vendor/d3.v7.min.js",
-      "bytes": 279706,
-      "sourceSha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
-      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
-    },
-    {
       "path": "vendor/three-space.bundle.js",
       "bytes": 845433,
       "sourceSha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21",
       "sha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21"
-    },
-    {
-      "path": "character-panel.js",
-      "bytes": 2381,
-      "sourcePath": "scripts/atlas-character/character-panel.js",
-      "sourceSha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6",
-      "sha256": "21324dba04e9ca213ac965c0a14c862ad2e59f662b12e74f547f68d273748ca6"
-    },
-    {
-      "path": "character-panel.css",
-      "bytes": 2117,
-      "sourcePath": "scripts/atlas-character/character-panel.css",
-      "sourceSha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603",
-      "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
     }
   ]
 }

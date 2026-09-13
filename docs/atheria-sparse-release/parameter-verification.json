@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "colourInputsUnchanged": true,
+  "maxNaturalError": 2.980092150828284e-8,
+  "totalAreaM2": 127780607.34650613,
+  "zones": {
+    "city": {
+      "area": 13638969.223529462,
+      "crown": 268722.0161621774
+    },
+    "field": {
+      "area": 555821646.3058842,
+      "crown": 1685856.6332397282
+    },
+    "natural": {
+      "area": 635966584.4705888,
+      "crown": 125826028.69907403
+    },
+    "heightBins": [
+      919109,
+      116158,
+      60030
+    ],
+    "heightCount": 1095297
+  },
+  "parameters": {
+    "city": 0.68,
+    "fieldMin": 0.07,
+    "fieldMax": 0.1,
+    "heightPower": 4,
+    "natural": 1.7,
+    "scales": [
+      180,
+      720
+    ]
+  },
+  "method": "fixed-world zoned coverage; no global redistribution"
+}

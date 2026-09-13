@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "folders": 25,
+  "files": 9663,
+  "bytes": 6350728982,
+  "activeSourceHashesUnchanged": true,
+  "publicationManifestUnchanged": true,
+  "chineseSynchronized": true,
+  "englishUnchanged": true,
+  "byRoot": {
+    "SKBS": 3620110004,
+    "Showheel": 897627831,
+    "superseded-previews": 1832991147
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "method": "In-app browser accessibility, screenshots and captured console warnings/errors",
+  "url": "http://127.0.0.1:8777/archeon-atlas/",
+  "atheria": {
+    "view": "neighbourhood",
+    "rendered": true,
+    "city": 0.68,
+    "fieldMin": 0.07,
+    "fieldMax": 0.1,
+    "heightPower": 4,
+    "coverageKm2": 127.78
+  },
+  "orun": {
+    "views": [
+      "default fallback",
+      "weeps"
+    ],
+    "rendered": true,
+    "initialMeshGenerationRequired": true,
+    "oneSettledSample": {
+      "columns": 137377,
+      "fps": 60
+    }
+  },
+  "capturedConsoleWarningsOrErrors": [],
+  "issues": [
+    "Orun inherits Atheria document title and unrelated focus=neighbourhood; Orun preset buttons do not update the URL focus."
+  ],
+  "scope": "Selected desktop views only. Storage audit does not measure RAM/GPU savings. Current live controls may subsequently be adjusted by the user; persisted baseline files are unchanged.",
+  "legacySwitch": {
+    "requestedMaterialMode": 0,
+    "busy": true,
+    "lastCompletedMaterialModel": "geomorphic-v1",
+    "errors": [],
+    "approximateObservedJSHeapMB": [
+      1328.96,
+      1383.41
+    ],
+    "repaired": false
+  }
+}

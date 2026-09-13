@@ -1,0 +1,76 @@
+{
+  "current": 916495606,
+  "quotaDecimalGB": 1000000000,
+  "priorBuildQuota": 1073741824,
+  "remainingDecimal": 83504394,
+  "groups": {
+    "allJS": {
+      "files": 392,
+      "sourceBytes": 260685734,
+      "storedBytes": 70604800
+    },
+    "atlasRuntimeJS": {
+      "files": 49,
+      "sourceBytes": 683182,
+      "storedBytes": 683815
+    },
+    "editorAndOrunComputeCode": {
+      "files": 30,
+      "sourceBytes": 322906,
+      "storedBytes": 322906
+    },
+    "orunAll": {
+      "files": 54,
+      "sourceBytes": 813897165,
+      "storedBytes": 326816580
+    },
+    "orunSurface": {
+      "files": 10,
+      "sourceBytes": 269963397,
+      "storedBytes": 121773322
+    },
+    "orunWater": {
+      "files": 13,
+      "sourceBytes": 339289748,
+      "storedBytes": 123060051
+    },
+    "orunLandform": {
+      "files": 14,
+      "sourceBytes": 126448937,
+      "storedBytes": 47474135
+    },
+    "orunWindward": {
+      "files": 5,
+      "sourceBytes": 45034510,
+      "storedBytes": 17690125
+    },
+    "atheriaAll": {
+      "files": 1399,
+      "sourceBytes": 666040076,
+      "storedBytes": 150894082
+    },
+    "houseData": {
+      "files": 1362,
+      "sourceBytes": 93930472,
+      "storedBytes": 18395757
+    },
+    "sceneData": {
+      "files": 4,
+      "sourceBytes": 1073013,
+      "storedBytes": 1073013
+    },
+    "canopy": {
+      "files": 4,
+      "sourceBytes": 81893067,
+      "storedBytes": 18094987
+    },
+    "sparse": {
+      "files": 5,
+      "sourceBytes": 4711195,
+      "storedBytes": 47112
+    }
+  },
+  "removableUpperBeforeBakedReplacement": 364750355,
+  "baseAfterTheoreticalRemoval": 551745251,
+  "note": "Conditional byte accounting, not a finished bake or a measured RAM saving. Renderer, dynamic clouds/water, simplified interaction data and new baked meshes must remain or be added."
+}

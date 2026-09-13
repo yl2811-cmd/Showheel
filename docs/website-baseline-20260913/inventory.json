@@ -1,0 +1,337 @@
+{
+  "baselineCommit": "28a144b81b4637558363554cbc238d3f211cb020",
+  "parameters": {
+    "version": 1,
+    "parameters": {
+      "city": 0.68,
+      "fieldMin": 0.07,
+      "fieldMax": 0.1,
+      "heightPower": 4,
+      "natural": 1.7,
+      "scales": [
+        180,
+        720
+      ]
+    },
+    "acceptedAt": "2026-09-13T20:30:05.739Z",
+    "source": "User final correction: fields 0.07–0.10; city 0.68 and height power 4 unchanged"
+  },
+  "groups": [
+    {
+      "prefix": "atheria-assets/canopy-v10/",
+      "files": 4,
+      "bytes": 81891809,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v11/",
+      "files": 4,
+      "bytes": 81892333,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v13/",
+      "files": 4,
+      "bytes": 81893067,
+      "activeFiles": 4
+    },
+    {
+      "prefix": "atheria-assets/canopy-v14/",
+      "files": 4,
+      "bytes": 81894049,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v8/",
+      "files": 4,
+      "bytes": 25460354,
+      "activeFiles": 0,
+      "references": [
+        "atheria-canopy.js"
+      ]
+    },
+    {
+      "prefix": "atheria-assets/canopy-v9/",
+      "files": 4,
+      "bytes": 81891445,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/sparse-v1/",
+      "files": 5,
+      "bytes": 4711195,
+      "activeFiles": 5
+    },
+    {
+      "prefix": "orun-assets/ai-masks/",
+      "files": 12,
+      "bytes": 43171814,
+      "activeFiles": 3
+    },
+    {
+      "prefix": "orun-assets/landforms-v3/",
+      "files": 14,
+      "bytes": 126448937,
+      "activeFiles": 14
+    },
+    {
+      "prefix": "orun-assets/surface-v4/",
+      "files": 12,
+      "bytes": 310595748,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v7/",
+      "files": 10,
+      "bytes": 269963394,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v7-r2/",
+      "files": 10,
+      "bytes": 269963397,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v8/",
+      "files": 10,
+      "bytes": 269963397,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v8-r2/",
+      "files": 10,
+      "bytes": 269963397,
+      "activeFiles": 10
+    },
+    {
+      "prefix": "orun-assets/water-v5/",
+      "files": 7,
+      "bytes": 163015961,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v6/",
+      "files": 11,
+      "bytes": 300862060,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v7/",
+      "files": 14,
+      "bytes": 446728923,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v7-r2/",
+      "files": 13,
+      "bytes": 409764284,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v8/",
+      "files": 13,
+      "bytes": 332317467,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v8-r2/",
+      "files": 13,
+      "bytes": 339227743,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v8-r3/",
+      "files": 13,
+      "bytes": 339289748,
+      "activeFiles": 13
+    },
+    {
+      "prefix": "orun-assets/windward-v7/",
+      "files": 5,
+      "bytes": 45034464,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v7-r2/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v8/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v8-r2/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v8-r3/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 5
+    }
+  ],
+  "candidates": [
+    {
+      "prefix": "atheria-assets/canopy-v10/",
+      "files": 4,
+      "bytes": 81891809,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v11/",
+      "files": 4,
+      "bytes": 81892333,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v14/",
+      "files": 4,
+      "bytes": 81894049,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "atheria-assets/canopy-v8/",
+      "files": 4,
+      "bytes": 25460354,
+      "activeFiles": 0,
+      "references": [
+        "atheria-canopy.js"
+      ]
+    },
+    {
+      "prefix": "atheria-assets/canopy-v9/",
+      "files": 4,
+      "bytes": 81891445,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v4/",
+      "files": 12,
+      "bytes": 310595748,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v7/",
+      "files": 10,
+      "bytes": 269963394,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v7-r2/",
+      "files": 10,
+      "bytes": 269963397,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/surface-v8/",
+      "files": 10,
+      "bytes": 269963397,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v5/",
+      "files": 7,
+      "bytes": 163015961,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v6/",
+      "files": 11,
+      "bytes": 300862060,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v7/",
+      "files": 14,
+      "bytes": 446728923,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v7-r2/",
+      "files": 13,
+      "bytes": 409764284,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v8/",
+      "files": 13,
+      "bytes": 332317467,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/water-v8-r2/",
+      "files": 13,
+      "bytes": 339227743,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v7/",
+      "files": 5,
+      "bytes": 45034464,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v7-r2/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v8/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    },
+    {
+      "prefix": "orun-assets/windward-v8-r2/",
+      "files": 5,
+      "bytes": 45034510,
+      "activeFiles": 0,
+      "references": []
+    }
+  ],
+  "activeFiles": 4606,
+  "activeHash": "39f788e3e9bbf069ea2aa2843d1c27cdb0b3c9b457ec78384a196bac7d1b9449"
+}

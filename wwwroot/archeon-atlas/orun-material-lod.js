@@ -1,0 +1,9 @@
+/* World-fixed filtered material lattice. Exact area integration of its bilinear reconstruction. */
+(function(root,factory){const api=factory(typeof module==='object'&&module.exports?require('./orun-core.js'):root.ORUN_CORE);if(typeof module==='object'&&module.exports)module.exports=api;else root.ORUN_MATERIAL_LOD=api;})(typeof self!=='undefined'?self:globalThis,function(C){
+'use strict';
+function create(state,p,{cacheLimit=12000}={}){const cache=new Map(),step=64,stats={evaluations:0,hits:0,latticeM:64,quadratureM:32};
+function node(x,z){const key=x+','+z;if(cache.has(key)){stats.hits++;return cache.get(key);}const a=C.landformAt(state,x-32,z-32),b=C.landformAt(state,x+32,z+32),edge=Math.abs(a.region-b.region)+Math.abs(a.drain-b.drain)+Math.abs(a.bed-b.bed)>.10,offsets=edge?[-16,16]:[0],samples=[];for(const dz of offsets)for(const dx of offsets){const xx=x+dx,zz=z+dz,f=C.field(state,xx,zz);samples.push(C.materialSample(state,xx,f.height,zz,0,p,{footprint:64}));stats.evaluations++;}const m=samples.length===1?samples[0]:C.accumulate(samples);if(cache.size>=cacheLimit)cache.clear();cache.set(key,m);return m;}
+function point(x,z){const xx=Math.floor(x/step)*step,zz=Math.floor(z/step)*step,u=(x-xx)/step,v=(z-zz)/step,s=[];for(const[dx,dz,w]of[[0,0,(1-u)*(1-v)],[step,0,u*(1-v)],[0,step,(1-u)*v],[step,step,u*v]])if(w>1e-14)s.push({...node(xx+dx,zz+dz),measure:w});return C.accumulate(s);}
+function top(x,z,size){const out=[],endX=x+size,endZ=z+size;for(let zz=z;zz<endZ-1e-6;){const nextZ=Math.min(endZ,(Math.floor(zz/step)+1)*step);for(let xx=x;xx<endX-1e-6;){const nextX=Math.min(endX,(Math.floor(xx/step)+1)*step),a=(nextX-xx)*(nextZ-zz);out.push({...point((xx+nextX)/2,(zz+nextZ)/2),measure:a});xx=nextX;}zz=nextZ;}return C.accumulate(out);}
+return{top,point,stats,clear:()=>cache.clear()};}
+return{create};});

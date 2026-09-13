@@ -1,0 +1,5740 @@
+{
+  "passed": true,
+  "loadSeconds": 36.489,
+  "errors": [],
+  "missing": [],
+  "checks": [
+    {
+      "name": "palette update without rebuild",
+      "ms": 10
+    },
+    {
+      "name": "inspector uses displayed algorithm"
+    },
+    {
+      "name": "cancel restores parameters and keeps prior mesh"
+    },
+    {
+      "name": "narrow layout"
+    }
+  ],
+  "initial": {
+    "ready": true,
+    "busy": false,
+    "mode": "plain",
+    "quality": "auto",
+    "debug": "albedo",
+    "parameters": {
+      "materialMode": 1,
+      "dustCover": 0.7,
+      "washStrength": 0.65,
+      "fineDeposit": 0.7,
+      "talusCover": 0.65,
+      "weatherTone": 0.5,
+      "aoStrength": 0.35,
+      "macroVariation": 0.75,
+      "contrastVariation": 0.8,
+      "aiInfluence": 0.65,
+      "provinceScale": 8000,
+      "regionContrast": 0.65,
+      "gullyDepth": 24,
+      "gullyDensity": 0.6,
+      "cliffWear": 0.55,
+      "notchSpacing": 14000,
+      "plainRelief": 400,
+      "cliffSmall": 1,
+      "cliffMedium": 1,
+      "cliffLarge": 1,
+      "albedoBlend": 0.5,
+      "blendFractal": 0.85,
+      "surfaceDetail": 0.5,
+      "sandGoldAmount": 1,
+      "paleSiltAmount": 1,
+      "warmGravelAmount": 1,
+      "ochreClayAmount": 1.6,
+      "terracottaAmount": 2.6,
+      "roseSiltAmount": 1,
+      "mauveShaleAmount": 1,
+      "blueGravelAmount": 1,
+      "relief": 3000,
+      "spread": 16000,
+      "warp": 1,
+      "joint": 1,
+      "softness": 6,
+      "erosion": 1,
+      "recharge": 1,
+      "talus": 35,
+      "slopeResponse": 1,
+      "curvatureResponse": 1,
+      "density": 1,
+      "colorSeed": 41267,
+      "microAlbedo": 0.14,
+      "toneSpread": 0.55,
+      "bandBreakup": 0.8,
+      "mineralScale": 96,
+      "topGreen": 0.65,
+      "sideGreen": 0.75,
+      "weathering": 0.65,
+      "water": 1,
+      "foam": 0.7,
+      "dryVegetation": 0.03,
+      "riparianWidth": 200,
+      "altitudeResponse": 0.25,
+      "cloudCover": 0.28,
+      "cloudBase": 1000,
+      "cloudSpan": 3200,
+      "cloudThickness": 280,
+      "cloudOpacity": 0.9,
+      "mist": 0.55,
+      "sun": 0.65
+    },
+    "scopeRadiusM": 50000,
+    "curvatureScale": 1,
+    "planetRadiusM": 4750000,
+    "origin": [
+      -3.1,
+      10.46
+    ],
+    "visibleCells": 137710,
+    "chunkCount": 524,
+    "triangles": 801166,
+    "materialCount": 18,
+    "surfaceSwatches": 32,
+    "lodCounts": {
+      "16": 1704,
+      "32": 2334,
+      "64": 3326,
+      "128": 14350,
+      "256": 115996
+    },
+    "fieldStepM": 128,
+    "falls": 23,
+    "ledger": {
+      "erodedM3": 5235902966.498292,
+      "depositedM3": 452141653.14991283,
+      "exportedM3": 0,
+      "storedM3": 4783761313.348371,
+      "talusMovedM3": 288226506.5543693,
+      "residualM3": 0.00000858306884765625,
+      "passes": 8
+    },
+    "sculpt": {
+      "removedM3": 160402174955,
+      "addedM3": 266865659.5,
+      "stabilityRemovedM3": 0,
+      "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+      "supportAddedM3": 5773331494
+    },
+    "stability": {
+      "maximumDropM": 1194.9455574485996,
+      "traces": 1846,
+      "violations": [],
+      "thresholdM": 1200,
+      "steepDeg": 65,
+      "breakDeg": 35,
+      "breakLengthM": 128,
+      "sampleM": 64,
+      "passes": 16,
+      "removedM3": 1126939640.380117
+    },
+    "landforms": {
+      "variationScalesM": [
+        32000,
+        12000,
+        4000,
+        1000,
+        256,
+        64,
+        24
+      ],
+      "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+      "transitionFeatherM": 256,
+      "maskVersion": "orun-ai-20260912-v1",
+      "maskCount": 9,
+      "stepM": 64,
+      "patchCount": 281,
+      "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+      "cutRemovedM3": 232692674492.81683,
+      "fillAddedM3": 967974788580.779,
+      "cliffRemovedM3": 10881104685.110254,
+      "supportAddedM3": 395977002.5,
+      "stabilityRemovedM3": 1126939640.380117,
+      "stability": {
+        "maximumDropM": 1194.9455574485996,
+        "traces": 1846,
+        "violations": [],
+        "thresholdM": 1200,
+        "steepDeg": 65,
+        "breakDeg": 35,
+        "breakLengthM": 128,
+        "sampleM": 64,
+        "passes": 16,
+        "removedM3": 1126939640.380117
+      },
+      "protectedMaxDeltaM": 0.000244140625,
+      "maximumCliffCutM": 132.17105102539062,
+      "gullyRangeM": [
+        -10.968389511108398,
+        3.082306146621704
+      ],
+      "plainRangeM": [
+        145.96595764160156,
+        413.11016845703125
+      ],
+      "plateauRangeM": [
+        3099.4306640625,
+        3494.616455078125
+      ],
+      "cliffScaleContributions": {
+        "small": 373602.2159953556,
+        "medium": 1025975.6968977881,
+        "large": 1256941.7856200573
+      },
+      "downhillCorrections": 0,
+      "hydrology": "strictly descending D8 receivers; closed basins retained",
+      "bands": {
+        "low": [
+          [
+            0,
+            0.53
+          ],
+          [
+            0.14,
+            0.463
+          ],
+          [
+            0.16,
+            0.48
+          ],
+          [
+            0.24,
+            0.474
+          ],
+          [
+            0.294,
+            0.43
+          ],
+          [
+            0.34,
+            0.425
+          ],
+          [
+            0.39,
+            0.435
+          ],
+          [
+            0.44,
+            0.39
+          ],
+          [
+            0.5,
+            0.385
+          ],
+          [
+            0.56,
+            0.38
+          ],
+          [
+            0.61,
+            0.403
+          ],
+          [
+            0.67,
+            0.38
+          ],
+          [
+            0.74,
+            0.348
+          ],
+          [
+            0.81,
+            0.348
+          ],
+          [
+            0.86,
+            0.364
+          ],
+          [
+            0.96,
+            0.367
+          ],
+          [
+            1,
+            0.35
+          ]
+        ],
+        "high": [
+          [
+            0,
+            0.609
+          ],
+          [
+            0.08,
+            0.616
+          ],
+          [
+            0.21,
+            0.605
+          ],
+          [
+            0.264,
+            0.586
+          ],
+          [
+            0.32,
+            0.542
+          ],
+          [
+            0.35,
+            0.536
+          ],
+          [
+            0.42,
+            0.536
+          ],
+          [
+            0.49,
+            0.54
+          ],
+          [
+            0.58,
+            0.522
+          ],
+          [
+            0.633,
+            0.513
+          ],
+          [
+            0.665,
+            0.498
+          ],
+          [
+            0.74,
+            0.467
+          ],
+          [
+            0.79,
+            0.48
+          ],
+          [
+            0.85,
+            0.433
+          ],
+          [
+            0.9,
+            0.418
+          ],
+          [
+            1,
+            0.404
+          ]
+        ]
+      }
+    },
+    "materialFiltering": {
+      "evaluations": 0,
+      "hits": 0,
+      "latticeM": 64,
+      "quadratureM": 32,
+      "integrationStepM": 16,
+      "materialModel": "geomorphic-v1",
+      "pointSamples": 6522290,
+      "cacheHits": 1916662
+    },
+    "surfaceReport": {
+      "algorithm": "geomorphic-v1",
+      "gridStepM": 64,
+      "integrationStepM": 16,
+      "scalesM": [
+        64,
+        256,
+        1024,
+        4096
+      ],
+      "coarse": {
+        "released": 22325923.900479432,
+        "deposited": 17110271.668481093,
+        "stored": 5208453.60096011,
+        "exported": 7198.6311708137855,
+        "grain": "coarse",
+        "lengthM": 256,
+        "residual": -0.00013258480430522468
+      },
+      "fine": {
+        "released": 14883949.266927952,
+        "deposited": 4362878.018228586,
+        "stored": 10511444.891375965,
+        "exported": 9626.357488198102,
+        "grain": "fine",
+        "lengthM": 2048,
+        "residual": -0.0001647955632506637
+      },
+      "closedBasins": "retained as dry sediment; no height changes",
+      "createdAt": "2026-09-13T04:07:10.914Z"
+    },
+    "materialAlgorithm": "geomorphic-v1",
+    "stats": {
+      "minHeight": 42.26133346557617,
+      "maxHeight": 3680.39990234375,
+      "protectedMaxDelta": 0,
+      "maximumErosionM": 74.329345703125
+    },
+    "clouds": {
+      "candidates": 50,
+      "visibleClouds": 35,
+      "clippedBlocks": 7957,
+      "minimumBottomM": 1056.023129881768,
+      "maximumTopM": 4524.513389520345,
+      "blocks": 11348
+    },
+    "cloudRevision": 1,
+    "treeCount": 0,
+    "pendingWeather": false,
+    "fps": 60,
+    "geometryCount": 309,
+    "textureCount": 0,
+    "heapBytes": 746608422,
+    "errors": [],
+    "localOnly": true
+  },
+  "shots": [
+    {
+      "name": "plain",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 1,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 745574291,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "plateau",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plateau",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 814802,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 632970,
+          "cacheHits": 204110
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 2,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 293,
+        "textureCount": 0,
+        "heapBytes": 950899016,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "detail",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plateau",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137713,
+        "chunkCount": 524,
+        "triangles": 801466,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1696,
+          "32": 2324,
+          "64": 3345,
+          "128": 14354,
+          "256": 115994
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 609048,
+          "cacheHits": 204113
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 3,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 251,
+        "textureCount": 0,
+        "heapBytes": 946788053,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "cliff",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plateau",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137341,
+        "chunkCount": 524,
+        "triangles": 815962,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2326,
+          "64": 3368,
+          "128": 13816,
+          "256": 116127
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 919713,
+          "cacheHits": 204112
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 4,
+        "treeCount": 14,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 150,
+        "textureCount": 0,
+        "heapBytes": 952622300,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "badlands",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "badlands",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137689,
+        "chunkCount": 524,
+        "triangles": 815338,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1696,
+          "32": 2320,
+          "64": 3330,
+          "128": 14346,
+          "256": 115997
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 1087740,
+          "cacheHits": 212306
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 5,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 59,
+        "geometryCount": 341,
+        "textureCount": 0,
+        "heapBytes": 957313462,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "wide",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "wide",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137365,
+        "chunkCount": 524,
+        "triangles": 815556,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1728,
+          "32": 2320,
+          "64": 3360,
+          "128": 13834,
+          "256": 116123
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 1029213,
+          "cacheHits": 204112
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 6,
+        "treeCount": 14,
+        "pendingWeather": false,
+        "fps": 59,
+        "geometryCount": 572,
+        "textureCount": 0,
+        "heapBytes": 973496176,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "albedoRaw",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "albedoRaw",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 8,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 958007685,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "surfaceCover",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "surfaceCover",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 9,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 59,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 955971705,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "surfaceSource",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "surfaceSource",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 10,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 899671573,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "surfaceWash",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "surfaceWash",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 11,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 900016341,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "surfaceAO",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "surfaceAO",
+        "parameters": {
+          "materialMode": 1,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 0,
+          "hits": 0,
+          "latticeM": 64,
+          "quadratureM": 32,
+          "integrationStepM": 16,
+          "materialModel": "geomorphic-v1",
+          "pointSamples": 6522290,
+          "cacheHits": 1916662
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "geomorphic-v1",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 12,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 899007289,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "legacy-plain",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plain",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 0,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 801166,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 2215218,
+          "hits": 5713315,
+          "latticeM": 64,
+          "quadratureM": 32
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "legacy-v3",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 14,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 309,
+        "textureCount": 0,
+        "heapBytes": 887642817,
+        "errors": [],
+        "localOnly": true
+      }
+    },
+    {
+      "name": "legacy-plateau",
+      "state": {
+        "ready": true,
+        "busy": false,
+        "mode": "plateau",
+        "quality": "auto",
+        "debug": "albedo",
+        "parameters": {
+          "materialMode": 0,
+          "dustCover": 0.7,
+          "washStrength": 0.65,
+          "fineDeposit": 0.7,
+          "talusCover": 0.65,
+          "weatherTone": 0.5,
+          "aoStrength": 0.35,
+          "macroVariation": 0.75,
+          "contrastVariation": 0.8,
+          "aiInfluence": 0.65,
+          "provinceScale": 8000,
+          "regionContrast": 0.65,
+          "gullyDepth": 24,
+          "gullyDensity": 0.6,
+          "cliffWear": 0.55,
+          "notchSpacing": 14000,
+          "plainRelief": 400,
+          "cliffSmall": 1,
+          "cliffMedium": 1,
+          "cliffLarge": 1,
+          "albedoBlend": 0.5,
+          "blendFractal": 0.85,
+          "surfaceDetail": 0.5,
+          "sandGoldAmount": 1,
+          "paleSiltAmount": 1,
+          "warmGravelAmount": 1,
+          "ochreClayAmount": 1.6,
+          "terracottaAmount": 2.6,
+          "roseSiltAmount": 1,
+          "mauveShaleAmount": 1,
+          "blueGravelAmount": 1,
+          "relief": 3000,
+          "spread": 16000,
+          "warp": 1,
+          "joint": 1,
+          "softness": 6,
+          "erosion": 1,
+          "recharge": 1,
+          "talus": 35,
+          "slopeResponse": 1,
+          "curvatureResponse": 1,
+          "density": 1,
+          "colorSeed": 41267,
+          "microAlbedo": 0.14,
+          "toneSpread": 0.55,
+          "bandBreakup": 0.8,
+          "mineralScale": 96,
+          "topGreen": 0.65,
+          "sideGreen": 0.75,
+          "weathering": 0.65,
+          "water": 1,
+          "foam": 0.7,
+          "dryVegetation": 0.03,
+          "riparianWidth": 200,
+          "altitudeResponse": 0.25,
+          "cloudCover": 0.28,
+          "cloudBase": 1000,
+          "cloudSpan": 3200,
+          "cloudThickness": 280,
+          "cloudOpacity": 0.9,
+          "mist": 0.55,
+          "sun": 0.65
+        },
+        "scopeRadiusM": 50000,
+        "curvatureScale": 1,
+        "planetRadiusM": 4750000,
+        "origin": [
+          -3.1,
+          10.46
+        ],
+        "visibleCells": 137710,
+        "chunkCount": 524,
+        "triangles": 814802,
+        "materialCount": 18,
+        "surfaceSwatches": 32,
+        "lodCounts": {
+          "16": 1704,
+          "32": 2334,
+          "64": 3326,
+          "128": 14350,
+          "256": 115996
+        },
+        "fieldStepM": 128,
+        "falls": 23,
+        "ledger": {
+          "erodedM3": 5235902966.498292,
+          "depositedM3": 452141653.14991283,
+          "exportedM3": 0,
+          "storedM3": 4783761313.348371,
+          "talusMovedM3": 288226506.5543693,
+          "residualM3": 0.00000858306884765625,
+          "passes": 8
+        },
+        "sculpt": {
+          "removedM3": 160402174955,
+          "addedM3": 266865659.5,
+          "stabilityRemovedM3": 0,
+          "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+          "supportAddedM3": 5773331494
+        },
+        "stability": {
+          "maximumDropM": 1194.9455574485996,
+          "traces": 1846,
+          "violations": [],
+          "thresholdM": 1200,
+          "steepDeg": 65,
+          "breakDeg": 35,
+          "breakLengthM": 128,
+          "sampleM": 64,
+          "passes": 16,
+          "removedM3": 1126939640.380117
+        },
+        "landforms": {
+          "variationScalesM": [
+            32000,
+            12000,
+            4000,
+            1000,
+            256,
+            64,
+            24
+          ],
+          "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+          "transitionFeatherM": 256,
+          "maskVersion": "orun-ai-20260912-v1",
+          "maskCount": 9,
+          "stepM": 64,
+          "patchCount": 281,
+          "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+          "cutRemovedM3": 232692674492.81683,
+          "fillAddedM3": 967974788580.779,
+          "cliffRemovedM3": 10881104685.110254,
+          "supportAddedM3": 395977002.5,
+          "stabilityRemovedM3": 1126939640.380117,
+          "stability": {
+            "maximumDropM": 1194.9455574485996,
+            "traces": 1846,
+            "violations": [],
+            "thresholdM": 1200,
+            "steepDeg": 65,
+            "breakDeg": 35,
+            "breakLengthM": 128,
+            "sampleM": 64,
+            "passes": 16,
+            "removedM3": 1126939640.380117
+          },
+          "protectedMaxDeltaM": 0.000244140625,
+          "maximumCliffCutM": 132.17105102539062,
+          "gullyRangeM": [
+            -10.968389511108398,
+            3.082306146621704
+          ],
+          "plainRangeM": [
+            145.96595764160156,
+            413.11016845703125
+          ],
+          "plateauRangeM": [
+            3099.4306640625,
+            3494.616455078125
+          ],
+          "cliffScaleContributions": {
+            "small": 373602.2159953556,
+            "medium": 1025975.6968977881,
+            "large": 1256941.7856200573
+          },
+          "downhillCorrections": 0,
+          "hydrology": "strictly descending D8 receivers; closed basins retained",
+          "bands": {
+            "low": [
+              [
+                0,
+                0.53
+              ],
+              [
+                0.14,
+                0.463
+              ],
+              [
+                0.16,
+                0.48
+              ],
+              [
+                0.24,
+                0.474
+              ],
+              [
+                0.294,
+                0.43
+              ],
+              [
+                0.34,
+                0.425
+              ],
+              [
+                0.39,
+                0.435
+              ],
+              [
+                0.44,
+                0.39
+              ],
+              [
+                0.5,
+                0.385
+              ],
+              [
+                0.56,
+                0.38
+              ],
+              [
+                0.61,
+                0.403
+              ],
+              [
+                0.67,
+                0.38
+              ],
+              [
+                0.74,
+                0.348
+              ],
+              [
+                0.81,
+                0.348
+              ],
+              [
+                0.86,
+                0.364
+              ],
+              [
+                0.96,
+                0.367
+              ],
+              [
+                1,
+                0.35
+              ]
+            ],
+            "high": [
+              [
+                0,
+                0.609
+              ],
+              [
+                0.08,
+                0.616
+              ],
+              [
+                0.21,
+                0.605
+              ],
+              [
+                0.264,
+                0.586
+              ],
+              [
+                0.32,
+                0.542
+              ],
+              [
+                0.35,
+                0.536
+              ],
+              [
+                0.42,
+                0.536
+              ],
+              [
+                0.49,
+                0.54
+              ],
+              [
+                0.58,
+                0.522
+              ],
+              [
+                0.633,
+                0.513
+              ],
+              [
+                0.665,
+                0.498
+              ],
+              [
+                0.74,
+                0.467
+              ],
+              [
+                0.79,
+                0.48
+              ],
+              [
+                0.85,
+                0.433
+              ],
+              [
+                0.9,
+                0.418
+              ],
+              [
+                1,
+                0.404
+              ]
+            ]
+          }
+        },
+        "materialFiltering": {
+          "evaluations": 224900,
+          "hits": 622311,
+          "latticeM": 64,
+          "quadratureM": 32
+        },
+        "surfaceReport": {
+          "algorithm": "geomorphic-v1",
+          "gridStepM": 64,
+          "integrationStepM": 16,
+          "scalesM": [
+            64,
+            256,
+            1024,
+            4096
+          ],
+          "coarse": {
+            "released": 22325923.900479432,
+            "deposited": 17110271.668481093,
+            "stored": 5208453.60096011,
+            "exported": 7198.6311708137855,
+            "grain": "coarse",
+            "lengthM": 256,
+            "residual": -0.00013258480430522468
+          },
+          "fine": {
+            "released": 14883949.266927952,
+            "deposited": 4362878.018228586,
+            "stored": 10511444.891375965,
+            "exported": 9626.357488198102,
+            "grain": "fine",
+            "lengthM": 2048,
+            "residual": -0.0001647955632506637
+          },
+          "closedBasins": "retained as dry sediment; no height changes",
+          "createdAt": "2026-09-13T04:07:10.914Z"
+        },
+        "materialAlgorithm": "legacy-v3",
+        "stats": {
+          "minHeight": 42.26133346557617,
+          "maxHeight": 3680.39990234375,
+          "protectedMaxDelta": 0,
+          "maximumErosionM": 74.329345703125
+        },
+        "clouds": {
+          "candidates": 50,
+          "visibleClouds": 35,
+          "clippedBlocks": 7957,
+          "minimumBottomM": 1056.023129881768,
+          "maximumTopM": 4524.513389520345,
+          "blocks": 11348
+        },
+        "cloudRevision": 15,
+        "treeCount": 0,
+        "pendingWeather": false,
+        "fps": 60,
+        "geometryCount": 293,
+        "textureCount": 0,
+        "heapBytes": 886612121,
+        "errors": [],
+        "localOnly": true
+      }
+    }
+  ],
+  "final": {
+    "ready": true,
+    "busy": false,
+    "mode": "plateau",
+    "quality": "auto",
+    "debug": "albedo",
+    "parameters": {
+      "materialMode": 1,
+      "dustCover": 0.7,
+      "washStrength": 0.65,
+      "fineDeposit": 0.7,
+      "talusCover": 0.65,
+      "weatherTone": 0.5,
+      "aoStrength": 0.35,
+      "macroVariation": 0.75,
+      "contrastVariation": 0.8,
+      "aiInfluence": 0.65,
+      "provinceScale": 8000,
+      "regionContrast": 0.65,
+      "gullyDepth": 24,
+      "gullyDensity": 0.6,
+      "cliffWear": 0.55,
+      "notchSpacing": 14000,
+      "plainRelief": 400,
+      "cliffSmall": 1,
+      "cliffMedium": 1,
+      "cliffLarge": 1,
+      "albedoBlend": 0.5,
+      "blendFractal": 0.85,
+      "surfaceDetail": 0.5,
+      "sandGoldAmount": 1,
+      "paleSiltAmount": 1,
+      "warmGravelAmount": 1,
+      "ochreClayAmount": 1.6,
+      "terracottaAmount": 2.6,
+      "roseSiltAmount": 1,
+      "mauveShaleAmount": 1,
+      "blueGravelAmount": 1,
+      "relief": 3000,
+      "spread": 16000,
+      "warp": 1,
+      "joint": 1,
+      "softness": 6,
+      "erosion": 1,
+      "recharge": 1,
+      "talus": 35,
+      "slopeResponse": 1,
+      "curvatureResponse": 1,
+      "density": 1,
+      "colorSeed": 41267,
+      "microAlbedo": 0.14,
+      "toneSpread": 0.55,
+      "bandBreakup": 0.8,
+      "mineralScale": 96,
+      "topGreen": 0.65,
+      "sideGreen": 0.75,
+      "weathering": 0.65,
+      "water": 1,
+      "foam": 0.7,
+      "dryVegetation": 0.03,
+      "riparianWidth": 200,
+      "altitudeResponse": 0.25,
+      "cloudCover": 0.28,
+      "cloudBase": 1000,
+      "cloudSpan": 3200,
+      "cloudThickness": 280,
+      "cloudOpacity": 0.9,
+      "mist": 0.55,
+      "sun": 0.65
+    },
+    "scopeRadiusM": 50000,
+    "curvatureScale": 1,
+    "planetRadiusM": 4750000,
+    "origin": [
+      -3.1,
+      10.46
+    ],
+    "visibleCells": 137710,
+    "chunkCount": 524,
+    "triangles": 814802,
+    "materialCount": 18,
+    "surfaceSwatches": 32,
+    "lodCounts": {
+      "16": 1704,
+      "32": 2334,
+      "64": 3326,
+      "128": 14350,
+      "256": 115996
+    },
+    "fieldStepM": 128,
+    "falls": 23,
+    "ledger": {
+      "erodedM3": 5235902966.498292,
+      "depositedM3": 452141653.14991283,
+      "exportedM3": 0,
+      "storedM3": 4783761313.348371,
+      "talusMovedM3": 288226506.5543693,
+      "residualM3": 0.00000858306884765625,
+      "passes": 8
+    },
+    "sculpt": {
+      "removedM3": 160402174955,
+      "addedM3": 266865659.5,
+      "stabilityRemovedM3": 0,
+      "scope": "Initial remnant redesign, separate from erosion sediment ledger",
+      "supportAddedM3": 5773331494
+    },
+    "stability": {
+      "maximumDropM": 1194.9455574485996,
+      "traces": 1846,
+      "violations": [],
+      "thresholdM": 1200,
+      "steepDeg": 65,
+      "breakDeg": 35,
+      "breakLengthM": 128,
+      "sampleM": 64,
+      "passes": 16,
+      "removedM3": 1126939640.380117
+    },
+    "landforms": {
+      "variationScalesM": [
+        32000,
+        12000,
+        4000,
+        1000,
+        256,
+        64,
+        24
+      ],
+      "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+      "transitionFeatherM": 256,
+      "maskVersion": "orun-ai-20260912-v1",
+      "maskCount": 9,
+      "stepM": 64,
+      "patchCount": 281,
+      "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+      "cutRemovedM3": 232692674492.81683,
+      "fillAddedM3": 967974788580.779,
+      "cliffRemovedM3": 10881104685.110254,
+      "supportAddedM3": 395977002.5,
+      "stabilityRemovedM3": 1126939640.380117,
+      "stability": {
+        "maximumDropM": 1194.9455574485996,
+        "traces": 1846,
+        "violations": [],
+        "thresholdM": 1200,
+        "steepDeg": 65,
+        "breakDeg": 35,
+        "breakLengthM": 128,
+        "sampleM": 64,
+        "passes": 16,
+        "removedM3": 1126939640.380117
+      },
+      "protectedMaxDeltaM": 0.000244140625,
+      "maximumCliffCutM": 132.17105102539062,
+      "gullyRangeM": [
+        -10.968389511108398,
+        3.082306146621704
+      ],
+      "plainRangeM": [
+        145.96595764160156,
+        413.11016845703125
+      ],
+      "plateauRangeM": [
+        3099.4306640625,
+        3494.616455078125
+      ],
+      "cliffScaleContributions": {
+        "small": 373602.2159953556,
+        "medium": 1025975.6968977881,
+        "large": 1256941.7856200573
+      },
+      "downhillCorrections": 0,
+      "hydrology": "strictly descending D8 receivers; closed basins retained",
+      "bands": {
+        "low": [
+          [
+            0,
+            0.53
+          ],
+          [
+            0.14,
+            0.463
+          ],
+          [
+            0.16,
+            0.48
+          ],
+          [
+            0.24,
+            0.474
+          ],
+          [
+            0.294,
+            0.43
+          ],
+          [
+            0.34,
+            0.425
+          ],
+          [
+            0.39,
+            0.435
+          ],
+          [
+            0.44,
+            0.39
+          ],
+          [
+            0.5,
+            0.385
+          ],
+          [
+            0.56,
+            0.38
+          ],
+          [
+            0.61,
+            0.403
+          ],
+          [
+            0.67,
+            0.38
+          ],
+          [
+            0.74,
+            0.348
+          ],
+          [
+            0.81,
+            0.348
+          ],
+          [
+            0.86,
+            0.364
+          ],
+          [
+            0.96,
+            0.367
+          ],
+          [
+            1,
+            0.35
+          ]
+        ],
+        "high": [
+          [
+            0,
+            0.609
+          ],
+          [
+            0.08,
+            0.616
+          ],
+          [
+            0.21,
+            0.605
+          ],
+          [
+            0.264,
+            0.586
+          ],
+          [
+            0.32,
+            0.542
+          ],
+          [
+            0.35,
+            0.536
+          ],
+          [
+            0.42,
+            0.536
+          ],
+          [
+            0.49,
+            0.54
+          ],
+          [
+            0.58,
+            0.522
+          ],
+          [
+            0.633,
+            0.513
+          ],
+          [
+            0.665,
+            0.498
+          ],
+          [
+            0.74,
+            0.467
+          ],
+          [
+            0.79,
+            0.48
+          ],
+          [
+            0.85,
+            0.433
+          ],
+          [
+            0.9,
+            0.418
+          ],
+          [
+            1,
+            0.404
+          ]
+        ]
+      }
+    },
+    "materialFiltering": {
+      "evaluations": 0,
+      "hits": 0,
+      "latticeM": 64,
+      "quadratureM": 32,
+      "integrationStepM": 16,
+      "materialModel": "geomorphic-v1",
+      "pointSamples": 6546010,
+      "cacheHits": 1916662
+    },
+    "surfaceReport": {
+      "algorithm": "geomorphic-v1",
+      "gridStepM": 64,
+      "integrationStepM": 16,
+      "scalesM": [
+        64,
+        256,
+        1024,
+        4096
+      ],
+      "coarse": {
+        "released": 22325923.900479432,
+        "deposited": 17110271.668481093,
+        "stored": 5208453.60096011,
+        "exported": 7198.6311708137855,
+        "grain": "coarse",
+        "lengthM": 256,
+        "residual": -0.00013258480430522468
+      },
+      "fine": {
+        "released": 14883949.266927952,
+        "deposited": 4362878.018228586,
+        "stored": 10511444.891375965,
+        "exported": 9626.357488198102,
+        "grain": "fine",
+        "lengthM": 2048,
+        "residual": -0.0001647955632506637
+      },
+      "closedBasins": "retained as dry sediment; no height changes",
+      "createdAt": "2026-09-13T04:07:10.914Z"
+    },
+    "materialAlgorithm": "geomorphic-v1",
+    "stats": {
+      "minHeight": 42.26133346557617,
+      "maxHeight": 3680.39990234375,
+      "protectedMaxDelta": 0,
+      "maximumErosionM": 74.329345703125
+    },
+    "clouds": {
+      "candidates": 50,
+      "visibleClouds": 35,
+      "clippedBlocks": 7957,
+      "minimumBottomM": 1056.023129881768,
+      "maximumTopM": 4524.513389520345,
+      "blocks": 11348
+    },
+    "cloudRevision": 16,
+    "treeCount": 0,
+    "pendingWeather": false,
+    "fps": 60,
+    "geometryCount": 293,
+    "textureCount": 0,
+    "heapBytes": 903089909,
+    "errors": [],
+    "localOnly": true
+  },
+  "packed": null
+}

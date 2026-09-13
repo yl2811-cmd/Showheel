@@ -49,7 +49,7 @@ async function exportPages() {
 }
 function adapt(relative, source) {
   let text = source.toString('utf8');
-  if (/archeon-atlas\/(app|river-layer|space-controller|eyrie-controller|atheria-controller)\.js$/.test(relative)) {
+  if (/archeon-atlas\/(app|river-layer|space-controller|eyrie-controller|atheria-controller|orun-controller)\.js$/.test(relative)) {
     text = text.replace(/document\.head\.append(?:Child)?\((s|script)\)/g, 'window.SHOWHEEL_ASSETS.attach($1)');
   }
   if (relative === 'archeon-atlas/atheria-region.js') {
@@ -127,7 +127,7 @@ async function main() {
         }
       }
     }
-    if (/^archeon-atlas\/(data\/.*\.(js|json)|(?:atheria|eyrie)-assets\/.*\.(bin|js|json))$/.test(relative)) {
+    if (/^archeon-atlas\/(data\/.*\.(js|json)|(?:atheria|eyrie|orun)-assets\/.*\.(bin|js|json|f32|u8|i32))$/.test(relative)) {
       const packed = zlib.gzipSync(data, { level: 9 });
       if (!zlib.gunzipSync(packed).equals(data)) throw Error('Gzip mismatch: ' + relative);
       stored = '_packed/' + hash(packed) + '.pack';

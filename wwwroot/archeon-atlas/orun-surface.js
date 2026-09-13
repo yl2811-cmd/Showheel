@@ -1,0 +1,95 @@
+/* Geomorphic surface materials. Continuous terrain in metres; no height mutations. */
+(function(root,factory){const api=factory(typeof module==='object'&&module.exports?require('./orun-core.js'):root.ORUN_CORE);if(typeof module==='object'&&module.exports)module.exports=api;else root.ORUN_SURFACE=api;})(typeof self!=='undefined'?self:globalThis,function(C){
+'use strict';
+const VERSION='geomorphic-v1',S=C.smooth,clamp=C.clamp,mix=C.mix;
+const PROCESS=['bedrock','weathered','talus','dust','alluvium'];
+const DISTRIBUTION=['dustCover','washStrength','fineDeposit','talusCover'];
+const OFF=[[-1,-1], [0,-1], [1,-1], [-1,0], [1,0], [-1,1], [0,1], [1,1]];
+function fingerprint(g,seed=0){const b=new Uint32Array(g.h.buffer,g.h.byteOffset,g.h.length);let a=2166136261,c=5381;for(let i=0;i<b.length;i++){a=Math.imul(a^b[i],16777619);c=Math.imul(c,33)^b[i];}return [g.n,g.step,g.min,seed,a>>>0,c>>>0].join(':');}
+function key(state,p){return VERSION+':'+fingerprint(state.landforms||state,state.seed)+':'+DISTRIBUTION.map(k=>p[k]).join(':');}
+function sample(g,a,x,z,stride=1,c=0){return g.n===1?a[c]:C.L.sampleGrid(g,a,x,z,stride,c);}
+function levels(g){const out=[{h:g.h,n:g.n,min:g.min,step:g.step}];let src=out[0];while(src.step<4096){const n=Math.ceil(src.n/2),h=new Float32Array(n*n);for(let j=0;j<n;j++)for(let i=0;i<n;i++){let v=0;for(let dz=-1;dz<=1;dz++)for(let dx=-1;dx<=1;dx++)v+=src.h[clamp(j*2+dz,0,src.n-1)*src.n+clamp(i*2+dx,0,src.n-1)]*(dx===0?2:1)*(dz===0?2:1);h[j*n+i]=v/16;}src={h,n,min:g.min,step:src.step*2};out.push(src);}return out;}
+function metric(l,x,z){const s=l.step,h=sample(l,l.h,x,z),xp=sample(l,l.h,x+s,z),xm=sample(l,l.h,x-s,z),zp=sample(l,l.h,x,z+s),zm=sample(l,l.h,x,z-s),hx=(xp-xm)/(2*s),hz=(zp-zm)/(2*s);let mean=h,values=[];for(const [dx,dz]of OFF){const v=sample(l,l.h,x+dx*s,z+dz*s);mean+=v;values.push([dx,dz,v]);}mean/=9;let residual=(h-mean)**2;for(const [dx,dz,v]of values)residual+=(v-mean-hx*dx*s-hz*dz*s)**2;return{scale:s,slope:Math.hypot(hx,hz),hx,hz,curvature:(xp+xm+zp+zm-4*h)/(s*s),relative:h-mean,residual:Math.sqrt(residual/9)};}
+function deriveTerrainMaps(state,progress=()=>{}){
+ const g=state.landforms||state,N=g.h.length,n=g.n,step=g.step,h=g.h,ls=levels(g),selected=[64,256,1024,4096].map(s=>ls.find(l=>l.step===s)||ls[0]);
+ const broadPosition=new Float32Array(N),broadSlope=new Float32Array(N),slope=new Float32Array(N),concavity=new Float32Array(N),position=new Float32Array(N),residual=new Float32Array(N),shelter=new Float32Array(N),source=new Uint8Array(N),flow=new Float64Array(N).fill(step*step),direction=new Float32Array(N*2),slow=new Float32Array(N),distance=new Float32Array(N).fill(1e9);
+ progress('正在辨认平顶、浅沟、坡脚和连续母岩…');
+ for(let j=0;j<n;j++)for(let i=0;i<n;i++){
+  const k=j*n+i,x=g.min+i*step,z=g.min+j*step,mm=selected.map(l=>metric(l,x,z)),m=mm[0];slope[k]=m.slope;concavity[k]=clamp(mm[0].curvature*64*.15+mm[1].curvature*512*.6+mm[2].curvature*1024*.25,-1,1);broadPosition[k]=mm[3].relative;broadSlope[k]=mm[3].slope;position[k]=mm[2].relative;residual[k]=mm[1].residual;
+  const lith=C.lithology(h[k],x,z,state.parameters||C.DEFAULTS,state.seed);source[k]=lith==='oxide'?1:lith==='pale'?2:0;
+  let occlusion=0;for(let d=0;d<8;d++){const angle=d*Math.PI/4,dx=Math.cos(angle),dz=Math.sin(angle);let horizon=0;for(const radius of[64,128,256,512,1024,2048,4096]){const l=ls.find(q=>q.step===Math.max(step,radius/4))||ls[0],height=sample(l,l.h,x+dx*radius,z+dz*radius);horizon=Math.max(horizon,Math.atan2(height-h[k]-(m.hx*dx+m.hz*dz)*radius,radius));}occlusion+=Math.sin(horizon)**2/8;}shelter[k]=clamp(occlusion);
+ }
+ const order=Uint32Array.from({length:N},(_,i)=>i);order.sort((a,b)=>h[b]-h[a]||a-b);
+ const neighbors=(k,fn)=>{const x=k%n,z=Math.floor(k/n);let sum=0;const qs=[],ws=[];for(const [dx,dz]of OFF){if(x+dx<0||x+dx>=n||z+dz<0||z+dz>=n)continue;const q=k+dz*n+dx,d=step*Math.hypot(dx,dz),v=(h[k]-h[q])/d;if(v>1e-9){const w=v**1.1;qs.push(q);ws.push(w);sum+=w;}}for(let a=0;a<qs.length;a++)fn(qs[a],ws[a]/sum);return qs.length;};
+ progress('正在沿最终地形计算分流与汇水…');
+ for(const k of order){let sx=0,sz=0,down=0;neighbors(k,(q,w)=>{flow[q]+=flow[k]*w;sx+=(q%n-k%n)*w;sz+=(Math.floor(q/n)-Math.floor(k/n))*w;down+=slope[q]*w;});const len=Math.hypot(sx,sz)||1;direction[k*2]=sx/len;direction[k*2+1]=sz/len;slow[k]=Math.max(0,slope[k]-down);if(flow[k]>=1e6&&slope[k]>1e-5)distance[k]=0;}
+ // Eight-neighbour distance transform in physical units. No channel on an empty plane.
+ for(const forward of[true,false])for(let a=0;a<N;a++){const k=forward?a:N-1-a,i=k%n,j=Math.floor(k/n);for(const [dx,dz]of (forward?[[-1,0],[0,-1],[-1,-1],[1,-1]]:[[1,0],[0,1],[1,1],[-1,1]])){if(i+dx>=0&&i+dx<n&&j+dz>=0&&j+dz<n)distance[k]=Math.min(distance[k],distance[k+dz*n+dx]+step*Math.hypot(dx,dz));}}
+ return{g,levels:ls,selected,broadPosition,broadSlope,slope,concavity,position,residual,shelter,source,flow,direction,slow,distance,order,neighbors,sourceFingerprint:fingerprint(g,state.seed)};
+}
+function transport(m,p,grain,sourceOverride){
+ const {g,source,slope,concavity,slow,order,neighbors}=m,N=g.h.length,area=g.step*g.step,length=grain==='coarse'?256:2048,loads=new Float64Array(N*3),deposits=new Float32Array(N*3),ledger={released:0,deposited:0,stored:0,exported:0,grain,lengthM:length};
+ for(const k of order){const boundary=k<g.n||k>=N-g.n||k%g.n===0||k%g.n===g.n-1,release=sourceOverride?sourceOverride(k,grain):area*(grain==='coarse'?.012:.008)*(.08+.92*S(.005,.5,slope[k]))*(p.washStrength??.65),src=source[k];loads[k*3+src]+=release;ledger.released+=release;
+  const trap=.3+2*(1-S(.01,.25,slope[k]))+Math.max(0,concavity[k])+clamp(slow[k]*8)+clamp(m.residual[k]/24)*.25,fraction=1-Math.exp(-g.step/length*trap),list=[];neighbors(k,(q,w)=>list.push([q,w]));
+  for(let c=0;c<3;c++){const available=loads[k*3+c],d=list.length?available*fraction:boundary?0:available;deposits[k*3+c]=d/area;if(list.length){ledger.deposited+=d;for(const[q,w]of list)loads[q*3+c]+=(available-d)*w;}else if(boundary)ledger.exported+=available;else ledger.stored+=d;}
+ }
+ ledger.residual=ledger.released-ledger.deposited-ledger.stored-ledger.exported;return{deposits,ledger};
+}
+// Fields: signed cover budget, talus, alluvium, weather, 3 source fractions, AO, scour, channel distance, position, roughness.
+const STRIDE=15;
+function buildSurfaceMaterials(state,p=state.parameters,progress=()=>{},derived){
+ const m=derived||deriveTerrainMaps(state,progress),g=m.g,N=g.h.length;
+ // Local weathered parent material is mixed over a 256 m neighbourhood. Exposed contacts stay sharp.
+ const soilParent=new Float32Array(N*3),soilTemp=new Float32Array(N*3);for(let k=0;k<N;k++)soilParent[k*3+m.source[k]]=1;
+ for(const axis of[0,1]){for(let j=0;j<g.n;j++)for(let i=0;i<g.n;i++)for(let c=0;c<3;c++){let v=0;for(let d=-2;d<=2;d++){const x=axis===0?clamp(i+d,0,g.n-1):i,z=axis===1?clamp(j+d,0,g.n-1):j;v+=soilParent[(z*g.n+x)*3+c]*[1,4,6,4,1][d+2]/16;}soilTemp[(j*g.n+i)*3+c]=v;}soilParent.set(soilTemp);}progress('正在搬运粗细碎屑，并核对材料来源与收支…');const coarse=transport(m,p,'coarse'),fine=transport(m,p,'fine'),data=new Float32Array(N*STRIDE);
+ for(let k=0;k<N;k++){
+  const slope=m.slope[k],convex=Math.max(0,-m.concavity[k]),flat=1-S(.025,.32,slope),wash=(p.washStrength??.65)*S(.4,2.8,Math.log10(Math.max(1,m.flow[k]/(g.step*g.step))))*(.25+.75*S(.0001,.03,slope)),fresh=g.cut?S(4,80,g.cut[k]):0;
+  let cc=0,ff=0;for(let c=0;c<3;c++){cc+=coarse.deposits[k*3+c];ff+=fine.deposits[k*3+c];}
+  const budget=(p.dustCover??.7)*(.82+.18*m.shelter[k])+.08*(1-S(.02,.15,m.broadSlope[k]))-.10*clamp(m.broadPosition[k]/256,-1,1)-.06*clamp(m.position[k]/32,-1,1)+.15*Math.max(0,m.concavity[k])-.9*S(.08,.55,slope)-convex*.5-wash*.58-fresh*.6;
+  const talus=(p.talusCover??.65)*(1-Math.exp(-cc*22))*(.3+.7*flat),alluvium=(p.fineDeposit??.7)*(1-Math.exp(-ff*30)),weather=clamp(.40+.26*flat+.18*m.shelter[k]-.25*fresh-.16*wash),off=k*STRIDE;
+  data.set([budget,talus,alluvium,weather,0,0,0,m.shelter[k],wash,m.distance[k],m.position[k],m.residual[k],soilParent[k*3],soilParent[k*3+1],soilParent[k*3+2]],off);
+  const sum=cc+ff;if(sum>1e-12)for(let c=0;c<3;c++)data[off+4+c]=(coarse.deposits[k*3+c]+fine.deposits[k*3+c])/sum;else data[off+4+m.source[k]]=1;
+ }
+ const report={algorithm:VERSION,gridStepM:g.step,integrationStepM:16,scalesM:[64,256,1024,4096],coarse:coarse.ledger,fine:fine.ledger,closedBasins:'retained as dry sediment; no height changes',createdAt:new Date().toISOString()};
+ return{key:key(state,p),sourceFingerprint:m.sourceFingerprint,n:g.n,min:g.min,step:g.step,stride:STRIDE,data,report};
+}
+// Shared source-to-pigment relationships. Every material follows the same rules.
+const BED=[[0,.08,.36,0,0,0,.10,.46],[.04,0,.08,.30,.53,.05,0,0],[.12,.68,.08,.03,0,.09,0,0]];
+const WEATHER=[[.39,.16,.24,.13,.04,.03,.01,0],[.14,.04,.07,.30,.38,.06,.01,0],[.32,.43,.12,.06,.02,.05,0,0]];
+function pointBasis(state,s,x,y,z,face=0){
+ const values=new Float64Array(STRIDE),gx=clamp((x-s.min)/s.step,0,s.n-1.001),gz=clamp((z-s.min)/s.step,0,s.n-1.001),ix=Math.floor(gx),iz=Math.floor(gz),u=gx-ix,v=gz-iz,idx=(iz*s.n+ix)*STRIDE;for(let c=0;c<STRIDE;c++)values[c]=mix(mix(s.data[idx+c],s.data[idx+STRIDE+c],u),mix(s.data[idx+s.n*STRIDE+c],s.data[idx+(s.n+1)*STRIDE+c],u),v);
+ const surface=C.field(state,x,z).height,side=face!==0,depth=Math.max(0,surface-y),lith=C.lithology(y,x,z,state.parameters,state.seed),source=lith==='oxide'?1:lith==='pale'?2:0;
+ const near=side?1-S(1,12,depth):1,dust=(1-Math.exp(-Math.max(0,values[0])/.24))*near,alluvium=clamp(values[2])*near,talus=clamp(values[1])*near,weather=clamp(values[3]);
+ let coverage=[(1-dust)*(1-weather*.65), (1-dust)*weather*.65,talus*(1-alluvium),dust*(1-alluvium),alluvium],sum=coverage.reduce((a,b)=>a+b,0);coverage=coverage.map(v=>v/sum);
+ const coeff=new Float64Array(6);coeff[source]+=coverage[0];coeff[source+3]+=coverage[1];for(let c=0;c<3;c++){const moved=coverage[2]+coverage[4];coeff[c]+=moved*values[4+c]*(.5-.5*weather);coeff[c+3]+=moved*values[4+c]*(.5+.5*weather)+coverage[3]*values[12+c];}
+ const shade=1+(C.noise(x/160,z/160,0,state.seed+311)-.5)*.02;const basis=new Float64Array(8);for(let c=0;c<6;c++)for(let i=0;i<8;i++)basis[i]+=coeff[c]*(c<3?BED[c][i]:WEATHER[c-3][i]);
+ return{basis,coeff:Float64Array.from(coeff,v=>v*shade),coverage,ao:values[7],scour:values[8],distance:values[9],position:values[10],terrainRoughness:values[11],weather,source,provenance:Array.from(values.slice(4,7)),thickness:Math.max(0,values[0]),roughness:.80*coverage[0]+.88*(coverage[1]+coverage[2])+.97*(coverage[3]+coverage[4])};
+}
+function paletteBank(p){const t=clamp(.3+.4*(p.weatherTone??.5)),tone=[(1-t)**3,3*t*(1-t)**2,3*t*t*(1-t),t**3];return [...BED,...WEATHER].map(row=>{let sum=0;const weights=row.map((v,i)=>v*(p[C.surfaceFamilies[i].id+'Amount']??1));for(const w of weights)sum+=w;if(sum<1e-12){weights.splice(0,8,...row);sum=1;}const rgb=[0,0,0];for(let i=0;i<8;i++){weights[i]/=sum;for(let k=0;k<3;k++)for(let stop=0;stop<4;stop++)rgb[k]+=weights[i]*C.surfaceFamilies[i].colors[stop][k]*tone[stop];}return{rgb,weights};});}
+function colorBasis(basis,weather,p,x,z){const rows=paletteBank(p),rgb=[0,0,0],weights=new Float64Array(8);if(basis.length===6){for(let j=0;j<6;j++){for(let k=0;k<3;k++)rgb[k]+=basis[j]*rows[j].rgb[k];for(let k=0;k<8;k++)weights[k]+=basis[j]*rows[j].weights[k];}}else{let sum=basis.reduce((v,w)=>v+w,0)||1;for(let j=0;j<8;j++){weights[j]=basis[j]/sum;for(let k=0;k<3;k++)rgb[k]+=weights[j]*C.surfaceFamilies[j].colors[0][k];}}const sum=weights.reduce((v,w)=>v+w,0)||1;for(let k=0;k<8;k++)weights[k]/=sum;return{rgb,weights};}
+
+function colorKey(){return 'source-basis-v2';}
+function preintegrate(state,p,s,progress=()=>{}){const n=s.n-1,data=new Float32Array(n*n*6),sampler=createSampler(state,p,{...s,preColor:null});for(let j=0;j<n;j++){if(j%128===0)progress('正在预积分单色方块 '+Math.round(j/n*100)+'%');for(let i=0;i<n;i++){const x=s.min+i*64,z=s.min+j*64;if(Math.hypot(x+32,z+32)>C.RADIUS+100)continue;const q=sampler.sampleFaceMaterial(x,z,64,0,0,0),k=(j*n+i)*6;data.set(q.coeff,k);}}sampler.clear();return{n,min:s.min,step:64,stride:6,key:colorKey(p),data};}
+function createSampler(state,p,s){
+ const bank=paletteBank(p),cache=new Map(),stats={integrationStepM:16,materialModel:VERSION,pointSamples:0,cacheHits:0};
+ function colour(coeff){const rgb=[0,0,0],weights=new Float64Array(8);for(let j=0;j<6;j++){for(let k=0;k<3;k++)rgb[k]+=coeff[j]*bank[j].rgb[k];for(let k=0;k<8;k++)weights[k]+=coeff[j]*bank[j].weights[k];}const sum=weights.reduce((v,w)=>v+w,0)||1;for(let i=0;i<8;i++)weights[i]/=sum;return{rgb,weights};}
+ function point(x,y,z,face){const q=pointBasis(state,s,x,y,z,face),c=colour(q.coeff);stats.pointSamples++;return{...q,rgb:c.rgb,pigments:c.weights};}
+ function top16(x,z){const k=x+','+z;if(cache.has(k)){stats.cacheHits++;return cache.get(k);}const q=point(x+8,C.field(state,x+8,z+8).height,z+8,0);if(cache.size>100000)cache.clear();cache.set(k,q);return q;}
+ function sampleFaceMaterial(x,z,size,bottom,top,face=0){
+  const coeff=new Float64Array(6),rgb=[0,0,0],pigments=new Float64Array(8),coverage=new Float64Array(5),provenance=new Float64Array(3);let mass=0,ao=0,roughness=0,scour=0,distance=0,weather=0,thickness=0;
+  const add=(q,w)=>{mass+=w;for(let k=0;k<6;k++)coeff[k]+=q.coeff[k]*w;for(let k=0;k<3;k++){rgb[k]+=q.rgb[k]*w;provenance[k]+=q.provenance[k]*w;}for(let k=0;k<8;k++)pigments[k]+=q.pigments[k]*w;for(let k=0;k<5;k++)coverage[k]+=q.coverage[k]*w;ao+=q.ao*w;roughness+=q.roughness*w;scour+=q.scour*w;distance+=q.distance*w;weather+=q.weather*w;thickness+=q.thickness*w;};
+  if(face===0&&size>=64&&x%64===0&&z%64===0&&s.preColor?.key===colorKey(p)){const pc=s.preColor;for(let zz=z;zz<z+size;zz+=64)for(let xx=x;xx<x+size;xx+=64){const i=Math.floor((xx-pc.min)/64),j=Math.floor((zz-pc.min)/64),k=(j*pc.n+i)*6;if(i<0||j<0||i>=pc.n||j>=pc.n)continue;const q=pointBasis(state,s,xx+32,C.field(state,xx+32,zz+32).height,zz+32,0);const cf=pc.data.subarray(k,k+6),c=colour(cf);add({...q,coeff:cf,rgb:c.rgb,pigments:c.weights},4096);stats.cacheHits++;}}
+  else if(face===0){for(let zz=z;zz<z+size-.001;zz+=16)for(let xx=x;xx<x+size-.001;xx+=16)add(top16(xx,zz),Math.min(16,x+size-xx)*Math.min(16,z+size-zz));}
+  else{const fixedX=face===1?x:face===2?x+size:null,fixedZ=face===3?z:face===4?z+size:null,start=fixedX===null?x:z;for(let u=start;u<start+size-.001;u+=16)for(let y=bottom;y<top-.001;){const end=Math.min(top,(Math.floor(y/16)+1)*16),w=Math.min(16,start+size-u)*(end-y);add(point(fixedX??u+8,(y+end)/2,fixedZ??u+8,face),w);y=end;}}
+  const div=a=>Array.from(a,v=>v/(mass||1));return{coeff:div(coeff),rgb:div(rgb),pigments:div(pigments),coverage:div(coverage),provenance:div(provenance),ao:ao/(mass||1),roughness:roughness/(mass||1),scour:scour/(mass||1),distance:distance/(mass||1),weather:weather/(mass||1),thickness:thickness/(mass||1)};
+ }
+ return{sampleFaceMaterial,stats,clear:()=>cache.clear()};
+}
+function compose(legacy,q){const weights=legacy.weights.slice(),rgb=[0,0,0];let eligible=0;for(let i=0;i<weights.length;i++){if(i<4||i>=C.SURFACE_START){eligible+=weights[i];weights[i]=0;}}
+ for(let k=0;k<3;k++){let organic=0;for(let i=4;i<10;i++)organic+=weights[i]*C.palette[i][k];rgb[k]=q.rgb[k]*eligible*(1-legacy.moisture*.2)+organic;}
+ for(let i=0;i<8;i++)weights[C.SURFACE_START+i]=q.pigments[i]*eligible;
+ const wet=1-legacy.moisture*.2,organic=[0,0,0];for(let k=0;k<3;k++)for(let i=4;i<10;i++)organic[k]+=weights[i]*C.palette[i][k];return{...legacy,geoCoeff:q.coeff.map(v=>v*eligible*wet),organic,weights,albedo:rgb,originalAlbedo:rgb,mixedAlbedo:rgb,fractalDelta:[0,0,0],ao:q.ao,roughness:mix(q.roughness,.55,clamp(legacy.sustainedWater)),geomorphic:q};
+}
+function inspect(state,x,z,size,p){const v=C.inspect(state,x,z,size,p),sampler=createSampler(state,p,state.surface);v.faces=v.faces.map(face=>compose(face,sampler.sampleFaceMaterial(v.x,v.z,v.size,Math.max(250,v.height-128),v.height,face.face)));sampler.clear();v.materialAlgorithm=VERSION;return v;}
+return{inspect,sampleFaceMaterial:(state,p,s,...args)=>createSampler(state,p,s).sampleFaceMaterial(...args),VERSION,PROCESS,DISTRIBUTION,STRIDE,fingerprint,key,metric,deriveTerrainMaps,buildSurfaceMaterials,transport,pointBasis,paletteBank,colorBasis,colorKey,preintegrate,createSampler,compose};
+});

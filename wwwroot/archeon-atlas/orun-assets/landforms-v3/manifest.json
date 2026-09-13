@@ -1,0 +1,282 @@
+{
+  "contextChannels": 6,
+  "key": "0.75:0.8:0.65:8000:24:0.6:0.55:14000:1:1:1:400|{\"low\":[[0,0.53],[0.14,0.463],[0.16,0.48],[0.24,0.474],[0.294,0.43],[0.34,0.425],[0.39,0.435],[0.44,0.39],[0.5,0.385],[0.56,0.38],[0.61,0.403],[0.67,0.38],[0.74,0.348],[0.81,0.348],[0.86,0.364],[0.96,0.367],[1,0.35]],\"high\":[[0,0.609],[0.08,0.616],[0.21,0.605],[0.264,0.586],[0.32,0.542],[0.35,0.536],[0.42,0.536],[0.49,0.54],[0.58,0.522],[0.633,0.513],[0.665,0.498],[0.74,0.467],[0.79,0.48],[0.85,0.433],[0.9,0.418],[1,0.404]]}",
+  "n": 1793,
+  "min": -57344,
+  "step": 64,
+  "ai": 0.65,
+  "maskVersion": "orun-ai-20260912-v1",
+  "fields": {
+    "h": {
+      "file": "h.f32",
+      "type": "Float32Array",
+      "sha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea"
+    },
+    "lock": {
+      "file": "lock.f32",
+      "type": "Float32Array",
+      "sha256": "e6d504865796ea40148ead3679b645fe4e4222822c2d07e95a8c2a685edc19bd"
+    },
+    "guard": {
+      "file": "guard.f32",
+      "type": "Float32Array",
+      "sha256": "de3fea48d0e9bd7284e92b892e776717e87a9225eb757569a63c511e1cf1cb5b"
+    },
+    "cut": {
+      "file": "cut.f32",
+      "type": "Float32Array",
+      "sha256": "583fc402d5609db989069c999b1f4ff44c340276e1023894a33bd493a94c4eac"
+    },
+    "gully": {
+      "file": "gully.f32",
+      "type": "Float32Array",
+      "sha256": "e01e79ed6e82b9bb63e325acca5b1945435879646bd913484432496fd583d63f"
+    },
+    "guideDelta": {
+      "file": "guideDelta.f32",
+      "type": "Float32Array",
+      "sha256": "7f84806050d5a682d3593388dd236b0600576cfc2aac5769d70316860b6f4035"
+    },
+    "context": {
+      "file": "context.u8",
+      "type": "Uint8Array",
+      "sha256": "dea14474dd1d5b604f99f9bb1e43fb3ca142353f45757113ceb204890f1fff29"
+    },
+    "area": {
+      "file": "area.f32",
+      "type": "Float32Array",
+      "sha256": "7501441648fcbcc889c804ce6e7136285f3cf4d22fd28cdffec7d032961fe36d"
+    },
+    "receiver": {
+      "file": "receiver.i32",
+      "type": "Int32Array",
+      "sha256": "c884b5c7f5092449b36103bf84a0a4487b272b1389e3b0b7c55eb01b67d165c0"
+    }
+  },
+  "levels": [
+    {
+      "file": "height-128.f32",
+      "n": 897,
+      "step": 128,
+      "min": -57344,
+      "sha256": "ff0aa599a57ca08d73649db72590eeef8f995be7d52163603cb3572963e3bbc0"
+    },
+    {
+      "file": "height-256.f32",
+      "n": 449,
+      "step": 256,
+      "min": -57344,
+      "sha256": "39b639af4773d3559b633025b422d3288e6c556f79091ca539a76086425d4a07"
+    },
+    {
+      "file": "height-512.f32",
+      "n": 225,
+      "step": 512,
+      "min": -57344,
+      "sha256": "7250cf3f453b706c89f12ddd6c9900abcc4a66749868d55b14ff69d1535cb533"
+    },
+    {
+      "file": "height-1024.f32",
+      "n": 113,
+      "step": 1024,
+      "min": -57344,
+      "sha256": "413a0f2726278dc34225c0cae8b7b52a66a8f6d37e5bd0d72021e046540dd2ff"
+    }
+  ],
+  "report": {
+    "variationScalesM": [
+      32000,
+      12000,
+      4000,
+      1000,
+      256,
+      64,
+      24
+    ],
+    "tiling": "rotated overlapping world-cell masks; finite footprint filtering",
+    "transitionFeatherM": 256,
+    "maskVersion": "orun-ai-20260912-v1",
+    "maskCount": 9,
+    "stepM": 64,
+    "patchCount": 281,
+    "guideRole": "author-selected elevation guide with manually traced low/wall/high bands",
+    "cutRemovedM3": 232692674492.81683,
+    "fillAddedM3": 967974788580.779,
+    "cliffRemovedM3": 10881104685.110254,
+    "supportAddedM3": 395977002.5,
+    "stabilityRemovedM3": 1126939640.380117,
+    "stability": {
+      "maximumDropM": 1194.9455574485996,
+      "traces": 1846,
+      "violations": [],
+      "thresholdM": 1200,
+      "steepDeg": 65,
+      "breakDeg": 35,
+      "breakLengthM": 128,
+      "sampleM": 64,
+      "passes": 16,
+      "removedM3": 1126939640.380117
+    },
+    "protectedMaxDeltaM": 0.000244140625,
+    "maximumCliffCutM": 132.17105102539062,
+    "gullyRangeM": [
+      -10.968389511108398,
+      3.082306146621704
+    ],
+    "plainRangeM": [
+      145.96595764160156,
+      413.11016845703125
+    ],
+    "plateauRangeM": [
+      3099.4306640625,
+      3494.616455078125
+    ],
+    "cliffScaleContributions": {
+      "small": 373602.2159953556,
+      "medium": 1025975.6968977881,
+      "large": 1256941.7856200573
+    },
+    "downhillCorrections": 0,
+    "hydrology": "strictly descending D8 receivers; closed basins retained",
+    "bands": {
+      "low": [
+        [
+          0,
+          0.53
+        ],
+        [
+          0.14,
+          0.463
+        ],
+        [
+          0.16,
+          0.48
+        ],
+        [
+          0.24,
+          0.474
+        ],
+        [
+          0.294,
+          0.43
+        ],
+        [
+          0.34,
+          0.425
+        ],
+        [
+          0.39,
+          0.435
+        ],
+        [
+          0.44,
+          0.39
+        ],
+        [
+          0.5,
+          0.385
+        ],
+        [
+          0.56,
+          0.38
+        ],
+        [
+          0.61,
+          0.403
+        ],
+        [
+          0.67,
+          0.38
+        ],
+        [
+          0.74,
+          0.348
+        ],
+        [
+          0.81,
+          0.348
+        ],
+        [
+          0.86,
+          0.364
+        ],
+        [
+          0.96,
+          0.367
+        ],
+        [
+          1,
+          0.35
+        ]
+      ],
+      "high": [
+        [
+          0,
+          0.609
+        ],
+        [
+          0.08,
+          0.616
+        ],
+        [
+          0.21,
+          0.605
+        ],
+        [
+          0.264,
+          0.586
+        ],
+        [
+          0.32,
+          0.542
+        ],
+        [
+          0.35,
+          0.536
+        ],
+        [
+          0.42,
+          0.536
+        ],
+        [
+          0.49,
+          0.54
+        ],
+        [
+          0.58,
+          0.522
+        ],
+        [
+          0.633,
+          0.513
+        ],
+        [
+          0.665,
+          0.498
+        ],
+        [
+          0.74,
+          0.467
+        ],
+        [
+          0.79,
+          0.48
+        ],
+        [
+          0.85,
+          0.433
+        ],
+        [
+          0.9,
+          0.418
+        ],
+        [
+          1,
+          0.404
+        ]
+      ]
+    }
+  },
+  "seconds": 27.625,
+  "landformSourceSha256": "46662066b69f98582c8d78e990aa37977255838f621d8a1015dd9de5109e75f2"
+}

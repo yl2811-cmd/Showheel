@@ -93,6 +93,14 @@ addDirectory('terrain/tiles', '.png');
 addDirectory('data/contours', '.js');
 addDirectory('data/hydrology', '.js');
 addDirectory('space-assets', '.md');
+// Orun dependencies: follow manifests and only copy browser inputs.
+for(const f of ['orun-controller.js','orun-core.js','orun-landforms.js','orun-surface.js','orun-material-lod.js','orun-mesh.js','orun-view.js','orun-worker.js','orun.css'])files.add(f);
+const orunJSON=rel=>{files.add('orun-assets/'+rel);return JSON.parse(fs.readFileSync(path.join(source,'orun-assets',rel),'utf8'));};
+const oi=orunJSON('input.json'),om=orunJSON('manifest.json');
+for(const k of ['heightFile','environmentFile','authorBandsFile'])if(oi[k])files.add('orun-assets/'+oi[k]);
+for(const f of Object.values(om.fields))files.add('orun-assets/'+f.file);
+const mask=orunJSON(oi.maskManifestFile);files.add('orun-assets/'+path.posix.join(path.posix.dirname(oi.maskManifestFile),mask.dataFile));
+for(const file of [oi.landformManifestFile,oi.surfaceManifestFile]){if(!file)continue;const m=orunJSON(file),dir=path.posix.dirname(file),add=r=>files.add('orun-assets/'+path.posix.join(dir,r));for(const f of Object.values(m.fields||{}))add(f.file);for(const l of m.levels||[])add(l.file);if(m.dataFile)add(m.dataFile);for(const r of m.dataFiles||[])add(r.file);for(const r of m.preColor?.dataFiles||[])add(r.file);}
 for (const relative of files) {
   if (!fs.statSync(sourcePath(relative)).isFile()) throw Error('Missing dependency: ' + relative);
 }
@@ -103,7 +111,7 @@ function replaceOnce(text, pattern, replacement) {
   return text.replace(pattern, replacement);
 }
 function adapt(relative, original) {
-  original = characterAtlas.adapt(relative, original);
+  original = characterAtlas.adapt(relative, original);if(relative==='orun-controller.js')original=Buffer.from(original.toString('utf8').replace('本地调参 · 尚未发布','参数调整仅在本机生效'));
   if (relative === 'eyrie-controller.js') {
     return Buffer.from(replaceOnce(original.toString('utf8'), /await script\('eyrie-assets\/geometry\.js'\)/,
       '{' + [...geometryParts.keys()].map(name => "await script('" + name + "');").join('') + '}'));
@@ -122,8 +130,10 @@ function adapt(relative, original) {
   return original;
 }
 const hash = buffer => crypto.createHash('sha256').update(buffer).digest('hex');
-const entries = [];
-for (const relative of [...files].sort()) {
+const orunOnly=process.argv.includes('--orun-only'),isOrunFile=f=>f.startsWith('orun-')||f==='orun.css'||f==='index.html'||f==='app.js';
+const previous=orunOnly?JSON.parse(fs.readFileSync(path.join(root,'docs/archeon-atlas-assets.json'))):null;
+const entries = previous?previous.files.filter(f=>!isOrunFile(f.path)):[];
+for (const relative of [...files].sort()) {if(orunOnly&&!isOrunFile(relative))continue;
   const original = fs.readFileSync(sourcePath(relative));
   const deployed = adapt(relative, original);
   const target = path.join(destination, relative);
@@ -135,14 +145,14 @@ for (const relative of [...files].sort()) {
   }
   entries.push({ path: relative, bytes: deployed.length, sourceSha256, sha256 });
 }
-for (const relative of characterAtlas.ownedFiles) {
+if(!orunOnly) for (const relative of characterAtlas.ownedFiles) {
   const sourcePath = 'scripts/atlas-character/' + relative;
   const data = fs.readFileSync(path.join(root, sourcePath));
   fs.writeFileSync(path.join(destination, relative), data);
   entries.push({ path: relative, bytes: data.length, sourcePath, sourceSha256: hash(data), sha256: hash(data) });
 }
 fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
-for (const [relative, deployed] of geometryParts) {
+if(!orunOnly) for (const [relative, deployed] of geometryParts) {
   const target = path.join(destination, relative);
   fs.writeFileSync(target, deployed);
   if (hash(fs.readFileSync(target)) !== hash(deployed)) throw Error('Geometry copy failed: ' + relative);

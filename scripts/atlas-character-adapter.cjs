@@ -6,6 +6,7 @@ function replace(text, before, after) {
     return text.replace(before, after);
 }
 function adapt(relative, original) {
+    if (relative !== 'index.html' && relative !== 'space-controller.js') return original;
     let text = original.toString('utf8');
     if (relative === 'index.html') {
         text = replace(text, '<span>05</span>Federation</button></nav>', '<span>05</span>Federation</button><button data-tab="character" aria-pressed="false"><span>06</span>Character</button></nav>');

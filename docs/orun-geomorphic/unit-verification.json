@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Empty plane has uniform material and no imaginary drainage",
+    "pass": true,
+    "ms": 28,
+    "details": {
+      "maxMaterialDifference": 0
+    }
+  },
+  {
+    "name": "Source pigments follow connected downhill flow and conserve mass",
+    "pass": true,
+    "ms": 23,
+    "details": {
+      "downstream": 0.19855418391162846,
+      "upstream": 0,
+      "ledger": {
+        "released": 1000,
+        "deposited": 882.5678315361857,
+        "stored": 0,
+        "exported": 117.4321684638145,
+        "grain": "fine",
+        "lengthM": 2048,
+        "residual": -2.4158453015843406e-13
+      }
+    }
+  },
+  {
+    "name": "Flow rotates with a shallow slope",
+    "pass": true,
+    "ms": 24,
+    "details": {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "name": "All four analysis scales and plane detrending",
+    "pass": true,
+    "ms": 28,
+    "details": {
+      "scale": 64,
+      "slope": 0.022359912086049462,
+      "hx": 0.009999275207519531,
+      "hz": 0.01999950408935547,
+      "curvature": 5.960464477539063e-8,
+      "relative": -0.00005425347217169474,
+      "residual": 0.00004498460273377007
+    }
+  },
+  {
+    "name": "Sixteen metre quadrature preserves parent-child area colours",
+    "pass": true,
+    "ms": 1,
+    "details": {
+      "parent": [
+        0.4622457821739713,
+        0.3517458571798466,
+        0.22681998824901556
+      ]
+    }
+  },
+  {
+    "name": "Palette changes do not change deposition or coverage",
+    "pass": true,
+    "ms": 1
+  },
+  {
+    "name": "Old exports retain their original material mode",
+    "pass": true,
+    "ms": 0
+  },
+  {
+    "name": "Material generation does not change geometry",
+    "pass": true,
+    "ms": 13
+  },
+  {
+    "name": "Cover thickness changes edge sharpness without moving the rock contact",
+    "pass": true,
+    "ms": 149,
+    "details": {
+      "maxSourceFractionChangePer16m": {
+        "exposed": 0.7332746486147036,
+        "covered": 0.08773093096232265
+      }
+    }
+  },
+  {
+    "name": "Unrelated binary assets bypass text adapters",
+    "pass": true,
+    "ms": 0
+  }
+]

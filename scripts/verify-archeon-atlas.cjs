@@ -86,6 +86,10 @@ async function main() {
     }
   }
   assert(!/download-svg|download-png|exports\//.test(read('index.html') + read('app.js')));
+  for(const f of ['orun-controller.js','orun-core.js','orun-landforms.js','orun-surface.js','orun-material-lod.js','orun-mesh.js','orun-view.js','orun-worker.js','orun.css'])exists(f);
+  for(const name of ['orun-controller.js','orun-worker.js']){const text=read(name);for(const m of text.matchAll(/['"](orun-[a-z-]+\.js)['"]/g))exists(m[1]);}
+  const oi=JSON.parse(read('orun-assets/input.json'));for(const k of ['heightFile','environmentFile','authorBandsFile','maskManifestFile','landformManifestFile','surfaceManifestFile'])if(oi[k])exists('orun-assets/'+oi[k]);
+  for(const file of [oi.landformManifestFile,oi.surfaceManifestFile]){const m=JSON.parse(read('orun-assets/'+file)),dir=path.posix.dirname('orun-assets/'+file);for(const r of [...Object.values(m.fields||{}),...(m.levels||[]),...(m.dataFiles||[]),...(m.preColor?.dataFiles||[])]){const f=path.posix.join(dir,r.file);exists(f);if(r.sha256)assert.equal(hash(fs.readFileSync(path.join(assets,f))),r.sha256,f);}}
   const base = process.argv[2];
   let httpChecked = 0;
   if (base) {

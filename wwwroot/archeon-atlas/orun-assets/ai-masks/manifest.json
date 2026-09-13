@@ -1,0 +1,848 @@
+{
+  "version": "orun-ai-20260912-v1",
+  "generator": "built-in image_gen",
+  "activeDiameterM": 100000,
+  "worldBounds": [
+    -57344,
+    -57344,
+    57344,
+    57344
+  ],
+  "orientation": "image right = +x, image down = +z; outer guard band retained",
+  "regionRole": "User-selected metric elevation guide. Upper and lower plains separately have <500 m relief; central wall carries the main rise.",
+  "images": [
+    {
+      "id": "region",
+      "type": "region",
+      "file": "region.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 114688,
+      "metresPerPixel": 91.45773524720893,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 0,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 1572516,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 1965645,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 2064241,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 2088890,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 2095131,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 2096731,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 2097131,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 2097231,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 2097256,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 2097265,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 2097269,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        23,
+        217
+      ],
+      "sha256": "d73c40b20588287248206a53c371234ba020f2ff94fb0db3450e871a57099b8d",
+      "role": "User-selected regional elevation guide; low and high plains each below 500 m internal relief; main rise in hand-guided central cliff belt",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. Regional geology tendency map for a 114.688 km square arid basalt plateau. Attached image is a registered HEIGHT GUIDE only: keep its diagonal cliff belt between dark upper lowlands and bright lower plateau at the same location. Output a DIFFERENT scalar organization map: broad 4–20 km domains of low, medium and high erosion/exposure tendency. Both upper plain and lower plateau must have broad coherent varied gray provinces; do not just copy their elevation brightness. Some branching arid drainage regions, some elongated rock provinces, large relatively quiet sediment regions. Region boundaries gently follow the cliff belt, interrupted by large open bays, never straight stripes. Black 0 means quiet continuous fines, midgray mixed weathered ground, white 1 fragmented exposed rock tendency. No hydraulic rivers drawn as luminous lines.",
+      "referencePaths": [
+        "D:/SKBS/review/orun-ai-landforms-20260912/baseline-height-guide.png"
+      ],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-c706f542-6494-40b1-a104-4df169b8f8b1.png"
+    },
+    {
+      "id": "drainage-a",
+      "type": "drainage",
+      "file": "drainage-a.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 8000,
+      "metresPerPixel": 6.379585326953748,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 2097270,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 3669786,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 4062915,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 4161511,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 4186160,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 4192401,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 4194001,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 4194401,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 4194501,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 4194526,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 4194535,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 4194539,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        4,
+        170
+      ],
+      "sha256": "43099b08fe0855266fb7cad1a24fec59368df271ff695f5ddb6cc944248565ba",
+      "role": "drainage scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. An 8 km square dry badlands DENDRITIC EROSION DENSITY mask. Black background means uncut ground; gray and white narrow branching threads mean increasingly incised dry channels. Multiple asymmetric drainage trees mostly draining toward bottom edge, irregular tributaries progressively finer upstream, some spreading alluvial fan lobes at the bottoms in softer gray. Uneven sparse and dense patches, several broad intact blank divides. Channel cores white, soft narrow shoulders gray. No raised embossed shading, no photographic shading.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-5cb9e4ec-52db-4c76-a297-cd8706aa585d.png"
+    },
+    {
+      "id": "drainage-b",
+      "type": "drainage",
+      "file": "drainage-b.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 8000,
+      "metresPerPixel": 6.379585326953748,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 4194540,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 5767056,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 6160185,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 6258781,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 6283430,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 6289671,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 6291271,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 6291671,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 6291771,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 6291796,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 6291805,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 6291809,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        9,
+        175
+      ],
+      "sha256": "4f71770b68f1538b445a714ee24d16603e1a613ac56fed2a7e67282faeb19c04",
+      "role": "drainage scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A distinct 8 km square dry badlands DENDRITIC EROSION DENSITY mask. Broad asymmetric branching drainage network trending diagonally from upper left toward lower right, smaller tributaries and irregular eroded fans interleaved with quiet uncut areas, broken pale wash sheets. Black means intact ground, grayscale to white means increasing channel incision or eroded sediment transport corridor. Avoid regular spacing and equal branching angles. No shaded topography.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-a4c46083-e734-48b8-9764-82c8452bed55.png"
+    },
+    {
+      "id": "ridges-a",
+      "type": "ridges",
+      "file": "ridges-a.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 10000,
+      "metresPerPixel": 7.974481658692185,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 6291810,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 7864326,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 8257455,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 8356051,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 8380700,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 8386941,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 8388541,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 8388941,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 8389041,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 8389066,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 8389075,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 8389079,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        13,
+        190
+      ],
+      "sha256": "735c216131039281406a42681e4166d27d3b3688188f7584a037a87a1b5784c6",
+      "role": "ridges scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A 10 km square ELONGATED ERODED ROCK RIDGE DENSITY map. Long irregular curving interrupted ridge spines with secondary branching fingers and widening quiet valleys. Main direction near vertical but bends locally. Black means no resistant ridge; white cores designate surviving resistant rock, gray fractured shoulders. Vary ridge widths greatly, allow tips to taper, vanish, split, overlap laterally. Broad gaps, a few dense groups, not parallel uniform ribbons. Entirely flat data mask.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-c2f3644c-e8ee-4274-8077-d3757432056c.png"
+    },
+    {
+      "id": "ridges-b",
+      "type": "ridges",
+      "file": "ridges-b.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 10000,
+      "metresPerPixel": 7.974481658692185,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 8389080,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 9961596,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 10354725,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 10453321,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 10477970,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 10484211,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 10485811,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 10486211,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 10486311,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 10486336,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 10486345,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 10486349,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        28,
+        176
+      ],
+      "sha256": "17fc3a0ee6605809b24e406eedfbce0b00ce3696f6747836aff84f4aedf448b3",
+      "role": "ridges scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A distinct 10 km square ELONGATED ROCK STRATA DENSITY map, gently bent diagonal interrupted ribbons and asymmetric residual spurs. White signifies resistant remnant crests, gray broken ledges, black wide eroded gaps. Ribbons merge and die out at different lengths. Some large quiet areas and two denser fractured groups, multiple fine splintered edges. No regular waves, no contour diagram, no raised shading.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-0c2cf18b-cae9-41ae-a133-d121a2673b22.png"
+    },
+    {
+      "id": "bedrock-a",
+      "type": "bedrock",
+      "file": "bedrock-a.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 6000,
+      "metresPerPixel": 4.784688995215311,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 10486350,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 12058866,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 12451995,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 12550591,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 12575240,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 12581481,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 12583081,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 12583481,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 12583581,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 12583606,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 12583615,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 12583619,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        29,
+        202
+      ],
+      "sha256": "2b759ae49d43140fda5d535299ed123b91265f752ed446b10da8ebce77946499",
+      "role": "bedrock scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A 6 km square FRACTURED BADLANDS BEDROCK exposure-density mask. Large unequal interlocking rock plates broken into angular irregular clusters, dark branching cracks of unequal width, isolated small fragments and several broad open gaps. White means exposed resistant rock, gray means fragmented rock mixed with fines, black means soft sediment. Nested fractures inside some large plates and quiet interiors inside others; no regular Voronoi hexagons or uniform mosaic. No lighting.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-cf1c0211-8ef8-4543-8c3d-b2dc2f62aa56.png"
+    },
+    {
+      "id": "bedrock-b",
+      "type": "bedrock",
+      "file": "bedrock-b.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 6000,
+      "metresPerPixel": 4.784688995215311,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 12583620,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 14156136,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 14549265,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 14647861,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 14672510,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 14678751,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 14680351,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 14680751,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 14680851,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 14680876,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 14680885,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 14680889,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        24,
+        215
+      ],
+      "sha256": "3554507fc79737f1fb89cbaa32abb617731b3746d82d7e09f339d759bc8bda94",
+      "role": "bedrock scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A different 6 km square WEATHERED BEDROCK AND RUBBLE CLUSTER mask. Strongly unequal stretched angular rock islands and fractured sheets, some splinter into fine rubble, others stay broad and intact. Curving seams and branching cracks create asymmetric spatial organization. White exposed rock, gray partly buried rubble, black fine sediment. A few broad black washes cross the scene, connected with narrow cracks, fine details clustered along margins. Flat scalar data only.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-97dcd92f-8be3-4a54-aec7-152797537060.png"
+    },
+    {
+      "id": "cliff-a",
+      "type": "cliff",
+      "file": "cliff-a.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 8000,
+      "metresPerPixel": 6.379585326953748,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 14680890,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 16253406,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 16646535,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 16745131,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 16769780,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 16776021,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 16777621,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 16778021,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 16778121,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 16778146,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 16778155,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 16778159,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        6,
+        255
+      ],
+      "sha256": "31b48511982871816620f2029106b3b1370c473b26902ce6f1f9dae8115112d7",
+      "role": "cliff scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. An 8 km square PLATEAU EDGE RETREAT AND OPEN NOTCH DENSITY mask. Cliff strikes horizontally across this local map; inland is toward top. Several unequal open gulfs invade from bottom toward top, with branching fingers, terraced incomplete rim fragments and irregular nested scallops around each gulf. White identifies strongest removal at open gulf centers, gray its retreat shoulders and secondary cuts, black intact rock. Include one wide deep gulf, several medium ones and clustered small torn rim details, long untouched rim sections. All openings open toward bottom; never enclosed circular craters. No perspective, no elevation shading.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-50bd6c2d-5c8b-4b7a-9b43-13cf94bdc092.png"
+    },
+    {
+      "id": "cliff-b",
+      "type": "cliff",
+      "file": "cliff-b.png",
+      "width": 1254,
+      "height": 1254,
+      "nominalExtentM": 8000,
+      "metresPerPixel": 6.379585326953748,
+      "levels": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "offset": 16778160,
+          "bytes": 1572516
+        },
+        {
+          "width": 627,
+          "height": 627,
+          "offset": 18350676,
+          "bytes": 393129
+        },
+        {
+          "width": 314,
+          "height": 314,
+          "offset": 18743805,
+          "bytes": 98596
+        },
+        {
+          "width": 157,
+          "height": 157,
+          "offset": 18842401,
+          "bytes": 24649
+        },
+        {
+          "width": 79,
+          "height": 79,
+          "offset": 18867050,
+          "bytes": 6241
+        },
+        {
+          "width": 40,
+          "height": 40,
+          "offset": 18873291,
+          "bytes": 1600
+        },
+        {
+          "width": 20,
+          "height": 20,
+          "offset": 18874891,
+          "bytes": 400
+        },
+        {
+          "width": 10,
+          "height": 10,
+          "offset": 18875291,
+          "bytes": 100
+        },
+        {
+          "width": 5,
+          "height": 5,
+          "offset": 18875391,
+          "bytes": 25
+        },
+        {
+          "width": 3,
+          "height": 3,
+          "offset": 18875416,
+          "bytes": 9
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 18875425,
+          "bytes": 4
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 18875429,
+          "bytes": 1
+        }
+      ],
+      "normalization": [
+        19,
+        236
+      ],
+      "sha256": "4f16892e1081998bf3a7a0395fe880b4d9f6340b5c5dbbd407c04e9bced8973b",
+      "role": "cliff scalar structure mask",
+      "prompt": "Create a production terrain-control MASK, not a photograph or shaded rendering. Square image, target 2048 by 2048. Strict orthographic top-down, grayscale only, no perspective, no lighting or ambient occlusion, no shadows, no cloud, no text, no border. Values describe scalar structural tendency, not illumination. Complex natural spatial organization across several scales, coherent broad quiet areas interrupted by asymmetric detailed branching boundaries; absolutely no uniform isotropic noise carpet or tiled repeating stamps. Clean continuous tonal fields with fine crisp branching structures where specified. A distinct 8 km square PLATEAU OPEN BAY AND BROKEN LEDGE RETREAT scalar mask. From the bottom boundary irregular open bays cut upward into the land, offset tributary notches and lopsided branching erosional fingers. One broad off-center opening and two shallower fragmented ones; smaller cuts gather at their margins. Grayscale white maximum retreat, gray lesser retreat, black untouched cliff. Rock ledges end at differing positions, never concentric perfect steps. Keep large unbroken areas. No black-to-white height lighting gradient and no shaded terrain.",
+      "referencePaths": [],
+      "originalSource": "C:\\Users\\yl281\\.codex\\generated_images\\01a097d0-27b3-72f0-8a5a-89e73e793fbb\\exec-a51b4866-386e-43a7-a149-ca8ab55f43fb.png"
+    }
+  ],
+  "dataFile": "scalar-mips.u8",
+  "dataBytes": 18875430,
+  "dataSha256": "c9bce0d28e477e0526833002220c150b25fbafece35d89a8e1b54db2f815fd36"
+}

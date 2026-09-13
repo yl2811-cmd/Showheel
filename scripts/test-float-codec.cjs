@@ -1,0 +1,4 @@
+const assert=require('assert/strict'),fs=require('fs'),hashlib=require('crypto'),zlib=require('zlib'),codec=require('./web-runtime/float-codec.js'),tests=[];
+for(const size of[0,4,28,4092,65540])for(const stride of[1,6,12,15,16,18])for(const delta of[false,true]){const b=hashlib.randomBytes(size),t={kind:'f32-channels-v1',stride,delta},encoded=codec.encode(b,t),decoded=codec.decode(zlib.gunzipSync(zlib.gzipSync(encoded)),t);assert(Buffer.from(decoded).equals(b));tests.push({size,stride,delta});}
+const special=Buffer.from('00000000000000800000807f000080ff0100c07fffffffff0000803f','hex');for(const delta of[false,true]){const t={kind:'f32-channels-v1',stride:3,delta};assert(Buffer.from(codec.decode(codec.encode(special,t),t)).equals(special));}
+console.log(JSON.stringify({passed:true,roundTrips:tests.length,specialFloatBitPatternsPreserved:true},null,2));

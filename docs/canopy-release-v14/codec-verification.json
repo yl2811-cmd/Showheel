@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "roundTrips": 60,
+  "specialFloatBitPatternsPreserved": true
+}

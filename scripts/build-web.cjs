@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const zlib = require('node:zlib');
+const floatCodec = require('./web-runtime/float-codec.js');
 const { spawn, spawnSync } = require('node:child_process');
 const { once } = require('node:events');
 let sharp;
@@ -57,9 +58,10 @@ function adapt(relative, source) {
     text = replace(text, "const r=await fetch(assetBase+record.file,{signal:abort.signal});if(!r.ok)throw Error('区域分块未能读取：'+record.file);", "const data=await window.SHOWHEEL_ASSETS.bytes(assetBase+record.file,abort.signal);const r={arrayBuffer:async()=>data};", relative);
     text = replace(text, 'const errors=[];', "const errors=[];if(signal?.aborted)abort.abort();signal?.addEventListener('abort',()=>abort.abort(),{once:true});", relative);
     const cliffHook = text.includes('cliffLook.attach(mesh.geometry,record.file,record.sha256);') ? 'cliffLook.attach(mesh.geometry,record.file,record.sha256);' : '';
+    const canopyHook = text.includes('canopy?.attach(mesh,record);') ? 'canopy?.attach(mesh,record);' : '';
     const editorHook = text.includes('if(editor)await editor.onMesh(mesh,record);') ? 'if(editor)await editor.onMesh(mesh,record);' : '';
-    text = replace(text, 'mesh.name=record.file;' + cliffHook + editorHook + 'return mesh;', "mesh.name=record.file;" + cliffHook + editorHook + "if(disposed){mesh.geometry.dispose();throw new DOMException('Scene closed','AbortError');}return mesh;", relative);
-    text = replace(text, 'await Promise.all(promises);', "try{await Promise.all(promises);}catch(error){disposed=true;abort.abort();for(const m of fixed)m.geometry.dispose();resources.forEach(g=>g.dispose());[material,waterMaterial,cloudMat].forEach(m=>m.dispose());orbit.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove();throw error;}", relative);
+    text = replace(text, 'mesh.name=record.file;' + cliffHook + canopyHook + editorHook + 'return mesh;', "mesh.name=record.file;" + cliffHook + canopyHook + editorHook + "if(disposed){mesh.geometry.dispose();throw new DOMException('Scene closed','AbortError');}return mesh;", relative);
+    text = replace(text, 'await Promise.all(promises);', "try{await Promise.all(promises);}catch(error){disposed=true;abort.abort();canopy?.dispose();for(const m of fixed)m.geometry.dispose();resources.forEach(g=>g.dispose());[material,waterMaterial,cloudMat].forEach(m=>m.dispose());orbit.dispose();renderer.dispose();renderer.forceContextLoss();canvas.remove();throw error;}", relative);
     if (text.includes('async function loadTraffic()')) text = replace(text, "const response=await fetch(assetBase+M.transport.file,{signal:abort.signal});if(!response.ok)throw Error('Traffic data unavailable');trafficData=await response.json();", "trafficData=JSON.parse(new TextDecoder().decode(await window.SHOWHEEL_ASSETS.bytes(assetBase+M.transport.file,abort.signal)));", relative);
   }
   if (relative === 'archeon-atlas/atheria-controller.js') {
@@ -97,11 +99,13 @@ async function main() {
   const priorReportPath = option('--reuse-report', '');
   const priorOutput = option('--reuse-output', '');
   const prior = priorReportPath ? new Map(JSON.parse(fs.readFileSync(priorReportPath)).files.map(f => [f.path, f])) : new Map();
+  const floatStrides=new Map();
+  for(const [relative,input]of inputs){if(!relative.endsWith('/manifest.json')||Buffer.isBuffer(input))continue;const metadata=JSON.parse(fs.readFileSync(input));const visit=o=>{if(!o||typeof o!=='object')return;if(Number.isInteger(o.stride)&&o.stride>0&&o.stride<=256){for(const file of [...(o.dataFiles||[]),...(o.dataFile?[{file:o.dataFile}]:[])])if(file.file?.endsWith('.f32'))floatStrides.set(path.posix.join(path.posix.dirname(relative),file.file),o.stride);}for(const v of Object.values(o))if(v&&typeof v==='object'&&!Array.isArray(v))visit(v);};visit(metadata);}
   let processed = 0;
   for (const [relative, input] of inputs) {
     const original = Buffer.isBuffer(input) ? input : fs.readFileSync(input);
     let data = /\.js$/.test(relative) ? adapt(relative, original) : original;
-    let method = data.equals(original) ? 'copy' : 'adapt', stored = relative, imageVerified = false;
+    let method = data.equals(original) ? 'copy' : 'adapt', stored = relative, imageVerified = false, transform;
     if (/\.png$/i.test(relative)) {
       const previous = prior.get(relative);
       if (previous?.pixelVerified && previous.sourceSha256 === hash(original)) {
@@ -128,13 +132,17 @@ async function main() {
       }
     }
     if (/^archeon-atlas\/(data\/.*\.(js|json)|(?:atheria|eyrie|orun)-assets\/.*\.(bin|js|json|f32|u8|i32))$/.test(relative)) {
-      const packed = zlib.gzipSync(data, { level: 9 });
-      if (!zlib.gunzipSync(packed).equals(data)) throw Error('Gzip mismatch: ' + relative);
+      const previous=prior.get(relative),sourceHash=hash(original);let packed;
+      if(previous?.method==='gzip'&&previous.sourceSha256===sourceHash&&!previous.transform){const cached=fs.readFileSync(path.join(priorOutput,previous.stored));if(hash(cached)!==previous.sha256)throw Error('Reused packed resource changed: '+relative);packed=cached;}
+      else packed=zlib.gzipSync(data,{level:9});
+      if(relative.endsWith('.f32')&&data.length%4===0){const stride=floatStrides.get(relative)||1;for(const delta of [false,true]){const candidateTransform={kind:'f32-channels-v1',stride,delta},candidate=zlib.gzipSync(floatCodec.encode(data,candidateTransform),{level:9});if(candidate.length<packed.length){packed=candidate;transform=candidateTransform;}}}
+      const inflated=zlib.gunzipSync(packed),restored=transform?Buffer.from(floatCodec.decode(inflated,transform)):inflated;
+      if(!restored.equals(data))throw Error('Lossless packing mismatch: '+relative);
       stored = '_packed/' + hash(packed) + '.pack';
-      records['/' + relative] = { url: '/' + stored, bytes: data.length, sha256: hash(packed) };
+      records['/' + relative] = { url: '/' + stored, bytes: data.length, sha256: hash(packed), ...(transform?{transform}:{}) };
       method = 'gzip';
       write(stored, packed);
-      files.push({ path: relative, stored, sourceBytes: original.length, bytes: packed.length, sourceSha256: hash(original), decodedSha256: hash(data), sha256: hash(packed), method });
+      files.push({ path: relative, stored, sourceBytes: original.length, bytes: packed.length, sourceSha256: hash(original), decodedSha256: hash(data), sha256: hash(packed), method, ...(transform?{transform}:{}) });
     } else {
       write(stored, data);
       files.push({ path: relative, stored, sourceBytes: original.length, bytes: data.length, sourceSha256: hash(original), sha256: hash(data), method, ...(imageVerified ? { pixelVerified: true } : {}) });
@@ -156,12 +164,13 @@ async function main() {
     }
   }
   write('_packed/manifest.js', 'window.SHOWHEEL_PACKED=' + JSON.stringify(records) + ';\n');
+  write('_packed/float-codec.js',fs.readFileSync(path.join(__dirname,'web-runtime/float-codec.js')));
   write('_packed/loader.js', fs.readFileSync(path.join(__dirname, 'web-runtime/packed-loader.js')));
   const indexFile = path.join(output, 'archeon-atlas/index.html');
   let index = fs.readFileSync(indexFile, 'utf8');
   const initial = [...index.matchAll(/<script src="([^"]+)"\s*><\/script>/g)].map(m => m[1]);
   index = index.replace(/<script src="[^"]+"\s*><\/script>/g, '');
-  index = index.replace('</body>', '<script src="/_packed/manifest.js"></script><script src="/_packed/loader.js"></script><script src="/_packed/start.js"></script></body>');
+  index = index.replace('</body>', '<script src="/_packed/manifest.js"></script><script src="/_packed/float-codec.js"></script><script src="/_packed/loader.js"></script><script src="/_packed/start.js"></script></body>');
   write('archeon-atlas/index.html', index);
   const indexEntry = files.find(f => f.path === 'archeon-atlas/index.html');
   indexEntry.sha256 = hash(Buffer.from(index)); indexEntry.bytes = Buffer.byteLength(index); indexEntry.method = 'adapt';
@@ -171,7 +180,7 @@ async function main() {
   config.routes.push({ route: '/_packed/*.pack', headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } });
   config.mimeTypes = { ...config.mimeTypes, '.pack': 'application/octet-stream' };
   write('staticwebapp.config.json', JSON.stringify(config, null, 2) + '\n');
-  const generatedResources = ['_packed/manifest.js', '_packed/loader.js', '_packed/start.js', 'staticwebapp.config.json'].map(name => {
+  const generatedResources = ['_packed/manifest.js', '_packed/float-codec.js', '_packed/loader.js', '_packed/start.js', 'staticwebapp.config.json'].map(name => {
     const data = fs.readFileSync(path.join(output, name)); return { path: name, bytes: data.length, sha256: hash(data) };
   });
   const totalBytes = walk(output).reduce((sum, file) => sum + fs.statSync(file).size, 0);

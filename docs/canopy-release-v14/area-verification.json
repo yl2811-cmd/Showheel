@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "method": "Fixed world cells partition terrain; exact building/path exclusions precede crown footprint allocation. Roof crowns unioned in plan view once per finest tile; no camera or mesh-count proxy.",
+  "frozenBaselineAreaM2": 97198339.9720904,
+  "totals": [
+    {
+      "density": 0,
+      "groundAreaM2": 0,
+      "roofAreaM2": 0,
+      "totalAreaM2": 0,
+      "ratioToFrozenTotal": 0
+    },
+    {
+      "density": 1,
+      "groundAreaM2": 97194152.40174338,
+      "roofAreaM2": 70578.76364748445,
+      "totalAreaM2": 97264731.16539086,
+      "ratioToFrozenTotal": 1.0006830486335418
+    },
+    {
+      "density": 1.7,
+      "groundAreaM2": 165230059.07587332,
+      "roofAreaM2": 198382.06261489782,
+      "totalAreaM2": 165428441.1384882,
+      "ratioToFrozenTotal": 1.7019677618567297
+    },
+    {
+      "density": 2.5,
+      "groundAreaM2": 242985380.99391785,
+      "roofAreaM2": 453233.44690527406,
+      "totalAreaM2": 243438614.44082314,
+      "ratioToFrozenTotal": 2.5045552682352836
+    },
+    {
+      "density": 5,
+      "groundAreaM2": 485970761.98782676,
+      "roofAreaM2": 1396131.6246448967,
+      "totalAreaM2": 487366893.61247164,
+      "ratioToFrozenTotal": 5.014148325500359
+    }
+  ]
+}

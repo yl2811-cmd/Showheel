@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:8772/archeon-atlas/",
+  "views": [
+    {
+      "view": "world",
+      "ready": true,
+      "currentView": "world",
+      "canvases": 0,
+      "images": 29,
+      "packed": {
+        "requests": 47,
+        "compressedBytes": 26568392,
+        "decodedBytes": 124017805,
+        "retries": 0,
+        "cacheHits": 0
+      },
+      "errors": []
+    },
+    {
+      "view": "aethelgard",
+      "ready": true,
+      "currentView": "aethelgard",
+      "canvases": 0,
+      "images": 35,
+      "packed": {
+        "requests": 113,
+        "compressedBytes": 38661176,
+        "decodedBytes": 167450236,
+        "retries": 0,
+        "cacheHits": 0
+      },
+      "errors": []
+    },
+    {
+      "view": "orun",
+      "ready": true,
+      "currentView": "orun",
+      "canvases": 1,
+      "images": 35,
+      "mode": "overview",
+      "triangles": 1167950,
+      "busy": false,
+      "packed": {
+        "requests": 168,
+        "compressedBytes": 366008243,
+        "decodedBytes": 982816703,
+        "retries": 0,
+        "cacheHits": 0
+      },
+      "errors": []
+    },
+    {
+      "view": "system",
+      "ready": true,
+      "currentView": "system",
+      "canvases": 1,
+      "images": 35,
+      "focusId": "archeon",
+      "focusName": "Archeon",
+      "packed": {
+        "requests": 171,
+        "compressedBytes": 373027932,
+        "decodedBytes": 997451647,
+        "retries": 0,
+        "cacheHits": 0
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "failedResources": []
+}

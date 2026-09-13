@@ -1,0 +1,265 @@
+{
+  "version": 14,
+  "min": -20032,
+  "step": 32,
+  "n": 1252,
+  "stride": 12,
+  "baselineGroundAreaM2": 97194152.39756203,
+  "baselineRoofAreaM2": 4187.574528364792,
+  "baselineTotalAreaM2": 97198339.9720904,
+  "baselineWoodlandSha256": "1ac3b0b99bc62dd47b81efeb3ca34a9aac96a0df70564744cfd83e83e9ca11fb",
+  "defaultDensity": 1.7,
+  "source": "Fixed pre-change finest woodland crown area, with separate rooftop inventory",
+  "dataFile": "field.f32",
+  "maskFile": "masks.json",
+  "dataSha256": "df2694913f2672d0aba7cf763971d91c65c9300dc7025754d79500a91329b9fc",
+  "dataBytes": 75240192,
+  "verifiedOriginalCrownRanges": 36552,
+  "noise": {
+    "algorithm": "habitat-noise-and-irregular-field-sites-v13",
+    "scalesM": [
+      [
+        720,
+        650
+      ],
+      [
+        180,
+        210
+      ],
+      [
+        48,
+        53
+      ]
+    ],
+    "weights": [
+      0.52,
+      0.29,
+      0.19
+    ],
+    "contrastInterval": [
+      0.33,
+      0.68
+    ],
+    "contrastPower": 3.2,
+    "gainRange": [
+      0.015,
+      5.015
+    ],
+    "fieldStepM": 32,
+    "appliesTo": "tree coverage and expansion weight; pigment and relief follow the resulting density",
+    "heightRepresentation": "4.5–15 m; previous generated tree heights reduced by 25 percent"
+  },
+  "coefficients": {
+    "0": 0,
+    "1": 0,
+    "2": 0.16768892513437095,
+    "3": 0.381150012553519,
+    "4": 0.7259788037261501,
+    "5": 1.1505219184271027,
+    "0.1": 0,
+    "0.2": 0,
+    "0.3": 0,
+    "0.4": 0,
+    "0.5": 0,
+    "0.6": 0,
+    "0.7": 0,
+    "0.8": 0,
+    "0.9": 0,
+    "1.1": 0.016173441696309965,
+    "1.2": 0.03247378312710225,
+    "1.3": 0.048907039050050116,
+    "1.4": 0.06547166602643983,
+    "1.5": 0.08216863041440092,
+    "1.6": 0.09899777613685501,
+    "1.7": 0.1159593680827129,
+    "1.8": 0.1330532630351513,
+    "1.9": 0.1502978947870588,
+    "2.1": 0.18523743893422306,
+    "2.2": 0.20300326424802506,
+    "2.3": 0.22131333803480402,
+    "2.4": 0.2403216865882314,
+    "2.5": 0.26016869049675506,
+    "2.6": 0.28115982816746055,
+    "2.7": 0.30372341011349135,
+    "2.8": 0.3278795266502357,
+    "2.9": 0.3536523848618458,
+    "3.1": 0.41022102419719886,
+    "3.2": 0.4408287365038177,
+    "3.3": 0.4728438879097894,
+    "3.4": 0.5060850805485302,
+    "3.5": 0.5404191411848274,
+    "3.6": 0.5757695018194227,
+    "3.7": 0.6120463851693216,
+    "3.8": 0.6492055360607765,
+    "3.9": 0.6871875094080337,
+    "4.1": 0.7655410662713393,
+    "4.2": 0.8058236456924988,
+    "4.3": 0.8468039575490138,
+    "4.4": 0.8884404833254962,
+    "4.5": 0.9306861614190325,
+    "4.6": 0.9735327648126031,
+    "4.7": 1.0169687343698115,
+    "4.8": 1.0609540310528018,
+    "4.9": 1.1054846412691859
+  },
+  "verification": [
+    {
+      "requested": 0,
+      "groundAreaM2": 0,
+      "groundRatio": 0,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 1,
+      "groundAreaM2": 97194152.40174338,
+      "groundRatio": 1.0000000000430207,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 1.7,
+      "groundAreaM2": 165230059.07587332,
+      "groundRatio": 1.7000000000001838,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 2.5,
+      "groundAreaM2": 242985380.99391785,
+      "groundRatio": 2.5000000000001315,
+      "maximumAreaM2": 1051334528.3049319
+    },
+    {
+      "requested": 5,
+      "groundAreaM2": 485970761.98782676,
+      "groundRatio": 5.000000000000171,
+      "maximumAreaM2": 1051334528.3049319
+    }
+  ],
+  "distribution": {
+    "atDensity": 1.7,
+    "bins": {
+      "open": 233699,
+      "sparse": 718871,
+      "mixed": 148465,
+      "dense": 76140
+    },
+    "farmBins": {
+      "open": 86041,
+      "sparse": 505573,
+      "mixed": 9774,
+      "dense": 0
+    },
+    "farmCells": 601388,
+    "denseFarmShare": 0
+  },
+  "placementWeights": {
+    "field": 4,
+    "terrace": 1,
+    "natural": 1,
+    "normalization": 0.4,
+    "fieldMultiplier": 1.6,
+    "terraceMultiplier": 0.4
+  },
+  "materialVariation": {
+    "algorithm": "world-fractal-canopy-tint",
+    "scalesM": [
+      140,
+      45,
+      13,
+      4
+    ],
+    "maximumBrightnessDeviation": 0.05,
+    "hueDeviation": 0.02,
+    "biomeBased": true
+  },
+  "crownGeometry": {
+    "cellM": 32,
+    "typicalOpenGapM": [
+      20,
+      26
+    ],
+    "heightRangeM": [
+      4.5,
+      15
+    ],
+    "terraceHeightM": "previous habitat height times 0.75",
+    "rareGroves": true,
+    "coverageMeasure": "deduplicated footprint after default building and passage exclusions",
+    "clippedCells": 34601,
+    "renderGrid": "native terrain cellM",
+    "seamFraction": 0
+  },
+  "placement": {
+    "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+    "scattered": 502660,
+    "grouped": 88937,
+    "groups": 17788,
+    "groupedShare": 0.15033375760864237,
+    "targetGroupedShare": 0.15,
+    "ecologyCellM": 32
+  },
+  "appearance": {
+    "version": 14,
+    "method": "Existing area canopy blended on native terrain LOD without extra seams",
+    "pixelTransition": [
+      0.75,
+      2.5
+    ],
+    "coverageSaturation": 0.015,
+    "heightRangeM": [
+      4.5,
+      15
+    ],
+    "independentTreeTiling": false,
+    "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+  },
+  "measuredHeightRangeM": [
+    4.5,
+    15
+  ],
+  "tuning": {
+    "heightMultiplier": 0.75,
+    "heightRangeM": [
+      4.5,
+      15
+    ],
+    "ruralNoiseMultiplier": 0.6,
+    "ruralTransitionInSettlementRadii": [
+      1.4,
+      3
+    ],
+    "weakColour": "actual underlying field dominates sparse crowns",
+    "biomePalettes": {
+      "wet": [
+        0.052,
+        0.145,
+        0.09
+      ],
+      "dry": [
+        0.125,
+        0.172,
+        0.058
+      ],
+      "meadow": [
+        0.096,
+        0.185,
+        0.09
+      ]
+    },
+    "microScalesM": [
+      140,
+      45,
+      13,
+      4
+    ],
+    "ruralAtDefault": {
+      "beforeAreaM2": 39563325.00580443,
+      "afterAreaM2": 27302041.270141333,
+      "ratio": 0.6900845989596625
+    },
+    "nearTownAtDefault": {
+      "beforeAreaM2": 1267924.921177233,
+      "afterAreaM2": 1454169.5470945889,
+      "ratio": 1.1468893171879868
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "totalBytes": 931407652,
+  "quotaBytes": 1073741824,
+  "budgetBytes": 966367641,
+  "sourceBytes": 2323846802,
+  "files": 4729,
+  "transformedFloatFiles": 39,
+  "allDecodedSourceHashesPreserved": true
+}

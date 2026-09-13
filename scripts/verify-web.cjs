@@ -1,5 +1,6 @@
 'use strict';
 const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm'), zlib = require('node:zlib'), crypto = require('node:crypto'), assert = require('node:assert/strict');
+const floatCodec=require('./web-runtime/float-codec.js');
 const root = path.resolve(process.argv[2] || path.join(__dirname, '..'));
 const build = path.resolve(process.argv[3] || path.join(root, 'dist-web'));
 const report = JSON.parse(fs.readFileSync(process.argv[4] || path.join(root, 'docs/web-build-report.json')));
@@ -12,7 +13,7 @@ for (const f of report.files) {
   if (fs.existsSync(source)) assert.equal(hash(fs.readFileSync(source)), f.sourceSha256, 'Source changed: ' + f.path);
   assert.equal(hash(stored), f.sha256, f.path);
   if (f.method === 'gzip') {
-    const decoded = zlib.gunzipSync(stored);
+    const inflated=zlib.gunzipSync(stored),decoded=f.transform?Buffer.from(floatCodec.decode(inflated,f.transform)):inflated;
     assert.equal(hash(decoded), f.decodedSha256, f.path);
     assert.equal(hash(decoded), f.sourceSha256, 'Model/data changed: ' + f.path);
     assert(!fs.existsSync(path.join(build, f.path)), 'Duplicate uncompressed asset: ' + f.path);

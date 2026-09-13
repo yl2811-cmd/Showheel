@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "method": "Actual crown polygons partitioned without overlap, clipped against default building footprints and passages, counted once in fixed world coordinates before any rendering.",
+  "activeCells": 1095297,
+  "actualGroundAreaM2": 165230067.68149993,
+  "targetGroundAreaM2": 165230059.07587332,
+  "relativeError": 5.2082694039042864e-8,
+  "largestCellErrorM2": 0.0006435689116983667,
+  "scattered": 502660,
+  "grouped": 88595,
+  "groupedShare": 0.14984228463184243
+}

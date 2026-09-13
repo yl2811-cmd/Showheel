@@ -15,10 +15,40 @@
   ],
   "files": [
     {
+      "path": "app.js",
+      "bytes": 20738,
+      "sourceSha256": "8d158964384ab0d546def7a9f16f58064f6d929e37b64d1bb165ab0ba22beb8f",
+      "sha256": "1cae713f550a34e4998a20540272d50dc1917409f481afbe9a2ca5dc73fdc6d3"
+    },
+    {
       "path": "atheria-assets/building-refinement.json",
       "bytes": 6140093,
       "sourceSha256": "9b1b6c0eab22defdfbad876e87c9b52dc0a42906369adcb44aa5b44c0f36a780",
       "sha256": "9b1b6c0eab22defdfbad876e87c9b52dc0a42906369adcb44aa5b44c0f36a780"
+    },
+    {
+      "path": "atheria-assets/canopy-v14/exclusions.json",
+      "bytes": 5859374,
+      "sourceSha256": "33e7f311c13e7ba542c0a5e523e8de7f5fb48f8902404f1d6e40d69fe44151f3",
+      "sha256": "33e7f311c13e7ba542c0a5e523e8de7f5fb48f8902404f1d6e40d69fe44151f3"
+    },
+    {
+      "path": "atheria-assets/canopy-v14/field.f32",
+      "bytes": 75240192,
+      "sourceSha256": "df2694913f2672d0aba7cf763971d91c65c9300dc7025754d79500a91329b9fc",
+      "sha256": "df2694913f2672d0aba7cf763971d91c65c9300dc7025754d79500a91329b9fc"
+    },
+    {
+      "path": "atheria-assets/canopy-v14/manifest.json",
+      "bytes": 6223,
+      "sourceSha256": "eccee29a65020d74cff9f7a3eb705a51456b178c4d6f711c0ff2a3e5136a9d9c",
+      "sha256": "eccee29a65020d74cff9f7a3eb705a51456b178c4d6f711c0ff2a3e5136a9d9c"
+    },
+    {
+      "path": "atheria-assets/canopy-v14/masks.json",
+      "bytes": 788260,
+      "sourceSha256": "991791e7042cc7b4d521a065c775db97778af26900f997a440014eb2b4cb4437",
+      "sha256": "991791e7042cc7b4d521a065c775db97778af26900f997a440014eb2b4cb4437"
     },
     {
       "path": "atheria-assets/cliff-look.json",
@@ -160,9 +190,9 @@
     },
     {
       "path": "atheria-assets/manifest.js",
-      "bytes": 1466612,
-      "sourceSha256": "a174bac43a7994b8e818d4a8236508992b4a9ab65d85a8e0cdf4f86785bb7206",
-      "sha256": "a174bac43a7994b8e818d4a8236508992b4a9ab65d85a8e0cdf4f86785bb7206"
+      "bytes": 1469302,
+      "sourceSha256": "53b13c195f43458bdc57b526e39ec5097fa2e3576fe8ba47f3fba8fef4cd1260",
+      "sha256": "53b13c195f43458bdc57b526e39ec5097fa2e3576fe8ba47f3fba8fef4cd1260"
     },
     {
       "path": "atheria-assets/roof-trees.json",
@@ -8355,6 +8385,18 @@
       "sha256": "1ac3b0b99bc62dd47b81efeb3ca34a9aac96a0df70564744cfd83e83e9ca11fb"
     },
     {
+      "path": "atheria-canopy-core.js",
+      "bytes": 10943,
+      "sourceSha256": "7d8ff155fa9d1a7f085a00e083b35d28ec8e11b41862ddefbd3f7535c7ecdc4b",
+      "sha256": "7d8ff155fa9d1a7f085a00e083b35d28ec8e11b41862ddefbd3f7535c7ecdc4b"
+    },
+    {
+      "path": "atheria-canopy.js",
+      "bytes": 12819,
+      "sourceSha256": "269bb257c15cfcfb5c1c979895bd487031f6df0adbe92c28e45a35e9adfc4d94",
+      "sha256": "269bb257c15cfcfb5c1c979895bd487031f6df0adbe92c28e45a35e9adfc4d94"
+    },
+    {
       "path": "atheria-cliff-look.js",
       "bytes": 3916,
       "sourceSha256": "bed4c6e10d44e0aa08c22b191e1f4fc22a6fc02e2e42d26ac52d49ac9423d128",
@@ -8362,9 +8404,9 @@
     },
     {
       "path": "atheria-controller.js",
-      "bytes": 10591,
-      "sourceSha256": "9be7c0294b5714ae5b26b1ffe91470c666ab948f919a39fb3b375fc3f80fed16",
-      "sha256": "9be7c0294b5714ae5b26b1ffe91470c666ab948f919a39fb3b375fc3f80fed16"
+      "bytes": 10721,
+      "sourceSha256": "3cedbdd6cb4a79155866c921fc9bafbc5ec825af6483c1f2c3c1017578cb352a",
+      "sha256": "3cedbdd6cb4a79155866c921fc9bafbc5ec825af6483c1f2c3c1017578cb352a"
     },
     {
       "path": "atheria-region.css",
@@ -8374,9 +8416,9 @@
     },
     {
       "path": "atheria-region.js",
-      "bytes": 27871,
-      "sourceSha256": "b5f986ee80c98d94585465a910eefb6eca619379a41f94b7cc70a05e3ce7bce6",
-      "sha256": "b5f986ee80c98d94585465a910eefb6eca619379a41f94b7cc70a05e3ce7bce6"
+      "bytes": 28253,
+      "sourceSha256": "42707679edefb71b7daca727c69d4bc6c18246af460213b67d30a7221cb81f79",
+      "sha256": "42707679edefb71b7daca727c69d4bc6c18246af460213b67d30a7221cb81f79"
     },
     {
       "path": "atlas.css",
@@ -8428,15 +8470,15 @@
     },
     {
       "path": "data/atlas.js",
-      "bytes": 24541720,
-      "sourceSha256": "61494bc100fe74bf76e9dee5b85996bcaee0399f6a3f696cea84f30d1d235b6f",
-      "sha256": "61494bc100fe74bf76e9dee5b85996bcaee0399f6a3f696cea84f30d1d235b6f"
+      "bytes": 78615486,
+      "sourceSha256": "be5c74bed3bbc8946f8df7c767493a39755c789dac3f5dc64db68e74fd8dcbec",
+      "sha256": "be5c74bed3bbc8946f8df7c767493a39755c789dac3f5dc64db68e74fd8dcbec"
     },
     {
       "path": "data/atlas.json",
-      "bytes": 43599976,
-      "sourceSha256": "cef9cc441702728decb53bc28b20a8f3421dc2a31ed7f4b0c931bd1038cb6a6e",
-      "sha256": "cef9cc441702728decb53bc28b20a8f3421dc2a31ed7f4b0c931bd1038cb6a6e"
+      "bytes": 78615466,
+      "sourceSha256": "5fcdd2a7cdb8b3f649501c10943cebd141d94af1c3f1fc3f1c5ec8f06bc5a4ee",
+      "sha256": "5fcdd2a7cdb8b3f649501c10943cebd141d94af1c3f1fc3f1c5ec8f06bc5a4ee"
     },
     {
       "path": "data/colonization-input.js",
@@ -18094,9 +18136,9 @@
     },
     {
       "path": "data/hydrology/aethelgard/6-8.js",
-      "bytes": 60692,
-      "sourceSha256": "fbba8ad8af4a4583a8cfb82e2bce2a4961ce608c5346194344c86888774d990d",
-      "sha256": "fbba8ad8af4a4583a8cfb82e2bce2a4961ce608c5346194344c86888774d990d"
+      "bytes": 1601022,
+      "sourceSha256": "be9afe2fac5c803eba64e0410b858eb699b8ccbe02e04f09467f05b96ba73074",
+      "sha256": "be9afe2fac5c803eba64e0410b858eb699b8ccbe02e04f09467f05b96ba73074"
     },
     {
       "path": "data/hydrology/aethelgard/6-9.js",
@@ -18142,15 +18184,15 @@
     },
     {
       "path": "data/hydrology/aethelgard/7-8.js",
-      "bytes": 6382,
-      "sourceSha256": "180c90686379bb0112d7ada303fca91a7888412193a2cc09fce8418276daf9bb",
-      "sha256": "180c90686379bb0112d7ada303fca91a7888412193a2cc09fce8418276daf9bb"
+      "bytes": 86828,
+      "sourceSha256": "dc23cf3ebc5ffd57ba638153a6276c00126d0a0683ffe2f5282f86de522a48ef",
+      "sha256": "dc23cf3ebc5ffd57ba638153a6276c00126d0a0683ffe2f5282f86de522a48ef"
     },
     {
       "path": "data/hydrology/aethelgard/7-9.js",
-      "bytes": 52914,
-      "sourceSha256": "068ef95dcdf6f74b9976a5e10bdb6107209ee65ad948210002fe26e93854b0ef",
-      "sha256": "068ef95dcdf6f74b9976a5e10bdb6107209ee65ad948210002fe26e93854b0ef"
+      "bytes": 263711,
+      "sourceSha256": "5ef5039cb12bab0b5e780d52de2fe22962ef4a64dacb2035b77f5a840b52871e",
+      "sha256": "5ef5039cb12bab0b5e780d52de2fe22962ef4a64dacb2035b77f5a840b52871e"
     },
     {
       "path": "data/hydrology/aethelgard/8-10.js",
@@ -18184,15 +18226,15 @@
     },
     {
       "path": "data/hydrology/aethelgard/8-8.js",
-      "bytes": 86074,
-      "sourceSha256": "0b3805e21376d67fcce00a0b5cb4ebd26abdc315d6c62cebf0c3a236c6642e68",
-      "sha256": "0b3805e21376d67fcce00a0b5cb4ebd26abdc315d6c62cebf0c3a236c6642e68"
+      "bytes": 4021992,
+      "sourceSha256": "4245d1e4347cf68b48b31b2f13e80054b3fcb3dac479f773a2060e0b6d3f4221",
+      "sha256": "4245d1e4347cf68b48b31b2f13e80054b3fcb3dac479f773a2060e0b6d3f4221"
     },
     {
       "path": "data/hydrology/aethelgard/8-9.js",
-      "bytes": 71098,
-      "sourceSha256": "ebe4cb8dc97457d874d8d15c4a98e2d084ba0dff4874f972c8d3b527f0310449",
-      "sha256": "ebe4cb8dc97457d874d8d15c4a98e2d084ba0dff4874f972c8d3b527f0310449"
+      "bytes": 9317239,
+      "sourceSha256": "55a3d7e255f6ba8b301143e288ce3fbb675616b827809867d775ab4c653b06da",
+      "sha256": "55a3d7e255f6ba8b301143e288ce3fbb675616b827809867d775ab4c653b06da"
     },
     {
       "path": "data/hydrology/aethelgard/9-10.js",
@@ -18220,15 +18262,15 @@
     },
     {
       "path": "data/hydrology/aethelgard/9-7.js",
-      "bytes": 3869976,
-      "sourceSha256": "2ea378fb298ae581ebb8cb0d1c809dfb80676af894e5826cea4b8a2b238b1cbf",
-      "sha256": "2ea378fb298ae581ebb8cb0d1c809dfb80676af894e5826cea4b8a2b238b1cbf"
+      "bytes": 4174116,
+      "sourceSha256": "5a67adf23c3b65a9a846fdd3f431b9594c9d3cab35ed04736cc1cab4b58246ca",
+      "sha256": "5a67adf23c3b65a9a846fdd3f431b9594c9d3cab35ed04736cc1cab4b58246ca"
     },
     {
       "path": "data/hydrology/aethelgard/9-8.js",
-      "bytes": 17742,
-      "sourceSha256": "540a363b4e83ef935aa8536a40a345c3903a4e0ec51cb0eb3a5e6547e726e1c1",
-      "sha256": "540a363b4e83ef935aa8536a40a345c3903a4e0ec51cb0eb3a5e6547e726e1c1"
+      "bytes": 825753,
+      "sourceSha256": "9b0c49d7c19a4c3a85239200ec6921cfa8949f0317d6cd0a9327ead60b46b9c5",
+      "sha256": "9b0c49d7c19a4c3a85239200ec6921cfa8949f0317d6cd0a9327ead60b46b9c5"
     },
     {
       "path": "data/hydrology/aethelgard/9-9.js",
@@ -18430,9 +18472,9 @@
     },
     {
       "path": "data/hydrology/world/7-4.js",
-      "bytes": 799424,
-      "sourceSha256": "6953307713878b60cd949dbca5714f19835a7037cd2c26239b4978bd546af686",
-      "sha256": "6953307713878b60cd949dbca5714f19835a7037cd2c26239b4978bd546af686"
+      "bytes": 2374270,
+      "sourceSha256": "6b12a19cb40641f988f4d4931d45991d8f3edbc93896de84febc22e20795ff43",
+      "sha256": "6b12a19cb40641f988f4d4931d45991d8f3edbc93896de84febc22e20795ff43"
     },
     {
       "path": "data/hydrology/world/7-5.js",
@@ -18448,15 +18490,15 @@
     },
     {
       "path": "data/hydrology/world/8-3.js",
-      "bytes": 5948726,
-      "sourceSha256": "6964458e3529ee294051406d59fa8cb021220b8ca43bb64e69e54cebfb36d276",
-      "sha256": "6964458e3529ee294051406d59fa8cb021220b8ca43bb64e69e54cebfb36d276"
+      "bytes": 6252788,
+      "sourceSha256": "3ad1f7e54dcf51aed82091b9301a6bd193e07e961c0f559118cf121d256dbe06",
+      "sha256": "3ad1f7e54dcf51aed82091b9301a6bd193e07e961c0f559118cf121d256dbe06"
     },
     {
       "path": "data/hydrology/world/8-4.js",
-      "bytes": 1498036,
-      "sourceSha256": "65f22b4f3e14183e5fccb362fd09df6173c593a941e43896b021f717d6bd2eed",
-      "sha256": "65f22b4f3e14183e5fccb362fd09df6173c593a941e43896b021f717d6bd2eed"
+      "bytes": 15208772,
+      "sourceSha256": "bf9688d60648f8aa2a341bc829999e8abd693b9f7489bb1d977ea246e884ffca",
+      "sha256": "bf9688d60648f8aa2a341bc829999e8abd693b9f7489bb1d977ea246e884ffca"
     },
     {
       "path": "data/hydrology/world/8-5.js",
@@ -18514,9 +18556,9 @@
     },
     {
       "path": "data/maps-aethelgard.js",
-      "bytes": 14922941,
-      "sourceSha256": "8f05e5777ab664a7c6aba70d8f3acbe4ccf3d5ea8ab50f605de8c8689d1f79b0",
-      "sha256": "8f05e5777ab664a7c6aba70d8f3acbe4ccf3d5ea8ab50f605de8c8689d1f79b0"
+      "bytes": 14921257,
+      "sourceSha256": "228a8fbd63d45ee2894cb45f028e5400c38626e746f89b153442af404791ff8a",
+      "sha256": "228a8fbd63d45ee2894cb45f028e5400c38626e746f89b153442af404791ff8a"
     },
     {
       "path": "data/maps-atheria.js",
@@ -18526,9 +18568,9 @@
     },
     {
       "path": "data/maps-marneth.js",
-      "bytes": 6106558,
-      "sourceSha256": "77876943e19f365ba3097811470c5e03503451065001c47220356b1e38724f85",
-      "sha256": "77876943e19f365ba3097811470c5e03503451065001c47220356b1e38724f85"
+      "bytes": 6102700,
+      "sourceSha256": "1ed81ba26450f0bc5bde8f62f896e4f36cf7e95c6a1ec3945a8be188e15c768b",
+      "sha256": "1ed81ba26450f0bc5bde8f62f896e4f36cf7e95c6a1ec3945a8be188e15c768b"
     },
     {
       "path": "data/maps-rimstone.js",
@@ -18538,15 +18580,15 @@
     },
     {
       "path": "data/maps-world.js",
-      "bytes": 8784512,
-      "sourceSha256": "9ec2f53c38a2564783ce43bf31065dc3b879fb11014a535fd28c93322d15d23d",
-      "sha256": "9ec2f53c38a2564783ce43bf31065dc3b879fb11014a535fd28c93322d15d23d"
+      "bytes": 8784714,
+      "sourceSha256": "3f626751682c5c45e6505476b4de7862a0ac947542115c2c63e7bb0fa55f4ed2",
+      "sha256": "3f626751682c5c45e6505476b4de7862a0ac947542115c2c63e7bb0fa55f4ed2"
     },
     {
       "path": "data/space-textures.js",
-      "bytes": 6675877,
-      "sourceSha256": "88dcbadd019f4bae3a3aed322dee35a26a776d4112797479fa21fb66a19f4d23",
-      "sha256": "88dcbadd019f4bae3a3aed322dee35a26a776d4112797479fa21fb66a19f4d23"
+      "bytes": 6685148,
+      "sourceSha256": "94962df49f50709eaf815aee08cf06330626555677f0a76ed77c9fbc6d49c313",
+      "sha256": "94962df49f50709eaf815aee08cf06330626555677f0a76ed77c9fbc6d49c313"
     },
     {
       "path": "data/stars-hyg41.js",
@@ -18604,21 +18646,21 @@
     },
     {
       "path": "house-tuning/defaults.json",
-      "bytes": 1618,
-      "sourceSha256": "4d1171ab3e4ec0721c34416488a3a5aae7f12640182f42a4c3f7eff97f0ba11e",
-      "sha256": "4d1171ab3e4ec0721c34416488a3a5aae7f12640182f42a4c3f7eff97f0ba11e"
+      "bytes": 3907,
+      "sourceSha256": "ba925374eb1d66e4852750385c1c44e6a60bd3a3c11f8ea16a15a3b530f3da18",
+      "sha256": "ba925374eb1d66e4852750385c1c44e6a60bd3a3c11f8ea16a15a3b530f3da18"
     },
     {
       "path": "house-tuning/geometry.js",
-      "bytes": 11156,
-      "sourceSha256": "35b14142faf4f7269ce4174345450007cb3c90e9a06e4693da80b8243702b342",
-      "sha256": "35b14142faf4f7269ce4174345450007cb3c90e9a06e4693da80b8243702b342"
+      "bytes": 11141,
+      "sourceSha256": "13b41123f3c41aa4fab5ac3a3b4e64e6a2be3d85a8389c33bbfbb537ecc4da87",
+      "sha256": "13b41123f3c41aa4fab5ac3a3b4e64e6a2be3d85a8389c33bbfbb537ecc4da87"
     },
     {
       "path": "house-tuning/runtime.js",
-      "bytes": 6888,
-      "sourceSha256": "628c6e2d44d8e93f313d63f54607b2eaf2056482d7e08124ed1a60a5bab271e0",
-      "sha256": "628c6e2d44d8e93f313d63f54607b2eaf2056482d7e08124ed1a60a5bab271e0"
+      "bytes": 7397,
+      "sourceSha256": "786684764bac59f46584670b1e79282194d8f43ddcd69325298e8b3609bc000f",
+      "sha256": "786684764bac59f46584670b1e79282194d8f43ddcd69325298e8b3609bc000f"
     },
     {
       "path": "house-tuning/ui.css",
@@ -18628,9 +18670,9 @@
     },
     {
       "path": "house-tuning/ui.js",
-      "bytes": 9427,
-      "sourceSha256": "48d2304dab15640c09ddb688b4bbef9ba2e2857e8f8b7e8420a24bf6bb0e2757",
-      "sha256": "48d2304dab15640c09ddb688b4bbef9ba2e2857e8f8b7e8420a24bf6bb0e2757"
+      "bytes": 10373,
+      "sourceSha256": "b9d4f43a9d46ecdafb98d58f1e9e4bf911f8a64ac168ea3c2f9b2563836f8c0f",
+      "sha256": "b9d4f43a9d46ecdafb98d58f1e9e4bf911f8a64ac168ea3c2f9b2563836f8c0f"
     },
     {
       "path": "house-tuning/worker.js",
@@ -18663,10 +18705,496 @@
       "sha256": "332d44e2fed2504dfe7677e2a15408f01d5da0ea7d00adefa0b6c51bab509c02"
     },
     {
+      "path": "index.html",
+      "bytes": 12488,
+      "sourceSha256": "afc07642bb1872c243adfa06528b12a7ed8f2046ad2ccb8296ab03e08feb4be3",
+      "sha256": "181d29d71b90cc291d27aa2822cc9461f3088eba6bed92417a9c0300cb080e3a"
+    },
+    {
       "path": "living-overlay.js",
-      "bytes": 13479,
-      "sourceSha256": "a73a018638a78a15ed0962aff203f6b7e2683e48747e0a48fc74b661acc5ec5c",
-      "sha256": "a73a018638a78a15ed0962aff203f6b7e2683e48747e0a48fc74b661acc5ec5c"
+      "bytes": 13545,
+      "sourceSha256": "237dd200bbfc4a84312abe476d2809ec6a880c83ebe64b14c956a6db502bc661",
+      "sha256": "237dd200bbfc4a84312abe476d2809ec6a880c83ebe64b14c956a6db502bc661"
+    },
+    {
+      "path": "orun-assets/ai-masks/author-bands.json",
+      "bytes": 1399,
+      "sourceSha256": "c0ad67f97fbee58ce5d26913f79ed97f01df91d3670c9947b0c71ec7d539b7e3",
+      "sha256": "c0ad67f97fbee58ce5d26913f79ed97f01df91d3670c9947b0c71ec7d539b7e3"
+    },
+    {
+      "path": "orun-assets/ai-masks/manifest.json",
+      "bytes": 29891,
+      "sourceSha256": "dbdd88d5e695ec4ad44cda0fa8089fb4c1c5d53d6d7fab9cdddb9ef90b0ed898",
+      "sha256": "dbdd88d5e695ec4ad44cda0fa8089fb4c1c5d53d6d7fab9cdddb9ef90b0ed898"
+    },
+    {
+      "path": "orun-assets/ai-masks/scalar-mips.u8",
+      "bytes": 18875430,
+      "sourceSha256": "c9bce0d28e477e0526833002220c150b25fbafece35d89a8e1b54db2f815fd36",
+      "sha256": "c9bce0d28e477e0526833002220c150b25fbafece35d89a8e1b54db2f815fd36"
+    },
+    {
+      "path": "orun-assets/area.f32",
+      "bytes": 3218436,
+      "sourceSha256": "66a46adeb6dc0e3fedb1094fbe5fd99d770aec6318f5695eca272a7d12ae75a1",
+      "sha256": "66a46adeb6dc0e3fedb1094fbe5fd99d770aec6318f5695eca272a7d12ae75a1"
+    },
+    {
+      "path": "orun-assets/delta.f32",
+      "bytes": 3218436,
+      "sourceSha256": "70ddf534f05e475b1d2500997948089b181c2c0981361ca7f40068990ccf8e81",
+      "sha256": "70ddf534f05e475b1d2500997948089b181c2c0981361ca7f40068990ccf8e81"
+    },
+    {
+      "path": "orun-assets/environment.f32",
+      "bytes": 1056784,
+      "sourceSha256": "fb73a46bebe3237783e1666bcc59019aa30158045a58b741b5bb9d17386611e5",
+      "sha256": "fb73a46bebe3237783e1666bcc59019aa30158045a58b741b5bb9d17386611e5"
+    },
+    {
+      "path": "orun-assets/h.f32",
+      "bytes": 3218436,
+      "sourceSha256": "ffe24b918219473e31e2f2d1219511ae70ec39a940421771079eb8705f46cd61",
+      "sha256": "ffe24b918219473e31e2f2d1219511ae70ec39a940421771079eb8705f46cd61"
+    },
+    {
+      "path": "orun-assets/input.json",
+      "bytes": 12706,
+      "sourceSha256": "602273580f2cef49ea0c7ea53bd5e956e188bbda192b9cd785d44c9e3c8b5daa",
+      "sha256": "602273580f2cef49ea0c7ea53bd5e956e188bbda192b9cd785d44c9e3c8b5daa"
+    },
+    {
+      "path": "orun-assets/landforms-v3/area.f32",
+      "bytes": 12859396,
+      "sourceSha256": "7501441648fcbcc889c804ce6e7136285f3cf4d22fd28cdffec7d032961fe36d",
+      "sha256": "7501441648fcbcc889c804ce6e7136285f3cf4d22fd28cdffec7d032961fe36d"
+    },
+    {
+      "path": "orun-assets/landforms-v3/context.u8",
+      "bytes": 19289094,
+      "sourceSha256": "dea14474dd1d5b604f99f9bb1e43fb3ca142353f45757113ceb204890f1fff29",
+      "sha256": "dea14474dd1d5b604f99f9bb1e43fb3ca142353f45757113ceb204890f1fff29"
+    },
+    {
+      "path": "orun-assets/landforms-v3/cut.f32",
+      "bytes": 12859396,
+      "sourceSha256": "583fc402d5609db989069c999b1f4ff44c340276e1023894a33bd493a94c4eac",
+      "sha256": "583fc402d5609db989069c999b1f4ff44c340276e1023894a33bd493a94c4eac"
+    },
+    {
+      "path": "orun-assets/landforms-v3/guard.f32",
+      "bytes": 12859396,
+      "sourceSha256": "de3fea48d0e9bd7284e92b892e776717e87a9225eb757569a63c511e1cf1cb5b",
+      "sha256": "de3fea48d0e9bd7284e92b892e776717e87a9225eb757569a63c511e1cf1cb5b"
+    },
+    {
+      "path": "orun-assets/landforms-v3/guideDelta.f32",
+      "bytes": 12859396,
+      "sourceSha256": "7f84806050d5a682d3593388dd236b0600576cfc2aac5769d70316860b6f4035",
+      "sha256": "7f84806050d5a682d3593388dd236b0600576cfc2aac5769d70316860b6f4035"
+    },
+    {
+      "path": "orun-assets/landforms-v3/gully.f32",
+      "bytes": 12859396,
+      "sourceSha256": "e01e79ed6e82b9bb63e325acca5b1945435879646bd913484432496fd583d63f",
+      "sha256": "e01e79ed6e82b9bb63e325acca5b1945435879646bd913484432496fd583d63f"
+    },
+    {
+      "path": "orun-assets/landforms-v3/h.f32",
+      "bytes": 12859396,
+      "sourceSha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea",
+      "sha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea"
+    },
+    {
+      "path": "orun-assets/landforms-v3/height-1024.f32",
+      "bytes": 51076,
+      "sourceSha256": "413a0f2726278dc34225c0cae8b7b52a66a8f6d37e5bd0d72021e046540dd2ff",
+      "sha256": "413a0f2726278dc34225c0cae8b7b52a66a8f6d37e5bd0d72021e046540dd2ff"
+    },
+    {
+      "path": "orun-assets/landforms-v3/height-128.f32",
+      "bytes": 3218436,
+      "sourceSha256": "ff0aa599a57ca08d73649db72590eeef8f995be7d52163603cb3572963e3bbc0",
+      "sha256": "ff0aa599a57ca08d73649db72590eeef8f995be7d52163603cb3572963e3bbc0"
+    },
+    {
+      "path": "orun-assets/landforms-v3/height-256.f32",
+      "bytes": 806404,
+      "sourceSha256": "39b639af4773d3559b633025b422d3288e6c556f79091ca539a76086425d4a07",
+      "sha256": "39b639af4773d3559b633025b422d3288e6c556f79091ca539a76086425d4a07"
+    },
+    {
+      "path": "orun-assets/landforms-v3/height-512.f32",
+      "bytes": 202500,
+      "sourceSha256": "7250cf3f453b706c89f12ddd6c9900abcc4a66749868d55b14ff69d1535cb533",
+      "sha256": "7250cf3f453b706c89f12ddd6c9900abcc4a66749868d55b14ff69d1535cb533"
+    },
+    {
+      "path": "orun-assets/landforms-v3/lock.f32",
+      "bytes": 12859396,
+      "sourceSha256": "e6d504865796ea40148ead3679b645fe4e4222822c2d07e95a8c2a685edc19bd",
+      "sha256": "e6d504865796ea40148ead3679b645fe4e4222822c2d07e95a8c2a685edc19bd"
+    },
+    {
+      "path": "orun-assets/landforms-v3/manifest.json",
+      "bytes": 6259,
+      "sourceSha256": "bf1a22d1c15f0fab728c6f5188753763fdde8978d217995170138281fb855718",
+      "sha256": "bf1a22d1c15f0fab728c6f5188753763fdde8978d217995170138281fb855718"
+    },
+    {
+      "path": "orun-assets/landforms-v3/receiver.i32",
+      "bytes": 12859396,
+      "sourceSha256": "c884b5c7f5092449b36103bf84a0a4487b272b1389e3b0b7c55eb01b67d165c0",
+      "sha256": "c884b5c7f5092449b36103bf84a0a4487b272b1389e3b0b7c55eb01b67d165c0"
+    },
+    {
+      "path": "orun-assets/lock.f32",
+      "bytes": 3218436,
+      "sourceSha256": "05260c6d58f9fef6254ee92c11795a2a2f10fd8f5d8d6a796a5f5af683ad19b0",
+      "sha256": "05260c6d58f9fef6254ee92c11795a2a2f10fd8f5d8d6a796a5f5af683ad19b0"
+    },
+    {
+      "path": "orun-assets/manifest.json",
+      "bytes": 36181,
+      "sourceSha256": "fdbae100c02f722f2eb341c0821fca777d6f5e70bbdc89bb7a1b396104fd78e1",
+      "sha256": "fdbae100c02f722f2eb341c0821fca777d6f5e70bbdc89bb7a1b396104fd78e1"
+    },
+    {
+      "path": "orun-assets/native-height.f32",
+      "bytes": 264196,
+      "sourceSha256": "412459f558bb9bf4334349bb4524982ae2b20c400ad8d52d2efd0aa206bd3cad",
+      "sha256": "412459f558bb9bf4334349bb4524982ae2b20c400ad8d52d2efd0aa206bd3cad"
+    },
+    {
+      "path": "orun-assets/regional-inflows-v8.json",
+      "bytes": 10242,
+      "sourceSha256": "a55ac8b99b690472fc10a4e400f430a88c7203d22c2ac3ef9f0f89c21c13e21b",
+      "sha256": "a55ac8b99b690472fc10a4e400f430a88c7203d22c2ac3ef9f0f89c21c13e21b"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/basis-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "30771802e1b1d6dc5f1b21c10811d9a3d73aa996651b29e693abbd093441eb28",
+      "sha256": "30771802e1b1d6dc5f1b21c10811d9a3d73aa996651b29e693abbd093441eb28"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/basis-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "3f7e7701993055644bc0e39beaf19ce68ddc80136f7cc732099f873766a3f9e0",
+      "sha256": "3f7e7701993055644bc0e39beaf19ce68ddc80136f7cc732099f873766a3f9e0"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/basis-02.f32",
+      "bytes": 9961472,
+      "sourceSha256": "1242e258ab8d83b2539ba9dbb44a0c12b0d30316f634596bfc3c680131755971",
+      "sha256": "1242e258ab8d83b2539ba9dbb44a0c12b0d30316f634596bfc3c680131755971"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/manifest.json",
+      "bytes": 2121,
+      "sourceSha256": "4441a29843602cc9cfa81719f79316da7f0811694da532bc5189124ca6dd9acc",
+      "sha256": "4441a29843602cc9cfa81719f79316da7f0811694da532bc5189124ca6dd9acc"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "61d2fb940863e39183ffa71f0f6b0b0471fe70074c97bd5f8e4bb344cffc4727",
+      "sha256": "61d2fb940863e39183ffa71f0f6b0b0471fe70074c97bd5f8e4bb344cffc4727"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "b5b0fb07b1bb0bf3d63ae937995f73e38e86d2ba0fc2b8861bd1e01782165a00",
+      "sha256": "b5b0fb07b1bb0bf3d63ae937995f73e38e86d2ba0fc2b8861bd1e01782165a00"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-02.f32",
+      "bytes": 33554432,
+      "sourceSha256": "794ce6810dae86d87a272612fb28b3c10760ea078f96af0519deb7ece41b5623",
+      "sha256": "794ce6810dae86d87a272612fb28b3c10760ea078f96af0519deb7ece41b5623"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-03.f32",
+      "bytes": 33554432,
+      "sourceSha256": "e6562812f3e5ac13eb83d35ff64254c345ff196f7b783524a4bf8d74f0f5e062",
+      "sha256": "e6562812f3e5ac13eb83d35ff64254c345ff196f7b783524a4bf8d74f0f5e062"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-04.f32",
+      "bytes": 33554432,
+      "sourceSha256": "3061c1d054430740872e45e4b991191b752c28aa5546f34163f554b89321b607",
+      "sha256": "3061c1d054430740872e45e4b991191b752c28aa5546f34163f554b89321b607"
+    },
+    {
+      "path": "orun-assets/surface-v8-r2/surface-05.f32",
+      "bytes": 25118780,
+      "sourceSha256": "3ddfba1a61f517ec26cebd55baac49db38e0997f25f02b5780d2a5c4875dd6c4",
+      "sha256": "3ddfba1a61f517ec26cebd55baac49db38e0997f25f02b5780d2a5c4875dd6c4"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/ecology-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "8d08c271d935c12b003e0627b4d7819dd5a8974ed6bf5df3bdf59d9dc05d5434",
+      "sha256": "8d08c271d935c12b003e0627b4d7819dd5a8974ed6bf5df3bdf59d9dc05d5434"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/ecology-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "b44b0357357cdb25f2e30523f5cdcabe98e44b50963f04d09c1805b330a1646c",
+      "sha256": "b44b0357357cdb25f2e30523f5cdcabe98e44b50963f04d09c1805b330a1646c"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/ecology-02.f32",
+      "bytes": 33554432,
+      "sourceSha256": "e23f8c40dca650f0d7e1c8303a45e6772df15319b81da866db786ab907814bae",
+      "sha256": "e23f8c40dca650f0d7e1c8303a45e6772df15319b81da866db786ab907814bae"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/ecology-03.f32",
+      "bytes": 10587432,
+      "sourceSha256": "4473bfde72432fbd8a70c7efaabb8ed11a8cb0fc5d82bc299f767eb9857cb959",
+      "sha256": "4473bfde72432fbd8a70c7efaabb8ed11a8cb0fc5d82bc299f767eb9857cb959"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/ecology-indices.i32",
+      "bytes": 12845056,
+      "sourceSha256": "24cf8be2c494c277ff96fb9a35b4dc0f2efe5a8f1989ed721bda25da52610790",
+      "sha256": "24cf8be2c494c277ff96fb9a35b4dc0f2efe5a8f1989ed721bda25da52610790"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/manifest.json",
+      "bytes": 9443628,
+      "sourceSha256": "7094dcd30264f36d552c991ee8106de75545202e724ebe138412bb10db1968a9",
+      "sha256": "7094dcd30264f36d552c991ee8106de75545202e724ebe138412bb10db1968a9"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-00.f32",
+      "bytes": 33554432,
+      "sourceSha256": "42ff19342b6d8b030242b9203e3500b56771e03ab6e55665da81fcc8e1fc5599",
+      "sha256": "42ff19342b6d8b030242b9203e3500b56771e03ab6e55665da81fcc8e1fc5599"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-01.f32",
+      "bytes": 33554432,
+      "sourceSha256": "21dba286b4f1cbf83941c8c83fd80d312f38c6b9244760288b4539fe07e828a2",
+      "sha256": "21dba286b4f1cbf83941c8c83fd80d312f38c6b9244760288b4539fe07e828a2"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-02.f32",
+      "bytes": 33554432,
+      "sourceSha256": "5f9c757d1bb427628639f483441d287f6a9f266ac95f4625ea8d4c9030a1b32f",
+      "sha256": "5f9c757d1bb427628639f483441d287f6a9f266ac95f4625ea8d4c9030a1b32f"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-03.f32",
+      "bytes": 33554432,
+      "sourceSha256": "be10e633b46cc2e3794e97bf5887a84725ea1e26c32d2006d5706f92556091b7",
+      "sha256": "be10e633b46cc2e3794e97bf5887a84725ea1e26c32d2006d5706f92556091b7"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-04.f32",
+      "bytes": 33554432,
+      "sourceSha256": "054f2e36f808e6c97d1ed29f9e0c569ca9c77047d7a4cd8627f82918deb7ed2b",
+      "sha256": "054f2e36f808e6c97d1ed29f9e0c569ca9c77047d7a4cd8627f82918deb7ed2b"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-05.f32",
+      "bytes": 33554432,
+      "sourceSha256": "74708e2ac059d739e182f8eb26a57bae44003c1a0c97be02581c9156a915735f",
+      "sha256": "74708e2ac059d739e182f8eb26a57bae44003c1a0c97be02581c9156a915735f"
+    },
+    {
+      "path": "orun-assets/water-v8-r3/water-06.f32",
+      "bytes": 4423744,
+      "sourceSha256": "d47bef78b152072b300d809a93581a236a814cdfcf9785ba10a2da058dec92d5",
+      "sha256": "d47bef78b152072b300d809a93581a236a814cdfcf9785ba10a2da058dec92d5"
+    },
+    {
+      "path": "orun-assets/windward-v8-r3/age.f32",
+      "bytes": 12859396,
+      "sourceSha256": "415160c7fe24e5789d8ba0a83c05bc5ce64099bf88f52876bb433da54ca76f27",
+      "sha256": "415160c7fe24e5789d8ba0a83c05bc5ce64099bf88f52876bb433da54ca76f27"
+    },
+    {
+      "path": "orun-assets/windward-v8-r3/climate-00.f32",
+      "bytes": 6451232,
+      "sourceSha256": "298329c0c305804c7832b8cc97ec31a1673800648427448c628c7abea40c5aac",
+      "sha256": "298329c0c305804c7832b8cc97ec31a1673800648427448c628c7abea40c5aac"
+    },
+    {
+      "path": "orun-assets/windward-v8-r3/delta.f32",
+      "bytes": 12859396,
+      "sourceSha256": "8ad7b09da63fabd87b5096cf716adf03481a38332c5b0411bcf0c5db5bde1d6f",
+      "sha256": "8ad7b09da63fabd87b5096cf716adf03481a38332c5b0411bcf0c5db5bde1d6f"
+    },
+    {
+      "path": "orun-assets/windward-v8-r3/manifest.json",
+      "bytes": 5090,
+      "sourceSha256": "ec83676036459dcc93f693d492073074409620b9f8d3b6becc80fa6af32200e2",
+      "sha256": "ec83676036459dcc93f693d492073074409620b9f8d3b6becc80fa6af32200e2"
+    },
+    {
+      "path": "orun-assets/windward-v8-r3/sediment.f32",
+      "bytes": 12859396,
+      "sourceSha256": "f61aa9d663a2c668941c94c754e6a87b4bbd478326869a94eca76b62a8a4af35",
+      "sha256": "f61aa9d663a2c668941c94c754e6a87b4bbd478326869a94eca76b62a8a4af35"
+    },
+    {
+      "path": "orun-biomes.js",
+      "bytes": 4724,
+      "sourceSha256": "881f940308d196a6d50a0c8a49c945b3449ac6ea1c8ff75229813840d5622843",
+      "sha256": "881f940308d196a6d50a0c8a49c945b3449ac6ea1c8ff75229813840d5622843"
+    },
+    {
+      "path": "orun-canopy.js",
+      "bytes": 1200,
+      "sourceSha256": "522f922aaec06c1530114c3c9d273432fcc34389bba7fae9894fd7f6594874f9",
+      "sha256": "522f922aaec06c1530114c3c9d273432fcc34389bba7fae9894fd7f6594874f9"
+    },
+    {
+      "path": "orun-climate.js",
+      "bytes": 5486,
+      "sourceSha256": "b99a90484f0578cca26f9bc9b69527a7da239a42b6f2ac8081396a11375d9a9e",
+      "sha256": "b99a90484f0578cca26f9bc9b69527a7da239a42b6f2ac8081396a11375d9a9e"
+    },
+    {
+      "path": "orun-cloud-view.js",
+      "bytes": 7631,
+      "sourceSha256": "68c64123ed27f6493a5c8742a413f1c20e7044003e3655573c48ebb6eb7b55ba",
+      "sha256": "68c64123ed27f6493a5c8742a413f1c20e7044003e3655573c48ebb6eb7b55ba"
+    },
+    {
+      "path": "orun-cloud-worker.js",
+      "bytes": 584,
+      "sourceSha256": "0595cfc82ed4e183b962020a347651c273da52d62e8399bef9a6b8c4e44543e2",
+      "sha256": "0595cfc82ed4e183b962020a347651c273da52d62e8399bef9a6b8c4e44543e2"
+    },
+    {
+      "path": "orun-clouds-v5.js",
+      "bytes": 5434,
+      "sourceSha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404",
+      "sha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404"
+    },
+    {
+      "path": "orun-clouds.js",
+      "bytes": 6057,
+      "sourceSha256": "477d4af7418544c6e439fb4e0c86162a2d80b8748d03a510ce89f8e855fb6f72",
+      "sha256": "477d4af7418544c6e439fb4e0c86162a2d80b8748d03a510ce89f8e855fb6f72"
+    },
+    {
+      "path": "orun-collectors.js",
+      "bytes": 2688,
+      "sourceSha256": "9c9c7046fe6afda21cd777ec43aee909d25f81381a63b4263a470f83b6fa8c90",
+      "sha256": "9c9c7046fe6afda21cd777ec43aee909d25f81381a63b4263a470f83b6fa8c90"
+    },
+    {
+      "path": "orun-controller.js",
+      "bytes": 18996,
+      "sourceSha256": "50385f2db7ff7ad125daf5a5033ced8d696522acd0c40aa45660c17c3d4bfb78",
+      "sha256": "93082dc04a1dd86903b096c0985ef23805b1d03e080d86b5867ac1914b9a5f24"
+    },
+    {
+      "path": "orun-core.js",
+      "bytes": 49019,
+      "sourceSha256": "f0d3abbb6fbc77af10b15c9108d816a7c47a735a0fa690f9e6f5100d77f274b5",
+      "sha256": "f0d3abbb6fbc77af10b15c9108d816a7c47a735a0fa690f9e6f5100d77f274b5"
+    },
+    {
+      "path": "orun-drainage.js",
+      "bytes": 3767,
+      "sourceSha256": "ac30d04e9c5af03f15b04e78c98395e0a2f8aef98ad3e934a32ac4a9d4eb0db7",
+      "sha256": "ac30d04e9c5af03f15b04e78c98395e0a2f8aef98ad3e934a32ac4a9d4eb0db7"
+    },
+    {
+      "path": "orun-environment.js",
+      "bytes": 1311,
+      "sourceSha256": "0ffc699b24bcd83e33d713c5ac368047c477564961c30f48c38f2ddfe7e4468f",
+      "sha256": "0ffc699b24bcd83e33d713c5ac368047c477564961c30f48c38f2ddfe7e4468f"
+    },
+    {
+      "path": "orun-evolution.js",
+      "bytes": 5460,
+      "sourceSha256": "84c1284e7db8e0902587813c662fcd3e6c35820e5893ecb386f437448015c49e",
+      "sha256": "84c1284e7db8e0902587813c662fcd3e6c35820e5893ecb386f437448015c49e"
+    },
+    {
+      "path": "orun-hydrology-v5.js",
+      "bytes": 11534,
+      "sourceSha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c",
+      "sha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c"
+    },
+    {
+      "path": "orun-hydrology-v6.js",
+      "bytes": 15895,
+      "sourceSha256": "b808cc1611aeff3fc652669499195a820817400226110ec082c9c02139caabac",
+      "sha256": "b808cc1611aeff3fc652669499195a820817400226110ec082c9c02139caabac"
+    },
+    {
+      "path": "orun-hydrology.js",
+      "bytes": 1169,
+      "sourceSha256": "6e1ee5b9910e29b9f2eb68b65da7fa56e42ffda7da5b04a2755a01ee67885cf9",
+      "sha256": "6e1ee5b9910e29b9f2eb68b65da7fa56e42ffda7da5b04a2755a01ee67885cf9"
+    },
+    {
+      "path": "orun-lakes.js",
+      "bytes": 2802,
+      "sourceSha256": "7f56ee8285bb4ce0be9c9beea6732c3076b3d3f344267bc71ec46a756577b254",
+      "sha256": "7f56ee8285bb4ce0be9c9beea6732c3076b3d3f344267bc71ec46a756577b254"
+    },
+    {
+      "path": "orun-landforms.js",
+      "bytes": 16792,
+      "sourceSha256": "46662066b69f98582c8d78e990aa37977255838f621d8a1015dd9de5109e75f2",
+      "sha256": "46662066b69f98582c8d78e990aa37977255838f621d8a1015dd9de5109e75f2"
+    },
+    {
+      "path": "orun-material-lod.js",
+      "bytes": 1831,
+      "sourceSha256": "07cd75e2c410b3e22186325d74f3d0f694a2992877d7482cb669c573b674bff2",
+      "sha256": "07cd75e2c410b3e22186325d74f3d0f694a2992877d7482cb669c573b674bff2"
+    },
+    {
+      "path": "orun-mesh.js",
+      "bytes": 13500,
+      "sourceSha256": "25fa02fb0b70b7ccebccf0e8a58881049bc80abe9faf9306aeee30b445c276f3",
+      "sha256": "25fa02fb0b70b7ccebccf0e8a58881049bc80abe9faf9306aeee30b445c276f3"
+    },
+    {
+      "path": "orun-surface.js",
+      "bytes": 20255,
+      "sourceSha256": "cb0d720ee5117a2e68cebb4669d39ccdfc3efca177c6d80855d5d2122f651e14",
+      "sha256": "cb0d720ee5117a2e68cebb4669d39ccdfc3efca177c6d80855d5d2122f651e14"
+    },
+    {
+      "path": "orun-view.js",
+      "bytes": 23916,
+      "sourceSha256": "5728743491d1213cee3b542766b0a3a3dd0afa95be63ae1a6468633565ace817",
+      "sha256": "5728743491d1213cee3b542766b0a3a3dd0afa95be63ae1a6468633565ace817"
+    },
+    {
+      "path": "orun-water-mesh.js",
+      "bytes": 3879,
+      "sourceSha256": "bb31256b548c173bb1c8bd294be67f459efb56034085b2ff80ecc38bee2b8670",
+      "sha256": "bb31256b548c173bb1c8bd294be67f459efb56034085b2ff80ecc38bee2b8670"
+    },
+    {
+      "path": "orun-watershed.js",
+      "bytes": 14342,
+      "sourceSha256": "ad071ab7af82eada894fa5f7ec143b0a24894cfde6630884337984027faa4be1",
+      "sha256": "ad071ab7af82eada894fa5f7ec143b0a24894cfde6630884337984027faa4be1"
+    },
+    {
+      "path": "orun-worker.js",
+      "bytes": 3800,
+      "sourceSha256": "5564fe28730858d0f0ddd18ba92c3f6adae4d9c749d648f32f5b8e58e6df1169",
+      "sha256": "5564fe28730858d0f0ddd18ba92c3f6adae4d9c749d648f32f5b8e58e6df1169"
+    },
+    {
+      "path": "orun.css",
+      "bytes": 3936,
+      "sourceSha256": "e36ec44c9eade6c70a4b8646ad0223e61e8305806faefc4382b0d9130321198f",
+      "sha256": "e36ec44c9eade6c70a4b8646ad0223e61e8305806faefc4382b0d9130321198f"
     },
     {
       "path": "river-layer.js",
@@ -18771,6 +19299,24 @@
       "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
+      "path": "space-assets/archeon-equirectangular-4096.png",
+      "bytes": 5013212,
+      "sourceSha256": "56a79dff3360084f55c7d6258be962abbf3e57c999003d5fd776e128729d5d8c",
+      "sha256": "56a79dff3360084f55c7d6258be962abbf3e57c999003d5fd776e128729d5d8c"
+    },
+    {
+      "path": "space-assets/archeon-equirectangular-preview.png",
+      "bytes": 853109,
+      "sourceSha256": "6aa42a20d7b9c74e622786770771b2ad381669a27c3d3ce0aab260ad933d3937",
+      "sha256": "6aa42a20d7b9c74e622786770771b2ad381669a27c3d3ce0aab260ad933d3937"
+    },
+    {
+      "path": "space-assets/archeon-texture-provenance.json",
+      "bytes": 8224,
+      "sourceSha256": "cc0acfd2c0f7fa9c72e46d8591a47c4069112d49139aa07c8f18e1a470bfc058",
+      "sha256": "cc0acfd2c0f7fa9c72e46d8591a47c4069112d49139aa07c8f18e1a470bfc058"
+    },
+    {
       "path": "space-assets/colonization-sensitivity.md",
       "bytes": 2073,
       "sourceSha256": "4a9125259aa7debb1ffdbcd060c40b08ec505616e54d62f5dc5260f432add007",
@@ -18802,9 +19348,9 @@
     },
     {
       "path": "space-controller.js",
-      "bytes": 31686,
-      "sourceSha256": "1d158ce9deb694791a7be759e9e3b02007f1e3c84caf8bf29ed3751d7b5498df",
-      "sha256": "bc3a7459468f77cd010d4d9f87e84c52f0a9ad4b0fafd6f23cacec3c141203d0"
+      "bytes": 31693,
+      "sourceSha256": "b59ed20cdd4348b6ae4500e2c3f4027145bc0b62c77ed90351350ccdfcf31a9b",
+      "sha256": "4865e94209d0c127fcb59a002f827f450b2944080aba37d4255a611619be9246"
     },
     {
       "path": "space-ui.css",
@@ -18841,6 +19387,12 @@
       "bytes": 125272,
       "sourceSha256": "825e82c8f0f882c2096b9781aed2214d52e6ded8baf39c37b1fb02518731d180",
       "sha256": "825e82c8f0f882c2096b9781aed2214d52e6ded8baf39c37b1fb02518731d180"
+    },
+    {
+      "path": "terrain/aethelgard-orun-windward-v8.png",
+      "bytes": 567164,
+      "sourceSha256": "2ae7e9c351ed5e46b74a802ac755f4232ab02e5e05557e0fa4fed449494bd81c",
+      "sha256": "2ae7e9c351ed5e46b74a802ac755f4232ab02e5e05557e0fa4fed449494bd81c"
     },
     {
       "path": "terrain/aethelgard-relief-preview.png",
@@ -18883,6 +19435,12 @@
       "bytes": 3194475,
       "sourceSha256": "ddb3e4d843d42e808afde5665bf11de9dadb697011d0a02bb0c949d0703af323",
       "sha256": "ddb3e4d843d42e808afde5665bf11de9dadb697011d0a02bb0c949d0703af323"
+    },
+    {
+      "path": "terrain/orun-windward-projections.json",
+      "bytes": 928,
+      "sourceSha256": "e2cc2c177165866780ce20db9da7d5b132d746337f6400faa3216fe8d7796a06",
+      "sha256": "e2cc2c177165866780ce20db9da7d5b132d746337f6400faa3216fe8d7796a06"
     },
     {
       "path": "terrain/rimstone-clouds.png",
@@ -27003,6 +27561,12 @@
       "sha256": "9ca414b48c2964fc93d515de82a17d4ed6969efa4a21b3f5f93ab31a09af6da3"
     },
     {
+      "path": "terrain/world-orun-windward-v8.png",
+      "bytes": 117624,
+      "sourceSha256": "98c14e7c61daae181e2c40117b9972f38091ae3ce1bda4894414e7c83735b2de",
+      "sha256": "98c14e7c61daae181e2c40117b9972f38091ae3ce1bda4894414e7c83735b2de"
+    },
+    {
       "path": "terrain/world-relief-preview.png",
       "bytes": 1473052,
       "sourceSha256": "c52e08dfe06f59517dedb35238602c046964d2d197f766e5c7c967985d189219",
@@ -27057,390 +27621,6 @@
       "sourcePath": "scripts/atlas-character/character-panel.css",
       "sourceSha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603",
       "sha256": "65d1626f3f05a6fb1020ee6cc4d7c004debc851cbeb6b7ba131c22ec0c8a7603"
-    },
-    {
-      "path": "app.js",
-      "bytes": 20738,
-      "sourceSha256": "8d158964384ab0d546def7a9f16f58064f6d929e37b64d1bb165ab0ba22beb8f",
-      "sha256": "1cae713f550a34e4998a20540272d50dc1917409f481afbe9a2ca5dc73fdc6d3"
-    },
-    {
-      "path": "index.html",
-      "bytes": 12488,
-      "sourceSha256": "afc07642bb1872c243adfa06528b12a7ed8f2046ad2ccb8296ab03e08feb4be3",
-      "sha256": "181d29d71b90cc291d27aa2822cc9461f3088eba6bed92417a9c0300cb080e3a"
-    },
-    {
-      "path": "orun-assets/ai-masks/author-bands.json",
-      "bytes": 1399,
-      "sourceSha256": "c0ad67f97fbee58ce5d26913f79ed97f01df91d3670c9947b0c71ec7d539b7e3",
-      "sha256": "c0ad67f97fbee58ce5d26913f79ed97f01df91d3670c9947b0c71ec7d539b7e3"
-    },
-    {
-      "path": "orun-assets/ai-masks/manifest.json",
-      "bytes": 29891,
-      "sourceSha256": "dbdd88d5e695ec4ad44cda0fa8089fb4c1c5d53d6d7fab9cdddb9ef90b0ed898",
-      "sha256": "dbdd88d5e695ec4ad44cda0fa8089fb4c1c5d53d6d7fab9cdddb9ef90b0ed898"
-    },
-    {
-      "path": "orun-assets/ai-masks/scalar-mips.u8",
-      "bytes": 18875430,
-      "sourceSha256": "c9bce0d28e477e0526833002220c150b25fbafece35d89a8e1b54db2f815fd36",
-      "sha256": "c9bce0d28e477e0526833002220c150b25fbafece35d89a8e1b54db2f815fd36"
-    },
-    {
-      "path": "orun-assets/area.f32",
-      "bytes": 3218436,
-      "sourceSha256": "66a46adeb6dc0e3fedb1094fbe5fd99d770aec6318f5695eca272a7d12ae75a1",
-      "sha256": "66a46adeb6dc0e3fedb1094fbe5fd99d770aec6318f5695eca272a7d12ae75a1"
-    },
-    {
-      "path": "orun-assets/delta.f32",
-      "bytes": 3218436,
-      "sourceSha256": "70ddf534f05e475b1d2500997948089b181c2c0981361ca7f40068990ccf8e81",
-      "sha256": "70ddf534f05e475b1d2500997948089b181c2c0981361ca7f40068990ccf8e81"
-    },
-    {
-      "path": "orun-assets/environment.f32",
-      "bytes": 1056784,
-      "sourceSha256": "fb73a46bebe3237783e1666bcc59019aa30158045a58b741b5bb9d17386611e5",
-      "sha256": "fb73a46bebe3237783e1666bcc59019aa30158045a58b741b5bb9d17386611e5"
-    },
-    {
-      "path": "orun-assets/h.f32",
-      "bytes": 3218436,
-      "sourceSha256": "ffe24b918219473e31e2f2d1219511ae70ec39a940421771079eb8705f46cd61",
-      "sha256": "ffe24b918219473e31e2f2d1219511ae70ec39a940421771079eb8705f46cd61"
-    },
-    {
-      "path": "orun-assets/input.json",
-      "bytes": 12508,
-      "sourceSha256": "dadc6cbd9bb4033f648ae8d0b56270afa8e1782415c0c05b6481b21dbfa17905",
-      "sha256": "dadc6cbd9bb4033f648ae8d0b56270afa8e1782415c0c05b6481b21dbfa17905"
-    },
-    {
-      "path": "orun-assets/landforms-v3/area.f32",
-      "bytes": 12859396,
-      "sourceSha256": "7501441648fcbcc889c804ce6e7136285f3cf4d22fd28cdffec7d032961fe36d",
-      "sha256": "7501441648fcbcc889c804ce6e7136285f3cf4d22fd28cdffec7d032961fe36d"
-    },
-    {
-      "path": "orun-assets/landforms-v3/context.u8",
-      "bytes": 19289094,
-      "sourceSha256": "dea14474dd1d5b604f99f9bb1e43fb3ca142353f45757113ceb204890f1fff29",
-      "sha256": "dea14474dd1d5b604f99f9bb1e43fb3ca142353f45757113ceb204890f1fff29"
-    },
-    {
-      "path": "orun-assets/landforms-v3/cut.f32",
-      "bytes": 12859396,
-      "sourceSha256": "583fc402d5609db989069c999b1f4ff44c340276e1023894a33bd493a94c4eac",
-      "sha256": "583fc402d5609db989069c999b1f4ff44c340276e1023894a33bd493a94c4eac"
-    },
-    {
-      "path": "orun-assets/landforms-v3/guard.f32",
-      "bytes": 12859396,
-      "sourceSha256": "de3fea48d0e9bd7284e92b892e776717e87a9225eb757569a63c511e1cf1cb5b",
-      "sha256": "de3fea48d0e9bd7284e92b892e776717e87a9225eb757569a63c511e1cf1cb5b"
-    },
-    {
-      "path": "orun-assets/landforms-v3/guideDelta.f32",
-      "bytes": 12859396,
-      "sourceSha256": "7f84806050d5a682d3593388dd236b0600576cfc2aac5769d70316860b6f4035",
-      "sha256": "7f84806050d5a682d3593388dd236b0600576cfc2aac5769d70316860b6f4035"
-    },
-    {
-      "path": "orun-assets/landforms-v3/gully.f32",
-      "bytes": 12859396,
-      "sourceSha256": "e01e79ed6e82b9bb63e325acca5b1945435879646bd913484432496fd583d63f",
-      "sha256": "e01e79ed6e82b9bb63e325acca5b1945435879646bd913484432496fd583d63f"
-    },
-    {
-      "path": "orun-assets/landforms-v3/h.f32",
-      "bytes": 12859396,
-      "sourceSha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea",
-      "sha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea"
-    },
-    {
-      "path": "orun-assets/landforms-v3/height-1024.f32",
-      "bytes": 51076,
-      "sourceSha256": "413a0f2726278dc34225c0cae8b7b52a66a8f6d37e5bd0d72021e046540dd2ff",
-      "sha256": "413a0f2726278dc34225c0cae8b7b52a66a8f6d37e5bd0d72021e046540dd2ff"
-    },
-    {
-      "path": "orun-assets/landforms-v3/height-128.f32",
-      "bytes": 3218436,
-      "sourceSha256": "ff0aa599a57ca08d73649db72590eeef8f995be7d52163603cb3572963e3bbc0",
-      "sha256": "ff0aa599a57ca08d73649db72590eeef8f995be7d52163603cb3572963e3bbc0"
-    },
-    {
-      "path": "orun-assets/landforms-v3/height-256.f32",
-      "bytes": 806404,
-      "sourceSha256": "39b639af4773d3559b633025b422d3288e6c556f79091ca539a76086425d4a07",
-      "sha256": "39b639af4773d3559b633025b422d3288e6c556f79091ca539a76086425d4a07"
-    },
-    {
-      "path": "orun-assets/landforms-v3/height-512.f32",
-      "bytes": 202500,
-      "sourceSha256": "7250cf3f453b706c89f12ddd6c9900abcc4a66749868d55b14ff69d1535cb533",
-      "sha256": "7250cf3f453b706c89f12ddd6c9900abcc4a66749868d55b14ff69d1535cb533"
-    },
-    {
-      "path": "orun-assets/landforms-v3/lock.f32",
-      "bytes": 12859396,
-      "sourceSha256": "e6d504865796ea40148ead3679b645fe4e4222822c2d07e95a8c2a685edc19bd",
-      "sha256": "e6d504865796ea40148ead3679b645fe4e4222822c2d07e95a8c2a685edc19bd"
-    },
-    {
-      "path": "orun-assets/landforms-v3/manifest.json",
-      "bytes": 6259,
-      "sourceSha256": "bf1a22d1c15f0fab728c6f5188753763fdde8978d217995170138281fb855718",
-      "sha256": "bf1a22d1c15f0fab728c6f5188753763fdde8978d217995170138281fb855718"
-    },
-    {
-      "path": "orun-assets/landforms-v3/receiver.i32",
-      "bytes": 12859396,
-      "sourceSha256": "c884b5c7f5092449b36103bf84a0a4487b272b1389e3b0b7c55eb01b67d165c0",
-      "sha256": "c884b5c7f5092449b36103bf84a0a4487b272b1389e3b0b7c55eb01b67d165c0"
-    },
-    {
-      "path": "orun-assets/lock.f32",
-      "bytes": 3218436,
-      "sourceSha256": "05260c6d58f9fef6254ee92c11795a2a2f10fd8f5d8d6a796a5f5af683ad19b0",
-      "sha256": "05260c6d58f9fef6254ee92c11795a2a2f10fd8f5d8d6a796a5f5af683ad19b0"
-    },
-    {
-      "path": "orun-assets/manifest.json",
-      "bytes": 36908,
-      "sourceSha256": "a1885d28eecf663f52f99651f433df0884309fb7ff722866e8cdb488d80eb5af",
-      "sha256": "a1885d28eecf663f52f99651f433df0884309fb7ff722866e8cdb488d80eb5af"
-    },
-    {
-      "path": "orun-assets/native-height.f32",
-      "bytes": 264196,
-      "sourceSha256": "412459f558bb9bf4334349bb4524982ae2b20c400ad8d52d2efd0aa206bd3cad",
-      "sha256": "412459f558bb9bf4334349bb4524982ae2b20c400ad8d52d2efd0aa206bd3cad"
-    },
-    {
-      "path": "orun-assets/surface-v4/integral-00.f32",
-      "bytes": 33554432,
-      "sourceSha256": "d21e412a551737fdfc602d3ec23c71730ccbb8d18c6dcd00d59d6e963995112f",
-      "sha256": "d21e412a551737fdfc602d3ec23c71730ccbb8d18c6dcd00d59d6e963995112f"
-    },
-    {
-      "path": "orun-assets/surface-v4/integral-01.f32",
-      "bytes": 33554432,
-      "sourceSha256": "b660dbbad960e604461f4d6300626566931e5d0e0722cd1b2ea9a0b0fc1e3222",
-      "sha256": "b660dbbad960e604461f4d6300626566931e5d0e0722cd1b2ea9a0b0fc1e3222"
-    },
-    {
-      "path": "orun-assets/surface-v4/integral-02.f32",
-      "bytes": 9961472,
-      "sourceSha256": "21014d6cc76e9bb2bc95d3f971b9e3efdbf74b3057703bbb30d81093137baabd",
-      "sha256": "21014d6cc76e9bb2bc95d3f971b9e3efdbf74b3057703bbb30d81093137baabd"
-    },
-    {
-      "path": "orun-assets/surface-v4/manifest.json",
-      "bytes": 2152,
-      "sourceSha256": "f6b5a557ec841c97e85c9230ff8076ff3b7be5f810a818a0089b5dabd65d48ed",
-      "sha256": "f6b5a557ec841c97e85c9230ff8076ff3b7be5f810a818a0089b5dabd65d48ed"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-00.f32",
-      "bytes": 33554432,
-      "sourceSha256": "e3f63d77061d838552e72bca47fc35876aef57f5a5cb5bab3ee0eec799813a9d",
-      "sha256": "e3f63d77061d838552e72bca47fc35876aef57f5a5cb5bab3ee0eec799813a9d"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-01.f32",
-      "bytes": 33554432,
-      "sourceSha256": "44fae4d09579935b1e32467fcada7e681811a8df3998f02c09ba145f459a0bd5",
-      "sha256": "44fae4d09579935b1e32467fcada7e681811a8df3998f02c09ba145f459a0bd5"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-02.f32",
-      "bytes": 33554432,
-      "sourceSha256": "297eaff859c7354fc8fe08ebe6f94dcc4210704b244057e4126c440c2ac45953",
-      "sha256": "297eaff859c7354fc8fe08ebe6f94dcc4210704b244057e4126c440c2ac45953"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-03.f32",
-      "bytes": 33554432,
-      "sourceSha256": "5646b786bd542e743ad0c036464e679c727c013e35e39b6598a8ce3a197b8698",
-      "sha256": "5646b786bd542e743ad0c036464e679c727c013e35e39b6598a8ce3a197b8698"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-04.f32",
-      "bytes": 33554432,
-      "sourceSha256": "9a07eef05bfc85ff34f85e06c2cb9ad1e05d315e06b1cb7e8b6e40c934ec61d7",
-      "sha256": "9a07eef05bfc85ff34f85e06c2cb9ad1e05d315e06b1cb7e8b6e40c934ec61d7"
-    },
-    {
-      "path": "orun-assets/surface-v4/surface-05.f32",
-      "bytes": 25118780,
-      "sourceSha256": "32c7b05343fb7feb749ee77896e80c1bd2b5614d46ad6a6d1c01fe011c635abb",
-      "sha256": "32c7b05343fb7feb749ee77896e80c1bd2b5614d46ad6a6d1c01fe011c635abb"
-    },
-    {
-      "path": "orun-assets/water-v6/ecology-00.f32",
-      "bytes": 33554432,
-      "sourceSha256": "0fc49eb5dd8aaba2d6430e4f08503505a78f8a88e7b642cf62031be834c8a5ee",
-      "sha256": "0fc49eb5dd8aaba2d6430e4f08503505a78f8a88e7b642cf62031be834c8a5ee"
-    },
-    {
-      "path": "orun-assets/water-v6/ecology-01.f32",
-      "bytes": 33554432,
-      "sourceSha256": "33e1eaeabbfd917decf960a7fd28d9b352719f81bba876eac379244359cc932a",
-      "sha256": "33e1eaeabbfd917decf960a7fd28d9b352719f81bba876eac379244359cc932a"
-    },
-    {
-      "path": "orun-assets/water-v6/ecology-02.f32",
-      "bytes": 33554432,
-      "sourceSha256": "220bb4f4ed23b229a489e5f114c3a7b93420d91f75d9655250ee11292c2b9d8a",
-      "sha256": "220bb4f4ed23b229a489e5f114c3a7b93420d91f75d9655250ee11292c2b9d8a"
-    },
-    {
-      "path": "orun-assets/water-v6/ecology-03.f32",
-      "bytes": 14934720,
-      "sourceSha256": "8ff83252f71e0d752f50f882f701c54cda4033f26c9f457dda209efd062d51f8",
-      "sha256": "8ff83252f71e0d752f50f882f701c54cda4033f26c9f457dda209efd062d51f8"
-    },
-    {
-      "path": "orun-assets/water-v6/ecology-indices.i32",
-      "bytes": 12845056,
-      "sourceSha256": "8c166eb2ee1db860308921d42439d1b0000939e37fbcae87a5312835d68625b9",
-      "sha256": "8c166eb2ee1db860308921d42439d1b0000939e37fbcae87a5312835d68625b9"
-    },
-    {
-      "path": "orun-assets/water-v6/manifest.json",
-      "bytes": 18106236,
-      "sourceSha256": "0c03e0d529c0d7c1f1d74eab532282706c747c44fd3c4516c8c6b89129d618c0",
-      "sha256": "0c03e0d529c0d7c1f1d74eab532282706c747c44fd3c4516c8c6b89129d618c0"
-    },
-    {
-      "path": "orun-assets/water-v6/water-00.f32",
-      "bytes": 33554432,
-      "sourceSha256": "569de28c684aaf3e7039ecc760472af36014d26f17caab78563d60f939889904",
-      "sha256": "569de28c684aaf3e7039ecc760472af36014d26f17caab78563d60f939889904"
-    },
-    {
-      "path": "orun-assets/water-v6/water-01.f32",
-      "bytes": 33554432,
-      "sourceSha256": "dc02ca5f37bab9c021120c06e52922b899cbaf1d9e48c2d01149128933c590a4",
-      "sha256": "dc02ca5f37bab9c021120c06e52922b899cbaf1d9e48c2d01149128933c590a4"
-    },
-    {
-      "path": "orun-assets/water-v6/water-02.f32",
-      "bytes": 33554432,
-      "sourceSha256": "eb70b27c9665ec7a3939e2f75700365e2e1681acdb2b7233d89f7b12ba8433c4",
-      "sha256": "eb70b27c9665ec7a3939e2f75700365e2e1681acdb2b7233d89f7b12ba8433c4"
-    },
-    {
-      "path": "orun-assets/water-v6/water-03.f32",
-      "bytes": 33554432,
-      "sourceSha256": "4bf432cb4d0de2c4f449721904bfdcc3e2d7bb782b7af5ecb95048eb5d00614e",
-      "sha256": "4bf432cb4d0de2c4f449721904bfdcc3e2d7bb782b7af5ecb95048eb5d00614e"
-    },
-    {
-      "path": "orun-assets/water-v6/water-04.f32",
-      "bytes": 20095024,
-      "sourceSha256": "d7b2bd6545c70cde8b75476708b64beb646fa3b09bd4c3507266d370d1a0c23b",
-      "sha256": "d7b2bd6545c70cde8b75476708b64beb646fa3b09bd4c3507266d370d1a0c23b"
-    },
-    {
-      "path": "orun-cloud-view.js",
-      "bytes": 7594,
-      "sourceSha256": "26c0c23576d1b3d1e727d23159cc8f3eaa85d8e34abeebe21744fbdbc4ea239e",
-      "sha256": "26c0c23576d1b3d1e727d23159cc8f3eaa85d8e34abeebe21744fbdbc4ea239e"
-    },
-    {
-      "path": "orun-cloud-worker.js",
-      "bytes": 566,
-      "sourceSha256": "5a576b64a8cf85b644f3fb110857c635ffbc6aab3c69b7da7f31d4759aead51a",
-      "sha256": "5a576b64a8cf85b644f3fb110857c635ffbc6aab3c69b7da7f31d4759aead51a"
-    },
-    {
-      "path": "orun-clouds-v5.js",
-      "bytes": 5434,
-      "sourceSha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404",
-      "sha256": "bb1b9e6de76180ec51ba3a118507caac2125775846f6bea9fcacd7e681464404"
-    },
-    {
-      "path": "orun-clouds.js",
-      "bytes": 5874,
-      "sourceSha256": "f93f1703a0877ee6fb6da27722fcbabd920265530c23a5227727d964a90f22d7",
-      "sha256": "f93f1703a0877ee6fb6da27722fcbabd920265530c23a5227727d964a90f22d7"
-    },
-    {
-      "path": "orun-controller.js",
-      "bytes": 17271,
-      "sourceSha256": "b33235f6ace36d747eb94779f2c90d5189c4562ef83b7f3f8619709cba113019",
-      "sha256": "44ac94cfb2c00013d9ee8fe5ea90cbae7c20e77b161411378d3bd9d34f3d1d41"
-    },
-    {
-      "path": "orun-core.js",
-      "bytes": 48088,
-      "sourceSha256": "b43e21523f96bbce53a18feff8530ba8a7d2b7e832d9817bd89aa1257eb895d7",
-      "sha256": "b43e21523f96bbce53a18feff8530ba8a7d2b7e832d9817bd89aa1257eb895d7"
-    },
-    {
-      "path": "orun-hydrology-v5.js",
-      "bytes": 11534,
-      "sourceSha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c",
-      "sha256": "70970576dfac171e1e80131f624aea151ea164064e279961ba39dcb733c1fd6c"
-    },
-    {
-      "path": "orun-hydrology.js",
-      "bytes": 15892,
-      "sourceSha256": "7eaded9270d4a76fcc7340dd5078002b3725bd74cc85b9811e3a09a434011e7e",
-      "sha256": "7eaded9270d4a76fcc7340dd5078002b3725bd74cc85b9811e3a09a434011e7e"
-    },
-    {
-      "path": "orun-landforms.js",
-      "bytes": 16792,
-      "sourceSha256": "46662066b69f98582c8d78e990aa37977255838f621d8a1015dd9de5109e75f2",
-      "sha256": "46662066b69f98582c8d78e990aa37977255838f621d8a1015dd9de5109e75f2"
-    },
-    {
-      "path": "orun-material-lod.js",
-      "bytes": 1831,
-      "sourceSha256": "07cd75e2c410b3e22186325d74f3d0f694a2992877d7482cb669c573b674bff2",
-      "sha256": "07cd75e2c410b3e22186325d74f3d0f694a2992877d7482cb669c573b674bff2"
-    },
-    {
-      "path": "orun-mesh.js",
-      "bytes": 11547,
-      "sourceSha256": "261d99411e3b5e02b5d545ec548ecd371c62850dcd069265af2bbe9bd93bf689",
-      "sha256": "261d99411e3b5e02b5d545ec548ecd371c62850dcd069265af2bbe9bd93bf689"
-    },
-    {
-      "path": "orun-surface.js",
-      "bytes": 19999,
-      "sourceSha256": "82836736410240e0dac8a24f9cbc5762fb8ae1d8a2ad5a64bebf0982b726140f",
-      "sha256": "82836736410240e0dac8a24f9cbc5762fb8ae1d8a2ad5a64bebf0982b726140f"
-    },
-    {
-      "path": "orun-view.js",
-      "bytes": 23709,
-      "sourceSha256": "e506e22a6bf9414d45e9b5d28cfb5a1f1c1408fb4662af53dbfc90b7b066d469",
-      "sha256": "e506e22a6bf9414d45e9b5d28cfb5a1f1c1408fb4662af53dbfc90b7b066d469"
-    },
-    {
-      "path": "orun-water-mesh.js",
-      "bytes": 3805,
-      "sourceSha256": "0a3376607170c008c5534fd5711ad38d1fcc76fbc71251f06f29e260eb262e3e",
-      "sha256": "0a3376607170c008c5534fd5711ad38d1fcc76fbc71251f06f29e260eb262e3e"
-    },
-    {
-      "path": "orun-worker.js",
-      "bytes": 3259,
-      "sourceSha256": "8c6979092d18ab2715c9c98126e2a387fb7a34648d5664702f5d453bfcc26e43",
-      "sha256": "8c6979092d18ab2715c9c98126e2a387fb7a34648d5664702f5d453bfcc26e43"
-    },
-    {
-      "path": "orun.css",
-      "bytes": 3936,
-      "sourceSha256": "e36ec44c9eade6c70a4b8646ad0223e61e8305806faefc4382b0d9130321198f",
-      "sha256": "e36ec44c9eade6c70a4b8646ad0223e61e8305806faefc4382b0d9130321198f"
     }
   ]
 }

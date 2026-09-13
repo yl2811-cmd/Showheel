@@ -2,7 +2,7 @@
 (() => {
  'use strict';
  const app=window.ATLAS_APP,$=id=>document.getElementById(id),isSpace=()=>activeTab==='system'||activeTab==='federation';
- const localIds=['atheria','marneth','rimstone'];
+ const localIds=['atheria','marneth','rimstone','orun'];
  const original={search:$('search').oninput,zoomIn:$('zoom-in').onclick,zoomOut:$('zoom-out').onclick,reset:$('reset').onclick,scenic:$('scenic').onclick};
  let activeTab='world',localView='atheria',instance=null,epoch=3094,playing=false,loadToken=0,loaded=null,scenicSnapshot=null,engineType='base',savedFederationState=null,exposure=0,brightness=1;
  let federationMode='canon',researchResult=null;

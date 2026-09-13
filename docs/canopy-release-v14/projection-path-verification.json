@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "allRemovedFeaturesOutsideRegionalProjection": "north-polar",
+  "visibleAethelgardPixelsUnchanged": true,
+  "pixelCheckWidth": 1600,
+  "fixes": [
+    {
+      "file": "exports/aethelgard-living-en.svg",
+      "feature": "north-polar"
+    },
+    {
+      "file": "exports/aethelgard-living.svg",
+      "feature": "north-polar"
+    },
+    {
+      "file": "exports/aethelgard.svg",
+      "feature": "north-polar"
+    },
+    {
+      "file": "exports/marneth-en.svg",
+      "feature": "north-polar"
+    },
+    {
+      "file": "exports/marneth.svg",
+      "feature": "north-polar"
+    },
+    {
+      "file": "data/maps-aethelgard.js:aethelgard",
+      "feature": "north-polar"
+    },
+    {
+      "file": "data/maps-marneth.js:marneth",
+      "feature": "north-polar"
+    },
+    {
+      "file": "data/maps.js:aethelgard",
+      "feature": "north-polar"
+    },
+    {
+      "file": "data/maps.js:marneth",
+      "feature": "north-polar"
+    }
+  ]
+}

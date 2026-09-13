@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Whole-region 0x, 1x, 2.5x and 5x coverage uses the frozen crown area",
+      "passed": true,
+      "detail": [
+        {
+          "requested": 0,
+          "groundAreaM2": 0,
+          "groundRatio": 0,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 1,
+          "groundAreaM2": 97194152.4030544,
+          "groundRatio": 1.0000000000565092,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 2.5,
+          "groundAreaM2": 242985380.99392787,
+          "groundRatio": 2.5000000000002345,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 5,
+          "groundAreaM2": 485970761.98781395,
+          "groundRatio": 5.000000000000039,
+          "maximumAreaM2": 1051334528.3049319
+        }
+      ]
+    },
+    {
+      "name": "Habitat capacity and tree heights remain finite and bounded",
+      "passed": true
+    },
+    {
+      "name": "Area-weighted distant cells preserve the same population as their children",
+      "passed": true
+    },
+    {
+      "name": "Narrow passage clipping preserves its exact footprint",
+      "passed": true
+    },
+    {
+      "name": "All original crown ranges were checked against the live geometry",
+      "passed": true,
+      "detail": 36552
+    },
+    {
+      "name": "Field noise creates rare dense groves and substantial open ground",
+      "passed": true,
+      "detail": {
+        "atDensity": 2.5,
+        "bins": {
+          "open": 401413,
+          "sparse": 377407,
+          "mixed": 262128,
+          "dense": 136227
+        },
+        "farmBins": {
+          "open": 305175,
+          "sparse": 130272,
+          "mixed": 119373,
+          "dense": 46568
+        },
+        "farmCells": 601388,
+        "denseFarmShare": 0.07743420221221574
+      }
+    },
+    {
+      "name": "Sparse crowns reach mature height without becoming a grass-like platform",
+      "passed": true,
+      "detail": {
+        "heightM": 15.892192848014632,
+        "openGapM": 22
+      }
+    },
+    {
+      "name": "Split terrain supports preserve crown area and clear a crossing path",
+      "passed": true
+    },
+    {
+      "name": "Field placement uses four times the terrace weight; subtle tint is stable",
+      "passed": true
+    }
+  ]
+}

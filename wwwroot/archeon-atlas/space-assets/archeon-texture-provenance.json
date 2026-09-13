@@ -1,0 +1,461 @@
+{
+  "width": 4096,
+  "height": 2048,
+  "sourceSHA256": "a76678ff1d53b548a0da9aa1c58a9fcb80ecbece612464cd565074c7bd9a71bb",
+  "lakeMaskSHA256": "953273fad0f757991192cbc2c6b667bf5ae6837f4d672d6ae7530e92306313d7",
+  "sourceUnchanged": true,
+  "ecology": {
+    "file": "terrain/world-orun-windward-v8.png",
+    "sha256": "98c14e7c61daae181e2c40117b9972f38091ae3ce1bda4894414e7c83735b2de",
+    "atlasSha256": "5fcdd2a7cdb8b3f649501c10943cebd141d94af1c3f1fc3f1c5ec8f06bc5a4ee",
+    "changedTexels": 33537,
+    "wholeWallWindward": true
+  },
+  "outputSHA256": "56a79dff3360084f55c7d6258be962abbf3e57c999003d5fd776e128729d5d8c",
+  "outputBytes": 5013212,
+  "method": "For each equirectangular texel centre: longitude/latitude → current d3.geoEqualEarth projection → native image scale → composite existing lake-mask water and archive no-data behind native RGBA → bilinear sample; composite the same georeferenced Orun windward ecology overlay used by the world map.",
+  "equalEarth": {
+    "scale": 378.69971373046627,
+    "translate": [
+      1100,
+      707.5
+    ],
+    "center": [
+      0,
+      0
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "nativeScale": 5.454545454545454
+  },
+  "transparentSamples": 730206,
+  "lakeSamples": 11071,
+  "transparentFallback": "Existing world-lake-ids water uses #739da5 from the Atlas water palette. Remaining native absent pixels use #d3d4c3 FAR-5 archive fill. No terrain or lake geometry is invented.",
+  "samples": [
+    {
+      "label": "Prime meridian / equator",
+      "inputLonLat": [
+        0,
+        0
+      ],
+      "pixel": [
+        2048,
+        1024
+      ],
+      "pixelCenterLonLat": [
+        0.0439453125,
+        -0.0439453125
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Northern continent",
+      "inputLonLat": [
+        90,
+        45
+      ],
+      "pixel": [
+        3072,
+        512
+      ],
+      "pixelCenterLonLat": [
+        90.0439453125,
+        44.9560546875
+      ],
+      "nativeRGBA": [
+        162,
+        141,
+        100,
+        255
+      ],
+      "textureRGBA": [
+        162,
+        141,
+        100,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Open ocean",
+      "inputLonLat": [
+        -120,
+        -30
+      ],
+      "pixel": [
+        682,
+        1365
+      ],
+      "pixelCenterLonLat": [
+        -120.0146484375,
+        -30.0146484375
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "North latitude",
+      "inputLonLat": [
+        0,
+        80
+      ],
+      "pixel": [
+        2048,
+        113
+      ],
+      "pixelCenterLonLat": [
+        0.0439453125,
+        80.0244140625
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Southern latitude",
+      "inputLonLat": [
+        120,
+        -60
+      ],
+      "pixel": [
+        3413,
+        1706
+      ],
+      "pixelCenterLonLat": [
+        120.0146484375,
+        -59.9853515625
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Orun local plateau",
+      "inputLonLat": [
+        -3.1,
+        10.46
+      ],
+      "pixel": [
+        2012,
+        904
+      ],
+      "pixelCenterLonLat": [
+        -3.1201171875,
+        10.5029296875
+      ],
+      "nativeRGBA": [
+        148,
+        149,
+        103,
+        255
+      ],
+      "textureRGBA": [
+        148,
+        149,
+        103,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Orun windward lowland",
+      "inputLonLat": [
+        -3.1,
+        10.9
+      ],
+      "pixel": [
+        2012,
+        899
+      ],
+      "pixelCenterLonLat": [
+        -3.1201171875,
+        10.9423828125
+      ],
+      "nativeRGBA": [
+        178,
+        166,
+        115,
+        255
+      ],
+      "textureRGBA": [
+        178,
+        166,
+        115,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Western Orun windward",
+      "inputLonLat": [
+        -15,
+        12.9
+      ],
+      "pixel": [
+        1877,
+        877
+      ],
+      "pixelCenterLonLat": [
+        -14.9853515625,
+        12.8759765625
+      ],
+      "nativeRGBA": [
+        156,
+        161,
+        107,
+        255
+      ],
+      "textureRGBA": [
+        156,
+        161,
+        107,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "Eastern Orun windward",
+      "inputLonLat": [
+        4,
+        15
+      ],
+      "pixel": [
+        2093,
+        853
+      ],
+      "pixelCenterLonLat": [
+        3.9990234375,
+        14.9853515625
+      ],
+      "nativeRGBA": [
+        162,
+        163,
+        118,
+        255
+      ],
+      "textureRGBA": [
+        162,
+        163,
+        118,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "West seam",
+      "inputLonLat": [
+        -179.9,
+        0
+      ],
+      "pixel": [
+        1,
+        1024
+      ],
+      "pixelCenterLonLat": [
+        -179.8681640625,
+        -0.0439453125
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "East seam",
+      "inputLonLat": [
+        179.9,
+        0
+      ],
+      "pixel": [
+        4094,
+        1024
+      ],
+      "pixelCenterLonLat": [
+        179.8681640625,
+        -0.0439453125
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "High Inland Sea: native lake mask",
+      "inputLonLat": [
+        82.026,
+        34.012
+      ],
+      "pixel": [
+        2981,
+        637
+      ],
+      "pixelCenterLonLat": [
+        82.0458984375,
+        33.9697265625
+      ],
+      "nativeRGBA": [
+        115,
+        157,
+        165,
+        255
+      ],
+      "textureRGBA": [
+        115,
+        157,
+        165,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "FAR-5 North: archive outline only",
+      "inputLonLat": [
+        -135,
+        60
+      ],
+      "pixel": [
+        512,
+        341
+      ],
+      "pixelCenterLonLat": [
+        -134.9560546875,
+        59.9853515625
+      ],
+      "nativeRGBA": [
+        211,
+        212,
+        195,
+        255
+      ],
+      "textureRGBA": [
+        211,
+        212,
+        195,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "FAR-5 South: archive outline only",
+      "inputLonLat": [
+        -130,
+        -25
+      ],
+      "pixel": [
+        568,
+        1308
+      ],
+      "pixelCenterLonLat": [
+        -130.0341796875,
+        -25.0048828125
+      ],
+      "nativeRGBA": [
+        211,
+        212,
+        195,
+        255
+      ],
+      "textureRGBA": [
+        211,
+        212,
+        195,
+        255
+      ],
+      "maxChannelDifference": 0
+    },
+    {
+      "label": "FAR-5 geographic centroid (native no-data retained)",
+      "inputLonLat": [
+        -127.61779554061062,
+        24.533686771310368
+      ],
+      "pixel": [
+        595,
+        744
+      ],
+      "pixelCenterLonLat": [
+        -127.6611328125,
+        24.5654296875
+      ],
+      "nativeRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "textureRGBA": [
+        99,
+        149,
+        163,
+        255
+      ],
+      "maxChannelDifference": 0
+    }
+  ],
+  "maximumReprojectionCheckDifference": 0,
+  "allPassed": true
+}

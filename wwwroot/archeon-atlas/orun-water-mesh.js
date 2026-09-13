@@ -12,7 +12,7 @@ function build(hydrology,findLeaf){const vertices=[],colors=[],stats={patches:0,
    for(const[P,Q]of[[U,backU],[backU,backV],[backV,V]]){triangle([P[0],l.y+1.2,P[1]],[Q[0],l.y+1.2,Q[1]],[Q[0],other.y+1.2,Q[1]]);triangle([P[0],l.y+1.2,P[1]],[Q[0],other.y+1.2,Q[1]],[P[0],other.y+1.2,P[1]]);}stats.falls++;}
   }
  }
- stats.lakePatches=0;for(const lake of hydrology?.lakes||[]){for(const k of lake.cells){const cx=hydrology.min+k%hydrology.n*hydrology.step,cz=hydrology.min+Math.floor(k/hydrology.n)*hydrology.step,r=lake.radius||hydrology.step/2;for(let z=Math.floor((cz-r)/16)*16;z<cz+r;z+=16)for(let x=Math.floor((cx-r)/16)*16;x<cx+r;x+=16){if(lake.radius&&Math.hypot(x+8-cx,z+8-cz)>r)continue;const leaf=findLeaf(x+8,z+8);if(!leaf||leaf.y>lake.level-.25)continue;const y=lake.level;triangle([x,y,z],[x,y,z+16],[x+16,y,z+16]);triangle([x,y,z],[x+16,y,z+16],[x+16,y,z]);stats.lakePatches++;}}}
+ stats.lakePatches=0;for(const lake of hydrology?.lakes||[]){for(const k of lake.cells){const cx=hydrology.min+k%hydrology.n*hydrology.step,cz=hydrology.min+Math.floor(k/hydrology.n)*hydrology.step,r=lake.radius||hydrology.step/2;const centerLeaf=findLeaf(cx,cz);if(!centerLeaf||centerLeaf.s>64)continue;for(let z=Math.floor((cz-r)/16)*16;z<cz+r;z+=16)for(let x=Math.floor((cx-r)/16)*16;x<cx+r;x+=16){if(lake.radius&&Math.hypot(x+8-cx,z+8-cz)>r)continue;const leaf=findLeaf(x+8,z+8);if(!leaf||leaf.y>lake.level-.25)continue;const y=lake.level;triangle([x,y,z],[x,y,z+16],[x+16,y,z+16]);triangle([x,y,z],[x+16,y,z+16],[x+16,y,z]);stats.lakePatches++;}}}
  return{position:new Float32Array(vertices),color:new Float32Array(colors),stats};
 }
 return{build};});

@@ -1,0 +1,9 @@
+{
+  "updated": [
+    "archeon-atlas/data/maps-aethelgard.js",
+    "archeon-atlas/data/maps-marneth.js"
+  ],
+  "retiredUnusedPacks": 2,
+  "passed": true,
+  "totalBytes": 931407652
+}

@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "All requested densities use the frozen canopy area baseline",
+      "passed": true,
+      "detail": [
+        {
+          "requested": 0,
+          "groundAreaM2": 0,
+          "groundRatio": 0,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 1,
+          "groundAreaM2": 97194152.40174338,
+          "groundRatio": 1.0000000000430207,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 1.7,
+          "groundAreaM2": 165230059.07587332,
+          "groundRatio": 1.7000000000001838,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 2.5,
+          "groundAreaM2": 242985380.99391785,
+          "groundRatio": 2.5000000000001315,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 5,
+          "groundAreaM2": 485970761.98782676,
+          "groundRatio": 5.000000000000171,
+          "maximumAreaM2": 1051334528.3049319
+        }
+      ]
+    },
+    {
+      "name": "Irregular world positions remain stable; rare groups contain 3–7 sites",
+      "passed": true,
+      "detail": {
+        "medianNearestM": 23.465932760675447,
+        "groupedShare": 0.15033375760864237,
+        "source": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        }
+      }
+    },
+    {
+      "name": "Native LOD subdivisions integrate the same physical crown footprints",
+      "passed": true,
+      "detail": [
+        {
+          "density": 0,
+          "areaM2": 0,
+          "errorM2": 0
+        },
+        {
+          "density": 0,
+          "areaM2": 0,
+          "errorM2": 0
+        },
+        {
+          "density": 0,
+          "areaM2": 0,
+          "errorM2": 0
+        },
+        {
+          "density": 1,
+          "areaM2": 332.2035298727569,
+          "errorM2": 0.00015405641170218587
+        },
+        {
+          "density": 1,
+          "areaM2": 345.3396670874208,
+          "errorM2": 0.00009990297257900238
+        },
+        {
+          "density": 1,
+          "areaM2": 351.6107740364969,
+          "errorM2": -3.725290298461914e-9
+        },
+        {
+          "density": 1.7,
+          "areaM2": 782.2270561637124,
+          "errorM2": 0.00012784110072061594
+        },
+        {
+          "density": 1.7,
+          "areaM2": 785.207278331276,
+          "errorM2": 0.00034743105129564356
+        },
+        {
+          "density": 1.7,
+          "areaM2": 751.8915742309764,
+          "errorM2": -2.8304611987550743e-9
+        },
+        {
+          "density": 2.5,
+          "areaM2": 1341.885125212837,
+          "errorM2": 0.00016623419537609152
+        },
+        {
+          "density": 2.5,
+          "areaM2": 1332.2348082675599,
+          "errorM2": 0.000280353724519955
+        },
+        {
+          "density": 2.5,
+          "areaM2": 1249.6885519642383,
+          "errorM2": -1.3999397197039798e-9
+        },
+        {
+          "density": 5,
+          "areaM2": 4797.2329349266365,
+          "errorM2": 0.000389603485018597
+        },
+        {
+          "density": 5,
+          "areaM2": 4709.601542190183,
+          "errorM2": 0.00015189225541689666
+        },
+        {
+          "density": 5,
+          "areaM2": 4323.10390791297,
+          "errorM2": 3.949935489799827e-9
+        }
+      ]
+    },
+    {
+      "name": "Rapid height rise and screen transition keep tall or dense trees more visible",
+      "passed": true
+    },
+    {
+      "name": "Crown partitions clear a passage without overlaps or loss of requested area",
+      "passed": true,
+      "detail": {
+        "areaM2": 320.00049036485143,
+        "parts": 3
+      }
+    },
+    {
+      "name": "No independent canopy tiling or fixed 96m LOD branch remains",
+      "passed": true
+    }
+  ]
+}

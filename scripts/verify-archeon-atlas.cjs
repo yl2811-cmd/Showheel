@@ -42,6 +42,7 @@ async function main() {
   }
   assert(context.window.ATHERIA_REGION_MANIFEST);
   checkRegion(context.window.ATHERIA_REGION_MANIFEST);
+  const canopyDir='atheria-assets/'+path.posix.dirname(context.window.ATHERIA_REGION_MANIFEST.canopy.manifestFile);for(const f of ['atheria-canopy-core.js','atheria-canopy.js',...['manifest.json','field.f32','masks.json','exclusions.json'].map(f=>canopyDir+'/'+f)])exists(f);
   for (const file of ['house-tuning/core.js', 'house-tuning/geometry.js', 'house-tuning/runtime.js', 'house-tuning/worker.js', 'house-tuning/ui.js', 'house-tuning/ui.css', 'data/house-tuning/catalog.json', 'data/house-tuning/default-layout.json', 'scene-editor/core.js', 'scene-editor/block-geometry.js', 'scene-editor/runtime.js', 'scene-editor/ui.js', 'scene-editor/ui.css', 'scene-editor/catalog.json', 'scene-editor/saved-scene.json', 'scene-editor/imported-assets.json']) exists(file);
   for (const tile of context.window.ATHERIA_REGION_MANIFEST.tiles) for (const level of tile.levels) exists('data/house-tuning/' + level.file + '.json');
   const sceneCore = require(path.join(assets, 'scene-editor/core.js'));

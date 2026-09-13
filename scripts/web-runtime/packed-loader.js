@@ -27,7 +27,8 @@
         if (digest !== r.sha256) throw Error('Resource integrity check failed');
         if (!window.DecompressionStream) throw Error('Please update your browser to open this scene.');
         const stream = new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip'));
-        const decoded = await new Response(stream).arrayBuffer();
+        const inflated = await new Response(stream).arrayBuffer();
+        const decoded = r.transform ? window.SHOWHEEL_FLOAT_CODEC.decode(inflated,r.transform).buffer : inflated;
         signal.throwIfAborted();
         if (decoded.byteLength !== r.bytes) throw Error('Incomplete resource');
         metrics.compressedBytes += compressed.byteLength;
@@ -55,12 +56,13 @@
       if (!response.ok) throw Error('Resource HTTP ' + response.status);
       return response.arrayBuffer();
     });
-    let job = pending.get(r.url);
-    if (job?.controller.signal.aborted) { pending.delete(r.url); job = null; }
+    const jobKey=r.url+(r.transform?'|'+JSON.stringify(r.transform):'');
+    let job = pending.get(jobKey);
+    if (job?.controller.signal.aborted) { pending.delete(jobKey); job = null; }
     if (!job) {
       job = { controller: new AbortController(), users: 0 };
-      job.promise = retrieve(r, job.controller.signal).finally(() => { if (pending.get(r.url) === job) pending.delete(r.url); });
-      pending.set(r.url, job);
+      job.promise = retrieve(r, job.controller.signal).finally(() => { if (pending.get(jobKey) === job) pending.delete(jobKey); });
+      pending.set(jobKey, job);
     }
     job.users++;
     return new Promise((resolve, reject) => {

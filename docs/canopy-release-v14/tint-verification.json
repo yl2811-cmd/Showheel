@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Generated tree heights are 25 percent lower with original variation preserved",
+      "passed": true,
+      "detail": {
+        "minimum": 4.5,
+        "maximum": 15,
+        "maxError": 4.76837158203125e-7
+      }
+    },
+    {
+      "name": "Weak crowns preserve wheat gold and flower colours; dense crowns retain leaf colour",
+      "passed": true
+    },
+    {
+      "name": "Biome tones and micro variation remain finite, varied and deterministic",
+      "passed": true,
+      "detail": {
+        "distinctSampledTones": 2348,
+        "low": 0.0489884577691555,
+        "high": 0.19533464312553406
+      }
+    },
+    {
+      "name": "Remote field contribution is reduced while the global 1.7 density remains calibrated",
+      "passed": true,
+      "detail": {
+        "heightMultiplier": 0.75,
+        "heightRangeM": [
+          4.5,
+          15
+        ],
+        "ruralNoiseMultiplier": 0.6,
+        "ruralTransitionInSettlementRadii": [
+          1.4,
+          3
+        ],
+        "weakColour": "actual underlying field dominates sparse crowns",
+        "biomePalettes": {
+          "wet": [
+            0.052,
+            0.145,
+            0.09
+          ],
+          "dry": [
+            0.125,
+            0.172,
+            0.058
+          ],
+          "meadow": [
+            0.096,
+            0.185,
+            0.09
+          ]
+        },
+        "microScalesM": [
+          140,
+          45,
+          13,
+          4
+        ],
+        "ruralAtDefault": {
+          "beforeAreaM2": 39563325.00580443,
+          "afterAreaM2": 27302041.270141333,
+          "ratio": 0.6900845989596625
+        },
+        "nearTownAtDefault": {
+          "beforeAreaM2": 1267924.921177233,
+          "afterAreaM2": 1454169.5470945889,
+          "ratio": 1.1468893171879868
+        }
+      }
+    }
+  ]
+}

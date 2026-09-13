@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "climateRecomputed": false,
+  "terrainRecomputed": false,
+  "hydrologyRecomputed": false,
+  "materialRecomputed": false,
+  "waterBudget": {
+    "input": 127.60017349271781,
+    "rainRunoff": 59.04238212589981,
+    "springInput": 62.364987340680884,
+    "regionalInflow": 6.1928040261371295,
+    "groundRecharge": 62.601037341346355,
+    "exported": 8.102790938672124,
+    "closedBasinArrivalM3s": 18.12909217614735,
+    "closedLakeInfiltrationM3s": 18.12276252286141,
+    "closedLakeEvaporationM3s": 0.006330156347077376,
+    "closedLakeResidualM3s": -5.030611376355409e-7,
+    "totalInfiltrationM3s": 84.53525868251722,
+    "totalEvaporationM3s": 34.96212437507633,
+    "infiltrated": 66.41249615965582,
+    "evaporated": 34.95579421872925,
+    "residual": -4.867359848503838e-10,
+    "relativeResidual": 3.814540149337352e-12,
+    "sourceModel": "Rain and fog recharge allocated once to connected stratigraphic provinces; seasonally buffered 2.5-year aquifers; no unbudgeted external spring supply."
+  }
+}

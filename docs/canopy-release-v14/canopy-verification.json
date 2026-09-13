@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Whole-region 0x, 1x, 2.5x and 5x coverage uses the frozen crown area",
+      "passed": true,
+      "detail": [
+        {
+          "requested": 0,
+          "groundAreaM2": 0,
+          "groundRatio": 0,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 1,
+          "groundAreaM2": 97194152.40174338,
+          "groundRatio": 1.0000000000430207,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 2.5,
+          "groundAreaM2": 242985380.99391785,
+          "groundRatio": 2.5000000000001315,
+          "maximumAreaM2": 1051334528.3049319
+        },
+        {
+          "requested": 5,
+          "groundAreaM2": 485970761.98782676,
+          "groundRatio": 5.000000000000171,
+          "maximumAreaM2": 1051334528.3049319
+        }
+      ]
+    },
+    {
+      "name": "Habitat capacity and tree heights remain finite and bounded",
+      "passed": true
+    },
+    {
+      "name": "Area-weighted distant cells preserve the same population as their children",
+      "passed": true
+    },
+    {
+      "name": "Narrow passage clipping preserves its exact footprint",
+      "passed": true
+    },
+    {
+      "name": "All original crown ranges were checked against the live geometry",
+      "passed": true,
+      "detail": 36552
+    },
+    {
+      "name": "Fields stay predominantly sparse, with a small proportion of tree groups",
+      "passed": true,
+      "detail": {
+        "atDensity": 1.7,
+        "bins": {
+          "open": 233699,
+          "sparse": 718871,
+          "mixed": 148465,
+          "dense": 76140
+        },
+        "farmBins": {
+          "open": 86041,
+          "sparse": 505573,
+          "mixed": 9774,
+          "dense": 0
+        },
+        "farmCells": 601388,
+        "denseFarmShare": 0
+      }
+    },
+    {
+      "name": "Sparse crowns reach mature height without becoming a grass-like platform",
+      "passed": true,
+      "detail": {
+        "heightM": 15.892192848014632,
+        "openGapM": 22
+      }
+    },
+    {
+      "name": "Split terrain supports preserve crown area and clear a crossing path",
+      "passed": true
+    },
+    {
+      "name": "Field placement uses four times the terrace weight; subtle tint is stable",
+      "passed": true
+    }
+  ]
+}

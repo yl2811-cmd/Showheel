@@ -1,0 +1,34 @@
+{
+  "version": 8,
+  "atlasSha256": "5fcdd2a7cdb8b3f649501c10943cebd141d94af1c3f1fc3f1c5ec8f06bc5a4ee",
+  "ecologyGridSha256": "9cc8f248c1b5f8cb289b3502fdabb806da3101960c21420ea7ec86e7c9d1106e",
+  "wholeWallWindward": true,
+  "views": [
+    {
+      "id": "world",
+      "file": "terrain/world-orun-windward-v8.png",
+      "x": 963.75,
+      "y": 548.25,
+      "mapWidth": 181.75,
+      "mapHeight": 105.75,
+      "scale": 4,
+      "width": 727,
+      "height": 423,
+      "bytes": 117624,
+      "sha256": "98c14e7c61daae181e2c40117b9972f38091ae3ce1bda4894414e7c83735b2de"
+    },
+    {
+      "id": "aethelgard",
+      "file": "terrain/aethelgard-orun-windward-v8.png",
+      "x": 786,
+      "y": 1009,
+      "mapWidth": 547.25,
+      "mapHeight": 260,
+      "scale": 4,
+      "width": 2189,
+      "height": 1040,
+      "bytes": 567164,
+      "sha256": "2ae7e9c351ed5e46b74a802ac755f4232ab02e5e05557e0fa4fed449494bd81c"
+    }
+  ]
+}

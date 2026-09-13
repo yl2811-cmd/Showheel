@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Thin clumps blend into planted ground; square groves retain full height and pigment",
+      "passed": true,
+      "detail": {
+        "thinHeightM": 0.14025090100105775,
+        "fullGroveHeightM": 15
+      }
+    },
+    {
+      "name": "A long, thin strip is never mistaken for a broad grove",
+      "passed": true
+    },
+    {
+      "name": "Transition is continuous and conserves area, pigment and mean canopy height",
+      "passed": true,
+      "detail": {
+        "largestHeightChangePer2point5cm": 0.09539782341157377
+      }
+    },
+    {
+      "name": "Terrain partitions retain the same clump appearance and leave paths clear",
+      "passed": true
+    }
+  ]
+}

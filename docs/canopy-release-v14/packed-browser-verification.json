@@ -1,0 +1,1285 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:8772/archeon-atlas/",
+  "errors": [],
+  "failedResources": [],
+  "optionalProbes": [
+    {
+      "url": "http://127.0.0.1:8772/api/editor/status",
+      "status": 404
+    }
+  ],
+  "houseWorkerStateMessagesUnchanged": true,
+  "houseGeometryResultUnchanged": true,
+  "defaultDensity": 1.7,
+  "undoResetSaveLegacyScope": true,
+  "states": [
+    {
+      "name": "near",
+      "canopy": {
+        "requested": 1.7,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 141,
+        "renderedRoofAreaM2": 89655.99932464838,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      },
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 38,
+        "defaultValue": 38,
+        "baselineRevision": "atheria-cliff-white-2",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white",
+        "scope": "regional-cliffs-only"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": true,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": false,
+          "elapsed": 13.168499999999998,
+          "insectInstances": 60,
+          "harvestProgress": 0.23942727272727268,
+          "cutInstances": 71,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -45.91902322806327,
+                -7.927535135970047,
+                19.922801378833423
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -80.764896213741,
+                -118.50617401539947,
+                42.0391839643765
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                71.47563803439543,
+                -14.558477662703476,
+                19.325986216237734
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                34.95870398654451,
+                0.9,
+                -73.2539050291915
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -7.546032032336553,
+                -121.05,
+                51.66137200568375
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.4413511183737695,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.9000000000000001,
+                -43.46486818181818
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.6913511183737694,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.71635111837377,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                -3.7606017058867645,
+                18.309969764362993,
+                -11.476009415050207
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                12.05186333544453,
+                24.33596576809747,
+                -39.85608797800802
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "compounds",
+      "paused": false,
+      "light": "late",
+      "quality": "auto",
+      "camera": {
+        "position": [
+          -639.047349245724,
+          11.066064855418603,
+          3.0972294222569303
+        ],
+        "target": [
+          -804.1637525229891,
+          -99.71774550421219,
+          -188.4377983793704
+        ]
+      },
+      "frameSamples": 30,
+      "frameMs": 41.18333333333333,
+      "frameP95Ms": 83.5,
+      "triangles": 1850649,
+      "drawCalls": 158,
+      "pending": 0,
+      "loadedChunks": 141,
+      "visibleChunks": 134,
+      "geometryBytes": 79401222,
+      "geometries": 174,
+      "textures": 0,
+      "time": 14.553900000000002,
+      "errors": [],
+      "lodCounts": [
+        134,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 74,
+        "updates": 223,
+        "positionSample": [
+          -2243.600341796875,
+          -69.42436218261719,
+          1416.3463134765625
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    },
+    {
+      "name": "middle",
+      "canopy": {
+        "requested": 1.7,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 141,
+        "renderedRoofAreaM2": 95935.89440249803,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      },
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 38,
+        "defaultValue": 38,
+        "baselineRevision": "atheria-cliff-white-2",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white",
+        "scope": "regional-cliffs-only"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": true,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": false,
+          "elapsed": 14.638100000000005,
+          "insectInstances": 60,
+          "harvestProgress": 0.26614727272727284,
+          "cutInstances": 72,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -47.291820668434056,
+                -13.237008984263369,
+                21.43703855548484
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -81,
+                -118.5,
+                42
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                71.29339699635362,
+                -20.261780038397507,
+                20.8294747800826
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                34.941533838440854,
+                0.9,
+                -70.0406397121214
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -7.151473850883571,
+                -121.05,
+                54.300848109117595
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.3392161230947863,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.9,
+                -43.23774818181818
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.5892161230947863,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.614216123094787,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                -6.40333750497732,
+                18.20131368632204,
+                -11.18978099589478
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                12.708514914794385,
+                24.413007282260732,
+                -41.411032161959234
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "compounds",
+      "paused": false,
+      "light": "late",
+      "quality": "auto",
+      "camera": {
+        "position": [
+          -437.23841190684465,
+          146.46849973941178,
+          237.19559673535701
+        ],
+        "target": [
+          -804.1637525229891,
+          -99.71774550421219,
+          -188.4377983793704
+        ]
+      },
+      "frameSamples": 31,
+      "frameMs": 39.325806451612856,
+      "frameP95Ms": 50.099999999998545,
+      "triangles": 2074911,
+      "drawCalls": 175,
+      "pending": 0,
+      "loadedChunks": 141,
+      "visibleChunks": 141,
+      "geometryBytes": 79401222,
+      "geometries": 174,
+      "textures": 0,
+      "time": 16.02350000000001,
+      "errors": [],
+      "lodCounts": [
+        141,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 74,
+        "updates": 242,
+        "positionSample": [
+          -2239.061279296875,
+          -69.42210388183594,
+          1415.955810546875
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    },
+    {
+      "name": "far",
+      "canopy": {
+        "requested": 1.7,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 136392.52441625932,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      },
+      "buildId": "2026-09-11T01:39:06.672Z",
+      "cliffWhiteness": {
+        "value": 38,
+        "defaultValue": 38,
+        "baselineRevision": "atheria-cliff-white-2",
+        "curveRevision": "warm-rock-1",
+        "tone": "warm-rock-white",
+        "scope": "regional-cliffs-only"
+      },
+      "eyrie": {
+        "status": "ready",
+        "visible": false,
+        "error": null,
+        "sourceBuild": "2026-09-11T07:52:34.477Z",
+        "motion": {
+          "paused": false,
+          "elapsed": 18.522600000000004,
+          "insectInstances": 60,
+          "harvestProgress": 0.33677454545454555,
+          "cutInstances": 83,
+          "vehicles": [
+            {
+              "id": "gondola-cabin",
+              "position": [
+                -51.56262475498962,
+                -29.709245081470012,
+                26.147864881261278
+              ]
+            },
+            {
+              "id": "lower-gondola-cabin",
+              "position": [
+                -80.90510559079623,
+                -118.50249436684744,
+                42.015815734867296
+              ]
+            },
+            {
+              "id": "east-gondola-cabin",
+              "position": [
+                70.73084256966446,
+                -37.81640185701156,
+                25.470548800268148
+              ]
+            },
+            {
+              "id": "canal-cart",
+              "position": [
+                34.93933075390477,
+                0.9,
+                -59.56918444849067
+              ]
+            },
+            {
+              "id": "lower-rail-cart",
+              "position": [
+                -4.337712567531288,
+                -121.05,
+                62.15582789938114
+              ]
+            },
+            {
+              "id": "small-airship",
+              "position": [
+                -66,
+                2.2896800113597844,
+                -2
+              ]
+            },
+            {
+              "id": "plain-cutter",
+              "position": [
+                46.5,
+                0.9,
+                -42.63741636363636
+              ]
+            },
+            {
+              "id": "ivory-courier",
+              "position": [
+                63,
+                0.5396800113597844,
+                2
+              ]
+            },
+            {
+              "id": "pavilion-airship",
+              "position": [
+                -76,
+                6.564680011359784,
+                -32
+              ]
+            },
+            {
+              "id": "sky-skiff-1",
+              "position": [
+                -13.540010059425985,
+                17.887611309562608,
+                -11.057652850254213
+              ]
+            },
+            {
+              "id": "sky-skiff-2",
+              "position": [
+                15.158436159469339,
+                24.558139423128363,
+                -45.25192404417728
+              ]
+            }
+          ]
+        },
+        "windParts": 97,
+        "spray": true
+      },
+      "mode": "compounds",
+      "paused": false,
+      "light": "late",
+      "quality": "auto",
+      "camera": {
+        "position": [
+          1764.3136317900226,
+          1623.5859712011556,
+          2790.9959674237216
+        ],
+        "target": [
+          -804.1637525229891,
+          -99.71774550421219,
+          -188.4377983793704
+        ]
+      },
+      "frameSamples": 23,
+      "frameMs": 53.72608695652177,
+      "frameP95Ms": 100.30000000000291,
+      "triangles": 3602667,
+      "drawCalls": 444,
+      "pending": 0,
+      "loadedChunks": 194,
+      "visibleChunks": 194,
+      "geometryBytes": 112693454,
+      "geometries": 444,
+      "textures": 0,
+      "time": 19.90800000000002,
+      "errors": [],
+      "lodCounts": [
+        194,
+        0,
+        0,
+        0
+      ],
+      "traffic": {
+        "vehicles": 77,
+        "visible": 73,
+        "updates": 279,
+        "positionSample": [
+          -2227.049560546875,
+          -69.41622161865234,
+          1415.1707763671875
+        ],
+        "pads": 257
+      },
+      "scopeRadiusM": 20000
+    },
+    {
+      "name": "density-0",
+      "canopy": {
+        "requested": 0,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 0,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      }
+    },
+    {
+      "name": "density-1",
+      "canopy": {
+        "requested": 1,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 35630.62782970043,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      }
+    },
+    {
+      "name": "density-1.7",
+      "canopy": {
+        "requested": 1.7,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 95935.89440249803,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      }
+    },
+    {
+      "name": "density-2.5",
+      "canopy": {
+        "requested": 2.5,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 218000.63885137055,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      }
+    },
+    {
+      "name": "density-5",
+      "canopy": {
+        "requested": 5,
+        "groundAreaM2": 0,
+        "groundRatio": 0,
+        "maximumAreaM2": 0,
+        "baselineTotalAreaM2": 97198339.9720904,
+        "defaultDensity": 1.7,
+        "remaining": 0,
+        "loadedTiles": 194,
+        "renderedRoofAreaM2": 706065.8680413619,
+        "algorithm": "area-canopy-v14-biome-tint",
+        "appearance": {
+          "version": 14,
+          "method": "Existing area canopy blended on native terrain LOD without extra seams",
+          "pixelTransition": [
+            0.75,
+            2.5
+          ],
+          "coverageSaturation": 0.015,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "independentTreeTiling": false,
+          "weakColour": "linear coverage below 20 percent; wheat and flower field surface preserved"
+        },
+        "placement": {
+          "method": "Fixed world irregular sites; sparse field trees and rare 3–7-site groups; no independent render tiling",
+          "scattered": 502660,
+          "grouped": 88937,
+          "groups": 17788,
+          "groupedShare": 0.15033375760864237,
+          "targetGroupedShare": 0.15,
+          "ecologyCellM": 32
+        },
+        "tuning": {
+          "heightMultiplier": 0.75,
+          "heightRangeM": [
+            4.5,
+            15
+          ],
+          "ruralNoiseMultiplier": 0.6,
+          "ruralTransitionInSettlementRadii": [
+            1.4,
+            3
+          ],
+          "weakColour": "actual underlying field dominates sparse crowns",
+          "biomePalettes": {
+            "wet": [
+              0.052,
+              0.145,
+              0.09
+            ],
+            "dry": [
+              0.125,
+              0.172,
+              0.058
+            ],
+            "meadow": [
+              0.096,
+              0.185,
+              0.09
+            ]
+          },
+          "microScalesM": [
+            140,
+            45,
+            13,
+            4
+          ],
+          "ruralAtDefault": {
+            "beforeAreaM2": 39563325.00580443,
+            "afterAreaM2": 27302041.270141333,
+            "ratio": 0.6900845989596625
+          },
+          "nearTownAtDefault": {
+            "beforeAreaM2": 1267924.921177233,
+            "afterAreaM2": 1454169.5470945889,
+            "ratio": 1.1468893171879868
+          }
+        },
+        "populationCache": 24001,
+        "placementWeights": {
+          "field": 4,
+          "terrace": 1,
+          "natural": 1,
+          "normalization": 0.4,
+          "fieldMultiplier": 1.6,
+          "terraceMultiplier": 0.4
+        },
+        "heightRangeM": [
+          4.5,
+          15
+        ]
+      }
+    }
+  ]
+}

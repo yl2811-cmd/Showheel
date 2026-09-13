@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Main river, towns, routes and cliff alignment are preserved",
+      "passed": true
+    },
+    {
+      "name": "Generated rivers have unique IDs, descending profiles and valid downstream links",
+      "passed": true,
+      "detail": {
+        "generatedReaches": 17445,
+        "reachesConnectedToIshkar": 12235
+      }
+    },
+    {
+      "name": "Both maps and all SVG exports embed the current ecology layer",
+      "passed": true
+    },
+    {
+      "name": "The sphere samples exactly the same georeferenced world ecology",
+      "passed": true,
+      "detail": {
+        "changedTexels": 33537,
+        "maximumChannelError": 0
+      }
+    }
+  ]
+}

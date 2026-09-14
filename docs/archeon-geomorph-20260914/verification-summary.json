@@ -1,0 +1,494 @@
+{
+  "version": "evolution-geomorph-v10",
+  "terrainChecksPassed": true,
+  "regionalRuns": 30,
+  "fineRuns": 15,
+  "fixedSeeds": [
+    5210914,
+    5210915,
+    5210916
+  ],
+  "coarseYears": [
+    0,
+    10000,
+    100000,
+    500000,
+    2000000
+  ],
+  "frozenV7FilesVerified": 2044,
+  "protectionMaximumDeltaM": 0.0,
+  "maxCoarseWaterError": 5.962022219489512e-16,
+  "maxCoarseSolidError": 6.539054131717057e-11,
+  "refinements": [
+    {
+      "id": "aethelgard-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 3.838994745627489e-16,
+      "solidError": 3.310990383907698e-12
+    },
+    {
+      "id": "vorhan-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 2.86101018836503e-16,
+      "solidError": 4.890210605542121e-12
+    },
+    {
+      "id": "duskreach-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 6.126972492310935e-16,
+      "solidError": 3.079042745667862e-13
+    },
+    {
+      "id": "keld-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0.0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.192585576350929e-16,
+      "solidError": 1.1024756455193792e-12
+    },
+    {
+      "id": "polar-north-one-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 7.927145199532723e-16,
+      "solidError": 3.162713814349348e-11
+    },
+    {
+      "id": "polar-north-two-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 0.0,
+      "solidError": 6.771068445120721e-17
+    },
+    {
+      "id": "polar-north-three-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.4357083627959306e-16,
+      "solidError": 2.5838553791197094e-14
+    },
+    {
+      "id": "polar-north-four-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.0717506576227426e-16,
+      "solidError": 7.961955800817294e-13
+    },
+    {
+      "id": "polar-south-west-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 7.771972687576499e-16,
+      "solidError": 7.090789261385716e-14
+    },
+    {
+      "id": "polar-south-east-regional",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 2.700426738152463e-16,
+      "solidError": 1.9433257478975133e-09
+    },
+    {
+      "id": "atheria-frontier-quiet",
+      "stepM": 2000,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0.0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.333209914685186e-16,
+      "solidError": 3.702580896032683e-14
+    },
+    {
+      "id": "aethelgard-regional-250m",
+      "stepM": 250,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.362551770162954e-16,
+      "solidError": 6.328712747727956e-14
+    },
+    {
+      "id": "vorhan-regional-250m",
+      "stepM": 250,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 5.854388876869146e-16,
+      "solidError": 6.191872888000466e-14
+    },
+    {
+      "id": "polar-north-two-regional-250m",
+      "stepM": 250,
+      "effectiveYears": 100000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 0.0,
+      "solidError": 2.958162073415063e-14
+    },
+    {
+      "id": "aethelgard-cliff-64m",
+      "stepM": 64,
+      "effectiveYears": 10000,
+      "passed": true,
+      "parentCurrent": true,
+      "protectedMaxDeltaM": 0,
+      "boundaryMaxDeltaM": 0.0,
+      "waterError": 4.306061750640047e-16,
+      "solidError": 3.431002754363236e-13
+    }
+  ],
+  "timestepConvergence": {
+    "comparisons": [
+      {
+        "region": "aethelgard",
+        "rmsFractionOfEvolution": 0.012018744833767414,
+        "p99HeightDifferenceM": 3.1763622760772705,
+        "maximumHeightDifferenceM": 37.30645751953125,
+        "passed": true
+      },
+      {
+        "region": "vorhan",
+        "rmsFractionOfEvolution": 0.025293881073594093,
+        "p99HeightDifferenceM": 2.7198548316955566,
+        "maximumHeightDifferenceM": 371.3826904296875,
+        "passed": true
+      },
+      {
+        "region": "polar-north-two",
+        "rmsFractionOfEvolution": 0.0052552009001374245,
+        "p99HeightDifferenceM": 0.33646485209465027,
+        "maximumHeightDifferenceM": 11.7181396484375,
+        "passed": true
+      },
+      {
+        "region": "polar-south-west",
+        "rmsFractionOfEvolution": 0.006910352967679501,
+        "p99HeightDifferenceM": 0.6238299608230591,
+        "maximumHeightDifferenceM": 12.98980712890625,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "far5": [
+    {
+      "seed": 5210914,
+      "unknownSurfaceDeltaM": 0.0
+    },
+    {
+      "seed": 5210915,
+      "unknownSurfaceDeltaM": 0.0
+    },
+    {
+      "seed": 5210916,
+      "unknownSurfaceDeltaM": 0.0
+    }
+  ],
+  "formalInputs": [
+    {
+      "path": "data/atlas.json",
+      "unchanged": true
+    },
+    {
+      "path": "data/living-atlas.json",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/world-height.f32",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/world-mask.png",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/aethelgard-height.f32",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/atheria-height.f32",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/marneth-height.f32",
+      "unchanged": true
+    },
+    {
+      "path": "terrain/skyleaf-height.f32",
+      "unchanged": true
+    },
+    {
+      "path": "orun-assets/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "orun-assets/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "../../timelapse-skies_beyond_the_star.txt",
+      "unchanged": true
+    }
+  ],
+  "flightRouteReview": [
+    {
+      "id": "home",
+      "name": "Frontier — Crestline — Atheria",
+      "originalMaxGroundM": 858.2205200195312,
+      "candidateMaxGroundM": 858.2205200195312,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "iris",
+      "name": "Frontier — Millhaven — Iris Hollow",
+      "originalMaxGroundM": 2307.23583984375,
+      "candidateMaxGroundM": 2584.083251953125,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "east",
+      "name": "Frontier — Thornfield — Ironvein — Cinderlode",
+      "originalMaxGroundM": 5092.4150390625,
+      "candidateMaxGroundM": 5174.57421875,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "amber",
+      "name": "Ironvein — Amber Reach",
+      "originalMaxGroundM": 1914.6737060546875,
+      "candidateMaxGroundM": 1914.6737060546875,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "orun-route",
+      "name": "Frontier — Coppergate — Cliffwatch — Windbreak — Riverbend",
+      "originalMaxGroundM": 1509.8983154296875,
+      "candidateMaxGroundM": 2037.597900390625,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "north",
+      "name": "Frontier — Canopy",
+      "originalMaxGroundM": 5251.4287109375,
+      "candidateMaxGroundM": 5201.0458984375,
+      "newSamplesOver3000With200mClearance": 0,
+      "approxNewlyAffectedKm": 0,
+      "status": "no new sampled 3 km ceiling conflict"
+    },
+    {
+      "id": "skyleaf-route",
+      "name": "Thornfield — Stormperch — Kestrel’s Gate — Skyleaf",
+      "originalMaxGroundM": 3216.177001953125,
+      "candidateMaxGroundM": 3171.292236328125,
+      "newSamplesOver3000With200mClearance": 5,
+      "approxNewlyAffectedKm": 50,
+      "status": "requires route-scale review; no route or manuscript changed"
+    },
+    {
+      "id": "scar",
+      "name": "Coppergate — Saltmarch — Whisperflat — Axiom Scar",
+      "originalMaxGroundM": 2545.833984375,
+      "candidateMaxGroundM": 3474.87060546875,
+      "newSamplesOver3000With200mClearance": 10,
+      "approxNewlyAffectedKm": 100,
+      "status": "requires route-scale review; no route or manuscript changed"
+    },
+    {
+      "id": "RB-SA",
+      "name": "Riverbend — Saltmarch",
+      "originalMaxGroundM": 2616.923828125,
+      "candidateMaxGroundM": 2984.27587890625,
+      "newSamplesOver3000With200mClearance": 3,
+      "approxNewlyAffectedKm": 30,
+      "status": "requires route-scale review; no route or manuscript changed"
+    },
+    {
+      "id": "MI-CA",
+      "name": "Millhaven — Canopy",
+      "originalMaxGroundM": 7624.36083984375,
+      "candidateMaxGroundM": 7505.91015625,
+      "newSamplesOver3000With200mClearance": 1,
+      "approxNewlyAffectedKm": 10,
+      "status": "requires route-scale review; no route or manuscript changed"
+    }
+  ],
+  "riverSelection": {
+    "activeFor": "geomorphology candidate study",
+    "selectedRiver": "D:\\SKBS\\review\\tectonics-20260914\\evolution-geomorph-v10\\ishkar-coast\\antecedent-12000000-0.3-dx2000-dt3125-w480000\\route.geojson",
+    "routeSha256": "fac987b55441569e08c57c46fe65fd5385be5bb2921b4914c3882cc795e83506",
+    "basis": "Antecedent river; 12 Myr uplift; 0.3 times preliminary runoff; no modern riverbed locking",
+    "riverbend": "Retain present side and current canonical position. Nearest new river point about 30.8 km ESE is a reference, not a resolved buildable terrace.",
+    "relocationToWindwardSideRecommended": false,
+    "formalMapChanged": false,
+    "globalHydrologyReplaced": false,
+    "uncertainty": "Full coastal route and grid-width sediment volumes have not passed spatial convergence; keep the simulated route provisional."
+  },
+  "riverChecks": {
+    "comparisons": [
+      {
+        "type": "time",
+        "caseA": "antecedent-12000000-0.3-dx8000-dt25000-w480000",
+        "caseB": "antecedent-12000000-0.3-dx8000-dt12500-w480000",
+        "routeHausdorffM": 11313.708498983558,
+        "maximumIncisionFraction": 0.013227462128048678,
+        "erodedVolumeFraction": 0.03689956836207219,
+        "coastalRoutingStable": true,
+        "passed": true
+      },
+      {
+        "type": "space",
+        "caseA": "antecedent-12000000-0.3-dx8000-dt12500-w480000",
+        "caseB": "antecedent-12000000-0.3-dx4000-dt12500-w480000",
+        "routeHausdorffM": 207999.99999999997,
+        "maximumIncisionFraction": 0.0014634806761778746,
+        "erodedVolumeFraction": 0.6580979840062965,
+        "coastalRoutingStable": true,
+        "passed": false
+      },
+      {
+        "type": "domain",
+        "caseA": "antecedent-12000000-0.3-dx4000-dt12500-w480000",
+        "caseB": "antecedent-12000000-0.3-dx4000-dt12500-w720000",
+        "routeHausdorffM": 0.0,
+        "maximumIncisionFraction": 6.889619407569445e-05,
+        "erodedVolumeFraction": 0.20285892840091385,
+        "coastalRoutingStable": true,
+        "passed": true
+      },
+      {
+        "type": "space",
+        "caseA": "antecedent-12000000-0.3-dx4000-dt12500-w480000",
+        "caseB": "antecedent-12000000-0.3-dx2000-dt6250-w480000",
+        "routeHausdorffM": 34000.0000000013,
+        "maximumIncisionFraction": 0.00234849634666089,
+        "erodedVolumeFraction": 0.6821266552014963,
+        "coastalRoutingStable": true,
+        "passed": false
+      },
+      {
+        "type": "time",
+        "caseA": "antecedent-12000000-0.3-dx2000-dt6250-w480000",
+        "caseB": "antecedent-12000000-0.3-dx2000-dt3125-w480000",
+        "routeHausdorffM": 0.0,
+        "maximumIncisionFraction": 0.0003466485916066301,
+        "erodedVolumeFraction": 0.008060383599472884,
+        "coastalRoutingStable": true,
+        "passed": true
+      }
+    ],
+    "routeAndIncisionStable": false,
+    "volumeConvergencePassed": false,
+    "scope": "Coarse formation feasibility and route candidate under prescribed runoff; a grid-cell channel is not a resolved bank-width sediment prediction. No modern riverbed locking."
+  },
+  "riverResult": {
+    "history": "antecedent",
+    "formationYears": 12000000,
+    "runoffMultiplier": 0.3,
+    "timeStepYears": 3125,
+    "gridStepM": 2000,
+    "dimension": "2D free drainage with finite lake storage",
+    "breakthroughYear": 12281250.0,
+    "firstMajorSpillYear": -496875.0,
+    "southOutlet": true,
+    "maximumPathPondM": 0.0,
+    "pathOffsetM": 34000.0,
+    "modernProfileRmsM": 760.3686095786443,
+    "maximumIncisionM": 2912.446929613016,
+    "erodedRockM3": 8756624152451.713,
+    "depositedM3": 2700792281954.389,
+    "exportedSedimentM3": 334068521470496.9,
+    "exportedWaterM3": 8.220425420962993e+18,
+    "lakeStorageM3": 8365501021603.514,
+    "maxWaterRelativeError": 1.6933412957988991e-15,
+    "maxSolidRelativeError": 6.294255179668522e-15,
+    "hydrologicallyOpen": true,
+    "targetCompatible": false,
+    "protectedModernSurfaceWritten": false,
+    "historicalRiverLocked": false,
+    "preUpliftRiverEstablishmentYears": 500000,
+    "boundaryPolicy": "Only inherited ocean cells export; inland outer edges are closed reservoirs, excluded from physical terrain",
+    "conservationPassed": true,
+    "reachesActualCoast": true,
+    "maximumPathErosionM": 2912.446929613016,
+    "coastExitNode": 161871,
+    "minimumDistanceToOrunM": 631.974961387088,
+    "closestOrunRouteCoordinates": [
+      -9.409214017212612,
+      9.65090955542883
+    ],
+    "riverbendDistanceToNewRiverM": 30784.985704118706,
+    "nearestRiverbendRouteCoordinates": [
+      -9.675078934027471,
+      8.838133706948728
+    ],
+    "domainHalfWidthM": 480000,
+    "actualOceanOutlets": true,
+    "crossesOrunTrace": true,
+    "geologicalInterpretation": "fault-crossing route candidate"
+  },
+  "allScientificChecksPassed": false,
+  "climateAndCivilEngineering": "deferred by user; no climate or Year 521 ecosystem result claimed",
+  "formalMapChanged": false,
+  "compressed": false,
+  "committed": false,
+  "pushed": false
+}

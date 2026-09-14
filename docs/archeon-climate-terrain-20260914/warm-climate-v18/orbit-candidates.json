@@ -1,0 +1,225 @@
+{
+  "star": {
+    "id": "archeon-star",
+    "name": "Archeon primary",
+    "kind": "star",
+    "spectralType": "K2V",
+    "massSolar": 0.8,
+    "radiusSolar": 0.8,
+    "luminositySolar": 0.37500771003646466,
+    "absoluteMagnitude": 6.3048995080682335,
+    "colorIndex": 0.91,
+    "temperatureK": 5050,
+    "bolometricCorrectionV": -0.5,
+    "positionLy": [
+      11.042711732751217,
+      524.0870791257313,
+      78.17155499954455
+    ],
+    "sourceCategory": "inferred",
+    "multiplicity": "single-star working model",
+    "photometricBand": "Johnson V (approximate model)",
+    "colorBand": "B−V",
+    "luminosityBand": "bolometric",
+    "sourceNotes": [
+      "在既有殖民坐标添加虚构宿主；不覆盖、不挪动真实星表。",
+      "质量、半径、温度与测光值为稳定FGK主序星的制图工作模型，不是探测结果；未完成恒星演化、行星气候或宜居性检验。",
+      "K2V类型由正文给定，0.8太阳质量及0.8太阳半径沿用已批准工作值；精确温度和测光新增为推定。"
+    ]
+  },
+  "orbits": [
+    {
+      "id": "original",
+      "stellarFluxWm2": 592.3231010132594,
+      "earthFluxFraction": 0.4352116833308298,
+      "semiMajorAU": 0.9283160676940992,
+      "periodEarthDays": 365.24999999999926,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 31557599.999999937,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96901.53531218013,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 1221815.5222460704,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.046836811216529994,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.2179268756539873,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 23.547571494699127,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    },
+    {
+      "id": "s0.60",
+      "stellarFluxWm2": 816.6,
+      "earthFluxFraction": 0.6,
+      "semiMajorAU": 0.7906249493978666,
+      "periodEarthDays": 287.07950979969434,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 24803669.64669359,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96820.5819260913,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 1040591.5281083393,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.05499366601695726,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.2558798838893767,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 25.60446565956458,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    },
+    {
+      "id": "s0.70",
+      "stellarFluxWm2": 952.6999999999999,
+      "earthFluxFraction": 0.7,
+      "semiMajorAU": 0.7319764695342013,
+      "periodEarthDays": 255.736138807275,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 22095602.39294856,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96774.28359732513,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 963400.5523757344,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.05939994825179071,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.27638186290429356,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 26.521230914515797,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    },
+    {
+      "id": "s0.80",
+      "stellarFluxWm2": 1088.8,
+      "earthFluxFraction": 0.8,
+      "semiMajorAU": 0.6847012910443387,
+      "periodEarthDays": 231.365256955045,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 19989958.200915888,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96729.65770939318,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 901178.6983046907,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.06350121575722929,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.29546463968748365,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 27.278919340832445,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    },
+    {
+      "id": "s0.90",
+      "stellarFluxWm2": 1224.9,
+      "earthFluxFraction": 0.9,
+      "semiMajorAU": 0.6455425679795145,
+      "periodEarthDays": 211.80380200783532,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 18299848.493476972,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96686.44805696142,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 849639.4248428168,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.06735321041329032,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.3133875754857894,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 27.919609218946114,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    },
+    {
+      "id": "s1.00",
+      "stellarFluxWm2": 1361.0,
+      "earthFluxFraction": 1.0,
+      "semiMajorAU": 0.6124154524228038,
+      "periodEarthDays": 195.71117925024535,
+      "calendar": {
+        "earthYearSeconds": 31557600.0,
+        "orbitalPeriodSeconds": 16909445.8872212,
+        "solarDaySeconds": 97200.0,
+        "siderealDaySeconds": 96644.46188492117,
+        "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+      },
+      "hillRadiusKm": 806038.731713625,
+      "moons": [
+        {
+          "id": "fast-moon",
+          "orbitKm": 57225.942956865205,
+          "fractionOfHillRadius": 0.07099651754352275,
+          "conservativeScreenPassed": true
+        },
+        {
+          "id": "slow-moon",
+          "orbitKm": 266266.4393886309,
+          "fractionOfHillRadius": 0.33033950964434783,
+          "conservativeScreenPassed": true
+        }
+      ],
+      "outerPlanetMutualHillSeparation": 28.471140875353008,
+      "orbitScreenPassed": true,
+      "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+    }
+  ],
+  "formalAstronomyChanged": false
+}

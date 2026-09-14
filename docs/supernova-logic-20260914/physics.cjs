@@ -1,0 +1,23 @@
+'use strict';
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const yearDays=365.25, mu=(531**2+10**2-530**2)/(2*531*10);
+const B=[0,0], A=[10*mu,10*Math.sqrt(1-mu**2)], N=[331,0], G=A.map(x=>x*6.3037/10);
+const dist=(a,b)=>Math.hypot(...a.map((v,i)=>v-b[i]));
+const leg=dist(N,G), start=2564+2/yearDays, nodeTime=start+2, turnTime=nodeTime+leg/100;
+const pos=t=>N.map((x,i)=>x+(G[i]-x)*(t-nodeTime)*100/leg);
+const phase=t=>t-dist(pos(t),B)-2563;
+function solve(target){let lo=nodeTime,hi=turnTime;for(let i=0;i<100;i++){let m=(lo+hi)/2;if(phase(m)<target)lo=m;else hi=m;}return (lo+hi)/2;}
+const contact=solve(0), failure=solve(0.5/yearDays), failPos=pos(failure);
+const remaining=dist(failPos,G)+dist(G,A), passiveTurn=failure+dist(failPos,G)/70;
+const arrival=failure+remaining/70;
+assert(contact<failure && failure<turnTime);
+assert(phase(failure)>0);
+assert(passiveTurn-dist(G,B)-2563>phase(failure));
+assert((arrival-failure)*yearDays>18 && (arrival-failure)*yearDays<23);
+assert(Math.floor(arrival)===2569 && 2573-arrival>3.5 && 2573-arrival<4);
+const ly=299792458*31557600, dcm=10*ly*100;
+const output={assumptions:{coordinates:{B,A,N,G},departureYear:start,firstPacketControlLossPhaseDays:0.5,note:'The 0.5-source-day control-loss phase is an illustrative fictional engineering input, not a derived radiative failure threshold. Residual curvature follows the preloaded polyline.'},geometry:{turnRadius:dist(G,B),normalTurnTime:turnTime,contactYear:contact,contactRadius:dist(pos(contact),B),controlLossYear:failure,controlLossRadius:dist(failPos,B),distanceToArcheonAtControlLoss:dist(failPos,A),remainingPreloadedPathLy:remaining,passiveDays:(arrival-failure)*yearDays,arrivalYear:arrival,warningYears:2573-arrival,sourcePhaseAtPassiveTurnDays:(passiveTurn-dist(G,B)-2563)*yearDays,positiveExposureBeforeControlLossDays:(failure-contact)*yearDays},checks:{finiteFrontPenetration:true,controlLossBeforeTurn:true,threeWeekScale:true,crashYearPreserved:true,fourYearScale:true},scales:{neutrinoFluxRatio200pcTo10ly:(200/(10/3.26156))**2,diffusionYears:Object.fromEntries([1e28,2.4e27,1e27,1e26].map(D=>[D,dcm*dcm/(6*D*31557600)])),xrayFluxAt10lyFor1e36ergs:1e29/(4*Math.PI*(10*ly)**2),atmosphereKgM2:110000/(0.98*9.80665)}};
+fs.writeFileSync(path.join(__dirname,'physics-verification.json'),JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify(output,null,2));

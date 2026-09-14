@@ -1,0 +1,47 @@
+{
+  "version": "archeon-tectonics-20260914-v2",
+  "structureVersion": 2,
+  "rift":{"halfWidthM":65000,"subsidenceM":1550,"westShoulderM":2900,"eastShoulderM":2200,"reconstructionWidthM":230000,"mechanism":"segmented normal faults and central graben; lake cells inside the authorized corridor are recomputed"},
+  "largeLandforms":{"enabled":true,"regionalDisplacementScale":1.8,"secondarySlipScale":1.5,"islandScale":1.4,"formationYears":12000000,"targetReliefM":[2500,6000],"note":"Author-selected strong construction scenario. Targets are hypotheses, not height clamps; erosion, drainage and gravity checks may reject them."},
+  "faultDensity":1.5,
+  "faultDensityTrials":[1,1.5,2],
+  "magmatism":{"enabled":true,"intensity":1,"intensityTrials":[0.6,1,1.5],"formationYears":8000000,"description":"Asymmetric plume-supported swells, flood basalt sheets and an exploratory uplift-collapse province. Prescribed crustal response, not simulated mantle convection."},
+  "shoreline":{"enabled":true,"maxDisplacementM":20000,"maxChangedLandFraction":0.01,"harbourBufferM":60000,"nearshoreSlope":0.01,"note":"Author approved slight continental-outline changes. Nearshore bathymetry is an explicit prior, not measured depth."},
+  "radiusM": 4750000,
+  "planet": {"gravityMs2":9.610517,"massKg":3.25e24,"coreMassFraction":0.445,"coreDensityKgM3":11500,"crustDensityKgM3":2950,"mantleHeatProductionWkg":5e-12,"surfaceHeatFluxWm2":0.075,"solarDayHours":27,"yearEarthDays":365.25,"obliquityDegrees":13,"seaLevelPressurePa":110000,"stellarTemperatureK":5050,"stellarLuminositySolar":0.37500771003646466,"orbitAU":0.9283160676941005},
+  "preview": {"gridStepM":16000,"stepYears":25000,"endYears":100000,"purpose":"Fast visual iteration before expensive nested and climate runs"},
+  "climate": {"model":"ExoPlaSim","screenResolution":"T21","reviewResolution":"T42","mixedLayerDepthM":50,"screenYears":10,"balanceWindowYears":20,"maxSpinupYears":300,"maxTOAImbalanceWm2":0.5,"co2VolumeFractions":[0.00028,0.001,0.01],"radiativeStatus":"Stellar working values and greenhouse brackets are hypotheses; retain cold and failed climates"},
+  "ecology": {"potentialGrowthMultiplier":3,"years":[0,50,110,250,400,521],"stepYears":1,"initialEpoch":2573,"source":"CI intervention corridors and surviving patches, never the current vegetation map","scenario":"All-plant experiment only; manuscript unchanged"},
+  "seeds": [5210914, 5210915, 5210916],
+  "timesYears": [0, 100000, 500000, 2000000],
+  "stepYears": 25000,
+  "gridStepM": 2000,
+  "plateModel": "Seven narrative parents; prescribed boundary kinematics and seeded secondary fault blocks; not mantle convection",
+  "parents": ["Aethelgard", "Azure Ocean", "Vorhan-West", "Vorhan-East", "Keld Microplate Swarm", "Duskreach", "FAR-5"],
+  "regions": {
+    "aethelgard": {"title":"Aethelgard · 北部新高地与南部台地", "landIds":["Aethelgard"], "center":[-12,28], "faults":[["a-north","compression",0.00024],["fjord-ridge","reactivation",0.00012],["marneth","compression",0.00018],["orun","reactivation",0.0001]]},
+    "vorhan": {"title":"Vorhan · 倾斜断块与长谷", "landIds":["Vorhan"], "center":[110,24], "faults":[["rift","extension",0.0003],["vorhan-west","reactivation",0.0002],["vorhan-east","extension",0.00024]]},
+    "duskreach": {"title":"Duskreach · 内台地与山弧", "landIds":["Duskreach","vorhan-duskreach-bridge"], "center":[77,-29], "faults":[["dusk-east","compression",0.0003],["dusk-mid","plateau",0.00022],["dusk-ice","extension",0.00012]]},
+    "keld": {"title":"Keld · 岛弧山地", "landPrefix":"keld-", "center":[49,2], "faults":[], "islandArc": [[41,17],[46,8],[52,0],[57,-9]]}
+  },
+  "tiles": [
+    {"id":"ridges", "file":"Codex 图像 2026年9月14日 00_56_13.png", "extentKm":500,"amplitudeM":340},
+    {"id":"branching", "file":"Codex 图像 2026年9月14日 00_56_23.png", "extentKm":200,"amplitudeM":130},
+    {"id":"stepped", "file":"Codex 图像 2026年9月14日 00_56_27.png", "extentKm":200,"amplitudeM":260},
+    {"id":"mesas", "file":"Codex 图像 2026年9月14日 00_56_34.png", "extentKm":50,"amplitudeM":100},
+    {"id":"escarpment", "file":"3a8a7eba-3cdb-46d0-b785-2463837131dc.png", "extentKm":50,"amplitudeM":85}
+  ],
+  "lithology": {"capThicknessM":420,"softThicknessM":260,"hardK":0.00000008,"softK":0.0000006,"sedimentK":0.000025,"porosity":0.3,"weatheringMyr":0.00004,"soilDepthScaleM":0.7,"diffusivityM2yr":0.025,"criticalSlope":0.7,"calibrationNote":"Coarse effective incision coefficients. Prior 16 km sensitivity erased nearly all new massifs in 2 Myr; retained as strong-v3 failure. Resistant-cap case must be tested against actual GCM forcing later."},
+  "plateau": {"targetM":3216,"undulationM":90,"basinDepthM":330,"boundaryFadeM":36000,"wallBufferM":45000,"riverbendRadiusM":28000,"shoulderM":60000,"lateralFadeM":480000,"evolutionWeight":0.3,"maxPhysicsChangeM":1500,"protectionPolicy":"Segmented normal-fault reconstruction; anchored endpoints, Ishkar trunk and scene cores fixed. Back slope follows geographic coast distance without a fixed length cap. Changes above the review threshold are flagged, never clipped."},
+  "refinements": [
+    {"id":"orun-back","parent":"aethelgard","center":[2,8],"widthKm":128,"stepM":250},
+    {"id":"whisperflat","parent":"aethelgard","center":[4,11.5],"widthKm":96,"stepM":250},
+    {"id":"north-west","parent":"aethelgard","center":[-24,33],"widthKm":128,"stepM":250},
+    {"id":"north-center","parent":"aethelgard","center":[-14,35],"widthKm":128,"stepM":250},
+    {"id":"north-east","parent":"aethelgard","center":[-3,38],"widthKm":128,"stepM":250},
+    {"id":"vorhan-rift","parent":"vorhan","center":[105,24],"widthKm":128,"stepM":250},
+    {"id":"dusk-plateau","parent":"duskreach","center":[75,-28],"widthKm":128,"stepM":250},
+    {"id":"keld-arc","parent":"keld","center":[48,9],"widthKm":96,"stepM":250},
+    {"id":"orun-cliff64","parent":"orun-back","center":[2,8],"widthKm":32,"stepM":64}
+  ]
+}

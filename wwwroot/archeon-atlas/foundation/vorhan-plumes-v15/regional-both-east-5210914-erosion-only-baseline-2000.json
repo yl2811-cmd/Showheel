@@ -1,0 +1,30 @@
+{
+  "id": "regional-both-east-5210914-erosion-only-baseline-2000",
+  "fingerprint": "d9f08553f58431787893b8bce7d6a67b9b99c21bf085f7596161d4a0a9de27a0",
+  "grid": {
+    "width": 385,
+    "height": 385,
+    "xmin": 1087999.999999999,
+    "ymax": -672000.0,
+    "stepM": 2000,
+    "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "vorhan-plume-east",
+    "region": "vorhan",
+    "seed": 5210914
+  },
+  "height": "regional-both-east-5210914-erosion-only-baseline-2000-height.png",
+  "initial": "regional-both-east-5210914-erosion-only-baseline-2000-initial.png",
+  "erosion": "regional-both-east-5210914-erosion-only-baseline-2000-erosion.png",
+  "lakeDepth": "regional-both-east-5210914-erosion-only-baseline-2000-lake-depth.png",
+  "rivers": "regional-both-east-5210914-erosion-only-baseline-2000-rivers.geojson",
+  "lakes": "regional-both-east-5210914-erosion-only-baseline-2000-lakes.geojson",
+  "effectiveYears": 100000,
+  "gridM": 2000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "terrainAccepted": false,
+  "climateValidated": false,
+  "protectedMaximumChangeM": 0.0,
+  "maximumErosionM": 8.927992820739746,
+  "source": "D:\\SKBS\\review\\climate-terrain-20260914\\vorhan-plume-study\\regional\\both\\east\\5210914\\erosion-only\\baseline\\2000"
+}

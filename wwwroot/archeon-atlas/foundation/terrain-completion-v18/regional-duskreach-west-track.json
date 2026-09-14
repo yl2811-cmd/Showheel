@@ -1,0 +1,58 @@
+{
+  "id": "regional-duskreach-west-track",
+  "fingerprint": "42c25c2f392b86b08778879fd82d4e9119bcf7328cfc4e4736466edfc4f83460",
+  "grid": {
+    "width": 385,
+    "height": 385,
+    "xmin": -2659189.687575852,
+    "ymax": 350166.5392685168,
+    "stepM": 2000,
+    "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "duskreach-west-track",
+    "region": "duskreach",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "regional-duskreach-west-track-0.png",
+      "rivers": "regional-duskreach-west-track-0-rivers.geojson",
+      "lakes": "regional-duskreach-west-track-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "regional-duskreach-west-track-10000.png",
+      "rivers": "regional-duskreach-west-track-10000-rivers.geojson",
+      "lakes": "regional-duskreach-west-track-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "regional-duskreach-west-track-100000.png",
+      "rivers": "regional-duskreach-west-track-100000-rivers.geojson",
+      "lakes": "regional-duskreach-west-track-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "regional-duskreach-west-track-500000.png",
+      "rivers": "regional-duskreach-west-track-500000-rivers.geojson",
+      "lakes": "regional-duskreach-west-track-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "regional-duskreach-west-track-2000000.png",
+      "rivers": "regional-duskreach-west-track-2000000-rivers.geojson",
+      "lakes": "regional-duskreach-west-track-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.9977839438350807,
+  "maximumWaterRelativeError": 1.2865635877269597e-15,
+  "maximumSolidRelativeError": 1.2636473739901764e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

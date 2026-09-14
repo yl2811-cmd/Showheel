@@ -1,0 +1,30 @@
+{
+  "sites": [
+    {
+      "id": "DR",
+      "name": "Driftmoor",
+      "coreConnectedTo150kmWindowBoundary": true,
+      "connectedDryAreaWithinWindowKm2": 71816.0,
+      "inner5kmDryFraction": 0.7142857142857143,
+      "exactAgriculturalOrBuiltFootprintAccepted": false
+    },
+    {
+      "id": "HE",
+      "name": "Hearthstone",
+      "coreConnectedTo150kmWindowBoundary": true,
+      "connectedDryAreaWithinWindowKm2": 85460.0,
+      "inner5kmDryFraction": 0.5714285714285714,
+      "exactAgriculturalOrBuiltFootprintAccepted": false
+    },
+    {
+      "id": "VE",
+      "name": "Verdance",
+      "coreConnectedTo150kmWindowBoundary": true,
+      "connectedDryAreaWithinWindowKm2": 87092.0,
+      "inner5kmDryFraction": 0.5714285714285714,
+      "exactAgriculturalOrBuiltFootprintAccepted": false
+    }
+  ],
+  "allConnectedToWiderLand": true,
+  "definition": "four-neighbour dry-land connection beyond 150 km from marker; no inference of roads, farm area or whole scene acceptance"
+}

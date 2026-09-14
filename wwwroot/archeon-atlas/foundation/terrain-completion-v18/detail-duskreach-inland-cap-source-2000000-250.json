@@ -1,0 +1,58 @@
+{
+  "id": "detail-duskreach-inland-cap-source-2000000-250",
+  "fingerprint": "54ea2051bb11591928ce29d0064e6a94c0ba35e4c4a32c42059e3b68f767d3ed",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": -568473.9399282279,
+    "ymax": -359056.1770135157,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "duskreach-inland-cap-source",
+    "region": "duskreach",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "detail-duskreach-inland-cap-source-2000000-250-0.png",
+      "rivers": "detail-duskreach-inland-cap-source-2000000-250-0-rivers.geojson",
+      "lakes": "detail-duskreach-inland-cap-source-2000000-250-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "detail-duskreach-inland-cap-source-2000000-250-10000.png",
+      "rivers": "detail-duskreach-inland-cap-source-2000000-250-10000-rivers.geojson",
+      "lakes": "detail-duskreach-inland-cap-source-2000000-250-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "detail-duskreach-inland-cap-source-2000000-250-100000.png",
+      "rivers": "detail-duskreach-inland-cap-source-2000000-250-100000-rivers.geojson",
+      "lakes": "detail-duskreach-inland-cap-source-2000000-250-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "detail-duskreach-inland-cap-source-2000000-250-500000.png",
+      "rivers": "detail-duskreach-inland-cap-source-2000000-250-500000-rivers.geojson",
+      "lakes": "detail-duskreach-inland-cap-source-2000000-250-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "detail-duskreach-inland-cap-source-2000000-250-2000000.png",
+      "rivers": "detail-duskreach-inland-cap-source-2000000-250-2000000-rivers.geojson",
+      "lakes": "detail-duskreach-inland-cap-source-2000000-250-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.9172510518934082,
+  "maximumWaterRelativeError": 2.963125132566263e-15,
+  "maximumSolidRelativeError": 3.6871112450859926e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

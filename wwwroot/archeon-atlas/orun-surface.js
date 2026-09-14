@@ -89,11 +89,23 @@ function createSampler(state,p,s){
  }
  return{sampleFaceMaterial,stats,clear:()=>cache.clear()};
 }
-function compose(legacy,q){if(q.ecological){const weights=q.ecoWeights.slice(),eligible=1-weights.reduce((a,b)=>a+b,0);for(let i=0;i<8;i++)weights[C.SURFACE_START+i]=q.pigments[i]*eligible;return{...legacy,biomeWeights:q.biomeWeights,weights,albedo:q.rgb,originalAlbedo:q.rgb,mixedAlbedo:q.rgb,fractalDelta:[0,0,0],geoCoeff:q.coeff,organic:q.organic,ao:q.ao,roughness:q.roughness,moisture:q.moisture,sustainedWater:q.sustainedWater,seasonalWater:q.seasonalWater,vegetationCoverage:weights.slice(4,8).reduce((a,b)=>a+b,0),waterCoverage:weights[8],geomorphic:q};}const weights=legacy.weights.slice(),rgb=[0,0,0];let eligible=0;for(let i=0;i<weights.length;i++){if(i<4||i>=C.SURFACE_START){eligible+=weights[i];weights[i]=0;}}
+const APPEARANCE='terraform-loam-v1';
+const SOIL_TONES=['#95866A','#6B6451'].map(h=>[1,3,5].map(i=>{const v=parseInt(h.slice(i,i+2),16)/255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4;}));
+function soilFinish(q){
+ const c=q.coverage||[],retained=clamp((c[2]||0)*.35+(c[3]||0)+(c[4]||0)+(c[1]||0)*.30),wet=S(.32,.80,q.moisture||0);
+ const strength=.62*wet*retained,bare=Math.max(0,1-(q.ecoWeights||[]).slice(4,10).reduce((a,b)=>a+b,0)),color=SOIL_TONES[0].map((v,k)=>mix(v,SOIL_TONES[1][k],S(.45,.85,q.moisture||0)));
+ return{strength,bare,color};
+}
+function compose(legacy,q){if(q.ecological){const finish=soilFinish(q),organic=(q.organic||[0,0,0]).map((v,k)=>v+finish.color[k]*finish.bare*finish.strength),albedo=q.rgb.map((v,k)=>(v-(q.organic?.[k]||0))*(1-finish.strength)+organic[k]);const weights=q.ecoWeights.slice(),eligible=1-weights.reduce((a,b)=>a+b,0);for(let i=0;i<8;i++)weights[C.SURFACE_START+i]=q.pigments[i]*eligible;return{...legacy,biomeWeights:q.biomeWeights,weights,albedo,originalAlbedo:albedo,mixedAlbedo:albedo,fractalDelta:[0,0,0],geoCoeff:q.coeff.map(v=>v*(1-finish.strength)),organic,soilFinish:finish,ao:q.ao,roughness:q.roughness,moisture:q.moisture,sustainedWater:q.sustainedWater,seasonalWater:q.seasonalWater,vegetationCoverage:weights.slice(4,8).reduce((a,b)=>a+b,0),waterCoverage:weights[8],geomorphic:q};}const weights=legacy.weights.slice(),rgb=[0,0,0];let eligible=0;for(let i=0;i<weights.length;i++){if(i<4||i>=C.SURFACE_START){eligible+=weights[i];weights[i]=0;}}
  for(let k=0;k<3;k++){let organic=0;for(let i=4;i<10;i++)organic+=weights[i]*C.palette[i][k];rgb[k]=q.rgb[k]*eligible*(1-legacy.moisture*.2)+organic;}
  for(let i=0;i<8;i++)weights[C.SURFACE_START+i]=q.pigments[i]*eligible;
  const wet=1-legacy.moisture*.2,organic=[0,0,0];for(let k=0;k<3;k++)for(let i=4;i<10;i++)organic[k]+=weights[i]*C.palette[i][k];return{...legacy,geoCoeff:q.coeff.map(v=>v*eligible*wet),organic,weights,albedo:rgb,originalAlbedo:rgb,mixedAlbedo:rgb,fractalDelta:[0,0,0],ao:q.ao,roughness:mix(q.roughness,.55,clamp(legacy.sustainedWater)),geomorphic:q};
 }
+function composeLegacy(substrate,q){
+ const ecological=compose(substrate,q),finish=ecological.soilFinish||soilFinish(q),bare=finish.bare*(1-finish.strength),organic=ecological.organic||q.organic||[0,0,0];
+ const original=(substrate.originalAlbedo||substrate.albedo).map((v,k)=>v*bare+organic[k]),mixed=(substrate.mixedAlbedo||substrate.albedo).map((v,k)=>v*bare+organic[k]),fractal=(substrate.fractalDelta||[0,0,0]).map(v=>v*bare);
+ return{...ecological,albedo:substrate.albedo.map((v,k)=>v*bare+organic[k]),originalAlbedo:original,mixedAlbedo:mixed,fractalDelta:fractal};
+}
 function inspect(state,x,z,size,p){const v=C.inspect(state,x,z,size,p),sampler=createSampler({...state,collectBiomes:true},p,state.surface);v.faces=v.faces.map(face=>compose(face,sampler.sampleFaceMaterial(v.x,v.z,v.size,Math.max(250,v.height-128),v.height,face.face)));sampler.clear();v.materialAlgorithm=VERSION;return v;}
-return{ecologyKey,preintegrateEcology,inspect,sampleFaceMaterial:(state,p,s,...args)=>createSampler(state,p,s).sampleFaceMaterial(...args),VERSION,PROCESS,DISTRIBUTION,STRIDE,fingerprint,key,metric,deriveTerrainMaps,buildSurfaceMaterials,transport,pointBasis,paletteBank,colorBasis,colorKey,preintegrate,createSampler,compose};
+return{APPEARANCE,soilFinish,composeLegacy,ecologyKey,preintegrateEcology,inspect,sampleFaceMaterial:(state,p,s,...args)=>createSampler(state,p,s).sampleFaceMaterial(...args),VERSION,PROCESS,DISTRIBUTION,STRIDE,fingerprint,key,metric,deriveTerrainMaps,buildSurfaceMaterials,transport,pointBasis,paletteBank,colorBasis,colorKey,preintegrate,createSampler,compose};
 });

@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "verifiedUnix": 1789405219.3573637,
+  "origin": "http://127.0.0.1:5270",
+  "webRoot": "D:\\repo\\Showheel\\wwwroot",
+  "syncedAssetsHttpChecked": 1978,
+  "bodyHashes": [
+    "archeon-atlas/erosion.html",
+    "archeon-atlas/tectonics-view.js",
+    "archeon-atlas/foundation/erosion/data.js",
+    "story.md"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 5793
+    },
+    {
+      "path": "/Archeon",
+      "status": 200,
+      "bytes": 5674
+    },
+    {
+      "path": "/archeon-atlas/index.html",
+      "status": 200,
+      "bytes": 12532
+    },
+    {
+      "path": "/archeon-atlas/tectonics.html",
+      "status": 200,
+      "bytes": 7597
+    },
+    {
+      "path": "/archeon-atlas/evolution.html",
+      "status": 200,
+      "bytes": 8468
+    },
+    {
+      "path": "/archeon-atlas/erosion.html",
+      "status": 200,
+      "bytes": 7435
+    }
+  ],
+  "assetGraphs": [
+    {
+      "study": "tectonics",
+      "assetReferences": 531,
+      "sourceWork": "D:\\SKBS\\review\\tectonics-20260914\\strong-painted-v7",
+      "sourceExists": true,
+      "worldCandidates": 3,
+      "passed": true
+    },
+    {
+      "study": "evolution",
+      "assetReferences": 1382,
+      "sourceWork": "D:\\SKBS\\review\\tectonics-20260914\\evolution-geomorph-v10",
+      "sourceExists": true,
+      "worldCandidates": 3,
+      "passed": true
+    },
+    {
+      "study": "erosion",
+      "assetReferences": 1961,
+      "sourceWork": "D:\\SKBS\\review\\tectonics-20260914\\erosion-v12",
+      "sourceExists": true,
+      "worldCandidates": 6,
+      "passed": true
+    }
+  ],
+  "runtime": "ASP.NET Core; current source built into an isolated SKBS output; UseOptimizedWebAssets=false",
+  "compressed": false,
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,424 @@
+{
+  "scope": {
+    "latestUserScope": "Keep the now satisfactory terrain; only small drainage adjustments and test natural connection to Ishkar. Do not force independent west-coast catchments across divides.",
+    "supersedesRemainingLargeGeomorphicExpansion": true,
+    "activeWork": "2 km connected routing and dry/base/wet seasonal checks; preserve original three seeds; local preview and Showheel/Chinese sync",
+    "deferred": [
+      "additional large-scale tectonic or erosion campaigns",
+      "formation gain expansion",
+      "new geological provinces",
+      "real-climate correction",
+      "vegetation",
+      "flight routes"
+    ],
+    "delivery": {
+      "compression": false,
+      "commit": false,
+      "push": false,
+      "formalMapOverwrite": false,
+      "manuscriptEdit": false
+    }
+  },
+  "matrixComplete": true,
+  "runs": [
+    {
+      "seed": 5210914,
+      "scenario": "baseline",
+      "gridM": 2000,
+      "numericPassed": true,
+      "waterRelativeError": 6.641882961422098e-16,
+      "IshkarOutflowM3s": 36710.375,
+      "flowingIshkarCells": 1188131,
+      "storyScreenPassed": true,
+      "floodedCoreScreens": [],
+      "convergence": {
+        "passed": false,
+        "waterYears": 80,
+        "maximumPeriodicLevelChangeM": 7.709871728280859,
+        "relativeStorageDrift": 0.006398924251475068,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "geologicalYearsAdvanced": 0
+    },
+    {
+      "seed": 5210914,
+      "scenario": "dry",
+      "gridM": 2000,
+      "numericPassed": true,
+      "waterRelativeError": 3.72810514808452e-16,
+      "IshkarOutflowM3s": 4288.45654296875,
+      "flowingIshkarCells": 826250,
+      "storyScreenPassed": true,
+      "floodedCoreScreens": [],
+      "convergence": {
+        "passed": false,
+        "waterYears": 80,
+        "maximumPeriodicLevelChangeM": 5.7520390389563545,
+        "relativeStorageDrift": 0.008118246323773773,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "geologicalYearsAdvanced": 0
+    },
+    {
+      "seed": 5210914,
+      "scenario": "wet",
+      "gridM": 2000,
+      "numericPassed": true,
+      "waterRelativeError": 7.819988984169701e-16,
+      "IshkarOutflowM3s": 88764.1875,
+      "flowingIshkarCells": 1194668,
+      "storyScreenPassed": true,
+      "floodedCoreScreens": [],
+      "convergence": {
+        "passed": false,
+        "waterYears": 80,
+        "maximumPeriodicLevelChangeM": 10.233526226100366,
+        "relativeStorageDrift": 0.0045153935439902464,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "geologicalYearsAdvanced": 0
+    },
+    {
+      "seed": 5210915,
+      "scenario": "baseline",
+      "gridM": 2000,
+      "numericPassed": true,
+      "waterRelativeError": 9.718399743289261e-16,
+      "IshkarOutflowM3s": 34300.8671875,
+      "flowingIshkarCells": 1277651,
+      "storyScreenPassed": true,
+      "floodedCoreScreens": [],
+      "convergence": {
+        "passed": false,
+        "waterYears": 80,
+        "maximumPeriodicLevelChangeM": 14.147786112740164,
+        "relativeStorageDrift": 0.007418555813134418,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "geologicalYearsAdvanced": 0
+    },
+    {
+      "seed": 5210916,
+      "scenario": "baseline",
+      "gridM": 2000,
+      "numericPassed": true,
+      "waterRelativeError": 6.206964676969286e-16,
+      "IshkarOutflowM3s": 39901.57421875,
+      "flowingIshkarCells": 1295990,
+      "storyScreenPassed": true,
+      "floodedCoreScreens": [],
+      "convergence": {
+        "passed": false,
+        "waterYears": 80,
+        "maximumPeriodicLevelChangeM": 4.905730216720258,
+        "relativeStorageDrift": 0.005550478981818351,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "geologicalYearsAdvanced": 0
+    }
+  ],
+  "numericPassed": true,
+  "allStoryScreensPassed": true,
+  "allSeasonalCyclesConverged": false,
+  "limitations": [
+    "2 km topology is not a street-scale flood-depth prediction",
+    "Shared outlet membership does not require the main channel to pass through the Riverbend town centre",
+    "Unconverged remote lakes remain explicitly unselected",
+    "No real-climate, vegetation or flight-route update in this pass"
+  ],
+  "localWaterChecks": [
+    {
+      "id": "crestline",
+      "scenario": "baseline",
+      "gridM": 125,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 1247046373.8125,
+      "outflowM3yr": 1868796488.9478056,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 0.0,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "crestline",
+      "scenario": "baseline",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 1247046373.8125,
+      "outflowM3yr": 1866200774.8947825,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 3.832683744036135e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "crestline",
+      "scenario": "baseline",
+      "gridM": 64,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 1247046373.8125,
+      "outflowM3yr": 1870065208.2944643,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 6.374606030957731e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "crestline",
+      "scenario": "dry",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 646595.2427215576,
+      "outflowM3yr": 646595.2427215575,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 1.800435792520462e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "crestline",
+      "scenario": "wet",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 3336696122.875,
+      "outflowM3yr": 5155066276.698593,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 1.8499748892016228e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "frontier",
+      "scenario": "baseline",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 2235753225.0625,
+      "outflowM3yr": 2725127747.7186275,
+      "maximumInteriorLakeDepthM": 0.24378441406247475,
+      "waterRelativeError": 1.5859608928698464e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "frontier",
+      "scenario": "dry",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 646595.25,
+      "outflowM3yr": 0.0,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 0.0,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "frontier",
+      "scenario": "wet",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 6334317171.625,
+      "outflowM3yr": 7954610706.040663,
+      "maximumInteriorLakeDepthM": 0.24378441406247475,
+      "waterRelativeError": 1.8495303059256135e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "orun-ishkar-junction",
+      "scenario": "baseline",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 1111194999789.9248,
+      "outflowM3yr": 1112161260656.4487,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 2.1951908741714033e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "orun-ishkar-junction",
+      "scenario": "dry",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 125849344708.48395,
+      "outflowM3yr": 125918755523.19238,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 0.0,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "orun-ishkar-junction",
+      "scenario": "wet",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 2710512675353.7344,
+      "outflowM3yr": 2712844000991.665,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 1.799886944555277e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "thornfield",
+      "scenario": "baseline",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 32041053930.59375,
+      "outflowM3yr": 32525723246.8561,
+      "maximumInteriorLakeDepthM": 0.19196556640622475,
+      "waterRelativeError": 1.5203680812394858e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "thornfield",
+      "scenario": "dry",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 1210309206.25,
+      "outflowM3yr": 1210309206.25,
+      "maximumInteriorLakeDepthM": 0.0,
+      "waterRelativeError": 0.0,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    },
+    {
+      "id": "thornfield",
+      "scenario": "wet",
+      "gridM": 250,
+      "physicalBufferM": 3000,
+      "externalWaterM3yr": 80238173554.25,
+      "outflowM3yr": 81854385572.48814,
+      "maximumInteriorLakeDepthM": 0.19196556640622475,
+      "waterRelativeError": 2.657398911343521e-16,
+      "convergence": {
+        "passed": true,
+        "waterYears": 5,
+        "maximumPeriodicLevelChangeM": 0.0,
+        "relativeStorageDrift": 0.0,
+        "requiredStableCycles": 3,
+        "levelToleranceM": 0.02
+      },
+      "parentTerrainResolutionM": 2000
+    }
+  ],
+  "spatialOutletRelativeErrors": {
+    "125": 0.0006784358861024976,
+    "250": 0.002066469865618346,
+    "64": 0.0
+  },
+  "spatialComparisonTolerance": 0.01,
+  "orunCrestCheck": {
+    "scope": "last bounded connection pass",
+    "crestPoints": 170,
+    "maxCrestChangeM": 11.505023956298828,
+    "endpointChangesM": [
+      0.0,
+      0.0
+    ],
+    "priorBaselineRepairMaxChangeFromV10M": 2279.19384765625
+  },
+  "deliveryCompleteForNarrowedScope": true,
+  "formalMapChanged": false,
+  "manuscriptChanged": false,
+  "compressed": false,
+  "committed": false,
+  "pushed": false
+}

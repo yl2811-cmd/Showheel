@@ -1,0 +1,143 @@
+[
+  {
+    "id": "stepped",
+    "title": "Colorado Plateau / Grand Staircase",
+    "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+    "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-113%2C36%2C-109%2C39&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+    "bounds": [
+      -113,
+      36,
+      -109,
+      39
+    ],
+    "file": "stepped.tif",
+    "sha256": "6ab19e8edb0b7962ba7087c4255e09209f54f57f0ef5a9ec56d51de010241119",
+    "width": 1024,
+    "height": 1024,
+    "pixelSizeM": [
+      389.38675780156586,
+      389.38675780156586
+    ],
+    "heightRangeM": [
+      556.914794921875,
+      3787.71728515625
+    ],
+    "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+  },
+  {
+    "id": "basalt",
+    "title": "Columbia basalt province",
+    "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+    "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-122%2C44%2C-118%2C47&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+    "bounds": [
+      -122,
+      44,
+      -118,
+      47
+    ],
+    "file": "basalt.tif",
+    "sha256": "d7d9558884ee544d8af93c32f57540ac500cea30cc0877caa064d01beb0231bb",
+    "width": 1024,
+    "height": 1024,
+    "pixelSizeM": [
+      391.44464022513876,
+      391.44464022513876
+    ],
+    "heightRangeM": [
+      1.3939447402954102,
+      4351.98876953125
+    ],
+    "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+  },
+  {
+    "id": "mountain",
+    "title": "Alaska mountain and glacier valleys",
+    "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+    "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-151%2C61%2C-147%2C64&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+    "bounds": [
+      -151,
+      61,
+      -147,
+      64
+    ],
+    "file": "mountain.tif",
+    "sha256": "1b9755abefe07154dc59554e4f8442f4c24fa36d16e06cc5daf0ed781e718334",
+    "width": 1024,
+    "height": 1024,
+    "pixelSizeM": [
+      363.40006054485184,
+      363.40006054485184
+    ],
+    "heightRangeM": [
+      -3.0000009536743164,
+      6093.73193359375
+    ],
+    "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+  },
+  {
+    "id": "rift",
+    "title": "Ethiopian faulted plateau",
+    "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+    "tile": "N13E039",
+    "bounds": [
+      39,
+      13,
+      40,
+      14
+    ],
+    "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N13/N13E039.hgt.gz",
+    "sha256": "c2b4b7a66fbe14d8649dd788e057f153b426f8ce54ad93702f0df70a5f42874e",
+    "nativeSize": 3601,
+    "rangeM": [
+      611.0,
+      3303.0
+    ],
+    "referencePixelM": 108.69501466275659,
+    "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+    "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+  },
+  {
+    "id": "snow",
+    "title": "Himalayan snow mountains and valleys",
+    "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+    "tile": "N28E086",
+    "bounds": [
+      86,
+      28,
+      87,
+      29
+    ],
+    "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N28/N28E086.hgt.gz",
+    "sha256": "492bbef252dc022aa91d7a80d0f1bd913c69b86cc57157e251f77549f1260f0c",
+    "nativeSize": 3601,
+    "rangeM": [
+      2535.0,
+      8275.0
+    ],
+    "referencePixelM": 108.69501466275659,
+    "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+    "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+  },
+  {
+    "id": "mesa",
+    "title": "Guiana Shield table mountains",
+    "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+    "tile": "N05W061",
+    "bounds": [
+      -61,
+      5,
+      -60,
+      6
+    ],
+    "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N05/N05W061.hgt.gz",
+    "sha256": "fc8436a6fb6fdc3d7eb17006d508b42d558678a071d001192a11bedfef7d384e",
+    "nativeSize": 3601,
+    "rangeM": [
+      79.0,
+      2748.0
+    ],
+    "referencePixelM": 108.69501466275659,
+    "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+    "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+  }
+]

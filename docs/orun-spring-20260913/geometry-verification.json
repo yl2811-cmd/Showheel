@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "vertices": 74084,
+  "triangles": 37042,
+  "geometryIdenticalAcrossModes": true,
+  "canopyIdentical": true,
+  "allColourValuesFinite": true,
+  "geomorphicMs": 886,
+  "legacyMs": 1052,
+  "cachedChunks": 4
+}

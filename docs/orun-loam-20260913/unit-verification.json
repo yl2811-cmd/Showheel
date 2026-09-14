@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "Published input references binary assets without embedding working arrays",
+      "passed": true
+    },
+    {
+      "name": "Approved defaults and independent physical hydrology key",
+      "passed": true
+    },
+    {
+      "name": "Habitat gains protect tree footprint and water while respecting coverage bounds",
+      "passed": true
+    },
+    {
+      "name": "Rock palette switches preserve ecology and reserve only the bare fraction",
+      "passed": true
+    },
+    {
+      "name": "Latest request wins without cancellation resetting controls",
+      "passed": true
+    },
+    {
+      "name": "Cloud volumes retain cubes and terrain clearance without fixed decks",
+      "passed": true
+    }
+  ]
+}

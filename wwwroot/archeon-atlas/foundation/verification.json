@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "immutableFiles": [
+    "maps/archeon-atlas/terrain/aethelgard-height.f32",
+    "maps/archeon-atlas/terrain/aethelgard-karst-mask.png",
+    "maps/archeon-atlas/terrain/aethelgard-lake-ids.u16",
+    "maps/archeon-atlas/terrain/aethelgard-mask.png",
+    "maps/archeon-atlas/terrain/atheria-height.f32",
+    "maps/archeon-atlas/terrain/atheria-mask.png",
+    "maps/archeon-atlas/terrain/marneth-height.f32",
+    "maps/archeon-atlas/terrain/marneth-mask.png",
+    "maps/archeon-atlas/terrain/rimstone-height.f32",
+    "maps/archeon-atlas/terrain/rimstone-mask.png",
+    "maps/archeon-atlas/terrain/skyleaf-height.f32",
+    "maps/archeon-atlas/terrain/skyleaf-mask.png",
+    "maps/archeon-atlas/terrain/world-height.f32",
+    "maps/archeon-atlas/terrain/world-karst-mask.png",
+    "maps/archeon-atlas/terrain/world-lake-ids.u16",
+    "maps/archeon-atlas/terrain/world-mask.png",
+    "maps/archeon-atlas/data/atlas.json",
+    "maps/archeon-atlas/data/living-atlas.json",
+    "maps/archeon-atlas/orun-assets/landforms-v3/h.f32",
+    "maps/archeon-atlas/orun-assets/windward-v8-r3/delta.f32",
+    "timelapse-skies_beyond_the_star.txt",
+    "maps/archeon-atlas/data/atlas.json",
+    "maps/archeon-atlas/data/living-atlas.json"
+  ],
+  "maps": [
+    {
+      "id": "aethelgard",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.999727874994278,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          0,
+          7500
+        ],
+        "meanAbsoluteChangeM": 450.3887939453125,
+        "p95AbsoluteChangeM": 1638.005615234375,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 18.958885192871094
+      }
+    },
+    {
+      "id": "marneth",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999337792396545,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          325.7047119140625,
+          7256.05078125
+        ],
+        "meanAbsoluteChangeM": 195.08351135253906,
+        "p95AbsoluteChangeM": 711.2764282226562,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 1.0870862007141113
+      }
+    },
+    {
+      "id": "riverbend",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9997264742851257,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          166.6457977294922,
+          4150.22509765625
+        ],
+        "meanAbsoluteChangeM": 0,
+        "p95AbsoluteChangeM": 0,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 0
+      }
+    },
+    {
+      "id": "frontier",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999946355819702,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          293.0601806640625,
+          935.8467407226562
+        ],
+        "meanAbsoluteChangeM": 85.54918670654297,
+        "p95AbsoluteChangeM": 304.6130676269531,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 0.8248542547225952
+      }
+    },
+    {
+      "id": "skyleaf",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999687671661377,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          931.841552734375,
+          2346.82470703125
+        ],
+        "meanAbsoluteChangeM": 108.21820068359375,
+        "p95AbsoluteChangeM": 299.3775329589844,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 1.1625396013259888
+      }
+    },
+    {
+      "id": "northwest",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999014735221863,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          3.6496849060058594,
+          2450.93505859375
+        ],
+        "meanAbsoluteChangeM": 587.38037109375,
+        "p95AbsoluteChangeM": 1243.19921875,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 4.6452836990356445
+      }
+    },
+    {
+      "id": "north",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.999779224395752,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          357.4017639160156,
+          3582.189453125
+        ],
+        "meanAbsoluteChangeM": 559.74365234375,
+        "p95AbsoluteChangeM": 1240.579833984375,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 6.371954441070557
+      }
+    },
+    {
+      "id": "west",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9998259544372559,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          0,
+          2232.31396484375
+        ],
+        "meanAbsoluteChangeM": 246.9323272705078,
+        "p95AbsoluteChangeM": 1003.2960205078125,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 2.7021520137786865
+      }
+    },
+    {
+      "id": "southeast",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9990430474281311,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          0,
+          2602.486083984375
+        ],
+        "meanAbsoluteChangeM": 450.68572998046875,
+        "p95AbsoluteChangeM": 1081.10546875,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 2.9418158531188965
+      }
+    },
+    {
+      "id": "north-highland-west",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999678134918213,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          397.8623046875,
+          6515.37158203125
+        ],
+        "meanAbsoluteChangeM": 1617.5306396484375,
+        "p95AbsoluteChangeM": 3401.364013671875,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 9.16109561920166
+      }
+    },
+    {
+      "id": "north-highland-center",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9999639987945557,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          384.6727294921875,
+          6158.240234375
+        ],
+        "meanAbsoluteChangeM": 2008.7022705078125,
+        "p95AbsoluteChangeM": 3823.5322265625,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 11.728105545043945
+      }
+    },
+    {
+      "id": "north-highland-east",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.9998373985290527,
+      "finiteHeights": true,
+      "stats": {
+        "rangeM": [
+          622.3479614257812,
+          6073.38134765625
+        ],
+        "meanAbsoluteChangeM": 1354.6817626953125,
+        "p95AbsoluteChangeM": 3060.38720703125,
+        "maxProtectedDeltaM": 0,
+        "physicsMeanAbsoluteM": 8.688151359558105
+      }
+    },
+    {
+      "id": "world",
+      "verifiedPixels": 2000,
+      "maximumColorQuantizationError": 0.49939942359924316,
+      "finiteHeights": true,
+      "stats": {
+        "meanAbsoluteChangeM": 131.3168212251729,
+        "physicsMeanAbsoluteM": 18.65079116821289
+      }
+    }
+  ],
+  "tileBoundaryMeanSlopeRatio": {
+    "1000": 1.0268864631652832,
+    "500": 1.0044567584991455,
+    "200": 1.0098955631256104,
+    "50": 1.000545859336853
+  },
+  "physicalChecks": {
+    "protectedSampleMaxDeltaM": 0,
+    "annualWaterBalanceMaxErrorM": 1.3295326439788369e-07,
+    "wetRunErosionRatio": 1.2060160636901855,
+    "hardRockErosionRatio": 0.5826433300971985
+  },
+  "maxSedimentRelativeError": 9.273651981244157e-11,
+  "delivery": {
+    "compression": false,
+    "gitCommit": false,
+    "gitPush": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "syntheticTestsOnly": true,
+  "checks": [
+    "native six unequal bins retain orbital phase across civil years",
+    "cloud bins are retained without imposing named season count",
+    "water, nitrogen and soil integrate over physical Earth years on shortened orbit",
+    "WIP vegetation package fails closed before arrays or simulation are loaded"
+  ],
+  "civilYearSeconds": 31557600.0,
+  "testOrbitalSeconds": 19881288.0,
+  "seasonCountNotLocked": true,
+  "vegetationSimulationExecuted": false
+}

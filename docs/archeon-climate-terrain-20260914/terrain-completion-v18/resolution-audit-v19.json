@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "id": "vorhan-west-track-source",
+      "spatial": [
+        {
+          "coarseM": 250,
+          "fineM": 125,
+          "heightChangeRMSErrorM": 0.26643340037148333,
+          "relativeHeightChangeRMSError": 0.08810586730585225,
+          "heightChangeP95ErrorM": 0.397705078125,
+          "initialInterpolationRMSErrorM": 0.0,
+          "samples": 47089
+        },
+        {
+          "coarseM": 125,
+          "fineM": 64,
+          "heightChangeRMSErrorM": 0.49198559230589756,
+          "relativeHeightChangeRMSError": 0.13804617785395398,
+          "heightChangeP95ErrorM": 0.8986356735213754,
+          "initialInterpolationRMSErrorM": 0.007597644070147169,
+          "samples": 187489
+        }
+      ],
+      "temporal": {
+        "coarseM": 250,
+        "fineM": 250,
+        "heightChangeRMSErrorM": 0.05577393876105641,
+        "relativeHeightChangeRMSError": 0.018477944525648382,
+        "heightChangeP95ErrorM": 0.045166015625,
+        "initialInterpolationRMSErrorM": 0.0,
+        "samples": 47089
+      },
+      "temporalStepsYears": [
+        2500,
+        1250
+      ],
+      "samePhysicalBoundaryFadeM": 4000,
+      "sameInitialParent": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\regional\\vorhan-west-track",
+      "spatialErrorDecreases": false,
+      "scope": "numerical comparison on the original diagnostic windows; these are not evidence that the new source produced mesas or that modern climate is valid"
+    },
+    {
+      "id": "duskreach-west-track-source",
+      "spatial": [
+        {
+          "coarseM": 250,
+          "fineM": 125,
+          "heightChangeRMSErrorM": 0.5091478384568034,
+          "relativeHeightChangeRMSError": 0.15620251135390692,
+          "heightChangeP95ErrorM": 0.8113525390624998,
+          "initialInterpolationRMSErrorM": 0.0,
+          "samples": 47089
+        },
+        {
+          "coarseM": 125,
+          "fineM": 64,
+          "heightChangeRMSErrorM": 0.7263475967559776,
+          "relativeHeightChangeRMSError": 0.19039619201946995,
+          "heightChangeP95ErrorM": 1.3141509532943427,
+          "initialInterpolationRMSErrorM": 0.023904765121673974,
+          "samples": 187489
+        }
+      ],
+      "temporal": {
+        "coarseM": 250,
+        "fineM": 250,
+        "heightChangeRMSErrorM": 0.042915030595388676,
+        "relativeHeightChangeRMSError": 0.014783067833310163,
+        "heightChangeP95ErrorM": 0.050048828125,
+        "initialInterpolationRMSErrorM": 0.0,
+        "samples": 47089
+      },
+      "temporalStepsYears": [
+        2500,
+        1250
+      ],
+      "samePhysicalBoundaryFadeM": 4000,
+      "sameInitialParent": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\regional\\duskreach-west-track",
+      "spatialErrorDecreases": false,
+      "scope": "numerical comparison on the original diagnostic windows; these are not evidence that the new source produced mesas or that modern climate is valid"
+    }
+  ],
+  "climateValidated": false,
+  "acceptance": "Errors reported separately; numerical budget closure does not imply spatial or temporal convergence"
+}

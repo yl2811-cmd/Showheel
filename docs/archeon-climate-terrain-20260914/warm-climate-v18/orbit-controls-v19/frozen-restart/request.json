@@ -1,0 +1,79 @@
+{
+  "state": "frozen-restart",
+  "params": {
+    "gravity": 9.610517,
+    "radius": 0.7455401006400658,
+    "rotationperiod": 1.119556223488347,
+    "year": 231.365256955045,
+    "obliquity": 13,
+    "eccentricity": 0.0,
+    "fixedorbit": true,
+    "keplerian": true,
+    "flux": 1088.8,
+    "startemp": 5050,
+    "pressure": 1.1,
+    "pCO2": 0.0011,
+    "pN2": 0.8954,
+    "pO2": 0.2035,
+    "mldepth": 50,
+    "vegetation": false,
+    "timestep": 30,
+    "snapshots": null,
+    "runsteps": 11106,
+    "otherargs": {
+      "PLARAD@planet_namelist": "4750000"
+    },
+    "landmap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/land.sra",
+    "topomap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/topography.sra",
+    "restartfile": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/control-year-10-restart"
+  },
+  "orbit": {
+    "id": "s0.80",
+    "stellarFluxWm2": 1088.8,
+    "earthFluxFraction": 0.8,
+    "semiMajorAU": 0.6847012910443387,
+    "periodEarthDays": 231.365256955045,
+    "calendar": {
+      "earthYearSeconds": 31557600.0,
+      "orbitalPeriodSeconds": 19989958.200915888,
+      "solarDaySeconds": 97200.0,
+      "siderealDaySeconds": 96729.65770939318,
+      "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+    },
+    "hillRadiusKm": 901178.6983046907,
+    "moons": [
+      {
+        "id": "fast-moon",
+        "orbitKm": 57225.942956865205,
+        "fractionOfHillRadius": 0.06350121575722929,
+        "conservativeScreenPassed": true
+      },
+      {
+        "id": "slow-moon",
+        "orbitKm": 266266.4393886309,
+        "fractionOfHillRadius": 0.29546463968748365,
+        "conservativeScreenPassed": true
+      }
+    ],
+    "outerPlanetMutualHillSeparation": 27.278919340832445,
+    "orbitScreenPassed": true,
+    "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+  },
+  "oldTerrainLineage": {
+    "globalHeightSha256": "25358adb81188ed70440277fbb4d708b3407634c598a25e8c00335bbc6d4d36f",
+    "globalKindSha256": "8e42c5218ee914355aa7ee4b756e6c769e421280de34a868f2059bcd67bddede",
+    "nativeLandAreaM2": 83801015144120.0,
+    "representedLandAreaM2": 82039661392645.06,
+    "binaryMaskRelativeAreaError": 0.021018286573805604,
+    "aggregation": "area weighted on Gaussian-cell bounds; islands below T21/T42 resolution may be absent",
+    "unknown": "FAR-5 uses inherited coarse boundary conditions only"
+  },
+  "omittedAbsorbers": [
+    "SF6",
+    "N2O"
+  ],
+  "climateAccepted": false,
+  "scope": "short CO2/H2O control on frozen legacy topography; no inference of stable 12-14C or regional aridity",
+  "actualRunSecondsPerRecord": 19990800,
+  "runDurationRoundingSeconds": 841.7990841120481
+}

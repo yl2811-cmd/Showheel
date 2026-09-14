@@ -1,0 +1,52 @@
+{
+  "lakeId": "high-sea",
+  "areaReference": "old cartographic polygon, not the already fragmented simulated water",
+  "oldMappedAreaKm2": 306093.40633036103,
+  "targetAreaKm2": 153046.70316518052,
+  "areaFactor": 1.47,
+  "hypothesizedSpillLevelM": 2660,
+  "floorMaximumDepthBelowDesignSpillM": 160,
+  "outletCoordinates": [
+    [
+      80.91460605026012,
+      34.03897425250355
+    ],
+    [
+      82.03348956883832,
+      30.480860236479256
+    ],
+    [
+      81,
+      30
+    ],
+    [
+      79,
+      29
+    ],
+    [
+      76,
+      27
+    ],
+    [
+      72.92,
+      24.64
+    ]
+  ],
+  "outletBedLevelsM": [
+    2500,
+    2660,
+    2440,
+    2000,
+    1250,
+    0
+  ],
+  "namedOutlet": "Rim Falls",
+  "lakeVistaV06MayChangeBed": true,
+  "otherProtectedSitesMaximumChangeM": 0.0,
+  "baseReconstructionNotErosion": true,
+  "narrowRingLeveeUsed": false,
+  "parentHeightSha256": "83d02455db6f69ae753db8a8152efd3fba2b76b0e8150773e6c2db6bc6f8bac0",
+  "gridM": 2000,
+  "basinReconstructionM3": -10092257837526.643,
+  "outletExcavationM3": 10380824550981.562
+}

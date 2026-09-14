@@ -1,0 +1,58 @@
+{
+  "id": "high-inland-sea",
+  "fingerprint": "bc04095d75402a5543e56d761ffbdc8b7f1c2470d1cbef119db4a85e4942514d",
+  "grid": {
+    "width": 801,
+    "height": 801,
+    "xmin": -2698694.178339433,
+    "ymax": 1839661.9376576422,
+    "stepM": 2000,
+    "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "high-inland-sea",
+    "region": "vorhan",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "high-inland-sea-0.png",
+      "rivers": "high-inland-sea-0-rivers.geojson",
+      "lakes": "high-inland-sea-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "high-inland-sea-10000.png",
+      "rivers": "high-inland-sea-10000-rivers.geojson",
+      "lakes": "high-inland-sea-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "high-inland-sea-100000.png",
+      "rivers": "high-inland-sea-100000-rivers.geojson",
+      "lakes": "high-inland-sea-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "high-inland-sea-500000.png",
+      "rivers": "high-inland-sea-500000-rivers.geojson",
+      "lakes": "high-inland-sea-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "high-inland-sea-2000000.png",
+      "rivers": "high-inland-sea-2000000-rivers.geojson",
+      "lakes": "high-inland-sea-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.9957571139184278,
+  "maximumWaterRelativeError": 1.3269993370514213e-15,
+  "maximumSolidRelativeError": 1.0630285395731856e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

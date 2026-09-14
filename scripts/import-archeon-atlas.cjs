@@ -77,6 +77,12 @@ function addDirectory(relative, extension) {
     else if (name.endsWith(extension)) files.add(name);
   }
 }
+// Current world atlas uses pre-baked terrain and water; no runtime solver.
+for (const file of ['world-rebuild.js','world-rebuild.css']) if (fs.existsSync(path.join(source,file))) files.add(file);
+if (fs.existsSync(path.join(source,'world-rebuild'))) for (const extension of ['.js','.json','.png','.svg','.geojson']) addDirectory('world-rebuild',extension);
+// Optional elevation and terrain foundation studies.
+for (const file of ['elevation.html','elevation-palette.js','elevation-view.js','elevation-view.css','elevation-overlay.js','foundation.html','foundation-view.js','foundation-view.css']) if (fs.existsSync(path.join(source,file))) files.add(file);
+for (const directory of ['elevation','foundation']) if (fs.existsSync(path.join(source,directory))) for (const extension of ['.js','.json','.css','.png','.svg','.f32','.u8','.npy','.tif','.md','.geojson']) addDirectory(directory,extension);
 // Include the current scene editor and saved manual changes; local credentials stay outside these directories.
 addDirectory('data/house-tuning', '.json');
 for (const directory of ['house-tuning', 'scene-editor']) {

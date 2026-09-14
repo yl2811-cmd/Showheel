@@ -1,0 +1,30 @@
+{
+  "completedUnix": 1789405241.851928,
+  "archive": "D:\\SKBS\\archives\\pending-manual-delete-20260914\\tectonics-early-rounds",
+  "archiveCurrentlyExists": false,
+  "archiveAvailabilityNote": "Moved files were fully verified; target folder subsequently absent at closeout. This task performed no deletion. Independent inventory retained; actor and cause not established.",
+  "deletionPerformedByThisTask": false,
+  "directories": 22,
+  "files": 6632,
+  "bytes": 11972371458,
+  "protectedFilesUnchangedAfterArchive": 40676,
+  "syncedFiles": 2025,
+  "unrelatedPreexistingRepoChangesPreserved": 2342,
+  "intentionalAdditionalChange": "Program.cs: one GeoJSON MIME mapping; original preexisting contents backed up",
+  "build": {
+    "passed": true,
+    "warnings": 0,
+    "errors": 0,
+    "isolated": true,
+    "compressed": false
+  },
+  "web": "http://127.0.0.1:5270/archeon-atlas/erosion.html#world",
+  "headUnchanged": true,
+  "stagingUnchanged": true,
+  "chineseMatches": true,
+  "englishUnchanged": true,
+  "compressed": false,
+  "committed": false,
+  "pushed": false,
+  "scientificResultsUnchanged": true
+}

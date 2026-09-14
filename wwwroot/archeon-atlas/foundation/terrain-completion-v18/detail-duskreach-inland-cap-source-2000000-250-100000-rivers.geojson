@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 100000,
+    "sourceHeightSha256": "1ca53baec390234fe39fce8cf28d350db6adbcc42a04d537322340d0a7b08da9"
+  },
+  "features": []
+}

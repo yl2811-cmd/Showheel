@@ -14,6 +14,7 @@ const root = path.resolve(option('--root', path.join(__dirname, '..')));
 const output = path.resolve(option('--output', path.join(root, 'dist-web')));
 const reportPath = path.resolve(option('--report', path.join(root, 'docs/web-build-report.json')));
 const quota = Number(option('--quota-mb', process.env.SWA_QUOTA_MB || 250)) * 1000000;
+const budget = Math.floor(Number(option('--budget-mb', quota * .9 / 1000000)) * 1000000);
 const hash = data => crypto.createHash('sha256').update(data).digest('hex');
 const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]);
 const slash = name => name.split(path.sep).join('/');
@@ -86,7 +87,7 @@ function adapt(relative, source) {
   return Buffer.from(text);
 }
 async function main() {
-  if (!Number.isFinite(quota) || quota <= 0) throw Error('Invalid quota');
+  if (!Number.isFinite(quota) || quota <= 0 || !Number.isFinite(budget) || budget <= 0 || budget > quota) throw Error('Invalid quota or budget');
   if (output === root || output.startsWith(path.join(root, 'wwwroot') + path.sep) || output === path.join(root, 'wwwroot')) throw Error('Output must be separate from source');
   if (fs.existsSync(output) && fs.readdirSync(output).length) throw Error('Output is not empty; use a new directory: ' + output);
   fs.mkdirSync(output, { recursive: true });
@@ -184,7 +185,7 @@ async function main() {
     const data = fs.readFileSync(path.join(output, name)); return { path: name, bytes: data.length, sha256: hash(data) };
   });
   const totalBytes = walk(output).reduce((sum, file) => sum + fs.statSync(file).size, 0);
-  const report = { version: 1, generatedPages: [...generated.keys()], generatedResources, quotaConfirmed: !!(args.includes('--quota-mb') || process.env.SWA_QUOTA_MB), quotaBytes: quota, budgetBytes: Math.floor(quota * .9), totalBytes, overBudgetBytes: Math.max(0, totalBytes - Math.floor(quota * .9)), sourceBytes: files.reduce((sum, f) => sum + f.sourceBytes, 0), files };
+  const report = { version: 1, generatedPages: [...generated.keys()], generatedResources, quotaConfirmed: !!(args.includes('--quota-mb') || process.env.SWA_QUOTA_MB), quotaBytes: quota, budgetBytes: budget, totalBytes, overBudgetBytes: Math.max(0, totalBytes - budget), sourceBytes: files.reduce((sum, f) => sum + f.sourceBytes, 0), files };
   fs.mkdirSync(path.dirname(reportPath), { recursive: true }); fs.writeFileSync(reportPath, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify({ pages: generated.size, files: files.length, totalMB: totalBytes / 1e6, budgetMB: report.budgetBytes / 1e6, overBudgetMB: report.overBudgetBytes / 1e6, report: reportPath }));
   if (args.includes('--enforce-budget') && report.overBudgetBytes) throw Error('Publish budget exceeded; original assets and quality preserved.');

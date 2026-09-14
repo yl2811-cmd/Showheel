@@ -1,0 +1,16 @@
+{
+  "version": "vorhan-inland-plumes-v15",
+  "authorReference": "codex-clipboard-24d132b2-adf8-4c97-947c-72cb12bf0ac0.png",
+  "interpretation": "The two drawn sectors are approximate. The author then required the main operation to move inland and away from Rift and existing major structures. No screenshot polygon is used as a height or rainfall mask.",
+  "selectionGridM": 16000,
+  "minimumMainActivityClearanceKm": {"coast":300,"rift":400,"existingMajorHighlands":300},
+  "majorHighlandDefinition": "connected terrain above 3000 m covering over 6000 km2; diagnostic proxy, not a geological classification",
+  "sources": [
+    {"id":"vorhan-plume-west","center":[87.05204367511122,23.44655794522624],"coastDistanceKm":766.1644732040243,"riftDistanceKm":1381.2806396484375,"majorHighlandDistanceKm":762.1443432841314,"sceneDistanceKm":753.5837648363799},
+    {"id":"vorhan-plume-east","center":[128.00696997921668,10.240841988498552],"coastDistanceKm":704.1817947092924,"riftDistanceKm":1887.495361328125,"majorHighlandDistanceKm":752.1701935067622,"sceneDistanceKm":669.3170956239472}
+  ],
+  "seeds": [5210914,5210915,5210916],
+  "cases": ["control","west","east","both"],
+  "model": "Prescribed mantle-upwelling crustal response, separately recorded basalt emplacement and normal-fault tilting; subsequent erosion and sediment transport solved numerically. This is not a mantle-convection solver.",
+  "status": "independent candidates; climate and fine-geomorphology acceptance pending"
+}

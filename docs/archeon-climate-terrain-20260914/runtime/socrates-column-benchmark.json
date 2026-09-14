@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "referenceSource": "MetOffice/socrates",
+  "sourceCommit": "76a675b2e7fc2d3d325ec3e6fed7a78f45e0cff6",
+  "outputSha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+  "comparedValues": 384,
+  "comparisons": [
+    {
+      "reference": "gfortran_8_1_0.txt",
+      "sha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+      "maximumAbsoluteDifference": 0.0,
+      "passed": true
+    },
+    {
+      "reference": "ifort_19_0_0.txt",
+      "sha256": "8d3fda6510be3e9c481bb3892ee10165b4e89fb0617c82b0b1cc1e44af926459",
+      "maximumAbsoluteDifference": 3.399999997100167e-07,
+      "passed": true
+    },
+    {
+      "reference": "ifx_2025_0_4.txt",
+      "sha256": "56319918a3975b06e5241d4092ebeb52d8f6c3c48646b6eabf0c9135ac5ae462",
+      "maximumAbsoluteDifference": 3.399999997100167e-07,
+      "passed": true
+    }
+  ],
+  "scope": "official standalone column and interface regression; not Archeon SF6/N2O validation",
+  "archeonClimateAccepted": false,
+  "sf6RadiationValidated": false
+}

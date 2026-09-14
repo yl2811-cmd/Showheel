@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "request": {
+        "state": "native-default",
+        "params": {
+          "gravity": 9.610517,
+          "radius": 0.7455401006400658,
+          "rotationperiod": 1.1185701607051062,
+          "year": 195.71117925024535,
+          "obliquity": 13,
+          "eccentricity": 0.0,
+          "fixedorbit": true,
+          "keplerian": true,
+          "flux": 1361.0,
+          "startemp": 5050,
+          "pressure": 1.1,
+          "pCO2": 0.0011,
+          "pN2": 0.8954,
+          "pO2": 0.2035,
+          "mldepth": 50,
+          "vegetation": false,
+          "timestep": 30,
+          "snapshots": null,
+          "runsteps": 9394,
+          "otherargs": {
+            "PLARAD@planet_namelist": "4750000"
+          },
+          "landmap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/land.sra",
+          "topomap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/topography.sra"
+        },
+        "orbit": {
+          "id": "s1.00",
+          "stellarFluxWm2": 1361.0,
+          "earthFluxFraction": 1.0,
+          "semiMajorAU": 0.6124154524228038,
+          "periodEarthDays": 195.71117925024535,
+          "calendar": {
+            "earthYearSeconds": 31557600.0,
+            "orbitalPeriodSeconds": 16909445.8872212,
+            "solarDaySeconds": 97200.0,
+            "siderealDaySeconds": 96644.46188492117,
+            "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+          },
+          "hillRadiusKm": 806038.731713625,
+          "moons": [
+            {
+              "id": "fast-moon",
+              "orbitKm": 57225.942956865205,
+              "fractionOfHillRadius": 0.07099651754352275,
+              "conservativeScreenPassed": true
+            },
+            {
+              "id": "slow-moon",
+              "orbitKm": 266266.4393886309,
+              "fractionOfHillRadius": 0.33033950964434783,
+              "conservativeScreenPassed": true
+            }
+          ],
+          "outerPlanetMutualHillSeparation": 28.471140875353008,
+          "orbitScreenPassed": true,
+          "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+        },
+        "oldTerrainLineage": {
+          "globalHeightSha256": "25358adb81188ed70440277fbb4d708b3407634c598a25e8c00335bbc6d4d36f",
+          "globalKindSha256": "8e42c5218ee914355aa7ee4b756e6c769e421280de34a868f2059bcd67bddede",
+          "nativeLandAreaM2": 83801015144120.0,
+          "representedLandAreaM2": 82039661392645.06,
+          "binaryMaskRelativeAreaError": 0.021018286573805604,
+          "aggregation": "area weighted on Gaussian-cell bounds; islands below T21/T42 resolution may be absent",
+          "unknown": "FAR-5 uses inherited coarse boundary conditions only"
+        },
+        "omittedAbsorbers": [
+          "SF6",
+          "N2O"
+        ],
+        "climateAccepted": false,
+        "scope": "short CO2/H2O control on frozen legacy topography; no inference of stable 12-14C or regional aridity",
+        "actualRunSecondsPerRecord": 16909200,
+        "runDurationRoundingSeconds": -245.887221198529
+      },
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 72.26122546195984,
+          "meanTemperatureC": -5.829407875306629,
+          "toaNetWm2": 38.893982768199905,
+          "meanCloudFraction": 0.46603817507255874,
+          "oceanSeaIceFraction": 0.12861867258951507,
+          "planetaryAlbedo": 0.2878245445006031,
+          "incomingShortwaveWm2": 340.2521908947056,
+          "waterVapourColumnKgM2": 4.112861864464591,
+          "physicalElapsedEarthYears": 0.5358202144649783,
+          "climateAccepted": false,
+          "outputSha256": "1825d54a9589f67cb1610934b8ec60cc2a4be5fc37d2cec18f76534d9654a2ae"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 76.71417188644409,
+          "meanTemperatureC": -3.6687728770143053,
+          "toaNetWm2": 33.21080856975816,
+          "meanCloudFraction": 0.5687724006565285,
+          "oceanSeaIceFraction": 0.27940611628459117,
+          "planetaryAlbedo": 0.32282985590232754,
+          "incomingShortwaveWm2": 340.25226152767016,
+          "waterVapourColumnKgM2": 6.326429666979832,
+          "physicalElapsedEarthYears": 1.0716404289299566,
+          "climateAccepted": false,
+          "outputSha256": "5eae62bdc72fd1a5496636b5aa1ac1c7db4ac5b9c186b27ed7bd3b01aa0fbd2d"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 100.65814709663391,
+          "meanTemperatureC": -0.08911680345852346,
+          "toaNetWm2": 26.170013745140956,
+          "meanCloudFraction": 0.6083160502517981,
+          "oceanSeaIceFraction": 0.29846434013274603,
+          "planetaryAlbedo": 0.329259386886502,
+          "incomingShortwaveWm2": 340.25226332228306,
+          "waterVapourColumnKgM2": 9.657711246048887,
+          "physicalElapsedEarthYears": 1.607460643394935,
+          "climateAccepted": false,
+          "outputSha256": "65c5c561586a82310c66709b6254239e10624b26bbcbfd6e29056d73c468e6fc"
+        }
+      ]
+    },
+    {
+      "request": {
+        "state": "frozen-restart",
+        "params": {
+          "gravity": 9.610517,
+          "radius": 0.7455401006400658,
+          "rotationperiod": 1.119556223488347,
+          "year": 231.365256955045,
+          "obliquity": 13,
+          "eccentricity": 0.0,
+          "fixedorbit": true,
+          "keplerian": true,
+          "flux": 1088.8,
+          "startemp": 5050,
+          "pressure": 1.1,
+          "pCO2": 0.0011,
+          "pN2": 0.8954,
+          "pO2": 0.2035,
+          "mldepth": 50,
+          "vegetation": false,
+          "timestep": 30,
+          "snapshots": null,
+          "runsteps": 11106,
+          "otherargs": {
+            "PLARAD@planet_namelist": "4750000"
+          },
+          "landmap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/land.sra",
+          "topomap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/topography.sra",
+          "restartfile": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/control-year-10-restart"
+        },
+        "orbit": {
+          "id": "s0.80",
+          "stellarFluxWm2": 1088.8,
+          "earthFluxFraction": 0.8,
+          "semiMajorAU": 0.6847012910443387,
+          "periodEarthDays": 231.365256955045,
+          "calendar": {
+            "earthYearSeconds": 31557600.0,
+            "orbitalPeriodSeconds": 19989958.200915888,
+            "solarDaySeconds": 97200.0,
+            "siderealDaySeconds": 96729.65770939318,
+            "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+          },
+          "hillRadiusKm": 901178.6983046907,
+          "moons": [
+            {
+              "id": "fast-moon",
+              "orbitKm": 57225.942956865205,
+              "fractionOfHillRadius": 0.06350121575722929,
+              "conservativeScreenPassed": true
+            },
+            {
+              "id": "slow-moon",
+              "orbitKm": 266266.4393886309,
+              "fractionOfHillRadius": 0.29546463968748365,
+              "conservativeScreenPassed": true
+            }
+          ],
+          "outerPlanetMutualHillSeparation": 27.278919340832445,
+          "orbitScreenPassed": true,
+          "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+        },
+        "oldTerrainLineage": {
+          "globalHeightSha256": "25358adb81188ed70440277fbb4d708b3407634c598a25e8c00335bbc6d4d36f",
+          "globalKindSha256": "8e42c5218ee914355aa7ee4b756e6c769e421280de34a868f2059bcd67bddede",
+          "nativeLandAreaM2": 83801015144120.0,
+          "representedLandAreaM2": 82039661392645.06,
+          "binaryMaskRelativeAreaError": 0.021018286573805604,
+          "aggregation": "area weighted on Gaussian-cell bounds; islands below T21/T42 resolution may be absent",
+          "unknown": "FAR-5 uses inherited coarse boundary conditions only"
+        },
+        "omittedAbsorbers": [
+          "SF6",
+          "N2O"
+        ],
+        "climateAccepted": false,
+        "scope": "short CO2/H2O control on frozen legacy topography; no inference of stable 12-14C or regional aridity",
+        "actualRunSecondsPerRecord": 19990800,
+        "runDurationRoundingSeconds": 841.7990841120481
+      },
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 79.64791655540466,
+          "meanTemperatureC": -54.98925160871829,
+          "toaNetWm2": 14.24311109004547,
+          "meanCloudFraction": 0.7787110868847911,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5668189689852469,
+          "incomingShortwaveWm2": 272.05431726890356,
+          "waterVapourColumnKgM2": 0.05834108913496636,
+          "physicalElapsedEarthYears": 0.63347022587269,
+          "climateAccepted": false,
+          "outputSha256": "b7453f7db83de16ffbb095fccbb33108bc64ba95d2434df181efcf76461fdd45"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 89.68828058242798,
+          "meanTemperatureC": -48.19669902366229,
+          "toaNetWm2": 3.2256777211604315,
+          "meanCloudFraction": 0.7434065085783406,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5637330121362575,
+          "incomingShortwaveWm2": 272.2020637492622,
+          "waterVapourColumnKgM2": 0.11386204812164254,
+          "physicalElapsedEarthYears": 1.26694045174538,
+          "climateAccepted": false,
+          "outputSha256": "de3d7bd2ff5824a756c207f171577f1c9cb218c707ec9337bffc88dc864b984d"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 115.26535391807556,
+          "meanTemperatureC": -47.49922921600043,
+          "toaNetWm2": 1.4192164631818753,
+          "meanCloudFraction": 0.6949521995479382,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5641480862501571,
+          "incomingShortwaveWm2": 272.20206813466405,
+          "waterVapourColumnKgM2": 0.1220393696037061,
+          "physicalElapsedEarthYears": 1.9004106776180698,
+          "climateAccepted": false,
+          "outputSha256": "3e503ae002e5d20b9aa49a8296ea11e363ecdb4a1321064a41003ede89714c63"
+        }
+      ]
+    },
+    {
+      "request": {
+        "state": "native-default",
+        "params": {
+          "gravity": 9.610517,
+          "radius": 0.7455401006400658,
+          "rotationperiod": 1.119556223488347,
+          "year": 231.365256955045,
+          "obliquity": 13,
+          "eccentricity": 0.0,
+          "fixedorbit": true,
+          "keplerian": true,
+          "flux": 1088.8,
+          "startemp": 5050,
+          "pressure": 1.1,
+          "pCO2": 0.0011,
+          "pN2": 0.8954,
+          "pO2": 0.2035,
+          "mldepth": 50,
+          "vegetation": false,
+          "timestep": 30,
+          "snapshots": null,
+          "runsteps": 11106,
+          "otherargs": {
+            "PLARAD@planet_namelist": "4750000"
+          },
+          "landmap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/land.sra",
+          "topomap": "/mnt/d/SKBS/review/climate-terrain-20260914/climate/5210914/T21-co2-0.001/topography.sra"
+        },
+        "orbit": {
+          "id": "s0.80",
+          "stellarFluxWm2": 1088.8,
+          "earthFluxFraction": 0.8,
+          "semiMajorAU": 0.6847012910443387,
+          "periodEarthDays": 231.365256955045,
+          "calendar": {
+            "earthYearSeconds": 31557600.0,
+            "orbitalPeriodSeconds": 19989958.200915888,
+            "solarDaySeconds": 97200.0,
+            "siderealDaySeconds": 96729.65770939318,
+            "civilYearConvention": "Earth inherited time; independent of five-season orbital cycle"
+          },
+          "hillRadiusKm": 901178.6983046907,
+          "moons": [
+            {
+              "id": "fast-moon",
+              "orbitKm": 57225.942956865205,
+              "fractionOfHillRadius": 0.06350121575722929,
+              "conservativeScreenPassed": true
+            },
+            {
+              "id": "slow-moon",
+              "orbitKm": 266266.4393886309,
+              "fractionOfHillRadius": 0.29546463968748365,
+              "conservativeScreenPassed": true
+            }
+          ],
+          "outerPlanetMutualHillSeparation": 27.278919340832445,
+          "orbitScreenPassed": true,
+          "stabilityStatus": "circular-orbit separation and conservative lunar extent screening only; no long-term multi-body stability claim"
+        },
+        "oldTerrainLineage": {
+          "globalHeightSha256": "25358adb81188ed70440277fbb4d708b3407634c598a25e8c00335bbc6d4d36f",
+          "globalKindSha256": "8e42c5218ee914355aa7ee4b756e6c769e421280de34a868f2059bcd67bddede",
+          "nativeLandAreaM2": 83801015144120.0,
+          "representedLandAreaM2": 82039661392645.06,
+          "binaryMaskRelativeAreaError": 0.021018286573805604,
+          "aggregation": "area weighted on Gaussian-cell bounds; islands below T21/T42 resolution may be absent",
+          "unknown": "FAR-5 uses inherited coarse boundary conditions only"
+        },
+        "omittedAbsorbers": [
+          "SF6",
+          "N2O"
+        ],
+        "climateAccepted": false,
+        "scope": "short CO2/H2O control on frozen legacy topography; no inference of stable 12-14C or regional aridity",
+        "actualRunSecondsPerRecord": 19990800,
+        "runDurationRoundingSeconds": 841.7990841120481
+      },
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 94.33731889724731,
+          "meanTemperatureC": -15.239824493657295,
+          "toaNetWm2": -11.021031104743193,
+          "meanCloudFraction": 0.46830411522911825,
+          "oceanSeaIceFraction": 0.3637966895075178,
+          "planetaryAlbedo": 0.35971513501361674,
+          "incomingShortwaveWm2": 272.20187414789615,
+          "waterVapourColumnKgM2": 2.311552738943262,
+          "physicalElapsedEarthYears": 0.63347022587269,
+          "climateAccepted": false,
+          "outputSha256": "5cc2c51e4d2fba4797b515945b0cd2b0cc81e82f8408986651bb66df0c15dda3"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 72.38634037971497,
+          "meanTemperatureC": -22.40379790708036,
+          "toaNetWm2": -12.054704173719667,
+          "meanCloudFraction": 0.5353241872600272,
+          "oceanSeaIceFraction": 0.6171773513715945,
+          "planetaryAlbedo": 0.43406992088411595,
+          "incomingShortwaveWm2": 272.2018814802475,
+          "waterVapourColumnKgM2": 1.8929981363821262,
+          "physicalElapsedEarthYears": 1.26694045174538,
+          "climateAccepted": false,
+          "outputSha256": "4235113b728f974435f3d2415569d7142e5db8a392cb5d4328a868898f315343"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 75.03550267219543,
+          "meanTemperatureC": -24.713913208988572,
+          "toaNetWm2": -14.097158396117388,
+          "meanCloudFraction": 0.6084328541355242,
+          "oceanSeaIceFraction": 0.6831409439375891,
+          "planetaryAlbedo": 0.4574348013039513,
+          "incomingShortwaveWm2": 272.2018780013156,
+          "waterVapourColumnKgM2": 1.726293968830711,
+          "physicalElapsedEarthYears": 1.9004106776180698,
+          "climateAccepted": false,
+          "outputSha256": "be1c98cbaa586ed143dfd0ffa7ca39b3ea346b81df774c9a16291d99820e8050"
+        }
+      ]
+    }
+  ],
+  "acceptedClimate": false,
+  "plot": "orbit-controls-v19.png"
+}

@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Archeon · 高程检查</title><link rel="stylesheet" href="elevation-view.css"></head>
+<body><header><div><small>ARCHEON / ELEVATION STUDY</small><h1>大地的高度</h1><p>现有高程直接填色 · 上北下南 · 原始山体未改动</p></div><a href="index.html">返回 Atlas ↗</a></header>
+<main><nav aria-label="高程视图"><button data-elevation-view="world" aria-pressed="true">世界</button><button data-elevation-view="aethelgard">Aethelgard</button><button data-elevation-view="orun">Orun 对照</button><button data-elevation-view="marneth">Marneth 对照</button></nav>
+<section class="legend" aria-label="高程色标"><div class="ramp"></div><div class="ticks"><span>0 m</span><span>1,600</span><span>3,200</span><span>4,800</span><span>6,400</span><span>8,000 m</span></div><p><i class="water"></i>海洋 <i class="lake"></i>湖泊 <i class="unknown"></i>未知／局部范围外 <span>所有地图共用绝对海拔色标</span></p></section>
+<section class="controls" aria-label="叠加图层"><label><input type="checkbox" id="elev-labels">地名</label><label><input type="checkbox" id="elev-coasts">海岸线</label><label><input type="checkbox" id="elev-contours">等高线 · 500 m</label><button id="elev-reset">恢复全图</button><span>滚轮缩放，拖动平移；对照图同步缩放</span></section>
+<div id="elevation-panels" aria-live="polite"></div><section id="elevation-findings"></section>
+<footer>颜色表示海拔，不代表植被、温度或水深。<a href="elevation/report.json" download>高程来源与检查数据 ↓</a></footer></main>
+<script src="vendor/d3.v7.min.js"></script><script src="elevation-palette.js"></script><script src="elevation/data.js"></script><script src="elevation-view.js"></script></body></html>

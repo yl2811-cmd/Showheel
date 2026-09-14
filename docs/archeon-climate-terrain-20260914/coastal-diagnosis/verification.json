@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "vorhan frozen source replay and crop invariance / all three seeds",
+    "duskreach frozen source replay and crop invariance / all three seeds",
+    "plume independent components and physical crop / seed 5210914",
+    "plume independent components and physical crop / seed 5210915",
+    "plume independent components and physical crop / seed 5210916",
+    "main activity remains remote from shore, Rift and major highlands",
+    "2km repaired bases preserve protected cores and positive land"
+  ],
+  "limits": "source and repair checks only; no claim of final climate or long-term fine-grid erosion"
+}

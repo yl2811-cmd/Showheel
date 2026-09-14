@@ -56,6 +56,10 @@ if (File.Exists(routeFile))
 
 var contentTypes = new FileExtensionContentTypeProvider();
 contentTypes.Mappings[".pack"] = "application/octet-stream";
+contentTypes.Mappings[".f32"] = "application/octet-stream";
+contentTypes.Mappings[".u8"] = "application/octet-stream";
+contentTypes.Mappings[".npy"] = "application/octet-stream";
+contentTypes.Mappings[".geojson"] = "application/geo+json";
 app.UseStaticFiles(new StaticFileOptions
 {
     ContentTypeProvider = contentTypes,

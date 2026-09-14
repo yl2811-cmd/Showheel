@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 0,
+    "sourceHeightSha256": "ff7994a08e83d975e223c9d6471399691df680f65baf6843a86976ce75b16e26"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "river-1651",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.4488728,
+            -1.2231906
+          ],
+          [
+            54.4518892,
+            -1.2201832
+          ],
+          [
+            54.4549057,
+            -1.2171759
+          ],
+          [
+            54.4579221,
+            -1.2141685
+          ],
+          [
+            54.45792,
+            -1.2111552
+          ],
+          [
+            54.457918,
+            -1.2081419
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 43.86051559448242,
+        "headDischargeM3s": 42.92222595214844,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-3699",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.4247421,
+            -1.24725
+          ],
+          [
+            54.4277584,
+            -1.2442425
+          ],
+          [
+            54.4307747,
+            -1.2412351
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 41.37472915649414,
+        "headDischargeM3s": 41.3204231262207,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-49346",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.1264662,
+            -1.7831666
+          ],
+          [
+            54.1234478,
+            -1.7831616
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 472.75482177734375,
+        "headDischargeM3s": 472.74322509765625,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    }
+  ]
+}

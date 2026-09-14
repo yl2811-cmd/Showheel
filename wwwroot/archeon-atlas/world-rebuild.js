@@ -1,0 +1,23 @@
+/* The atlas renders finished baked data. Simulation controls stay off this page. */
+(()=>{'use strict';
+ const D=window.ATLAS_WORLD_REBUILD,$=id=>document.getElementById(id);if(!D)return;
+ const layers=$('layers'),sidebar=$('geography-sidebar'),oldInputs=[...layers.querySelectorAll('input[data-layer]')],saved=new Map(),ready=new Set(['places','labels','grid']);let active=false;
+ const summary=document.createElement('section');summary.className='rebuild-summary rebuild-only';summary.id='world-rebuild-summary';summary.innerHTML='<strong>世界地图 · 重建中</strong><p>四大陆高程已更新<br>水流：Aethelgard 已接入<br>其余区域水流：WIP</p>';sidebar.prepend(summary);
+ const studyStatus=document.createElement('p');studyStatus.className='rebuild-study-status';studyStatus.textContent='新地形细化、全球环流与干湿分布：WIP';summary.append(studyStatus);
+ fetch('world-rebuild/simulation-progress.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(p=>{if(p)studyStatus.textContent='地形细化：'+(p.terrain||'WIP')+'；全球环流与干湿：WIP。'}).catch(()=>{});
+ const available=document.createElement('div');available.className='rebuild-only';available.innerHTML='<label><input type="checkbox" data-layer="current-height" checked><span class="key current-height"></span>高程</label><div class="rebuild-key" id="world-height-key"><div class="ramp"></div><div class="ticks"><span>0</span><span>1,600</span><span>3,200</span><span>4,800</span><span>6,400</span><span>8,000 m</span></div><p>颜色表示海拔，不代表绿植或干湿。</p></div><label><input type="checkbox" data-layer="current-water" checked><span class="key current-water"></span>水流与当前湖面</label>';layers.prepend(available);
+ const pending=document.createElement('section');pending.className='rebuild-pending rebuild-only';pending.setAttribute('aria-label','待重建图层');pending.innerHTML='<h3>待重建</h3>'+['绿植与地表色彩','大气环流','干湿与气候','航线调整','等高线重绘','其他专题图层'].map(s=>'<div><span>'+s+'</span><b>WIP</b></div>').join('');layers.insertBefore(pending,oldInputs[0].closest('label'));
+ const badge=document.createElement('span');badge.className='rebuild-nav-badge';badge.textContent='WIP';document.querySelector('[data-tab="world"]')?.append(badge);
+ const named=new Map(D.namedFeatures.map(f=>[f.id,f]));const note=sidebar.querySelector('.sidebar-note'),oldNote=note.textContent,search=$('search'),oldPlaceholder=search.placeholder,oldDownloads=[$('download-svg'),$('download-png'),sidebar.querySelector('a[href*="living-atlas"]')].filter(Boolean);
+ const download=document.createElement('div');download.className='rebuild-only';download.innerHTML='<a href="world-rebuild/world.svg" download>下载当前分层 SVG ↓</a><a href="world-rebuild/world-height.png" download>下载高程 PNG ↓</a><a href="world-rebuild/water.geojson" download>下载水流 GeoJSON ↓</a>';sidebar.querySelector('.downloads').append(download);
+ function mode(id){const on=id==='world';document.body.classList.toggle('world-rebuild-mode',on);for(const e of [summary,available,pending,download])e.hidden=!on;
+  if(on!==active){for(const input of oldInputs){if(ready.has(input.dataset.layer))continue;const label=input.closest('label');if(on){saved.set(input,{checked:input.checked,disabled:input.disabled});input.checked=false;input.disabled=true;label.classList.add('rebuild-legacy-hidden');}else{const state=saved.get(input);if(state){input.checked=state.checked;input.disabled=state.disabled;}label.classList.remove('rebuild-legacy-hidden');}}active=on;}
+  if(on){note.textContent='高程颜色只表示海拔；灰色区域尚待重建或未定。湖水、绿植、气候和航线将继续更新。';search.placeholder=window.ATLAS_I18N?.locale==='en'?'Place or river…':'地名或河流…';$('view-status').textContent='世界地图 · 高程与水流 · WIP';}
+  else{note.textContent=oldNote;search.placeholder=oldPlaceholder;}
+  for(const a of oldDownloads)a.classList.toggle('rebuild-legacy-hidden',on);$('scenic').hidden=on;$('search-results').replaceChildren();$('world-height-key').hidden=!layers.querySelector('[data-layer="current-height"]').checked;
+ }
+ window.ATLAS_REBUILD={isView:id=>id==='world',mapFile:id=>id==='world'?D.mapFile:null,feature:(f,id)=>id==='world'?(named.get(f.id)||f):f,featureMap:(byId,id)=>id==='world'?new Map([...byId,...named]):byId,searchable:(f,id)=>id!=='world'||f.id==='ishkar'||f.geometry.type==='Point'};
+ layers.querySelector('[data-layer="current-height"]').addEventListener('change',()=>{$('world-height-key').hidden=!layers.querySelector('[data-layer="current-height"]').checked});
+ const afterNavigation=()=>requestAnimationFrame(()=>{if(window.ATLAS_APP?.currentView==='world'&&!sidebar.hidden)mode('world');});
+ addEventListener('atlas-view-ready',event=>{mode(event.detail.id);oldInputs[0]?.dispatchEvent(new Event('change'));afterNavigation();});addEventListener('DOMContentLoaded',afterNavigation);addEventListener('atlas-language-changed',afterNavigation);mode('world');
+})();

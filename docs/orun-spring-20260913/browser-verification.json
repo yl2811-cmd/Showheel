@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Actual in-app browser screenshots, accessible state and captured console logs",
+  "sourceURL": "http://127.0.0.1:8780/#view=orun&focus=weeps",
+  "compressedURL": "http://127.0.0.1:8781/archeon-atlas/#view=orun&focus=weeps",
+  "observedViews": [
+    "The Weeps",
+    "user-adjusted views of the nearby slopes"
+  ],
+  "bothRockModesRendered": true,
+  "requestedAndAppliedStatesDistinct": true,
+  "userDraftEditsPreserved": true,
+  "capturedErrors": [],
+  "sourceMeshJobMs": 9585.4,
+  "sourceOriginalRockJobMs": 14116.3,
+  "compressedColdJobMs": 77765.8,
+  "sourceSettledFPS": 60,
+  "compressedObservedHeapMB": 1418.86,
+  "compressedObservedPeakHeapMB": 1754.27,
+  "cloudAlgorithm": "block-cloud-v6-coherent-200m",
+  "observedCloudHeightRangeM": [
+    1400,
+    3800
+  ],
+  "observedMaximumConnectedStackM": 600,
+  "scope": "Observed desktop sessions with concurrent previews and user edits; no total-RAM/GPU or universal timing claim. Last worker error-isolation and cloud-resume refinements are covered by source checks and final package verification."
+}

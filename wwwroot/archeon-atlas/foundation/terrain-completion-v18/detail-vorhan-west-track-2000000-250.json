@@ -1,0 +1,58 @@
+{
+  "id": "detail-vorhan-west-track-2000000-250",
+  "fingerprint": "6742413fe70cd95213dd8897dd9ce961c7a3e17f8e930782718d6512595f93b4",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": -1527641.284285937,
+    "ymax": 552656.3446244262,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "vorhan-west-track",
+    "region": "vorhan",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "detail-vorhan-west-track-2000000-250-0.png",
+      "rivers": "detail-vorhan-west-track-2000000-250-0-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-2000000-250-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "detail-vorhan-west-track-2000000-250-10000.png",
+      "rivers": "detail-vorhan-west-track-2000000-250-10000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-2000000-250-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "detail-vorhan-west-track-2000000-250-100000.png",
+      "rivers": "detail-vorhan-west-track-2000000-250-100000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-2000000-250-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "detail-vorhan-west-track-2000000-250-500000.png",
+      "rivers": "detail-vorhan-west-track-2000000-250-500000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-2000000-250-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "detail-vorhan-west-track-2000000-250-2000000.png",
+      "rivers": "detail-vorhan-west-track-2000000-250-2000000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-2000000-250-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 1.0,
+  "maximumWaterRelativeError": 8.629307235720104e-16,
+  "maximumSolidRelativeError": 1.3179227774206797e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "archeon-erosion-v12",
+  "baseStudy": "evolution-geomorph-v10",
+  "seeds": [5210914, 5210915, 5210916],
+  "modes": ["erosion-only", "episodic"],
+  "timesYears": [0, 100000, 500000, 2000000],
+  "eventDensity": 1,
+  "eventBudget": {"reliefM": [120, 650], "durationYears": [180000, 600000], "lastStartYear": 1400000, "renewalFraction": 0.25, "maximumRenewalBatches": 2},
+  "retention": {"minimumResolvedCells": 4, "prominenceFraction": 0.3, "lostFractionTrigger": 0.5},
+  "coast": {"mainlandMaxShiftM": 20000, "allowUnprotectedInheritedLowlandInundation": true, "mainlandGrossAreaFraction": 0.01, "islandAreaFraction": 0.2, "archipelagoNetAreaFraction": 0.05, "shelfSlope": 0.01, "shelfWidthM": 80000, "deepExportDepthM": 700, "maximumStrengthTrials": 6},
+  "riverbend": {"riverReference": [-9.675078934027471, 8.838133706948728], "maximumBankOffsetM": 5000, "protectionRadiusM": 6000},
+  "river": {"sourceCase": "ishkar-coast/antecedent-12000000-0.3-dx2000-dt3125-w480000", "bedCoreM": 4000, "bankTransitionM": 28000, "minimumOrdinaryWidthM": 650, "maximumOrdinaryWidthM": 2800},
+  "screening": {"globalGridM": 16000, "regionalGridM": 2000, "detailGridM": 250, "maximumStepYears": 10000, "climate": "Inherited preliminary runoff and wind; not a validated GCM climate"},
+  "routes": {"status": "deferred-until-final-terrain", "blocksTerrainAcceptance": false},
+  "delivery": {"candidateOnly": true, "compress": false, "commit": false, "push": false, "changeManuscript": false}
+}

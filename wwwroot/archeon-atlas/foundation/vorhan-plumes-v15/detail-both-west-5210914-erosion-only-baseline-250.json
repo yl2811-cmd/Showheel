@@ -1,0 +1,30 @@
+{
+  "id": "detail-both-west-5210914-erosion-only-baseline-250",
+  "fingerprint": "4741a7e9fbd67fec2ccabbbec86f679a53bbd7f4f5e8d2a9cc99d333c8c0ee83",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": -1838717.1030483001,
+    "ymax": 189673.47637099423,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "vorhan-plume-west-cap-edge",
+    "region": "vorhan",
+    "seed": 5210914
+  },
+  "height": "detail-both-west-5210914-erosion-only-baseline-250-height.png",
+  "initial": "detail-both-west-5210914-erosion-only-baseline-250-initial.png",
+  "erosion": "detail-both-west-5210914-erosion-only-baseline-250-erosion.png",
+  "lakeDepth": "detail-both-west-5210914-erosion-only-baseline-250-lake-depth.png",
+  "rivers": "detail-both-west-5210914-erosion-only-baseline-250-rivers.geojson",
+  "lakes": "detail-both-west-5210914-erosion-only-baseline-250-lakes.geojson",
+  "effectiveYears": 100000,
+  "gridM": 250,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "terrainAccepted": false,
+  "climateValidated": false,
+  "protectedMaximumChangeM": 0.0,
+  "maximumErosionM": 3.806715965270996,
+  "source": "D:\\SKBS\\review\\climate-terrain-20260914\\vorhan-plume-study\\detail\\both\\west\\5210914\\erosion-only\\baseline\\250"
+}

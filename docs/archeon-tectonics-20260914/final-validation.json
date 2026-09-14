@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "atlasVerifier": {
+    "hashedFiles": 5414,
+    "views": 5,
+    "bytes": 2540986147
+  },
+  "scopedHttpAssets": 544,
+  "browser": {
+    "tool": "computer use",
+    "source": "http://127.0.0.1:8796/tectonics.html#world",
+    "mirror": "http://127.0.0.1:8797/archeon-atlas/tectonics.html#world",
+    "verified": [
+      "Rift before and after",
+      "baseline selection",
+      "1x vertical scale",
+      "global fault overlay",
+      "unsupported global layers disabled"
+    ],
+    "consoleErrors": [],
+    "screenshots": "observed inline through computer use"
+  },
+  "remaining": [
+    "Windows restart and Linux setup before real ExoPlaSim execution",
+    "full continental/refined long runs",
+    "four routes need route-specific clearance assessment",
+    "actual Year 521 ecology and feedback"
+  ]
+}

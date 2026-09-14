@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "baseline",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      },
+      "fullCycles": 20,
+      "acceleratedCycles": 20
+    },
+    {
+      "case": "dry",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      },
+      "fullCycles": 20,
+      "acceleratedCycles": 20
+    },
+    {
+      "case": "wet",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      },
+      "fullCycles": 20,
+      "acceleratedCycles": 20
+    },
+    {
+      "case": "external",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      },
+      "fullCycles": 20,
+      "acceleratedCycles": 20
+    },
+    {
+      "case": "recession",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      },
+      "fullCycles": 20,
+      "acceleratedCycles": 20
+    },
+    {
+      "case": "interrupted/resumed equivalence and changed-input rejection",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        }
+      }
+    },
+    {
+      "case": "full 3.4 million-cell Keld regression",
+      "difference": {
+        "lake-depth": {
+          "maximumAbsoluteError": 5.10351560478739e-05,
+          "relativeToMaximum": 4.668457742285487e-08
+        },
+        "lake-min-depth": {
+          "maximumAbsoluteError": 5.10351560478739e-05,
+          "relativeToMaximum": 4.668457742285487e-08
+        },
+        "lake-max-depth": {
+          "maximumAbsoluteError": 5.10351560478739e-05,
+          "relativeToMaximum": 4.668457742285487e-08
+        },
+        "lake-occurrence": {
+          "maximumAbsoluteError": 0.0,
+          "relativeToMaximum": 0.0
+        },
+        "discharge": {
+          "maximumAbsoluteError": 4084.045867919922,
+          "relativeToMaximum": 4.0228072942447296e-08
+        }
+      },
+      "acceleration": {
+        "method": "exact routing-node elimination; all potential-lake cells retained",
+        "fullGridCells": 3401321,
+        "spinupGraphCells": 30324,
+        "spinupCycles": 170,
+        "fullGraphVerificationCycles": 4,
+        "originalWaterSolverSha256": "b1a9be99db2e526c1b50449b8fd0d6d4519cb6f3e4955af3d42abdc26b86eac7",
+        "implementationSha256": "581135d28c85acf906739af89a085096a76d5271a35180258c9be99c52a686f3"
+      },
+      "waterConverged": true
+    }
+  ],
+  "unchangedReferenceSolverSha256": "b1a9be99db2e526c1b50449b8fd0d6d4519cb6f3e4955af3d42abdc26b86eac7"
+}

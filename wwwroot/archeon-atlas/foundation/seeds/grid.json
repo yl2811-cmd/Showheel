@@ -1,0 +1,16 @@
+{
+  "width": 2908,
+  "height": 2313,
+  "stepM": 2000.0,
+  "xmin": -2520000.0,
+  "ymax": 2422000.0,
+  "projection": "+proj=lcc +lat_0=28 +lon_0=-12 +lat_1=15 +lat_2=45 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+  "nativeScale": 0.0011966445733289253,
+  "nativeTranslate": [
+    5949.483348480791,
+    5539.177953749751
+  ],
+  "projectionCalibrationMaxErrorPixels": 3.637978807091713e-12,
+  "orientation": "row 0 north; heights above mean sea level in metres",
+  "sourceHeightSha256": "8d8ff273acc618caa669194465f1641ac6035c11e52c4456431aafdb4ea37936"
+}

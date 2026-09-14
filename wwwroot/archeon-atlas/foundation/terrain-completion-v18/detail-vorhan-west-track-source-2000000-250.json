@@ -1,0 +1,58 @@
+{
+  "id": "detail-vorhan-west-track-source-2000000-250",
+  "fingerprint": "26b1fcabd904c21eb7232d591d4288ecaaeee01655e30111e004b9460874cb10",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": -1543641.2842859372,
+    "ymax": 536656.3446244267,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "vorhan-west-track-source",
+    "region": "vorhan",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "detail-vorhan-west-track-source-2000000-250-0.png",
+      "rivers": "detail-vorhan-west-track-source-2000000-250-0-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-source-2000000-250-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "detail-vorhan-west-track-source-2000000-250-10000.png",
+      "rivers": "detail-vorhan-west-track-source-2000000-250-10000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-source-2000000-250-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "detail-vorhan-west-track-source-2000000-250-100000.png",
+      "rivers": "detail-vorhan-west-track-source-2000000-250-100000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-source-2000000-250-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "detail-vorhan-west-track-source-2000000-250-500000.png",
+      "rivers": "detail-vorhan-west-track-source-2000000-250-500000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-source-2000000-250-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "detail-vorhan-west-track-source-2000000-250-2000000.png",
+      "rivers": "detail-vorhan-west-track-source-2000000-250-2000000-rivers.geojson",
+      "lakes": "detail-vorhan-west-track-source-2000000-250-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 1.0,
+  "maximumWaterRelativeError": 9.994514676258273e-16,
+  "maximumSolidRelativeError": 1.4782192995522814e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

@@ -1,0 +1,34 @@
+{
+  "frozenFilesUnchanged": 4995,
+  "intentionalSourceChanges": [
+    "maps/archeon-atlas/src/tectonics-pipeline.py",
+    "maps/archeon-atlas/src/tectonics-ecology.py"
+  ],
+  "unexpectedChanges": [],
+  "pythonSyntaxPassed": true,
+  "exoplasimControlYears": 10,
+  "climateControlAcceptedForEcology": false,
+  "compressedNumpyArchives": [],
+  "formalMapOverwritten": false,
+  "manuscriptChange": "two explicitly authorized calendar statements only; outside text byte-identical",
+  "calendarEdit": {
+    "beforeSha256": "aafa60afaf5e328a4ec310c139a4fe904b325c2a1519973653005fdab468d1ec",
+    "afterSha256": "49fa58dc743b5854096a5f81783d902dc2249845b73412101b745faccc54f544",
+    "exactReplacements": [
+      [
+        "（3）一年是五季一轮，共 365.25 个地球日，约 324.67 个本地日。Year 0 是 Sky Fire；Atwood 的记录使这套纪年固定下来。",
+        "（3）纪年沿用地球留下的年长：一年 365.25 个地球日，约 324.67 个本地日。Year 0 是 Sky Fire；Atwood 的记录使这套纪年固定下来。季节的数目与长短另由当地气候决定。"
+      ],
+      [
+        "- 自转、公转与倾角锁定：27 小时太阳日、365.25 地球日公转年（≈ 324.67 个当地日）、13° 轴倾角。365.25 是唯一版本（不再保留 ±10%），并使 3094 年 Ep7 与地球首光严格同日（纪年见§1.0，光壳到达日见§2.2）。27 小时仍属于地球式快速自转区，不产生金星式单一巨型 Hadley cell。",
+        "- 自转与倾角锁定：27 小时太阳日、13° 轴倾角。纪年固定为 365.25 个地球日（≈ 324.67 个当地日），公转周期另行校准，季节的数目与长短以气候模拟为准。3094 年 Ep7 与地球首光严格同日的约定继续按地球纪年计算（纪年见§1.0，光壳到达日见§2.2）。27 小时仍属于地球式快速自转区，不产生金星式单一巨型 Hadley cell。"
+      ]
+    ],
+    "outsideReplacementsByteIdentical": true,
+    "earthYearDays": 365.25,
+    "solarDayHours": 27,
+    "orbitalPeriodUnfixed": true,
+    "namedSeasonCountUnfixed": true,
+    "agesAndEventsUnchanged": true
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "vorhan-plume-west",
+    "center": [
+      87.05204367511122,
+      23.44655794522624
+    ],
+    "coastDistanceKm": 766.1644732040243,
+    "riftDistanceKm": 1381.2806396484375,
+    "majorHighlandDistanceKm": 762.1443432841314,
+    "sceneDistanceKm": 753.5837648363799,
+    "availableActivityRadiusKm": 622.1443432841314,
+    "userRegionAnchor": [
+      90,
+      22
+    ],
+    "selection": "maximize independent inland clearance inside the indicated west/east sector; yellow strokes are not masks",
+    "mainActivityDefinition": "added initial height >=25% of this source maximum",
+    "mainActivityAreaKm2": 251648.0,
+    "mainMinimumCoastDistanceKm": 416.0,
+    "mainMinimumRiftDistanceKm": 1116.5968017578125,
+    "mainMinimumExistingHighlandDistanceKm": 510.4977962734021,
+    "supportOver100mAreaKm2": 332544.0,
+    "sourcePeakAddedM": 2439.884769078836,
+    "sourceOutsideLandFraction": 0.0
+  },
+  {
+    "id": "vorhan-plume-east",
+    "center": [
+      128.00696997921668,
+      10.240841988498552
+    ],
+    "coastDistanceKm": 704.1817947092924,
+    "riftDistanceKm": 1887.495361328125,
+    "majorHighlandDistanceKm": 752.1701935067622,
+    "sceneDistanceKm": 669.3170956239472,
+    "availableActivityRadiusKm": 564.1817947092924,
+    "userRegionAnchor": [
+      133,
+      15
+    ],
+    "selection": "maximize independent inland clearance inside the indicated west/east sector; yellow strokes are not masks",
+    "mainActivityDefinition": "added initial height >=25% of this source maximum",
+    "mainActivityAreaKm2": 210688.0,
+    "mainMinimumCoastDistanceKm": 435.2470562795342,
+    "mainMinimumRiftDistanceKm": 1661.1142578125,
+    "mainMinimumExistingHighlandDistanceKm": 521.1679191968745,
+    "supportOver100mAreaKm2": 280832.0,
+    "sourcePeakAddedM": 2671.0738484628546,
+    "sourceOutsideLandFraction": 0.0
+  }
+]

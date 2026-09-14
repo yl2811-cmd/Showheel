@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "filesVerified": 569,
+  "changedFiles": 5,
+  "bytes": 48444629,
+  "unrelatedFilesPreserved": 347,
+  "chineseSourceSha256": "33e6490d79ed040637d22d34512d874aff2eb45b8687926bfd460cc19a771e29",
+  "englishUnchanged": true,
+  "headUnchanged": true,
+  "compressed": false,
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,17 @@
+{
+  "actualModelOutput": true,
+  "year": 10,
+  "sourceSha256": "bf1aff07dc67a90d6b67a2fffdf79904a2c4eee4a2fc273fac75686f1bfefb62",
+  "globalMeanTemperatureK": 194.02149020647806,
+  "globalMeanPrecipitationMmPerEarthYear": 0.4184130631890439,
+  "snowFraction": 1.0000000001453448,
+  "totalCloudFraction": 0.655394899963781,
+  "greatOchre": {
+    "coarseCellCentresInGreatOchre": 12,
+    "temperatureC": -72.46547487546057,
+    "annualPrecipitationMm": 1.5724698305130005
+  },
+  "acceptedForDesert": false,
+  "acceptedForVegetation": false,
+  "uncertainty": "T21 cannot resolve the Orun rain shadow; no output sea-ice or albedo field saved in this old control, so feedback attribution remains incomplete."
+}

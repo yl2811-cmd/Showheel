@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "httpFiles": 1405,
+  "bodyHashes": 5,
+  "mirror": "http://127.0.0.1:8803/archeon-atlas/evolution.html",
+  "staticVerifier": {
+    "passed": true,
+    "hashedFiles": 6814,
+    "legacyViewGraphs": 5
+  },
+  "scope": "New geomorphology assets and unchanged Chinese mirror; static website validation, no compressed or ASP.NET build."
+}

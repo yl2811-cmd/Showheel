@@ -1,0 +1,22 @@
+{
+  "method": "Actual browser controls and screenshots through computer-use",
+  "origin": "http://127.0.0.1:5270",
+  "homepage": "Title Yingrong Lin — Worldbuilder and work links loaded",
+  "erosion": {
+    "world": "2000000 -> 100000 effective years; caption, image URL and statistics changed",
+    "detail": "Vorhan layered scarp 250m at 100000 years; paired images displayed",
+    "passed": true
+  },
+  "evolution": {
+    "world": "World and polar continuation loaded",
+    "regional": "Aethelgard 2000000 -> 100000 years; caption, image URL and statistics changed; paired terrain screenshot inspected",
+    "passed": true
+  },
+  "tectonics": {
+    "world": "World tectonic baseline loaded",
+    "detail": "Orun ramp 2000000 -> 100000 years; caption, image URL and statistics changed; paired terrain screenshot inspected",
+    "passed": true
+  },
+  "scope": "Viewing and time selection; no brush job submitted and no new simulation started",
+  "passed": true
+}

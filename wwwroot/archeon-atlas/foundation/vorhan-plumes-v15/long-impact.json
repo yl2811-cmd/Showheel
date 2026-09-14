@@ -1,0 +1,61 @@
+{
+  "seed": 5210914,
+  "mode": "erosion-only",
+  "scenario": "baseline",
+  "gridM": 16000,
+  "cases": [
+    {
+      "case": "control",
+      "effectiveYears": 2000000,
+      "passed": true,
+      "waterConverged": false,
+      "affectedOver100mKm2": 0.0,
+      "fractionOfVorhanAffected": 0.0,
+      "maximumAddedInitialM": 0.0,
+      "meanAddedAffectedM": 0.0,
+      "landAbove3000mKm2": 1179648.0,
+      "tabletopProxyKm2": 966656.0,
+      "largestTabletopProxyKm2": 439040.0,
+      "outletChangedAreaKm2": 0.0,
+      "outletComparison": "exact coastal receiving grid cell; nearby-mouth changes also count, not all are basin capture",
+      "standingWaterAreaKm2": 2762496.0,
+      "standingWaterVolumeKm3": 632883.125,
+      "standingWaterChangeKm3": 0.0,
+      "erosionVolumeKm3": 291296.78125,
+      "maximumErosionM": 93.06682586669922,
+      "maximumSolidRelativeError": 9.622908700943958e-15,
+      "maximumWaterRelativeError": 6.789486490090789e-16,
+      "protectedMaximumChangeM": 0.0,
+      "climateEffect": "not computed; historical rain proxy only"
+    },
+    {
+      "case": "both",
+      "effectiveYears": 2000000,
+      "passed": true,
+      "waterConverged": false,
+      "affectedOver100mKm2": 613376.0,
+      "fractionOfVorhanAffected": 0.03694680030840401,
+      "maximumAddedInitialM": 2672.203857421875,
+      "meanAddedAffectedM": 1318.0494384765625,
+      "landAbove3000mKm2": 1263616.0,
+      "tabletopProxyKm2": 1047296.0,
+      "largestTabletopProxyKm2": 439040.0,
+      "outletChangedAreaKm2": 191232.0,
+      "outletComparison": "exact coastal receiving grid cell; nearby-mouth changes also count, not all are basin capture",
+      "standingWaterAreaKm2": 2721280.0,
+      "standingWaterVolumeKm3": 633635.6875,
+      "standingWaterChangeKm3": 752.578857421875,
+      "erosionVolumeKm3": 302310.71875,
+      "maximumErosionM": 93.06682586669922,
+      "maximumSolidRelativeError": 9.467170020837765e-15,
+      "maximumWaterRelativeError": 7.060873244491308e-16,
+      "protectedMaximumChangeM": 0.0,
+      "climateEffect": "not computed; historical rain proxy only"
+    }
+  ],
+  "notes": [
+    "Terrain and water sensitivity; no validated modern climate.",
+    "Tabletop proxy at 16km cannot resolve mesa islands or individual cliff steps.",
+    "Erosion volume includes background geology; use matched control differences."
+  ]
+}

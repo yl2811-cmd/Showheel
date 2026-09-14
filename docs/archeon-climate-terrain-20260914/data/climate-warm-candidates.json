@@ -1,0 +1,25 @@
+{
+  "version": "warm-climate-v18",
+  "target": {"civilYear": 521, "globalNearSurfaceTemperatureC": [12, 14]},
+  "calendar": {"earthYearSeconds": 31557600, "solarDaySeconds": 97200},
+  "earthFluxFractions": [0.6, 0.7, 0.8, 0.9, 1.0],
+  "includeOriginalOrbit": true,
+  "fixedStar": true,
+  "pressurePa": 110000,
+  "co2MoleFraction": 0.001,
+  "oxygenMoleFraction": 0.195,
+  "initialStates": ["cold", "warm"],
+  "seeds": [5210914, 5210915, 5210916],
+  "globalGasHypotheses": {
+    "civilStart": -81, "civilStop": 50,
+    "plateauGroundElectricGW": [300, 400, 500],
+    "gasShareOfElectricity": [0.01, 0.03, 0.1],
+    "sf6ShareOfGasEnergy": 0.7,
+    "rampEarthYears": 35,
+    "minimumElectricalReserveFraction": 0.9,
+    "scope": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified."
+  },
+  "selection": "Radiation and engineering-valid candidates first; smallest orbital change satisfying temperature, seasons and story geography; no CO2 equivalence.",
+  "cloudOutput": ["total", "low", "middle", "high", "liquidWaterPath", "iceWaterPath", "cloudTopHeight", "shortwaveEffect", "longwaveEffect"],
+  "delivery": {"compress": false, "commit": false, "push": false, "changeManuscript": false}
+}

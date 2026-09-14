@@ -1,0 +1,14 @@
+{
+  "record": 2,
+  "elapsedSeconds": 72.38634037971497,
+  "meanTemperatureC": -22.40379790708036,
+  "toaNetWm2": -12.054704173719667,
+  "meanCloudFraction": 0.5353241872600272,
+  "oceanSeaIceFraction": 0.6171773513715945,
+  "planetaryAlbedo": 0.43406992088411595,
+  "incomingShortwaveWm2": 272.2018814802475,
+  "waterVapourColumnKgM2": 1.8929981363821262,
+  "physicalElapsedEarthYears": 1.26694045174538,
+  "climateAccepted": false,
+  "outputSha256": "4235113b728f974435f3d2415569d7142e5db8a392cb5d4328a868898f315343"
+}

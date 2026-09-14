@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14T00:37:54.719Z",
+  "source": "D:\\SKBS\\timelapse-skies_beyond_the_star.txt",
+  "originalHash": "2576cb48b2a458694910bb251a9834a4e660bba3cde79b3829bf2f04bed81aa5",
+  "finalHash": "33e6490d79ed040637d22d34512d874aff2eb45b8687926bfd460cc19a771e29",
+  "beforeBytes": 814837,
+  "afterBytes": 824211,
+  "editCount": 23,
+  "checks": {
+    "reversibleReplacement": true,
+    "tablesUnchanged": true,
+    "fleetToIntroUnchanged": true,
+    "ep5ToEndingUnchanged": true,
+    "retiredClaimsRemoved": true,
+    "newClicheScanPassed": true,
+    "newDuplicateScanPassed": true,
+    "protectedAnchorsPreserved": true
+  },
+  "boundaries": "Geometry and manuscript consistency verified. No radiation-hydrodynamic light curve, neutrino detector response, cosmic-ray dose, or warp failure threshold is claimed as simulated."
+}

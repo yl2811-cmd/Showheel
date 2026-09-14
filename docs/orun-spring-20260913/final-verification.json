@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "totalBytes": 916526788,
+  "budgetBytes": 950000000,
+  "hardCapBytes": 1000000000,
+  "headroomBytes": 83473212,
+  "packedResources": 3144,
+  "copiedResources": 1590,
+  "exportedPages": 10,
+  "atlasHashes": 4606,
+  "unaffectedHashes": 4580,
+  "pushRequested": false,
+  "finalPackage": "compressed-original-default",
+  "defaultMaterialMode": 0
+}

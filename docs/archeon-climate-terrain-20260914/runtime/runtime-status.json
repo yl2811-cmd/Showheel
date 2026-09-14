@@ -1,0 +1,114 @@
+{
+  "engine": "ROCKE-3D",
+  "version": "2.0",
+  "runtime": "ArcheonSim Ubuntu 24.04",
+  "compiledWithSOCRATES": true,
+  "sf6BridgeCompiled": true,
+  "earthBenchmarkExecuted": false,
+  "planetaryGCMExecuted": false,
+  "validatedSF6Spectra": false,
+  "downloadedSpectralTables": 99,
+  "sf6TablesFound": [],
+  "unavailableBenchmarkInputs": [
+    "NCARIC.72x46.D7712010_ext.nc",
+    "GIC.E046D3M20A.1DEC1955.ext_1.nc",
+    "SICE4X5.B.1876-85avg.Hadl1.1.nc",
+    "OTSPEC.E18M20.MXL65m.1956-1960",
+    "Z1O.B4X5.cor.nc",
+    "Z72X46N.cor4_nocasp.nc",
+    "S4X50093.ext.nc",
+    "V72X46.1.cor2_no_crops.ext.nc",
+    "CROPS2007_72X46N.cor4_nocasp.nc",
+    "soil_textures_top30cm",
+    "soilcarb_top30cm_4x5.nc",
+    "CD4X500S.ext.nc",
+    "REG4X5",
+    "RD_modelE_M.nc",
+    "RD_modelE_M.names.txt",
+    "top_index_72x46_a.ij.ext.nc",
+    "GLMELT_4X5.OCN.nc",
+    "sgpgxg.table8",
+    "miescatpar.abcdv2",
+    "oct2003.relhum.nr.Q633G633.table",
+    "GHG.CMIP6.1-2014.txt",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/BCdalbsn",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/DUST",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/SUL",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/SSA",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/NIT",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/OCA",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/BCA",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/BCB",
+    "cmip6_nint_inputs_E14TomaOCNf10_4av_decadal/72x46/O3",
+    "o3_2010_shindell_72x46x49_April1850.nc",
+    "MSU_SSU_RSS_weights.txt"
+  ],
+  "radiationValidation": false,
+  "climateReady": false,
+  "vegetationReady": false,
+  "blockers": [
+    "Author initialization examples and benchmark restarts acquired; native candidate binding and mandatory RADN1/RADN3 lookup tables remain unresolved. Original NASA portal still times out.",
+    "PTB measured SF6 at 296K acquired; cold upper-atmosphere coverage and SOCRATES absorption-table validation remain incomplete",
+    "Measured SF6/background column comparison and zero-gas GCM regression not completed"
+  ],
+  "scope": "Compilation and input preparation only; no planetary climate output or fitted temperature claimed",
+  "publicSF6Measurements": {
+    "source": "10.7795/720.20231027",
+    "files": 16,
+    "measurementAuditPassed": true,
+    "temperatureCoverageK": [
+      296.05,
+      296.05
+    ],
+    "fullAtmosphericTableValidated": false
+  },
+  "publicNativeSources": {
+    "source": "https://doi.org/10.5281/zenodo.14721185",
+    "restarts": [
+      {
+        "file": "1JAN2800.rsfP2SNqM40.nc",
+        "bytes": 76709232,
+        "sha256": "1b197578370b850aa2e2627811b45264910987f0f575b3e9ffea01e3adea83ab"
+      },
+      {
+        "file": "1JAN2600.rsfP2SAqM40.nc",
+        "bytes": 76711280,
+        "sha256": "c3b75dde7c5f242501c41d617406d1905f967cdcd2bff6b3b36314d77d4ed6ad"
+      }
+    ],
+    "templatesSource": "https://doi.org/10.5281/zenodo.14736289",
+    "nativeBindingValidated": false
+  },
+  "standaloneColumnBenchmark": {
+    "passed": true,
+    "referenceSource": "MetOffice/socrates",
+    "sourceCommit": "76a675b2e7fc2d3d325ec3e6fed7a78f45e0cff6",
+    "outputSha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+    "comparedValues": 384,
+    "comparisons": [
+      {
+        "reference": "gfortran_8_1_0.txt",
+        "sha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+        "maximumAbsoluteDifference": 0.0,
+        "passed": true
+      },
+      {
+        "reference": "ifort_19_0_0.txt",
+        "sha256": "8d3fda6510be3e9c481bb3892ee10165b4e89fb0617c82b0b1cc1e44af926459",
+        "maximumAbsoluteDifference": 3.399999997100167e-07,
+        "passed": true
+      },
+      {
+        "reference": "ifx_2025_0_4.txt",
+        "sha256": "56319918a3975b06e5241d4092ebeb52d8f6c3c48646b6eabf0c9135ac5ae462",
+        "maximumAbsoluteDifference": 3.399999997100167e-07,
+        "passed": true
+      }
+    ],
+    "scope": "official standalone column and interface regression; not Archeon SF6/N2O validation",
+    "archeonClimateAccepted": false,
+    "sf6RadiationValidated": false
+  },
+  "formalArcheonGCMExecuted": false,
+  "lastPortalProbe": "Required RADN1 HEAD request timed out after 15 seconds on this continuation"
+}

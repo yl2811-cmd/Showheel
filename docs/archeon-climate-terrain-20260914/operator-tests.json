@@ -1,0 +1,19 @@
+{
+  "syntheticTestsOnly": true,
+  "passed": true,
+  "checks": [
+    "two separate 20-year windows",
+    "temperature drift rejected",
+    "sea-ice drift rejected",
+    "water imbalance rejected",
+    "PET humidity/wind response",
+    "27-hour physical clock",
+    "duration-weighted aridity",
+    "prepared-only climate refused",
+    "18-source inventory and 7 shape-only motifs",
+    "orographic precipitation conservation",
+    "soil/groundwater/lake conservation and periodic convergence"
+  ],
+  "referencePETmPerSecond": 4.4816800551649576e-08,
+  "soilLakeWaterError": 5.712528705350624e-16
+}

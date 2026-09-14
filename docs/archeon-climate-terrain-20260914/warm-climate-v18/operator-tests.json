@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "syntheticTestsOnly": true,
+  "checks": [
+    "old Earth-year calendar accepted",
+    "new sidereal/solar relation",
+    "80 half-orbits cover 40 Earth years",
+    "40 half-orbits rejected as too short",
+    "physical temperature trend rejected",
+    "missing interval rejected",
+    "cold balanced climate rejected by 12-14C target",
+    "same SI river flow under two orbital periods",
+    "rain totals scale with actual duration",
+    "finite ramped gas inventory and unchanged 471 Earth-year decay"
+  ],
+  "maximumWaterRelativeError": 4.454667927051077e-16
+}

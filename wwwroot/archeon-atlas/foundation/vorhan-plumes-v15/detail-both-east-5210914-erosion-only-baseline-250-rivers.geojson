@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "climateValidated": false,
+    "seasonalWaterConverged": true,
+    "effectiveYears": 100000,
+    "sourceHeightSha256": "ae42b94c0a22a65a568737a05bf79688ba64e67bf0229407003eb92f9baed037"
+  },
+  "features": []
+}

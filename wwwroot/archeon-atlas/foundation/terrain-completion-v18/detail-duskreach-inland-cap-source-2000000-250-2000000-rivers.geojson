@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 2000000,
+    "sourceHeightSha256": "1da53ec61f23aa16478f86b6464e0e3ed9797b1329603d8cd8df528e1a957979"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "river-54040",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.0036352,
+            -33.7320409
+          ],
+          [
+            69.0039078,
+            -33.7290361
+          ],
+          [
+            69.0005608,
+            -33.7258194
+          ],
+          [
+            68.9972141,
+            -33.7226026
+          ],
+          [
+            68.9974868,
+            -33.7195979
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 55.33600997924805,
+        "headDischargeM3s": 53.22774887084961,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-54554",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.0030899,
+            -33.7380505
+          ],
+          [
+            69.0033626,
+            -33.7350457
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 53.225799560546875,
+        "headDischargeM3s": 53.14577102661133,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-65309",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.8502321,
+            -33.8558957
+          ],
+          [
+            68.853578,
+            -33.8591162
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 121.55573272705078,
+        "headDischargeM3s": 121.5539779663086,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    }
+  ]
+}

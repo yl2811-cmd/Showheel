@@ -1,0 +1,15 @@
+{
+  "year": 4,
+  "dataSha256": "434dc2955bfee63b14de2db8dabb99038683b5056582cf422e4d42db02fff5bd",
+  "engine": "ExoPlaSim 3.4.2",
+  "grid": "T21, 32 Gaussian latitudes x 64 longitudes, 10 sigma layers",
+  "windSigma": 0.8233500123023987,
+  "rainConversion": "m/s times 31557600 seconds per orbit times 1000 mm/m",
+  "sourceFields": [
+    "ua",
+    "va",
+    "tas",
+    "pr"
+  ],
+  "state": "transient control, radiation incomplete, not usable for vegetation or desert acceptance"
+}

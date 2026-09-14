@@ -1,0 +1,2536 @@
+{
+  "hypotheses": {
+    "civilStart": -81,
+    "civilStop": 50,
+    "plateauGroundElectricGW": [
+      300,
+      400,
+      500
+    ],
+    "gasShareOfElectricity": [
+      0.01,
+      0.03,
+      0.1
+    ],
+    "sf6ShareOfGasEnergy": 0.7,
+    "rampEarthYears": 35,
+    "minimumElectricalReserveFraction": 0.9,
+    "scope": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified."
+  },
+  "atmosphericMassKg": 3.2452115810744284e+18,
+  "meanMolarMassKgMol": 0.0288063931,
+  "cases": [
+    {
+      "id": "p300-g0.01",
+      "peakTotalElectricGW": 300,
+      "gasElectricShare": 0.01,
+      "peakGasElectricGW": 3.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 20.999999999999996,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 40687488570.74965,
+                  "cumulativeInjectedKg": 42082059599.99999,
+                  "moleFraction": 2.472807564471507e-09,
+                  "ppbv": 2.472807564471507
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 70909953518.28256,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 4.3095967732545e-09,
+                  "ppbv": 4.3095967732545
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 43414166800.34352,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 2.6385231391817815e-09,
+                  "ppbv": 2.6385231391817814
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 39119424939.42128,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 2.377507516586295e-09,
+                  "ppbv": 2.3775075165862947
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 41656911937.6752,
+                  "cumulativeInjectedKg": 42082059599.99999,
+                  "moleFraction": 2.5317248758887637e-09,
+                  "ppbv": 2.531724875888764
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 73889033477.5952,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 4.4906522209443755e-09,
+                  "ppbv": 4.4906522209443756
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 63775998477.47367,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 3.8760261939635985e-09,
+                  "ppbv": 3.8760261939635985
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 61813817286.2802,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 3.756773404890372e-09,
+                  "ppbv": 3.756773404890372
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 41939688023.60265,
+                  "cumulativeInjectedKg": 42082059599.99999,
+                  "moleFraction": 2.548910769363539e-09,
+                  "ppbv": 2.548910769363539
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 74771159307.82248,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 4.544263969971566e-09,
+                  "ppbv": 4.544263969971566
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 71191237347.2068,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 4.326691973876625e-09,
+                  "ppbv": 4.326691973876625
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 70453510953.8299,
+                  "cumulativeInjectedKg": 75217539599.99998,
+                  "moleFraction": 4.281856190933656e-09,
+                  "ppbv": 4.281856190933656
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 7.521753959999999e+18,
+          "minimumElementFeedstockKg": {
+            "fluorine": 58704443025.02371,
+            "sulfur": 16513302572.825304
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 45.00000000000001,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 39453947949.069336,
+                  "cumulativeInjectedKg": 90175842000.00002,
+                  "moleFraction": 7.95710998841405e-09,
+                  "ppbv": 7.95710998841405
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 44923492593.75547,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 9.060212987903236e-09,
+                  "ppbv": 9.060212987903236
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 24948.200901984044,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 5.031577038789608e-15,
+                  "ppbv": 5.0315770387896085e-06
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1171.983644585394,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 2.363667832843156e-16,
+                  "ppbv": 2.363667832843156e-07
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 67973838185.02141,
+                  "cumulativeInjectedKg": 90175842000.00002,
+                  "moleFraction": 1.3709028750965155e-08,
+                  "ppbv": 13.709028750965155
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 99913949412.82408,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 2.0150740957051224e-08,
+                  "ppbv": 20.150740957051223
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 1327381749.0494504,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 2.6770762174255465e-10,
+                  "ppbv": 0.26770762174255464
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 530347514.0472347,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 1.0696099429145612e-10,
+                  "ppbv": 0.10696099429145613
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 81777940307.4711,
+                  "cumulativeInjectedKg": 90175842000.00002,
+                  "moleFraction": 1.6493053280561642e-08,
+                  "ppbv": 16.493053280561643
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 136025268151.13333,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 2.7433706286612926e-08,
+                  "ppbv": 27.433706286612924
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 32216337228.574814,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 6.497421730330412e-09,
+                  "ppbv": 6.497421730330411
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 23728178157.160877,
+                  "cumulativeInjectedKg": 161180442000.00003,
+                  "moleFraction": 4.785521683785427e-09,
+                  "ppbv": 4.7855216837854275
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 3.2236088400000005e+18,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 102588148817.91293,
+            "oxygen": 58590095916.16115
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p300-g0.03",
+      "peakTotalElectricGW": 300,
+      "gasElectricShare": 0.03,
+      "peakGasElectricGW": 9.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 63.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 122062465712.249,
+                  "cumulativeInjectedKg": 126246178800.0,
+                  "moleFraction": 7.418422693414523e-09,
+                  "ppbv": 7.418422693414523
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 212729860554.84772,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.2928790319763503e-08,
+                  "ppbv": 12.928790319763502
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 130242500401.03058,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 7.915569417545344e-09,
+                  "ppbv": 7.915569417545344
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 117358274818.26385,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 7.132522549758886e-09,
+                  "ppbv": 7.132522549758886
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 124970735813.0256,
+                  "cumulativeInjectedKg": 126246178800.0,
+                  "moleFraction": 7.595174627666292e-09,
+                  "ppbv": 7.595174627666292
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 221667100432.7856,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.3471956662833127e-08,
+                  "ppbv": 13.471956662833126
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 191327995432.42102,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.1628078581890796e-08,
+                  "ppbv": 11.628078581890797
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 185441451858.8406,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.1270320214671117e-08,
+                  "ppbv": 11.270320214671118
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 125819064070.80798,
+                  "cumulativeInjectedKg": 126246178800.0,
+                  "moleFraction": 7.646732308090618e-09,
+                  "ppbv": 7.646732308090619
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 224313477923.46747,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.3632791909914701e-08,
+                  "ppbv": 13.632791909914701
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 213573712041.62042,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.2980075921629877e-08,
+                  "ppbv": 12.980075921629878
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 211360532861.48975,
+                  "cumulativeInjectedKg": 225652618800.0,
+                  "moleFraction": 1.284556857280097e-08,
+                  "ppbv": 12.84556857280097
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 2.256526188e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 176113329075.07117,
+            "sulfur": 49539907718.47592
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 135.00000000000003,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 118361843847.20798,
+                  "cumulativeInjectedKg": 270527526000.00006,
+                  "moleFraction": 2.387132996524214e-08,
+                  "ppbv": 23.87132996524214
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 134770477781.26642,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 2.718063896370971e-08,
+                  "ppbv": 27.18063896370971
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 74844.60270595213,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 1.5094731116368825e-14,
+                  "ppbv": 1.5094731116368825e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 3515.9509337561817,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 7.091003498529468e-16,
+                  "ppbv": 7.091003498529468e-07
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 203921514555.06424,
+                  "cumulativeInjectedKg": 270527526000.00006,
+                  "moleFraction": 4.112708625289546e-08,
+                  "ppbv": 41.12708625289546
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 299741848238.4723,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 6.045222287115368e-08,
+                  "ppbv": 60.45222287115368
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 3982145247.148352,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 8.031228652276642e-10,
+                  "ppbv": 0.8031228652276642
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1591042542.1417043,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 3.2088298287436833e-10,
+                  "ppbv": 0.32088298287436834
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 245333820922.4133,
+                  "cumulativeInjectedKg": 270527526000.00006,
+                  "moleFraction": 4.9479159841684924e-08,
+                  "ppbv": 49.479159841684925
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 408075804453.4,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 8.230111885983878e-08,
+                  "ppbv": 82.30111885983878
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 96649011685.72444,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 1.9492265190991234e-08,
+                  "ppbv": 19.492265190991233
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 71184534471.48264,
+                  "cumulativeInjectedKg": 483541326000.00006,
+                  "moleFraction": 1.4356565051356284e-08,
+                  "ppbv": 14.356565051356284
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 9.670826520000002e+18,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 307764446453.7388,
+            "oxygen": 175770287748.48343
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p300-g0.1",
+      "peakTotalElectricGW": 300,
+      "gasElectricShare": 0.1,
+      "peakGasElectricGW": 30.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 210.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 406874885707.4966,
+                  "cumulativeInjectedKg": 420820596000.0,
+                  "moleFraction": 2.4728075644715074e-08,
+                  "ppbv": 24.728075644715073
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 709099535182.8258,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 4.309596773254501e-08,
+                  "ppbv": 43.09596773254501
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 434141668003.43536,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 2.638523139181782e-08,
+                  "ppbv": 26.38523139181782
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 391194249394.2129,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 2.3775075165862958e-08,
+                  "ppbv": 23.775075165862958
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 416569119376.752,
+                  "cumulativeInjectedKg": 420820596000.0,
+                  "moleFraction": 2.531724875888764e-08,
+                  "ppbv": 25.31724875888764
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 738890334775.9521,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 4.4906522209443765e-08,
+                  "ppbv": 44.906522209443764
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 637759984774.7368,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 3.8760261939635994e-08,
+                  "ppbv": 38.760261939635996
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 618138172862.8021,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 3.756773404890373e-08,
+                  "ppbv": 37.56773404890373
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 419396880236.0266,
+                  "cumulativeInjectedKg": 420820596000.0,
+                  "moleFraction": 2.5489107693635395e-08,
+                  "ppbv": 25.489107693635393
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 747711593078.225,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 4.544263969971568e-08,
+                  "ppbv": 45.44263969971568
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 711912373472.0682,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 4.3266919738766265e-08,
+                  "ppbv": 43.26691973876626
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 704535109538.2992,
+                  "cumulativeInjectedKg": 752175396000.0,
+                  "moleFraction": 4.2818561909336565e-08,
+                  "ppbv": 42.818561909336566
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 7.52175396e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 587044430250.2372,
+            "sulfur": 165133025728.25308
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 450.0000000000001,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 394539479490.69336,
+                  "cumulativeInjectedKg": 901758420000.0002,
+                  "moleFraction": 7.95710998841405e-08,
+                  "ppbv": 79.5710998841405
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 449234925937.5548,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 9.06021298790324e-08,
+                  "ppbv": 90.60212987903239
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 249482.00901984048,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 5.031577038789609e-14,
+                  "ppbv": 5.031577038789609e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 11719.836445853942,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 2.3636678328431565e-15,
+                  "ppbv": 2.3636678328431566e-06
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 679738381850.2141,
+                  "cumulativeInjectedKg": 901758420000.0002,
+                  "moleFraction": 1.3709028750965155e-07,
+                  "ppbv": 137.09028750965155
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 999139494128.241,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 2.0150740957051225e-07,
+                  "ppbv": 201.50740957051224
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 13273817490.494507,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 2.677076217425547e-09,
+                  "ppbv": 2.677076217425547
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 5303475140.472348,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 1.0696099429145615e-09,
+                  "ppbv": 1.0696099429145616
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 817779403074.711,
+                  "cumulativeInjectedKg": 901758420000.0002,
+                  "moleFraction": 1.6493053280561643e-07,
+                  "ppbv": 164.93053280561642
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1360252681511.3335,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 2.743370628661293e-07,
+                  "ppbv": 274.3370628661293
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 322163372285.74817,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 6.497421730330412e-08,
+                  "ppbv": 64.97421730330412
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 237281781571.6088,
+                  "cumulativeInjectedKg": 1611804420000.0002,
+                  "moleFraction": 4.7855216837854277e-08,
+                  "ppbv": 47.85521683785428
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 3.2236088400000004e+19,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 1025881488179.1293,
+            "oxygen": 585900959161.6115
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p400-g0.01",
+      "peakTotalElectricGW": 400,
+      "gasElectricShare": 0.01,
+      "peakGasElectricGW": 4.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 28.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 54249984760.99954,
+                  "cumulativeInjectedKg": 56109412800.0,
+                  "moleFraction": 3.2970767526286763e-09,
+                  "ppbv": 3.2970767526286764
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 94546604691.04343,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.746129031006001e-09,
+                  "ppbv": 5.746129031006001
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 57885555733.79137,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 3.5180308522423753e-09,
+                  "ppbv": 3.5180308522423753
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 52159233252.561714,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 3.1700100221150603e-09,
+                  "ppbv": 3.1700100221150604
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 55542549250.233604,
+                  "cumulativeInjectedKg": 56109412800.0,
+                  "moleFraction": 3.375633167851685e-09,
+                  "ppbv": 3.375633167851685
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 98518711303.46028,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.987536294592502e-09,
+                  "ppbv": 5.987536294592502
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 85034664636.63158,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.1680349252847994e-09,
+                  "ppbv": 5.1680349252847995
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 82418423048.37361,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.0090312065204964e-09,
+                  "ppbv": 5.009031206520496
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 55919584031.470215,
+                  "cumulativeInjectedKg": 56109412800.0,
+                  "moleFraction": 3.3985476924847193e-09,
+                  "ppbv": 3.398547692484719
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 99694879077.09666,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 6.059018626628757e-09,
+                  "ppbv": 6.059018626628757
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 94921649796.27576,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.768922631835502e-09,
+                  "ppbv": 5.768922631835502
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 93938014605.10657,
+                  "cumulativeInjectedKg": 100290052800.0,
+                  "moleFraction": 5.7091415879115425e-09,
+                  "ppbv": 5.709141587911542
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.002900528e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 78272590700.03163,
+            "sulfur": 22017736763.76708
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 60.000000000000014,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 52605263932.092445,
+                  "cumulativeInjectedKg": 120234456000.00003,
+                  "moleFraction": 1.0609479984552066e-08,
+                  "ppbv": 10.609479984552067
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 59897990125.00731,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 1.2080283983870985e-08,
+                  "ppbv": 12.080283983870984
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 33264.26786931207,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 6.708769385052813e-15,
+                  "ppbv": 6.708769385052813e-06
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1562.6448594471922,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 3.1515571104575416e-16,
+                  "ppbv": 3.1515571104575416e-07
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 90631784246.69522,
+                  "cumulativeInjectedKg": 120234456000.00003,
+                  "moleFraction": 1.8278705001286874e-08,
+                  "ppbv": 18.278705001286873
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 133218599217.0988,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 2.6867654609401637e-08,
+                  "ppbv": 26.867654609401637
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 1769842332.0659344,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 3.5694349565673965e-10,
+                  "ppbv": 0.35694349565673966
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 707130018.7296464,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 1.4261465905527486e-10,
+                  "ppbv": 0.14261465905527487
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 109037253743.2948,
+                  "cumulativeInjectedKg": 120234456000.00003,
+                  "moleFraction": 2.199073770741552e-08,
+                  "ppbv": 21.99073770741552
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 181367024201.51114,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 3.657827504881724e-08,
+                  "ppbv": 36.57827504881724
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 42955116304.766426,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 8.663228973773883e-09,
+                  "ppbv": 8.663228973773883
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 31637570876.214508,
+                  "cumulativeInjectedKg": 214907256000.00003,
+                  "moleFraction": 6.380695578380571e-09,
+                  "ppbv": 6.380695578380571
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 4.2981451200000005e+18,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 136784198423.8839,
+            "oxygen": 78120127888.21486
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p400-g0.03",
+      "peakTotalElectricGW": 400,
+      "gasElectricShare": 0.03,
+      "peakGasElectricGW": 12.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 83.99999999999999,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 162749954282.9986,
+                  "cumulativeInjectedKg": 168328238399.99997,
+                  "moleFraction": 9.891230257886028e-09,
+                  "ppbv": 9.891230257886027
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 283639814073.13025,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.7238387093018e-08,
+                  "ppbv": 17.238387093018
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 173656667201.37408,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.0554092556727126e-08,
+                  "ppbv": 10.554092556727126
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 156477699757.68512,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 9.51003006634518e-09,
+                  "ppbv": 9.510030066345179
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 166627647750.7008,
+                  "cumulativeInjectedKg": 168328238399.99997,
+                  "moleFraction": 1.0126899503555055e-08,
+                  "ppbv": 10.126899503555055
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 295556133910.3808,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.7962608883777502e-08,
+                  "ppbv": 17.962608883777502
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 255103993909.89468,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.5504104775854394e-08,
+                  "ppbv": 15.504104775854394
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 247255269145.1208,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.5027093619561488e-08,
+                  "ppbv": 15.027093619561487
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 167758752094.4106,
+                  "cumulativeInjectedKg": 168328238399.99997,
+                  "moleFraction": 1.0195643077454156e-08,
+                  "ppbv": 10.195643077454156
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 299084637231.2899,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.8177055879886264e-08,
+                  "ppbv": 18.177055879886264
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 284764949388.8272,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.73067678955065e-08,
+                  "ppbv": 17.3067678955065
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 281814043815.3196,
+                  "cumulativeInjectedKg": 300870158399.99994,
+                  "moleFraction": 1.7127424763734623e-08,
+                  "ppbv": 17.127424763734624
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 3.0087015839999996e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 234817772100.09485,
+            "sulfur": 66053210291.301216
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 180.00000000000003,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 157815791796.27734,
+                  "cumulativeInjectedKg": 360703368000.00006,
+                  "moleFraction": 3.18284399536562e-08,
+                  "ppbv": 31.8284399536562
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 179693970375.02188,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 3.6240851951612944e-08,
+                  "ppbv": 36.240851951612946
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 99792.80360793618,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 2.0126308155158433e-14,
+                  "ppbv": 2.0126308155158434e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 4687.934578341576,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 9.454671331372624e-16,
+                  "ppbv": 9.454671331372624e-07
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 271895352740.08563,
+                  "cumulativeInjectedKg": 360703368000.00006,
+                  "moleFraction": 5.483611500386062e-08,
+                  "ppbv": 54.83611500386062
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 399655797651.2963,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 8.06029638282049e-08,
+                  "ppbv": 80.60296382820489
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 5309526996.197802,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 1.0708304869702186e-09,
+                  "ppbv": 1.0708304869702185
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 2121390056.1889389,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 4.278439771658245e-10,
+                  "ppbv": 0.4278439771658245
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 327111761229.8844,
+                  "cumulativeInjectedKg": 360703368000.00006,
+                  "moleFraction": 6.597221312224657e-08,
+                  "ppbv": 65.97221312224657
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 544101072604.5333,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 1.097348251464517e-07,
+                  "ppbv": 109.7348251464517
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 128865348914.29926,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 2.5989686921321647e-08,
+                  "ppbv": 25.989686921321645
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 94912712628.64351,
+                  "cumulativeInjectedKg": 644721768000.0001,
+                  "moleFraction": 1.914208673514171e-08,
+                  "ppbv": 19.14208673514171
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.2894435360000002e+19,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 410352595271.65173,
+            "oxygen": 234360383664.6446
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p400-g0.1",
+      "peakTotalElectricGW": 400,
+      "gasElectricShare": 0.1,
+      "peakGasElectricGW": 40.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 280.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 542499847609.9955,
+                  "cumulativeInjectedKg": 561094128000.0,
+                  "moleFraction": 3.297076752628677e-08,
+                  "ppbv": 32.97076752628677
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 945466046910.4343,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.746129031006002e-08,
+                  "ppbv": 57.461290310060015
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 578855557337.9137,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 3.518030852242376e-08,
+                  "ppbv": 35.18030852242376
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 521592332525.6171,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 3.17001002211506e-08,
+                  "ppbv": 31.7001002211506
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 555425492502.336,
+                  "cumulativeInjectedKg": 561094128000.0,
+                  "moleFraction": 3.375633167851685e-08,
+                  "ppbv": 33.75633167851685
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 985187113034.6028,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.987536294592502e-08,
+                  "ppbv": 59.875362945925026
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 850346646366.3158,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.1680349252847996e-08,
+                  "ppbv": 51.680349252847996
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 824184230483.7361,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.009031206520497e-08,
+                  "ppbv": 50.09031206520497
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 559195840314.7021,
+                  "cumulativeInjectedKg": 561094128000.0,
+                  "moleFraction": 3.39854769248472e-08,
+                  "ppbv": 33.9854769248472
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 996948790770.9666,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 6.059018626628756e-08,
+                  "ppbv": 60.59018626628756
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 949216497962.7576,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.768922631835502e-08,
+                  "ppbv": 57.68922631835502
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 939380146051.0656,
+                  "cumulativeInjectedKg": 1002900528000.0,
+                  "moleFraction": 5.7091415879115427e-08,
+                  "ppbv": 57.091415879115424
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.002900528e+20,
+          "minimumElementFeedstockKg": {
+            "fluorine": 782725907000.3163,
+            "sulfur": 220177367637.67078
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 600.0000000000001,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 526052639320.92444,
+                  "cumulativeInjectedKg": 1202344560000.0002,
+                  "moleFraction": 1.0609479984552066e-07,
+                  "ppbv": 106.09479984552065
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 598979901250.073,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 1.2080283983870981e-07,
+                  "ppbv": 120.80283983870982
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 332642.6786931206,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 6.708769385052812e-14,
+                  "ppbv": 6.708769385052812e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 15626.44859447192,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 3.1515571104575417e-15,
+                  "ppbv": 3.151557110457542e-06
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 906317842466.9521,
+                  "cumulativeInjectedKg": 1202344560000.0002,
+                  "moleFraction": 1.8278705001286874e-07,
+                  "ppbv": 182.78705001286875
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1332185992170.988,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 2.686765460940164e-07,
+                  "ppbv": 268.6765460940164
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 17698423320.659344,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 3.569434956567396e-09,
+                  "ppbv": 3.569434956567396
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 7071300187.296464,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 1.4261465905527485e-09,
+                  "ppbv": 1.4261465905527486
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 1090372537432.9479,
+                  "cumulativeInjectedKg": 1202344560000.0002,
+                  "moleFraction": 2.199073770741552e-07,
+                  "ppbv": 219.9073770741552
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1813670242015.1113,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 3.6578275048817236e-07,
+                  "ppbv": 365.7827504881724
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 429551163047.66425,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 8.663228973773882e-08,
+                  "ppbv": 86.63228973773883
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 316375708762.1451,
+                  "cumulativeInjectedKg": 2149072560000.0002,
+                  "moleFraction": 6.380695578380572e-08,
+                  "ppbv": 63.80695578380571
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 4.298145120000001e+19,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 1367841984238.8389,
+            "oxygen": 781201278882.1486
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p500-g0.01",
+      "peakTotalElectricGW": 500,
+      "gasElectricShare": 0.01,
+      "peakGasElectricGW": 5.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 35.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 67812480951.249435,
+                  "cumulativeInjectedKg": 70136766000.0,
+                  "moleFraction": 4.121345940785846e-09,
+                  "ppbv": 4.121345940785846
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 118183255863.80429,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 7.182661288757502e-09,
+                  "ppbv": 7.182661288757502
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 72356944667.23921,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 4.39753856530297e-09,
+                  "ppbv": 4.39753856530297
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 65199041565.70214,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 3.962512527643825e-09,
+                  "ppbv": 3.962512527643825
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 69428186562.792,
+                  "cumulativeInjectedKg": 70136766000.0,
+                  "moleFraction": 4.2195414598146065e-09,
+                  "ppbv": 4.219541459814606
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 123148389129.32535,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 7.484420368240628e-09,
+                  "ppbv": 7.484420368240628
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 106293330795.78947,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 6.4600436566059995e-09,
+                  "ppbv": 6.4600436566059996
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 103023028810.46701,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 6.261289008150621e-09,
+                  "ppbv": 6.261289008150621
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 69899480039.33777,
+                  "cumulativeInjectedKg": 70136766000.0,
+                  "moleFraction": 4.2481846156059e-09,
+                  "ppbv": 4.2481846156059
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 124618598846.37082,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 7.573773283285945e-09,
+                  "ppbv": 7.573773283285945
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 118652062245.3447,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 7.211153289794377e-09,
+                  "ppbv": 7.211153289794377
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 117422518256.3832,
+                  "cumulativeInjectedKg": 125362566000.0,
+                  "moleFraction": 7.136426984889428e-09,
+                  "ppbv": 7.136426984889428
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.25362566e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 97840738375.03954,
+            "sulfur": 27522170954.708847
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 75.00000000000001,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 65756579915.115555,
+                  "cumulativeInjectedKg": 150293070000.00003,
+                  "moleFraction": 1.3261849980690082e-08,
+                  "ppbv": 13.261849980690082
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 74872487656.25912,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 1.5100354979838727e-08,
+                  "ppbv": 15.100354979838727
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 41580.334836640075,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 8.385961731316015e-15,
+                  "ppbv": 8.385961731316014e-06
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1953.30607430899,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 3.939446388071927e-16,
+                  "ppbv": 3.9394463880719273e-07
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 113289730308.36902,
+                  "cumulativeInjectedKg": 150293070000.00003,
+                  "moleFraction": 2.2848381251608592e-08,
+                  "ppbv": 22.848381251608593
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 166523249021.3735,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 3.358456826175205e-08,
+                  "ppbv": 33.58456826175205
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 2212302915.082418,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 4.461793695709245e-10,
+                  "ppbv": 0.4461793695709245
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 883912523.412058,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 1.7826832381909357e-10,
+                  "ppbv": 0.17826832381909358
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 136296567179.11848,
+                  "cumulativeInjectedKg": 150293070000.00003,
+                  "moleFraction": 2.74884221342694e-08,
+                  "ppbv": 27.4884221342694
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 226708780251.88892,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 4.5722843811021545e-08,
+                  "ppbv": 45.72284381102155
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 53693895380.95803,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 1.0829036217217353e-08,
+                  "ppbv": 10.829036217217354
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 39546963595.268135,
+                  "cumulativeInjectedKg": 268634070000.00003,
+                  "moleFraction": 7.975869472975714e-09,
+                  "ppbv": 7.975869472975714
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 5.372681400000001e+18,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 170980248029.85486,
+            "oxygen": 97650159860.26857
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p500-g0.03",
+      "peakTotalElectricGW": 500,
+      "gasElectricShare": 0.03,
+      "peakGasElectricGW": 15.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 105.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 203437442853.7483,
+                  "cumulativeInjectedKg": 210410298000.0,
+                  "moleFraction": 1.2364037822357537e-08,
+                  "ppbv": 12.364037822357536
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 354549767591.4129,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 2.1547983866272507e-08,
+                  "ppbv": 21.547983866272507
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 217070834001.71768,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 1.319261569590891e-08,
+                  "ppbv": 13.19261569590891
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 195597124697.10645,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 1.1887537582931479e-08,
+                  "ppbv": 11.887537582931479
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 208284559688.376,
+                  "cumulativeInjectedKg": 210410298000.0,
+                  "moleFraction": 1.265862437944382e-08,
+                  "ppbv": 12.65862437944382
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 369445167387.9761,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 2.2453261104721883e-08,
+                  "ppbv": 22.453261104721882
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 318879992387.3684,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 1.9380130969817997e-08,
+                  "ppbv": 19.380130969817998
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 309069086431.40106,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 1.8783867024451864e-08,
+                  "ppbv": 18.783867024451865
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 209698440118.0133,
+                  "cumulativeInjectedKg": 210410298000.0,
+                  "moleFraction": 1.2744553846817697e-08,
+                  "ppbv": 12.744553846817697
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 373855796539.1125,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 2.272131984985784e-08,
+                  "ppbv": 22.72131984985784
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 355956186736.0341,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 2.1633459869383132e-08,
+                  "ppbv": 21.63345986938313
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 352267554769.1496,
+                  "cumulativeInjectedKg": 376087698000.0,
+                  "moleFraction": 2.1409280954668283e-08,
+                  "ppbv": 21.409280954668283
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 3.76087698e+19,
+          "minimumElementFeedstockKg": {
+            "fluorine": 293522215125.1186,
+            "sulfur": 82566512864.12654
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 225.00000000000006,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 197269739745.34668,
+                  "cumulativeInjectedKg": 450879210000.0001,
+                  "moleFraction": 3.978554994207025e-08,
+                  "ppbv": 39.78554994207025
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 224617462968.7774,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 4.53010649395162e-08,
+                  "ppbv": 45.301064939516195
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 124741.00450992024,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 2.5157885193948044e-14,
+                  "ppbv": 2.5157885193948045e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 5859.918222926971,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 1.1818339164215782e-15,
+                  "ppbv": 1.1818339164215783e-06
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 339869190925.10706,
+                  "cumulativeInjectedKg": 450879210000.0001,
+                  "moleFraction": 6.854514375482577e-08,
+                  "ppbv": 68.54514375482577
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 499569747064.1205,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 1.0075370478525612e-07,
+                  "ppbv": 100.75370478525612
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 6636908745.247253,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 1.3385381087127734e-09,
+                  "ppbv": 1.3385381087127735
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 2651737570.236174,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 5.348049714572808e-10,
+                  "ppbv": 0.5348049714572808
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 408889701537.3555,
+                  "cumulativeInjectedKg": 450879210000.0001,
+                  "moleFraction": 8.246526640280822e-08,
+                  "ppbv": 82.46526640280821
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 680126340755.6667,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 1.3716853143306465e-07,
+                  "ppbv": 137.16853143306466
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 161081686142.87408,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 3.248710865165206e-08,
+                  "ppbv": 32.48710865165206
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 118640890785.8044,
+                  "cumulativeInjectedKg": 805902210000.0001,
+                  "moleFraction": 2.3927608418927138e-08,
+                  "ppbv": 23.92760841892714
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.6118044200000002e+19,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 512940744089.56464,
+            "oxygen": 292950479580.8057
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    },
+    {
+      "id": "p500-g0.1",
+      "peakTotalElectricGW": 500,
+      "gasElectricShare": 0.1,
+      "peakGasElectricGW": 50.0,
+      "doubleCountsPolarPlants": false,
+      "productionHistoryRole": "Global all-facility production hypothesis including polar plants, not additional to them; finite energy, unconstrained local mineral inventory must still be verified.",
+      "species": {
+        "SF6": {
+          "peakProductionKgS": 350.0,
+          "specificEnergyJkg": 100000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 960.0,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 678124809512.4944,
+                  "cumulativeInjectedKg": 701367660000.0,
+                  "moleFraction": 4.121345940785846e-08,
+                  "ppbv": 41.21345940785846
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1181832558638.043,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 7.182661288757502e-08,
+                  "ppbv": 71.82661288757502
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 723569446672.3922,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 4.39753856530297e-08,
+                  "ppbv": 43.975385653029704
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 651990415657.0215,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 3.962512527643826e-08,
+                  "ppbv": 39.625125276438254
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 3200,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 694281865627.92,
+                  "cumulativeInjectedKg": 701367660000.0,
+                  "moleFraction": 4.219541459814607e-08,
+                  "ppbv": 42.195414598146066
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1231483891293.2534,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 7.484420368240627e-08,
+                  "ppbv": 74.84420368240627
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 1062933307957.8947,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 6.460043656605999e-08,
+                  "ppbv": 64.60043656605998
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1030230288104.67,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 6.261289008150621e-08,
+                  "ppbv": 62.612890081506215
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 9600,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 698994800393.3777,
+                  "cumulativeInjectedKg": 701367660000.0,
+                  "moleFraction": 4.2481846156059e-08,
+                  "ppbv": 42.481846156059
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1246185988463.7085,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 7.573773283285947e-08,
+                  "ppbv": 75.73773283285948
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 1186520622453.4473,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 7.211153289794378e-08,
+                  "ppbv": 72.11153289794379
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 1174225182563.8323,
+                  "cumulativeInjectedKg": 1253625660000.0,
+                  "moleFraction": 7.13642698488943e-08,
+                  "ppbv": 71.3642698488943
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 1.25362566e+20,
+          "minimumElementFeedstockKg": {
+            "fluorine": 978407383750.3954,
+            "sulfur": 275221709547.0885
+          }
+        },
+        "N2O": {
+          "peakProductionKgS": 750.0000000000001,
+          "specificEnergyJkg": 20000000,
+          "history": [
+            {
+              "lifetimeEarthYears": 32.699999999999996,
+              "lifetimeMultiplier": 0.3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 657565799151.1555,
+                  "cumulativeInjectedKg": 1502930700000.0002,
+                  "moleFraction": 1.326184998069008e-07,
+                  "ppbv": 132.61849980690081
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 748724876562.5912,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 1.5100354979838726e-07,
+                  "ppbv": 151.00354979838727
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 415803.34836640075,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 8.385961731316014e-14,
+                  "ppbv": 8.385961731316014e-05
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 19533.060743089896,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 3.9394463880719265e-15,
+                  "ppbv": 3.939446388071927e-06
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 109,
+              "lifetimeMultiplier": 1,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 1132897303083.6902,
+                  "cumulativeInjectedKg": 1502930700000.0002,
+                  "moleFraction": 2.2848381251608593e-07,
+                  "ppbv": 228.48381251608592
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 1665232490213.7346,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 3.358456826175204e-07,
+                  "ppbv": 335.8456826175204
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 22123029150.824173,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 4.461793695709244e-09,
+                  "ppbv": 4.461793695709244
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 8839125234.120579,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 1.7826832381909354e-09,
+                  "ppbv": 1.7826832381909354
+                }
+              ]
+            },
+            {
+              "lifetimeEarthYears": 327,
+              "lifetimeMultiplier": 3,
+              "epochs": [
+                {
+                  "civilYear": -81,
+                  "massKg": 0.0,
+                  "cumulativeInjectedKg": 0.0,
+                  "moleFraction": 0.0,
+                  "ppbv": 0.0
+                },
+                {
+                  "civilYear": 0,
+                  "massKg": 1362965671791.1848,
+                  "cumulativeInjectedKg": 1502930700000.0002,
+                  "moleFraction": 2.7488422134269396e-07,
+                  "ppbv": 274.88422134269393
+                },
+                {
+                  "civilYear": 50,
+                  "massKg": 2267087802518.889,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 4.572284381102155e-07,
+                  "ppbv": 457.22843811021545
+                },
+                {
+                  "civilYear": 521,
+                  "massKg": 536938953809.5803,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 1.0829036217217354e-07,
+                  "ppbv": 108.29036217217354
+                },
+                {
+                  "civilYear": 621,
+                  "massKg": 395469635952.68134,
+                  "cumulativeInjectedKg": 2686340700000.0005,
+                  "moleFraction": 7.975869472975713e-08,
+                  "ppbv": 79.75869472975712
+                }
+              ]
+            }
+          ],
+          "totalSynthesisEnergyJ": 5.372681400000001e+19,
+          "minimumElementFeedstockKg": {
+            "nitrogen": 1709802480298.5488,
+            "oxygen": 976501598602.6858
+          }
+        }
+      },
+      "engineeringStatus": "finite power allocation passed; site mineral reserves, process yield and plant allocation not validated"
+    }
+  ],
+  "completeMeasuredInventory": false
+}

@@ -1,0 +1,533 @@
+{
+  "study": "strong-painted-v7",
+  "stage": "coarse terrain candidates; full plan not yet complete",
+  "gridM": 16000,
+  "seeds": [
+    5210914,
+    5210915,
+    5210916
+  ],
+  "effectiveYears": [
+    0,
+    100000,
+    500000,
+    2000000
+  ],
+  "coarseRuns": 12,
+  "coarseProtectionPassed": true,
+  "maximumWaterRelativeError": 4.999341503915088e-16,
+  "maximumVolumeRelativeError": 1.0614015849915744e-12,
+  "timestepComparison": {
+    "tests": [
+      {
+        "region": "aethelgard",
+        "coarseStepYears": 25000,
+        "fineStepYears": 12500,
+        "maxDifferenceM": 130.46102905273438,
+        "p99DifferenceM": 2.5802643299102783,
+        "meanDifferenceM": 0.3376106321811676,
+        "passed": true
+      },
+      {
+        "region": "vorhan",
+        "coarseStepYears": 25000,
+        "fineStepYears": 12500,
+        "maxDifferenceM": 142.022705078125,
+        "p99DifferenceM": 2.3701324462890625,
+        "meanDifferenceM": 0.38656508922576904,
+        "passed": true
+      }
+    ],
+    "status": "passed",
+    "limits": "p99 <25 m and max <150 m after 2 Myr at 16 km grid; not a substitute for spatial convergence"
+  },
+  "localSolverChecks": {
+    "rift-pilot-checked": {
+      "components": [
+        "Landlab 2.11.0",
+        "FlowAccumulator D8",
+        "DepressionFinderAndRouter",
+        "LithoLayers",
+        "ExponentialWeatherer",
+        "SpaceLargeScaleEroder",
+        "weighted nonlinear hillslope flux",
+        "conservative inherited sediment and bedding/wind transport"
+      ],
+      "effectiveYears": 1000,
+      "stepYears": 100,
+      "protectedMaxDeltaM": 0,
+      "parent": "vorhan",
+      "parentBoundaryMaxDeltaM": 0.0,
+      "maxVolumeRelativeError": 7.045502229299978e-12,
+      "maxWaterRelativeError": 1.8239274393612179e-16,
+      "parentSnapshotsYears": [
+        0,
+        100000,
+        500000,
+        2000000
+      ],
+      "passed": true
+    },
+    "orun-pilot-checked": {
+      "components": [
+        "Landlab 2.11.0",
+        "FlowAccumulator D8",
+        "DepressionFinderAndRouter",
+        "LithoLayers",
+        "ExponentialWeatherer",
+        "SpaceLargeScaleEroder",
+        "weighted nonlinear hillslope flux",
+        "conservative inherited sediment and bedding/wind transport"
+      ],
+      "effectiveYears": 1000,
+      "stepYears": 100,
+      "protectedMaxDeltaM": 0,
+      "parent": "aethelgard",
+      "parentBoundaryMaxDeltaM": 0.0,
+      "maxVolumeRelativeError": 3.38249494531892e-11,
+      "maxWaterRelativeError": 3.145373724091528e-16,
+      "parentSnapshotsYears": [
+        0,
+        100000,
+        500000,
+        2000000
+      ],
+      "passed": true
+    },
+    "orun-pilot64-checked": {
+      "components": [
+        "Landlab 2.11.0",
+        "FlowAccumulator D8",
+        "DepressionFinderAndRouter",
+        "LithoLayers",
+        "ExponentialWeatherer",
+        "SpaceLargeScaleEroder",
+        "weighted nonlinear hillslope flux",
+        "conservative inherited sediment and bedding/wind transport"
+      ],
+      "effectiveYears": 1000,
+      "stepYears": 100,
+      "protectedMaxDeltaM": 0,
+      "parent": "orun-pilot-checked",
+      "parentBoundaryMaxDeltaM": 0.0,
+      "maxVolumeRelativeError": 6.941297620084808e-12,
+      "maxWaterRelativeError": 4.0284909768702787e-16,
+      "parentSnapshotsYears": [
+        0,
+        1000
+      ],
+      "passed": true
+    }
+  },
+  "physicalScreen": {
+    "interior": {
+      "massKg": 3.248839426044679e+24,
+      "meanDensityGcm3": 7.237003933637161,
+      "escapeSpeedMs": 9555.098717438768,
+      "referenceCoreMassFraction": 0.445,
+      "referenceImpliedMantleMeanKgM3": 5578.838349257559,
+      "compositionScreens": [
+        {
+          "assumedCoreMeanKgM3": 10500,
+          "assumedMantleMeanKgM3": 4000,
+          "coreMassFraction": 0.7225374481327617,
+          "coreRadiusFraction": 0.7926411655240624,
+          "mantleThicknessKm": 984.9544637607038,
+          "rayleighScreen": [
+            110198.69601569473,
+            1652980.4402354206,
+            22039739.203138947
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 11500,
+          "assumedMantleMeanKgM3": 4000,
+          "coreMassFraction": 0.6858371333069706,
+          "coreRadiusFraction": 0.7557195452942201,
+          "mantleThicknessKm": 1160.3321598524544,
+          "rayleighScreen": [
+            180166.89142985275,
+            2702503.371447791,
+            36033378.28597055
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 12500,
+          "assumedMantleMeanKgM3": 4000,
+          "coreMassFraction": 0.6577721866754833,
+          "coreRadiusFraction": 0.7248388018579575,
+          "mantleThicknessKm": 1307.0156911747022,
+          "rayleighScreen": [
+            257495.94943446456,
+            3862439.241516968,
+            51499189.88689291
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 10500,
+          "assumedMantleMeanKgM3": 4500,
+          "coreMassFraction": 0.6618425149118032,
+          "coreRadiusFraction": 0.7697943580113717,
+          "mantleThicknessKm": 1093.4767994459844,
+          "rayleighScreen": [
+            169632.5687220784,
+            2544488.530831176,
+            33926513.74441568
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 11500,
+          "assumedMantleMeanKgM3": 4500,
+          "coreMassFraction": 0.6213215446110806,
+          "coreRadiusFraction": 0.7312386314708834,
+          "mantleThicknessKm": 1276.6165005133037,
+          "rayleighScreen": [
+            269936.6663617883,
+            4049049.9954268234,
+            53987333.27235765
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 12500,
+          "assumedMantleMeanKgM3": 4500,
+          "coreMassFraction": 0.5909308168855386,
+          "coreRadiusFraction": 0.6994045900942302,
+          "mantleThicknessKm": 1427.8281970524067,
+          "rayleighScreen": [
+            377666.42957630375,
+            5664996.443644555,
+            75533285.91526075
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 10500,
+          "assumedMantleMeanKgM3": 5000,
+          "coreMassFraction": 0.5901121392870343,
+          "coreRadiusFraction": 0.7409143724608047,
+          "mantleThicknessKm": 1230.6567308111778,
+          "rayleighScreen": [
+            268688.3301546707,
+            4030324.9523200598,
+            53737666.03093414
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 11500,
+          "assumedMantleMeanKgM3": 5000,
+          "coreMassFraction": 0.5468804807312077,
+          "coreRadiusFraction": 0.7007844615973177,
+          "mantleThicknessKm": 1421.2738074127412,
+          "rayleighScreen": [
+            413876.97660458344,
+            6208154.649068751,
+            82775395.3209167
+          ]
+        },
+        {
+          "assumedCoreMeanKgM3": 12500,
+          "assumedMantleMeanKgM3": 5000,
+          "coreMassFraction": 0.5151772644569347,
+          "coreRadiusFraction": 0.6681415723815353,
+          "mantleThicknessKm": 1576.3275311877076,
+          "rayleighScreen": [
+            564647.4778254628,
+            8469712.167381942,
+            112929495.56509258
+          ]
+        }
+      ],
+      "scope": "Uniform-reservoir mass balance and Rayleigh scaling; no pressure-dependent equation of state fit or mantle flow solution",
+      "unresolved": [
+        "42–47% manuscript core mass fraction needs an equation-of-state check; not silently replaced by 80%.",
+        "Mean density does not establish U/Th/K abundance, core cooling power, magnetic moment or reversal rate.",
+        "Thin mantle does not imply fast convection: Rayleigh depends on thickness cubed as well as viscosity and thermal forcing.",
+        "Seven parent plates are geographic constraints. Fault density and displacement are independent prescribed scenarios.",
+        "Double-moon tidal power remains unquantified; no free heat source is added."
+      ]
+    },
+    "terrain": [
+      {
+        "region": "aethelgard",
+        "seed": 5210914,
+        "peakM": 8274.822265625,
+        "p99HeightM": 6024.89453125,
+        "maxReliefWithin160kmM": 7186.892578125,
+        "newAreaAbove3kmKm2": 1073408.0,
+        "largeNewMassifs": 6,
+        "maxResolvedSlope": 0.17313481867313385,
+        "p99NewOverburdenMPa": 93.99639129638672,
+        "p99ConditionalAiryRootKm": 24.451438903808594,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "aethelgard",
+        "seed": 5210915,
+        "peakM": 8605.7998046875,
+        "p99HeightM": 5831.50732421875,
+        "maxReliefWithin160kmM": 7560.876953125,
+        "newAreaAbove3kmKm2": 885504.0,
+        "largeNewMassifs": 5,
+        "maxResolvedSlope": 0.16413705050945282,
+        "p99NewOverburdenMPa": 73.7391128540039,
+        "p99ConditionalAiryRootKm": 19.181880950927734,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "aethelgard",
+        "seed": 5210916,
+        "peakM": 10014.572265625,
+        "p99HeightM": 6275.06201171875,
+        "maxReliefWithin160kmM": 9240.9755859375,
+        "newAreaAbove3kmKm2": 709120.0,
+        "largeNewMassifs": 9,
+        "maxResolvedSlope": 0.2032310962677002,
+        "p99NewOverburdenMPa": 93.90132141113281,
+        "p99ConditionalAiryRootKm": 24.42671012878418,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "vorhan",
+        "seed": 5210914,
+        "peakM": 8015.39599609375,
+        "p99HeightM": 5537.26904296875,
+        "maxReliefWithin160kmM": 7854.99609375,
+        "newAreaAbove3kmKm2": 573952.0,
+        "largeNewMassifs": 7,
+        "maxResolvedSlope": 0.16887988150119781,
+        "p99NewOverburdenMPa": 99.67676544189453,
+        "p99ConditionalAiryRootKm": 25.929086685180664,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "vorhan",
+        "seed": 5210915,
+        "peakM": 7923.7177734375,
+        "p99HeightM": 5421.89794921875,
+        "maxReliefWithin160kmM": 7478.896484375,
+        "newAreaAbove3kmKm2": 456192.0,
+        "largeNewMassifs": 4,
+        "maxResolvedSlope": 0.18595170974731445,
+        "p99NewOverburdenMPa": 110.09298706054688,
+        "p99ConditionalAiryRootKm": 28.638675689697266,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "vorhan",
+        "seed": 5210916,
+        "peakM": 8613.9306640625,
+        "p99HeightM": 5070.8603515625,
+        "maxReliefWithin160kmM": 8527.3349609375,
+        "newAreaAbove3kmKm2": 480000.0,
+        "largeNewMassifs": 7,
+        "maxResolvedSlope": 0.1713641732931137,
+        "p99NewOverburdenMPa": 106.79808044433594,
+        "p99ConditionalAiryRootKm": 27.781566619873047,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "duskreach",
+        "seed": 5210914,
+        "peakM": 7372.2578125,
+        "p99HeightM": 5979.54296875,
+        "maxReliefWithin160kmM": 7372.2578125,
+        "newAreaAbove3kmKm2": 1077504.0,
+        "largeNewMassifs": 7,
+        "maxResolvedSlope": 0.17377178370952606,
+        "p99NewOverburdenMPa": 115.83025360107422,
+        "p99ConditionalAiryRootKm": 30.131118774414062,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "duskreach",
+        "seed": 5210915,
+        "peakM": 7068.7236328125,
+        "p99HeightM": 5449.90673828125,
+        "maxReliefWithin160kmM": 7068.7236328125,
+        "newAreaAbove3kmKm2": 1068288.0,
+        "largeNewMassifs": 7,
+        "maxResolvedSlope": 0.1429038941860199,
+        "p99NewOverburdenMPa": 94.09000396728516,
+        "p99ConditionalAiryRootKm": 24.475793838500977,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "duskreach",
+        "seed": 5210916,
+        "peakM": 8452.7568359375,
+        "p99HeightM": 5788.97705078125,
+        "maxReliefWithin160kmM": 7398.0625,
+        "newAreaAbove3kmKm2": 974336.0,
+        "largeNewMassifs": 14,
+        "maxResolvedSlope": 0.16006577014923096,
+        "p99NewOverburdenMPa": 111.41277313232422,
+        "p99ConditionalAiryRootKm": 28.98199462890625,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "keld",
+        "seed": 5210914,
+        "peakM": 4800.5595703125,
+        "p99HeightM": 3463.1865234375,
+        "maxReliefWithin160kmM": 4800.5595703125,
+        "newAreaAbove3kmKm2": 90880.0,
+        "largeNewMassifs": 2,
+        "maxResolvedSlope": 0.10353433340787888,
+        "p99NewOverburdenMPa": 83.25232696533203,
+        "p99ConditionalAiryRootKm": 21.656570434570312,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "keld",
+        "seed": 5210915,
+        "peakM": 4259.515625,
+        "p99HeightM": 3018.832763671875,
+        "maxReliefWithin160kmM": 4259.515625,
+        "newAreaAbove3kmKm2": 42240.0,
+        "largeNewMassifs": 2,
+        "maxResolvedSlope": 0.10106759518384933,
+        "p99NewOverburdenMPa": 69.72137451171875,
+        "p99ConditionalAiryRootKm": 18.13673973083496,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      },
+      {
+        "region": "keld",
+        "seed": 5210916,
+        "peakM": 4595.95556640625,
+        "p99HeightM": 3152.472900390625,
+        "maxReliefWithin160kmM": 4595.95556640625,
+        "newAreaAbove3kmKm2": 46848.0,
+        "largeNewMassifs": 2,
+        "maxResolvedSlope": 0.1005164235830307,
+        "p99NewOverburdenMPa": 72.94075775146484,
+        "p99ConditionalAiryRootKm": 18.97420310974121,
+        "loadStatus": "Screening only; subgrid cliffs need the 250 m / 64 m solver, not a coarse-grid stability pass"
+      }
+    ],
+    "references": [
+      "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2015GC006210",
+      "https://arxiv.org/abs/2011.04791",
+      "https://science.nasa.gov/venus/venus-facts/"
+    ]
+  },
+  "realClimate": {
+    "model": "ExoPlaSim",
+    "preparedRequests": 18,
+    "completedRuns": 0,
+    "status": "requires Windows restart after VirtualMachinePlatform was enabled; then isolated Linux setup and actual GCM execution"
+  },
+  "ecology": {
+    "potentialGrowthMultiplier": 3,
+    "status": "implementation and resource tests only; no Year 521 distribution has been generated"
+  },
+  "routeScreening": {
+    "assumption": "3 km cruise ceiling with 200 m clearance; not a universal canonical airship capability",
+    "records": [
+      {
+        "id": "home",
+        "name": "Frontier — Crestline — Atheria",
+        "originalMaxGroundM": 858.2205200195312,
+        "candidateMaxGroundM": 858.2205200195312,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "iris",
+        "name": "Frontier — Millhaven — Iris Hollow",
+        "originalMaxGroundM": 2368.35986328125,
+        "candidateMaxGroundM": 2307.23583984375,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "east",
+        "name": "Frontier — Thornfield — Ironvein — Cinderlode",
+        "originalMaxGroundM": 1901.253173828125,
+        "candidateMaxGroundM": 5092.4150390625,
+        "newSamplesOver3000With200mClearance": 13,
+        "approxNewlyAffectedKm": 130,
+        "status": "requires route-scale review; no route or manuscript changed"
+      },
+      {
+        "id": "amber",
+        "name": "Ironvein — Amber Reach",
+        "originalMaxGroundM": 1914.6737060546875,
+        "candidateMaxGroundM": 1914.6737060546875,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "orun-route",
+        "name": "Frontier — Coppergate — Cliffwatch — Windbreak — Riverbend",
+        "originalMaxGroundM": 1520.9462890625,
+        "candidateMaxGroundM": 1509.8983154296875,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "north",
+        "name": "Frontier — Canopy",
+        "originalMaxGroundM": 4342.865234375,
+        "candidateMaxGroundM": 5251.4287109375,
+        "newSamplesOver3000With200mClearance": 8,
+        "approxNewlyAffectedKm": 80,
+        "status": "requires route-scale review; no route or manuscript changed"
+      },
+      {
+        "id": "skyleaf-route",
+        "name": "Thornfield — Stormperch — Kestrel’s Gate — Skyleaf",
+        "originalMaxGroundM": 2553.583984375,
+        "candidateMaxGroundM": 3216.177001953125,
+        "newSamplesOver3000With200mClearance": 11,
+        "approxNewlyAffectedKm": 110,
+        "status": "requires route-scale review; no route or manuscript changed"
+      },
+      {
+        "id": "scar",
+        "name": "Coppergate — Saltmarch — Whisperflat — Axiom Scar",
+        "originalMaxGroundM": 2676.15576171875,
+        "candidateMaxGroundM": 2545.833984375,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "RB-SA",
+        "name": "Riverbend — Saltmarch",
+        "originalMaxGroundM": 3163.58056640625,
+        "candidateMaxGroundM": 2616.923828125,
+        "newSamplesOver3000With200mClearance": 0,
+        "approxNewlyAffectedKm": 0,
+        "status": "no new sampled 3 km ceiling conflict"
+      },
+      {
+        "id": "MI-CA",
+        "name": "Millhaven — Canopy",
+        "originalMaxGroundM": 4880.65380859375,
+        "candidateMaxGroundM": 7624.36083984375,
+        "newSamplesOver3000With200mClearance": 19,
+        "approxNewlyAffectedKm": 190,
+        "status": "requires route-scale review; no route or manuscript changed"
+      }
+    ],
+    "fullAccessValidationComplete": false
+  },
+  "fullRefinementsCompleted": false,
+  "formalGeographyChanged": false,
+  "manuscriptChanged": false,
+  "publication": {
+    "localSyncOnly": true,
+    "compressionBuild": false,
+    "commit": false,
+    "push": false
+  },
+  "failedOrSuperseded": [
+    "strong-v3: excessive incision erased new highlands",
+    "strong-block-v5: several drainage cells sensitive to time step",
+    "strong-painted-v6: map layout moved after status text changed; repaint corrected it",
+    "older 250 m float32 and drainage-precision failures retained locally"
+  ]
+}

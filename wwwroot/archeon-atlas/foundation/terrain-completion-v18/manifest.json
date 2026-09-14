@@ -1,0 +1,1112 @@
+{
+  "version": "terrain-completion-v18",
+  "updatedUnix": 1789436117.6576593,
+  "candidates": [
+    {
+      "id": "high-inland-sea",
+      "fingerprint": "bc04095d75402a5543e56d761ffbdc8b7f1c2470d1cbef119db4a85e4942514d",
+      "grid": {
+        "width": 801,
+        "height": 801,
+        "xmin": -2698694.178339433,
+        "ymax": 1839661.9376576422,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "high-inland-sea",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "high-inland-sea-0.png",
+          "rivers": "high-inland-sea-0-rivers.geojson",
+          "lakes": "high-inland-sea-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "high-inland-sea-10000.png",
+          "rivers": "high-inland-sea-10000-rivers.geojson",
+          "lakes": "high-inland-sea-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "high-inland-sea-100000.png",
+          "rivers": "high-inland-sea-100000-rivers.geojson",
+          "lakes": "high-inland-sea-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "high-inland-sea-500000.png",
+          "rivers": "high-inland-sea-500000-rivers.geojson",
+          "lakes": "high-inland-sea-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "high-inland-sea-2000000.png",
+          "rivers": "high-inland-sea-2000000-rivers.geojson",
+          "lakes": "high-inland-sea-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9957571139184278,
+      "maximumWaterRelativeError": 1.3269993370514213e-15,
+      "maximumSolidRelativeError": 1.0630285395731856e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "regional-duskreach-inland-cap",
+      "fingerprint": "8cc41a36c952f0291264afea7924d57d6f9e1ba0904307690b1a34e269ca83d3",
+      "grid": {
+        "width": 385,
+        "height": 385,
+        "xmin": -892473.9399282286,
+        "ymax": 160943.82298648427,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "duskreach-inland-cap",
+        "region": "duskreach",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "regional-duskreach-inland-cap-0.png",
+          "rivers": "regional-duskreach-inland-cap-0-rivers.geojson",
+          "lakes": "regional-duskreach-inland-cap-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "regional-duskreach-inland-cap-10000.png",
+          "rivers": "regional-duskreach-inland-cap-10000-rivers.geojson",
+          "lakes": "regional-duskreach-inland-cap-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "regional-duskreach-inland-cap-100000.png",
+          "rivers": "regional-duskreach-inland-cap-100000-rivers.geojson",
+          "lakes": "regional-duskreach-inland-cap-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "regional-duskreach-inland-cap-500000.png",
+          "rivers": "regional-duskreach-inland-cap-500000-rivers.geojson",
+          "lakes": "regional-duskreach-inland-cap-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "regional-duskreach-inland-cap-2000000.png",
+          "rivers": "regional-duskreach-inland-cap-2000000-rivers.geojson",
+          "lakes": "regional-duskreach-inland-cap-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9920057272401861,
+      "maximumWaterRelativeError": 1.0253399660075422e-15,
+      "maximumSolidRelativeError": 1.7110047282783247e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "regional-duskreach-west-track",
+      "fingerprint": "42c25c2f392b86b08778879fd82d4e9119bcf7328cfc4e4736466edfc4f83460",
+      "grid": {
+        "width": 385,
+        "height": 385,
+        "xmin": -2659189.687575852,
+        "ymax": 350166.5392685168,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "duskreach-west-track",
+        "region": "duskreach",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "regional-duskreach-west-track-0.png",
+          "rivers": "regional-duskreach-west-track-0-rivers.geojson",
+          "lakes": "regional-duskreach-west-track-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "regional-duskreach-west-track-10000.png",
+          "rivers": "regional-duskreach-west-track-10000-rivers.geojson",
+          "lakes": "regional-duskreach-west-track-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "regional-duskreach-west-track-100000.png",
+          "rivers": "regional-duskreach-west-track-100000-rivers.geojson",
+          "lakes": "regional-duskreach-west-track-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "regional-duskreach-west-track-500000.png",
+          "rivers": "regional-duskreach-west-track-500000-rivers.geojson",
+          "lakes": "regional-duskreach-west-track-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "regional-duskreach-west-track-2000000.png",
+          "rivers": "regional-duskreach-west-track-2000000-rivers.geojson",
+          "lakes": "regional-duskreach-west-track-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9977839438350807,
+      "maximumWaterRelativeError": 1.2865635877269597e-15,
+      "maximumSolidRelativeError": 1.2636473739901764e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "regional-vorhan-east-track",
+      "fingerprint": "9bbade30800faa78df966a78597b7e0ac6eda422beb53b38a8ce3c3704db29dd",
+      "grid": {
+        "width": 385,
+        "height": 385,
+        "xmin": 924490.6467034002,
+        "ymax": -676101.1581872371,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "vorhan-east-track",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "regional-vorhan-east-track-0.png",
+          "rivers": "regional-vorhan-east-track-0-rivers.geojson",
+          "lakes": "regional-vorhan-east-track-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "regional-vorhan-east-track-10000.png",
+          "rivers": "regional-vorhan-east-track-10000-rivers.geojson",
+          "lakes": "regional-vorhan-east-track-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "regional-vorhan-east-track-100000.png",
+          "rivers": "regional-vorhan-east-track-100000-rivers.geojson",
+          "lakes": "regional-vorhan-east-track-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "regional-vorhan-east-track-500000.png",
+          "rivers": "regional-vorhan-east-track-500000-rivers.geojson",
+          "lakes": "regional-vorhan-east-track-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "regional-vorhan-east-track-2000000.png",
+          "rivers": "regional-vorhan-east-track-2000000-rivers.geojson",
+          "lakes": "regional-vorhan-east-track-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9978762896941523,
+      "maximumWaterRelativeError": 1.2850034085358554e-15,
+      "maximumSolidRelativeError": 1.1138264154468282e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "regional-vorhan-west-track",
+      "fingerprint": "5efe0e0e082f3923c84c354bf74b985455f549a521815f91d61f9c7d082e5bfb",
+      "grid": {
+        "width": 385,
+        "height": 385,
+        "xmin": -2009641.284285937,
+        "ymax": 578656.3446244267,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "vorhan-west-track",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "regional-vorhan-west-track-0.png",
+          "rivers": "regional-vorhan-west-track-0-rivers.geojson",
+          "lakes": "regional-vorhan-west-track-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "regional-vorhan-west-track-10000.png",
+          "rivers": "regional-vorhan-west-track-10000-rivers.geojson",
+          "lakes": "regional-vorhan-west-track-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "regional-vorhan-west-track-100000.png",
+          "rivers": "regional-vorhan-west-track-100000-rivers.geojson",
+          "lakes": "regional-vorhan-west-track-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "regional-vorhan-west-track-500000.png",
+          "rivers": "regional-vorhan-west-track-500000-rivers.geojson",
+          "lakes": "regional-vorhan-west-track-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "regional-vorhan-west-track-2000000.png",
+          "rivers": "regional-vorhan-west-track-2000000-rivers.geojson",
+          "lakes": "regional-vorhan-west-track-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9974654413708386,
+      "maximumWaterRelativeError": 1.7824264460743338e-15,
+      "maximumSolidRelativeError": 2.011290336288086e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-duskreach-inland-cap-source-2000000-250",
+      "fingerprint": "54ea2051bb11591928ce29d0064e6a94c0ba35e4c4a32c42059e3b68f767d3ed",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -568473.9399282279,
+        "ymax": -359056.1770135157,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "duskreach-inland-cap-source",
+        "region": "duskreach",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-duskreach-inland-cap-source-2000000-250-0.png",
+          "rivers": "detail-duskreach-inland-cap-source-2000000-250-0-rivers.geojson",
+          "lakes": "detail-duskreach-inland-cap-source-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-duskreach-inland-cap-source-2000000-250-10000.png",
+          "rivers": "detail-duskreach-inland-cap-source-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-duskreach-inland-cap-source-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-duskreach-inland-cap-source-2000000-250-100000.png",
+          "rivers": "detail-duskreach-inland-cap-source-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-duskreach-inland-cap-source-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-duskreach-inland-cap-source-2000000-250-500000.png",
+          "rivers": "detail-duskreach-inland-cap-source-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-duskreach-inland-cap-source-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-duskreach-inland-cap-source-2000000-250-2000000.png",
+          "rivers": "detail-duskreach-inland-cap-source-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-duskreach-inland-cap-source-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9172510518934082,
+      "maximumWaterRelativeError": 2.963125132566263e-15,
+      "maximumSolidRelativeError": 3.6871112450859926e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-duskreach-west-track-2000000-250",
+      "fingerprint": "4f074df3fd03729ef8a345ed92923e87ffe90d1f8034ad8af3ee73dd509acdf9",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -2641189.687575852,
+        "ymax": 332166.53926851694,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "duskreach-west-track",
+        "region": "duskreach",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-duskreach-west-track-2000000-250-0.png",
+          "rivers": "detail-duskreach-west-track-2000000-250-0-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-duskreach-west-track-2000000-250-10000.png",
+          "rivers": "detail-duskreach-west-track-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-duskreach-west-track-2000000-250-100000.png",
+          "rivers": "detail-duskreach-west-track-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-duskreach-west-track-2000000-250-500000.png",
+          "rivers": "detail-duskreach-west-track-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-duskreach-west-track-2000000-250-2000000.png",
+          "rivers": "detail-duskreach-west-track-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 1.0,
+      "maximumWaterRelativeError": 1.3018839235204157e-15,
+      "maximumSolidRelativeError": 8.771841905884525e-15,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-duskreach-west-track-source-2000000-250",
+      "fingerprint": "47b401a92dfc8ff428144e872eec1b4cef0db78d443a12bc2aa488b4b0bc15eb",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -1977189.6875758523,
+        "ymax": 44166.539268517125,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=-29 +lon_0=77 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "duskreach-west-track-source",
+        "region": "duskreach",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-duskreach-west-track-source-2000000-250-0.png",
+          "rivers": "detail-duskreach-west-track-source-2000000-250-0-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-source-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-duskreach-west-track-source-2000000-250-10000.png",
+          "rivers": "detail-duskreach-west-track-source-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-source-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-duskreach-west-track-source-2000000-250-100000.png",
+          "rivers": "detail-duskreach-west-track-source-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-source-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-duskreach-west-track-source-2000000-250-500000.png",
+          "rivers": "detail-duskreach-west-track-source-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-source-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-duskreach-west-track-source-2000000-250-2000000.png",
+          "rivers": "detail-duskreach-west-track-source-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-duskreach-west-track-source-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 1.0,
+      "maximumWaterRelativeError": 9.097621916795713e-16,
+      "maximumSolidRelativeError": 1.7773692837344045e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-keld-shellharbor-valley-2000000-250",
+      "fingerprint": "524f1d5e88af8a902d4b641be2628e5cbf9899e504a2fc178902ab8c3bf3b0c9",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": 424384.1799706922,
+        "ymax": -265229.6610899873,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "keld-shellharbor-valley",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-keld-shellharbor-valley-2000000-250-0.png",
+          "rivers": "detail-keld-shellharbor-valley-2000000-250-0-rivers.geojson",
+          "lakes": "detail-keld-shellharbor-valley-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-keld-shellharbor-valley-2000000-250-10000.png",
+          "rivers": "detail-keld-shellharbor-valley-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-keld-shellharbor-valley-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-keld-shellharbor-valley-2000000-250-100000.png",
+          "rivers": "detail-keld-shellharbor-valley-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-keld-shellharbor-valley-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-keld-shellharbor-valley-2000000-250-500000.png",
+          "rivers": "detail-keld-shellharbor-valley-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-keld-shellharbor-valley-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-keld-shellharbor-valley-2000000-250-2000000.png",
+          "rivers": "detail-keld-shellharbor-valley-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-keld-shellharbor-valley-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.8943511450381679,
+      "maximumWaterRelativeError": 8.557851731144827e-16,
+      "maximumSolidRelativeError": 3.4052255987724677e-15,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-keld-tidemark-valley-2000000-250",
+      "fingerprint": "fa8b9750effbdf887f86d0e707788661c29c3c830937ce323171c16fdbfdfe91",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -265254.62730354135,
+        "ymax": 727572.9348212172,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "keld-tidemark-valley",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-keld-tidemark-valley-2000000-250-0.png",
+          "rivers": "detail-keld-tidemark-valley-2000000-250-0-rivers.geojson",
+          "lakes": "detail-keld-tidemark-valley-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-keld-tidemark-valley-2000000-250-10000.png",
+          "rivers": "detail-keld-tidemark-valley-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-keld-tidemark-valley-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-keld-tidemark-valley-2000000-250-100000.png",
+          "rivers": "detail-keld-tidemark-valley-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-keld-tidemark-valley-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-keld-tidemark-valley-2000000-250-500000.png",
+          "rivers": "detail-keld-tidemark-valley-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-keld-tidemark-valley-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-keld-tidemark-valley-2000000-250-2000000.png",
+          "rivers": "detail-keld-tidemark-valley-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-keld-tidemark-valley-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.17647058823529413,
+      "maximumWaterRelativeError": 3.5647747541516184e-15,
+      "maximumSolidRelativeError": 1.8014880056983038e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-vorhan-east-track-source-2000000-250",
+      "fingerprint": "8c7508eebe04718a40044194ac7e6b0fc497fb054125784465967bd05b0c821e",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": 1176490.6467034016,
+        "ymax": -1016101.1581872371,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "vorhan-east-track-source",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-vorhan-east-track-source-2000000-250-0.png",
+          "rivers": "detail-vorhan-east-track-source-2000000-250-0-rivers.geojson",
+          "lakes": "detail-vorhan-east-track-source-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-vorhan-east-track-source-2000000-250-10000.png",
+          "rivers": "detail-vorhan-east-track-source-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-vorhan-east-track-source-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-vorhan-east-track-source-2000000-250-100000.png",
+          "rivers": "detail-vorhan-east-track-source-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-vorhan-east-track-source-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-vorhan-east-track-source-2000000-250-500000.png",
+          "rivers": "detail-vorhan-east-track-source-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-vorhan-east-track-source-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-vorhan-east-track-source-2000000-250-2000000.png",
+          "rivers": "detail-vorhan-east-track-source-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-vorhan-east-track-source-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.7276119402985075,
+      "maximumWaterRelativeError": 1.4550339341162565e-15,
+      "maximumSolidRelativeError": 5.747415372859093e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-vorhan-west-track-2000000-250",
+      "fingerprint": "6742413fe70cd95213dd8897dd9ce961c7a3e17f8e930782718d6512595f93b4",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -1527641.284285937,
+        "ymax": 552656.3446244262,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "vorhan-west-track",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-vorhan-west-track-2000000-250-0.png",
+          "rivers": "detail-vorhan-west-track-2000000-250-0-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-vorhan-west-track-2000000-250-10000.png",
+          "rivers": "detail-vorhan-west-track-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-vorhan-west-track-2000000-250-100000.png",
+          "rivers": "detail-vorhan-west-track-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-vorhan-west-track-2000000-250-500000.png",
+          "rivers": "detail-vorhan-west-track-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-vorhan-west-track-2000000-250-2000000.png",
+          "rivers": "detail-vorhan-west-track-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 1.0,
+      "maximumWaterRelativeError": 8.629307235720104e-16,
+      "maximumSolidRelativeError": 1.3179227774206797e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "detail-vorhan-west-track-source-2000000-250",
+      "fingerprint": "26b1fcabd904c21eb7232d591d4288ecaaeee01655e30111e004b9460874cb10",
+      "grid": {
+        "width": 257,
+        "height": 257,
+        "xmin": -1543641.2842859372,
+        "ymax": 536656.3446244267,
+        "stepM": 250,
+        "projection": "+proj=laea +lat_0=24 +lon_0=110 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "vorhan-west-track-source",
+        "region": "vorhan",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "detail-vorhan-west-track-source-2000000-250-0.png",
+          "rivers": "detail-vorhan-west-track-source-2000000-250-0-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-source-2000000-250-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "detail-vorhan-west-track-source-2000000-250-10000.png",
+          "rivers": "detail-vorhan-west-track-source-2000000-250-10000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-source-2000000-250-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "detail-vorhan-west-track-source-2000000-250-100000.png",
+          "rivers": "detail-vorhan-west-track-source-2000000-250-100000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-source-2000000-250-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "detail-vorhan-west-track-source-2000000-250-500000.png",
+          "rivers": "detail-vorhan-west-track-source-2000000-250-500000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-source-2000000-250-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "detail-vorhan-west-track-source-2000000-250-2000000.png",
+          "rivers": "detail-vorhan-west-track-source-2000000-250-2000000-rivers.geojson",
+          "lakes": "detail-vorhan-west-track-source-2000000-250-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 1.0,
+      "maximumWaterRelativeError": 9.994514676258273e-16,
+      "maximumSolidRelativeError": 1.4782192995522814e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-shellharbor-baseline",
+      "fingerprint": "ef5579d7a4773fd89cbfe457cae78d75cc5b6180eec24411d4a780bd59384f7b",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": 286384.1799706921,
+        "ymax": -203229.66108998732,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "shellharbor",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-shellharbor-baseline-0.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-shellharbor-baseline-10000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-shellharbor-baseline-100000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-shellharbor-baseline-500000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-shellharbor-baseline-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9909242894673991,
+      "maximumWaterRelativeError": 1.921035714721697e-15,
+      "maximumSolidRelativeError": 4.2918605211467274e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-shellharbor-dry",
+      "fingerprint": "8ee8e2c2c3e60b9bb82b48080b9a382f08651870e2474d86c698d9228ba75f8d",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": 286384.1799706921,
+        "ymax": -203229.66108998732,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "shellharbor",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-shellharbor-dry-0.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-dry-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-dry-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-shellharbor-dry-10000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-dry-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-dry-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-shellharbor-dry-100000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-dry-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-dry-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-shellharbor-dry-500000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-dry-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-dry-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-shellharbor-dry-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-dry-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-dry-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9966563171721997,
+      "maximumWaterRelativeError": 1.910905605798257e-15,
+      "maximumSolidRelativeError": 6.142236214373044e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-shellharbor-wet",
+      "fingerprint": "b5a0f9b058706af2a91301c0f6c8f70661d0f5e3a7322fd4e1bcda2f4af1959a",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": 286384.1799706921,
+        "ymax": -203229.66108998732,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "shellharbor",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-shellharbor-wet-0.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-wet-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-wet-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-shellharbor-wet-10000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-wet-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-wet-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-shellharbor-wet-100000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-wet-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-wet-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-shellharbor-wet-500000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-wet-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-wet-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-shellharbor-wet-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-shellharbor-wet-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-shellharbor-wet-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9859087652256986,
+      "maximumWaterRelativeError": 1.955807883802768e-15,
+      "maximumSolidRelativeError": 2.960422712078869e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-tidemark-baseline",
+      "fingerprint": "3def475f5094d99ef354913cb05603bf0be126a56a6da1fcf1c254584ca7b30d",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": -291254.627303542,
+        "ymax": 873572.9348212171,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "tidemark",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-tidemark-baseline-0.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-baseline-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-baseline-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-tidemark-baseline-10000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-baseline-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-baseline-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-tidemark-baseline-100000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-baseline-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-baseline-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-tidemark-baseline-500000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-baseline-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-baseline-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-tidemark-baseline-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-baseline-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-baseline-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9968986905582357,
+      "maximumWaterRelativeError": 2.6835625569279296e-15,
+      "maximumSolidRelativeError": 3.088548064067512e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-tidemark-dry",
+      "fingerprint": "9355b85778315490ea5fe552c45b5248218ac0749e405b5dbba0961913b886ce",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": -291254.627303542,
+        "ymax": 873572.9348212171,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "tidemark",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-tidemark-dry-0.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-dry-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-dry-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-tidemark-dry-10000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-dry-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-dry-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-tidemark-dry-100000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-dry-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-dry-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-tidemark-dry-500000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-dry-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-dry-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-tidemark-dry-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-dry-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-dry-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.9989662301860786,
+      "maximumWaterRelativeError": 2.830891361874842e-15,
+      "maximumSolidRelativeError": 5.2199975406653965e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    },
+    {
+      "id": "keld-outlet-evolution-regional-tidemark-wet",
+      "fingerprint": "eea21b2030ecd5d6433ffb04334c07f17c9469e5127d47dc6e1a775a896d334f",
+      "grid": {
+        "width": 129,
+        "height": 129,
+        "xmin": -291254.627303542,
+        "ymax": 873572.9348212171,
+        "stepM": 2000,
+        "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+        "id": "tidemark",
+        "region": "keld",
+        "seed": 5210914
+      },
+      "stages": [
+        {
+          "effectiveYears": 0,
+          "height": "keld-outlet-evolution-regional-tidemark-wet-0.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-wet-0-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-wet-0-lakes.geojson"
+        },
+        {
+          "effectiveYears": 10000,
+          "height": "keld-outlet-evolution-regional-tidemark-wet-10000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-wet-10000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-wet-10000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 100000,
+          "height": "keld-outlet-evolution-regional-tidemark-wet-100000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-wet-100000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-wet-100000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 500000,
+          "height": "keld-outlet-evolution-regional-tidemark-wet-500000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-wet-500000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-wet-500000-lakes.geojson"
+        },
+        {
+          "effectiveYears": 2000000,
+          "height": "keld-outlet-evolution-regional-tidemark-wet-2000000.png",
+          "rivers": "keld-outlet-evolution-regional-tidemark-wet-2000000-rivers.geojson",
+          "lakes": "keld-outlet-evolution-regional-tidemark-wet-2000000-lakes.geojson"
+        }
+      ],
+      "effectiveYears": 2000000,
+      "numericalConservationPassed": true,
+      "waterConverged": true,
+      "morphologyProxyPassed": true,
+      "quietAreaRetention": 0.994486560992419,
+      "maximumWaterRelativeError": 2.559598462116908e-15,
+      "maximumSolidRelativeError": 2.6319739950992213e-14,
+      "protectedMaximumChangeM": 0.0,
+      "terrainAccepted": false,
+      "climateAccepted": false,
+      "state": "WIP candidate; full matrix and story-geography acceptance pending"
+    }
+  ],
+  "climate": "WIP",
+  "vegetation": "WIP",
+  "routes": "WIP",
+  "worldDefaultChanged": false
+}

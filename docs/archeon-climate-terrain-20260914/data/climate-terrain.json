@@ -1,0 +1,48 @@
+{
+  "version": "archeon-climate-terrain-v15",
+  "seeds": [5210914, 5210915, 5210916],
+  "regions": ["vorhan", "duskreach", "keld"],
+  "timesYears": [0, 10000, 100000, 500000, 2000000],
+  "modes": ["erosion-only", "episodic"],
+  "enhancementLevels": [1, 1.5, 2],
+  "gridsM": {"screen":16000,"continental":2000,"detail":250,"comparison":[125,64]},
+  "tileProfiles": {
+    "vorhan": [
+      {"file":"Codex 图像 2026年9月14日 00_56_19.png","family":"tilted","extentKm":240,"reliefM":160},
+      {"file":"c725b044-d17d-4831-8178-9a6958494577.png","family":"bench","extentKm":110,"reliefM":120}
+    ],
+    "duskreach": [
+      {"file":"Codex 图像 2026年9月14日 00_56_30.png","family":"bench","extentKm":160,"reliefM":180},
+      {"file":"Codex 图像 2026年9月14日 00_56_40.png","family":"bench","extentKm":65,"reliefM":100},
+      {"file":"bee843cc-cab0-450b-8d27-d30546091973.png","family":"basin","extentKm":220,"reliefM":180}
+    ],
+    "keld": [
+      {"file":"Codex 图像 2026年9月14日 00_56_37.png","family":"volcanic","extentKm":75,"reliefM":140},
+      {"file":"4021676d-09ad-4f53-920e-cc102aba6c8a.png","family":"valley","extentKm":45,"reliefM":70}
+    ]
+  },
+  "provinces": [
+    {"id":"vorhan-rift","region":"vorhan","center":[99,25],"family":"tilted","angleDegrees":65},
+    {"id":"vorhan-tablelands","region":"vorhan","center":[112,34],"family":"bench","angleDegrees":60},
+    {"id":"duskreach-tablelands","region":"duskreach","center":[75,-26],"family":"bench","angleDegrees":-25},
+    {"id":"duskreach-tilted","region":"duskreach","center":[69,-39],"family":"basin","angleDegrees":-30},
+    {"id":"keld-ridges","region":"keld","center":[46,9],"family":"volcanic","angleDegrees":65},
+    {"id":"keld-tablelands","region":"keld","center":[52,0],"family":"bench","angleDegrees":65}
+  ],
+  "climate": {
+    "engine":"ROCKE-3D","version":"2.0","radiation":"SOCRATES",
+    "referenceCivilYear":521,"screenGridDegrees":[4,5],"reviewGridDegrees":[2,2.5],"atmosphereLayers":40,
+    "mixedLayerDepthM":50,"mixedLayerTrialsM":[25,50,100],"balanceWindowYears":20,"consecutiveBalanceWindows":2,
+    "maximumYears":300,"maximumTOAImbalanceWm2":0.5,"maximumTemperatureTrendKyr":0.02,
+    "maximumSurfaceImbalanceWm2":1,"maximumWaterBudgetFraction":0.001,
+    "maximumSeaIceTrendFractionYr":0.001,"maximumRegionalPrecipitationDriftFraction":0.05,
+    "solarDaySeconds":97200,"yearSeconds":31557600,"radiusM":4750000,"gravityMs2":9.610517,
+    "obliquityDegrees":13,"pressurePa":110000,
+    "requiredRadiativeSpecies":["H2O","CO2","O3","N2O","SF6"],
+    "surface":"mineral and soil priors; vegetation feedback pending",
+    "ocean":"mixed layer with separately recorded heat-transport sensitivity; not dynamic ocean circulation"
+  },
+  "desert": {"coreProvince":"a-ochre","anchors":["V07","AX"],"role":"acceptance only; never a rainfall mask","aridPOverPET":0.2,"semiAridPOverPET":0.5,"minimumCoreAridFraction":0.5},
+  "delivery": {"compress":false,"commit":false,"push":false,"changeManuscript":false},
+  "scope": "Inherited geology and current seasonal climate have different clocks. New terrain remains a candidate until morphology, hydrology, radiation and climate gates pass."
+}

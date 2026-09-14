@@ -1,0 +1,26 @@
+{
+  "status": "complete frozen control diagnostic",
+  "elapsedSeconds": 155.23766446113586,
+  "globalMeanTemperatureK": 193.93334590688482,
+  "toaNetWm2": -0.4034679960647338,
+  "incomingShortwaveWm2": 148.0640441394309,
+  "outgoingShortwaveWm2": 84.9660770155361,
+  "netLongwaveWm2": -63.501435129436324,
+  "planetaryAlbedo": 0.5738467938612032,
+  "oceanSeaIceFraction": 1.0,
+  "surfaceAlbedo": 0.5895294861267963,
+  "waterVapourColumnKgM2": 0.002076813925597342,
+  "radiationIdentityErrorWm2": 9.47679268392676e-09,
+  "outputSha256": "10275494e880bdb34e1d7626096c9b1b17a16a2fb2eee76f1b3b9bb24c4f27cf",
+  "parentRestartSha256": "a40885ef4cb8ad666667f359ee9cd74c3877c3f527141d5a3412283ca1d251cf",
+  "parentRequestFingerprint": "ba3b6dda435cd04f09fcfc0c8c3dc47e8018241ade2739ccd5b5890f8f54e505",
+  "omittedAbsorbers": [
+    "SF6",
+    "N2O"
+  ],
+  "climateAccepted": false,
+  "scope": "feedback-state diagnosis only; not a causal feedback separation or a warm-climate calibration",
+  "absorbedShortwaveWm2": 63.0979671238948,
+  "fluxConvention": "Raw rsut is negative upward; saved outgoingShortwave is positive outward",
+  "stellarEnergyUnitCheckPassed": true
+}

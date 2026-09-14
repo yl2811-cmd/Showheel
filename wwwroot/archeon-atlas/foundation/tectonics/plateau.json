@@ -1,0 +1,231 @@
+{
+  "mechanism": "Regional basalt plateau uplift with segmented normal fault displacement and erosional retreat",
+  "datumM": 3216,
+  "backSlopeExtent": "coast constrained, no fixed maximum distance",
+  "shoulderM": 60000,
+  "lateralFadeM": 480000,
+  "authorizedAreaKm2": 2973952.0,
+  "protectedMaxDeltaM": 0.0,
+  "ishkarMaxDeltaM": 0.0,
+  "targetDatumM": 3216,
+  "maxUpliftM": 3192.8550258394826,
+  "maxLoweringM": 3174.3501403823902,
+  "whisperflatRevisedM": 2306.321728008909,
+  "maximumBendM": 45021.41433401813,
+  "endpointErrorM": 0.0,
+  "seed": 5210914,
+  "registration": {
+    "source": "codex-clipboard-1c8e4ddc-2abc-4e54-9839-3345ffd05856.png",
+    "screenSize": [
+      1155,
+      896
+    ],
+    "screenRing": [
+      [
+        294,
+        647
+      ],
+      [
+        328,
+        691
+      ],
+      [
+        350,
+        747
+      ],
+      [
+        378,
+        778
+      ],
+      [
+        420,
+        793
+      ],
+      [
+        495,
+        800
+      ],
+      [
+        570,
+        805
+      ],
+      [
+        653,
+        810
+      ],
+      [
+        692,
+        805
+      ],
+      [
+        739,
+        768
+      ],
+      [
+        801,
+        719
+      ],
+      [
+        859,
+        688
+      ],
+      [
+        906,
+        679
+      ],
+      [
+        958,
+        650
+      ],
+      [
+        1003,
+        620
+      ],
+      [
+        1051,
+        589
+      ],
+      [
+        1092,
+        558
+      ],
+      [
+        1130,
+        537
+      ],
+      [
+        1140,
+        481
+      ],
+      [
+        1132,
+        472
+      ],
+      [
+        1145,
+        439
+      ],
+      [
+        1144,
+        398
+      ],
+      [
+        1121,
+        366
+      ],
+      [
+        1104,
+        324
+      ],
+      [
+        1078,
+        291
+      ],
+      [
+        1043,
+        247
+      ],
+      [
+        1015,
+        202
+      ],
+      [
+        1000,
+        258
+      ],
+      [
+        951,
+        339
+      ],
+      [
+        891,
+        400
+      ],
+      [
+        826,
+        447
+      ],
+      [
+        742,
+        493
+      ],
+      [
+        660,
+        522
+      ],
+      [
+        570,
+        542
+      ],
+      [
+        478,
+        555
+      ],
+      [
+        377,
+        562
+      ],
+      [
+        292,
+        569
+      ],
+      [
+        294,
+        647
+      ]
+    ],
+    "registrationRmsPixels": 0.2578081246885915,
+    "registrationMaxPixels": 0.43442974169832876,
+    "anchors": [
+      {
+        "id": "RB",
+        "pixel": [
+          270,
+          602
+        ],
+        "errorPixels": 0.4014730150929046
+      },
+      {
+        "id": "WI",
+        "pixel": [
+          588,
+          492
+        ],
+        "errorPixels": 0.06948406041076022
+      },
+      {
+        "id": "WH",
+        "pixel": [
+          903,
+          433
+        ],
+        "errorPixels": 0.10810491980694575
+      },
+      {
+        "id": "V01",
+        "pixel": [
+          176,
+          556
+        ],
+        "errorPixels": 0.43442974169832876
+      },
+      {
+        "id": "CO",
+        "pixel": [
+          562,
+          170
+        ],
+        "errorPixels": 0.07819553616277435
+      },
+      {
+        "id": "CW",
+        "pixel": [
+          399,
+          364
+        ],
+        "errorPixels": 0.1620220429429579
+      }
+    ],
+    "policy": "Uplift plateau and enclosed shallow basins; retain existing high peaks and explicitly protected wall/outlet"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "preview": "http://127.0.0.1:8780/?version=loam-v1#view=orun&focus=weeps",
+  "ready": true,
+  "displayedMode": "original rock colours",
+  "displayedPaletteWeights": [2.55, 2.1, 1, 2, 0.45, 1, 1, 1.55],
+  "flaxControlLabel": "亚麻黄褐分布",
+  "sceneVisuallyInspected": true,
+  "visibleResult": "Yellow-brown and grey-brown exposed terraces, green cliff/footslope coverage, cloud gaps and original block relief",
+  "capturedErrors": [],
+  "coldJobMs": 223951.8,
+  "subsequentJobMs": 15891.3,
+  "userContinuedEditing": true,
+  "latestObservedDraft": {"sandGoldAmount": 1.35, "roseSiltAmount": 1.45},
+  "latestDraftStillCalculatingAtObservation": true,
+  "draftNotOverwritten": true,
+  "compressedPreviewModulesMatchSource": true,
+  "limitations": "One live The Weeps view inspected. Cross-mode geometry, ecology and colour reconstruction validated with fixtures; no visual claim for every camera preset. Cold original-colour generation is still slow."
+}

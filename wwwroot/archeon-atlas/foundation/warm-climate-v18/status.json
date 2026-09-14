@@ -1,0 +1,514 @@
+{
+  "version": "continuation-v19",
+  "terrainRegionalRuns": 4,
+  "terrainFineRuns": 8,
+  "jointHydrology": [
+    {
+      "epoch": "base",
+      "converged": true,
+      "maximumWaterRelativeError": 4.178785525565472e-16,
+      "cycles": 1922
+    },
+    {
+      "epoch": "evolved-2000000",
+      "converged": true,
+      "maximumWaterRelativeError": 3.1200399594131524e-16,
+      "cycles": 70
+    }
+  ],
+  "spatialComparisons": {
+    "cases": [
+      {
+        "id": "vorhan-west-track-source",
+        "spatial": [
+          {
+            "coarseM": 250,
+            "fineM": 125,
+            "heightChangeRMSErrorM": 0.26643340037148333,
+            "relativeHeightChangeRMSError": 0.08810586730585225,
+            "heightChangeP95ErrorM": 0.397705078125,
+            "initialInterpolationRMSErrorM": 0.0,
+            "samples": 47089
+          },
+          {
+            "coarseM": 125,
+            "fineM": 64,
+            "heightChangeRMSErrorM": 0.49198559230589756,
+            "relativeHeightChangeRMSError": 0.13804617785395398,
+            "heightChangeP95ErrorM": 0.8986356735213754,
+            "initialInterpolationRMSErrorM": 0.007597644070147169,
+            "samples": 187489
+          }
+        ],
+        "temporal": {
+          "coarseM": 250,
+          "fineM": 250,
+          "heightChangeRMSErrorM": 0.05577393876105641,
+          "relativeHeightChangeRMSError": 0.018477944525648382,
+          "heightChangeP95ErrorM": 0.045166015625,
+          "initialInterpolationRMSErrorM": 0.0,
+          "samples": 47089
+        },
+        "temporalStepsYears": [
+          2500,
+          1250
+        ],
+        "samePhysicalBoundaryFadeM": 4000,
+        "sameInitialParent": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\regional\\vorhan-west-track",
+        "spatialErrorDecreases": false,
+        "scope": "numerical comparison on the original diagnostic windows; these are not evidence that the new source produced mesas or that modern climate is valid"
+      },
+      {
+        "id": "duskreach-west-track-source",
+        "spatial": [
+          {
+            "coarseM": 250,
+            "fineM": 125,
+            "heightChangeRMSErrorM": 0.5091478384568034,
+            "relativeHeightChangeRMSError": 0.15620251135390692,
+            "heightChangeP95ErrorM": 0.8113525390624998,
+            "initialInterpolationRMSErrorM": 0.0,
+            "samples": 47089
+          },
+          {
+            "coarseM": 125,
+            "fineM": 64,
+            "heightChangeRMSErrorM": 0.7263475967559776,
+            "relativeHeightChangeRMSError": 0.19039619201946995,
+            "heightChangeP95ErrorM": 1.3141509532943427,
+            "initialInterpolationRMSErrorM": 0.023904765121673974,
+            "samples": 187489
+          }
+        ],
+        "temporal": {
+          "coarseM": 250,
+          "fineM": 250,
+          "heightChangeRMSErrorM": 0.042915030595388676,
+          "relativeHeightChangeRMSError": 0.014783067833310163,
+          "heightChangeP95ErrorM": 0.050048828125,
+          "initialInterpolationRMSErrorM": 0.0,
+          "samples": 47089
+        },
+        "temporalStepsYears": [
+          2500,
+          1250
+        ],
+        "samePhysicalBoundaryFadeM": 4000,
+        "sameInitialParent": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\regional\\duskreach-west-track",
+        "spatialErrorDecreases": false,
+        "scope": "numerical comparison on the original diagnostic windows; these are not evidence that the new source produced mesas or that modern climate is valid"
+      }
+    ],
+    "climateValidated": false,
+    "acceptance": "Errors reported separately; numerical budget closure does not imply spatial or temporal convergence"
+  },
+  "keldMarkerChecks": {
+    "cases": [
+      {
+        "case": "regional\\shellharbor\\baseline",
+        "passed": true,
+        "sites": [
+          {
+            "id": "SH",
+            "name": "Shellharbor",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "case": "regional\\shellharbor\\dry",
+        "passed": true,
+        "sites": [
+          {
+            "id": "SH",
+            "name": "Shellharbor",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "case": "regional\\shellharbor\\wet",
+        "passed": true,
+        "sites": [
+          {
+            "id": "SH",
+            "name": "Shellharbor",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "case": "regional\\tidemark\\baseline",
+        "passed": true,
+        "sites": [
+          {
+            "id": "TI",
+            "name": "Tidemark",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "case": "regional\\tidemark\\dry",
+        "passed": true,
+        "sites": [
+          {
+            "id": "TI",
+            "name": "Tidemark",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "case": "regional\\tidemark\\wet",
+        "passed": true,
+        "sites": [
+          {
+            "id": "TI",
+            "name": "Tidemark",
+            "coreOnLand": true,
+            "permanentLakeAtMarker": false,
+            "maximumLakeDepthM": 0.0,
+            "resolutionM": 2000,
+            "extentStatus": "unknown",
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "allMarkersDry": true,
+    "exactSceneFootprintsRegistered": false
+  },
+  "jointFloodedMarkers": [
+    "DR",
+    "HE",
+    "VE",
+    "V03",
+    "V06",
+    "V11",
+    "V12",
+    "V15",
+    "V18",
+    "V19"
+  ],
+  "coldControl": {
+    "status": "complete frozen control diagnostic",
+    "elapsedSeconds": 155.23766446113586,
+    "globalMeanTemperatureK": 193.93334590688482,
+    "toaNetWm2": -0.4034679960647338,
+    "incomingShortwaveWm2": 148.0640441394309,
+    "outgoingShortwaveWm2": 84.9660770155361,
+    "netLongwaveWm2": -63.501435129436324,
+    "planetaryAlbedo": 0.5738467938612032,
+    "oceanSeaIceFraction": 1.0,
+    "surfaceAlbedo": 0.5895294861267963,
+    "waterVapourColumnKgM2": 0.002076813925597342,
+    "radiationIdentityErrorWm2": 9.47679268392676e-09,
+    "outputSha256": "10275494e880bdb34e1d7626096c9b1b17a16a2fb2eee76f1b3b9bb24c4f27cf",
+    "parentRestartSha256": "a40885ef4cb8ad666667f359ee9cd74c3877c3f527141d5a3412283ca1d251cf",
+    "parentRequestFingerprint": "ba3b6dda435cd04f09fcfc0c8c3dc47e8018241ade2739ccd5b5890f8f54e505",
+    "omittedAbsorbers": [
+      "SF6",
+      "N2O"
+    ],
+    "climateAccepted": false,
+    "scope": "feedback-state diagnosis only; not a causal feedback separation or a warm-climate calibration",
+    "absorbedShortwaveWm2": 63.0979671238948,
+    "fluxConvention": "Raw rsut is negative upward; saved outgoingShortwave is positive outward",
+    "stellarEnergyUnitCheckPassed": true
+  },
+  "orbitControls": [
+    {
+      "id": "orbit-controls-s1.00-v19/native-default",
+      "earthFluxFraction": 1.0,
+      "initialState": "native-default",
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 72.26122546195984,
+          "meanTemperatureC": -5.829407875306629,
+          "toaNetWm2": 38.893982768199905,
+          "meanCloudFraction": 0.46603817507255874,
+          "oceanSeaIceFraction": 0.12861867258951507,
+          "planetaryAlbedo": 0.2878245445006031,
+          "incomingShortwaveWm2": 340.2521908947056,
+          "waterVapourColumnKgM2": 4.112861864464591,
+          "physicalElapsedEarthYears": 0.5358202144649783,
+          "climateAccepted": false,
+          "outputSha256": "1825d54a9589f67cb1610934b8ec60cc2a4be5fc37d2cec18f76534d9654a2ae"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 76.71417188644409,
+          "meanTemperatureC": -3.6687728770143053,
+          "toaNetWm2": 33.21080856975816,
+          "meanCloudFraction": 0.5687724006565285,
+          "oceanSeaIceFraction": 0.27940611628459117,
+          "planetaryAlbedo": 0.32282985590232754,
+          "incomingShortwaveWm2": 340.25226152767016,
+          "waterVapourColumnKgM2": 6.326429666979832,
+          "physicalElapsedEarthYears": 1.0716404289299566,
+          "climateAccepted": false,
+          "outputSha256": "5eae62bdc72fd1a5496636b5aa1ac1c7db4ac5b9c186b27ed7bd3b01aa0fbd2d"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 100.65814709663391,
+          "meanTemperatureC": -0.08911680345852346,
+          "toaNetWm2": 26.170013745140956,
+          "meanCloudFraction": 0.6083160502517981,
+          "oceanSeaIceFraction": 0.29846434013274603,
+          "planetaryAlbedo": 0.329259386886502,
+          "incomingShortwaveWm2": 340.25226332228306,
+          "waterVapourColumnKgM2": 9.657711246048887,
+          "physicalElapsedEarthYears": 1.607460643394935,
+          "climateAccepted": false,
+          "outputSha256": "65c5c561586a82310c66709b6254239e10624b26bbcbfd6e29056d73c468e6fc"
+        }
+      ],
+      "acceptedClimate": false
+    },
+    {
+      "id": "orbit-controls-v19/frozen-restart",
+      "earthFluxFraction": 0.8,
+      "initialState": "frozen-restart",
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 79.64791655540466,
+          "meanTemperatureC": -54.98925160871829,
+          "toaNetWm2": 14.24311109004547,
+          "meanCloudFraction": 0.7787110868847911,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5668189689852469,
+          "incomingShortwaveWm2": 272.05431726890356,
+          "waterVapourColumnKgM2": 0.05834108913496636,
+          "physicalElapsedEarthYears": 0.63347022587269,
+          "climateAccepted": false,
+          "outputSha256": "b7453f7db83de16ffbb095fccbb33108bc64ba95d2434df181efcf76461fdd45"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 89.68828058242798,
+          "meanTemperatureC": -48.19669902366229,
+          "toaNetWm2": 3.2256777211604315,
+          "meanCloudFraction": 0.7434065085783406,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5637330121362575,
+          "incomingShortwaveWm2": 272.2020637492622,
+          "waterVapourColumnKgM2": 0.11386204812164254,
+          "physicalElapsedEarthYears": 1.26694045174538,
+          "climateAccepted": false,
+          "outputSha256": "de3d7bd2ff5824a756c207f171577f1c9cb218c707ec9337bffc88dc864b984d"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 115.26535391807556,
+          "meanTemperatureC": -47.49922921600043,
+          "toaNetWm2": 1.4192164631818753,
+          "meanCloudFraction": 0.6949521995479382,
+          "oceanSeaIceFraction": 1.0,
+          "planetaryAlbedo": 0.5641480862501571,
+          "incomingShortwaveWm2": 272.20206813466405,
+          "waterVapourColumnKgM2": 0.1220393696037061,
+          "physicalElapsedEarthYears": 1.9004106776180698,
+          "climateAccepted": false,
+          "outputSha256": "3e503ae002e5d20b9aa49a8296ea11e363ecdb4a1321064a41003ede89714c63"
+        }
+      ],
+      "acceptedClimate": false
+    },
+    {
+      "id": "orbit-controls-v19/native-default",
+      "earthFluxFraction": 0.8,
+      "initialState": "native-default",
+      "history": [
+        {
+          "record": 1,
+          "elapsedSeconds": 94.33731889724731,
+          "meanTemperatureC": -15.239824493657295,
+          "toaNetWm2": -11.021031104743193,
+          "meanCloudFraction": 0.46830411522911825,
+          "oceanSeaIceFraction": 0.3637966895075178,
+          "planetaryAlbedo": 0.35971513501361674,
+          "incomingShortwaveWm2": 272.20187414789615,
+          "waterVapourColumnKgM2": 2.311552738943262,
+          "physicalElapsedEarthYears": 0.63347022587269,
+          "climateAccepted": false,
+          "outputSha256": "5cc2c51e4d2fba4797b515945b0cd2b0cc81e82f8408986651bb66df0c15dda3"
+        },
+        {
+          "record": 2,
+          "elapsedSeconds": 72.38634037971497,
+          "meanTemperatureC": -22.40379790708036,
+          "toaNetWm2": -12.054704173719667,
+          "meanCloudFraction": 0.5353241872600272,
+          "oceanSeaIceFraction": 0.6171773513715945,
+          "planetaryAlbedo": 0.43406992088411595,
+          "incomingShortwaveWm2": 272.2018814802475,
+          "waterVapourColumnKgM2": 1.8929981363821262,
+          "physicalElapsedEarthYears": 1.26694045174538,
+          "climateAccepted": false,
+          "outputSha256": "4235113b728f974435f3d2415569d7142e5db8a392cb5d4328a868898f315343"
+        },
+        {
+          "record": 3,
+          "elapsedSeconds": 75.03550267219543,
+          "meanTemperatureC": -24.713913208988572,
+          "toaNetWm2": -14.097158396117388,
+          "meanCloudFraction": 0.6084328541355242,
+          "oceanSeaIceFraction": 0.6831409439375891,
+          "planetaryAlbedo": 0.4574348013039513,
+          "incomingShortwaveWm2": 272.2018780013156,
+          "waterVapourColumnKgM2": 1.726293968830711,
+          "physicalElapsedEarthYears": 1.9004106776180698,
+          "climateAccepted": false,
+          "outputSha256": "be1c98cbaa586ed143dfd0ffa7ca39b3ea346b81df774c9a16291d99820e8050"
+        }
+      ],
+      "acceptedClimate": false
+    }
+  ],
+  "standaloneColumnBenchmark": {
+    "passed": true,
+    "referenceSource": "MetOffice/socrates",
+    "sourceCommit": "76a675b2e7fc2d3d325ec3e6fed7a78f45e0cff6",
+    "outputSha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+    "comparedValues": 384,
+    "comparisons": [
+      {
+        "reference": "gfortran_8_1_0.txt",
+        "sha256": "b06a8cd6e0d157174ff7816553bb247d2d188b082e7ee595322f139e03f14bc7",
+        "maximumAbsoluteDifference": 0.0,
+        "passed": true
+      },
+      {
+        "reference": "ifort_19_0_0.txt",
+        "sha256": "8d3fda6510be3e9c481bb3892ee10165b4e89fb0617c82b0b1cc1e44af926459",
+        "maximumAbsoluteDifference": 3.399999997100167e-07,
+        "passed": true
+      },
+      {
+        "reference": "ifx_2025_0_4.txt",
+        "sha256": "56319918a3975b06e5241d4092ebeb52d8f6c3c48646b6eabf0c9135ac5ae462",
+        "maximumAbsoluteDifference": 3.399999997100167e-07,
+        "passed": true
+      }
+    ],
+    "scope": "official standalone column and interface regression; not Archeon SF6/N2O validation",
+    "archeonClimateAccepted": false,
+    "sf6RadiationValidated": false
+  },
+  "warmCandidateRequests": 324,
+  "warmClimateExecuted": false,
+  "warmClimateAccepted": false,
+  "vegetationReady": false,
+  "vegetationMissing": [
+    "spatial convergence is not demonstrated for all registered comparison windows",
+    "three-seed / erosion-and-tectonic / dry-baseline-wet matrix incomplete for latest parents",
+    "global soil and sediment ledger, exact story footprints and worldwide accepted terrain assembly incomplete",
+    "new Driftmoor/Hearthstone/Verdance outlet correction still requires reconstruction of the initial parent and re-erosion",
+    "no radiation-valid 12-14C, seasonally balanced Year 521 climate result",
+    "climate-driven regional soil-water and snow fields not available",
+    "Orun aridity and agricultural story geography not validated under accepted climate",
+    "historical vegetation requires epoch-specific climate and initial soil/biomass state; Year 521 climate cannot stand in for the whole terraforming history"
+  ],
+  "seasonCountLocked": false,
+  "earthCivilYearDays": 365.25,
+  "manuscriptChange": "two explicitly authorized calendar statements only",
+  "formalMapChanged": false,
+  "localOnly": true,
+  "storyOutletDiagnostic": {
+    "sourceHeightSha256": "6ecd0209ba5d6bbf84ccbc554f507119fa84b5802f99f559932d8ee1b64e9140",
+    "convergence": {
+      "passed": true,
+      "waterYears": 20,
+      "maximumPeriodicLevelChangeM": 0.0,
+      "relativeStorageDrift": 0.0,
+      "requiredStableCycles": 3,
+      "levelToleranceM": 0.02
+    },
+    "maximumWaterRelativeError": 6.872004953084779e-16,
+    "sites": [
+      {
+        "id": "DR",
+        "name": "Driftmoor",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      },
+      {
+        "id": "HE",
+        "name": "Hearthstone",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      },
+      {
+        "id": "VE",
+        "name": "Verdance",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      }
+    ],
+    "allMarkersDry": true,
+    "climateValidated": false,
+    "reerosionPending": true
+  },
+  "storyOutletLandConnection": {
+    "sites": [
+      {
+        "id": "DR",
+        "name": "Driftmoor",
+        "coreConnectedTo150kmWindowBoundary": true,
+        "connectedDryAreaWithinWindowKm2": 71816.0,
+        "inner5kmDryFraction": 0.7142857142857143,
+        "exactAgriculturalOrBuiltFootprintAccepted": false
+      },
+      {
+        "id": "HE",
+        "name": "Hearthstone",
+        "coreConnectedTo150kmWindowBoundary": true,
+        "connectedDryAreaWithinWindowKm2": 85460.0,
+        "inner5kmDryFraction": 0.5714285714285714,
+        "exactAgriculturalOrBuiltFootprintAccepted": false
+      },
+      {
+        "id": "VE",
+        "name": "Verdance",
+        "coreConnectedTo150kmWindowBoundary": true,
+        "connectedDryAreaWithinWindowKm2": 87092.0,
+        "inner5kmDryFraction": 0.5714285714285714,
+        "exactAgriculturalOrBuiltFootprintAccepted": false
+      }
+    ],
+    "allConnectedToWiderLand": true,
+    "definition": "four-neighbour dry-land connection beyond 150 km from marker; no inference of roads, farm area or whole scene acceptance"
+  }
+}

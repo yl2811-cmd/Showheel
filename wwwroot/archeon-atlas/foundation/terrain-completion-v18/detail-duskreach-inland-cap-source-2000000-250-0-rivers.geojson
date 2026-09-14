@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 0,
+    "sourceHeightSha256": "7985d235cc23f89b743ff5330d9cf3e0cb57ac3d5034f419690ef3122d8f78ea"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "river-61729",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.9193502,
+            -33.8177069
+          ],
+          [
+            68.915727,
+            -33.8174926
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 35.17252731323242,
+        "headDischargeM3s": 35.169769287109375,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    }
+  ]
+}

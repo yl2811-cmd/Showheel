@@ -1,0 +1,360 @@
+{
+  "sourceDOI": "10.7795/720.20231027",
+  "sourceURL": "https://oar.ptb.de/resources/show/10.7795/720.20231027",
+  "license": "CC BY 4.0",
+  "attribution": "Lüttschwager (Domanskaya), Berezkin, Li, Bohlius, Kim, Harrison and Ebert (PTB, 2023)",
+  "archiveSha256": "bfa3f228a09cfd7044a388a7a073b593b33d3696252cb3b3e8df76a37b73a490",
+  "spectra": [
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1670.0-1780.0_0.04.dat",
+      "sha256": "9ea1f7e2c9c584c0241271bdd999325f7d648551042b35f48e5a6dcf0ca39f77",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1670.00212,
+      "wavenumberMaxCm1": 1799.98435,
+      "samples": 7550,
+      "negativeNoiseSamples": 1101,
+      "integratedSignedCrossSectionMPerMolecule": 6.578653557045768e-21,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1420.0-1490.0_0.04.dat",
+      "sha256": "880e2da6f6d16a2635e6564f0ac4e54db5bca28433e24b7c27fac8c7e6bc88fc",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1420.00716,
+      "wavenumberMaxCm1": 1489.98302,
+      "samples": 4065,
+      "negativeNoiseSamples": 511,
+      "integratedSignedCrossSectionMPerMolecule": 1.5666255213332083e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1340.0-1430.0_0.04.dat",
+      "sha256": "6d727337421ca44507f477396d421c577cebf320d86af0d428f172857d1348fa",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1340.01016,
+      "wavenumberMaxCm1": 1429.99388,
+      "samples": 5227,
+      "negativeNoiseSamples": 851,
+      "integratedSignedCrossSectionMPerMolecule": 7.638143356206068e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1220.0-1290.0_0.04.dat",
+      "sha256": "ba295c454c1dc9e9861c5e0ce2c3327272678361e2388074acd8b19e5bd5bf35",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1220.01464,
+      "wavenumberMaxCm1": 1289.9905,
+      "samples": 4065,
+      "negativeNoiseSamples": 489,
+      "integratedSignedCrossSectionMPerMolecule": 2.6841297882614983e-21,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1100.0-1160.0_0.04.dat",
+      "sha256": "5a0b715ed90511fe890d36af7fb6ea3908713af55813c50bbe6be1131ff006e9",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1100.00191,
+      "wavenumberMaxCm1": 1159.99106,
+      "samples": 3485,
+      "negativeNoiseSamples": 523,
+      "integratedSignedCrossSectionMPerMolecule": 2.571135253917071e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1515.0-1680.0_0.04.dat",
+      "sha256": "8e325ce5d6df3163f073190d6251e9919fe4d4e56174c6e5e91b4bd3c6aa2f06",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1515.00146,
+      "wavenumberMaxCm1": 1679.98883,
+      "samples": 9583,
+      "negativeNoiseSamples": 345,
+      "integratedSignedCrossSectionMPerMolecule": 1.4508477025960738e-20,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_570.0-700.0_0.04.dat",
+      "sha256": "7484b5facead608ea7803a4572bc23a0ae8d531ab9e5ab03e19d4f10e0c3630b",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 570.00021,
+      "wavenumberMaxCm1": 699.99965,
+      "samples": 7551,
+      "negativeNoiseSamples": 1588,
+      "integratedSignedCrossSectionMPerMolecule": 1.3760597021919753e-19,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1670.0-1780.0_0.04.dat",
+      "sha256": "a705296a3bf1216ae4e97038e2522e0b43bcfc2f717614505cc71711f6c179df",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1670.00212,
+      "wavenumberMaxCm1": 1779.9937,
+      "samples": 6389,
+      "negativeNoiseSamples": 1041,
+      "integratedSignedCrossSectionMPerMolecule": 6.480265977793556e-21,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1515.0-1680.0_0.04.dat",
+      "sha256": "61b9bdacb594efd51daa4a1334f30a6343de9c3e2797e1c41a1763537023f74e",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1515.00146,
+      "wavenumberMaxCm1": 1679.98883,
+      "samples": 9583,
+      "negativeNoiseSamples": 726,
+      "integratedSignedCrossSectionMPerMolecule": 1.4505464653800583e-20,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1100.0-1160.0_0.04.dat",
+      "sha256": "25bfe8f1e35462305181247c51482209b8b5e430969ad369a0c9ca7008cb8d3e",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1100.00191,
+      "wavenumberMaxCm1": 1159.99106,
+      "samples": 3485,
+      "negativeNoiseSamples": 603,
+      "integratedSignedCrossSectionMPerMolecule": 2.4596508403329486e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1220.0-1290.0_0.04.dat",
+      "sha256": "d0535e4f60f8b9663c0ed477bf7f2e5f5631d86d47d4ee0613ca970087ca64a5",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1220.01464,
+      "wavenumberMaxCm1": 1289.9905,
+      "samples": 4065,
+      "negativeNoiseSamples": 549,
+      "integratedSignedCrossSectionMPerMolecule": 2.645279993352346e-21,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_1340.0-1430.0_0.04.dat",
+      "sha256": "2f2752d003d3266fe7787c240d68f1e542b8126befdb1f4e67d69286dc471628",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 1340.01016,
+      "wavenumberMaxCm1": 1429.99388,
+      "samples": 5227,
+      "negativeNoiseSamples": 942,
+      "integratedSignedCrossSectionMPerMolecule": 7.451476621619458e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_575.0-675.0_0.04.dat",
+      "sha256": "a63f7bcb8aa7f10c4bdf656ddcbaf47a699427358eeb30ec20c2e4d2ee0b7c22",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 575.01078,
+      "wavenumberMaxCm1": 674.99843,
+      "samples": 5808,
+      "negativeNoiseSamples": 819,
+      "integratedSignedCrossSectionMPerMolecule": 1.3706543679394096e-19,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_745.7Torr_air_800.0-1075.0_0.04.dat",
+      "sha256": "449352084f1b7600a31ad3aa4cc355aa158478578024c93ec0dd25fa1a1d4e69",
+      "temperatureK": 296.05,
+      "pressurePa": 99418.48981760001,
+      "wavenumberMinCm1": 800.00452,
+      "wavenumberMaxCm1": 1074.98348,
+      "samples": 15971,
+      "negativeNoiseSamples": 769,
+      "integratedSignedCrossSectionMPerMolecule": 1.981084636362065e-18,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_800.0-1100.0_0.04.dat",
+      "sha256": "7e78c967939ba4f1edbb644539a0abac18534212931e62c26a97a310427fe3e2",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 800.00452,
+      "wavenumberMaxCm1": 1099.98469,
+      "samples": 17423,
+      "negativeNoiseSamples": 1344,
+      "integratedSignedCrossSectionMPerMolecule": 1.9851954474778115e-18,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    },
+    {
+      "file": "SF6_296.1K_225.5Torr_air_1420.0-1490.0_0.04.dat",
+      "sha256": "c95c38d386086ecbe7ebe3e704a643b47252980be7955405084ae7a360add814",
+      "temperatureK": 296.05,
+      "pressurePa": 30064.193984,
+      "wavenumberMinCm1": 1420.00716,
+      "wavenumberMaxCm1": 1489.98302,
+      "samples": 4065,
+      "negativeNoiseSamples": 751,
+      "integratedSignedCrossSectionMPerMolecule": 1.0929849323948264e-22,
+      "originalUnits": [
+        "cm-1",
+        "cm2 molecule-1",
+        "cm2 molecule-1"
+      ],
+      "convertedUnits": [
+        "m-1",
+        "m2 molecule-1",
+        "m2 molecule-1"
+      ]
+    }
+  ],
+  "measuredSpectrumAuditPassed": true,
+  "roomTemperatureTransmissionTestsPassed": true,
+  "columnDemonstration": "Monochromatic pure-absorber transmission at measured conditions; excludes gas overlap, thermal emission and vertical temperature variation. Not a radiative-convective climate column.",
+  "temperatureCoverageK": [
+    296.05,
+    296.05
+  ],
+  "missing": [
+    "cold upper-atmosphere temperature coverage",
+    "full pressure-temperature table",
+    "background gas overlap and continuum comparison",
+    "SOCRATES correlated-k generation and column transfer regression"
+  ],
+  "radiationValidationPassed": false,
+  "formalClimateReady": false
+}

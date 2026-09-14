@@ -1,0 +1,200 @@
+{
+  "version": "elevation-preview-20260914",
+  "rangeM": [
+    0,
+    8000
+  ],
+  "stops": [
+    [
+      0,
+      "#35ad68"
+    ],
+    [
+      1600,
+      "#3678cf"
+    ],
+    [
+      3200,
+      "#f1dc55"
+    ],
+    [
+      4800,
+      "#f49a38"
+    ],
+    [
+      6400,
+      "#d84748"
+    ],
+    [
+      8000,
+      "#8642b4"
+    ]
+  ],
+  "originalHeightsUnchanged": true,
+  "sourcePolicy": "Each panel samples its named existing DEM independently; no reconciliation, uplift or smoothing.",
+  "inputs": {
+    "data/atlas.json": {
+      "bytes": 78615466,
+      "sha256": "5fcdd2a7cdb8b3f649501c10943cebd141d94af1c3f1fc3f1c5ec8f06bc5a4ee"
+    },
+    "terrain/world-meta.json": {
+      "bytes": 1078,
+      "sha256": "9eb238b607d652baad8ed8b49415cf8df9ad6e6ff51f86021f4c59e93a7e7752"
+    },
+    "terrain/world-height.f32": {
+      "bytes": 366528000,
+      "sha256": "99a84157e4a788d21c95197adc3f82becb6162b543bf00672578e5048da52112"
+    },
+    "terrain/world-mask.png": {
+      "bytes": 367161,
+      "sha256": "9c820d2a7d91752f68e7b313a41c5f36a6b3844ca14c4ede8a4994dea61aef2b"
+    },
+    "terrain/aethelgard-meta.json": {
+      "bytes": 1056,
+      "sha256": "9dfd29c2977f88d29b24104c10cac8b9ffe234dbbda24fdea95ef2a080f00234"
+    },
+    "terrain/aethelgard-height.f32": {
+      "bytes": 460800000,
+      "sha256": "8d8ff273acc618caa669194465f1641ac6035c11e52c4456431aafdb4ea37936"
+    },
+    "terrain/aethelgard-mask.png": {
+      "bytes": 854721,
+      "sha256": "363d7f1d2d4542a8066f169c6a4135e676d48a3ed066f4e3efc841aec67644ff"
+    },
+    "orun-assets/landforms-v3/manifest.json": {
+      "bytes": 6259,
+      "sha256": "bf1a22d1c15f0fab728c6f5188753763fdde8978d217995170138281fb855718"
+    },
+    "orun-assets/landforms-v3/h.f32": {
+      "bytes": 12859396,
+      "sha256": "9a32558b6902a11ed4d2b5013ce5b6d3e4910ba5a348f97b0335da5df5d8dcea"
+    },
+    "orun-assets/windward-v8-r3/delta.f32": {
+      "bytes": 12859396,
+      "sha256": "8ad7b09da63fabd87b5096cf716adf03481a38332c5b0411bcf0c5db5bde1d6f"
+    },
+    "orun-assets/windward-v8-r3/manifest.json": {
+      "bytes": 5090,
+      "sha256": "ec83676036459dcc93f693d492073074409620b9f8d3b6becc80fa6af32200e2"
+    },
+    "terrain/marneth-meta.json": {
+      "bytes": 605,
+      "sha256": "138d0f7356089a3048d09508d899d76cbb1d7b8ebf164549ae879801f9ad8777"
+    },
+    "terrain/marneth-height.f32": {
+      "bytes": 37699200,
+      "sha256": "79f143779a0dcbda03ee5842b04add5ed5dc2746c6486a561876a982a05f3e6f"
+    },
+    "terrain/marneth-mask.png": {
+      "bytes": 227899,
+      "sha256": "b5c0a73924ca4bf24899ea06220404b264bd916af8edf33bf46a61ce0b827959"
+    }
+  },
+  "transect": [
+    {
+      "southKm": -40,
+      "coordinate": [
+        -3.1,
+        10.942490774847009
+      ],
+      "continentM": 325.1149597167969,
+      "localM": 217.4026641845703
+    },
+    {
+      "southKm": -25,
+      "coordinate": [
+        -3.1,
+        10.761556734279381
+      ],
+      "continentM": 244.79226684570312,
+      "localM": 206.54074096679688
+    },
+    {
+      "southKm": -10,
+      "coordinate": [
+        -3.1,
+        10.580622693711753
+      ],
+      "continentM": 279.142822265625,
+      "localM": 555.0345458984375
+    },
+    {
+      "southKm": 0,
+      "coordinate": [
+        -3.1,
+        10.46
+      ],
+      "continentM": 1776.1734619140625,
+      "localM": 2247.46728515625
+    },
+    {
+      "southKm": 10,
+      "coordinate": [
+        -3.1,
+        10.339377306288249
+      ],
+      "continentM": 3257.02587890625,
+      "localM": 3296.9423828125
+    },
+    {
+      "southKm": 25,
+      "coordinate": [
+        -3.1,
+        10.15844326572062
+      ],
+      "continentM": 3206.29833984375,
+      "localM": 3278.64404296875
+    },
+    {
+      "southKm": 40,
+      "coordinate": [
+        -3.1,
+        9.977509225152993
+      ],
+      "continentM": 3263.568359375,
+      "localM": 3346.031982421875
+    }
+  ],
+  "marnethPoints": [
+    {
+      "coordinate": [
+        20,
+        31
+      ],
+      "continentM": 6833.3310546875,
+      "localM": 5520.6513671875
+    },
+    {
+      "coordinate": [
+        20,
+        29
+      ],
+      "continentM": 6083.26123046875,
+      "localM": 4733.5087890625
+    },
+    {
+      "coordinate": [
+        20,
+        27
+      ],
+      "continentM": 4846.43408203125,
+      "localM": 3742.044921875
+    },
+    {
+      "coordinate": [
+        24,
+        32
+      ],
+      "continentM": 1556.6053466796875,
+      "localM": 1551.571533203125
+    },
+    {
+      "coordinate": [
+        16,
+        33
+      ],
+      "continentM": 515.3890380859375,
+      "localM": 437.28704833984375
+    }
+  ]
+}

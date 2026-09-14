@@ -1,0 +1,666 @@
+{
+  "version": "archeon-foundation-creation-v5-orun-protection-20260914",
+  "seed": 5210914,
+  "status": "candidate; current production terrain is unchanged",
+  "grid": {
+    "width": 2908,
+    "height": 2313,
+    "stepM": 2000.0,
+    "xmin": -2520000.0,
+    "ymax": 2422000.0,
+    "projection": "+proj=lcc +lat_0=28 +lon_0=-12 +lat_1=15 +lat_2=45 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "nativeScale": 0.0011966445733289253,
+    "nativeTranslate": [
+      5949.483348480791,
+      5539.177953749751
+    ],
+    "projectionCalibrationMaxErrorPixels": 3.637978807091713e-12,
+    "orientation": "row 0 north; heights above mean sea level in metres",
+    "sourceHeightSha256": "8d8ff273acc618caa669194465f1641ac6035c11e52c4456431aafdb4ea37936"
+  },
+  "sources": [
+    {
+      "id": "stepped",
+      "title": "Colorado Plateau / Grand Staircase",
+      "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-113%2C36%2C-109%2C39&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+      "bounds": [
+        -113,
+        36,
+        -109,
+        39
+      ],
+      "file": "stepped.tif",
+      "sha256": "6ab19e8edb0b7962ba7087c4255e09209f54f57f0ef5a9ec56d51de010241119",
+      "width": 1024,
+      "height": 1024,
+      "pixelSizeM": [
+        389.38675780156586,
+        389.38675780156586
+      ],
+      "heightRangeM": [
+        556.914794921875,
+        3787.71728515625
+      ],
+      "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+    },
+    {
+      "id": "basalt",
+      "title": "Columbia basalt province",
+      "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-122%2C44%2C-118%2C47&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+      "bounds": [
+        -122,
+        44,
+        -118,
+        47
+      ],
+      "file": "basalt.tif",
+      "sha256": "d7d9558884ee544d8af93c32f57540ac500cea30cc0877caa064d01beb0231bb",
+      "width": 1024,
+      "height": 1024,
+      "pixelSizeM": [
+        391.44464022513876,
+        391.44464022513876
+      ],
+      "heightRangeM": [
+        1.3939447402954102,
+        4351.98876953125
+      ],
+      "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+    },
+    {
+      "id": "mountain",
+      "title": "Alaska mountain and glacier valleys",
+      "source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "request": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-151%2C61%2C-147%2C64&bboxSR=4326&imageSR=5070&size=1024%2C1024&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A+%22None%22%7D&interpolation=%2BRSP_BilinearInterpolation&f=json",
+      "bounds": [
+        -151,
+        61,
+        -147,
+        64
+      ],
+      "file": "mountain.tif",
+      "sha256": "1b9755abefe07154dc59554e4f8442f4c24fa36d16e06cc5daf0ed781e718334",
+      "width": 1024,
+      "height": 1024,
+      "pixelSizeM": [
+        363.40006054485184,
+        363.40006054485184
+      ],
+      "heightRangeM": [
+        -3.0000009536743164,
+        6093.73193359375
+      ],
+      "role": "Measured DEM morphology and roughness calibration; re-scaled references are not Archeon measurements"
+    },
+    {
+      "id": "rift",
+      "title": "Ethiopian faulted plateau",
+      "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+      "tile": "N13E039",
+      "bounds": [
+        39,
+        13,
+        40,
+        14
+      ],
+      "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N13/N13E039.hgt.gz",
+      "sha256": "c2b4b7a66fbe14d8649dd788e057f153b426f8ce54ad93702f0df70a5f42874e",
+      "nativeSize": 3601,
+      "rangeM": [
+        611.0,
+        3303.0
+      ],
+      "referencePixelM": 108.69501466275659,
+      "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+      "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+    },
+    {
+      "id": "snow",
+      "title": "Himalayan snow mountains and valleys",
+      "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+      "tile": "N28E086",
+      "bounds": [
+        86,
+        28,
+        87,
+        29
+      ],
+      "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N28/N28E086.hgt.gz",
+      "sha256": "492bbef252dc022aa91d7a80d0f1bd913c69b86cc57157e251f77549f1260f0c",
+      "nativeSize": 3601,
+      "rangeM": [
+        2535.0,
+        8275.0
+      ],
+      "referencePixelM": 108.69501466275659,
+      "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+      "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+    },
+    {
+      "id": "mesa",
+      "title": "Guiana Shield table mountains",
+      "type": "satellite radar DEM; NASA/NGA SRTM via Mapzen/Terrain Tiles (void-filled global product)",
+      "tile": "N05W061",
+      "bounds": [
+        -61,
+        5,
+        -60,
+        6
+      ],
+      "source": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N05/N05W061.hgt.gz",
+      "sha256": "fc8436a6fb6fdc3d7eb17006d508b42d558678a071d001192a11bedfef7d384e",
+      "nativeSize": 3601,
+      "rangeM": [
+        79.0,
+        2748.0
+      ],
+      "referencePixelM": 108.69501466275659,
+      "attribution": "SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen/Terrain Tiles",
+      "role": "Rotated/cropped and rescaled morphological prior; not an Archeon measurement"
+    }
+  ],
+  "protected": [
+    {
+      "id": "FC",
+      "name": "Frontier",
+      "coord": [
+        0,
+        26
+      ],
+      "radiusM": 25000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "CR",
+      "name": "Crestline",
+      "coord": [
+        0.3,
+        27
+      ],
+      "radiusM": 12000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "AT",
+      "name": "Atheria",
+      "coord": [
+        0.4897728955495773,
+        27.798124784891048
+      ],
+      "radiusM": 20000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "CP",
+      "name": "Coppergate",
+      "coord": [
+        -3,
+        18
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "TH",
+      "name": "Thornfield",
+      "coord": [
+        12,
+        25
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "CL",
+      "name": "Cliffwatch",
+      "coord": [
+        -7,
+        14
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "MI",
+      "name": "Millhaven",
+      "coord": [
+        -15,
+        24
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "ST",
+      "name": "Stormperch",
+      "coord": [
+        15,
+        31
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "WI",
+      "name": "Windbreak",
+      "coord": [
+        -3,
+        11
+      ],
+      "radiusM": 15000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "CA",
+      "name": "Canopy",
+      "coord": [
+        -10,
+        41
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "IR",
+      "name": "Ironvein",
+      "coord": [
+        20,
+        20
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "RB",
+      "name": "Riverbend",
+      "coord": [
+        -10,
+        9
+      ],
+      "radiusM": 28000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "SA",
+      "name": "Saltmarch",
+      "coord": [
+        -7,
+        4
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "CN",
+      "name": "Cinderlode",
+      "coord": [
+        31,
+        24
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "AM",
+      "name": "Amber Reach",
+      "coord": [
+        28,
+        14
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "IH",
+      "name": "Iris Hollow",
+      "coord": [
+        -34,
+        22
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V01",
+      "name": "Orun Great Wall",
+      "coord": [
+        -12,
+        10
+      ],
+      "radiusM": 24000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V07",
+      "name": "The Draa",
+      "coord": [
+        8,
+        7
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V09",
+      "name": "The Roll",
+      "coord": [
+        38,
+        17
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V13",
+      "name": "Glass Plains",
+      "coord": [
+        -2,
+        13
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V14",
+      "name": "Fjord Coast",
+      "coord": [
+        -35,
+        55
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "V16",
+      "name": "Northern Reaches · 北境湖海",
+      "coord": [
+        -33.5,
+        40.8
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "AX",
+      "name": "Axiom Scar",
+      "coord": [
+        12,
+        11
+      ],
+      "radiusM": 18000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "WH",
+      "name": "Whisperflat",
+      "coord": [
+        4,
+        11.5
+      ],
+      "radiusM": 25000,
+      "mode": "exact scene core"
+    },
+    {
+      "id": "RT",
+      "name": "Rimstone Tarn",
+      "coord": [
+        24,
+        18
+      ],
+      "radiusM": 8000,
+      "mode": "exact scene core"
+    }
+  ],
+  "history": [
+    {
+      "iteration": 1,
+      "effectiveYears": 2500,
+      "erosionM3": 22219342772921.523,
+      "depositionM3": 18862989672505.94,
+      "exportM3": 3344457329031.7534,
+      "retainedSuspendedM3": 11895770913.03918,
+      "sedimentBalanceRelativeError": 2.118826993836113e-11,
+      "meanHeightChangeM": 1.3864610195159912
+    },
+    {
+      "iteration": 2,
+      "effectiveYears": 5000,
+      "erosionM3": 22310810051331.6,
+      "depositionM3": 18671782693219.734,
+      "exportM3": 3626362237855.0825,
+      "retainedSuspendedM3": 12665118187.75779,
+      "sedimentBalanceRelativeError": 9.273651981244157e-11,
+      "meanHeightChangeM": 1.3401340246200562
+    },
+    {
+      "iteration": 3,
+      "effectiveYears": 7500,
+      "erosionM3": 22284005646100.742,
+      "depositionM3": 18470536078505.473,
+      "exportM3": 3805727920429.0103,
+      "retainedSuspendedM3": 7741647130.133119,
+      "sedimentBalanceRelativeError": 1.6211698779844723e-12,
+      "meanHeightChangeM": 1.2958754301071167
+    },
+    {
+      "iteration": 4,
+      "effectiveYears": 10000,
+      "erosionM3": 22201936334341.51,
+      "depositionM3": 18269384308125.93,
+      "exportM3": 3918761404534.964,
+      "retainedSuspendedM3": 13790620676.223646,
+      "sedimentBalanceRelativeError": 4.523905044917106e-11,
+      "meanHeightChangeM": 1.2544511556625366
+    },
+    {
+      "iteration": 5,
+      "effectiveYears": 12500,
+      "erosionM3": 22081745574994.273,
+      "depositionM3": 18062859391198.434,
+      "exportM3": 4011130695038.736,
+      "retainedSuspendedM3": 7755488871.274298,
+      "sedimentBalanceRelativeError": 5.170347308831947e-12,
+      "meanHeightChangeM": 1.2158455848693848
+    },
+    {
+      "iteration": 6,
+      "effectiveYears": 15000,
+      "erosionM3": 21954380427049.566,
+      "depositionM3": 17883696805124.51,
+      "exportM3": 4056356810596.553,
+      "retainedSuspendedM3": 14326811872.029154,
+      "sedimentBalanceRelativeError": 2.4757140871551657e-11,
+      "meanHeightChangeM": 1.1815160512924194
+    },
+    {
+      "iteration": 7,
+      "effectiveYears": 17500,
+      "erosionM3": 21788086240798.906,
+      "depositionM3": 17703340648742.902,
+      "exportM3": 4070799083500.8823,
+      "retainedSuspendedM3": 13946507987.978525,
+      "sedimentBalanceRelativeError": 2.6029961998567495e-11,
+      "meanHeightChangeM": 1.147106647491455
+    },
+    {
+      "iteration": 8,
+      "effectiveYears": 20000,
+      "erosionM3": 21653321564938.34,
+      "depositionM3": 17554043237491.982,
+      "exportM3": 4085433756377.1196,
+      "retainedSuspendedM3": 13844570517.172535,
+      "sedimentBalanceRelativeError": 2.5495638457613933e-11,
+      "meanHeightChangeM": 1.1189165115356445
+    },
+    {
+      "iteration": 9,
+      "effectiveYears": 22500,
+      "erosionM3": 21501579785788.395,
+      "depositionM3": 17386752798405.41,
+      "exportM3": 4102059805153.69,
+      "retainedSuspendedM3": 12767181469.079063,
+      "sedimentBalanceRelativeError": 3.535625650542626e-11,
+      "meanHeightChangeM": 1.0913312435150146
+    },
+    {
+      "iteration": 10,
+      "effectiveYears": 25000,
+      "erosionM3": 21366465768197.31,
+      "depositionM3": 17256688967786.248,
+      "exportM3": 4098123116847.6763,
+      "retainedSuspendedM3": 11653683684.30089,
+      "sedimentBalanceRelativeError": 5.65917704579384e-12,
+      "meanHeightChangeM": 1.067490816116333
+    },
+    {
+      "iteration": 11,
+      "effectiveYears": 27500,
+      "erosionM3": 21227478655494.01,
+      "depositionM3": 17133583736158.879,
+      "exportM3": 4082223465889.6377,
+      "retainedSuspendedM3": 11671452312.977716,
+      "sedimentBalanceRelativeError": 5.335147989648142e-11,
+      "meanHeightChangeM": 1.0459632873535156
+    },
+    {
+      "iteration": 12,
+      "effectiveYears": 30000,
+      "erosionM3": 21091438453640.21,
+      "depositionM3": 16992677732091.29,
+      "exportM3": 4086512838591.116,
+      "retainedSuspendedM3": 12247882291.398016,
+      "sedimentBalanceRelativeError": 3.159612131488032e-11,
+      "meanHeightChangeM": 1.0248826742172241
+    },
+    {
+      "iteration": 13,
+      "effectiveYears": 32500,
+      "erosionM3": 20912964040374.547,
+      "depositionM3": 16844506834134.098,
+      "exportM3": 4057175859677.1626,
+      "retainedSuspendedM3": 11281347570.86971,
+      "sedimentBalanceRelativeError": 4.817983179635619e-11,
+      "meanHeightChangeM": 1.002583384513855
+    },
+    {
+      "iteration": 14,
+      "effectiveYears": 35000,
+      "erosionM3": 20783353652700.887,
+      "depositionM3": 16726746110859.818,
+      "exportM3": 4041936714212.5317,
+      "retainedSuspendedM3": 14670828346.616306,
+      "sedimentBalanceRelativeError": 3.45507129027689e-11,
+      "meanHeightChangeM": 0.9849064946174622
+    },
+    {
+      "iteration": 15,
+      "effectiveYears": 37500,
+      "erosionM3": 20654071332869.26,
+      "depositionM3": 16613190875927.807,
+      "exportM3": 4029529114529.044,
+      "retainedSuspendedM3": 11351341214.28804,
+      "sedimentBalanceRelativeError": 5.8009051742968104e-11,
+      "meanHeightChangeM": 0.9684131741523743
+    },
+    {
+      "iteration": 16,
+      "effectiveYears": 40000,
+      "erosionM3": 20522500623991.61,
+      "depositionM3": 16512329281710.125,
+      "exportM3": 3998683209376.7515,
+      "retainedSuspendedM3": 11488133389.96779,
+      "sedimentBalanceRelativeError": 2.364404266993317e-11,
+      "meanHeightChangeM": 0.9536713361740112
+    },
+    {
+      "iteration": 17,
+      "effectiveYears": 42500,
+      "erosionM3": 20388520439929.895,
+      "depositionM3": 16393710082907.836,
+      "exportM3": 3989796037033.3145,
+      "retainedSuspendedM3": 5014319338.495802,
+      "sedimentBalanceRelativeError": 3.189286542960038e-11,
+      "meanHeightChangeM": 0.9388446807861328
+    },
+    {
+      "iteration": 18,
+      "effectiveYears": 45000,
+      "erosionM3": 20262562026465.203,
+      "depositionM3": 16274318584883.432,
+      "exportM3": 3976874177520.5444,
+      "retainedSuspendedM3": 11369263273.622635,
+      "sedimentBalanceRelativeError": 3.886993238391345e-11,
+      "meanHeightChangeM": 0.9244776368141174
+    }
+  ],
+  "tests": {
+    "protectedSampleMaxDeltaM": 0.0,
+    "annualWaterBalanceMaxErrorM": 1.3295326439788369e-07,
+    "wetRunErosionRatio": 1.2060160636901855,
+    "hardRockErosionRatio": 0.5826433300971985
+  },
+  "model": {
+    "effectiveErosionYears": 45000,
+    "terraformEcologyYears": 521,
+    "geologicalTimeStatus": "effective solver time, not historical canon",
+    "rainStatus": "two-season terrain-conditioned estimate, not a general circulation model",
+    "lakeRouting": "virtual spill levels for runoff; bedrock is never globally filled",
+    "iceStatus": "temperature-dependent snow display only; ice flow/erosion is not yet simulated",
+    "seedAmplitudeStatus": "uncalibrated AI brightness converted to bounded zero-mean priors; physical metres follow declared blending weights",
+    "resolution": "continent 2 km; periphery 1 km; protected-area comparison 250 m; existing Orun 64 m preserved",
+    "plateCount": "not inferred from bulk density; fault-block diversity is a morphological prior",
+    "stage": "new terrain substrate with a small drainage pilot; full wind/water/thermal/aeolian/stratigraphic evolution deferred by author",
+    "lakePolicy": "lakes >=200 km2 and scene-related water retained; smaller unanchored inferred lake dots are released for later hydrological re-evaluation"
+  },
+  "stats": {
+    "meanAbsoluteReconstructionChangeM": 447.15875244140625,
+    "meanAbsolutePhysicsChangeM": 18.65079116821289,
+    "heightPercentilesM": [
+      0.0,
+      292.31409301757816,
+      1244.876220703125,
+      3461.432275390625,
+      5123.286953125011,
+      7500.0
+    ],
+    "greenCoverageFraction": 0.03151745833395546
+  },
+  "geologicalProtection": {
+    "revision": "author yellow/red markup 2026-09-14",
+    "orunCliffCoreKm": 110,
+    "orunHighSideReachKm": 1100,
+    "marnethSouthEastBackingKm": 900,
+    "mainMarnethEnvelopeKm": 230,
+    "mainMarnethMaximumReconstructionFraction": 0.25,
+    "desertPolicy": "back-plateau outside main terraform footprint; local watercut refuges remain"
+  },
+  "northernHighlandCandidates": [
+    {
+      "id": "N1",
+      "coordinate": [
+        -24,
+        33
+      ],
+      "status": "author-requested unnamed northern candidate"
+    },
+    {
+      "id": "N2",
+      "coordinate": [
+        -14,
+        35
+      ],
+      "status": "author-requested unnamed northern candidate"
+    },
+    {
+      "id": "N3",
+      "coordinate": [
+        -3,
+        38
+      ],
+      "status": "author-requested unnamed northern candidate"
+    }
+  ],
+  "releasedInferredLakeCells": 894
+}

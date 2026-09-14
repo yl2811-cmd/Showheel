@@ -1,0 +1,14 @@
+{
+  "version": "continuation-v19",
+  "terrain": "联合排水已收敛；地貌精度与故事范围继续验收；岛屿河谷已细化",
+  "regionalCompleted": 4,
+  "fineCompleted": 8,
+  "jointWater": "converged",
+  "currentMapUsesPreviousAcceptedBake": true,
+  "circulation": "WIP · 轨道短对照已完成，正式温暖气候未通过",
+  "humidity": "WIP",
+  "vegetation": "WIP · 输入清单已准备，尚未放行",
+  "routes": "WIP",
+  "namedSeasonCountLocked": false,
+  "updatedUnix": 1789436755.543087
+}

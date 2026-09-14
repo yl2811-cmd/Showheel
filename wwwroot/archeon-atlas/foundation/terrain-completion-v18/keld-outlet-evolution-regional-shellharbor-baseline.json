@@ -1,0 +1,58 @@
+{
+  "id": "keld-outlet-evolution-regional-shellharbor-baseline",
+  "fingerprint": "ef5579d7a4773fd89cbfe457cae78d75cc5b6180eec24411d4a780bd59384f7b",
+  "grid": {
+    "width": 129,
+    "height": 129,
+    "xmin": 286384.1799706921,
+    "ymax": -203229.66108998732,
+    "stepM": 2000,
+    "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "shellharbor",
+    "region": "keld",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "keld-outlet-evolution-regional-shellharbor-baseline-0.png",
+      "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-0-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "keld-outlet-evolution-regional-shellharbor-baseline-10000.png",
+      "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-10000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "keld-outlet-evolution-regional-shellharbor-baseline-100000.png",
+      "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-100000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "keld-outlet-evolution-regional-shellharbor-baseline-500000.png",
+      "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-500000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "keld-outlet-evolution-regional-shellharbor-baseline-2000000.png",
+      "rivers": "keld-outlet-evolution-regional-shellharbor-baseline-2000000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-shellharbor-baseline-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.9909242894673991,
+  "maximumWaterRelativeError": 1.921035714721697e-15,
+  "maximumSolidRelativeError": 4.2918605211467274e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

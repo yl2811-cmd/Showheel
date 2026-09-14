@@ -1,0 +1,17 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.14721185",
+  "sourceMD5": "07967f66fdddf86bb25d22d213a4e2f6",
+  "selected": [
+    {
+      "file": "1JAN2800.rsfP2SNqM40.nc",
+      "bytes": 76709232,
+      "sha256": "1b197578370b850aa2e2627811b45264910987f0f575b3e9ffea01e3adea83ab"
+    },
+    {
+      "file": "1JAN2600.rsfP2SAqM40.nc",
+      "bytes": 76711280,
+      "sha256": "c3b75dde7c5f242501c41d617406d1905f967cdcd2bff6b3b36314d77d4ed6ad"
+    }
+  ],
+  "scope": "author benchmark restart states, not Archeon output"
+}

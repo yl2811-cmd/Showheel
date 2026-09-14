@@ -1,0 +1,49 @@
+{
+  "status": "short control completed",
+  "history": [
+    {
+      "record": 1,
+      "elapsedSeconds": 94.33731889724731,
+      "meanTemperatureC": -15.239824493657295,
+      "toaNetWm2": -11.021031104743193,
+      "meanCloudFraction": 0.46830411522911825,
+      "oceanSeaIceFraction": 0.3637966895075178,
+      "planetaryAlbedo": 0.35971513501361674,
+      "incomingShortwaveWm2": 272.20187414789615,
+      "waterVapourColumnKgM2": 2.311552738943262,
+      "physicalElapsedEarthYears": 0.63347022587269,
+      "climateAccepted": false,
+      "outputSha256": "5cc2c51e4d2fba4797b515945b0cd2b0cc81e82f8408986651bb66df0c15dda3"
+    },
+    {
+      "record": 2,
+      "elapsedSeconds": 72.38634037971497,
+      "meanTemperatureC": -22.40379790708036,
+      "toaNetWm2": -12.054704173719667,
+      "meanCloudFraction": 0.5353241872600272,
+      "oceanSeaIceFraction": 0.6171773513715945,
+      "planetaryAlbedo": 0.43406992088411595,
+      "incomingShortwaveWm2": 272.2018814802475,
+      "waterVapourColumnKgM2": 1.8929981363821262,
+      "physicalElapsedEarthYears": 1.26694045174538,
+      "climateAccepted": false,
+      "outputSha256": "4235113b728f974435f3d2415569d7142e5db8a392cb5d4328a868898f315343"
+    },
+    {
+      "record": 3,
+      "elapsedSeconds": 75.03550267219543,
+      "meanTemperatureC": -24.713913208988572,
+      "toaNetWm2": -14.097158396117388,
+      "meanCloudFraction": 0.6084328541355242,
+      "oceanSeaIceFraction": 0.6831409439375891,
+      "planetaryAlbedo": 0.4574348013039513,
+      "incomingShortwaveWm2": 272.2018780013156,
+      "waterVapourColumnKgM2": 1.726293968830711,
+      "physicalElapsedEarthYears": 1.9004106776180698,
+      "climateAccepted": false,
+      "outputSha256": "be1c98cbaa586ed143dfd0ffa7ca39b3ea346b81df774c9a16291d99820e8050"
+    }
+  ],
+  "climateAccepted": false,
+  "convergenceNotTested": true
+}

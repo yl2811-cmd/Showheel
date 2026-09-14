@@ -1,0 +1,38 @@
+{
+  "candidate": "natural-shore-v3",
+  "gridM": 2000,
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "areaKm2": 151148.0,
+      "fractionOfOld": 0.4937969812125287,
+      "maximumDepthM": 191.17091369628906
+    },
+    {
+      "effectiveYears": 10000,
+      "areaKm2": 150680.0,
+      "fractionOfOld": 0.49226803615730164,
+      "maximumDepthM": 190.85011291503906
+    },
+    {
+      "effectiveYears": 100000,
+      "areaKm2": 142388.0,
+      "fractionOfOld": 0.46517826607622687,
+      "maximumDepthM": 188.28724670410156
+    },
+    {
+      "effectiveYears": 500000,
+      "areaKm2": 130672.0,
+      "fractionOfOld": 0.42690236806973,
+      "maximumDepthM": 177.39125061035156
+    },
+    {
+      "effectiveYears": 2000000,
+      "areaKm2": 80900.0,
+      "fractionOfOld": 0.2642984080510068,
+      "maximumDepthM": 138.43798828125
+    }
+  ],
+  "waterConverged": true,
+  "modernClimateValidated": false
+}

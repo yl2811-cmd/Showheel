@@ -1,0 +1,22 @@
+{
+  "id": "RB",
+  "name": "Riverbend",
+  "coordinates": [
+    -9.68122551399219,
+    8.826584469092735
+  ],
+  "riverReference": [
+    -9.675078934027471,
+    8.838133706948728
+  ],
+  "offsetM": 1118.033988749895,
+  "bankHeightAboveChannelM": 13.05657958984375,
+  "resolvedSlope": 0.07591194659471512,
+  "status": "candidate bank on interpolated 2 km history; no claim of a resolved terrace or flood safety",
+  "sourceGridM": 2000,
+  "formerCoordinates": [
+    -10,
+    9
+  ],
+  "routeRedraw": "deferred until terrain selection"
+}

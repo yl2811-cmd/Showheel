@@ -1,0 +1,2491 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 2000000,
+    "sourceHeightSha256": "6e2fa99ddfc78399320b3d53e6cce4d057dc00670b6d80830d03d66487f4038f"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lake-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.629604700231674,
+              12.07212415854758
+            ],
+            [
+              45.629846405503386,
+              12.047917303183493
+            ],
+            [
+              45.67901235310397,
+              12.048140356953486
+            ],
+            [
+              45.678774170738976,
+              12.07234753355394
+            ],
+            [
+              45.629604700231674,
+              12.07212415854758
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 8.0,
+        "volumeM3": 45529212.0,
+        "surfaceM": 3213.595458984375,
+        "maximumDepthM": 6.146978378295898,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.382615143102825,
+              12.006927009514724
+            ],
+            [
+              48.38265917350683,
+              11.982710781889898
+            ],
+            [
+              48.480933894031146,
+              11.982786231183203
+            ],
+            [
+              48.48089687267246,
+              12.007002567810847
+            ],
+            [
+              48.382615143102825,
+              12.006927009514724
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.358090432870355,
+              11.982689880573574
+            ],
+            [
+              48.3581361204739,
+              11.9584741299669
+            ],
+            [
+              48.38270311249849,
+              11.958495001097488
+            ],
+            [
+              48.38265917350683,
+              11.982710781889898
+            ],
+            [
+              48.358090432870355,
+              11.982689880573574
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.333569102235764,
+              11.95845244441436
+            ],
+            [
+              48.33361643980724,
+              11.934237170876003
+            ],
+            [
+              48.35818171307455,
+              11.934258825076048
+            ],
+            [
+              48.3581361204739,
+              11.9584741299669
+            ],
+            [
+              48.333569102235764,
+              11.95845244441436
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.309051139317795,
+              11.934214703430076
+            ],
+            [
+              48.309100119630756,
+              11.909999907009196
+            ],
+            [
+              48.333663678788795,
+              11.910022341936688
+            ],
+            [
+              48.33361643980724,
+              11.934237170876003
+            ],
+            [
+              48.309051139317795,
+              11.934214703430076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.284536532241624,
+              11.909976660011424
+            ],
+            [
+              48.28458714807474,
+              11.885762340756182
+            ],
+            [
+              48.30914899777028,
+              11.885785554070383
+            ],
+            [
+              48.309100119630756,
+              11.909999907009196
+            ],
+            [
+              48.284536532241624,
+              11.909976660011424
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.235463359958345,
+              11.885713481440812
+            ],
+            [
+              48.235517338147154,
+              11.861499675422547
+            ],
+            [
+              48.284637658154395,
+              11.861548463865855
+            ],
+            [
+              48.28458714807474,
+              11.885762340756182
+            ],
+            [
+              48.235463359958345,
+              11.885713481440812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.210957131764054,
+              11.86147406661859
+            ],
+            [
+              48.211012727411,
+              11.837260739022453
+            ],
+            [
+              48.235571203377106,
+              11.837286310639135
+            ],
+            [
+              48.235517338147154,
+              11.861499675422547
+            ],
+            [
+              48.210957131764054,
+              11.86147406661859
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.18645421918019,
+              11.837234358857868
+            ],
+            [
+              48.1865114250809,
+              11.813021509728282
+            ],
+            [
+              48.211068206527806,
+              11.813047851543269
+            ],
+            [
+              48.211012727411,
+              11.837260739022453
+            ],
+            [
+              48.18645421918019,
+              11.837234358857868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 48.0,
+        "volumeM3": 42995860.0,
+        "surfaceM": 257.225341796875,
+        "maximumDepthM": 0.9387148022651672,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.13739776135625,
+              11.81296640397397
+            ],
+            [
+              48.13745829345736,
+              11.788754074040519
+            ],
+            [
+              48.16201341931373,
+              11.788781989919505
+            ],
+            [
+              48.16195461035859,
+              11.812994360539102
+            ],
+            [
+              48.13739776135625,
+              11.81296640397397
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 8.0,
+        "volumeM3": 1714748.125,
+        "surfaceM": 260.2356872558594,
+        "maximumDepthM": 0.2663458585739136,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.11290313230967,
+              11.788725351958778
+            ],
+            [
+              48.1129652566409,
+              11.764513501738124
+            ],
+            [
+              48.13751869827264,
+              11.764542181973386
+            ],
+            [
+              48.13745829345736,
+              11.788754074040519
+            ],
+            [
+              48.11290313230967,
+              11.788725351958778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 8.0,
+        "volumeM3": 1714748.125,
+        "surfaceM": 260.2356872558594,
+        "maximumDepthM": 0.2663458585739136,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.61576310864754,
+              11.664417629202195
+            ],
+            [
+              46.615928346533686,
+              11.64021271742002
+            ],
+            [
+              46.68957492733027,
+              11.640441995802798
+            ],
+            [
+              46.689414791515354,
+              11.664647244002998
+            ],
+            [
+              46.61576310864754,
+              11.664417629202195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 12.0,
+        "volumeM3": 141503920.0,
+        "surfaceM": 1035.3218994140625,
+        "maximumDepthM": 21.902563095092773,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.99054886002178,
+              11.643306436175505
+            ],
+            [
+              47.990618689198875,
+              11.619097416261637
+            ],
+            [
+              48.01516208150715,
+              11.61912983569881
+            ],
+            [
+              48.015093950107186,
+              11.643338903232515
+            ],
+            [
+              47.99054886002178,
+              11.643306436175505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.96607525551596,
+              11.619064198823583
+            ],
+            [
+              47.96614663033329,
+              11.59485565773285
+            ],
+            [
+              47.990688369857715,
+              11.594888826395792
+            ],
+            [
+              47.990618689198875,
+              11.619097416261637
+            ],
+            [
+              47.96607525551596,
+              11.619064198823583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.94160484842011,
+              11.594821692238657
+            ],
+            [
+              47.941677761723206,
+              11.570613630005978
+            ],
+            [
+              47.96621785309496,
+              11.57064754557055
+            ],
+            [
+              47.96614663033329,
+              11.59485565773285
+            ],
+            [
+              47.94160484842011,
+              11.594821692238657
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.91713762694824,
+              11.570578918779345
+            ],
+            [
+              47.91721207158754,
+              11.546371335438707
+            ],
+            [
+              47.94175051943657,
+              11.546405995581978
+            ],
+            [
+              47.941677761723206,
+              11.570613630005978
+            ],
+            [
+              47.91713762694824,
+              11.570578918779345
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.94175051943657,
+              11.546405995581978
+            ],
+            [
+              47.94211197677411,
+              11.425374202017812
+            ],
+            [
+              47.96664200059376,
+              11.425407818365311
+            ],
+            [
+              47.96628892387437,
+              11.546439861234168
+            ],
+            [
+              47.94175051943657,
+              11.546405995581978
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.917581909503504,
+              11.425339797028084
+            ],
+            [
+              47.9176554005634,
+              11.401134757292256
+            ],
+            [
+              47.942183802516524,
+              11.401169111303659
+            ],
+            [
+              47.94211197677411,
+              11.425374202017812
+            ],
+            [
+              47.917581909503504,
+              11.425339797028084
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.89312695414345,
+              11.401099615804997
+            ],
+            [
+              47.89320194825299,
+              11.376895048277133
+            ],
+            [
+              47.91772873295891,
+              11.376930137635263
+            ],
+            [
+              47.9176554005634,
+              11.401134757292256
+            ],
+            [
+              47.89312695414345,
+              11.401099615804997
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.868675118063976,
+              11.376859172609075
+            ],
+            [
+              47.868751608102926,
+              11.352655077320447
+            ],
+            [
+              47.89327678017983,
+              11.352690899709316
+            ],
+            [
+              47.89320194825299,
+              11.376895048277133
+            ],
+            [
+              47.868675118063976,
+              11.376859172609075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.84422638952634,
+              11.352618469787139
+            ],
+            [
+              47.84430436837925,
+              11.32841484676811
+            ],
+            [
+              47.8688279324441,
+              11.328451399872918
+            ],
+            [
+              47.868751608102926,
+              11.352655077320447
+            ],
+            [
+              47.84422638952634,
+              11.352618469787139
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.81978075679773,
+              11.328377509683921
+            ],
+            [
+              47.819860217353934,
+              11.304174358963976
+            ],
+            [
+              47.84438217802252,
+              11.304211640471099
+            ],
+            [
+              47.84430436837925,
+              11.32841484676811
+            ],
+            [
+              47.81978075679773,
+              11.328377509683921
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.79533820815132,
+              11.304136294642094
+            ],
+            [
+              47.79541914330487,
+              11.279933616249819
+            ],
+            [
+              47.819939505191826,
+              11.279971623846816
+            ],
+            [
+              47.819860217353934,
+              11.304174358963976
+            ],
+            [
+              47.79533820815132,
+              11.304136294642094
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 60.0,
+        "volumeM3": 336671008.0,
+        "surfaceM": 285.5345458984375,
+        "maximumDepthM": 13.354369163513184,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.72185775629756,
+              11.27981490354548
+            ],
+            [
+              47.722028949525495,
+              11.23141114328072
+            ],
+            [
+              47.74654617927666,
+              11.231451375448291
+            ],
+            [
+              47.74646231622728,
+              11.255653109102962
+            ],
+            [
+              47.77098113451588,
+              11.255692620965364
+            ],
+            [
+              47.770898731866176,
+              11.279894827002254
+            ],
+            [
+              47.72185775629756,
+              11.27981490354548
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.697511667176656,
+              11.231370131787111
+            ],
+            [
+              47.69759862005758,
+              11.207168931870006
+            ],
+            [
+              47.67308292061568,
+              11.207127203542592
+            ],
+            [
+              47.673171316126144,
+              11.18292647720326
+            ],
+            [
+              47.697685382635704,
+              11.182968143056797
+            ],
+            [
+              47.6977719549999,
+              11.158767764248159
+            ],
+            [
+              47.72228433852129,
+              11.158808591815326
+            ],
+            [
+              47.722028949525495,
+              11.23141114328072
+            ],
+            [
+              47.697511667176656,
+              11.231370131787111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.64865719498048,
+              11.18288403434897
+            ],
+            [
+              47.64874702603959,
+              11.158683781610925
+            ],
+            [
+              47.673259517842666,
+              11.158726160847573
+            ],
+            [
+              47.673171316126144,
+              11.18292647720326
+            ],
+            [
+              47.64865719498048,
+              11.18288403434897
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.62423447858064,
+              11.158640626535522
+            ],
+            [
+              47.624325738112155,
+              11.134440847421406
+            ],
+            [
+              47.64883665981676,
+              11.134483937736125
+            ],
+            [
+              47.64874702603959,
+              11.158683781610925
+            ],
+            [
+              47.62423447858064,
+              11.158640626535522
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.59981475973157,
+              11.134396982429513
+            ],
+            [
+              47.599907440663905,
+              11.110197676961134
+            ],
+            [
+              47.624416796876865,
+              11.110241476050026
+            ],
+            [
+              47.624325738112155,
+              11.134440847421406
+            ],
+            [
+              47.59981475973157,
+              11.134396982429513
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.57539802675446,
+              11.110153104356224
+            ],
+            [
+              47.57549212202063,
+              11.085954272554536
+            ],
+            [
+              47.59999991734765,
+              11.085998778114844
+            ],
+            [
+              47.599907440663905,
+              11.110197676961134
+            ],
+            [
+              47.57539802675446,
+              11.110153104356224
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.036303979235825,
+              11.084779738827772
+            ],
+            [
+              47.036433394031036,
+              11.060583081313728
+            ],
+            [
+              47.06094109990325,
+              11.060644486814276
+            ],
+            [
+              47.06081329984738,
+              11.084841236942175
+            ],
+            [
+              47.036303979235825,
+              11.084779738827772
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.550984267976276,
+              11.085908994638933
+            ],
+            [
+              47.551079770513915,
+              11.061710636524053
+            ],
+            [
+              47.575586009559544,
+              11.061755846254169
+            ],
+            [
+              47.57549212202063,
+              11.085954272554536
+            ],
+            [
+              47.550984267976276,
+              11.085908994638933
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.52657347172975,
+              11.061664655598957
+            ],
+            [
+              47.526670374481085,
+              11.037466771190166
+            ],
+            [
+              47.55117506184871,
+              11.037512682789611
+            ],
+            [
+              47.551079770513915,
+              11.061710636524053
+            ],
+            [
+              47.52657347172975,
+              11.061664655598957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.06094109990325,
+              11.060644486814276
+            ],
+            [
+              47.061195852252084,
+              11.012252197002674
+            ],
+            [
+              47.08570025936813,
+              11.012312648430697
+            ],
+            [
+              47.08544872581434,
+              11.060705121052386
+            ],
+            [
+              47.06094109990325,
+              11.060644486814276
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.25711458082222,
+              11.036910920606816
+            ],
+            [
+              47.257228954464814,
+              11.012714278508065
+            ],
+            [
+              47.281732758087635,
+              11.012768578574198
+            ],
+            [
+              47.28161999216407,
+              11.03696530276261
+            ],
+            [
+              47.25711458082222,
+              11.036910920606816
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.37964093892468,
+              11.037175130751534
+            ],
+            [
+              47.37974727384905,
+              11.012978089829303
+            ],
+            [
+              47.40425073316419,
+              11.013028545407261
+            ],
+            [
+              47.404146006019495,
+              11.03722566260678
+            ],
+            [
+              47.37964093892468,
+              11.037175130751534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.4531559437732,
+              11.037324416169414
+            ],
+            [
+              47.453257455323936,
+              11.013127149902662
+            ],
+            [
+              47.47776072019122,
+              11.013175298826328
+            ],
+            [
+              47.477660816454396,
+              11.037372637883044
+            ],
+            [
+              47.4531559437732,
+              11.037324416169414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.50216562635333,
+              11.03742008955563
+            ],
+            [
+              47.502263922265165,
+              11.013222678871378
+            ],
+            [
+              47.52676706255704,
+              11.0132692900408
+            ],
+            [
+              47.526670374481085,
+              11.037466771190166
+            ],
+            [
+              47.50216562635333,
+              11.03742008955563
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.281732758087635,
+              11.012768578574198
+            ],
+            [
+              47.281845273752516,
+              10.988572256297225
+            ],
+            [
+              47.37985337278734,
+              10.988781450923177
+            ],
+            [
+              47.37974727384905,
+              11.012978089829303
+            ],
+            [
+              47.281732758087635,
+              11.012768578574198
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.40425073316419,
+              11.013028545407261
+            ],
+            [
+              47.40435522789101,
+              10.988831830249051
+            ],
+            [
+              47.45335874159327,
+              10.988930285726479
+            ],
+            [
+              47.453257455323936,
+              11.013127149902662
+            ],
+            [
+              47.40425073316419,
+              11.013028545407261
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.47776072019122,
+              11.013175298826328
+            ],
+            [
+              47.47786040221489,
+              10.98897836188424
+            ],
+            [
+              47.50236200003213,
+              10.989025670325427
+            ],
+            [
+              47.502263922265165,
+              11.013222678871378
+            ],
+            [
+              47.47776072019122,
+              11.013175298826328
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.06132280480546,
+              10.98805665512544
+            ],
+            [
+              47.061575863318616,
+              10.939666771945475
+            ],
+            [
+              47.08607546899729,
+              10.939726949384678
+            ],
+            [
+              47.08582560787666,
+              10.988117015193748
+            ],
+            [
+              47.06132280480546,
+              10.98805665512544
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.9390766142062,
+              10.93935440289971
+            ],
+            [
+              46.939210686965815,
+              10.915160533167894
+            ],
+            [
+              47.06170196953681,
+              10.91547242845018
+            ],
+            [
+              47.061575863318616,
+              10.939666771945475
+            ],
+            [
+              46.9390766142062,
+              10.93935440289971
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.08570025936813,
+              11.012312648430697
+            ],
+            [
+              47.08582560787666,
+              10.988117015193748
+            ],
+            [
+              47.208338458599265,
+              10.98840729904614
+            ],
+            [
+              47.20880516368155,
+              10.891627004987155
+            ],
+            [
+              47.2333011271283,
+              10.891682421216013
+            ],
+            [
+              47.23284080290013,
+              10.988463052544423
+            ],
+            [
+              47.257343074280634,
+              10.988518038293629
+            ],
+            [
+              47.257228954464814,
+              11.012714278508065
+            ],
+            [
+              47.08570025936813,
+              11.012312648430697
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 180.0,
+        "volumeM3": 2788482048.0,
+        "surfaceM": 320.01947021484375,
+        "maximumDepthM": 33.92931365966797,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.4503741831817,
+              10.744391116262221
+            ],
+            [
+              46.45053715583874,
+              10.720202572423446
+            ],
+            [
+              46.426049348554514,
+              10.720123583588263
+            ],
+            [
+              46.426377303750755,
+              10.67174789993852
+            ],
+            [
+              46.49983105494678,
+              10.67198188151131
+            ],
+            [
+              46.499671936051676,
+              10.696169889802553
+            ],
+            [
+              46.52415786883625,
+              10.696246495650184
+            ],
+            [
+              46.52399994865458,
+              10.720435008206742
+            ],
+            [
+              46.49951245487391,
+              10.720358284727826
+            ],
+            [
+              46.49935261125127,
+              10.744547067379957
+            ],
+            [
+              46.4503741831817,
+              10.744391116262221
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 36.0,
+        "volumeM3": 1484978944.0,
+        "surfaceM": 1208.0367431640625,
+        "maximumDepthM": 103.06527709960938,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.471156762682355,
+              10.692271556599865
+            ],
+            [
+              45.471605278995405,
+              10.643907892325114
+            ],
+            [
+              45.49609332387233,
+              10.64401583662776
+            ],
+            [
+              45.49564791712813,
+              10.692379833293087
+            ],
+            [
+              45.471156762682355,
+              10.692271556599865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 8.0,
+        "volumeM3": 22232358.0,
+        "surfaceM": 3457.44189453125,
+        "maximumDepthM": 4.639092922210693,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.25584894236926,
+              10.550247506104471
+            ],
+            [
+              46.256021252009525,
+              10.526063031900405
+            ],
+            [
+              46.23154495118744,
+              10.525979043676356
+            ],
+            [
+              46.23206408854818,
+              10.45342827825922
+            ],
+            [
+              46.256535802565416,
+              10.45351187649934
+            ],
+            [
+              46.25670652720873,
+              10.429328910134208
+            ],
+            [
+              46.28117660548523,
+              10.42941163716949
+            ],
+            [
+              46.28100740273332,
+              10.453594732293125
+            ],
+            [
+              46.305478890069054,
+              10.453676845645687
+            ],
+            [
+              46.30531082029957,
+              10.477860443778772
+            ],
+            [
+              46.329783721279746,
+              10.477941941185668
+            ],
+            [
+              46.32944947579162,
+              10.526310521130245
+            ],
+            [
+              46.304973513294996,
+              10.526228770622224
+            ],
+            [
+              46.30480427571786,
+              10.550413501514202
+            ],
+            [
+              46.25584894236926,
+              10.550247506104471
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 56.0,
+        "volumeM3": 3863533824.0,
+        "surfaceM": 1659.01025390625,
+        "maximumDepthM": 187.828369140625,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.79806661669525,
+              10.457281977559713
+            ],
+            [
+              47.79821607375506,
+              10.408904703817186
+            ],
+            [
+              47.77375258936134,
+              10.408867985986891
+            ],
+            [
+              47.77382857348026,
+              10.384679969337546
+            ],
+            [
+              47.74936655388484,
+              10.384642569947331
+            ],
+            [
+              47.749521012500495,
+              10.336267773817644
+            ],
+            [
+              47.72506196175795,
+              10.336229754617122
+            ],
+            [
+              47.72514042582534,
+              10.312042974045589
+            ],
+            [
+              47.700682827229315,
+              10.312004278985698
+            ],
+            [
+              47.70076260921636,
+              10.287817929547685
+            ],
+            [
+              47.65185025221934,
+              10.287738458112617
+            ],
+            [
+              47.65201524008858,
+              10.23936711557699
+            ],
+            [
+              47.62756197059752,
+              10.239326406623936
+            ],
+            [
+              47.627729161069865,
+              10.190956660881671
+            ],
+            [
+              47.60327881295269,
+              10.190915350292459
+            ],
+            [
+              47.603868082671475,
+              10.021633135852463
+            ],
+            [
+              47.57942799020783,
+              10.021591558900404
+            ],
+            [
+              47.579512829374735,
+              9.997409889618563
+            ],
+            [
+              47.60395146247913,
+              9.997451400479614
+            ],
+            [
+              47.60461130282953,
+              9.804010250988776
+            ],
+            [
+              47.629038328826205,
+              9.804050522623596
+            ],
+            [
+              47.629278202081174,
+              9.731515661504314
+            ],
+            [
+              47.653700897637,
+              9.731555031108805
+            ],
+            [
+              47.653622556661595,
+              9.755733036006138
+            ],
+            [
+              47.77574231642721,
+              9.75591956814531
+            ],
+            [
+              47.77581355265555,
+              9.73174126246312
+            ],
+            [
+              47.84908052417908,
+              9.731844508020027
+            ],
+            [
+              47.849147333100035,
+              9.707666380018042
+            ],
+            [
+              47.87356814196933,
+              9.707699326391433
+            ],
+            [
+              47.87363337257244,
+              9.683521488465745
+            ],
+            [
+              47.898052720371496,
+              9.683553676096292
+            ],
+            [
+              47.898116379685234,
+              9.659376128330296
+            ],
+            [
+              47.9225342709041,
+              9.659407559519893
+            ],
+            [
+              47.922596365952714,
+              9.635230301996002
+            ],
+            [
+              47.947012805080526,
+              9.63526097904544
+            ],
+            [
+              47.94707334288406,
+              9.611084011845072
+            ],
+            [
+              47.97148833440903,
+              9.611113937054036
+            ],
+            [
+              47.97154732198334,
+              9.586937260257631
+            ],
+            [
+              48.069201267876046,
+              9.587049757526938
+            ],
+            [
+              48.0691478808612,
+              9.611226617469233
+            ],
+            [
+              48.09356266766525,
+              9.611253032476167
+            ],
+            [
+              48.09345830622386,
+              9.659607856689696
+            ],
+            [
+              48.1178758659111,
+              9.659633653283192
+            ],
+            [
+              48.11782490183144,
+              9.683811618630594
+            ],
+            [
+              48.14224383528116,
+              9.683836751594324
+            ],
+            [
+              48.14219415940302,
+              9.70801510004809
+            ],
+            [
+              48.16661447113142,
+              9.708039567111053
+            ],
+            [
+              48.166566090381416,
+              9.732218298643087
+            ],
+            [
+              48.190987784905616,
+              9.732242097533268
+            ],
+            [
+              48.19094070621436,
+              9.756421212114676
+            ],
+            [
+              48.21536378805246,
+              9.756444340559048
+            ],
+            [
+              48.21531801835455,
+              9.78062383816016
+            ],
+            [
+              48.239742492025584,
+              9.780646293884681
+            ],
+            [
+              48.239698038259654,
+              9.804826174475016
+            ],
+            [
+              48.288549747607476,
+              9.804869024767825
+            ],
+            [
+              48.28850804829021,
+              9.829049322211477
+            ],
+            [
+              48.31293528951184,
+              9.829069713360825
+            ],
+            [
+              48.31289492351396,
+              9.853250392596069
+            ],
+            [
+              48.33732357115496,
+              9.85327010305405
+            ],
+            [
+              48.337245424857656,
+              9.901632576273872
+            ],
+            [
+              48.361676925512654,
+              9.901651634252424
+            ],
+            [
+              48.36129510798135,
+              10.143485620051525
+            ],
+            [
+              48.33684899399343,
+              10.143466256659446
+            ],
+            [
+              48.336768565707956,
+              10.191837316785685
+            ],
+            [
+              48.312319459381186,
+              10.191817162689121
+            ],
+            [
+              48.31227761456041,
+              10.216003208603299
+            ],
+            [
+              48.28782699199911,
+              10.215982292084957
+            ],
+            [
+              48.287783557092425,
+              10.240168671601431
+            ],
+            [
+              48.263331413773024,
+              10.240146990350167
+            ],
+            [
+              48.26328638170621,
+              10.264333703392074
+            ],
+            [
+              48.23883271310413,
+              10.264311255095587
+            ],
+            [
+              48.2387860767985,
+              10.288498301585062
+            ],
+            [
+              48.14096508330147,
+              10.288401026256144
+            ],
+            [
+              48.14101771232113,
+              10.264214132246252
+            ],
+            [
+              47.96984004793424,
+              10.264015947817354
+            ],
+            [
+              47.96977693189927,
+              10.288202530683453
+            ],
+            [
+              47.920865661615686,
+              10.288139210486285
+            ],
+            [
+              47.92079939396122,
+              10.312326063695595
+            ],
+            [
+              47.89634219046767,
+              10.312293251021757
+            ],
+            [
+              47.89627426220818,
+              10.336480423537601
+            ],
+            [
+              47.87181550774303,
+              10.336446823035594
+            ],
+            [
+              47.87167615315386,
+              10.38482217934844
+            ],
+            [
+              47.84721433101072,
+              10.384787734973802
+            ],
+            [
+              47.84707129061596,
+              10.433164479560352
+            ],
+            [
+              47.8226063857019,
+              10.433129186633751
+            ],
+            [
+              47.822533093200335,
+              10.457318067624675
+            ],
+            [
+              47.79806661669525,
+              10.457281977559713
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 2936.0,
+        "volumeM3": 1087445729280.0,
+        "surfaceM": 933.497802734375,
+        "maximumDepthM": 680.3003540039062,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.87026572211103,
+              9.77516186130042
+            ],
+            [
+              45.87044820347734,
+              9.750991160050193
+            ],
+            [
+              45.846017227322264,
+              9.750899966333849
+            ],
+            [
+              45.84620068157207,
+              9.726729755263632
+            ],
+            [
+              45.821770993458905,
+              9.726638000547249
+            ],
+            [
+              45.823052417530256,
+              9.557457074166239
+            ],
+            [
+              45.847472264459284,
+              9.55754779262542
+            ],
+            [
+              45.84765212178865,
+              9.533380287078074
+            ],
+            [
+              45.87207044478898,
+              9.533470158746836
+            ],
+            [
+              45.87189197945066,
+              9.557637811016056
+            ],
+            [
+              45.89631156352855,
+              9.557727129343451
+            ],
+            [
+              45.89613404817257,
+              9.58189526167573
+            ],
+            [
+              45.87171306860765,
+              9.581805797725318
+            ],
+            [
+              45.87153371208096,
+              9.605974119958224
+            ],
+            [
+              45.895956090609836,
+              9.606063729574242
+            ],
+            [
+              45.89577769066228,
+              9.63023253412283
+            ],
+            [
+              45.87135390969113,
+              9.630142778798495
+            ],
+            [
+              45.87117366125816,
+              9.65431177533
+            ],
+            [
+              45.89559884815131,
+              9.654401676405461
+            ],
+            [
+              45.895239834722254,
+              9.702740978509379
+            ],
+            [
+              45.91966771413731,
+              9.702830464302917
+            ],
+            [
+              45.91930976456464,
+              9.751171419869852
+            ],
+            [
+              45.89487904888386,
+              9.7510816445604
+            ],
+            [
+              45.89469799085932,
+              9.775252491777403
+            ],
+            [
+              45.87026572211103,
+              9.77516186130042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "areaKm2": 100.0,
+        "volumeM3": 2267919360.0,
+        "surfaceM": 3980.7451171875,
+        "maximumDepthM": 84.60132598876953,
+        "seasonalWetFraction": 1.0,
+        "state": "perennial-in-scenario",
+        "gridM": 2000,
+        "notRealClimateValidated": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "keld-outlet-evolution-regional-tidemark-dry",
+  "fingerprint": "9355b85778315490ea5fe552c45b5248218ac0749e405b5dbba0961913b886ce",
+  "grid": {
+    "width": 129,
+    "height": 129,
+    "xmin": -291254.627303542,
+    "ymax": 873572.9348212171,
+    "stepM": 2000,
+    "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "tidemark",
+    "region": "keld",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "keld-outlet-evolution-regional-tidemark-dry-0.png",
+      "rivers": "keld-outlet-evolution-regional-tidemark-dry-0-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-tidemark-dry-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "keld-outlet-evolution-regional-tidemark-dry-10000.png",
+      "rivers": "keld-outlet-evolution-regional-tidemark-dry-10000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-tidemark-dry-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "keld-outlet-evolution-regional-tidemark-dry-100000.png",
+      "rivers": "keld-outlet-evolution-regional-tidemark-dry-100000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-tidemark-dry-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "keld-outlet-evolution-regional-tidemark-dry-500000.png",
+      "rivers": "keld-outlet-evolution-regional-tidemark-dry-500000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-tidemark-dry-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "keld-outlet-evolution-regional-tidemark-dry-2000000.png",
+      "rivers": "keld-outlet-evolution-regional-tidemark-dry-2000000-rivers.geojson",
+      "lakes": "keld-outlet-evolution-regional-tidemark-dry-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.9989662301860786,
+  "maximumWaterRelativeError": 2.830891361874842e-15,
+  "maximumSolidRelativeError": 5.2199975406653965e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

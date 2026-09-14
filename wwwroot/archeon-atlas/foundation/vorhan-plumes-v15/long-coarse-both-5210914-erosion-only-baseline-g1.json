@@ -1,0 +1,30 @@
+{
+  "id": "long-coarse-both-5210914-erosion-only-baseline-g1",
+  "fingerprint": "7cb620eef0960f6e60b446f3739b4636097a3bf66d86f92bb363ebc118042856",
+  "grid": {
+    "id": "vorhan-duskreach",
+    "region": "vorhan-duskreach",
+    "projection": "+proj=laea +lat_0=0 +lon_0=105 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "stepM": 16000,
+    "xmin": -5696000.0,
+    "ymax": 4272000.0,
+    "width": 576,
+    "height": 593,
+    "seed": 5210914
+  },
+  "height": "long-coarse-both-5210914-erosion-only-baseline-g1-height.png",
+  "initial": "long-coarse-both-5210914-erosion-only-baseline-g1-initial.png",
+  "erosion": "long-coarse-both-5210914-erosion-only-baseline-g1-erosion.png",
+  "lakeDepth": "long-coarse-both-5210914-erosion-only-baseline-g1-lake-depth.png",
+  "rivers": "long-coarse-both-5210914-erosion-only-baseline-g1-rivers.geojson",
+  "lakes": "long-coarse-both-5210914-erosion-only-baseline-g1-lakes.geojson",
+  "effectiveYears": 2000000,
+  "gridM": 16000,
+  "numericalConservationPassed": true,
+  "waterConverged": false,
+  "terrainAccepted": false,
+  "climateValidated": false,
+  "protectedMaximumChangeM": 0.0,
+  "maximumErosionM": 93.06682586669922,
+  "source": "D:\\SKBS\\review\\climate-terrain-20260914\\vorhan-plume-study\\long-coarse\\both\\5210914\\erosion-only\\baseline\\g1"
+}

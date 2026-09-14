@@ -1,0 +1,58 @@
+{
+  "id": "detail-keld-tidemark-valley-2000000-250",
+  "fingerprint": "fa8b9750effbdf887f86d0e707788661c29c3c830937ce323171c16fdbfdfe91",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": -265254.62730354135,
+    "ymax": 727572.9348212172,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "keld-tidemark-valley",
+    "region": "keld",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "detail-keld-tidemark-valley-2000000-250-0.png",
+      "rivers": "detail-keld-tidemark-valley-2000000-250-0-rivers.geojson",
+      "lakes": "detail-keld-tidemark-valley-2000000-250-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "detail-keld-tidemark-valley-2000000-250-10000.png",
+      "rivers": "detail-keld-tidemark-valley-2000000-250-10000-rivers.geojson",
+      "lakes": "detail-keld-tidemark-valley-2000000-250-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "detail-keld-tidemark-valley-2000000-250-100000.png",
+      "rivers": "detail-keld-tidemark-valley-2000000-250-100000-rivers.geojson",
+      "lakes": "detail-keld-tidemark-valley-2000000-250-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "detail-keld-tidemark-valley-2000000-250-500000.png",
+      "rivers": "detail-keld-tidemark-valley-2000000-250-500000-rivers.geojson",
+      "lakes": "detail-keld-tidemark-valley-2000000-250-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "detail-keld-tidemark-valley-2000000-250-2000000.png",
+      "rivers": "detail-keld-tidemark-valley-2000000-250-2000000-rivers.geojson",
+      "lakes": "detail-keld-tidemark-valley-2000000-250-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.17647058823529413,
+  "maximumWaterRelativeError": 3.5647747541516184e-15,
+  "maximumSolidRelativeError": 1.8014880056983038e-14,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

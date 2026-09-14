@@ -1,0 +1,88 @@
+{
+  "version": "vegetation-input-v19",
+  "preparedUnix": 1789436522.574219,
+  "status": "prepared candidate references; not ready for vegetation execution",
+  "vegetationReady": false,
+  "continuousNetwork": [
+    {
+      "epoch": "base",
+      "terrain": {
+        "path": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\continuous\\vorhan-duskreach\\base\\height.npy",
+        "sha256": "a067652445b47f0378f5523e1c01de3a2d91c870d48e3340efe78f1c87b51c7c",
+        "units": "m"
+      },
+      "hydrologyReport": {
+        "path": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\continuous\\vorhan-duskreach\\base\\water-accelerated\\baseline\\hydrology.json",
+        "sha256": "21fad143f616d39786701940464e66f9d9cb9fa4b937634a5ac305e8e254a0ed",
+        "units": "JSON"
+      },
+      "converged": true
+    },
+    {
+      "epoch": "evolved-2000000",
+      "terrain": {
+        "path": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\continuous\\vorhan-duskreach\\evolved-2000000\\height.npy",
+        "sha256": "357514d47d3b56a0ea511cd1d17a6b4c29bdceb06def49d8baf32871322ff30c",
+        "units": "m"
+      },
+      "hydrologyReport": {
+        "path": "D:\\SKBS\\review\\climate-terrain-20260914\\terrain-completion-v18\\continuous\\vorhan-duskreach\\evolved-2000000\\water-accelerated\\baseline\\hydrology.json",
+        "sha256": "082e86cc5bf66cba64cf8927e495334fc15111cbdad1b63d5b15c2d0a8512b8f",
+        "units": "JSON"
+      },
+      "converged": true
+    }
+  ],
+  "outletDiagnostic": {
+    "sourceHeightSha256": "6ecd0209ba5d6bbf84ccbc554f507119fa84b5802f99f559932d8ee1b64e9140",
+    "convergence": {
+      "passed": true,
+      "waterYears": 20,
+      "maximumPeriodicLevelChangeM": 0.0,
+      "relativeStorageDrift": 0.0,
+      "requiredStableCycles": 3,
+      "levelToleranceM": 0.02
+    },
+    "maximumWaterRelativeError": 6.872004953084779e-16,
+    "sites": [
+      {
+        "id": "DR",
+        "name": "Driftmoor",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      },
+      {
+        "id": "HE",
+        "name": "Hearthstone",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      },
+      {
+        "id": "VE",
+        "name": "Verdance",
+        "lakeDepthM": 0.0,
+        "maximumLakeDepthM": 0.0,
+        "permanentLake": false
+      }
+    ],
+    "allMarkersDry": true,
+    "climateValidated": false,
+    "reerosionPending": true
+  },
+  "climate": null,
+  "missing": [
+    "spatial convergence is not demonstrated for all registered comparison windows",
+    "three-seed / erosion-and-tectonic / dry-baseline-wet matrix incomplete for latest parents",
+    "global soil and sediment ledger, exact story footprints and worldwide accepted terrain assembly incomplete",
+    "new Driftmoor/Hearthstone/Verdance outlet correction still requires reconstruction of the initial parent and re-erosion",
+    "no radiation-valid 12-14C, seasonally balanced Year 521 climate result",
+    "climate-driven regional soil-water and snow fields not available",
+    "Orun aridity and agricultural story geography not validated under accepted climate",
+    "historical vegetation requires epoch-specific climate and initial soil/biomass state; Year 521 climate cannot stand in for the whole terraforming history"
+  ],
+  "seasonCount": "not prescribed; native climate intervals retain orbital phase across Earth civil years",
+  "historicalClock": "Earth civil years, separate from effective geological erosion time",
+  "noVegetationMapGenerated": true
+}

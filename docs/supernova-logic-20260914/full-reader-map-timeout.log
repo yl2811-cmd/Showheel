@@ -1,0 +1,10 @@
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.archeon-map-frame iframe').contentFrame().locator('.atheria-canvas') to be visible[22m
+
+    at D:\repo\Showheel\scripts\verify-archeon-reader.cjs:48:56 {
+  log: [
+    "  - waiting for locator('.archeon-map-frame iframe').contentFrame().locator('.atheria-canvas') to be visible"
+  ],
+  name: 'TimeoutError'
+}

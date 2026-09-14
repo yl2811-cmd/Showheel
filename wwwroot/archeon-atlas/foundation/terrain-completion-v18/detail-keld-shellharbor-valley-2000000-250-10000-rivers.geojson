@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "candidateOnly": true,
+    "modernClimateValidated": false,
+    "effectiveYears": 10000,
+    "sourceHeightSha256": "cef18f8eade5b31b2e724900bdac51beabdae82502b3648fa26aa4a332aaa547"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "river-1651",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.4488728,
+            -1.2231906
+          ],
+          [
+            54.4518892,
+            -1.2201832
+          ],
+          [
+            54.4549057,
+            -1.2171759
+          ],
+          [
+            54.4579221,
+            -1.2141685
+          ],
+          [
+            54.45792,
+            -1.2111552
+          ],
+          [
+            54.457918,
+            -1.2081419
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 43.8305549621582,
+        "headDischargeM3s": 42.89236068725586,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-3699",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.4247421,
+            -1.24725
+          ],
+          [
+            54.4277584,
+            -1.2442425
+          ],
+          [
+            54.4307747,
+            -1.2412351
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 41.34495544433594,
+        "headDischargeM3s": 41.29065704345703,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "river-49346",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.1264662,
+            -1.7831666
+          ],
+          [
+            54.1234478,
+            -1.7831616
+          ]
+        ]
+      },
+      "properties": {
+        "maximumDischargeM3s": 472.7891540527344,
+        "headDischargeM3s": 472.7881774902344,
+        "gridM": 250,
+        "source": "computed receiver links"
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "fingerprint": "1adeb887f0670f4d38573804536027dc7f8864d5e3626478a9f2b95f02ef90fa",
+  "heightSha256": "a067652445b47f0378f5523e1c01de3a2d91c870d48e3340efe78f1c87b51c7c",
+  "gridM": 2000,
+  "continuousVorhanDuskreachNetwork": true,
+  "candidateOnly": true,
+  "climateValidated": false,
+  "converged": true,
+  "epoch": "base",
+  "height": "joint-base-height.png",
+  "waterPreview": "joint-base-water.png",
+  "rivers": "joint-base-rivers.geojson",
+  "lakes": "joint-base-lakes.geojson",
+  "riverFeatures": 6797,
+  "lakeFeatures": 5354,
+  "maximumWaterRelativeError": 4.178785525565472e-16,
+  "convergence": {
+    "passed": true,
+    "waterYears": 1922,
+    "maximumPeriodicLevelChangeM": 0.0,
+    "relativeStorageDrift": 0.0,
+    "requiredStableCycles": 3,
+    "levelToleranceM": 0.02
+  },
+  "sites": [
+    {
+      "id": "GE",
+      "name": "Gearstead",
+      "heightM": 2779.927978515625,
+      "maximumLakeDepthM": 0.0,
+      "permanentWaterAtMarker": false,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "DR",
+      "name": "Driftmoor",
+      "heightM": 613.9064331054688,
+      "maximumLakeDepthM": 241.16676330566406,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "HE",
+      "name": "Hearthstone",
+      "heightM": 2235.799072265625,
+      "maximumLakeDepthM": 279.1357421875,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "VE",
+      "name": "Verdance",
+      "heightM": 2199.205810546875,
+      "maximumLakeDepthM": 395.861083984375,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V03",
+      "name": "Smoke Wall",
+      "heightM": 146.4628448486328,
+      "maximumLakeDepthM": 16.76201820373535,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V05",
+      "name": "The Rift",
+      "heightM": 1513.3463134765625,
+      "maximumLakeDepthM": 0.0,
+      "permanentWaterAtMarker": false,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V06",
+      "name": "High Inland Sea",
+      "heightM": 2524.7470703125,
+      "maximumLakeDepthM": 74.43677520751953,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V10",
+      "name": "Standing Storm",
+      "heightM": 93.349365234375,
+      "maximumLakeDepthM": 0.0,
+      "permanentWaterAtMarker": false,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V11",
+      "name": "Cloud Forest Steps",
+      "heightM": 3602.9736328125,
+      "maximumLakeDepthM": 95.62769317626953,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V12",
+      "name": "White Stair",
+      "heightM": 3031.208984375,
+      "maximumLakeDepthM": 680.6796875,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V15",
+      "name": "Organ Country",
+      "heightM": 516.2642822265625,
+      "maximumLakeDepthM": 395.0919189453125,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V17",
+      "name": "Twofold Sea · 双色内海",
+      "heightM": 28.435508728027344,
+      "maximumLakeDepthM": 0.0,
+      "permanentWaterAtMarker": false,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V18",
+      "name": "Gypsum Sails · 石膏白沙盆地",
+      "heightM": 687.7158813476562,
+      "maximumLakeDepthM": 159.1226348876953,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    },
+    {
+      "id": "V19",
+      "name": "Braided Mere · 分汊湖原",
+      "heightM": 491.5957946777344,
+      "maximumLakeDepthM": 265.7266540527344,
+      "permanentWaterAtMarker": true,
+      "exactFootprintRegistered": false
+    }
+  ],
+  "permanentlyFloodedMarkers": [
+    "DR",
+    "HE",
+    "VE",
+    "V03",
+    "V06",
+    "V11",
+    "V12",
+    "V15",
+    "V18",
+    "V19"
+  ],
+  "terrainAccepted": false,
+  "soilAndSedimentGlobalLedgerAccepted": false,
+  "seasonality": "coherent synthetic annual rainfall phase; not modern orbital-climate forcing"
+}

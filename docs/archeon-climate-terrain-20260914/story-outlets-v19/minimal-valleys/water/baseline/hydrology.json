@@ -1,0 +1,38 @@
+{
+  "sourceHeightSha256": "e35ccf02328fe8dc69f02e6eaa23bbfd1ea3d607d088b49792f9a3dfc7d9f64e",
+  "convergence": {
+    "passed": true,
+    "waterYears": 20,
+    "maximumPeriodicLevelChangeM": 0.0,
+    "relativeStorageDrift": 0.0,
+    "requiredStableCycles": 3,
+    "levelToleranceM": 0.02
+  },
+  "maximumWaterRelativeError": 1.5331287627861329e-16,
+  "sites": [
+    {
+      "id": "DR",
+      "name": "Driftmoor",
+      "lakeDepthM": 216.22822044909935,
+      "maximumLakeDepthM": 216.22822044909935,
+      "permanentLake": true
+    },
+    {
+      "id": "HE",
+      "name": "Hearthstone",
+      "lakeDepthM": 75.22440827607397,
+      "maximumLakeDepthM": 75.22440827607397,
+      "permanentLake": true
+    },
+    {
+      "id": "VE",
+      "name": "Verdance",
+      "lakeDepthM": 232.40821312524076,
+      "maximumLakeDepthM": 232.40821312524076,
+      "permanentLake": true
+    }
+  ],
+  "allMarkersDry": false,
+  "climateValidated": false,
+  "reerosionPending": true
+}

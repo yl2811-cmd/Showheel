@@ -1,0 +1,24 @@
+{
+  "verifiedUnix": 1789404497.4988236,
+  "archiveContentPassed": true,
+  "directoriesMoved": 22,
+  "filesVerified": 6632,
+  "bytesArchived": 11972371458,
+  "protectedFilesUnchanged": 40676,
+  "frozenBases": [
+    {
+      "name": "strong-painted-v7-20260914",
+      "files": 2044,
+      "passed": true
+    },
+    {
+      "name": "geomorph-v10-before-erosion",
+      "files": 5709,
+      "passed": true
+    }
+  ],
+  "unrelatedRepoFilesUnchanged": 2350,
+  "chineseMatches": true,
+  "englishUnchanged": true,
+  "scientificValidationStatus": "Existing convergence and climate limitations remain unchanged; this is a storage relocation verification."
+}

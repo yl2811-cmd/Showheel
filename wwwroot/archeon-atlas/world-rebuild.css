@@ -1,0 +1,22 @@
+.rebuild-only[hidden],.rebuild-legacy-hidden{display:none!important}
+.rebuild-summary{margin:4px 0 12px;padding:9px 0 12px;border-bottom:1px solid #cbd1c2;line-height:1.55}
+.rebuild-summary strong{display:block;font-size:15px;color:#2b4645;letter-spacing:.03em}
+.rebuild-summary p{font-size:12px;color:#5a6c61;margin:6px 0 0}
+.rebuild-state,.rebuild-pending b{display:inline-block;font-size:10px;font-family:system-ui,sans-serif;letter-spacing:.09em;color:#78684b;border:1px solid #d3c7af;background:#f0e9d9;padding:1px 5px;border-radius:3px;font-weight:600}
+.rebuild-summary .rebuild-state{margin-top:6px}
+.rebuild-key{padding:7px 0 12px;font-size:10px;color:#637266;line-height:1.6}
+.rebuild-key .ramp{height:8px;border-radius:3px;background:linear-gradient(90deg,#35ad68,#3678cf,#f1dc55,#f49a38,#d84748,#8642b4)}
+.rebuild-key .ticks{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;margin:4px 0}
+.rebuild-key p{margin:4px 0}
+.rebuild-pending{margin:12px 0;padding-top:10px;border-top:1px solid #cbd1c2}
+.rebuild-pending h3{font-size:12px;color:#6c7567;margin:0 0 9px;font-weight:500;letter-spacing:.08em}
+.rebuild-pending div{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;line-height:1.5;padding:5px 0;color:#788071}
+.world-rebuild-mode .layer-title{margin-top:12px}
+.world-rebuild-mode #layers label{padding:6px 0}
+.rebuild-pending b{flex:none;opacity:.88}
+.view-tabs .rebuild-nav-badge{display:inline-block!important;font-size:9px;margin-left:6px;padding:1px 4px;color:#8a7957;border:1px solid #d1c7b0;vertical-align:middle;letter-spacing:.04em}
+.world-rebuild-mode #map-stage svg{background:#ebe7d8}
+.world-rebuild-mode .sidebar-note{color:#6c7769}
+.world-rebuild-mode .key.current-height{background:linear-gradient(90deg,#35ad68,#3678cf,#f1dc55,#d84748)}
+.world-rebuild-mode .key.current-water{border-top:2px solid #63aabd;height:0}
+@media(max-width:620px){.rebuild-summary{margin-bottom:12px}.rebuild-pending div{padding:6px 0}.rebuild-nav-badge{display:none!important}}

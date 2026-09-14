@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "case": "regional\\shellharbor\\baseline",
+      "passed": true,
+      "sites": [
+        {
+          "id": "SH",
+          "name": "Shellharbor",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "regional\\shellharbor\\dry",
+      "passed": true,
+      "sites": [
+        {
+          "id": "SH",
+          "name": "Shellharbor",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "regional\\shellharbor\\wet",
+      "passed": true,
+      "sites": [
+        {
+          "id": "SH",
+          "name": "Shellharbor",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "regional\\tidemark\\baseline",
+      "passed": true,
+      "sites": [
+        {
+          "id": "TI",
+          "name": "Tidemark",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "regional\\tidemark\\dry",
+      "passed": true,
+      "sites": [
+        {
+          "id": "TI",
+          "name": "Tidemark",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "regional\\tidemark\\wet",
+      "passed": true,
+      "sites": [
+        {
+          "id": "TI",
+          "name": "Tidemark",
+          "coreOnLand": true,
+          "permanentLakeAtMarker": false,
+          "maximumLakeDepthM": 0.0,
+          "resolutionM": 2000,
+          "extentStatus": "unknown",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "allMarkersDry": true,
+  "exactSceneFootprintsRegistered": false
+}

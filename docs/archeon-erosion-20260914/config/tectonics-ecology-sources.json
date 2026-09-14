@@ -1,0 +1,21 @@
+{
+  "status":"candidate initial-condition hypotheses; not a canonical Year 0 map",
+  "epoch":2573,
+  "source":"Timelapse §3.13–3.14: discontinuous CI intervention corridors, mature western Aethelgard cores and isolated patches on other continents. Exact footprints below are inferred and remain editable.",
+  "corridors":[
+    {"id":"ci-aethel-west","coordinates":[[-32,21],[-25,28],[-16,32]],"widthKm":190,"strength":1},
+    {"id":"ci-aethel-river","coordinates":[[-12,11],[-8,22],[0,35]],"widthKm":120,"strength":0.7},
+    {"id":"ci-vorhan","coordinates":[[108,15],[111,24],[118,32]],"widthKm":120,"strength":0.55},
+    {"id":"ci-duskreach","coordinates":[[70,-36],[76,-30],[81,-25]],"widthKm":110,"strength":0.5},
+    {"id":"ci-keld","coordinates":[[45,11],[49,4],[53,-2]],"widthKm":65,"strength":0.4}
+  ],
+  "skyFire":{"initialLossFractions":[0.65,0.45,0.3],"decayYears":45,"growthRecoveryYears":130},
+  "restoration":{"ciEndYear":110,"halfLifeYears":35,"cultivationStartYear":110,"maximumCultivationWeight":0.12},
+  "plantFunctionalTypes":[
+    {"id":"grass","earthPotentialRatePerYear":0.12,"capacityKgCm2":1.4,"temperatureOptimumC":20,"temperatureWidthC":22,"minimumSoilM":0.025,"seedDiffusivityM2yr":2000000},
+    {"id":"shrub","earthPotentialRatePerYear":0.045,"capacityKgCm2":4,"temperatureOptimumC":17,"temperatureWidthC":20,"minimumSoilM":0.08,"seedDiffusivityM2yr":200000},
+    {"id":"forest","earthPotentialRatePerYear":0.018,"capacityKgCm2":12,"temperatureOptimumC":15,"temperatureWidthC":18,"minimumSoilM":0.25,"seedDiffusivityM2yr":30000}
+  ],
+  "resourceAssumptions":{"waterUseEfficiencyKgCPerM3":2,"lightUseEfficiencyKgCPerJ":1e-8,"biomassCarbonNitrogenRatio":80,"soilFormationMyr":0.00002,"depositionNitrogenKgM2yr":0.00015},
+  "note":"These are experimental functional-type parameters. Only potential plant growth is multiplied by three; dispersal, soil formation, nutrient inputs and the chronology are not accelerated. No modern vegetation raster is read."
+}

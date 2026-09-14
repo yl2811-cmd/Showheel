@@ -1,0 +1,19 @@
+{
+  "hashes": true,
+  "views": [],
+  "errors": [],
+  "failedResources": [],
+  "scope": "Reader content, language switching, rendering and delivery only; embedded atlas view-switch tests excluded after original Atheria canvas timeout.",
+  "scrollRestoration": true,
+  "mapNotReloaded": true,
+  "keyboardScroll": true,
+  "mobile": {
+    "width": 333,
+    "scrollHeight": 700156,
+    "height": 599
+  },
+  "standalone": true,
+  "retryAndMarkdownSafety": true,
+  "staleResponseIgnored": true,
+  "passed": true
+}

@@ -1,0 +1,1113 @@
+{
+  "hydrology": {
+    "history": [
+      {
+        "waterYear": 1,
+        "inputM3": 1978025393248.4163,
+        "outletM3": 459369002282.2394,
+        "lakeEvaporationM3": 30019271269.73277,
+        "lakeLeakageM3": 1344550254.1899555,
+        "storageM3": 1487292569442.2534,
+        "storageChangeM3": 1487292569442.2534,
+        "relativeError": 3.72810514808452e-16
+      },
+      {
+        "waterYear": 2,
+        "inputM3": 2013736939246.6882,
+        "outletM3": 540868833891.48444,
+        "lakeEvaporationM3": 64893777301.48483,
+        "lakeLeakageM3": 2886216688.2432466,
+        "storageM3": 2892380680807.7285,
+        "storageChangeM3": 1405088111365.475,
+        "relativeError": 3.075930407958712e-16
+      },
+      {
+        "waterYear": 3,
+        "inputM3": 2037409256282.3691,
+        "outletM3": 583671970793.6344,
+        "lakeEvaporationM3": 88679296214.34607,
+        "lakeLeakageM3": 3934523354.9099207,
+        "storageM3": 4253504146727.2065,
+        "storageChangeM3": 1361123465919.478,
+        "relativeError": 2.5025710168628423e-16
+      },
+      {
+        "waterYear": 4,
+        "inputM3": 2056219579533.0771,
+        "outletM3": 653214346056.0854,
+        "lakeEvaporationM3": 107625593784.6391,
+        "lakeLeakageM3": 4771136688.243255,
+        "storageM3": 5544112649731.314,
+        "storageChangeM3": 1290608503004.108,
+        "relativeError": 3.37434688360598e-16
+      },
+      {
+        "waterYear": 5,
+        "inputM3": 2071143809109.0574,
+        "outletM3": 701469200356.0934,
+        "lakeEvaporationM3": 122636483718.5307,
+        "lakeLeakageM3": 5445370021.576592,
+        "storageM3": 6785705404744.171,
+        "storageChangeM3": 1241592755012.8564,
+        "relativeError": 4.5240124265332e-17
+      },
+      {
+        "waterYear": 6,
+        "inputM3": 2084035452231.9373,
+        "outletM3": 772088398160.8517,
+        "lakeEvaporationM3": 135652793319.43982,
+        "lakeLeakageM3": 6027030021.576599,
+        "storageM3": 7955972635474.24,
+        "storageChangeM3": 1170267230730.0693,
+        "relativeError": 2.698399913176061e-17
+      },
+      {
+        "waterYear": 7,
+        "inputM3": 2095211067119.938,
+        "outletM3": 822615511472.4097,
+        "lakeEvaporationM3": 146955352369.54855,
+        "lakeLeakageM3": 6535916688.243256,
+        "storageM3": 9075076922063.977,
+        "storageChangeM3": 1119104286589.7363,
+        "relativeError": 2.3014843959312516e-17
+      },
+      {
+        "waterYear": 8,
+        "inputM3": 2105563802034.9924,
+        "outletM3": 822651215254.5521,
+        "lakeEvaporationM3": 157561343081.93597,
+        "lakeLeakageM3": 7008503354.909922,
+        "storageM3": 10193419662407.572,
+        "storageChangeM3": 1118342740343.5957,
+        "relativeError": 1.4228805281800117e-16
+      },
+      {
+        "waterYear": 9,
+        "inputM3": 2115296660825.0066,
+        "outletM3": 930528084404.6649,
+        "lakeEvaporationM3": 167597260034.23868,
+        "lakeLeakageM3": 7451083354.909907,
+        "storageM3": 11203139895438.766,
+        "storageChangeM3": 1009720233031.1934,
+        "relativeError": 2.6476868458413276e-17
+      },
+      {
+        "waterYear": 10,
+        "inputM3": 2124387233532.4722,
+        "outletM3": 1003463248645.4462,
+        "lakeEvaporationM3": 177127741875.05615,
+        "lakeLeakageM3": 7865132437.034849,
+        "storageM3": 12139071006013.701,
+        "storageChangeM3": 935931110574.9355,
+        "relativeError": 4.886211033034221e-17
+      },
+      {
+        "waterYear": 11,
+        "inputM3": 2132520526287.7224,
+        "outletM3": 1074073845312.3987,
+        "lakeEvaporationM3": 185468593824.20615,
+        "lakeLeakageM3": 8235758862.401775,
+        "storageM3": 13003813334302.418,
+        "storageChangeM3": 864742328288.7168,
+        "relativeError": 8.139062629318307e-17
+      },
+      {
+        "waterYear": 12,
+        "inputM3": 2140014558094.1301,
+        "outletM3": 1094295067296.6206,
+        "lakeEvaporationM3": 193145424876.66708,
+        "lakeLeakageM3": 8578924506.530839,
+        "storageM3": 13847808475716.73,
+        "storageChangeM3": 843995141414.3125,
+        "relativeError": 6.930445753374479e-17
+      },
+      {
+        "waterYear": 13,
+        "inputM3": 2147040638107.295,
+        "outletM3": 1124417898561.9172,
+        "lakeEvaporationM3": 200420162340.57364,
+        "lakeLeakageM3": 8902224506.530851,
+        "storageM3": 14661108828415.004,
+        "storageChangeM3": 813300352698.2734,
+        "relativeError": 1.7492535139546697e-17
+      },
+      {
+        "waterYear": 14,
+        "inputM3": 2153785933162.675,
+        "outletM3": 1129789354376.5557,
+        "lakeEvaporationM3": 207416880782.41742,
+        "lakeLeakageM3": 9212791173.197514,
+        "storageM3": 15468475735245.506,
+        "storageChangeM3": 807366906830.502,
+        "relativeError": 1.704254936121703e-16
+      },
+      {
+        "waterYear": 15,
+        "inputM3": 2160245561340.5735,
+        "outletM3": 1122830046684.831,
+        "lakeEvaporationM3": 214112852943.1632,
+        "lakeLeakageM3": 9508997839.864185,
+        "storageM3": 16282269399118.22,
+        "storageChangeM3": 813793663872.7148,
+        "relativeError": 1.2577164284105026e-17
+      },
+      {
+        "waterYear": 16,
+        "inputM3": 2166376284850.2988,
+        "outletM3": 1153765454701.7068,
+        "lakeEvaporationM3": 220419414829.09344,
+        "lakeLeakageM3": 9791432195.735123,
+        "storageM3": 17064669382241.986,
+        "storageChangeM3": 782399983123.7656,
+        "relativeError": 1.321369401939152e-16
+      },
+      {
+        "waterYear": 17,
+        "inputM3": 2172230398472.6548,
+        "outletM3": 1161175021253.2615,
+        "lakeEvaporationM3": 226432856427.70847,
+        "lakeLeakageM3": 10062112195.735123,
+        "storageM3": 17839229790837.934,
+        "storageChangeM3": 774560408595.9473,
+        "relativeError": 1.4396206478040415e-16
+      },
+      {
+        "waterYear": 18,
+        "inputM3": 2177857289585.0422,
+        "outletM3": 1169856812656.253,
+        "lakeEvaporationM3": 232231235145.08218,
+        "lakeLeakageM3": 10321312195.735115,
+        "storageM3": 18604677720425.91,
+        "storageChangeM3": 765447929587.9766,
+        "relativeError": 2.5532203960372367e-16
+      },
+      {
+        "waterYear": 19,
+        "inputM3": 2183142671302.7712,
+        "outletM3": 1183980537244.417,
+        "lakeEvaporationM3": 237663139866.76352,
+        "lakeLeakageM3": 10563832195.735107,
+        "storageM3": 19355612882421.766,
+        "storageChangeM3": 750935161995.8555,
+        "relativeError": 8.20158741355004e-18
+      },
+      {
+        "waterYear": 20,
+        "inputM3": 2188159475746.4958,
+        "outletM3": 1182218413730.8884,
+        "lakeEvaporationM3": 242868150250.6453,
+        "lakeLeakageM3": 10794345529.068441,
+        "storageM3": 20107891448657.656,
+        "storageChangeM3": 752278566235.8906,
+        "relativeError": 1.5816055912361452e-16
+      },
+      {
+        "waterYear": 21,
+        "inputM3": 2193049614393.6921,
+        "outletM3": 1180315176932.456,
+        "lakeEvaporationM3": 247974723658.02295,
+        "lakeLeakageM3": 11019672195.735104,
+        "storageM3": 20861631490265.133,
+        "storageChangeM3": 753740041607.4766,
+        "relativeError": 7.303890867998833e-17
+      },
+      {
+        "waterYear": 22,
+        "inputM3": 2197865420798.4685,
+        "outletM3": 1184441474855.71,
+        "lakeEvaporationM3": 252962262999.4085,
+        "lakeLeakageM3": 11238518862.40177,
+        "storageM3": 21610854654346.08,
+        "storageChangeM3": 749223164080.9453,
+        "relativeError": 1.4162281764037687e-16
+      },
+      {
+        "waterYear": 23,
+        "inputM3": 2202400207173.8223,
+        "outletM3": 1173402931182.2986,
+        "lakeEvaporationM3": 257711394026.34738,
+        "lakeLeakageM3": 11445352195.7351,
+        "storageM3": 22370695184115.516,
+        "storageChangeM3": 759840529769.4375,
+        "relativeError": 1.7122211994110585e-16
+      },
+      {
+        "waterYear": 24,
+        "inputM3": 2206961492209.6143,
+        "outletM3": 1165260417960.723,
+        "lakeEvaporationM3": 262462389671.11536,
+        "lakeLeakageM3": 11651518862.401764,
+        "storageM3": 23138282349830.89,
+        "storageChangeM3": 767587165715.375,
+        "relativeError": 3.410441413849003e-17
+      },
+      {
+        "waterYear": 25,
+        "inputM3": 2211359931778.1045,
+        "outletM3": 1186173077163.6924,
+        "lakeEvaporationM3": 267061035016.97882,
+        "lakeLeakageM3": 11851585529.068434,
+        "storageM3": 23884556583899.254,
+        "storageChangeM3": 746274234068.3633,
+        "relativeError": 6.800688997910051e-17
+      },
+      {
+        "waterYear": 26,
+        "inputM3": 2215777523902.3643,
+        "outletM3": 1172747215445.452,
+        "lakeEvaporationM3": 271676752515.10352,
+        "lakeLeakageM3": 12050512195.735104,
+        "storageM3": 24643859627645.33,
+        "storageChangeM3": 759303043746.0742,
+        "relativeError": 2.0283673721661523e-17
+      },
+      {
+        "waterYear": 27,
+        "inputM3": 2220006725768.3135,
+        "outletM3": 1237581045896.202,
+        "lakeEvaporationM3": 276080889118.121,
+        "lakeLeakageM3": 12240625529.06844,
+        "storageM3": 25337963792870.25,
+        "storageChangeM3": 694104165224.9219,
+        "relativeError": 1.1609475919954001e-17
+      },
+      {
+        "waterYear": 28,
+        "inputM3": 2223751335935.5625,
+        "outletM3": 1279919332174.6812,
+        "lakeEvaporationM3": 280025357605.5761,
+        "lakeLeakageM3": 12410278862.401768,
+        "storageM3": 25989360160163.156,
+        "storageChangeM3": 651396367292.9062,
+        "relativeError": 1.0975287238444691e-16
+      },
+      {
+        "waterYear": 29,
+        "inputM3": 2227378744783.4517,
+        "outletM3": 1267335552826.0154,
+        "lakeEvaporationM3": 283888943616.20435,
+        "lakeLeakageM3": 12576892195.735104,
+        "storageM3": 26652937516308.652,
+        "storageChangeM3": 663577356145.4961,
+        "relativeError": 2.8328383912819e-17
+      },
+      {
+        "waterYear": 30,
+        "inputM3": 2231201411429.851,
+        "outletM3": 1280902087862.9285,
+        "lakeEvaporationM3": 287942317156.9952,
+        "lakeLeakageM3": 12748072195.735102,
+        "storageM3": 27302546450522.844,
+        "storageChangeM3": 649608934214.1914,
+        "relativeError": 3.4564647483405333e-17
+      },
+      {
+        "waterYear": 31,
+        "inputM3": 2234783039735.1104,
+        "outletM3": 1274563047989.9766,
+        "lakeEvaporationM3": 291761006600.92035,
+        "lakeLeakageM3": 12909832195.735119,
+        "storageM3": 27958095603471.33,
+        "storageChangeM3": 655549152948.4844,
+        "relativeError": 2.217347957457991e-16
+      },
+      {
+        "waterYear": 32,
+        "inputM3": 2238408063734.277,
+        "outletM3": 1296205757938.097,
+        "lakeEvaporationM3": 295637701585.14685,
+        "lakeLeakageM3": 13072412195.735138,
+        "storageM3": 28591587795486.625,
+        "storageChangeM3": 633492192015.2969,
+        "relativeError": 3.8204148434286805e-17
+      },
+      {
+        "waterYear": 33,
+        "inputM3": 2241861040848.592,
+        "outletM3": 1304059320970.6853,
+        "lakeEvaporationM3": 299358149370.19336,
+        "lakeLeakageM3": 13227678862.401802,
+        "storageM3": 29216803687131.938,
+        "storageChangeM3": 625215891645.3125,
+        "relativeError": 4.0826601573541006e-17
+      },
+      {
+        "waterYear": 34,
+        "inputM3": 2245163776454.578,
+        "outletM3": 1335828192660.084,
+        "lakeEvaporationM3": 302940572947.51544,
+        "lakeLeakageM3": 13378585529.068459,
+        "storageM3": 29809820112449.844,
+        "storageChangeM3": 593016425317.9062,
+        "relativeError": 1.3657117946824403e-16
+      },
+      {
+        "waterYear": 35,
+        "inputM3": 2248291620532.882,
+        "outletM3": 1345699282313.3542,
+        "lakeEvaporationM3": 306300728761.61273,
+        "lakeLeakageM3": 13520552195.735125,
+        "storageM3": 30392591169712.03,
+        "storageChangeM3": 582771057262.1875,
+        "relativeError": 2.6060643613883477e-16
+      },
+      {
+        "waterYear": 36,
+        "inputM3": 2251269542169.6074,
+        "outletM3": 1347154904625.0112,
+        "lakeEvaporationM3": 309487258411.9343,
+        "lakeLeakageM3": 13653932195.735123,
+        "storageM3": 30973564616648.953,
+        "storageChangeM3": 580973446936.9219,
+        "relativeError": 1.6015593023171706e-16
+      },
+      {
+        "waterYear": 37,
+        "inputM3": 2254158598855.7153,
+        "outletM3": 1348229317602.787,
+        "lakeEvaporationM3": 312591334997.1807,
+        "lakeLeakageM3": 13784585529.068457,
+        "storageM3": 31553117977375.633,
+        "storageChangeM3": 579553360726.6797,
+        "relativeError": 2.0875581952743047e-17
+      },
+      {
+        "waterYear": 38,
+        "inputM3": 2256995392329.907,
+        "outletM3": 1351850790148.6646,
+        "lakeEvaporationM3": 315649963125.05084,
+        "lakeLeakageM3": 13914618862.401798,
+        "storageM3": 32128697997569.42,
+        "storageChangeM3": 575580020193.7891,
+        "relativeError": 3.0828896321176856e-17
+      },
+      {
+        "waterYear": 39,
+        "inputM3": 2259728392018.741,
+        "outletM3": 1379454663016.6953,
+        "lakeEvaporationM3": 318585134429.16516,
+        "lakeLeakageM3": 14039005529.068468,
+        "storageM3": 32676347586613.234,
+        "storageChangeM3": 547649589043.8125,
+        "relativeError": 7.183272244264987e-18
+      },
+      {
+        "waterYear": 40,
+        "inputM3": 2262248588231.8735,
+        "outletM3": 1402925911463.045,
+        "lakeEvaporationM3": 321323869999.48096,
+        "lakeLeakageM3": 14155138862.401804,
+        "storageM3": 33200191254520.188,
+        "storageChangeM3": 523843667906.9531,
+        "relativeError": 2.2256833685700947e-16
+      },
+      {
+        "waterYear": 41,
+        "inputM3": 2264772594284.558,
+        "outletM3": 1405098672779.334,
+        "lakeEvaporationM3": 324054118665.839,
+        "lakeLeakageM3": 14269545529.068472,
+        "storageM3": 33721541511830.504,
+        "storageChangeM3": 521350257310.3164,
+        "relativeError": 7.640840566830303e-18
+      },
+      {
+        "waterYear": 42,
+        "inputM3": 2267230641853.5,
+        "outletM3": 1404980914525.6812,
+        "lakeEvaporationM3": 326737007420.18964,
+        "lakeLeakageM3": 14382432195.735151,
+        "storageM3": 34242671799542.4,
+        "storageChangeM3": 521130287711.89453,
+        "relativeError": 1.397074662614123e-17
+      },
+      {
+        "waterYear": 43,
+        "inputM3": 2269605513055.541,
+        "outletM3": 1433740171344.7327,
+        "lakeEvaporationM3": 329305710025.81476,
+        "lakeLeakageM3": 14489905529.068491,
+        "storageM3": 34734741525698.33,
+        "storageChangeM3": 492069726155.9297,
+        "relativeError": 1.3396073439501188e-16
+      },
+      {
+        "waterYear": 44,
+        "inputM3": 2271670843139.4644,
+        "outletM3": 1448275886217.9958,
+        "lakeEvaporationM3": 331584112567.57794,
+        "lakeLeakageM3": 14586252195.735163,
+        "storageM3": 35211966117856.484,
+        "storageChangeM3": 477224592158.15625,
+        "relativeError": 2.443576961623866e-17
+      },
+      {
+        "waterYear": 45,
+        "inputM3": 2273725617607.386,
+        "outletM3": 1446428825900.5647,
+        "lakeEvaporationM3": 333850479671.8949,
+        "lakeLeakageM3": 14682352195.735174,
+        "storageM3": 35690730077695.67,
+        "storageChangeM3": 478763959839.1875,
+        "relativeError": 1.1250616046522315e-16
+      },
+      {
+        "waterYear": 46,
+        "inputM3": 2275779965591.771,
+        "outletM3": 1446003963446.3289,
+        "lakeEvaporationM3": 336106608153.58264,
+        "lakeLeakageM3": 14780018862.40184,
+        "storageM3": 36169619452825.13,
+        "storageChangeM3": 478889375129.46094,
+        "relativeError": 9.191853574571962e-17
+      },
+      {
+        "waterYear": 47,
+        "inputM3": 2277862723023.0625,
+        "outletM3": 1447885273015.1287,
+        "lakeEvaporationM3": 338388391016.93274,
+        "lakeLeakageM3": 14878058862.401836,
+        "storageM3": 36646330452953.734,
+        "storageChangeM3": 476711000128.60156,
+        "relativeError": 6.359653449415008e-17
+      },
+      {
+        "waterYear": 48,
+        "inputM3": 2279939222897.648,
+        "outletM3": 1450865886919.6633,
+        "lakeEvaporationM3": 340666780354.7366,
+        "lakeLeakageM3": 14975945529.068504,
+        "storageM3": 37119761063047.914,
+        "storageChangeM3": 473430610094.1797,
+        "relativeError": 3.955607404671706e-18
+      },
+      {
+        "waterYear": 49,
+        "inputM3": 2282000402947.6157,
+        "outletM3": 1451590671911.9263,
+        "lakeEvaporationM3": 342924950775.7293,
+        "lakeLeakageM3": 15073712195.735165,
+        "storageM3": 37592172131112.14,
+        "storageChangeM3": 472411068064.22656,
+        "relativeError": 4.264842552584002e-17
+      },
+      {
+        "waterYear": 50,
+        "inputM3": 2284083358013.4424,
+        "outletM3": 1450881964510.3923,
+        "lakeEvaporationM3": 345229981927.58185,
+        "lakeLeakageM3": 15172632195.735168,
+        "storageM3": 38064970910491.875,
+        "storageChangeM3": 472798779379.7344,
+        "relativeError": 3.571949587847014e-17
+      },
+      {
+        "waterYear": 51,
+        "inputM3": 2286145210090.5083,
+        "outletM3": 1448460241471.459,
+        "lakeEvaporationM3": 347524576937.78674,
+        "lakeLeakageM3": 15270878862.401823,
+        "storageM3": 38539860423310.74,
+        "storageChangeM3": 474889512818.8672,
+        "relativeError": 1.691135309384374e-16
+      },
+      {
+        "waterYear": 52,
+        "inputM3": 2288183308119.619,
+        "outletM3": 1428159539766.7495,
+        "lakeEvaporationM3": 349781952214.8255,
+        "lakeLeakageM3": 15367858862.40182,
+        "storageM3": 39034734380586.38,
+        "storageChangeM3": 494873957275.6406,
+        "relativeError": 4.3699920660707945e-17
+      },
+      {
+        "waterYear": 53,
+        "inputM3": 2290216374832.0947,
+        "outletM3": 1429307572998.0908,
+        "lakeEvaporationM3": 352039584995.0586,
+        "lakeLeakageM3": 15465018862.401821,
+        "storageM3": 39528138578562.92,
+        "storageChangeM3": 493404197976.53906,
+        "relativeError": 1.1345955328424844e-16
+      },
+      {
+        "waterYear": 54,
+        "inputM3": 2292215164784.513,
+        "outletM3": 1432408498877.824,
+        "lakeEvaporationM3": 354280209487.17084,
+        "lakeLeakageM3": 15560865529.068491,
+        "storageM3": 40018104169453.375,
+        "storageChangeM3": 489965590890.4531,
+        "relativeError": 8.207823947909301e-17
+      },
+      {
+        "waterYear": 55,
+        "inputM3": 2294213553087.7227,
+        "outletM3": 1422724248269.5596,
+        "lakeEvaporationM3": 356548111417.9118,
+        "lakeLeakageM3": 15656792195.735157,
+        "storageM3": 40517388570657.89,
+        "storageChangeM3": 499284401204.5156,
+        "relativeError": 1.2487481657822397e-17
+      },
+      {
+        "waterYear": 56,
+        "inputM3": 2296370788392.3906,
+        "outletM3": 1418929122225.7458,
+        "lakeEvaporationM3": 359003152333.0683,
+        "lakeLeakageM3": 15756992195.73516,
+        "storageM3": 41020070092295.734,
+        "storageChangeM3": 502681521637.84375,
+        "relativeError": 6.006746587886605e-17
+      },
+      {
+        "waterYear": 57,
+        "inputM3": 2298548458912.4785,
+        "outletM3": 1419285047995.9546,
+        "lakeEvaporationM3": 361502294143.1068,
+        "lakeLeakageM3": 15858518862.40182,
+        "storageM3": 41521972690206.75,
+        "storageChangeM3": 501902597911.0156,
+        "relativeError": 8.044143092250267e-18
+      },
+      {
+        "waterYear": 58,
+        "inputM3": 2300695488437.0557,
+        "outletM3": 1420661402666.656,
+        "lakeEvaporationM3": 363949697305.6236,
+        "lakeLeakageM3": 15957512195.735153,
+        "storageM3": 42022099566475.78,
+        "storageChangeM3": 500126876269.03125,
+        "relativeError": 2.326193302188795e-16
+      },
+      {
+        "waterYear": 59,
+        "inputM3": 2302721667478.3057,
+        "outletM3": 1425636321606.0215,
+        "lakeEvaporationM3": 366242817755.75824,
+        "lakeLeakageM3": 16051598862.401817,
+        "storageM3": 42516890495729.914,
+        "storageChangeM3": 494790929254.1328,
+        "relativeError": 2.0679310317055951e-16
+      },
+      {
+        "waterYear": 60,
+        "inputM3": 2304616526355.161,
+        "outletM3": 1420731320967.379,
+        "lakeEvaporationM3": 368374524157.919,
+        "lakeLeakageM3": 16141558862.401825,
+        "storageM3": 43016259618097.375,
+        "storageChangeM3": 499369122367.46094,
+        "relativeError": 1.0766631015054462e-17
+      },
+      {
+        "waterYear": 61,
+        "inputM3": 2306547569333.545,
+        "outletM3": 1391148636699.102,
+        "lakeEvaporationM3": 370557636466.8831,
+        "lakeLeakageM3": 16234352195.73516,
+        "storageM3": 43544866562069.2,
+        "storageChangeM3": 528606943971.8281,
+        "relativeError": 8.211801070873744e-17
+      },
+      {
+        "waterYear": 62,
+        "inputM3": 2308482638782.1265,
+        "outletM3": 1391383332120.2424,
+        "lakeEvaporationM3": 372712709101.364,
+        "lakeLeakageM3": 16325665529.068495,
+        "storageM3": 44072927494100.66,
+        "storageChangeM3": 528060932031.4531,
+        "relativeError": 3.6749808399312837e-17
+      },
+      {
+        "waterYear": 63,
+        "inputM3": 2310318080674.145,
+        "outletM3": 1391523634188.249,
+        "lakeEvaporationM3": 374772195212.33624,
+        "lakeLeakageM3": 16412832195.735159,
+        "storageM3": 44600536913178.484,
+        "storageChangeM3": 527609419077.8281,
+        "relativeError": 8.010591807881402e-17
+      },
+      {
+        "waterYear": 64,
+        "inputM3": 2312156289061.785,
+        "outletM3": 1391449164008.7512,
+        "lakeEvaporationM3": 376823760506.9758,
+        "lakeLeakageM3": 16500605529.06849,
+        "storageM3": 45127919672195.48,
+        "storageChangeM3": 527382759016.9922,
+        "relativeError": 5.764742164508662e-17
+      },
+      {
+        "waterYear": 65,
+        "inputM3": 2313989904553.6,
+        "outletM3": 1391394281701.213,
+        "lakeEvaporationM3": 378869090459.65735,
+        "lakeLeakageM3": 16588772195.735151,
+        "storageM3": 45655057432392.47,
+        "storageChangeM3": 527137760196.9922,
+        "relativeError": 5.583256578737687e-17
+      },
+      {
+        "waterYear": 66,
+        "inputM3": 2315737560909.481,
+        "outletM3": 1392778035347.5598,
+        "lakeEvaporationM3": 380815579385.30536,
+        "lakeLeakageM3": 16673285529.06848,
+        "storageM3": 46180528093040.016,
+        "storageChangeM3": 525470660647.5469,
+        "relativeError": 9.399910251308241e-18
+      },
+      {
+        "waterYear": 67,
+        "inputM3": 2317410594665.81,
+        "outletM3": 1397170161575.1375,
+        "lakeEvaporationM3": 382677359744.6143,
+        "lakeLeakageM3": 16753885529.068481,
+        "storageM3": 46701337280857.01,
+        "storageChangeM3": 520809187816.9922,
+        "relativeError": 5.1544908472121866e-17
+      },
+      {
+        "waterYear": 68,
+        "inputM3": 2319158507589.3267,
+        "outletM3": 1414316676067.5325,
+        "lakeEvaporationM3": 384633060876.99274,
+        "lakeLeakageM3": 16837105529.06848,
+        "storageM3": 47204708945972.75,
+        "storageChangeM3": 503371665115.7422,
+        "relativeError": 1.9730486923110428e-16
+      },
+      {
+        "waterYear": 69,
+        "inputM3": 2320890116739.555,
+        "outletM3": 1421982063802.8882,
+        "lakeEvaporationM3": 386603848769.5374,
+        "lakeLeakageM3": 16918965529.068485,
+        "storageM3": 47700094184610.805,
+        "storageChangeM3": 495385238638.0547,
+        "relativeError": 1.356830039205401e-16
+      },
+      {
+        "waterYear": 70,
+        "inputM3": 2322671876184.456,
+        "outletM3": 1390465687697.982,
+        "lakeEvaporationM3": 388612259693.0267,
+        "lakeLeakageM3": 17002158862.40182,
+        "storageM3": 48226685954541.85,
+        "storageChangeM3": 526591769931.0469,
+        "relativeError": 2.611103140396713e-17
+      },
+      {
+        "waterYear": 71,
+        "inputM3": 2324426414547.0767,
+        "outletM3": 1397839623338.323,
+        "lakeEvaporationM3": 390591300635.3226,
+        "lakeLeakageM3": 17084932195.735159,
+        "storageM3": 48745596512919.55,
+        "storageChangeM3": 518910558377.6953,
+        "relativeError": 1.2853636806982031e-17
+      },
+      {
+        "waterYear": 72,
+        "inputM3": 2325944781614.9106,
+        "outletM3": 1468409040598.7039,
+        "lakeEvaporationM3": 392290104510.3745,
+        "lakeLeakageM3": 17157885529.068478,
+        "storageM3": 49193684263896.31,
+        "storageChangeM3": 448087750976.7656,
+        "relativeError": 3.748523191730935e-17
+      },
+      {
+        "waterYear": 73,
+        "inputM3": 2327321102456.9873,
+        "outletM3": 1468513710901.8699,
+        "lakeEvaporationM3": 393844681728.803,
+        "lakeLeakageM3": 17223805529.068466,
+        "storageM3": 49641423168193.555,
+        "storageChangeM3": 447738904297.2422,
+        "relativeError": 7.723427373686142e-17
+      },
+      {
+        "waterYear": 74,
+        "inputM3": 2328722985296.5786,
+        "outletM3": 1471326898628.9094,
+        "lakeEvaporationM3": 395457453529.67065,
+        "lakeLeakageM3": 17292465529.068462,
+        "storageM3": 50086069335802.484,
+        "storageChangeM3": 444646167608.9297,
+        "relativeError": 7.761349277250092e-18
+      },
+      {
+        "waterYear": 75,
+        "inputM3": 2330101853724.6606,
+        "outletM3": 1473172457026.2979,
+        "lakeEvaporationM3": 397028415907.2269,
+        "lakeLeakageM3": 17360412195.735126,
+        "storageM3": 50528609904397.88,
+        "storageChangeM3": 442540568595.39844,
+        "relativeError": 4.5926192286117434e-17
+      },
+      {
+        "waterYear": 76,
+        "inputM3": 2331470339315.714,
+        "outletM3": 1473444382793.3235,
+        "lakeEvaporationM3": 398597052804.6271,
+        "lakeLeakageM3": 17428292195.73512,
+        "storageM3": 50970610515919.914,
+        "storageChangeM3": 442000611522.03125,
+        "relativeError": 6.062311846877587e-17
+      },
+      {
+        "waterYear": 77,
+        "inputM3": 2332862477190.3467,
+        "outletM3": 1477469460539.081,
+        "lakeEvaporationM3": 400187285005.9083,
+        "lakeLeakageM3": 17495745529.06846,
+        "storageM3": 51408320502036.2,
+        "storageChangeM3": 437709986116.28906,
+        "relativeError": 4.3407846044368075e-18
+      },
+      {
+        "waterYear": 78,
+        "inputM3": 2334217927813.3354,
+        "outletM3": 1478305875133.5525,
+        "lakeEvaporationM3": 401737490475.97797,
+        "lakeLeakageM3": 17561618862.401787,
+        "storageM3": 51844933445377.61,
+        "storageChangeM3": 436612943341.40625,
+        "relativeError": 5.921470276096993e-17
+      },
+      {
+        "waterYear": 79,
+        "inputM3": 2335511075032.554,
+        "outletM3": 1482948400156.7227,
+        "lakeEvaporationM3": 403233530986.5106,
+        "lakeLeakageM3": 17625458862.401787,
+        "storageM3": 52276637130404.53,
+        "storageChangeM3": 431703685026.9219,
+        "relativeError": 5.282970687202125e-17
+      },
+      {
+        "waterYear": 80,
+        "inputM3": 2336794274788.9946,
+        "outletM3": 1486518155176.373,
+        "lakeEvaporationM3": 404719537793.5285,
+        "lakeLeakageM3": 17688425529.06845,
+        "storageM3": 52704505286694.555,
+        "storageChangeM3": 427868156290.02344,
+        "relativeError": 2.2767064069291063e-17
+      }
+    ],
+    "maxWaterRelativeError": 3.72810514808452e-16,
+    "initialStorageM3": 0.0,
+    "releasedByBedChangeM3": 0.0,
+    "convergence": {
+      "passed": false,
+      "waterYears": 80,
+      "maximumPeriodicLevelChangeM": 5.7520390389563545,
+      "relativeStorageDrift": 0.008118246323773773,
+      "requiredStableCycles": 3,
+      "levelToleranceM": 0.02
+    },
+    "climateStatus": "proxy seasonal scenario; not a GCM prediction",
+    "seasonality": {
+      "amplitude": 0.3,
+      "months": 12,
+      "hemispherePeakMonth": 6
+    },
+    "elapsedSeconds": 555.4546208381653,
+    "terrainFixedDuringSeasonalSolve": true,
+    "geologicalYearsAdvanced": 0,
+    "sceneCheckPassed": true
+  },
+  "story": {
+    "passed": true,
+    "applicable": true,
+    "sites": [
+      {
+        "id": "FC",
+        "name": "Frontier",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1788.0,
+        "minimumFarmAreaKm2": 620,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "AT",
+        "name": "Atheria",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1792.0,
+        "minimumFarmAreaKm2": 290,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "CR",
+        "name": "Crestline",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1800.0,
+        "minimumFarmAreaKm2": 140,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "TH",
+        "name": "Thornfield",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1784.0,
+        "minimumFarmAreaKm2": 160,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "MI",
+        "name": "Millhaven",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1796.0,
+        "minimumFarmAreaKm2": 140,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "CP",
+        "name": "Coppergate",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1808.0,
+        "minimumFarmAreaKm2": 160,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "CL",
+        "name": "Cliffwatch",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1800.0,
+        "minimumFarmAreaKm2": 150,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "WI",
+        "name": "Windbreak",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1800.0,
+        "minimumFarmAreaKm2": 150,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      },
+      {
+        "id": "RB",
+        "name": "Riverbend",
+        "gridM": 2000,
+        "coreResolved": false,
+        "corePermanentlyFlooded": false,
+        "maximumCoreWaterDepthM": 0.0,
+        "continuousFarmAreaKm2": 1644.0,
+        "minimumFarmAreaKm2": 140,
+        "farmAreaPassed": true,
+        "passed": true,
+        "geometryStatus": "planning footprint, not a surveyed parcel map"
+      }
+    ],
+    "largestStoryLakeKm2": 0.0,
+    "maximumStoryLakeKm2": 2500,
+    "lakeLimitStatus": "authored candidate acceptance ceiling; not a climate prediction",
+    "fineCoreValidationRequired": true,
+    "checkerSha256": "e8ea17f6043feba518e2666322a806df36dec975aefe74328615ed5e323666e6",
+    "coordinateRegistry": {
+      "FC": [
+        0,
+        26
+      ],
+      "AT": [
+        0.5,
+        27.8
+      ],
+      "CR": [
+        0.3,
+        27
+      ],
+      "TH": [
+        12,
+        25
+      ],
+      "MI": [
+        -15,
+        24
+      ],
+      "CP": [
+        -3,
+        18
+      ],
+      "CL": [
+        -7,
+        14
+      ],
+      "WI": [
+        -3,
+        11
+      ],
+      "RB": [
+        -9.68122551399219,
+        8.826584469092735
+      ]
+    }
+  },
+  "connection": {
+    "scope": "minor longitudinal-grade completion of retained river valleys; no additional tectonic generation",
+    "minimumGradeMperKm": 0.025,
+    "maximumRaiseM": 321.26651303281267,
+    "changedAreaKm2": 299428.0,
+    "medianChangedRaiseM": 24.731579593483843,
+    "negativeLandCellsBefore": 23358,
+    "negativeLandCellsAfter": 0,
+    "sites": [
+      {
+        "id": "FC",
+        "name": "Frontier",
+        "center": [
+          0,
+          26
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 12.9188232421875
+      },
+      {
+        "id": "AT",
+        "name": "Atheria",
+        "center": [
+          0.5,
+          27.8
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 43.73828125
+      },
+      {
+        "id": "CR",
+        "name": "Crestline",
+        "center": [
+          0.3,
+          27
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 13.84002685546875
+      },
+      {
+        "id": "TH",
+        "name": "Thornfield",
+        "center": [
+          12,
+          25
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 7.83648681640625
+      },
+      {
+        "id": "MI",
+        "name": "Millhaven",
+        "center": [
+          -15,
+          24
+        ],
+        "centerOnIshkarCatchment": false,
+        "nearbyIshkarCatchmentFraction": 0.0,
+        "maxLocalChangeM": 2.79425048828125
+      },
+      {
+        "id": "CP",
+        "name": "Coppergate",
+        "center": [
+          -3,
+          18
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 6.892120361328125
+      },
+      {
+        "id": "CL",
+        "name": "Cliffwatch",
+        "center": [
+          -7,
+          14
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 17.150909423828125
+      },
+      {
+        "id": "WI",
+        "name": "Windbreak",
+        "center": [
+          -3,
+          11
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 57.92765808105469
+      },
+      {
+        "id": "RB",
+        "name": "Riverbend",
+        "center": [
+          -9.68122551399219,
+          8.826584469092735
+        ],
+        "centerOnIshkarCatchment": true,
+        "nearbyIshkarCatchmentFraction": 1.0,
+        "maxLocalChangeM": 321.2665100097656
+      }
+    ],
+    "IshkarReference": [
+      -9.675078934,
+      8.838133707
+    ],
+    "IshkarOutletNode": 6337057,
+    "membership": "same computed marine outlet as the Riverbend Ishkar branch; routes need not pass through the settlement itself",
+    "newTectonicUpliftM3": 0,
+    "correctionVolumeM3": 9460108405493.328,
+    "oldSource": "D:\\SKBS\\review\\tectonics-20260914\\landscape-v14\\base\\aethelgard\\5210914",
+    "diagnosticCoordinatesSource": "exact atlas settlement IDs; Riverbend retains adopted bank"
+  }
+}

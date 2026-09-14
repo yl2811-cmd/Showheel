@@ -1,0 +1,58 @@
+{
+  "id": "detail-keld-shellharbor-valley-2000000-250",
+  "fingerprint": "524f1d5e88af8a902d4b641be2628e5cbf9899e504a2fc178902ab8c3bf3b0c9",
+  "grid": {
+    "width": 257,
+    "height": 257,
+    "xmin": 424384.1799706922,
+    "ymax": -265229.6610899873,
+    "stepM": 250,
+    "projection": "+proj=laea +lat_0=2 +lon_0=49 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "id": "keld-shellharbor-valley",
+    "region": "keld",
+    "seed": 5210914
+  },
+  "stages": [
+    {
+      "effectiveYears": 0,
+      "height": "detail-keld-shellharbor-valley-2000000-250-0.png",
+      "rivers": "detail-keld-shellharbor-valley-2000000-250-0-rivers.geojson",
+      "lakes": "detail-keld-shellharbor-valley-2000000-250-0-lakes.geojson"
+    },
+    {
+      "effectiveYears": 10000,
+      "height": "detail-keld-shellharbor-valley-2000000-250-10000.png",
+      "rivers": "detail-keld-shellharbor-valley-2000000-250-10000-rivers.geojson",
+      "lakes": "detail-keld-shellharbor-valley-2000000-250-10000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 100000,
+      "height": "detail-keld-shellharbor-valley-2000000-250-100000.png",
+      "rivers": "detail-keld-shellharbor-valley-2000000-250-100000-rivers.geojson",
+      "lakes": "detail-keld-shellharbor-valley-2000000-250-100000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 500000,
+      "height": "detail-keld-shellharbor-valley-2000000-250-500000.png",
+      "rivers": "detail-keld-shellharbor-valley-2000000-250-500000-rivers.geojson",
+      "lakes": "detail-keld-shellharbor-valley-2000000-250-500000-lakes.geojson"
+    },
+    {
+      "effectiveYears": 2000000,
+      "height": "detail-keld-shellharbor-valley-2000000-250-2000000.png",
+      "rivers": "detail-keld-shellharbor-valley-2000000-250-2000000-rivers.geojson",
+      "lakes": "detail-keld-shellharbor-valley-2000000-250-2000000-lakes.geojson"
+    }
+  ],
+  "effectiveYears": 2000000,
+  "numericalConservationPassed": true,
+  "waterConverged": true,
+  "morphologyProxyPassed": true,
+  "quietAreaRetention": 0.8943511450381679,
+  "maximumWaterRelativeError": 8.557851731144827e-16,
+  "maximumSolidRelativeError": 3.4052255987724677e-15,
+  "protectedMaximumChangeM": 0.0,
+  "terrainAccepted": false,
+  "climateAccepted": false,
+  "state": "WIP candidate; full matrix and story-geography acceptance pending"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sourceHash": "33e6490d79ed040637d22d34512d874aff2eb45b8687926bfd460cc19a771e29",
+  "bytes": 824211,
+  "englishUnchanged": true,
+  "unrelatedSourceFilesUnchanged": 50,
+  "buildArtifactChanges": [
+    "obj/Debug/net8.0/rpswa.dswa.cache.json"
+  ],
+  "buildArtifactsExcludedFromCommit": true
+}

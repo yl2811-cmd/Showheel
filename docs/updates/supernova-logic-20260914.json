@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "format": "ZIP DEFLATE level 9",
+  "bytes": 775410,
+  "sha256": "7170519a075c7a4f2fbd10f3a16eca8612d12bf4d3df8aa257abfb6e2dfb997d",
+  "originalBytes": 1694909,
+  "entryCount": 11,
+  "roundTripSha256Verified": true,
+  "entries": [
+    {
+      "path": "source/timelapse-skies_beyond_the_star.txt",
+      "bytes": 824211,
+      "sha256": "33e6490d79ed040637d22d34512d874aff2eb45b8687926bfd460cc19a771e29"
+    },
+    {
+      "path": "website/docs/archeon-reader-content.json",
+      "bytes": 894,
+      "sha256": "52668ee9a3671ddd5f9722b2a60378702fe14be05067b362c0608d775c8bcd20"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/changes.diff",
+      "bytes": 34946,
+      "sha256": "8b645e8671c0e34f6c91bcfbf18d7a5cdd03b5e7bc7bfe27a9ca3e0246805318"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/full-reader-map-timeout.log",
+      "bytes": 392,
+      "sha256": "fef9ae0c7df98c1cbe3a155460f86f5093165b2a0f104c64e53f4e8a212a1ad6"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/physics-verification.json",
+      "bytes": 1687,
+      "sha256": "d30af2430a2772b189d208078a1c19c59498d35570febcd4f391ed096cff2884"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/physics.cjs",
+      "bytes": 2444,
+      "sha256": "afb1ea496b5ffaed3ead07ae59609fd6799b9f487fb2cd74c4c2e2993ded12ce"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/reader-verification.json",
+      "bytes": 506,
+      "sha256": "e93386f3c5ec61df9baf21946cffc8de414b11790ee284c51659443be3417fce"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/README.md",
+      "bytes": 4473,
+      "sha256": "38b58051b12dc2219071a23f76a586c357a3f6d5cc75d3dc37a558736c80ecbc"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/sync-verification.json",
+      "bytes": 313,
+      "sha256": "db7233b4e9ed6225ba3b0b8d5d4b9671e6813af8a4f478a83f5a11f4236c6359"
+    },
+    {
+      "path": "website/docs/supernova-logic-20260914/verification.json",
+      "bytes": 832,
+      "sha256": "c77716a939f2678e0fd3c0cc89fc86f94f9d1ac002b33a3ad5a779842966bb4b"
+    },
+    {
+      "path": "website/wwwroot/story.md",
+      "bytes": 824211,
+      "sha256": "33e6490d79ed040637d22d34512d874aff2eb45b8687926bfd460cc19a771e29"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "assumptions": {
+    "coordinates": {
+      "B": [
+        0,
+        0
+      ],
+      "A": [
+        1.0932203389830508,
+        9.940063847402278
+      ],
+      "N": [
+        331,
+        0
+      ],
+      "G": [
+        0.6891333050847457,
+        6.2659180474869745
+      ]
+    },
+    "departureYear": 2564.005475701574,
+    "firstPacketControlLossPhaseDays": 0.5,
+    "note": "The 0.5-source-day control-loss phase is an illustrative fictional engineering input, not a derived radiative failure threshold. Residual curvature follows the preloaded polyline."
+  },
+  "geometry": {
+    "turnRadius": 6.3037,
+    "normalTurnTime": 2569.3091786298914,
+    "contactYear": 2569.308654701299,
+    "contactRadius": 6.308654701300027,
+    "controlLossYear": 2569.3087818236363,
+    "controlLossRadius": 6.307412898239773,
+    "distanceToArcheonAtControlLoss": 3.692922346459958,
+    "remainingPreloadedPathLy": 3.7359806255145385,
+    "passiveDays": 19.49381319249244,
+    "arrivalYear": 2569.3621529754296,
+    "warningYears": 3.6378470245704193,
+    "sourcePhaseAtPassiveTurnDays": 2.0631839184565024,
+    "positiveExposureBeforeControlLossDays": 0.046431433695033775
+  },
+  "checks": {
+    "finiteFrontPenetration": true,
+    "controlLossBeforeTurn": true,
+    "threeWeekScale": true,
+    "crashYearPreserved": true,
+    "fourYearScale": true
+  },
+  "scales": {
+    "neutrinoFluxRatio200pcTo10ly": 4255.10945344,
+    "diffusionYears": {
+      "1e+28": 47.27092738084167,
+      "2.4e+27": 196.96219742017362,
+      "1e+27": 472.70927380841664,
+      "1e+26": 4727.092738084167
+    },
+    "xrayFluxAt10lyFor1e36ergs": 8.890799081256503e-7,
+    "atmosphereKgM2": 11445.794227303277
+  }
+}

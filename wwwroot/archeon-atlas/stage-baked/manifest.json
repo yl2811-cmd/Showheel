@@ -1,0 +1,481 @@
+{
+ "schemaVersion": 1,
+ "sourceKey": "f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f",
+ "terrainVersion": "工作底本 2026-09-28 r18 · Aethelgard p30（T108，Skyleaf v3）· Keld p7（T100）· Vorhan–Duskreach v14（T102），均待认可",
+ "terrainPhase": "pending-tests",
+ "terrainFingerprint": "00d9c444ca8a55e5e2b2e36a4400ccb91d539b0d02cd67f95ad7083df8143a9a",
+ "builtUnix": 1790632776.909417,
+ "views": {
+  "world": {
+   "name": "世界地图",
+   "geometry": {
+    "view": "world",
+    "width": 2200,
+    "height": 1400,
+    "projection": "+proj=eqearth +R=4750000 +units=m +no_defs",
+    "scale": 7.972625552220343e-05,
+    "translate": [
+     1100.0,
+     707.5
+    ],
+    "radiusM": 4750000,
+    "preserveNamedMainstems": true,
+    "priorityRiverGeometry": [
+     "/Users/adrianlin/Desktop/SKBS/review/planet-diffusion-20260922/base-10d/river-targets.geojson"
+    ]
+   },
+   "layers": {
+    "height": {
+     "name": [
+      "高程与地形",
+      "Elevation"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-height.png",
+     "sha256": "e3f60151c1cb9eb76e65453e09ad395b1d1067d2fabc52bcf0b4d839a96a1b18",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "工作底本：工作底本 2026-09-28 r18（pending）· Aethelgard = 过程层 p30（T108，含 Skyleaf v3）；Keld = 过程层 p7（T100）；Vorhan–Duskreach = 过程层 v14（T102）",
+      "Working state (pending tests): 工作底本 2026-09-28 r18（pending）· Aethelgard = 过程层 p30（T108，含 Skyleaf v3）；Keld = 过程层 p7（T100）；Vorhan–Duskreach = 过程层 v14（T102）"
+     ]
+    },
+    "water": {
+     "name": [
+      "河流与湖泊",
+      "Rivers and lakes"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-water.png",
+     "sha256": "7b03c199972e9e04c5d3b5edb51b1693c267393a6aadb122ac9d60bc1f2ad40a",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "r18 水文（runs/_hydro/r18-20260928）：2 km 汇流，径流取 clim-r18 代理气候，湖取水深 > 1 m，含 Skyleaf 融水（冰川 1,408 km²，年均约 47 m³/s）；不是气候阶段结果。",
+      "r18 hydrology (runs/_hydro/r18-20260928): 2 km routing of clim-r18 proxy runoff, lakes deeper than 1 m, Skyleaf meltwater included (1,408 km² of glacier, about 47 m³/s annual mean); not a climate-stage result."
+     ],
+     "approximation": true
+    },
+    "aridity": {
+     "name": [
+      "干湿带",
+      "Aridity"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-aridity.png",
+     "sha256": "8ed15478e10d5d7557e20bc2e6582fc2d309f3bda1a4a7ead30e53a0ab33efac",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "AI = 年降水 / 潜在蒸散，8 km 代理气候，UNEP 分级。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "AI = P / PET of the 8 km climate proxy, UNEP classes. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "rain": {
+     "name": [
+      "降水 · 年平均",
+      "Annual precipitation"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-rain.png",
+     "sha256": "9e42d29d8b126cb53bf600a567b04e8a80a5271bf3f524363803f429b00fbb1c",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "8 km 代理气候的年降水（地球年）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Annual precipitation of the 8 km climate proxy (Earth year). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "wind": {
+     "name": [
+      "风场 · 年平均近地面",
+      "Wind · annual surface"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-wind.png",
+     "sha256": "2400178038a1299b09204ebe3c061ab033f828942b5b1ee90d3d081ddce79e0b",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "全球两层谱模式（T42）的年平均近地面风；Aethelgard 图在区内用 8 km 降尺度。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Annual-mean surface wind of the global two-layer spectral run (T42); the Aethelgard view uses the 8 km downscale inside the region. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "vegetation": {
+     "name": [
+      "植被分布 · Y521",
+      "Vegetation · Y521"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-vegetation.png",
+     "sha256": "0e5b136959caad79fb63fe28e1bbf189e2851606fa01afea470f8a32fc7a60ac",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "eco 植被模拟 Y521（CI 扩散，生长 × 2.5）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Eco vegetation at Y521 (CI spread, growth x 2.5). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "settlements": {
+     "name": [
+      "住地五级 · Y521",
+      "Settlements · five tiers · Y521"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-settlements.png",
+     "sha256": "caedeea3c47793793c8fcd0518b4eae8feccbbda99e0500fcd69ff00a9d6b30d",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "住地五级（src/eco/tiers_run.py）：按 canon 处数与人口在 8 km 格上分配的制图工作值。Aethelgard：地形 p30（T108，Skyleaf v3）；气候代理 clim-r18（wind-r18）；水文 r18；生态 g-s8p30；住地五级 / I–V 级航线 aeth-r18；Vorhan–Duskreach：地形 v14（T102）；气候代理 clim-r18；水文 r18；生态 vd18replay-s11（工作底本 vd12R7v-s11 的重放）；住地五级 / I–V 级航线 vd-r18；Keld：地形 p7（T100）；气候代理 clim-r18；水文 r18；生态 keld-s8p7w18；住地五级 / I–V 级航线 keld-r18。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Five settlement tiers (src/eco/tiers_run.py): cartographic working values placed on the 8 km grid by canon counts and populations. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "routes": {
+     "name": [
+      "航线 · I–V 级",
+      "Routes · classes I–V"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-routes.png",
+     "sha256": "7f5b1a15ff0d956d83d6e7527497c6e3f57f7765328e38db87045863849c1222",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "I–V 级飞艇航线（满载最短时路径，年均巡航风；线宽 ∝ 流量）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Airship routes of classes I–V (loaded least-time paths, annual cruise wind; width ~ flow). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "curvature": {
+     "name": [
+      "曲率密度审核",
+      "Curvature audit"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-curvature.png",
+     "sha256": "62e5154515101c2fa291d5cebcccee3b25a777163aad5dbff595dd18062c740f",
+     "width": 4400,
+     "height": 2800,
+     "note": [
+      "红：比设定的地形下限更平滑（需要加细节）；紫：比地球同高程更粗糙或更均一（terrain-forge/reference）。2 km 审核（src/audit_stack.py），p30 / p7 / v14；Axiom、盐沼、保护锚点按设计豁免。",
+      "Red: smoother than the set floor (needs detail); violet: rougher or more uniform than Earth at the same elevation. 2 km audit (src/audit_stack.py) of p30 / p7 / v14; Axiom, salt pans and protected anchors exempt by design."
+     ]
+    },
+    "wind3d": {
+     "name": [
+      "三维风场",
+      "3D winds"
+     ],
+     "status": "wip"
+    },
+    "contours": {
+     "name": [
+      "等高线",
+      "Contours"
+     ],
+     "status": "wip"
+    },
+    "erosion": {
+     "name": [
+      "最新试样 · Vorhan 西部：Archeon 台地版 vd-archeon-03（2 km，山只留西北主脊与东脊，待定）",
+      "Latest trial · Vorhan 西部：Archeon 台地版 vd-archeon-03（2 km，山只留西北主脊与东脊，待定）"
+     ],
+     "status": "wip",
+     "reason": [
+      "旧地形上的试样（vd-ranges-10）已撤下并归档；新基线 B002 之后的试样再放这里。",
+      "The trial on the older terrain (vd-ranges-10) was withdrawn and archived; trials on B002 go here."
+     ]
+    }
+   }
+  },
+  "aethelgard": {
+   "name": "Aethelgard",
+   "geometry": {
+    "view": "aethelgard",
+    "width": 2000,
+    "height": 1600,
+    "projection": "+proj=lcc +lat_0=28 +lon_0=-12 +lat_1=15 +lat_2=45 +x_0=0 +y_0=0 +R=4750000 +units=m +no_defs",
+    "scale": 0.00020817272744233102,
+    "translate": [
+     991.2119359729744,
+     892.3910325356649
+    ],
+    "radiusM": 4750000,
+    "geographicBounds": [
+     -61,
+     -2,
+     38,
+     61
+    ],
+    "preserveNamedMainstems": true,
+    "priorityRiverGeometry": [
+     "/Users/adrianlin/Desktop/SKBS/review/planet-diffusion-20260922/base-10d/river-targets.geojson"
+    ]
+   },
+   "layers": {
+    "height": {
+     "name": [
+      "高程与地形",
+      "Elevation"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-height.png",
+     "sha256": "8b35cb946d7f10df5d994ed8110b945345b36709e51f385749914fdbfa161777",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "工作底本：工作底本 2026-09-28 r18（pending）· Aethelgard = 过程层 p30（T108，含 Skyleaf v3）；Keld = 过程层 p7（T100）；Vorhan–Duskreach = 过程层 v14（T102）",
+      "Working state (pending tests): 工作底本 2026-09-28 r18（pending）· Aethelgard = 过程层 p30（T108，含 Skyleaf v3）；Keld = 过程层 p7（T100）；Vorhan–Duskreach = 过程层 v14（T102）"
+     ]
+    },
+    "water": {
+     "name": [
+      "河流与湖泊",
+      "Rivers and lakes"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-water.png",
+     "sha256": "f42117b7eca1979ba86455debd60278b713743dcd5ab3b907d5ce9d81606daca",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "r18 水文（runs/_hydro/r18-20260928）：2 km 汇流，径流取 clim-r18 代理气候，湖取水深 > 1 m，含 Skyleaf 融水（冰川 1,408 km²，年均约 47 m³/s）；不是气候阶段结果。",
+      "r18 hydrology (runs/_hydro/r18-20260928): 2 km routing of clim-r18 proxy runoff, lakes deeper than 1 m, Skyleaf meltwater included (1,408 km² of glacier, about 47 m³/s annual mean); not a climate-stage result."
+     ],
+     "approximation": true
+    },
+    "aridity": {
+     "name": [
+      "干湿带",
+      "Aridity"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-aridity.png",
+     "sha256": "1809b56d161f0f6112d2617bb926f1c0b5296401dfd6244c7c8eb8422acfd528",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "AI = 年降水 / 潜在蒸散，8 km 代理气候，UNEP 分级。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "AI = P / PET of the 8 km climate proxy, UNEP classes. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "rain": {
+     "name": [
+      "降水 · 年平均",
+      "Annual precipitation"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-rain.png",
+     "sha256": "ee3fb560ad6d38b20fe09d2fd14c497fd6a14d98ccfa0a1842bc84b731932eae",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "8 km 代理气候的年降水（地球年）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Annual precipitation of the 8 km climate proxy (Earth year). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "wind": {
+     "name": [
+      "风场 · 年平均近地面",
+      "Wind · annual surface"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-wind.png",
+     "sha256": "883bb9a30ee6282e3ebed4799e68b1787eff4cb628d67efee6f14b9f0c33847a",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "全球两层谱模式（T42）的年平均近地面风；Aethelgard 图在区内用 8 km 降尺度。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Annual-mean surface wind of the global two-layer spectral run (T42); the Aethelgard view uses the 8 km downscale inside the region. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "vegetation": {
+     "name": [
+      "植被分布 · Y521",
+      "Vegetation · Y521"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-vegetation.png",
+     "sha256": "fc7bc96b973c16be2ad847c42a0edc0025b1a27d3e49338d7aa3b3f194c4f175",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "eco 植被模拟 Y521（CI 扩散，生长 × 2.5）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Eco vegetation at Y521 (CI spread, growth x 2.5). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "settlements": {
+     "name": [
+      "住地五级 · Y521",
+      "Settlements · five tiers · Y521"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-settlements.png",
+     "sha256": "9e89d7e44488dbc7ee73fbdd64924a2dd434d30a9ca7debce0f2281dcd95eedd",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "住地五级（src/eco/tiers_run.py）：按 canon 处数与人口在 8 km 格上分配的制图工作值。Aethelgard：地形 p30（T108，Skyleaf v3）；气候代理 clim-r18（wind-r18）；水文 r18；生态 g-s8p30；住地五级 / I–V 级航线 aeth-r18；Vorhan–Duskreach：地形 v14（T102）；气候代理 clim-r18；水文 r18；生态 vd18replay-s11（工作底本 vd12R7v-s11 的重放）；住地五级 / I–V 级航线 vd-r18；Keld：地形 p7（T100）；气候代理 clim-r18；水文 r18；生态 keld-s8p7w18；住地五级 / I–V 级航线 keld-r18。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Five settlement tiers (src/eco/tiers_run.py): cartographic working values placed on the 8 km grid by canon counts and populations. Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "routes": {
+     "name": [
+      "航线 · I–V 级",
+      "Routes · classes I–V"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-routes.png",
+     "sha256": "c6a2edeea9a9c86862d57f1e2ca2ff8d5605d305b81c4869eb970c8e061a2fed",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "I–V 级飞艇航线（满载最短时路径，年均巡航风；线宽 ∝ 流量）。试验：依赖锁里的气候、水文、干湿带、植被、聚落、航线阶段都还没有验收，这里是工作底本，不是阶段结果。",
+      "Airship routes of classes I–V (loaded least-time paths, annual cruise wind; width ~ flow). Experiment: no climate, hydrology, aridity, vegetation, settlement or route stage is accepted in the dependency lock; this is the working state, not a stage result."
+     ],
+     "approximation": true
+    },
+    "curvature": {
+     "name": [
+      "曲率密度审核",
+      "Curvature audit"
+     ],
+     "status": "ready",
+     "file": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-curvature.png",
+     "sha256": "988c6ea8dc76bd62fae7c8d04d5af61b743e1d38368601fdcebb92c8d9fc07ec",
+     "width": 4000,
+     "height": 3200,
+     "note": [
+      "红：比设定的地形下限更平滑（需要加细节）；紫：比地球同高程更粗糙或更均一（terrain-forge/reference）。2 km 审核（src/audit_stack.py），p30 / p7 / v14；Axiom、盐沼、保护锚点按设计豁免。",
+      "Red: smoother than the set floor (needs detail); violet: rougher or more uniform than Earth at the same elevation. 2 km audit (src/audit_stack.py) of p30 / p7 / v14; Axiom, salt pans and protected anchors exempt by design."
+     ]
+    },
+    "wind3d": {
+     "name": [
+      "三维风场",
+      "3D winds"
+     ],
+     "status": "wip"
+    },
+    "contours": {
+     "name": [
+      "等高线",
+      "Contours"
+     ],
+     "status": "wip"
+    },
+    "erosion": {
+     "name": [
+      "最新侵蚀试样 · 局部对照",
+      "Latest erosion trial · local comparison"
+     ],
+     "status": "wip"
+    }
+   }
+  }
+ },
+ "productionAccepted": false,
+ "stages": {
+  "terrain": {
+   "kind": "source",
+   "node": "terrain",
+   "fingerprint": "a601dc6ef55f4f30569632719d00e01efdc8be1a8f7576232524e1def6033c94"
+  },
+  "drainage": {
+   "kind": "result",
+   "node": "drainage",
+   "folder": "review/planet-physical-20260922/jobs/9a87dcff34e63ead70d765751e188a1489b6d41d7f8e05ad50a41b6c8886856d/5f5cba64961f4b3ab80ee3ae3757795c/result",
+   "fingerprint": "f07beb5e78d5a589b7d043d0eb8e12b1c24a624f9ac167e2b1d059a305e670e3"
+  },
+  "atlas-climate": {
+   "kind": "result",
+   "node": "atlas-climate",
+   "folder": "review/planet-physical-20260922/jobs/e36121f3c0d9d2b93ff7de4a283f21ac670b93df3e02e7df2319db920b0b83f8/4bd7d20577554e47867fd887af7dbd81/result",
+   "fingerprint": "4538c4e123fb0a334878ba557444bad041f51b017d9dc308d3a958b92bdf8cc6"
+  },
+  "atlas-hydrology": {
+   "kind": "result",
+   "node": "atlas-hydrology",
+   "folder": "review/planet-physical-20260922/jobs/a308dda689e0b62d98a323b5ca7ead3c98198299cf08d42fdbae1e18a69a1ab6/a59839a6b7b64bb5a0a936168cf0585c/result",
+   "fingerprint": "2afcc63cc4568aafe38a63a79a57bc9c3df8a08877dab59c80be36a8e487aa8a"
+  },
+  "atlas-aridity": {
+   "status": "experiment",
+   "reason": "atlas-aridity: working-state bake (src/showheel_layers.py); the dependency lock stage stays blocked"
+  },
+  "vegetation": {
+   "status": "experiment",
+   "reason": "vegetation: working-state bake (src/showheel_layers.py); the dependency lock stage stays blocked"
+  },
+  "routes": {
+   "status": "experiment",
+   "reason": "routes: working-state bake (src/showheel_layers.py); the dependency lock stage stays blocked"
+  },
+  "workingState": {
+   "spec": "terrain-forge/runs/_view/layers-20260928-r18.json",
+   "panel": "runs/_view/current-20260928-r18.json:0",
+   "regions": {
+    "aethelgard": {
+     "proc": "runs/_hydro/r18-20260928/aethelgard",
+     "clim": "runs/_eco/clim-r18-20260928/aethelgard-8km.npz",
+     "eco": "runs/_eco/eco-20260928/g-s8p30/g-s8p30",
+     "winds": "runs/_wind/wind-r18-20260928/aethelgard-8km/winds.npz",
+     "tiers": {
+      "settlements": "runs/_eco/eco-20260928/tiers/aeth-r18-settlements.json",
+      "routes": "runs/_eco/eco-20260928/tiers/aeth-r18-routes.json"
+     },
+     "audit": {
+      "deficit": "runs/_audit/r18-2km/L2000-p30-deficit.npy",
+      "excess": "runs/_audit/r18-2km/L2000-p30-excess.npy"
+     },
+     "label": "Aethelgard：地形 p30（T108，Skyleaf v3）；气候代理 clim-r18（wind-r18）；水文 r18；生态 g-s8p30；住地五级 / I–V 级航线 aeth-r18"
+    },
+    "vorhan-duskreach": {
+     "proc": "runs/_hydro/r18-20260928/vorhan-duskreach",
+     "clim": "runs/_eco/clim-r18-20260928/vorhan-duskreach-8km.npz",
+     "eco": "runs/_eco/eco-20260928/vd18replay-s11/vd18replay-s11",
+     "winds": "runs/_wind/wind-r18-20260928/vorhan-duskreach-8km/winds.npz",
+     "tiers": {
+      "settlements": "runs/_eco/eco-20260928/tiers/vd-r18-settlements.json",
+      "routes": "runs/_eco/eco-20260928/tiers/vd-r18-routes.json"
+     },
+     "audit": {
+      "deficit": "runs/_audit/r18-2km/L2000-v14-deficit.npy",
+      "excess": "runs/_audit/r18-2km/L2000-v14-excess.npy"
+     },
+     "label": "Vorhan–Duskreach：地形 v14（T102）；气候代理 clim-r18；水文 r18；生态 vd18replay-s11（工作底本 vd12R7v-s11 的重放）；住地五级 / I–V 级航线 vd-r18"
+    },
+    "keld": {
+     "proc": "runs/_hydro/r18-20260928/keld",
+     "clim": "runs/_eco/clim-r18-20260928/keld-8km.npz",
+     "eco": "runs/_eco/eco-20260928/keld-s8p7w18/keld-s8p7w18",
+     "winds": "runs/_wind/wind-r18-20260928/keld-8km/winds.npz",
+     "tiers": {
+      "settlements": "runs/_eco/eco-20260928/tiers/keld-r18-settlements.json",
+      "routes": "runs/_eco/eco-20260928/tiers/keld-r18-routes.json"
+     },
+     "audit": {
+      "deficit": "runs/_audit/r18-2km/L2000-p7-deficit.npy",
+      "excess": "runs/_audit/r18-2km/L2000-p7-excess.npy"
+     },
+     "label": "Keld：地形 p7（T100）；气候代理 clim-r18；水文 r18；生态 keld-s8p7w18；住地五级 / I–V 级航线 keld-r18"
+    }
+   },
+   "globalWind": "runs/_wind/wind-r18-20260928"
+  }
+ },
+ "revision": "f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f",
+ "terrainSource": "工作底本 2026-09-28 r18（pending）· Aethelgard = 过程层 p30（T108，含 Skyleaf v3）；Keld = 过程层 p7（T100）；Vorhan–Duskreach = 过程层 v14（T102）",
+ "previousTerrainVersion": "工作底本 2026-09-28 r15b · Aethelgard p26（T104）· Keld p7（T100）· Vorhan–Duskreach v14（T102），均待认可"
+}

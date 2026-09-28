@@ -11,14 +11,16 @@
     "Website Character tab: navigation adapter and website-owned panel",
     "index.html: website help link, local astronomy audit link and data-only download",
     "app.js: remove export download updates",
-    "eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit"
+    "eyrie-controller.js and geometry parts: split source geometry into lossless chunks below the Git file size limit",
+    "Local current-stage raster views for world and Aethelgard; other atlas pages retained"
   ],
   "files": [
     {
       "path": "app.js",
-      "bytes": 20738,
-      "sourceSha256": "8d158964384ab0d546def7a9f16f58064f6d929e37b64d1bb165ab0ba22beb8f",
-      "sha256": "1cae713f550a34e4998a20540272d50dc1917409f481afbe9a2ca5dc73fdc6d3"
+      "bytes": 21085,
+      "sha256": "666c29a9c4930696c3af892e4c72aa0a1957c0f9f3eb57d78f5024f9d3714a98",
+      "sourceSha256": "666c29a9c4930696c3af892e4c72aa0a1957c0f9f3eb57d78f5024f9d3714a98",
+      "sourcePath": "local-stage-bake"
     },
     {
       "path": "atheria-assets/building-refinement.json",
@@ -18750,9 +18752,10 @@
     },
     {
       "path": "index.html",
-      "bytes": 12488,
-      "sourceSha256": "afc07642bb1872c243adfa06528b12a7ed8f2046ad2ccb8296ab03e08feb4be3",
-      "sha256": "181d29d71b90cc291d27aa2822cc9461f3088eba6bed92417a9c0300cb080e3a"
+      "bytes": 12572,
+      "sha256": "e5c6e79255d57541139568bd0e6cec2424cbb6a32c8d32670b2b39246ed0237a",
+      "sourceSha256": "e5c6e79255d57541139568bd0e6cec2424cbb6a32c8d32670b2b39246ed0237a",
+      "sourcePath": "local-stage-bake"
     },
     {
       "path": "living-overlay.js",
@@ -19307,6 +19310,42 @@
       "sha256": "f6ffc15c32c0ecfffb127c36482c540dfa0ffab35cd76beb7746a167491210e1"
     },
     {
+      "path": "space-assets/COLONIZATION.md",
+      "bytes": 10945,
+      "sourceSha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766",
+      "sha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766"
+    },
+    {
+      "path": "space-assets/FEDERATION.md",
+      "bytes": 7842,
+      "sourceSha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a",
+      "sha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a"
+    },
+    {
+      "path": "space-assets/NEBULAE.md",
+      "bytes": 5860,
+      "sourceSha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e",
+      "sha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e"
+    },
+    {
+      "path": "space-assets/README.md",
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
+    },
+    {
+      "path": "space-assets/RENDERING.md",
+      "bytes": 2321,
+      "sourceSha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04",
+      "sha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04"
+    },
+    {
+      "path": "space-assets/SOURCES.md",
+      "bytes": 5200,
+      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
+      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
+    },
+    {
       "path": "space-assets/archeon-equirectangular-4096.png",
       "bytes": 5013212,
       "sourceSha256": "56a79dff3360084f55c7d6258be962abbf3e57c999003d5fd776e128729d5d8c",
@@ -19331,40 +19370,10 @@
       "sha256": "4a9125259aa7debb1ffdbcd060c40b08ec505616e54d62f5dc5260f432add007"
     },
     {
-      "path": "space-assets/COLONIZATION.md",
-      "bytes": 10945,
-      "sourceSha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766",
-      "sha256": "4cd2838a7c31a6c4273ab71f61b2f9cf6c7137d463c7dd9a67963aa0c589f766"
-    },
-    {
-      "path": "space-assets/FEDERATION.md",
-      "bytes": 7842,
-      "sourceSha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a",
-      "sha256": "472ed2796e531ecb3f9777e891961b0f80a7b61f86290f6fda76b4167f3d811a"
-    },
-    {
-      "path": "space-assets/NEBULAE.md",
-      "bytes": 5860,
-      "sourceSha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e",
-      "sha256": "ee01bdbc92ed29c5d4d96332b756c411a953ce96ad2ef8339d98588ecac1981e"
-    },
-    {
       "path": "space-assets/physics-humanity-audit.md",
       "bytes": 25692,
       "sourceSha256": "4ae48009fc9e2ab17bae4b5a4a9b5e962ca9f2b907d6a8212f0ff2f1f7244175",
       "sha256": "4ae48009fc9e2ab17bae4b5a4a9b5e962ca9f2b907d6a8212f0ff2f1f7244175"
-    },
-    {
-      "path": "space-assets/README.md",
-      "bytes": 5200,
-      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
-      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
-    },
-    {
-      "path": "space-assets/RENDERING.md",
-      "bytes": 2321,
-      "sourceSha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04",
-      "sha256": "4f0b71adb1ce64650b9ef5bd2048b4ef1b8a5db6657e226ca1ffd35441ff3f04"
     },
     {
       "path": "space-assets/source/HYG-DATA-README.md",
@@ -19383,12 +19392,6 @@
       "bytes": 245,
       "sourceSha256": "80982fcefb899a3d55fab15e84483ce78fb1e2499906a95fc59c4e517844606e",
       "sha256": "80982fcefb899a3d55fab15e84483ce78fb1e2499906a95fc59c4e517844606e"
-    },
-    {
-      "path": "space-assets/SOURCES.md",
-      "bytes": 5200,
-      "sourceSha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43",
-      "sha256": "81001894470939c178183f45f6986c7a66a26ab032f16b7f231cc6490641ba43"
     },
     {
       "path": "space-controller.js",
@@ -19413,6 +19416,90 @@
       "bytes": 64108,
       "sourceSha256": "8fd9d5a9bf56568c1e402b5bfd8c20ac9aeb293d2af7440072327daf97787e49",
       "sha256": "8fd9d5a9bf56568c1e402b5bfd8c20ac9aeb293d2af7440072327daf97787e49"
+    },
+    {
+      "path": "stage-baked.css",
+      "bytes": 1241,
+      "sha256": "cddef84519ea58a9d1775660502e89ffa85f2c65090c9f4b96b111c5d38f624d",
+      "sourceSha256": "cddef84519ea58a9d1775660502e89ffa85f2c65090c9f4b96b111c5d38f624d",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/scripts/atlas-stage-assets/stage-baked.css"
+    },
+    {
+      "path": "stage-baked.js",
+      "bytes": 10136,
+      "sha256": "e1571d232fbd4815ad28b51186b98b9568272c892da24ebfad50d8781558fd73",
+      "sourceSha256": "e1571d232fbd4815ad28b51186b98b9568272c892da24ebfad50d8781558fd73",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/scripts/atlas-stage-assets/stage-baked.js"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/aethelgard-height.png",
+      "bytes": 1079593,
+      "sha256": "6430736f2ba52650847b28cb67fc1401d5cc6fdacbcfd1c9fffcd09c734a7950",
+      "sourceSha256": "6430736f2ba52650847b28cb67fc1401d5cc6fdacbcfd1c9fffcd09c734a7950",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/aethelgard-height.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/aethelgard-rain.png",
+      "bytes": 472638,
+      "sha256": "5dc902a1bae30c3568c9758438249edff08909a2474d32b9276489b14905815b",
+      "sourceSha256": "5dc902a1bae30c3568c9758438249edff08909a2474d32b9276489b14905815b",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/aethelgard-rain.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/aethelgard-water.png",
+      "bytes": 855810,
+      "sha256": "1133646849258d69ba29b31b90437c7b9fb5cac3ffd1f155ea421883607b2691",
+      "sourceSha256": "1133646849258d69ba29b31b90437c7b9fb5cac3ffd1f155ea421883607b2691",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/aethelgard-water.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/aethelgard-wind.png",
+      "bytes": 237850,
+      "sha256": "fb8f97aace907c7ac8dc9ce7e4908dfe2ad65e30af15e3e4aaa91cd7309c3c3d",
+      "sourceSha256": "fb8f97aace907c7ac8dc9ce7e4908dfe2ad65e30af15e3e4aaa91cd7309c3c3d",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/aethelgard-wind.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/world-height.png",
+      "bytes": 718825,
+      "sha256": "6df51cc9e00456341b35d6d8bfe273c1e165899fe298f8542670acb6ad04e99a",
+      "sourceSha256": "6df51cc9e00456341b35d6d8bfe273c1e165899fe298f8542670acb6ad04e99a",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/world-height.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/world-rain.png",
+      "bytes": 691294,
+      "sha256": "39ed7a4e29d765f6b667744c52885312f7d679054ea9d8abdc5380079402aaad",
+      "sourceSha256": "39ed7a4e29d765f6b667744c52885312f7d679054ea9d8abdc5380079402aaad",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/world-rain.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/world-water.png",
+      "bytes": 597753,
+      "sha256": "faad5261ae6a0a582c3a19ab65c2216a198420ac112588da6b31e90ea0c1a203",
+      "sourceSha256": "faad5261ae6a0a582c3a19ab65c2216a198420ac112588da6b31e90ea0c1a203",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/world-water.png"
+    },
+    {
+      "path": "stage-baked/assets/aae69397863a90df43db295ed5026cb4f12505f21150d08ed8fffd1b4e73cc6f/world-wind.png",
+      "bytes": 325018,
+      "sha256": "89ff0dbdb99f9f20f9ab43bef8d73ef2414abb8f0b8d17f3f6a160fecf9ecc83",
+      "sourceSha256": "89ff0dbdb99f9f20f9ab43bef8d73ef2414abb8f0b8d17f3f6a160fecf9ecc83",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260921-195346-d9a288b8/world-wind.png"
+    },
+    {
+      "path": "stage-baked/manifest.json",
+      "bytes": 24322,
+      "sha256": "9f7b08b2921970adc3cd82160a4eb4643c791268864360dacb106fe420971e1a",
+      "sourceSha256": "9f7b08b2921970adc3cd82160a4eb4643c791268864360dacb106fe420971e1a",
+      "sourcePath": "/Users/adrianlin/Desktop/SKBS/review/showheel-stage-sync-20260922/bakes/20260922-171250-19788251/manifest.json"
+    },
+    {
+      "path": "stage-baked/sync-status.json",
+      "bytes": 238,
+      "sha256": "9046213f7ac443b2810ac2dc3eae6149fccd564c284eba9eff4e6d01b5c724f8",
+      "sourceSha256": "9046213f7ac443b2810ac2dc3eae6149fccd564c284eba9eff4e6d01b5c724f8",
+      "sourcePath": "local-stage-bake"
     },
     {
       "path": "terraform-view.js",
@@ -27617,12 +27704,6 @@
       "sha256": "c52e08dfe06f59517dedb35238602c046964d2d197f766e5c7c967985d189219"
     },
     {
-      "path": "vendor/d3.v7.min.js",
-      "bytes": 279706,
-      "sourceSha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
-      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
-    },
-    {
       "path": "vendor/LICENSE-d3.txt",
       "bytes": 744,
       "sourceSha256": "0fa3a5b83114a1c2eb75cc55b64908c8b8d767d31af34dc6f415b44dd80a5ad7",
@@ -27647,10 +27728,175 @@
       "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
     },
     {
+      "path": "vendor/d3.v7.min.js",
+      "bytes": 279706,
+      "sourceSha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
       "path": "vendor/three-space.bundle.js",
       "bytes": 845433,
       "sourceSha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21",
       "sha256": "160913682eadb55ae829ed59be1e1406fc395d445c2ad11966d9576e59956b21"
+    },
+    {
+      "path": "stage-baked/assets/a601dc6ef55f4f30569632719d00e01efdc8be1a8f7576232524e1def6033c94/aethelgard-curvature.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_sync.py (stage bake)",
+      "bytes": 898752,
+      "sha256": "5dfb77d3acd0d76ca4dcbfbf3fe15e3edd41f0d00f529896d37a5eb485e59846",
+      "sourceSha256": "5dfb77d3acd0d76ca4dcbfbf3fe15e3edd41f0d00f529896d37a5eb485e59846"
+    },
+    {
+      "path": "stage-baked/assets/a601dc6ef55f4f30569632719d00e01efdc8be1a8f7576232524e1def6033c94/aethelgard-height.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_sync.py (stage bake)",
+      "bytes": 1148818,
+      "sha256": "82def445798c3372d2630fcd5eefeeeb4c6973ec0517a27017092bf3e09128eb",
+      "sourceSha256": "82def445798c3372d2630fcd5eefeeeb4c6973ec0517a27017092bf3e09128eb"
+    },
+    {
+      "path": "stage-baked/assets/a601dc6ef55f4f30569632719d00e01efdc8be1a8f7576232524e1def6033c94/world-curvature.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_sync.py (stage bake)",
+      "bytes": 577996,
+      "sha256": "841049faa1da668c1185beeddfeb5298a6caef586317e16e656b5d89ac2ca205",
+      "sourceSha256": "841049faa1da668c1185beeddfeb5298a6caef586317e16e656b5d89ac2ca205"
+    },
+    {
+      "path": "stage-baked/assets/a601dc6ef55f4f30569632719d00e01efdc8be1a8f7576232524e1def6033c94/world-height.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_sync.py (stage bake)",
+      "bytes": 740852,
+      "sha256": "8219ec193ed339e427bf86f789f979b514e3c2125f2de5a6491ab06b815b9a2d",
+      "sourceSha256": "8219ec193ed339e427bf86f789f979b514e3c2125f2de5a6491ab06b815b9a2d"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-aridity.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2169972,
+      "sha256": "1809b56d161f0f6112d2617bb926f1c0b5296401dfd6244c7c8eb8422acfd528",
+      "sourceSha256": "1809b56d161f0f6112d2617bb926f1c0b5296401dfd6244c7c8eb8422acfd528"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-curvature.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 3301868,
+      "sha256": "988c6ea8dc76bd62fae7c8d04d5af61b743e1d38368601fdcebb92c8d9fc07ec",
+      "sourceSha256": "988c6ea8dc76bd62fae7c8d04d5af61b743e1d38368601fdcebb92c8d9fc07ec"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-height.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 4217359,
+      "sha256": "8b35cb946d7f10df5d994ed8110b945345b36709e51f385749914fdbfa161777",
+      "sourceSha256": "8b35cb946d7f10df5d994ed8110b945345b36709e51f385749914fdbfa161777"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-rain.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2530946,
+      "sha256": "ee3fb560ad6d38b20fe09d2fd14c497fd6a14d98ccfa0a1842bc84b731932eae",
+      "sourceSha256": "ee3fb560ad6d38b20fe09d2fd14c497fd6a14d98ccfa0a1842bc84b731932eae"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-routes.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2420151,
+      "sha256": "c6a2edeea9a9c86862d57f1e2ca2ff8d5605d305b81c4869eb970c8e061a2fed",
+      "sourceSha256": "c6a2edeea9a9c86862d57f1e2ca2ff8d5605d305b81c4869eb970c8e061a2fed"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-settlements.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2256518,
+      "sha256": "9e89d7e44488dbc7ee73fbdd64924a2dd434d30a9ca7debce0f2281dcd95eedd",
+      "sourceSha256": "9e89d7e44488dbc7ee73fbdd64924a2dd434d30a9ca7debce0f2281dcd95eedd"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-vegetation.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2081241,
+      "sha256": "fc7bc96b973c16be2ad847c42a0edc0025b1a27d3e49338d7aa3b3f194c4f175",
+      "sourceSha256": "fc7bc96b973c16be2ad847c42a0edc0025b1a27d3e49338d7aa3b3f194c4f175"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-water.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2697757,
+      "sha256": "f42117b7eca1979ba86455debd60278b713743dcd5ab3b907d5ce9d81606daca",
+      "sourceSha256": "f42117b7eca1979ba86455debd60278b713743dcd5ab3b907d5ce9d81606daca"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/aethelgard-wind.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2520583,
+      "sha256": "883bb9a30ee6282e3ebed4799e68b1787eff4cb628d67efee6f14b9f0c33847a",
+      "sourceSha256": "883bb9a30ee6282e3ebed4799e68b1787eff4cb628d67efee6f14b9f0c33847a"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-aridity.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1845600,
+      "sha256": "8ed15478e10d5d7557e20bc2e6582fc2d309f3bda1a4a7ead30e53a0ab33efac",
+      "sourceSha256": "8ed15478e10d5d7557e20bc2e6582fc2d309f3bda1a4a7ead30e53a0ab33efac"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-curvature.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2139245,
+      "sha256": "62e5154515101c2fa291d5cebcccee3b25a777163aad5dbff595dd18062c740f",
+      "sourceSha256": "62e5154515101c2fa291d5cebcccee3b25a777163aad5dbff595dd18062c740f"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-height.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2900036,
+      "sha256": "e3f60151c1cb9eb76e65453e09ad395b1d1067d2fabc52bcf0b4d839a96a1b18",
+      "sourceSha256": "e3f60151c1cb9eb76e65453e09ad395b1d1067d2fabc52bcf0b4d839a96a1b18"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-rain.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 2317259,
+      "sha256": "9e42d29d8b126cb53bf600a567b04e8a80a5271bf3f524363803f429b00fbb1c",
+      "sourceSha256": "9e42d29d8b126cb53bf600a567b04e8a80a5271bf3f524363803f429b00fbb1c"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-routes.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1599804,
+      "sha256": "7f5b1a15ff0d956d83d6e7527497c6e3f57f7765328e38db87045863849c1222",
+      "sourceSha256": "7f5b1a15ff0d956d83d6e7527497c6e3f57f7765328e38db87045863849c1222"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-settlements.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1848861,
+      "sha256": "caedeea3c47793793c8fcd0518b4eae8feccbbda99e0500fcd69ff00a9d6b30d",
+      "sourceSha256": "caedeea3c47793793c8fcd0518b4eae8feccbbda99e0500fcd69ff00a9d6b30d"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-vegetation.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1744993,
+      "sha256": "0e5b136959caad79fb63fe28e1bbf189e2851606fa01afea470f8a32fc7a60ac",
+      "sourceSha256": "0e5b136959caad79fb63fe28e1bbf189e2851606fa01afea470f8a32fc7a60ac"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-water.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1842584,
+      "sha256": "7b03c199972e9e04c5d3b5edb51b1693c267393a6aadb122ac9d60bc1f2ad40a",
+      "sourceSha256": "7b03c199972e9e04c5d3b5edb51b1693c267393a6aadb122ac9d60bc1f2ad40a"
+    },
+    {
+      "path": "stage-baked/assets/f1f1cd7d339f2256792f061678d2b2dc51a5c9465db16e456a42296845f87c6f/world-wind.png",
+      "sourcePath": "SKBS/terrain-forge/src/showheel_layers.py (working-state bake)",
+      "bytes": 1849351,
+      "sha256": "2400178038a1299b09204ebe3c061ab033f828942b5b1ee90d3d081ddce79e0b",
+      "sourceSha256": "2400178038a1299b09204ebe3c061ab033f828942b5b1ee90d3d081ddce79e0b"
     }
-  ]
+  ],
+  "localStageBundle": {
+    "terrainVersion": "archeon-planet-detail-base-10d",
+    "sourceKey": "7c6939e19f24254aff0484fbec85d0ad35d8773da433862bcdc48b1d54f2f355",
+    "sourceFolder": "review/showheel-stage-sync-20260922/bakes/20260922-171250-19788251"
+  }
 }

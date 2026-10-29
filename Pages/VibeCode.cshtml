@@ -178,8 +178,7 @@ score = BONUS - |dir.y| * (BONUS + PENALTY)
                 <li><span>Tectonics</span></li>
                 <li><span>Erosion</span></li>
                 <li><span>Climate</span></li>
-                <li><span>Watersheds</span></li>
-                <li><span>Ecology &amp; canopy</span></li>
+                <li><span>Regional terrain</span></li>
             </ol>
 
             <div class="sec-cards">
@@ -199,16 +198,11 @@ score = BONUS - |dir.y| * (BONUS + PENALTY)
                     <p>So far: short control runs, and a radiative-transfer benchmark that reproduces its official reference values. These are not yet a global climate result, and the pages say so.</p>
                 </article>
                 <article class="sec-card" data-reveal>
-                    <span class="sec-card-k">04 · Watersheds</span>
-                    <h3>Shared river networks</h3>
-                    <p>For the Orun region: eight connected drainage basins, 127 confluences, 313 shared channel segments and 226 ponded cells, rebuilt on the final height field.</p>
+                    <span class="sec-card-k">04 · Regional terrain <span class="kd-badge">REWORK</span></span>
+                    <h3>Back to the drawing board</h3>
+                    <p>The first close-up regions, a voxel terrain prototype for the Orun plateau and a terrace scene for Atheria, no longer match the current planet model. Both are off the public atlas; the voxel logic stays in the codebase for the next pass.</p>
                 </article>
                 <article class="sec-card" data-reveal data-reveal-delay="1">
-                    <span class="sec-card-k">05 · Ecology &amp; canopy</span>
-                    <h3>Trees that respect towns</h3>
-                    <p>Tree crowns are clipped against houses and roads before being rolled up into each level of detail. Map checks confirm 12,235 generated river segments drain into the Ishkar.</p>
-                </article>
-                <article class="sec-card" data-reveal data-reveal-delay="2">
                     <span class="sec-card-k">Verification</span>
                     <h3>Hashes before claims</h3>
                     <p>Every atlas refresh is checked: SHA-256 for each imported asset, syntax checks, map dependency graphs and HTTP checks for every resource. When 3D behaviour wasn’t rechecked in a browser, the log says so.</p>
@@ -216,7 +210,7 @@ score = BONUS - |dir.y| * (BONUS + PENALTY)
             </div>
 
             <div class="kd-link-row" style="margin-top: clamp(18px, 2.4vw, 28px);" data-reveal>
-                <a class="kd-pill kd-pill-primary" href="/archeon-atlas/">Open the atlas</a>
+                <a class="kd-pill kd-pill-primary" href="/archeon-atlas/index.html">Open the atlas</a>
                 <a class="kd-pill" href="/Archeon">Archeon story page</a>
             </div>
         </section>

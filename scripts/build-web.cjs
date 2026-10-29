@@ -23,6 +23,14 @@ function replace(text, before, after, label) {
   if (text.split(before).length !== 2) throw Error('Source changed; review adaptation: ' + label);
   return text.replace(before, after);
 }
+// The Atheria and Orun close-up regions no longer match the current planet model and are left out of the
+// published atlas until they are rebuilt. Their code (including the Orun voxel terrain) stays in the repo,
+// and the author site under wwwroot still loads them.
+const retiredAtlas = {
+  data: ['archeon-atlas/atheria-assets/', 'archeon-atlas/orun-assets/'],
+  scripts: ['atheria-controller.js', 'orun-controller.js'],
+  tabs: ['<button data-view="atheria" aria-pressed="false">Atheria 阶地</button>', '<button data-view="orun" aria-pressed="false">Orun Plateau</button>']
+};
 async function exportPages() {
   const artifacts = fs.mkdtempSync(path.join(require('node:os').tmpdir(), 'showheel-web-build-'));
   const built = spawnSync('dotnet', ['build', path.join(root, 'Showheel.csproj'), '--artifacts-path', artifacts, '--nologo'], { cwd: root, encoding: 'utf8', windowsHide: true });
@@ -54,6 +62,8 @@ function adapt(relative, source) {
   if (/archeon-atlas\/(app|river-layer|space-controller|eyrie-controller|atheria-controller|orun-controller)\.js$/.test(relative)) {
     text = text.replace(/document\.head\.append(?:Child)?\((s|script)\)/g, 'window.SHOWHEEL_ASSETS.attach($1)');
   }
+  if (relative === 'archeon-atlas/space-controller.js') text = replace(text, "localView='atheria'", "localView='marneth'", relative);
+  if (relative === 'archeon-atlas/app.js') text = replace(text, "{AT:'atheria',SK:'marneth'", "{SK:'marneth'", relative);
   if (relative === 'archeon-atlas/atheria-region.js') {
     text = replace(text, "async function create({container,", "async function create({container,signal,", relative);
     text = replace(text, "const r=await fetch(assetBase+record.file,{signal:abort.signal});if(!r.ok)throw Error('区域分块未能读取：'+record.file);", "const data=await window.SHOWHEEL_ASSETS.bytes(assetBase+record.file,abort.signal);const r={arrayBuffer:async()=>data};", relative);
@@ -94,7 +104,7 @@ async function main() {
   const generated = await exportPages();
   const imported = JSON.parse(fs.readFileSync(path.join(root, 'docs/archeon-atlas-assets.json')));
   const atlasFiles = new Set(imported.files.map(f => 'archeon-atlas/' + f.path).concat('archeon-atlas/about.html'));
-  const inputs = new Map(walk(path.join(root, 'wwwroot')).map(file => [slash(path.relative(path.join(root, 'wwwroot'), file)), file]).filter(([relative]) => !relative.startsWith('archeon-atlas/') || atlasFiles.has(relative)));
+  const inputs = new Map(walk(path.join(root, 'wwwroot')).map(file => [slash(path.relative(path.join(root, 'wwwroot'), file)), file]).filter(([relative]) => (!relative.startsWith('archeon-atlas/') || atlasFiles.has(relative)) && !retiredAtlas.data.some(prefix => relative.startsWith(prefix))));
   for (const [relative, content] of generated) inputs.set(relative, content);
   const records = {}, files = [];
   const priorReportPath = option('--reuse-report', '');
@@ -169,6 +179,8 @@ async function main() {
   write('_packed/loader.js', fs.readFileSync(path.join(__dirname, 'web-runtime/packed-loader.js')));
   const indexFile = path.join(output, 'archeon-atlas/index.html');
   let index = fs.readFileSync(indexFile, 'utf8');
+  for (const tab of retiredAtlas.tabs) index = replace(index, tab, '', 'archeon-atlas/index.html');
+  for (const script of retiredAtlas.scripts) index = replace(index, '<script src="' + script + '"></script>', '', 'archeon-atlas/index.html');
   const initial = [...index.matchAll(/<script src="([^"]+)"\s*><\/script>/g)].map(m => m[1]);
   index = index.replace(/<script src="[^"]+"\s*><\/script>/g, '');
   index = index.replace('</body>', '<script src="/_packed/manifest.js"></script><script src="/_packed/float-codec.js"></script><script src="/_packed/loader.js"></script><script src="/_packed/start.js"></script></body>');

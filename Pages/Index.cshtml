@@ -2,9 +2,10 @@
 @model Showheel.Pages.IndexModel
 @{
     ViewData["Title"] = "Yingrong Lin — Worldbuilder";
+    ViewData["BodyClass"] = "kd-home";
 }
 
-<section id="hero" class="kd-hero">
+<section id="hero" class="kd-hero" aria-labelledby="hero-title">
     <div
         class="kd-hero-bg background-image"
         data-motion-depth="1.1"
@@ -12,81 +13,159 @@
         style="background-image: url('/images/hero-city.png');"
         aria-hidden="true"
     ></div>
+    <canvas class="kd-hero-field" data-starfield aria-hidden="true"></canvas>
     <div class="kd-hero-vignette" aria-hidden="true"></div>
 
+    <div class="kd-hero-hud" aria-hidden="true">
+        <span class="kd-hero-frame"></span>
+        <span class="kd-hud-readout kd-hud-readout--tl"><i class="kd-status-dot"></i>SYS ONLINE</span>
+        <span class="kd-hud-readout kd-hud-readout--tr">SKBS // RELAY ATHERIA-07</span>
+        <span class="kd-hud-readout kd-hud-readout--bl">SECTOR 07 // 1.00 AU</span>
+        <span class="kd-hud-readout kd-hud-readout--br" data-hud-pointer>X 0000 · Y 0000</span>
+    </div>
+
     <div class="kd-hero-inner">
-        <h1 class="kd-hero-title">YINGRONG&nbsp;LIN</h1>
-        <p class="kd-hero-tagline">SCI-FI WORLDBUILDING &nbsp;·&nbsp; 3D ENVIRONMENTS &nbsp;·&nbsp; GAME DESIGN</p>
+        <p class="kd-hero-kicker"><span aria-hidden="true">//</span> Portfolio · 2026</p>
+        <h1 id="hero-title" class="kd-hero-title" data-scramble>YINGRONG LIN</h1>
+        <p class="kd-hero-tagline">Sci-fi worldbuilding<span aria-hidden="true">·</span>3D art<span aria-hidden="true">·</span>VFX<span aria-hidden="true">·</span>AI-assisted dev</p>
+        <div class="kd-hero-actions">
+            <a class="kd-pill kd-pill-primary" href="#work">View the work</a>
+            <a class="kd-pill" href="/Archeon">Enter the SKBS universe</a>
+        </div>
     </div>
 
     <a class="kd-scroll-cue" href="#work" aria-label="Scroll to work">
+        <span class="kd-scroll-label" aria-hidden="true">Scroll</span>
         <span class="kd-scroll-arrow"></span>
     </a>
 </section>
 
-<section id="work" class="kd-work">
+<section id="work" class="kd-work" aria-labelledby="work-title">
     <div class="kd-work-inner">
-        <div class="kd-work-header">
+        <header class="kd-work-header" data-reveal>
             <p class="kd-eyebrow">Selected Work</p>
-            <h2 class="kd-work-title">My works</h2>
-            <p class="kd-work-lede">A flagship sci-fi universe, a portfolio of hard-surface design, environment renders, and a hand-built Minecraft mod.</p>
+            <h2 id="work-title" class="kd-work-title">My works</h2>
+            <p class="kd-work-lede">Hard-surface and environment art, real-time VFX and AI-collaborative code — plus a flagship sci-fi universe and the mods I build for fun.</p>
+        </header>
+
+        <div class="kd-group">
+            <div class="kd-group-head" data-reveal>
+                <span class="kd-group-code" aria-hidden="true">A /</span>
+                <h3 class="kd-group-title">Portfolio</h3>
+                <span class="kd-rule" aria-hidden="true"></span>
+                <span class="kd-group-meta" aria-hidden="true">04 entries</span>
+            </div>
+
+            <div class="kd-grid">
+                <a class="kd-card kd-hud" href="/Projects" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media">
+                        <img class="kd-card-image" src="/images/hard-surface/rifle-render.webp" alt="" loading="lazy" decoding="async" />
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">01</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">3D Art — Hard Surface</span>
+                        <span class="kd-card-tag">Weapons · Vehicles · Characters</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
+
+                <a class="kd-card kd-hud" href="/Environment" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media">
+                        <img class="kd-card-image" src="/images/environment/autumn-garden.webp" alt="" loading="lazy" decoding="async" />
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">02</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">Environment + Unreal</span>
+                        <span class="kd-card-tag">Landscape · Lighting · Unreal Reels</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
+
+                <a class="kd-card kd-hud" href="/VFX" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media">
+                        <img class="kd-card-image" src="/images/vfx/aurora-field.webp" alt="" loading="lazy" decoding="async" />
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">03</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">VFX <span class="kd-badge" title="Work in progress — this section is still in production">WIP</span></span>
+                        <span class="kd-card-tag">Particles · Beams · Real-time FX</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
+
+                <a class="kd-card kd-card--code kd-hud" href="/VibeCode" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media kd-card-media--terminal">
+                        <div class="kd-term" data-terminal aria-hidden="true">
+                            <div class="kd-term-bar">
+                                <span class="kd-term-dots"><i></i><i></i><i></i></span>
+                                <span class="kd-term-title">agent@@showheel: ~/vibe-code</span>
+                                <span class="kd-term-status">LIVE</span>
+                            </div>
+                            <div class="kd-term-body">
+                                <span class="kd-term-line is-cmd">&gt; agent: plan evasive flight for Epsilon boss</span>
+                                <span class="kd-term-line is-code">score = BONUS - |dir.y| * (BONUS + PENALTY)</span>
+                                <span class="kd-term-line is-ok">✓ 256 wall-probe rays · NaN guard ok</span>
+                                <span class="kd-term-line is-cmd">&gt; build world: tectonics → erosion → climate → rivers</span>
+                                <span class="kd-term-line" data-progress="simulating">  ▸ simulating ██████████ 100%</span>
+                            </div>
+                        </div>
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">04</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">AI · Vibe Code</span>
+                        <span class="kd-card-tag">Agents · Game AI · Simulation</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
+            </div>
         </div>
 
-        <div class="kd-grid">
-            <a class="kd-card" href="/Archeon" data-card="archeon">
-                <div class="kd-card-media">
-                    <img class="kd-card-image" src="/images/anna-freedman.png" alt="Archeon preview" loading="lazy" />
-                    <div class="kd-card-shade" aria-hidden="true"></div>
-                </div>
-                <div class="kd-card-meta">
-                    <span class="kd-card-no">01</span>
-                    <span class="kd-card-name">Archeon — Skies Beyond the Star</span>
-                    <span class="kd-card-tag">Cinematic · Story · World Atlas</span>
-                </div>
-            </a>
+        <div class="kd-group">
+            <div class="kd-group-head" data-reveal>
+                <span class="kd-group-code" aria-hidden="true">B /</span>
+                <h3 class="kd-group-title">Worlds &amp; Interests</h3>
+                <span class="kd-rule" aria-hidden="true"></span>
+                <span class="kd-group-meta" aria-hidden="true">02 entries</span>
+            </div>
 
-            <a class="kd-card" href="/Projects" data-card="projects">
-                <div class="kd-card-media">
-                    <img class="kd-card-image" src="/images/0242e596527d8b4d7b30d33266194e933546770577558337.jpg" alt="Hard-surface concept render" loading="lazy" />
-                    <div class="kd-card-shade" aria-hidden="true"></div>
-                </div>
-                <div class="kd-card-meta">
-                    <span class="kd-card-no">02</span>
-                    <span class="kd-card-name">Projects — Hard Surface</span>
-                    <span class="kd-card-tag">Mech · Vehicles · Props</span>
-                </div>
-            </a>
+            <div class="kd-grid">
+                <a class="kd-card kd-hud" href="/Archeon" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media">
+                        <img class="kd-card-image" src="/images/anna-freedman.png" alt="" loading="lazy" decoding="async" />
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">05</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">Skies Beyond the Star</span>
+                        <span class="kd-card-tag">Cinematic · Story · World Atlas</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
 
-            <a class="kd-card" href="/Environment" data-card="environment">
-                <div class="kd-card-media">
-                    <img class="kd-card-image" src="/images/Garden_in_the_wild1-revised.jpg" alt="Environment render preview" loading="lazy" />
-                    <div class="kd-card-shade" aria-hidden="true"></div>
-                </div>
-                <div class="kd-card-meta">
-                    <span class="kd-card-no">03</span>
-                    <span class="kd-card-name">Environmental + Unreal</span>
-                    <span class="kd-card-tag">Landscape · Lighting · Unreal Reels</span>
-                </div>
-            </a>
-
-            <a class="kd-card" href="/Minecraft" data-card="minecraft">
-                <div class="kd-card-media">
-                    <img class="kd-card-image" src="/images/frieren.png" alt="Minecraft mod preview" loading="lazy" />
-                    <div class="kd-card-shade" aria-hidden="true"></div>
-                </div>
-                <div class="kd-card-meta">
-                    <span class="kd-card-no">04</span>
-                    <span class="kd-card-name">Minecraft — Frieren Mod</span>
-                    <span class="kd-card-tag">Independent · Combat · Quests</span>
-                </div>
-            </a>
-
+                <a class="kd-card kd-hud" href="/Minecraft" data-tilt data-cursor="OPEN">
+                    <div class="kd-card-media">
+                        <img class="kd-card-image" src="/images/frieren.png" alt="" loading="lazy" decoding="async" />
+                        <div class="kd-card-shade" aria-hidden="true"></div>
+                    </div>
+                    <span class="kd-card-index" aria-hidden="true">06</span>
+                    <div class="kd-card-meta">
+                        <span class="kd-card-name">Personal Interest</span>
+                        <span class="kd-card-tag">Minecraft · Red Dead Redemption 2 mods</span>
+                    </div>
+                    <span class="kd-card-go" aria-hidden="true"></span>
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
 <footer id="contact" class="kd-footer">
     <div class="kd-footer-inner">
+        <p class="kd-footer-sign" aria-hidden="true">// End of transmission · Yingrong Lin</p>
         <p class="kd-footer-mail">Email · <a href="mailto:yl2811.rit.edu@gmail.com">yl2811.rit.edu@gmail.com</a></p>
         <div class="kd-footer-links">
             <a href="https://github.com/yl2811-cmd" target="_blank" rel="noopener noreferrer">GitHub</a>

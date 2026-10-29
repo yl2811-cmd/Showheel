@@ -1,42 +1,196 @@
 @page
 @model Showheel.Pages.ProjectsModel
 @{
-    ViewData["Title"] = "Projects — Hard Surface";
+    ViewData["Title"] = "3D Art — Hard Surface — Yingrong Lin";
 }
 
 <section class="kd-detail-hero">
     <div class="kd-detail-hero-bg background-image"
          data-motion-depth="1.05"
          data-motion-scale="1.1"
-         style="background-image: url('/images/hardsurface1.png');"
+         style="background-image: url('/images/hard-surface/rifle-wall-render.webp');"
          aria-hidden="true"></div>
     <div class="kd-detail-hero-shade" aria-hidden="true"></div>
     <div class="kd-detail-hero-inner">
-        <p class="kd-eyebrow">02 · Projects</p>
+        <p class="kd-eyebrow">01 · 3D Art</p>
         <h1 class="kd-detail-title">Hard Surface</h1>
-        <p class="kd-detail-sub">Mech, vehicle, and prop studies — focused on silhouette, paneling, and PBR detailing.</p>
+        <p class="kd-detail-sub">Weapons, vehicles, props and characters — from line-art concept and clay pass to final render.</p>
     </div>
     <a class="kd-scroll-cue" href="#projects-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
 </section>
 
 <section id="projects-body" class="kd-detail-body">
     <div class="kd-detail-inner">
-        <div class="kd-pair-grid">
-            <figure class="kd-pair">
-                <img src="/images/hardsurface1.png" alt="Hard surface render 1" loading="lazy" />
-                <figcaption>Hard Surface · 01 — sculpt &amp; bake study.</figcaption>
+        <header class="sec-head" data-reveal>
+            <p class="kd-eyebrow">Gallery</p>
+            <h2 class="sec-title">Hard surface work</h2>
+            <p class="sec-lede">Finished renders lead; behind them sit the clay passes, viewport captures and line-art concept drawings. Filter by category, or open any image full screen.</p>
+        </header>
+
+        <div class="sec-toolbar" data-reveal data-reveal-delay="1">
+            <div class="kd-filter" role="toolbar" aria-label="Filter" data-filter-for="hs-gallery">
+                <button type="button" class="kd-chip is-active" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" class="kd-chip" data-filter="weapons" aria-pressed="false">Weapons</button>
+                <button type="button" class="kd-chip" data-filter="vehicles" aria-pressed="false">Vehicles &amp; Mech</button>
+                <button type="button" class="kd-chip" data-filter="props" aria-pressed="false">Props</button>
+                <button type="button" class="kd-chip" data-filter="characters" aria-pressed="false">Characters &amp; Creatures</button>
+                <button type="button" class="kd-chip" data-filter="lineart" aria-pressed="false">Concept Line Art</button>
+            </div>
+        </div>
+
+        <div id="hs-gallery" class="sec-jg" data-lightbox>
+            @* ── Finished renders ── *@
+            <figure class="sec-tile sec-tile--feature" data-tags="weapons" style="--ar:1.778" data-reveal>
+                <img src="/images/3b01db58f5af0b5693d4f661a40328033546770577558337.jpg" alt="Black sci-fi compact SMG with a mounted optic, rendered against a dark curtain" width="2486" height="1398" loading="lazy" decoding="async" />
+                <figcaption><b>Compact SMG</b> — studio render with mounted optic.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/hardsurface2.png" alt="Hard surface render 2" loading="lazy" />
-                <figcaption>Hard Surface · 02 — paneling &amp; lighting pass.</figcaption>
+            <figure class="sec-tile sec-tile--feature" data-tags="weapons" style="--ar:1.778" data-reveal>
+                <img src="/images/0242e596527d8b4d7b30d33266194e933546770577558337.jpg" alt="White long rifle with a folding bipod on a black background" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Long rifle</b> — white finish, bipod deployed.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/0242e596527d8b4d7b30d33266194e933546770577558337.jpg" alt="Project render A" loading="lazy" />
-                <figcaption>Project A — material exploration.</figcaption>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.778" data-reveal>
+                <img src="/images/hard-surface/rifle-wall-render.webp" alt="Compact rifle with optic hanging on a wall mount in a grey room" width="2560" height="1440" loading="lazy" decoding="async" />
+                <figcaption><b>Compact rifle</b> — wall-mount scene render.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/3b01db58f5af0b5693d4f661a40328033546770577558337.jpg" alt="Project render B" loading="lazy" />
-                <figcaption>Project B — composition &amp; presentation.</figcaption>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.778" data-reveal>
+                <img src="/images/hard-surface/rifle-render.webp" alt="Silver sci-fi rifle with a skeletal stock in a dark studio" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Rifle</b> — dark studio render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:1.409" data-reveal>
+                <img src="/images/hard-surface/crawler-weathered.webp" alt="Weathered tracked vehicle with a robotic arm and a hexagonal panel" width="1123" height="797" loading="lazy" decoding="async" />
+                <figcaption><b>Tracked crawler</b> — robotic arm, weathered render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:1.778" data-reveal>
+                <img src="/images/hard-surface/gunship.webp" alt="Black and yellow spaceship with side engine pods" width="1600" height="900" loading="lazy" decoding="async" />
+                <figcaption><b>Gunship</b> — black and yellow hull, engine pods.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="characters" style="--ar:0.563" data-reveal>
+                <img src="/images/characters/armor-suit.webp" alt="Grey armored robot suit standing front-on with a glowing visor and red accent lights" width="750" height="1333" loading="lazy" decoding="async" />
+                <figcaption><b>Armored suit</b> — emissive visor and accents.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="characters" style="--ar:1.495" data-reveal>
+                <img src="/images/characters/creature-sss.webp" alt="Four-legged reptilian creature with translucent subsurface-scattered skin" width="1245" height="833" loading="lazy" decoding="async" />
+                <figcaption><b>Creature</b> — subsurface-scattering skin render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:1.656" data-reveal>
+                <img src="/images/hard-surface/mantis-mech.webp" alt="Chrome mech with long mantis-like legs" width="886" height="535" loading="lazy" decoding="async" />
+                <figcaption><b>Mantis mech</b> — chrome render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="characters" style="--ar:1.778" data-reveal>
+                <img src="/images/characters/bodysuit.webp" alt="Black sci-fi bodysuit on a neutral grey backdrop" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Bodysuit</b> — sci-fi outfit, studio render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.076" data-reveal>
+                <img src="/images/hard-surface/pistol-render-a.webp" alt="Close-up render of a dark sci-fi pistol" width="1080" height="1004" loading="lazy" decoding="async" />
+                <figcaption><b>Pistol</b> — close studio render.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.135" data-reveal>
+                <img src="/images/hard-surface/pistol-render-b.webp" alt="Dark sci-fi pistol from a second angle" width="1076" height="948" loading="lazy" decoding="async" />
+                <figcaption><b>Pistol</b> — second angle.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.654" data-reveal>
+                <img src="/images/hard-surface/smg-white.webp" alt="White compact SMG with a red-dot sight" width="1346" height="814" loading="lazy" decoding="async" />
+                <figcaption><b>Compact SMG</b> — white shell, red-dot sight.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.783" data-reveal>
+                <img src="/images/hard-surface/sniper-bipod.webp" alt="Shaded sniper rifle with scope and bipod" width="1804" height="1012" loading="lazy" decoding="async" />
+                <figcaption><b>Sniper rifle</b> — scope and bipod, shaded model.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="props" style="--ar:1.203" data-reveal>
+                <img src="/images/hard-surface/canister-render.webp" alt="Cylindrical canister with a recessed handle panel, shaded with outlines" width="1208" height="1004" loading="lazy" decoding="async" />
+                <figcaption><b>Canister</b> — shaded render with outlines.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="props" style="--ar:0.896" data-reveal>
+                <img src="/images/hard-surface/capsule-a.webp" alt="Long dark hard-shell carry case standing upright in a 3D viewer" width="1080" height="1206" loading="lazy" decoding="async" />
+                <figcaption><b>Hard-shell case</b> — viewer capture.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="props" style="--ar:1.134" data-reveal>
+                <img src="/images/hard-surface/capsule-b.webp" alt="The same hard-shell carry case from a second angle" width="1286" height="1134" loading="lazy" decoding="async" />
+                <figcaption><b>Hard-shell case</b> — second angle.</figcaption>
+            </figure>
+
+            @* ── Process: viewport, sculpt, study ── *@
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:2.080" data-reveal>
+                <img src="/images/hardsurface1.png" alt="Rotor drone in a modelling viewport: a simple blockout on the left, the detailed model on the right" width="1830" height="880" loading="lazy" decoding="async" />
+                <figcaption><b>Rotor drone</b> — blockout beside the detailed model.</figcaption>
+            </figure>
+            <figure class="sec-tile sec-tile--small" data-tags="vehicles" style="--ar:2.132; --max-w:469px" data-reveal>
+                <img src="/images/hard-surface/tri-rotor-drone.webp" alt="Rotor drone lit with warm light (small preview)" width="469" height="220" loading="lazy" decoding="async" />
+                <figcaption><b>Rotor drone</b> — warm-lit render (small preview).</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:1.831" data-reveal>
+                <img src="/images/hard-surface/crawler-viewport.webp" alt="Tracked crawler with robotic arm in a 3ds Max viewport" width="1465" height="800" loading="lazy" decoding="async" />
+                <figcaption><b>Tracked crawler</b> — 3ds Max viewport.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="vehicles" style="--ar:1.724" data-reveal>
+                <img src="/images/hard-surface/crawler-viewport-b.webp" alt="Tracked crawler in the viewport with its hexagonal panel raised" width="1403" height="814" loading="lazy" decoding="async" />
+                <figcaption><b>Tracked crawler</b> — panel raised, viewport.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="characters" style="--ar:1.401" data-reveal>
+                <img src="/images/characters/creature-sculpt.webp" alt="Grey sculpt of the four-legged creature in the ZBrush interface" width="1447" height="1033" loading="lazy" decoding="async" />
+                <figcaption><b>Creature</b> — ZBrush sculpt.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="characters" style="--ar:1.439" data-reveal>
+                <img src="/images/characters/hoodie-sim.webp" alt="Grey hoodie drawn over a figure sketch in a drawing app" width="1554" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Hoodie</b> — cloth study in a sketch app.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="props" style="--ar:2.262" data-reveal>
+                <img src="/images/hardsurface2.png" alt="Dense wireframe of a pair of sci-fi binoculars" width="1158" height="512" loading="lazy" decoding="async" />
+                <figcaption><b>Binoculars</b> — subdivision wireframe.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.818" data-reveal>
+                <img src="/images/hard-surface/sniper-bipod-clay.webp" alt="Sniper rifle with bipod as a clay model" width="1963" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Sniper rifle</b> — clay pass.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.555" data-reveal>
+                <img src="/images/hard-surface/smg-clay.webp" alt="Untextured compact SMG with optic and vertical grip" width="1679" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Compact SMG</b> — untextured shaded model.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.658" data-reveal>
+                <img src="/images/hard-surface/carbine-clay.webp" alt="Carbine with top optic as a grey clay model" width="1738" height="1048" loading="lazy" decoding="async" />
+                <figcaption><b>Carbine</b> — clay pass.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.965" data-reveal>
+                <img src="/images/hard-surface/heavy-rifle-clay.webp" alt="Heavy rifle with a large scope as a white clay model" width="1466" height="746" loading="lazy" decoding="async" />
+                <figcaption><b>Heavy rifle</b> — clay pass.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.982" data-reveal>
+                <img src="/images/hard-surface/rifle-viewport.webp" alt="Rifle with magazine and optic in a modelling viewport" width="1471" height="742" loading="lazy" decoding="async" />
+                <figcaption><b>Rifle</b> — modelling viewport.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.777" data-reveal>
+                <img src="/images/hard-surface/blade-clay.webp" alt="Sci-fi sword with an open, skeletal guard" width="2275" height="1280" loading="lazy" decoding="async" />
+                <figcaption><b>Sci-fi sword</b> — clay pass.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons" style="--ar:1.765" data-reveal>
+                <img src="/images/hard-surface/spear-wire.webp" alt="Long polearm with an ornate central guard" width="1906" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Long-bladed polearm</b> — model.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="props" style="--ar:1.221" data-reveal>
+                <img src="/images/hard-surface/canister-clay.webp" alt="Cylindrical canister as a white clay model" width="1214" height="994" loading="lazy" decoding="async" />
+                <figcaption><b>Canister</b> — clay pass.</figcaption>
+            </figure>
+            <figure class="sec-tile sec-tile--small" data-tags="vehicles" style="--ar:2.387; --max-w:463px" data-reveal>
+                <img src="/images/hard-surface/interceptor.webp" alt="White interceptor jet (small preview)" width="463" height="194" loading="lazy" decoding="async" />
+                <figcaption><b>Interceptor</b> — small preview.</figcaption>
+            </figure>
+
+            @* ── Concept line art ── *@
+            <figure class="sec-tile" data-tags="props lineart" style="--ar:1.354" data-reveal>
+                <img src="/images/hard-surface/canister-orthos.webp" alt="Front and side line drawings of the canister" width="1462" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Canister</b> — front and side line art.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons lineart" style="--ar:1.842" data-reveal>
+                <img src="/images/hard-surface/rifle-lineart.webp" alt="Line-art side view of a rifle with top optic" width="1544" height="838" loading="lazy" decoding="async" />
+                <figcaption><b>Rifle</b> — line-art concept.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons lineart" style="--ar:1.298" data-reveal>
+                <img src="/images/hard-surface/pistol-lineart.webp" alt="Line-art side view of a pistol" width="1054" height="812" loading="lazy" decoding="async" />
+                <figcaption><b>Pistol</b> — line-art concept.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="weapons lineart" style="--ar:1.933" data-reveal>
+                <img src="/images/hard-surface/sniper-lineart.webp" alt="Detailed line-art side view of a sniper rifle" width="1999" height="1034" loading="lazy" decoding="async" />
+                <figcaption><b>Sniper rifle</b> — line-art concept.</figcaption>
             </figure>
         </div>
     </div>

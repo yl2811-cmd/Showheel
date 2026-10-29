@@ -11,7 +11,7 @@ const result = { pages: [], scenes: [], errors: [], failedResources: [] };
     const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
     page.on('pageerror', error => { result.errors.push(error.message); console.log('Page error: ' + error.message); });
     page.on('response', response => { if (response.url().startsWith(base) && response.status() >= 400) result.failedResources.push({ url: response.url(), status: response.status() }); });
-    for (const route of ['/', '/Archeon', '/Gallery', '/About', '/story-viewer.html', '/story-engl-viewer.html']) {
+    for (const route of ['/', '/Archeon', '/Projects', '/Environment', '/VFX', '/VibeCode', '/Minecraft', '/About', '/story-viewer.html', '/story-engl-viewer.html']) {
       assert.equal((await page.goto(base + route)).status(), 200);
       if (route.includes('viewer')) await page.waitForFunction(() => document.querySelector('[data-story-scroll]')?.textContent.length > 100, null, { timeout: 60000 });
       result.pages.push(route);

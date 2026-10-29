@@ -1,0 +1,264 @@
+@* Shared "skills as VFX" breakdown, included on /VFX and /VibeCode.
+   Every number below is taken from the mod sources:
+   Epsilon (Minecraft) - D:\w2\src\main\java\net\mcreator\jujutukaisencheat\procedures
+   Sarah Miller (RDR2) - D:\RedDeadRedemption2\SarahCannon\src (v5.29) and its README/qa records. *@
+<link rel="stylesheet" href="~/css/vfx-chain.css" asp-append-version="true" />
+
+<section id="skill-vfx-chain" class="kd-sc" aria-labelledby="kd-sc-title">
+
+    <header class="kd-sc-head" data-reveal>
+        <p class="kd-eyebrow">Shared · VFX × Vibe Code</p>
+        <h2 class="kd-work-title kd-sc-title" id="kd-sc-title">Skills as VFX — a code-driven effects chain</h2>
+        <p class="kd-work-lede kd-sc-lede">In my combat mods, a skill <em>is</em> an effect. Timing, rays, particles, light and sound are all written in code, then tuned until the skill reads clearly on screen. Below is the chain that a Minecraft boss written in Java and a Red Dead Redemption&nbsp;2 player mod written in C++ both follow. I built both by directing AI coding agents and checking every change in the game myself.</p>
+        <div class="kd-link-row">
+            <a class="kd-pill kd-pill-primary" href="https://www.youtube.com/watch?v=PQ89mPFeUOw&amp;t=207s" target="_blank" rel="noopener noreferrer"><span class="kd-sc-play" aria-hidden="true"></span>Watch the skills in action</a>
+            <a class="kd-pill" href="https://www.rdr2mods.com/downloads/rdr2/player/593-sarah-miler-the-last-of-us/" target="_blank" rel="noopener noreferrer">Sarah Miller on rdr2mods</a>
+        </div>
+    </header>
+
+    @* ---------- The chain ---------- *@
+    <ol class="kd-sc-chain" aria-label="Stages of a skill effect, in order">
+        <li class="kd-sc-node" data-reveal>
+            <span class="kd-sc-node-num">01</span>
+            <strong class="kd-sc-node-title">Trigger</strong>
+            <span class="kd-sc-node-desc">A press or a skill timer opens the window; a cooldown gates the next cast.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="1">
+            <span class="kd-sc-node-num">02</span>
+            <strong class="kd-sc-node-title">Aim &amp; trace</strong>
+            <span class="kd-sc-node-desc">Direction from muzzle or anchor. The path is traced again every tick and stops at the first cover.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="2">
+            <span class="kd-sc-node-num">03</span>
+            <strong class="kd-sc-node-title">Body &amp; emitters</strong>
+            <span class="kd-sc-node-desc">What fills the path: sprites per step, engine particles or mesh sections.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="3">
+            <span class="kd-sc-node-num">04</span>
+            <strong class="kd-sc-node-title">Light &amp; flash</strong>
+            <span class="kd-sc-node-desc">Glow that stays visible in any lighting: full-bright sprites, flashes, a day/night emission blend.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="4">
+            <span class="kd-sc-node-num">05</span>
+            <strong class="kd-sc-node-title">Impact</strong>
+            <span class="kd-sc-node-desc">A particle burst plus the damage call at the contact point.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="5">
+            <span class="kd-sc-node-num">06</span>
+            <strong class="kd-sc-node-title">Audio</strong>
+            <span class="kd-sc-node-desc">A launch cue, sounds spaced out along the path, a limit on impact voices.</span>
+        </li>
+        <li class="kd-sc-node" data-reveal data-reveal-delay="6">
+            <span class="kd-sc-node-num">07</span>
+            <strong class="kd-sc-node-title">Cleanup</strong>
+            <span class="kd-sc-node-desc">Every emitter, mesh and sound the skill owns is released when it ends or is interrupted.</span>
+        </li>
+    </ol>
+
+    @* ---------- Two engines ---------- *@
+    <div class="kd-sc-engines">
+
+        @* Minecraft - Epsilon *@
+        <article class="kd-sc-engine kd-sc-engine--mc kd-hud" aria-labelledby="kd-sc-mc-title" data-reveal>
+            <header class="kd-sc-engine-head">
+                <span class="kd-badge">Minecraft · Java / Forge 1.20.1</span>
+                <h3 class="kd-sc-engine-title" id="kd-sc-mc-title">Epsilon — boss skills</h3>
+                <p class="kd-sc-engine-meta">An MCreator workspace with GeckoLib models. Each skill is a server-side procedure that steps through the world one block at a time and draws itself with <code>/particle … force</code> commands. Every skill hands the same damage packet (position, direction, power, range) to one shared damage procedure, so what you see and what gets hit stay in the same place. The boss&rsquo;s decision-making is covered on <a href="/VibeCode#epsilon">Vibe Code</a>.</p>
+            </header>
+
+            <h4 class="kd-sc-sub">Main example: the laser <code>Lazer2Procedure</code></h4>
+            <dl class="kd-sc-steps">
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">01</span>Trigger</dt>
+                    <dd>The boss sets its skill timer to 150. The beam is cast again every server tick while the timer counts down to 106, which takes 45 ticks (2.25&nbsp;s).</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">02</span>Ray-march</dt>
+                    <dd>Starts at the body anchor and moves along the normalised fire direction in one-block steps, up to <code>MAX_STEPS = 120</code>. The first solid block after step&nbsp;4 ends the beam.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">03</span>Emitters</dt>
+                    <dd>Each step spawns 12 <code>firestar</code> sprites, scattered up to ±0.15 blocks and pushed down the beam at speed 0.6–1.0, plus one <code>end_rod</code>.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">04</span>Light</dt>
+                    <dd>Every tick, two muzzle rings of 16 sprites (radius 0.3 and 0.5) form around the beam axis. A <code>flash</code> fires every 8–16 blocks, at a random interval. The firestar sprites are full-bright, so night and shadow don&rsquo;t dim them.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">05</span>Impact</dt>
+                    <dd>Each step sends a damage packet (power 20, range 1.8) to the shared damage and block-break procedures. A target within 0.9 blocks widens the range to 3 for one more step. When the beam ends, 2 flash and 2 explosion particles scatter inside a 2-block sphere.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">06</span>Audio</dt>
+                    <dd>A custom <code>laz</code> cue (<code>laser_beam.ogg</code>) plays on the first tick and a beacon hum at the muzzle. A beacon sound and high-pitched thunder repeat every 8 blocks, and thunder plays at the impact.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">07</span>Cleanup</dt>
+                    <dd>Nothing stays in the world. Each firestar lives 5–8 ticks and steps through its 8 frames at one frame per tick.</dd>
+                </div>
+            </dl>
+
+            <figure class="kd-sc-code">
+                <figcaption>Shortened from <code>Lazer2Procedure.java</code></figcaption>
+<pre><code>for (int step = 0; step &lt; MAX_STEPS; step++) {   // 120 steps
+    px += dirx; py += diry; pz += dirz;
+    if (world.getBlockFloorHeight(BlockPos.containing(px, py, pz)) &gt; 0
+            &amp;&amp; step &gt; 4) break;                 // solid block ends it
+    for (int p = 0; p &lt; 12; p++) { /* firestar, pushed along dir */ }
+    if ((travelSinceFlash += 1.0) &gt;= nextFlashDist) { /* flash */ }
+    DodProcedure.execute(world, entity);        // power 20, range 1.8
+}</code></pre>
+            </figure>
+
+            <figure class="kd-sc-sprite-fig">
+                <div class="kd-sc-sprite" role="img" aria-label="The firestar particle playing its 8-frame animation"></div>
+                <div class="kd-sc-sprite-body">
+                    <img class="kd-sc-strip" src="/images/vfx-chain/epsilon-firestar-strip.webp" alt="All eight frames of the firestar sprite, an amber pixel-art star that grows and flares" width="1024" height="128" loading="lazy" decoding="async" />
+                    <figcaption><b>firestar</b>: 8 frames of 16&nbsp;px pixel art, enlarged 8× without smoothing. The animated tile plays at the in-game rate of one frame per tick (20 per second).</figcaption>
+                </div>
+            </figure>
+
+            <h4 class="kd-sc-sub">More skills built the same way</h4>
+            <ul class="kd-sc-skills">
+                <li><b>Annihilation thunder</b><span>Every 4 ticks, a volley of branch rays aimed inside a narrow cone (dot&nbsp;≥&nbsp;0.995). Two branches start per tick; each moves 10 one-block steps per tick, up to 50, and bursts into an explosion particle on contact.</span></li>
+                <li><b>Void slash</b><span>40 rays spread across 90° that grow from 5 to 10 blocks over 10 ticks. Damage is checked every half block along each ray.</span></li>
+                <li><b>Magic missiles</b><span>Two one-block steps per tick. Each step turns the missile 5% toward its target and lifts or drops it 0.2 to follow the terrain. Lightning sprites spray out at a random roll angle; each missile lives 64 ticks.</span></li>
+                <li><b>Hellfire tornado</b><span>A homing projectile (speed 1.7). Within 4.5 blocks of its target, or after 80 ticks, it grows into a 15-block-tall funnel of 8 particle bands (radius 6 / 3 / 4.5). For 200 ticks it pulls targets onto its wall and spins them.</span></li>
+                <li><b>Straight beam &amp; shields</b><span>A second beam that extends 20 more steps each tick and opens with a 48-point double ring. The shields are GeckoLib models moved onto the boss every tick.</span></li>
+            </ul>
+        </article>
+
+        @* RDR2 - Sarah Miller *@
+        <article class="kd-sc-engine kd-sc-engine--rdr kd-hud" aria-labelledby="kd-sc-rdr-title" data-reveal data-reveal-delay="1">
+            <header class="kd-sc-engine-head">
+                <span class="kd-badge">RDR2 · C++ / ScriptHookRDR2</span>
+                <h3 class="kd-sc-engine-title" id="kd-sc-rdr-title">Sarah Miller — seven skills</h3>
+                <p class="kd-sc-engine-meta">SarahCannon is an <code>.asi</code> plugin. Its seven skills use the game&rsquo;s own particle effects, explosions and sounds through script natives, plus custom meshes converted from Unreal for the laser, the slash and the energy well. All seven also work on horseback and in wagons.</p>
+            </header>
+
+            <h4 class="kd-sc-sub">Main example: Skill 7, the laser</h4>
+            <dl class="kd-sc-steps">
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">01</span>Trigger</dt>
+                    <dd>A fresh trigger press, with aim held, starts a 2&nbsp;s beam; a 2&nbsp;s cooldown starts when the beam ends. Releasing aim ends the beam at once and starts the cooldown.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">02</span>Aim &amp; trace</dt>
+                    <dd>A 150&nbsp;m camera ray picks the aim point, and the beam leaves the gun muzzle. Every script tick, nine parallel native rays in a 0.25&nbsp;m-wide bundle are traced again, and the nearest hit wins. Foliage is left out of the collision mask, so leaves don&rsquo;t stop the beam.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">03</span>Body</dt>
+                    <dd>The beam is a mesh, not particles. My laser model (a 6,624-triangle FBX) was cut into a 1&nbsp;m muzzle section, a 1&nbsp;m tip and body sections of 3.083, 0.771 and 0.193&nbsp;m. Every tick these are laid end to end up to 150&nbsp;m and stop 2&nbsp;cm before cover.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">04</span>Light</dt>
+                    <dd>There are two sets of meshes: a night material and a day material with 32× emission. The mod blends between them using the game clock (sunrise 05–08, sunset 17–20) and the weather, and smooths the change over 0.6&nbsp;s.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">05</span>Impact</dt>
+                    <dd>On every tick of contact, Skill 3&rsquo;s three native particles (electric flow, metal sparks, lightning strike) play at a quarter of their size. If the beam hits a living creature, or one is within 2&nbsp;m of the hit point, one explosion owned by Sarah deals that tick&rsquo;s damage. The explosion&rsquo;s own visuals, sound and camera shake are turned off.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">06</span>Audio</dt>
+                    <dd>A custom <code>laser_beam.ogg</code> plays through XAudio2, panned relative to the camera: full volume within 5&nbsp;m, silent at 40&nbsp;m. It is paired with the game&rsquo;s <code>LIGHTNING_BOLT</code> sound. Impact sounds are capped at 12 voices; at the cap, the oldest is stopped to make room.</dd>
+                </div>
+                <div class="kd-sc-step">
+                    <dt><span class="kd-sc-num">07</span>Cleanup</dt>
+                    <dd>Every mesh is deleted and every sound released when the beam expires, aim is released, the menu opens, the game pauses or Dead Eye starts. Sarah and her horses stay protected from the blast for 1&nbsp;s after the last hit.</dd>
+                </div>
+            </dl>
+
+            <figure class="kd-sc-code">
+                <figcaption>From <code>laser_logic.h</code> / <code>laser_runtime.h</code>: blending the day and night meshes</figcaption>
+<pre><code>// outdoor light: ramps 05–08 and 17–20, then dimmed by weather
+const float daylight = LaserSmoothstep((clock-5)/3)
+                     * LaserSmoothstep((20-clock)/3);
+// smoothed with a 0.6 s time constant so the beam never pops
+level += (target-level) * (1-std::exp(-dt/0.6f));
+// day set (32x emission) fades in over the night set
+const float weight = dayLayer ? day/(.4f+.6f*day) : 1-day;</code></pre>
+            </figure>
+
+            <div class="kd-sc-shots" data-lightbox>
+                <figure class="kd-sc-shot">
+                    <img src="/images/vfx-chain/rdr2-laser-v5-16-first-live.webp" alt="Sarah fires a wide, pale-blue laser from her pistol across a grassy field; the beam is thick and hazy near the gun" width="1280" height="720" loading="lazy" decoding="async" />
+                    <figcaption><b>v5.16, first live test.</b> I rejected the dense material and the hollow muzzle end. The next build halved the size, set the range to 50&nbsp;m and stopped the spin.</figcaption>
+                </figure>
+                <figure class="kd-sc-shot">
+                    <img src="/images/vfx-chain/rdr2-laser-v5-21-day.webp" alt="In daylight, a thin bright blue laser runs from Sarah's gun across the plains toward a wagon on the road" width="1280" height="720" loading="lazy" decoding="async" />
+                    <figcaption><b>v5.21, daytime test.</b> The 32× day emission. This material became the final look when v5.23 rolled back to it.</figcaption>
+                </figure>
+            </div>
+
+            <h4 class="kd-sc-sub">The other six skills</h4>
+            <ul class="kd-sc-skills">
+                <li><b>1 · Howitzer</b><span>A frozen cannonball moved at 80&nbsp;m/s, checked for collisions over each segment. It ends in the game&rsquo;s cannon explosion, scaled up to about 8&nbsp;m, plus a second silent, invisible damage pass.</span></li>
+                <li><b>2 · Incinerate gun</b><span>13 flame lanes from randomly offset start points, at 60&nbsp;m/s out to 50&nbsp;m. A pool of up to 64 reused fire-breath emitters covers the live stream. Phosphorus-round audio plays at points 5&nbsp;m apart, at most once every 250&nbsp;ms.</span></li>
+                <li><b>3 · Plasma cannon</b><span>A logical bolt that moves 2&nbsp;m per tick, out to 100&nbsp;m. Every 2&nbsp;m it fires electric-flow, spark and lightning-strike particles; two looping arc and spark emitters ride on its front.</span></li>
+                <li><b>4 · Granite blast</b><span>Six homing missiles, launched 5 ticks apart. Each tick, a missile&rsquo;s velocity is 75% its previous velocity plus 25% toward the target. It leaves two firework-trail samples per tick and ends in a firework burst and a visible blast.</span></li>
+                <li><b>5 · Curse technique blue</b><span>Five frozen meshes: a shell, bands and three spiral rings, each ring spinning and precessing on its own tilted plane. Lightning pulses every 250&nbsp;ms. Within 24&nbsp;m it pulls people toward it at 45&nbsp;m/s² and turns their gravity off.</span></li>
+                <li><b>6 · Dismantle</b><span>An Unreal slash mesh reshaped into a 120°, 8&nbsp;m-radius blade. Five blades launch 3 ticks apart and move 2&nbsp;m per tick for 3&nbsp;s. Ten points along the edge detect creatures within 1.25&nbsp;m.</span></li>
+            </ul>
+        </article>
+    </div>
+
+    @* ---------- Built with AI ---------- *@
+    <div class="kd-sc-ai" data-reveal>
+        <div class="kd-sc-ai-head">
+            <p class="kd-eyebrow">Process</p>
+            <h3 class="kd-sc-ai-title">Built by directing AI coding agents</h3>
+            <p class="kd-sc-ai-lede">Claude Code and Codex wrote the code; I directed the work. I set the intent and the limits, the agents wrote and refactored the Java and C++, and I ran every build in the game to judge whether the effect looked right. A change was done only after I had seen it on screen.</p>
+        </div>
+
+        <ol class="kd-sc-loop">
+            <li class="kd-sc-loop-step">
+                <span class="kd-sc-num">A</span>
+                <strong>Intent</strong>
+                <span>Plain-language direction with references: &ldquo;half the size&rdquo;, &ldquo;start at the muzzle&rdquo;, &ldquo;only while aiming&rdquo;, an Unreal mesh, a screenshot of what is wrong.</span>
+            </li>
+            <li class="kd-sc-loop-step">
+                <span class="kd-sc-num">B</span>
+                <strong>Snapshot</strong>
+                <span>A dated copy of the source and binaries before each change, such as <code>20260927_fire_fix_before</code>, <code>20260929_213441_dual_skills_before</code> and <code>20261002_174141_before_skill7_laser</code>.</span>
+            </li>
+            <li class="kd-sc-loop-step">
+                <span class="kd-sc-num">C</span>
+                <strong>Agent change</strong>
+                <span>Code, native IDs verified against a local RDR3 native database, and regression tests. Every version gets a written record that keeps &ldquo;it built&rdquo; separate from &ldquo;I saw it in game&rdquo;.</span>
+            </li>
+            <li class="kd-sc-loop-step">
+                <span class="kd-sc-num">D</span>
+                <strong>In-game verdict</strong>
+                <span>I play it. A native call that reports success is not proof of a visible effect. In v4.1 every missile-trail call succeeded, but my screenshot showed no trail, so v4.2 switched to a different particle method.</span>
+            </li>
+        </ol>
+
+        <ul class="kd-sc-stats" aria-label="Evidence from the RDR2 project folder">
+            <li><b>129</b><span>dated snapshots, 27&nbsp;Sep – 22&nbsp;Oct 2026</span></li>
+            <li><b>59</b><span>named for the change they come before</span></li>
+            <li><b>50</b><span>per-version verification records</span></li>
+            <li><b>12</b><span>regression test files</span></li>
+        </ul>
+
+        <div class="kd-sc-log">
+            <h4 class="kd-sc-sub">One skill, many passes: the laser from v5.16 to v5.26</h4>
+            <ol class="kd-sc-log-list">
+                <li><b>5.16</b><span>First import from Unreal. The beam spun twice per second; I rejected its dense material and hollow muzzle end.</span></li>
+                <li><b>5.17</b><span>Half the size, 50&nbsp;m range, no spin.</span></li>
+                <li><b>5.20</b><span>Day/night blend; impact damage added, limited to living creatures.</span></li>
+                <li><b>5.21–5.22</b><span>Tested a 64-frame, 25&nbsp;fps flipbook to make the material flow. I saw no motion in game.</span></li>
+                <li><b>5.23</b><span>I stopped further material changes; the build rolled back to the 5.21 look, with a 150&nbsp;m range.</span></li>
+                <li><b>5.25–5.26</b><span>Back to the gun muzzle, aim required, impacts on every tick, foliage ignored.</span></li>
+            </ol>
+        </div>
+    </div>
+
+    <nav class="kd-sc-links" aria-label="Related pages" data-reveal>
+        <span class="kd-sc-links-label">See also</span>
+        <div class="kd-link-row">
+            <a class="kd-pill" href="/Minecraft#rdr2">RDR2 showcase video</a>
+            <a class="kd-pill" href="/Minecraft#minecraft">Minecraft mods</a>
+            <a class="kd-pill" href="/VibeCode#epsilon">Epsilon boss AI</a>
+        </div>
+    </nav>
+</section>

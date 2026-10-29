@@ -1,27 +1,35 @@
 @{
     var pageTitle = ViewData["Title"] as string ?? "Yingrong Lin";
+    var currentPath = (Context.Request.Path.Value ?? "/").TrimEnd('/').ToLowerInvariant();
+    var workPaths = new[] { "/projects", "/environment", "/vfx", "/vibecode", "/minecraft", "/archeon", "/character", "/unreal" };
+    var inWork = Array.IndexOf(workPaths, currentPath) >= 0;
+    var inAbout = currentPath == "/about";
 }
 <!DOCTYPE html>
 <html lang="@(ViewData["HtmlLang"] as string ?? "en")">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
     <title>@pageTitle</title>
+    <script>document.documentElement.classList.add('kd-js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;600&family=Archivo+Black&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;600&family=Archivo+Black&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/sections.css" asp-append-version="true" />
 </head>
 <body class="@ViewData["BodyClass"]">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="kd-topbar">
-        <a class="kd-brand" href="/" aria-label="Home">
+        <div class="kd-progress" aria-hidden="true"><span class="kd-progress-bar"></span></div>
+        <a class="kd-brand" href="/" aria-label="Yingrong Lin — home">
             <span class="kd-brand-mark">YL</span>
+            <span class="kd-brand-meta" aria-hidden="true"><span>Yingrong Lin</span><span>Worldbuilder · 3D · VFX</span></span>
         </a>
         <nav class="kd-nav" aria-label="Primary">
-            <a href="/#work">WORK</a>
-            <a href="/Gallery">GALLERY</a>
-            <a href="/About">ABOUT</a>
+            <a href="/#work" class="@(inWork ? "is-active" : null)" aria-current="@(inWork ? "true" : null)"><span class="kd-nav-idx" aria-hidden="true">01</span>WORK</a>
+            <a href="/About" class="@(inAbout ? "is-active" : null)" aria-current="@(inAbout ? "page" : null)"><span class="kd-nav-idx" aria-hidden="true">02</span>ABOUT</a>
         </nav>
     </header>
 

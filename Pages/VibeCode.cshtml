@@ -1,0 +1,255 @@
+@page
+@model Showheel.Pages.VibeCodeModel
+@{
+    ViewData["Title"] = "Building with AI — Yingrong Lin";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/environment/tower-city.webp');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="sec-hero-grid" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">04 · AI · Vibe Code</p>
+        <h1 class="kd-detail-title">Building with AI</h1>
+        <p class="kd-detail-sub">Directing AI coding agents is a core skill of this era. I work with Claude Code and Codex: I own the intent, the constraints, the taste and the verification; the agents write the implementation; I judge the result by eye and in game.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#vibecode-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="vibecode-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <nav class="sec-jump" aria-label="On this page" data-reveal>
+            <a class="kd-pill" href="#process">How I work</a>
+            <a class="kd-pill" href="#epsilon">Epsilon boss AI</a>
+            <a class="kd-pill" href="#skill-vfx-chain">Skill VFX</a>
+            <a class="kd-pill" href="#atlas">Archeon atlas</a>
+            <a class="kd-pill" href="#site">This site</a>
+        </nav>
+
+        @* ── Process ─────────────────────────────────────── *@
+        <section id="process" class="sec-block" aria-labelledby="process-title">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Process</p>
+                <h2 id="process-title" class="sec-title">How I work with AI</h2>
+                <p class="sec-lede">The agents are fast and tireless; they don't know what the thing should <em>feel</em> like. So the loop is built around keeping decisions with me and making every step checkable.</p>
+            </header>
+
+            <ol class="sec-steps">
+                <li class="sec-step sec-step--human" data-reveal data-reveal-delay="1">
+                    <span class="sec-step-who">Me</span>
+                    <h3>Intent &amp; taste</h3>
+                    <p>Decide what it should feel like — and what it must never do.</p>
+                </li>
+                <li class="sec-step sec-step--human" data-reveal data-reveal-delay="2">
+                    <span class="sec-step-who">Me</span>
+                    <h3>Written constraints</h3>
+                    <p>Numbers, file ownership, what must be preserved — written down so they survive every follow-up.</p>
+                </li>
+                <li class="sec-step" data-reveal data-reveal-delay="3">
+                    <span class="sec-step-who">Agents + me</span>
+                    <h3>Fast visual iteration</h3>
+                    <p>Short loops judged on screenshots and in-game clips, not long specs.</p>
+                </li>
+                <li class="sec-step" data-reveal data-reveal-delay="4">
+                    <span class="sec-step-who">Agents + me</span>
+                    <h3>Verification</h3>
+                    <p>Startup tests, hash checks, dependency checks, in-game fights. One fix at a time.</p>
+                </li>
+                <li class="sec-step sec-step--human" data-reveal data-reveal-delay="5">
+                    <span class="sec-step-who">Me</span>
+                    <h3>Human judgement</h3>
+                    <p>Passing checks don't prove how it looks, sounds or plays. I sign off on look and feel — and say what wasn't checked that way.</p>
+                </li>
+                <li class="sec-step" data-reveal data-reveal-delay="6">
+                    <span class="sec-step-who">Agents + me</span>
+                    <h3>Reversible changes</h3>
+                    <p>Back up before replacing, archive instead of deleting, keep the last working version runnable.</p>
+                </li>
+            </ol>
+        </section>
+
+        @* ── Epsilon ─────────────────────────────────────── *@
+        <section id="epsilon" class="sec-block" aria-labelledby="epsilon-title">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Case study · Minecraft mod</p>
+                <h2 id="epsilon-title" class="sec-title">Epsilon — a boss AI for a Minecraft mod</h2>
+                <p class="sec-lede">Epsilon is a flying boss in my <strong>Forge 1.20.1</strong> mod: an MCreator workspace extended with hand-written Java, with models and animation through <strong>GeckoLib</strong>. Its flight-and-evasion “brain” lives in a single procedure of about 6,500 lines — <code>CommonflashProcedure.java</code>, roughly 315 KB — built by directing AI agents and testing every change by fighting the boss in game.</p>
+            </header>
+
+            <div class="sec-split">
+                <div class="sec-prose" data-reveal>
+                    <p>Every tick, <code>Demo2Procedure</code> runs the boss in a fixed order: status effects and counters, target lock (<code>CommonenemylockProcedure</code>), a refresh of incoming projectile threats (<code>DamageThreatUtil</code>), then skills and flight.</p>
+                    <p>The flight brain picks how to move: orbit a close target; switch to a dedicated <b>flashdrive</b> chase when the target is beyond 32 m with clear sight, or has been lost; make an evasive run after taking damage; reposition after a cast; and hold a hover over the ground — full lift within 3 m of the feet, fading out by 6 m.</p>
+                    <p>Most of the work is in <em>where</em> to go. Candidate directions are scored rather than hard-gated, so the boss always has a best option instead of freezing when every path is imperfect.</p>
+                </div>
+                <div data-reveal data-reveal-delay="1">
+                    <figure class="sec-code">
+                        <pre><code><span class="c">// Dandelion ray clearance (32 m probe, soft scoring, no hard gate)</span>
+<span class="c">//   hit =  0 m → -720   (NEAR_PENALTY × 16)</span>
+<span class="c">//   hit = 16 m →    0</span>
+<span class="c">//   hit = 32 m → +360   (FAR_BONUS × 16)</span>
+<span class="k">DAMAGE_SIDE_DANDELION_PROBE_RANGE</span>     = <span class="n">32.0</span>;
+<span class="k">DAMAGE_SIDE_DANDELION_CLEAR_THRESHOLD</span> = <span class="n">16.0</span>;
+<span class="k">DAMAGE_SIDE_DANDELION_NEAR_PENALTY</span>    = <span class="n">45.0</span>;  <span class="c">// per metre short of 16 m</span>
+<span class="k">DAMAGE_SIDE_DANDELION_FAR_BONUS</span>       = <span class="n">22.5</span>;  <span class="c">// per metre past 16 m</span></code></pre>
+                        <figcaption>Excerpt from <code>CommonflashProcedure.java</code> — modifiers trimmed, comments condensed and partly translated from Chinese.</figcaption>
+                    </figure>
+                    <figure class="sec-code">
+                        <pre><code><span class="c">// Prefer level escape runs over steep climbs or dives</span>
+score = BONUS - |dir.y| * (BONUS + PENALTY)
+<span class="c">//   |dir.y| = 0    (level)     → </span><span class="n">+60</span>
+<span class="c">//   |dir.y| = 0.2  (≈ 11.5°)   → </span><span class="n">0</span>
+<span class="c">//   |dir.y| = 1    (vertical)  → </span><span class="n">-240</span></code></pre>
+                        <figcaption>The levelness term from the same file; formula verbatim, notes translated.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="sec-cards">
+                <article class="sec-card" data-reveal>
+                    <span class="sec-card-k">Escape direction</span>
+                    <h3>Dandelion clearance scoring</h3>
+                    <p>When hit, Epsilon gathers candidate escape directions — a few guided seeds plus 16 random rays in a 30° cone — and casts each out to 32 m. Short clearance is penalised, long clearance rewarded. If the winner is still blocked, the run is cut to stop 1 m short of the wall, never below 2 m.</p>
+                    <div class="sec-card-figs"><span>32 m probe</span><span>16 rays · 30°</span><span>−720 … +360</span></div>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">Walls</span>
+                    <h3>256-ray wall probe</h3>
+                    <p>A 16 × 16 yaw/pitch sphere of rays, 4 m long, cast from 1 m above the feet, pushes the boss away from nearby walls. The push is smoothed and has a 6-tick cooldown, so bounces can’t stack.</p>
+                    <div class="sec-card-figs"><span>256 rays</span><span>4 m</span><span>6-tick cooldown</span></div>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">Firing lines</span>
+                    <h3>Ring-net avoidance</h3>
+                    <p>The lock procedure sums direction vectors toward up to 16 high-threat entities within 48 m, weighted (1 − d/48)² and filtered by line of sight, then smooths the result every tick. Kick-off and reposition directions inside a 60° cone of that “net” are rejected, so Epsilon doesn’t dodge into the line of fire.</p>
+                    <div class="sec-card-figs"><span>16 sources</span><span>48 m</span><span>60° cone</span></div>
+                </article>
+                <article class="sec-card" data-reveal>
+                    <span class="sec-card-k">Projectiles</span>
+                    <h3>Threat memory</h3>
+                    <p><code>DamageThreatUtil</code> scans 24 m for hostile projectiles with a clear line to the boss, scores each 0.25 + 0.75 × (1 − d/24), and keeps the strongest eight in a short damage-vector memory that the evasion scoring reads.</p>
+                    <div class="sec-card-figs"><span>24 m scan</span><span>top 8</span><span>10-tick memory</span></div>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">Indoors</span>
+                    <h3>Space-cramp sensing</h3>
+                    <p>200 samples in a 12 × 6 m ellipsoidal hemisphere above the boss, with a 2 × 1 m inner core, refreshed every 5 ticks. In the open, evasive runs drop to 10% speed and wait 40 ticks; boxed in, they go at full speed every 14 ticks.</p>
+                    <div class="sec-card-figs"><span>200 samples</span><span>12 × 6 m</span><span>40 → 14 ticks</span></div>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">Robustness</span>
+                    <h3>NaN guards</h3>
+                    <p>One NaN from upstream silently breaks the speed clamps — every comparison with NaN is false — and <code>setDeltaMovement(NaN)</code> makes the entity vanish. The brain rejects NaN at its entry point so it never reaches saved entity data.</p>
+                    <div class="sec-card-figs"><span>entry-point guard</span><span>clamped acos</span></div>
+                </article>
+            </div>
+
+            <div class="sec-cards sec-cards--2" style="margin-top: clamp(18px, 2.4vw, 28px);">
+                <article class="sec-card kd-hud" data-reveal>
+                    <span class="sec-card-k">My side</span>
+                    <h3>Describe the feel, set the numbers, fight it</h3>
+                    <p>I describe behaviour in plain language and in numbers — distances, cones, tick budgets — and report bugs as I see them in the fight. One example: “the side-dodge doesn’t read.” The cause was the urgent sidestep being diluted by orbit, wall and chase forces; now it overrides them for that tick.</p>
+                </article>
+                <article class="sec-card kd-hud" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">The agents’ side</span>
+                    <h3>Implement, refactor, document</h3>
+                    <p>The agents write and restructure the Java and keep the comment blocks above each constant group as a running spec, in English and Chinese. That’s what makes a file this size still possible to steer.</p>
+                </article>
+            </div>
+        </section>
+
+        <div class="sec-block">
+            <partial name="_SkillVfxChain" />
+        </div>
+
+        @* ── Archeon atlas ───────────────────────────────── *@
+        <section id="atlas" class="sec-block" aria-labelledby="atlas-title">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Case study · Worldbuilding</p>
+                <h2 id="atlas-title" class="sec-title">Archeon world atlas</h2>
+                <p class="sec-lede">An AI-assisted world-simulation pipeline for my SKBS universe. Terrain for the planet Archeon is built up stage by stage. Each stage keeps its candidates, its numbers and a note of what it does <em>not</em> yet prove.</p>
+            </header>
+
+            <ol class="sec-pipeline" aria-label="Pipeline stages" data-reveal>
+                <li><span>Tectonics</span></li>
+                <li><span>Erosion</span></li>
+                <li><span>Climate</span></li>
+                <li><span>Watersheds</span></li>
+                <li><span>Ecology &amp; canopy</span></li>
+            </ol>
+
+            <div class="sec-cards">
+                <article class="sec-card" data-reveal>
+                    <span class="sec-card-k">01 · Tectonics</span>
+                    <h3>Uplift, faults, rifts</h3>
+                    <p>Uplift, fault-block offsets and basalt cover on a ~16 km continental grid. One rift was rebuilt as an extensional valley about 1,500 km long, bounded by segmented normal faults.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">02 · Erosion</span>
+                    <h3>Two million years, three seeds</h3>
+                    <p>24 comparison runs — three seeds, four regions, two processes — over two million effective years. Weathering, river incision, deposition, hillslope transport and export to the sea are accounted separately.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">03 · Climate <span class="kd-badge">IN PROGRESS</span></span>
+                    <h3>Short control runs only</h3>
+                    <p>So far: short control runs, and a radiative-transfer benchmark that reproduces its official reference values. These are not yet a global climate result, and the pages say so.</p>
+                </article>
+                <article class="sec-card" data-reveal>
+                    <span class="sec-card-k">04 · Watersheds</span>
+                    <h3>Shared river networks</h3>
+                    <p>For the Orun region: eight connected drainage basins, 127 confluences, 313 shared channel segments and 226 ponded cells, rebuilt on the final height field.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">05 · Ecology &amp; canopy</span>
+                    <h3>Trees that respect towns</h3>
+                    <p>Tree crowns are clipped against houses and roads before being rolled up into each level of detail. Map checks confirm 12,235 generated river segments drain into the Ishkar.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">Verification</span>
+                    <h3>Hashes before claims</h3>
+                    <p>Every atlas refresh is checked: SHA-256 for each imported asset, syntax checks, map dependency graphs and HTTP checks for every resource. When 3D behaviour wasn’t rechecked in a browser, the log says so.</p>
+                </article>
+            </div>
+
+            <div class="kd-link-row" style="margin-top: clamp(18px, 2.4vw, 28px);" data-reveal>
+                <a class="kd-pill kd-pill-primary" href="/archeon-atlas/">Open the atlas</a>
+                <a class="kd-pill" href="/Archeon">Archeon story page</a>
+            </div>
+        </section>
+
+        @* ── This site ───────────────────────────────────── *@
+        <section id="site" class="sec-block" aria-labelledby="site-title">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Case study · This website</p>
+                <h2 id="site-title" class="sec-title">This site</h2>
+                <p class="sec-lede">This version was rebuilt by directing AI agents in parallel — one on the global look and interactions, others on the content pages — then merged and checked in a browser.</p>
+            </header>
+
+            <div class="sec-cards">
+                <article class="sec-card" data-reveal>
+                    <span class="sec-card-k">Split</span>
+                    <h3>Strict file ownership</h3>
+                    <p>Each agent owned a fixed set of files in the same checkout and left everything else alone, so parallel work never collided.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="1">
+                    <span class="sec-card-k">Contract</span>
+                    <h3>Components specified up front</h3>
+                    <p>Scroll reveals, the lightbox, filter chips and placeholders were defined as markup first, so content pages could be written against them before they existed.</p>
+                </article>
+                <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">Check</span>
+                    <h3>Merged, then verified</h3>
+                    <p>Every route checked for status and content, every image path checked on disk — then the merged result reviewed by eye, on desktop and on a phone-width screen.</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

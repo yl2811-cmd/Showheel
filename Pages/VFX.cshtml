@@ -1,0 +1,86 @@
+@page
+@model Showheel.Pages.VFXModel
+@{
+    ViewData["Title"] = "VFX — Yingrong Lin";
+}
+
+<section class="kd-detail-hero">
+    <div class="kd-detail-hero-bg background-image"
+         data-motion-depth="1.05"
+         data-motion-scale="1.1"
+         style="background-image: url('/images/vfx/aurora-field.webp');"
+         aria-hidden="true"></div>
+    <div class="kd-detail-hero-shade" aria-hidden="true"></div>
+    <div class="kd-detail-hero-inner">
+        <p class="kd-eyebrow">03 · VFX</p>
+        <h1 class="kd-detail-title">VFX <span class="kd-badge sec-title-badge">WIP</span></h1>
+        <p class="kd-detail-sub">Unreal effects work from my RIT coursework is in production. Until the reel lands, this page holds its place — plus the in-game effects I have already built into mods.</p>
+    </div>
+    <a class="kd-scroll-cue" href="#vfx-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
+</section>
+
+<section id="vfx-body" class="kd-detail-body">
+    <div class="kd-detail-inner">
+        <div class="sec-block">
+            <div class="sec-status" data-reveal>
+                <span class="kd-badge">IN PRODUCTION</span>
+                <p>The Unreal VFX reel and studies are being made as RIT coursework. The slots below are reserved for them; the two stills are provisional placeholders.</p>
+            </div>
+
+            <div class="sec-reel kd-hud" data-reveal>
+                <div class="kd-placeholder kd-placeholder--video" data-label="UNREAL VFX REEL — IN PRODUCTION">
+                    <span>Unreal Engine VFX reel · RIT coursework · coming soon</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec-block">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Provisional</p>
+                <h2 class="sec-title">Current stills</h2>
+                <p class="sec-lede">Two frames kept as stand-ins while the coursework pieces are produced. They will be replaced by the final renders.</p>
+            </header>
+
+            <div class="sec-duo" data-lightbox>
+                <figure class="sec-tile" style="--ar:1.778" data-reveal>
+                    <span class="kd-badge sec-tile-badge">PROVISIONAL</span>
+                    <img src="/images/vfx/fireworks-city.webp" alt="Fireworks bursting over a neon-lit waterfront city at night" width="1280" height="720" loading="lazy" decoding="async" />
+                    <figcaption><b>Fireworks</b> — bursts over a neon waterfront city.</figcaption>
+                </figure>
+                <figure class="sec-tile" style="--ar:1.778" data-reveal data-reveal-delay="1">
+                    <span class="kd-badge sec-tile-badge">PROVISIONAL</span>
+                    <img src="/images/vfx/aurora-field.webp" alt="Aurora-like glowing particles hanging over dark terrain" width="2500" height="1250" loading="lazy" decoding="async" />
+                    <figcaption><b>Aurora field</b> — glowing particles over dark terrain.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="sec-block">
+            <header class="sec-head" data-reveal>
+                <p class="kd-eyebrow">Reserved</p>
+                <h2 class="sec-title">Coming next</h2>
+                <p class="sec-lede">Slots held for Unreal studies from RIT coursework.</p>
+            </header>
+
+            <div class="sec-ph-grid">
+                <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · NIAGARA STUDY" data-reveal>
+                    <span>Unreal · Niagara particle study — RIT coursework, coming soon</span>
+                </div>
+                <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · BEAM &amp; IMPACT" data-reveal data-reveal-delay="1">
+                    <span>Unreal · Beam &amp; impact study — RIT coursework, coming soon</span>
+                </div>
+                <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · SMOKE &amp; FIRE" data-reveal data-reveal-delay="2">
+                    <span>Unreal · Smoke &amp; fire study — RIT coursework, coming soon</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec-block">
+            <partial name="_SkillVfxChain" />
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

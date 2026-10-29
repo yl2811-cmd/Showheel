@@ -1,7 +1,7 @@
 @page
 @model Showheel.Pages.EnvironmentModel
 @{
-    ViewData["Title"] = "Environmental Renders";
+    ViewData["Title"] = "Environments — Yingrong Lin";
 }
 
 <section class="kd-detail-hero">
@@ -12,7 +12,7 @@
          aria-hidden="true"></div>
     <div class="kd-detail-hero-shade" aria-hidden="true"></div>
     <div class="kd-detail-hero-inner">
-        <p class="kd-eyebrow">03 · Environments</p>
+        <p class="kd-eyebrow">02 · Environments</p>
         <h1 class="kd-detail-title">Environmental Renders</h1>
         <p class="kd-detail-sub">Landscape, lighting, and atmosphere studies — built in Unreal, Blender, and SpeedTree.</p>
     </div>
@@ -21,22 +21,85 @@
 
 <section id="environment-body" class="kd-detail-body">
     <div class="kd-detail-inner">
-        <div class="kd-pair-grid">
-            <figure class="kd-pair">
-                <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Garden in the wild" loading="lazy" />
-                <figcaption>Garden in the Wild — overgrown ruin, soft daylight bounce.</figcaption>
+        <header class="sec-head" data-reveal>
+            <p class="kd-eyebrow">Stills</p>
+            <h2 class="sec-title">Environment renders</h2>
+            <p class="sec-lede">Gardens, ruins and other worlds — daylight studies alongside sci-fi cities and planetary vistas. Filter by theme, or open any image full screen.</p>
+        </header>
+
+        <div class="sec-toolbar" data-reveal data-reveal-delay="1">
+            <div class="kd-filter" role="toolbar" aria-label="Filter" data-filter-for="env-gallery">
+                <button type="button" class="kd-chip is-active" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" class="kd-chip" data-filter="natural" aria-pressed="false">Natural &amp; Ruins</button>
+                <button type="button" class="kd-chip" data-filter="scifi" aria-pressed="false">Sci-fi Worlds</button>
+                <button type="button" class="kd-chip" data-filter="planetary" aria-pressed="false">Planetary</button>
+            </div>
+        </div>
+
+        <div id="env-gallery" class="sec-jg" data-lightbox>
+            <figure class="sec-tile sec-tile--feature" data-tags="natural" style="--ar:1.778" data-reveal>
+                <img src="/images/Garden_in_the_wild1-revised.jpg" alt="Overgrown garden with a rocking chair, autumn pergolas and a snow-capped mountain beyond" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Garden in the Wild</b> — autumn pergolas, snow-capped peak.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Stone bridge interior" loading="lazy" />
-                <figcaption>Stone Bridge — vaulted hall, rim-lit volumetrics.</figcaption>
+            <figure class="sec-tile sec-tile--feature" data-tags="planetary" style="--ar:2.000" data-reveal>
+                <img src="/images/environment/bioluminescent-shore.webp" alt="Glowing blue alien coastline at night under a large teal planet" width="2400" height="1200" loading="lazy" decoding="async" />
+                <figcaption><b>Bioluminescent Shore</b> — glowing coast under a teal planet.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/Image_1714248859708.jpg" alt="Mountain vista" loading="lazy" />
-                <figcaption>Warm Vista — copper sun across an open valley.</figcaption>
+            <figure class="sec-tile" data-tags="natural" style="--ar:1.778" data-reveal>
+                <img src="/images/8600271a3a8855a0ee94643ad63574b63546770577558337.jpg" alt="Garden gate under autumn trees opening onto a river and snow-capped mountains" width="2100" height="1181" loading="lazy" decoding="async" />
+                <figcaption><b>Garden Gate</b> — autumn canopy, river and mountain range.</figcaption>
             </figure>
-            <figure class="kd-pair">
-                <img src="/images/cc043eaa809506a039685cec59eb4bb53546770577558337.jpg" alt="Architectural render" loading="lazy" />
-                <figcaption>Architectural Study — light, geometry, silhouette.</figcaption>
+            <figure class="sec-tile" data-tags="planetary" style="--ar:2.000" data-reveal>
+                <img src="/images/environment/desert-dunes.webp" alt="Hazy golden desert of layered rock and shallow water with planetary rings in the sky" width="2400" height="1200" loading="lazy" decoding="async" />
+                <figcaption><b>Ringed Desert</b> — layered rock under planetary rings.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="scifi" style="--ar:1.333" data-reveal>
+                <img src="/images/environment/sky-platform.webp" alt="Ornate circular flying platform seen from directly below against the sky" width="2012" height="1509" loading="lazy" decoding="async" />
+                <figcaption><b>Sky Platform</b> — ornate underside, seen from below.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="scifi" style="--ar:1.777" data-reveal>
+                <img src="/images/environment/mirror-pyramid.webp" alt="Glass pyramid on mirror-still water with hovering craft and a large moon behind" width="1333" height="750" loading="lazy" decoding="async" />
+                <figcaption><b>Mirror Pyramid</b> — still water, hovering craft, rising moon.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="planetary" style="--ar:1.778" data-reveal>
+                <img src="/images/environment/twin-moon-lake.webp" alt="Snowy alpine lake reflecting a large moon in a blue sky" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Alpine Lake</b> — snowfields and a large moon.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="natural" style="--ar:1.778" data-reveal>
+                <img src="/images/cc043eaa809506a039685cec59eb4bb53546770577558337.jpg" alt="Ivy-covered cottage with a tiled roof in a field of wildflowers" width="2100" height="1181" loading="lazy" decoding="async" />
+                <figcaption><b>Meadow Cottage</b> — ivy, tiled roof, wildflower field.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="planetary" style="--ar:2.023" data-reveal>
+                <img src="/images/environment/balloon-rings.webp" alt="Hot-air balloon above a sea of clouds with planetary rings at sunset" width="1295" height="640" loading="lazy" decoding="async" />
+                <figcaption><b>Above the Clouds</b> — balloon and planetary rings at sunset.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="scifi" style="--ar:1.777" data-reveal>
+                <img src="/images/environment/tower-city.webp" alt="Lit sci-fi towers rising out of low cloud at night" width="1594" height="897" loading="lazy" decoding="async" />
+                <figcaption><b>Tower City</b> — skyline above the cloud line at night.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="scifi" style="--ar:1.177" data-reveal>
+                <img src="/images/environment/night-city.webp" alt="Futuristic city at night with tall lit towers and a landscaped plaza" width="1003" height="852" loading="lazy" decoding="async" />
+                <figcaption><b>Night City</b> — towers over a landscaped plaza.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="planetary" style="--ar:1.775" data-reveal>
+                <img src="/images/environment/orbit-planet.webp" alt="Earth-like planet with cloud cover seen from orbit" width="1127" height="635" loading="lazy" decoding="async" />
+                <figcaption><b>From Orbit</b> — Earth-like planet under cloud.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="natural" style="--ar:1.778" data-reveal>
+                <img src="/images/environment/autumn-garden.webp" alt="Large old tree in a seaside garden at dusk with stone lanterns and radio dishes" width="1920" height="1080" loading="lazy" decoding="async" />
+                <figcaption><b>Seaside Garden</b> — old tree and stone lanterns at dusk.</figcaption>
+            </figure>
+            <figure class="sec-tile" data-tags="natural" style="--ar:1.777" data-reveal>
+                <img src="/images/Image_1714248859708.jpg" alt="Dim workshop interior with glassware on a table and autumn leaves outside a lattice window" width="1333" height="750" loading="lazy" decoding="async" />
+                <figcaption><b>Workshop</b> — glassware and autumn light through a lattice window.</figcaption>
+            </figure>
+            <figure class="sec-tile sec-tile--small" data-tags="natural" style="--ar:1.776; --max-w:341px" data-reveal>
+                <img src="/images/environment/floating-cube.webp" alt="Stone cube floating above autumn ruins (small preview)" width="341" height="192" loading="lazy" decoding="async" />
+                <figcaption><b>Floating Cube</b> — autumn ruins (small preview).</figcaption>
+            </figure>
+            <figure class="sec-tile sec-tile--small" data-tags="scifi" style="--ar:1.776; --max-w:341px" data-reveal>
+                <img src="/images/environment/sky-ring.webp" alt="Ring sculpture on a floating island above the clouds (small preview)" width="341" height="192" loading="lazy" decoding="async" />
+                <figcaption><b>Sky Ring</b> — sculpture on a sky island (small preview).</figcaption>
             </figure>
         </div>
 

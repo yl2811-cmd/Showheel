@@ -25,6 +25,8 @@
         <nav class="sec-jump" aria-label="On this page" data-reveal>
             <a class="kd-pill" href="#process">How I work</a>
             <a class="kd-pill" href="#epsilon">Epsilon boss AI</a>
+            <a class="kd-pill" href="#ep-pathfinding">Boss pathfinding</a>
+            <a class="kd-pill" href="#ep-damage">Damage flow</a>
             <a class="kd-pill" href="#skill-vfx-chain">Skill VFX</a>
             <a class="kd-pill" href="#atlas">Archeon atlas</a>
             <a class="kd-pill" href="#site">This site</a>
@@ -72,18 +74,48 @@
             </ol>
         </section>
 
-        @* ── Epsilon ─────────────────────────────────────── *@
+        @* ── Epsilon ─────────────────────────────────────────
+           Explainer figures (01–08) are drawn by wwwroot/js/epsilon-explainer.js.
+           Every number is taken from the mod sources in
+           D:\w2\src\main\java\net\mcreator\jujutukaisencheat (procedures\ and entity\);
+           the "Source" line under each figure names the file and lines. *@
         <section id="epsilon" class="sec-block" aria-labelledby="epsilon-title">
+            <link rel="stylesheet" href="~/css/epsilon-explainer.css" asp-append-version="true" />
             <header class="sec-head" data-reveal>
                 <p class="kd-eyebrow">Case study · Minecraft mod</p>
                 <h2 id="epsilon-title" class="sec-title">Epsilon — a boss AI for a Minecraft mod</h2>
-                <p class="sec-lede">Epsilon is a flying boss in my <strong>Forge 1.20.1</strong> mod: an MCreator workspace extended with hand-written Java, with models and animation through <strong>GeckoLib</strong>. Its flight-and-evasion “brain” lives in a single procedure of about 6,500 lines — <code>CommonflashProcedure.java</code>, roughly 315 KB — built by directing AI agents and testing every change by fighting the boss in game.</p>
+                <p class="sec-lede">Epsilon is a flying boss in my <strong>Forge 1.20.1</strong> mod: an MCreator workspace extended with hand-written Java, with models and animation through <strong>GeckoLib</strong>. Its flight-and-evasion “brain” lives in a single procedure of about 6,500 lines — <code>CommonflashProcedure.java</code>, roughly 315 KB — built by directing AI agents and testing every change by fighting the boss in game. The figures below show the main ideas; they are small simulations that follow the mod’s own rules and numbers.</p>
             </header>
+
+            <div class="sec-split ep-intro" id="ep-in-game">
+                <div data-reveal>
+                    <div class="kd-media-frame kd-video-frame">
+                        <iframe
+                            src="https://www.youtube.com/embed/t7VkB6CaaTY?rel=0&controls=1"
+                            title="Epsilon mod gameplay"
+                            loading="lazy"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="kd-caption">Epsilon in game: the boss AI, the skills’ effects and sound, and the damage flow underneath.</p>
+                    <div class="kd-link-row">
+                        <a class="kd-pill" href="https://www.curseforge.com/minecraft/mc-mods/astro-boy-epsilon" target="_blank" rel="noopener noreferrer">Epsilon on CurseForge</a>
+                    </div>
+                </div>
+                <div class="sec-prose ep-story" data-reveal data-reveal-delay="1">
+                    <p class="kd-eyebrow">Background</p>
+                    <h3 class="ep-group-title">Learned by hand first</h3>
+                    <p>Epsilon is my strongest project: the boss AI, the skills with their effects and sound, and the damage flow under all of it.</p>
+                    <p>The groundwork came before AI could write much of this code, so I learned it by building it myself: how to split a mob’s AI into sub-procedures, how to write a skill that calls shared procedures for damage and sound, how stun builds up, how a struck mob reacts, and how to keep hit sounds from piling on top of each other. Figure 09 shows that damage flow.</p>
+                    <p>The flight brain came later, and I built it by directing AI agents. The hand-built groundwork is what made that work: I knew what the pieces should be, which numbers mattered and what a bug looks like in a fight, so I could tell the agents exactly what to change and check what came back.</p>
+                </div>
+            </div>
 
             <div class="sec-split">
                 <div class="sec-prose" data-reveal>
-                    <p>Every tick, <code>Demo2Procedure</code> runs the boss in a fixed order: status effects and counters, target lock (<code>CommonenemylockProcedure</code>), a refresh of incoming projectile threats (<code>DamageThreatUtil</code>), then skills and flight.</p>
-                    <p>The flight brain picks how to move: orbit a close target; switch to a dedicated <b>flashdrive</b> chase when the target is beyond 32 m with clear sight, or has been lost; make an evasive run after taking damage; reposition after a cast; and hold a hover over the ground — full lift within 3 m of the feet, fading out by 6 m.</p>
+                    <p>Every tick, <code>Demo2Procedure</code> runs the boss in a fixed order (figure 01): counters and status effects, target lock (<code>CommonenemylockProcedure</code>), a refresh of incoming projectile threats (<code>DamageThreatUtil</code>), aim and line of sight (<code>CommontargetProcedure</code>), then skills and flight.</p>
+                    <p>The flight brain picks how to move. Near a target it holds its distance: pulled in beyond 24 m, pushed out inside it, and under 28 m it can make a <b>near flashdrive</b> burst out to a better firing spot. Beyond 62 m with clear sight it switches to the <b>flashdrive</b> chase. When it has lost sight, a burst is allowed after 16 ticks, and after 20 it flies the route planned by its own 3D pathfinder, <code>TestProcedure</code>. On top of that come an evasive run when it is hit, a reposition after a cast, and a hover over the ground: full lift within 3 m of the feet, fading out by 6 m.</p>
                     <p>Most of the work is in <em>where</em> to go. Candidate directions are scored rather than hard-gated, so the boss always has a best option instead of freezing when every path is imperfect.</p>
                 </div>
                 <div data-reveal data-reveal-delay="1">
@@ -100,52 +132,294 @@
                     </figure>
                     <figure class="sec-code">
                         <pre><code><span class="c">// Prefer level escape runs over steep climbs or dives</span>
-score = BONUS - |dir.y| * (BONUS + PENALTY)
-<span class="c">//   |dir.y| = 0    (level)     → </span><span class="n">+60</span>
-<span class="c">//   |dir.y| = 0.2  (≈ 11.5°)   → </span><span class="n">0</span>
-<span class="c">//   |dir.y| = 1    (vertical)  → </span><span class="n">-240</span></code></pre>
-                        <figcaption>The levelness term from the same file; formula verbatim, notes translated.</figcaption>
+score = w * (BONUS - |dir.y| * (BONUS + PENALTY))
+<span class="k">BONUS</span> = <span class="k">PENALTY</span> = <span class="n">30.0</span>;
+<span class="c">//   |dir.y| = 0    (level)     → </span><span class="n">+30 × w</span>
+<span class="c">//   |dir.y| = 0.5  (30°)       → </span><span class="n">0</span>
+<span class="c">//   |dir.y| = 1    (vertical)  → </span><span class="n">-30 × w</span>
+<span class="c">// w = 0 below 0.5 blocks/tick, rising (squared) to 1 at 1.5</span></code></pre>
+                        <figcaption>The levelness term from the same file, with its current constants; the weight <code>w</code> only switches it on at speed.</figcaption>
                     </figure>
                 </div>
             </div>
 
-            <div class="sec-cards">
+            @* ── 01 · One tick ── *@
+            <figure class="ep-x ep-x--wide kd-hud" data-ep="tick" data-reveal>
+                <header class="ep-x-head">
+                    <span class="ep-x-num">01</span>
+                    <div>
+                        <p class="ep-x-k">Demo2Procedure · every tick</p>
+                        <h3 class="ep-x-title">One tick of the boss, in order</h3>
+                    </div>
+                </header>
+                <ol class="ep-tick-list" aria-label="The steps Epsilon runs every server tick, in order">
+                    <li><strong>Counters &amp; effects</strong><span>Timers count down; buffs, drag and regeneration refresh.</span><code>Demo2Procedure</code></li>
+                    <li><strong>Target lock</strong><span>Who is hostile, what it can see, and the ring-net of threats (06).</span><code>CommonenemylockProcedure</code></li>
+                    <li><strong>Projectile threats</strong><span>Hostile shots within 24 m are logged as incoming damage.</span><code>DamageThreatUtil</code></li>
+                    <li><strong>Aim &amp; second brain</strong><span>Fire direction, line-of-sight counters, a 600-point position scan.</span><code>CommontargetProcedure</code></li>
+                    <li><strong>Skills</strong><span>The current skill advances one tick.</span><code>CommonskillProcedure</code></li>
+                    <li><strong>Flight</strong><span>Picks a movement mode and sets the velocity. Skipped while stunned.</span><code>CommonflashProcedure</code></li>
+                    <li><strong>Kick-off</strong><span>A 5-tick launch burst (110-tick cooldown), after flight on purpose.</span><code>Demo2Procedure</code></li>
+                </ol>
+                <div class="ep-x-controls"><span class="ep-tickcount" data-ep-tickno aria-hidden="true"></span></div>
+                <figcaption class="ep-x-cap">The loop runs once per server tick, 20 times a second; the highlight is slowed right down. Order matters: flight reads the threats and aim that the earlier steps have just written, and the kick-off runs last so it can read this tick’s flight state.</figcaption>
+                <p class="ep-x-src">Source: Demo2Procedure.java, lines 114–231 and 602–640</p>
+            </figure>
+
+            @* ── Flight ── *@
+            <div class="ep-group">
+                <header class="ep-group-head" data-reveal>
+                    <p class="kd-eyebrow">Flight</p>
+                    <h3 class="ep-group-title">Keeping its distance, and the flashdrive</h3>
+                    <p>Distance decides the mode. A <b>flashdrive</b> is a short burst of speed in one direction; the brain uses it to chase from far away and to break off when a target gets too close.</p>
+                </header>
+                <div class="ep-row">
+                    @* ── 02 · Distance rules ── *@
+                    <figure class="ep-x kd-hud" data-ep="distance" data-reveal>
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">02</span>
+                            <div>
+                                <p class="ep-x-k">Flight · CommonflashProcedure</p>
+                                <h3 class="ep-x-title">How far it wants to be</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 640 196" role="img" aria-label="Distance track from 0 to 80 metres. The target sits at 0. Near-flashdrive covers 0 to 28 metres, strongest inside 12. The hold point is at 24 metres. The flashdrive chase starts beyond 62 metres."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <div class="ep-range">
+                                <label for="ep-dist-range">Distance</label>
+                                <input id="ep-dist-range" type="range" min="0" max="80" step="1" value="30" data-ep-range aria-describedby="ep-dist-cap" />
+                            </div>
+                            <button type="button" class="kd-chip" data-ep-auto aria-pressed="true">Auto</button>
+                        </div>
+                        <dl class="ep-readout" data-ep-readout>
+                            <div data-r="dist"><dt>Distance</dt><dd>30 m</dd></div>
+                            <div data-r="hold"><dt>Hold distance</dt><dd>—</dd></div>
+                            <div data-r="near"><dt>Near flashdrive</dt><dd>off</dd></div>
+                            <div data-r="far"><dt>Flashdrive chase</dt><dd>off</dd></div>
+                        </dl>
+                        <figcaption class="ep-x-cap" id="ep-dist-cap">Drag to move Epsilon. Inside 24 m a holding force pushes it out (a fixed hard push inside 12 m); beyond 24 m it pulls in, more gently the farther away it is. Under 28 m it can also burst toward a spot about 12 m farther out (14–32 m from the target) that still has line of sight, and past 62 m it chases in straight bursts. Shown for a target level with Epsilon, in open air.</figcaption>
+                        <p class="ep-x-src">Source: CommonflashProcedure.java, lines 54–62, 431–436, 556–577, 662–663, 1094–1096, 3115–3122, 3494–3501, 3579–3585</p>
+                    </figure>
+
+                    @* ── 03 · Flashdrive burst ── *@
+                    <figure class="ep-x kd-hud" data-ep="flashdrive" data-reveal data-reveal-delay="1">
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">03</span>
+                            <div>
+                                <p class="ep-x-k">Flight · flashdrive</p>
+                                <h3 class="ep-x-title">The burst chase, and the detour</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 640 300" role="img" aria-label="Top-down view. Epsilon is flying alongside a wall, and a straight burst toward the target 65 metres away would scrape it. Points sampled 3 to 30 metres around it are checked; it takes the heading of a clear one, angled away from the wall, and bursts along it while its speed steps up each tick."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <button type="button" class="kd-chip" data-ep-replay>Replay</button>
+                            <span class="ep-spacer"></span>
+                            <span class="ep-tickcount" data-ep-status aria-hidden="true"></span>
+                        </div>
+                        <figcaption class="ep-x-cap">A burst lasts while a 10-tick timer runs out, gaining 0.2 blocks per tick up to a cap of 1.25 blocks per tick (25 m/s), less when a wall is close. If the straight line would hit something within the next few metres (at most 10), it borrows the heading of its <b>second brain</b>: 600 points sampled 3–30 m around it, keeping only spots it can reach cleanly and rewarding a view of the target. At this range only points within 45° of its aim count.</figcaption>
+                        <p class="ep-x-src">Source: CommonflashProcedure.java, lines 51–53, 692–730, 3718–3752, 5342–5357 · CommontargetProcedure.java, lines 29–31, 902–957</p>
+                    </figure>
+                </div>
+            </div>
+
+            @* ── Pathfinding ── *@
+            <div class="ep-group" id="ep-pathfinding">
+                <header class="ep-group-head" data-reveal>
+                    <p class="kd-eyebrow">Pathfinding · TestProcedure</p>
+                    <h3 class="ep-group-title">When it loses sight: its own 3D pathfinder</h3>
+                    <p>Minecraft’s built-in pathfinding is made for walking mobs. <code>TestProcedure</code> (about 2,100 lines) is a voxel A* pathfinder for a flier: it maps the open air between Epsilon and a chosen point, searches it, and hands the flight brain a heading.</p>
+                </header>
+                @* ── 04 · Voxel A* ── *@
+                <figure class="ep-x ep-x--wide kd-hud" data-ep="pathfind" data-reveal>
+                    <header class="ep-x-head">
+                        <span class="ep-x-num">04</span>
+                        <div>
+                            <p class="ep-x-k">TestProcedure · voxel A*</p>
+                            <h3 class="ep-x-title">From “I can’t see you” to a route over the mountain</h3>
+                        </div>
+                    </header>
+                    <ol class="ep-steps" aria-label="Pathfinder steps">
+                        <li><button type="button" class="kd-chip" data-ep-step="0">1 · Lost sight</button></li>
+                        <li><button type="button" class="kd-chip" data-ep-step="1">2 · Pick a goal</button></li>
+                        <li><button type="button" class="kd-chip" data-ep-step="2">3 · Scan</button></li>
+                        <li><button type="button" class="kd-chip" data-ep-step="3">4 · Search</button></li>
+                        <li><button type="button" class="kd-chip" data-ep-step="4">5 · Smooth</button></li>
+                        <li><button type="button" class="kd-chip" data-ep-step="5">6 · Fly</button></li>
+                    </ol>
+                    <div class="ep-x-stage">
+                        <canvas role="img" aria-label="Side-view slice: Epsilon on the left has lost sight of a target behind a mountain. The open air is split into cells, A* searches them, and the route is smoothed into 8-metre waypoints over the mountain to a standoff point that can see the target." data-ep-canvas></canvas>
+                    </div>
+                    <p class="ep-step-text" data-ep-steptext aria-live="off"></p>
+                    <ol class="ep-ladder" aria-label="Ticks without line of sight, and what each threshold unlocks">
+                        <li data-ep-ladder="1"><b>&gt; 1 tick</b>The pathfinder starts planning.</li>
+                        <li data-ep-ladder="16"><b>&gt; 16 ticks</b>A flashdrive burst is allowed.</li>
+                        <li data-ep-ladder="20"><b>&gt; 20 ticks</b>Epsilon flies the planned route.</li>
+                    </ol>
+                    <div class="ep-x-controls">
+                        <button type="button" class="kd-chip" data-ep-replay>Replay</button>
+                        <span class="ep-spacer"></span>
+                        <span class="ep-tickcount" data-ep-status aria-hidden="true"></span>
+                    </div>
+                    <figcaption class="ep-x-cap">A 2D side-view slice, computed live in your browser with the same rules. In the mod it is a 3D octree of cubes up to 64 m, inside a 96 m sphere around the midpoint of the trip, and it is skipped for goals more than 160 m away.</figcaption>
+                    <p class="ep-x-src">Source: TestProcedure.java, lines 20–143, 186–251, 524–553, 619–640, 659–676, 1246–1280, 1497–1670, 1808–2033 · CommonflashProcedure.java, lines 291–292, 394–396, 446–459, 518–530 · Demo2Procedure.java, line 103</p>
+                </figure>
+            </div>
+
+            @* ── Evasion ── *@
+            <div class="ep-group">
+                <header class="ep-group-head" data-reveal>
+                    <p class="kd-eyebrow">Evasion</p>
+                    <h3 class="ep-group-title">Dodging well: open space, away from the crossfire</h3>
+                    <p>A good dodge needs room to finish and must not run into the next shot. Both ideas are rays and weighted vectors.</p>
+                </header>
+                <div class="ep-row">
+                    @* ── 05 · Dandelion escape ── *@
+                    <figure class="ep-x kd-hud" data-ep="dandelion" data-reveal>
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">05</span>
+                            <div>
+                                <p class="ep-x-k">Evasion · dandelion rays</p>
+                                <h3 class="ep-x-title">Hit: pick the escape with the most room</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 600 340" role="img" aria-label="Top-down view of a room. A hit arrives from the lower left. Escape rays fan out from Epsilon, stop at walls and are coloured by how much room they find; the best one, through a gap in the wall, becomes a 12-metre dash."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <button type="button" class="kd-chip" data-ep-replay>New rays</button>
+                            <span class="ep-spacer"></span>
+                            <span class="ep-legend" aria-hidden="true">0 m −720<span class="ep-legend-bar"></span>32 m +360</span>
+                        </div>
+                        <figcaption class="ep-x-cap">When it is hit, or a hostile shot is on its way, Epsilon tests up to five guided directions plus 16 random rays within 30° of its best candidate. Each ray sweeps its body out to 32 m: a wall at 0 m scores −720, at 16 m zero, open all the way +360. That clearance is added to other terms (threat lines, levelness, the side the damage came from); only clearance is drawn here. The winner becomes a 12 m dash, cut to stop 1 m short of a wall and never under 2 m.</figcaption>
+                        <p class="ep-x-src">Source: CommonflashProcedure.java, lines 113–129, 1585–1611, 1675–1730, 1788–1798, 6088–6116</p>
+                    </figure>
+
+                    @* ── 06 · Ring-net ── *@
+                    <figure class="ep-x kd-hud" data-ep="ringnet" data-reveal data-reveal-delay="1">
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">06</span>
+                            <div>
+                                <p class="ep-x-k">Evasion · ring-net</p>
+                                <h3 class="ep-x-title">Never dodge into the crossfire</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 600 340" role="img" aria-label="Top-down view. Threats around Epsilon each pull on one combined arrow, harder when closer. A threat beyond 48 metres and one behind a wall do not count. Dodge directions within 60 degrees of the combined arrow are refused and shown in red."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <span class="ep-key" style="--ep-key: var(--ok)">allowed dodge</span>
+                            <span class="ep-key" style="--ep-key: #ff6170">refused dodge</span>
+                            <span class="ep-key" style="--ep-key: var(--accent)">net</span>
+                        </div>
+                        <figcaption class="ep-x-cap">Every tick a creature spends targeting Epsilon or its allies adds 2 to its <b>Ring</b> score; above 16 it counts as a threat. Up to 16 threats within 48 m that Epsilon can see pull on one combined “net” arrow, each weighted (1 − d/48)², and the arrow moves 14% of the way to the new sum each tick. Kick-off and reposition dodges that point within 60° of the net are refused.</figcaption>
+                        <p class="ep-x-src">Source: CommonenemylockProcedure.java, lines 41–52, 85–141, 304–393 · CommonflashProcedure.java, lines 33–45, 2494–2501, 2525–2530, 5311–5340</p>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="sec-cards ep-cards-2x2" style="margin-top: clamp(18px, 2.4vw, 28px);">
                 <article class="sec-card" data-reveal>
-                    <span class="sec-card-k">Escape direction</span>
-                    <h3>Dandelion clearance scoring</h3>
-                    <p>When hit, Epsilon gathers candidate escape directions — a few guided seeds plus 16 random rays in a 30° cone — and casts each out to 32 m. Short clearance is penalised, long clearance rewarded. If the winner is still blocked, the run is cut to stop 1 m short of the wall, never below 2 m.</p>
-                    <div class="sec-card-figs"><span>32 m probe</span><span>16 rays · 30°</span><span>−720 … +360</span></div>
-                </article>
-                <article class="sec-card" data-reveal data-reveal-delay="1">
                     <span class="sec-card-k">Walls</span>
                     <h3>256-ray wall probe</h3>
-                    <p>A 16 × 16 yaw/pitch sphere of rays, 4 m long, cast from 1 m above the feet, pushes the boss away from nearby walls. The push is smoothed and has a 6-tick cooldown, so bounces can’t stack.</p>
-                    <div class="sec-card-figs"><span>256 rays</span><span>4 m</span><span>6-tick cooldown</span></div>
-                </article>
-                <article class="sec-card" data-reveal data-reveal-delay="2">
-                    <span class="sec-card-k">Firing lines</span>
-                    <h3>Ring-net avoidance</h3>
-                    <p>The lock procedure sums direction vectors toward up to 16 high-threat entities within 48 m, weighted (1 − d/48)² and filtered by line of sight, then smooths the result every tick. Kick-off and reposition directions inside a 60° cone of that “net” are rejected, so Epsilon doesn’t dodge into the line of fire.</p>
-                    <div class="sec-card-figs"><span>16 sources</span><span>48 m</span><span>60° cone</span></div>
-                </article>
-                <article class="sec-card" data-reveal>
-                    <span class="sec-card-k">Projectiles</span>
-                    <h3>Threat memory</h3>
-                    <p><code>DamageThreatUtil</code> scans 24 m for hostile projectiles with a clear line to the boss, scores each 0.25 + 0.75 × (1 − d/24), and keeps the strongest eight in a short damage-vector memory that the evasion scoring reads.</p>
-                    <div class="sec-card-figs"><span>24 m scan</span><span>top 8</span><span>10-tick memory</span></div>
+                    <p>A 16 × 16 yaw/pitch sphere of rays, 3 m long, cast from 1 m above the feet, pushes the boss off nearby walls: no push at 3 m, full push within 1 m. Rays along its own flight path count less when the 8 m ahead is clear. The push direction is smoothed tick to tick, and without a target a 6-tick cooldown stops bounces stacking.</p>
+                    <div class="sec-card-figs"><span>256 rays</span><span>3 m</span><span>full push ≤ 1 m</span></div>
                 </article>
                 <article class="sec-card" data-reveal data-reveal-delay="1">
-                    <span class="sec-card-k">Indoors</span>
-                    <h3>Space-cramp sensing</h3>
-                    <p>200 samples in a 12 × 6 m ellipsoidal hemisphere above the boss, with a 2 × 1 m inner core, refreshed every 5 ticks. In the open, evasive runs drop to 10% speed and wait 40 ticks; boxed in, they go at full speed every 14 ticks.</p>
-                    <div class="sec-card-figs"><span>200 samples</span><span>12 × 6 m</span><span>40 → 14 ticks</span></div>
+                    <span class="sec-card-k">Projectiles</span>
+                    <h3>Threat memory</h3>
+                    <p><code>DamageThreatUtil</code> scans 24 m for shots fired by hostiles, on the side facing its target and with a clear line to the boss. Each scores 0.25 + 0.75 × (1 − d/24); the strongest eight go into a short damage-vector memory, and any of them counts as a hit, so the dodge can start before the shot lands. Optionally, 20 invisible probe entities on two half-shells facing the target (8 at 9.6 m, 12 at 16 m) feel hits nearby.</p>
+                    <div class="sec-card-figs"><span>24 m scan</span><span>top 8</span><span>20 probes</span></div>
                 </article>
                 <article class="sec-card" data-reveal data-reveal-delay="2">
+                    <span class="sec-card-k">Indoors</span>
+                    <h3>Space-cramp sensing</h3>
+                    <p>200 random samples in a 12 × 6 m half-ellipsoid above the boss, with a 2 × 1 m inner core, refreshed every 5 ticks, measure how boxed-in it is. In the open, routine evasive runs drop to 10% speed and wait up to 26 extra ticks before the next; fully boxed in, they run at full speed with no extra wait. Urgent dodges always go at full speed.</p>
+                    <div class="sec-card-figs"><span>200 samples</span><span>12 × 6 m</span><span>10% → 100%</span></div>
+                </article>
+                <article class="sec-card" data-reveal>
                     <span class="sec-card-k">Robustness</span>
                     <h3>NaN guards</h3>
                     <p>One NaN from upstream silently breaks the speed clamps — every comparison with NaN is false — and <code>setDeltaMovement(NaN)</code> makes the entity vanish. The brain rejects NaN at its entry point so it never reaches saved entity data.</p>
                     <div class="sec-card-figs"><span>entry-point guard</span><span>clamped acos</span></div>
                 </article>
+            </div>
+
+            @* ── Skill logic ── *@
+            <div class="ep-group" id="ep-skills">
+                <header class="ep-group-head" data-reveal>
+                    <p class="kd-eyebrow">Skills · logic</p>
+                    <h3 class="ep-group-title">Two skills, and the damage flow under them</h3>
+                    <p>Each skill is its own procedure, stepped forward once per tick. Figures 07 and 08 show timing, paths and who gets affected; figure 09 shows the shared procedures every hit goes through. How the skills are drawn is in the skill VFX breakdown below.</p>
+                </header>
+                <div class="ep-row">
+                    @* ── 07 · Railgun salvo ── *@
+                    <figure class="ep-x kd-hud" data-ep="railgun" data-reveal>
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">07</span>
+                            <div>
+                                <p class="ep-x-k">Skill · Magic2 + LianxumofaProcedure</p>
+                                <h3 class="ep-x-title">Salvo: shells that jump 10 m a tick</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 640 230" role="img" aria-label="Side view. Four shells leave Epsilon nine ticks apart, each jumping 10 metres per tick. Three hit a target 95 metres away; one passes just over it and bursts on a cliff."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <button type="button" class="kd-chip" data-ep-replay>Replay</button>
+                            <span class="ep-spacer"></span>
+                            <span class="ep-tickcount" data-ep-status aria-hidden="true"></span>
+                        </div>
+                        <figcaption class="ep-x-cap">Four shells, 9 ticks apart, each aimed within 0.998 dot (about 3.6°) of the fire line. A shell is a virtual point: each tick it jumps 10 m and checks that stretch at 40 points for a block, or a hostile within 2 m, giving up after 15 ticks (150 m). The game entity itself is put back on Epsilon every tick. On contact, the blast grows for 4 ticks.</figcaption>
+                        <p class="ep-x-src">Source: CommonskillProcedure.java, lines 108–124 · Magic2Procedure.java, lines 60–106 · LianxumofaProcedure.java, lines 44–60, 265–345, 354–490</p>
+                    </figure>
+
+                    @* ── 08 · Hellfire tornado ── *@
+                    <figure class="ep-x kd-hud" data-ep="tornado" data-reveal data-reveal-delay="1">
+                        <header class="ep-x-head">
+                            <span class="ep-x-num">08</span>
+                            <div>
+                                <p class="ep-x-k">Skill · Diyuyehuo2Procedure</p>
+                                <h3 class="ep-x-title">Hellfire tornado: homing shot, then a trap</h3>
+                            </div>
+                        </header>
+                        <div class="ep-x-stage">
+                            <svg viewBox="0 0 600 340" role="img" aria-label="Top-down view. A homing shot curves onto a moving target and becomes a tornado. Hostile creatures within 18 metres are dragged onto its wall and spun around it; a neutral creature and a hostile farther out are left alone."></svg>
+                        </div>
+                        <div class="ep-x-controls">
+                            <button type="button" class="kd-chip" data-ep-replay>Replay</button>
+                            <span class="ep-spacer"></span>
+                            <span class="ep-tickcount" data-ep-status aria-hidden="true"></span>
+                        </div>
+                        <figcaption class="ep-x-cap">The shot flies at 1.7 blocks per tick and steers 0.12 toward its target each tick. Within 4.5 m, or after 80 ticks, it becomes a 15 m tornado that grows for 20 ticks and lasts 200. Hostiles (Ring above 16) within 18 m are pulled onto the funnel wall, at full strength inside 12 m and fading out to 18 m, and are spun around it inside 12 m, up to 2.4 blocks per tick. Anything else is left alone.</figcaption>
+                        <p class="ep-x-src">Source: Diyuyehuo2Procedure.java, lines 28–52, 94–124, 127–172, 231–284 · CommonskillProcedure.java, lines 60–73</p>
+                    </figure>
+                </div>
+                @* ── 09 · Damage flow ── *@
+                <figure class="ep-x ep-x--wide kd-hud" data-ep="chain" id="ep-damage" data-reveal style="margin-top: clamp(14px, 1.8vw, 22px);">
+                    <header class="ep-x-head">
+                        <span class="ep-x-num">09</span>
+                        <div>
+                            <p class="ep-x-k">Damage flow · shared procedures</p>
+                            <h3 class="ep-x-title">What a skill calls when it hits</h3>
+                        </div>
+                    </header>
+                    <ol class="ep-tick-list ep-chain" aria-label="What happens when one of Epsilon's skills hits, in order">
+                        <li><em>In the skill</em><strong>Damage packet</strong><span>The skill writes the hit position, range, power and push direction, then calls the shared damage procedure.</span><code>Lazer2 · Lianxumofa · Diyuyehuo2 · Magic05</code></li>
+                        <li><em>Shared</em><strong>Damage</strong><span>Hostiles in range take the power, scaled down toward the edge. A skill that keeps hitting the same target builds up to 5× damage.</span><code>DodProcedure · Dod3Procedure</code></li>
+                        <li><em>Shared</em><strong>Terrain</strong><span>The same packet breaks blocks, but only when mob griefing is on.</span><code>BlockdamageProcedure</code></li>
+                        <li><em>On every hit</em><strong>Hit reaction</strong><span>Particles and sound at the hit point, sized by the damage. One burst at a time: a later hit must be 1.5× bigger and only adds its extra, and mobs within 3.5 m are locked out briefly, so sounds don’t pile up.</span><code>Attacked2Procedure</code></li>
+                        <li><em>On every hit</em><strong>Stun</strong><span>Grows with the damage taken and the health already lost. It slows and weakens; past a threshold it cancels the victim’s current skill. A stunned Epsilon stops flying.</span><code>Attacked2Procedure</code></li>
+                        <li><em>Every tick</em><strong>Knockback</strong><span>One push per hit, blended from overlapping hits (the strongest counts 75%) and capped. It tops speed up instead of stacking, and bigger bodies move less.</span><code>DodProcedure · KnockbackProcedure</code></li>
+                    </ol>
+                    <div class="ep-x-controls"><span class="ep-tickcount" data-ep-tickno aria-hidden="true"></span></div>
+                    <figcaption class="ep-x-cap">Every skill shares these procedures, so stun, knockback and hit feedback behave the same whichever skill lands. Sounds along a skill’s path are spaced out too: the laser repeats its beam sound every 8 m, and the thunder volley plays its sound at most every 14 m, with no more than two thunderclaps.</figcaption>
+                    <p class="ep-x-src">Source: Lazer2Procedure.java, lines 31, 112–122, 157–158, 186–187 · LianxumofaProcedure.java, 344–345 · Diyuyehuo2Procedure.java, 315–316 · Magic05OnEntityTickUpdateProcedure.java, 36–39, 101–102, 160–199 · DodProcedure.java, 22–24, 39, 79–101, 134, 172–233 · Dod3Procedure.java, 153–174 · BlockdamageProcedure.java, 33 · Attacked2Procedure.java, 42–43, 92–119, 180–319, 332–440 · KnockbackProcedure.java, 58–109, 140–143 · Golbal1Procedure.java, 44–56, 72–73 · Demo2Procedure.java, 185–190, 224</p>
+                </figure>
+                <p class="ep-skills-link" data-reveal>Particles, light and sound for these and the other skills: <a href="#skill-vfx-chain">Skills as VFX</a>.</p>
             </div>
 
             <div class="sec-cards sec-cards--2" style="margin-top: clamp(18px, 2.4vw, 28px);">
@@ -246,4 +520,5 @@ score = BONUS - |dir.y| * (BONUS + PENALTY)
 
 @section Scripts {
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/epsilon-explainer.js" asp-append-version="true" defer></script>
 }

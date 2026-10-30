@@ -14,7 +14,7 @@
     <div class="kd-detail-hero-inner">
         <p class="kd-eyebrow">03 · VFX</p>
         <h1 class="kd-detail-title">VFX <span class="kd-badge sec-title-badge">WIP</span></h1>
-        <p class="kd-detail-sub">Unreal effects work from my RIT coursework is in production. Until the reel lands, this page holds its place — plus the in-game effects I have already built into mods.</p>
+        <p class="kd-detail-sub">Real-time effects in Unreal Engine — the first five clips are in the reel, more studies are in production — plus the in-game effects I have already built into mods.</p>
     </div>
     <a class="kd-scroll-cue" href="#vfx-body" aria-label="Scroll to content"><span class="kd-scroll-arrow"></span></a>
 </section>
@@ -24,12 +24,31 @@
         <div class="sec-block">
             <div class="sec-status" data-reveal>
                 <span class="kd-badge">IN PRODUCTION</span>
-                <p>The Unreal VFX reel and studies are being made as RIT coursework. The slots below are reserved for them; the two stills are provisional placeholders.</p>
+                <p>The first five Unreal clips are in the reel below. More studies are in production; the slots further down are reserved for them, and the two stills are provisional placeholders.</p>
             </div>
 
+            @* Five clips played back to back on a loop (wwwroot/js/vfx-reel.js). Muted so autoplay is allowed; the viewer can turn sound on. *@
             <div class="sec-reel kd-hud" data-reveal>
-                <div class="kd-placeholder kd-placeholder--video" data-label="UNREAL VFX REEL — IN PRODUCTION">
-                    <span>Unreal Engine VFX reel · RIT coursework · coming soon</span>
+                <div class="vfx-reel" data-vfx-reel role="region" aria-label="Unreal VFX reel, five clips on a loop">
+                    <div class="vfx-reel-stage">
+                        <video class="vfx-reel-video is-active" src="/videos/vfx/blast.mp4" muted playsinline preload="auto" aria-hidden="true"></video>
+                        <video class="vfx-reel-video" muted playsinline preload="auto" aria-hidden="true"></video>
+                        <div class="vfx-reel-hud" aria-hidden="true">
+                            <span class="vfx-reel-label">Unreal VFX reel</span>
+                            <span class="vfx-reel-now"><b data-reel-count>01</b> / 05 · <span data-reel-title>Blast</span></span>
+                        </div>
+                        <div class="vfx-reel-controls">
+                            <button class="vfx-reel-btn" type="button" data-reel-play>Pause</button>
+                            <button class="vfx-reel-btn" type="button" data-reel-sound>Unmute</button>
+                        </div>
+                    </div>
+                    <ol class="vfx-reel-track" aria-label="Clips">
+                        <li><button type="button" data-reel-clip="/videos/vfx/blast.mp4" aria-current="true"><span class="vfx-reel-bar"><i></i></span><span class="vfx-reel-name">01 · Blast</span></button></li>
+                        <li><button type="button" data-reel-clip="/videos/vfx/plasma-torch.mp4"><span class="vfx-reel-bar"><i></i></span><span class="vfx-reel-name">02 · Plasma torch</span></button></li>
+                        <li><button type="button" data-reel-clip="/videos/vfx/laser.mp4"><span class="vfx-reel-bar"><i></i></span><span class="vfx-reel-name">03 · Laser</span></button></li>
+                        <li><button type="button" data-reel-clip="/videos/vfx/slash.mp4"><span class="vfx-reel-bar"><i></i></span><span class="vfx-reel-name">04 · Slash</span></button></li>
+                        <li><button type="button" data-reel-clip="/videos/vfx/split-laser.mp4"><span class="vfx-reel-bar"><i></i></span><span class="vfx-reel-name">05 · Split laser</span></button></li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -38,7 +57,7 @@
             <header class="sec-head" data-reveal>
                 <p class="kd-eyebrow">Provisional</p>
                 <h2 class="sec-title">Current stills</h2>
-                <p class="sec-lede">Two frames kept as stand-ins while the coursework pieces are produced. They will be replaced by the final renders.</p>
+                <p class="sec-lede">Two frames kept as stand-ins while the Unreal studies are produced. They will be replaced by the final renders.</p>
             </header>
 
             <div class="sec-duo" data-lightbox>
@@ -59,18 +78,18 @@
             <header class="sec-head" data-reveal>
                 <p class="kd-eyebrow">Reserved</p>
                 <h2 class="sec-title">Coming next</h2>
-                <p class="sec-lede">Slots held for Unreal studies from RIT coursework.</p>
+                <p class="sec-lede">Slots held for upcoming Unreal studies.</p>
             </header>
 
             <div class="sec-ph-grid">
                 <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · NIAGARA STUDY" data-reveal>
-                    <span>Unreal · Niagara particle study — RIT coursework, coming soon</span>
+                    <span>Unreal · Niagara particle study — coming soon</span>
                 </div>
                 <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · BEAM &amp; IMPACT" data-reveal data-reveal-delay="1">
-                    <span>Unreal · Beam &amp; impact study — RIT coursework, coming soon</span>
+                    <span>Unreal · Beam &amp; impact study — coming soon</span>
                 </div>
                 <div class="kd-placeholder kd-placeholder--image" data-label="UNREAL · SMOKE &amp; FIRE" data-reveal data-reveal-delay="2">
-                    <span>Unreal · Smoke &amp; fire study — RIT coursework, coming soon</span>
+                    <span>Unreal · Smoke &amp; fire study — coming soon</span>
                 </div>
             </div>
         </div>
@@ -83,4 +102,5 @@
 
 @section Scripts {
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/vfx-reel.js" asp-append-version="true"></script>
 }

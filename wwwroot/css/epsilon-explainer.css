@@ -1,0 +1,483 @@
+/* Epsilon boss-AI explainers (VibeCode #epsilon).
+   Small SVG / canvas animations driven by wwwroot/js/epsilon-explainer.js.
+   Every figure is a `.ep-x` (usually also `.kd-hud`). Everything is prefixed `ep-`
+   so it never collides with the global `kd-` components or the `sec-` layouts. */
+
+.ep-x {
+    --ep-stage: #06080d;
+    --ep-grid: rgba(111, 177, 255, 0.06);
+    --ep-danger: #ff6170;
+    --ep-danger-soft: rgba(255, 97, 112, 0.18);
+    --ep-boss: var(--accent);
+    --ep-ray: var(--accent-2);
+    --ep-good: var(--ok);
+    --ep-rock: #2a2f3d;
+    --ep-rock-edge: #3d4456;
+    --kd-hud-inset: 6px;
+    position: relative;
+    margin: 0;
+    padding: clamp(16px, 2vw, 24px);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.32);
+    color: var(--text-main);
+}
+
+/* ─── Layout groups ─────────────────────────────────────── */
+
+.ep-group {
+    margin-top: clamp(28px, 4vw, 48px);
+}
+.ep-group-head {
+    max-width: 760px;
+    margin-bottom: clamp(14px, 2vw, 22px);
+}
+.ep-group-head .kd-eyebrow { margin-bottom: 0.5rem; }
+.ep-group-title {
+    font-family: 'Archivo Black', 'Space Grotesk', sans-serif;
+    font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+    line-height: 1.15;
+    margin: 0 0 0.4rem;
+}
+.ep-group-head p { margin: 0; max-width: 68ch; }
+.ep-group-head p b { color: var(--text-main); font-weight: 600; }
+.ep-group-head code,
+.ep-x-cap code {
+    font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+    font-size: 0.86em;
+    padding: 1px 6px;
+    border-radius: 6px;
+    background: rgba(111, 177, 255, 0.1);
+    border: 1px solid rgba(111, 177, 255, 0.2);
+    color: var(--text-main);
+    overflow-wrap: anywhere;
+}
+
+.ep-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(14px, 1.8vw, 22px);
+}
+.ep-row > .ep-x--wide { grid-column: 1 / -1; }
+/* Four text cards: two by two rather than three plus one. */
+.sec-cards.ep-cards-2x2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 760px) {
+    .sec-cards.ep-cards-2x2 { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 920px) {
+    .ep-row { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* ─── Figure head ───────────────────────────────────────── */
+
+.ep-x-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.ep-x-num {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    border: 1px solid rgba(255, 176, 46, 0.45);
+    border-radius: 4px;
+    padding: 3px 6px;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+.ep-x-k {
+    margin: 0 0 2px;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent-2);
+    overflow-wrap: anywhere;
+}
+.ep-x-title {
+    font-family: 'Archivo Black', 'Space Grotesk', sans-serif;
+    font-size: clamp(1rem, 1.4vw, 1.18rem);
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* ─── Stage ─────────────────────────────────────────────── */
+
+.ep-x-stage {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgba(111, 177, 255, 0.16);
+    background:
+        linear-gradient(var(--ep-grid) 1px, transparent 1px) 0 0 / 24px 24px,
+        linear-gradient(90deg, var(--ep-grid) 1px, transparent 1px) 0 0 / 24px 24px,
+        radial-gradient(120% 90% at 50% 40%, #0b0f19 0%, var(--ep-stage) 70%);
+    overflow: hidden;
+}
+.ep-x-stage svg,
+.ep-x-stage canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ep-x-stage canvas { aspect-ratio: 2 / 1; }
+/* The wide pathfinder canvas would get very tall on big screens. */
+.ep-x--wide .ep-x-stage:has(canvas) {
+    width: 100%;
+    max-width: 960px;
+    margin-inline: auto;
+}
+
+/* SVG paint classes (colours come from the tokens above) */
+.ep-x svg text {
+    font-family: var(--font-mono);
+    fill: var(--text-muted);
+}
+.ep-x svg .t-label { font-size: 15px; letter-spacing: 0.04em; }
+.ep-x svg .t-small { font-size: 13px; }
+.ep-x svg .t-big { font-size: 18px; fill: var(--text-main); }
+.ep-x svg .t-boss { fill: var(--ep-boss); }
+.ep-x svg .t-ray { fill: var(--accent-2-soft); }
+.ep-x svg .t-danger { fill: var(--ep-danger); }
+.ep-x svg .t-good { fill: var(--ep-good); }
+.ep-x svg .t-dim { fill: var(--text-dim); }
+
+.ep-x svg .p-rock { fill: var(--ep-rock); stroke: var(--ep-rock-edge); stroke-width: 1.5; }
+.ep-x svg .p-boss { fill: var(--ep-boss); stroke: #1b1206; stroke-width: 1.5; }
+.ep-x svg .p-target { fill: #f3f4f8; }
+.ep-x svg .p-target-ring { fill: none; stroke: rgba(243, 244, 248, 0.45); stroke-width: 1.5; }
+.ep-x svg .p-axis { stroke: rgba(255, 255, 255, 0.28); stroke-width: 1.5; }
+.ep-x svg .p-tick { stroke: rgba(255, 255, 255, 0.35); stroke-width: 1.5; }
+.ep-x svg .p-guide { fill: none; stroke: rgba(255, 255, 255, 0.22); stroke-width: 1.2; stroke-dasharray: 4 5; }
+.ep-x svg .p-ray { stroke: var(--ep-ray); stroke-width: 2; stroke-linecap: round; fill: none; }
+.ep-x svg .p-boss-line { stroke: var(--ep-boss); stroke-width: 3; stroke-linecap: round; fill: none; }
+.ep-x svg .p-danger-line { stroke: var(--ep-danger); stroke-width: 2.5; stroke-linecap: round; fill: none; }
+.ep-x svg .p-good-line { stroke: var(--ep-good); stroke-width: 2.5; stroke-linecap: round; fill: none; }
+.ep-x svg .p-danger-fill { fill: var(--ep-danger-soft); stroke: rgba(255, 97, 112, 0.55); stroke-width: 1.2; }
+.ep-x svg .p-ray-fill { fill: rgba(111, 177, 255, 0.14); stroke: rgba(111, 177, 255, 0.5); stroke-width: 1.2; }
+.ep-x svg .p-boss-fill { fill: rgba(255, 176, 46, 0.16); stroke: rgba(255, 176, 46, 0.6); stroke-width: 1.2; }
+
+/* Phones: the SVGs scale down to about half size, so their labels go up. */
+@media (max-width: 560px) {
+    .ep-x svg .t-small { font-size: 19px; }
+    .ep-x svg .t-label { font-size: 21px; }
+    .ep-x svg .t-big { font-size: 22px; }
+}
+
+/* ─── Controls, readouts, captions ──────────────────────── */
+
+.ep-x-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+}
+.ep-x-controls .kd-chip { min-height: 34px; padding: 6px 11px; font-size: 0.66rem; }
+.ep-x-controls .ep-spacer { flex: 1 1 auto; }
+.ep-tickcount {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+}
+
+.ep-x-cap {
+    margin: 0;
+    font-size: 0.93rem;
+    line-height: 1.55;
+    color: var(--text-muted);
+}
+.ep-x-cap b { color: var(--text-main); font-weight: 600; }
+.ep-x-src {
+    margin: auto 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    color: var(--text-dim);
+    overflow-wrap: anywhere;
+}
+
+.ep-readout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
+    gap: 6px 14px;
+    margin: 0;
+}
+.ep-readout > div {
+    min-width: 0;
+    padding: 6px 10px;
+    border-left: 2px solid var(--line-strong);
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 0 6px 6px 0;
+}
+.ep-readout dt {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+}
+.ep-readout dd {
+    margin: 2px 0 0;
+    font-size: 0.86rem;
+    color: var(--text-main);
+    font-variant-numeric: tabular-nums;
+}
+.ep-readout > div.is-on { border-left-color: var(--accent); }
+.ep-readout > div.is-on dd { color: var(--accent-soft); }
+.ep-readout > div.is-on-blue { border-left-color: var(--accent-2); }
+.ep-readout > div.is-on-blue dd { color: var(--accent-2-soft); }
+
+/* Distance slider */
+.ep-range {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1 1 220px;
+    min-width: 0;
+}
+.ep-range label {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    white-space: nowrap;
+}
+.ep-range input[type="range"] {
+    flex: 1 1 auto;
+    min-width: 0;
+    accent-color: var(--accent);
+    height: 28px;
+    cursor: pointer;
+}
+
+/* Colour legend (dandelion clearance) */
+.ep-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 16px;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--text-dim);
+}
+.ep-legend-bar {
+    display: inline-block;
+    width: 120px;
+    height: 8px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ff6170 0%, #9c6a73 40%, #5a6378 50%, #6fb1ff 75%, #63f0c6 100%);
+    vertical-align: middle;
+    margin: 0 6px;
+}
+.ep-key {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+}
+.ep-key::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--ep-key, var(--text-dim));
+}
+
+/* ─── 01 · One tick (pipeline strip) ────────────────────── */
+
+.ep-tick-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+    counter-reset: ep-tick;
+}
+.ep-tick-list li {
+    position: relative;
+    counter-increment: ep-tick;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+    padding: 12px 12px 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: rgba(8, 10, 16, 0.6);
+    transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+.ep-tick-list li::before {
+    content: counter(ep-tick, decimal-leading-zero);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    color: var(--text-dim);
+}
+.ep-tick-list li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -7px;
+    width: 6px;
+    height: 6px;
+    border-top: 1.5px solid rgba(255, 176, 46, 0.6);
+    border-right: 1.5px solid rgba(255, 176, 46, 0.6);
+    transform: translateY(-50%) rotate(45deg);
+}
+.ep-tick-list strong {
+    font-size: 0.86rem;
+    line-height: 1.25;
+    color: var(--text-main);
+}
+.ep-tick-list span {
+    font-size: 0.76rem;
+    line-height: 1.4;
+    color: var(--text-muted);
+}
+.ep-tick-list code {
+    margin-top: auto;
+    padding-top: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--text-dim);
+    overflow-wrap: anywhere;
+}
+.ep-tick-list li.is-active {
+    border-color: var(--accent);
+    background: linear-gradient(160deg, rgba(255, 176, 46, 0.16), rgba(8, 10, 16, 0.6) 70%);
+    box-shadow: 0 0 22px -8px rgba(255, 176, 46, 0.7);
+}
+.ep-tick-list li.is-active::before { color: var(--accent); }
+.ep-tick-list li.is-skip { opacity: 0.55; }
+@media (max-width: 1180px) {
+    .ep-tick-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .ep-tick-list li:nth-child(4n)::after { display: none; }
+}
+@media (max-width: 640px) {
+    .ep-tick-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ep-tick-list li:nth-child(4n)::after { display: block; }
+    .ep-tick-list li:nth-child(2n)::after { display: none; }
+}
+
+/* ─── Intro: video + "learned by hand first" ────────────── */
+
+.ep-intro { align-items: center; }
+.ep-intro .kd-caption { margin-bottom: 0.6rem; }
+.ep-story .kd-eyebrow { margin-bottom: 0.5rem; }
+.ep-story .ep-group-title { margin-bottom: 0.7rem; }
+.ep-story p:last-child { margin-bottom: 0; }
+
+/* ─── 09 · Damage flow (call chain) ─────────────────────── */
+
+.ep-tick-list.ep-chain { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 14px; }
+.ep-tick-list.ep-chain li:nth-child(3n)::after { display: none; }
+.ep-chain em {
+    align-self: flex-start;
+    font-style: normal;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-2);
+    padding: 1px 7px;
+    border: 1px solid rgba(111, 177, 255, 0.35);
+    border-radius: 999px;
+}
+.ep-chain strong { font-size: 0.92rem; }
+.ep-chain span { font-size: 0.8rem; }
+@media (max-width: 1180px) {
+    .ep-tick-list.ep-chain li:nth-child(4n)::after { display: block; }
+    .ep-tick-list.ep-chain li:nth-child(3n)::after { display: none; }
+}
+@media (max-width: 760px) {
+    .ep-tick-list.ep-chain { grid-template-columns: minmax(0, 1fr); }
+    .ep-tick-list.ep-chain li::after { display: none !important; }
+}
+
+/* ─── Pathfinder steps ──────────────────────────────────── */
+
+.ep-steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.ep-steps .kd-chip { min-height: 34px; padding: 6px 10px; font-size: 0.64rem; letter-spacing: 0.1em; }
+.ep-step-text {
+    margin: 0;
+    min-height: 3.2em;
+    padding: 10px 12px;
+    border-left: 2px solid var(--accent);
+    background: rgba(255, 176, 46, 0.05);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--text-main);
+}
+.ep-step-text b { color: var(--accent-soft); font-weight: 600; }
+
+.ep-ladder {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+}
+.ep-ladder li {
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--text-muted);
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+}
+.ep-ladder li b {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+}
+.ep-ladder li.is-on {
+    border-color: rgba(255, 176, 46, 0.6);
+    background: rgba(255, 176, 46, 0.08);
+    color: var(--text-main);
+}
+.ep-ladder li.is-on b { color: var(--accent); }
+@media (max-width: 560px) {
+    .ep-ladder { grid-template-columns: minmax(0, 1fr); }
+}
+
+.ep-skills-link {
+    margin: clamp(14px, 2vw, 20px) 0 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+.ep-skills-link a {
+    color: var(--accent);
+    border-bottom: 1px solid rgba(255, 176, 46, 0.35);
+}
+
+/* ─── Reduced motion: explainers render a static, complete diagram ─── */
+
+@media (prefers-reduced-motion: reduce) {
+    .ep-tick-list li { transition: none; }
+    .ep-ladder li { transition: none; }
+}

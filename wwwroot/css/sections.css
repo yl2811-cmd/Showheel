@@ -454,6 +454,148 @@
     margin-bottom: clamp(28px, 4vw, 48px);
 }
 
+/* ─── VFX: looping clip reel (driven by vfx-reel.js) ───── */
+
+/* Room under the clip track for the .kd-hud corner brackets */
+.vfx-reel { padding-bottom: 16px; }
+.vfx-reel-stage {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid rgba(111, 177, 255, 0.22);
+    border-radius: var(--radius);
+    background: #070a12;
+}
+.vfx-reel-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 450ms var(--ease-out);
+}
+.vfx-reel-video.is-active { opacity: 1; }
+/* Top and bottom shade so the HUD text and buttons read over bright frames */
+.vfx-reel-stage::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(5, 5, 7, 0.6) 0%, rgba(5, 5, 7, 0) 20%, rgba(5, 5, 7, 0) 74%, rgba(5, 5, 7, 0.55) 100%);
+}
+.vfx-reel-hud {
+    position: absolute;
+    top: 18px;
+    left: 34px;
+    right: 34px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent-2-soft);
+    pointer-events: none;
+}
+.vfx-reel-now { white-space: nowrap; }
+.vfx-reel-now b { color: var(--accent); font-weight: 600; }
+.vfx-reel-controls {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+    z-index: 2;
+    display: flex;
+    gap: 8px;
+}
+.vfx-reel-btn {
+    min-width: 5.6em;
+    padding: 7px 12px;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-main);
+    background: rgba(5, 5, 7, 0.62);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+}
+.vfx-reel-btn:hover { border-color: var(--accent); color: var(--accent-soft); }
+.vfx-reel-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.vfx-reel.is-paused .vfx-reel-btn[data-reel-play] { border-color: var(--accent); color: var(--accent); }
+
+.vfx-reel-track {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.vfx-reel-track button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 6px 0;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: none;
+    border: 0;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.vfx-reel-track button:hover,
+.vfx-reel-track button[aria-current="true"] { color: var(--text-main); }
+.vfx-reel-track button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.vfx-reel-bar {
+    display: block;
+    height: 2px;
+    overflow: hidden;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.14);
+}
+.vfx-reel-bar i {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-2), var(--accent));
+    transform: scaleX(0);
+    transform-origin: left center;
+}
+.vfx-reel-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+@media (max-width: 560px) {
+    .vfx-reel-hud { top: 10px; left: 14px; right: 14px; font-size: 0.58rem; letter-spacing: 0.16em; }
+    .vfx-reel-label { display: none; }
+    .vfx-reel-controls { right: 10px; bottom: 10px; gap: 6px; }
+    .vfx-reel-btn { padding: 5px 9px; font-size: 0.58rem; }
+    .vfx-reel-track { gap: 5px; }
+    .vfx-reel-track button { padding: 10px 0; }
+    /* Names stay readable to screen readers; the bars alone are the tap targets */
+    .vfx-reel-name {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        clip-path: inset(50%);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .vfx-reel-video { transition: none; }
+}
+
 .sec-status {
     display: flex;
     flex-wrap: wrap;

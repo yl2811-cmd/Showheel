@@ -1,7 +1,11 @@
 @* Shared "skills as VFX" breakdown, included on /VFX and /VibeCode.
    Every number below is taken from the mod sources:
    Epsilon (Minecraft) - D:\w2\src\main\java\net\mcreator\jujutukaisencheat\procedures
-   Sarah Miller (RDR2) - D:\RedDeadRedemption2\SarahCannon\src (v5.29) and its README/qa records. *@
+   Sarah Miller (RDR2) - D:\RedDeadRedemption2\SarahCannon\src (v5.29) and its README/qa records.
+   A page can point "Watch the skills in action" elsewhere by setting ViewData["SkillVideoUrl"]. *@
+@{
+    var skillVideoUrl = ViewData["SkillVideoUrl"] as string ?? "https://www.youtube.com/watch?v=PQ89mPFeUOw&t=207s";
+}
 <link rel="stylesheet" href="~/css/vfx-chain.css" asp-append-version="true" />
 
 <section id="skill-vfx-chain" class="kd-sc" aria-labelledby="kd-sc-title">
@@ -11,7 +15,7 @@
         <h2 class="kd-work-title kd-sc-title" id="kd-sc-title">Skills as VFX — a code-driven effects chain</h2>
         <p class="kd-work-lede kd-sc-lede">In my combat mods, a skill <em>is</em> an effect. Timing, rays, particles, light and sound are all written in code, then tuned until the skill reads clearly on screen. Below is the chain that a Minecraft boss written in Java and a Red Dead Redemption&nbsp;2 player mod written in C++ both follow. I built both by directing AI coding agents and checking every change in the game myself.</p>
         <div class="kd-link-row">
-            <a class="kd-pill kd-pill-primary" href="https://www.youtube.com/watch?v=PQ89mPFeUOw&amp;t=207s" target="_blank" rel="noopener noreferrer"><span class="kd-sc-play" aria-hidden="true"></span>Watch the skills in action</a>
+            <a class="kd-pill kd-pill-primary" href="@skillVideoUrl" target="_blank" rel="noopener noreferrer"><span class="kd-sc-play" aria-hidden="true"></span>Watch the skills in action</a>
             <a class="kd-pill" href="https://www.rdr2mods.com/downloads/rdr2/player/593-sarah-miler-the-last-of-us/" target="_blank" rel="noopener noreferrer">Sarah Miller on rdr2mods</a>
         </div>
     </header>
